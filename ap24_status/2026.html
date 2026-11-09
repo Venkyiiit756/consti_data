@@ -1,0 +1,68 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AP 2026 Electoral Roll — status</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1d2433;--mute:#6b7385;--line:#e5e8ee;--ok:#1f9d55;--run:#2563eb;--warn:#d97706;--bad:#dc2626;--hold:#8b5cf6}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:18px 20px 6px}h1{font-size:19px;margin:0}small,.mute{color:var(--mute)}
+.wrap{padding:0 20px 30px;max-width:1200px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:12px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.k{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.04em}.v{font-size:22px;font-weight:650;margin-top:2px}
+.bar{height:8px;background:#eef0f4;border-radius:5px;overflow:hidden;min-width:60px}.bar>i{display:block;height:100%;background:var(--run)}
+.bar.big{height:12px;margin-top:8px}.bar>i.ok{background:var(--ok)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{font-size:12px;color:var(--mute);font-weight:600;background:#fafbfc;position:sticky;top:0}
+td.num,th.num{text-align:right}tr:last-child td{border-bottom:0}
+.pill{display:inline-block;padding:1px 8px;border-radius:20px;font-size:12px;font-weight:600;background:#eef0f4;color:var(--mute)}
+.p-running{background:#e0eaff;color:var(--run)}.p-uploaded,.p-complete_prev{background:#dcf5e6;color:var(--ok)}.p-downloaded,.p-zipping,.p-ready_upload,.p-uploading{background:#fff1d6;color:var(--warn)}
+.p-partial_hold{background:#efe7ff;color:var(--hold)}.p-failed{background:#fde2e2;color:var(--bad)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:16px 0 8px}.tools button{border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 12px;cursor:pointer;font:inherit}
+.tools button.on{background:var(--ink);color:#fff;border-color:var(--ink)}.tools input{border:1px solid var(--line);border-radius:20px;padding:6px 12px;font:inherit;flex:1;min-width:140px;max-width:260px}
+.scroll{overflow-x:auto;border-radius:10px}a{color:var(--run);text-decoration:none}
+.hosts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}.w{font-size:12.5px;color:var(--mute);margin-top:6px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px}.dot.off{background:#c3c8d2}
+h2{font-size:15px;margin:22px 0 6px}details{margin-top:14px}
+@media(max-width:640px){.hide-sm{display:none}th,td{padding:6px}}
+.tabs{display:flex;gap:6px;margin:0 0 10px}.tabs a{border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 14px;color:var(--ink);font-weight:600;font-size:13px}.tabs a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.p-on_drive{background:#dcf5e6;color:var(--ok)}.p-to_download{background:#eef0f4;color:var(--mute)}.p-partial{background:#fff1d6;color:var(--warn)}.p-downloading{background:#e0eaff;color:var(--run)}.p-downloaded,.p-uploading{background:#fff1d6;color:var(--warn)}
+</style></head><body>
+<header class="wrap" style="padding-left:0;padding-right:0"><nav class="tabs"><a href="./">2024 roll</a><a class="on" href="2026.html">2026 roll</a></nav>
+<h1>AP 2026 SIR Draft Roll — download status</h1>
+<small id="sub">loading…</small></header>
+<div class="wrap">
+<div class="grid" id="tot"></div>
+<div class="card"><div class="k" id="ovk">All 175 constituencies</div><div id="ov"></div><div class="bar big"><i id="ovb" class="ok"></i></div></div>
+<div class="card" id="finalbox" style="display:none;border-color:var(--ok);margin:12px 0 0"></div>
+<h2>Plan</h2><div class="card" id="plan"></div>
+<h2 id="hh" style="display:none">Servers</h2><div class="hosts" id="hosts"></div>
+<div class="tools" id="flt"></div>
+<div class="scroll"><table><thead><tr><th class="num">AC</th><th>Constituency</th><th class="hide-sm">District</th><th class="num" title="Parts listed on the ECI portal for the 2026 SIR draft roll">Required</th><th class="num" title="Parts already on Drive">Have</th><th class="num">To download</th><th style="min-width:110px">Progress</th><th>Status</th><th>Drive</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p class="mute" style="margin-top:18px">Required = parts the ECI portal lists for the SIR Draft Roll 2026 (published 31 Jul 2026). Have = parts found inside the 2026 zips on Drive (zip contents checked, not just file names). 2024 progress is on the <a href="./">2024 tab</a>.</p>
+</div>
+<script>
+const L={on_drive:"On Drive ✓",partial:"Partly on Drive",to_download:"To download",downloading:"Downloading",downloaded:"Downloaded – uploading",uploading:"Uploading"};
+let F="all",Q="",D=null;
+const ist=t=>new Date(t*1000).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit",hour12:true})+" IST";
+const n=x=>(x||0).toLocaleString("en-IN");
+function flt(){const f=[["all","All"],["on_drive","On Drive"],["to_download","To download"],["downloading","Downloading"],["partial","Partly done"],["downloaded","Waiting upload"]];
+document.getElementById("flt").innerHTML=f.map(([k,v])=>`<button class="${F==k?"on":""}" onclick="F='${k}';flt();draw()">${v}</button>`).join("")+`<input placeholder="Search constituency / district" value="${Q}" oninput="Q=this.value.toLowerCase();draw()">`}
+function draw(){if(!D)return;const T=D.totals;
+document.getElementById("sub").textContent="Updated "+ist(D.now)+" · "+(D.phase_note||"");
+const pct=100*T.have/Math.max(1,T.required);
+document.getElementById("tot").innerHTML=[["Parts required",n(T.required)],["Already on Drive",n(T.have)],["To download",n(T.to_download)],["Seats on Drive",T.seats_done+" / "+T.acs],["Seats to start",n(T.seats_todo)],["2026 data on Drive",T.drive_gb+" GB"],["Est. still to fetch","~"+n(T.est_gb_todo)+" GB"]].map(([k,v])=>`<div class="card"><div class="k">${k}</div><div class="v">${v}</div></div>`).join("");
+document.getElementById("ov").innerHTML=`<b>${n(T.have)}</b> of ${n(T.required)} parts (${pct.toFixed(1)}%) · ${T.seats_done} seats complete on Drive`+(T.seats_partial?` · ${T.seats_partial} partly`:"");
+document.getElementById("ovb").style.width=pct+"%";
+const fb=document.getElementById("finalbox");
+if(D.final||D.phase==="done"){fb.style.display="";fb.innerHTML=`<div class="k">2026 complete</div><div class="w">${(D.final&&D.final.summary)||D.phase_note||"All 175 seats are on Drive."}</div>`;}else{fb.style.display="none";}
+const t=D.test||{};
+document.getElementById("plan").innerHTML=`<div class="w" style="margin-top:0"><b>Roll:</b> ${D.roll}</div><div class="w"><b>Source:</b> ${D.source}</div>`+(t.files?`<div class="w"><b>Speed test:</b> ${t.files} parts (${t.mb} MB) in ${t.secs} s on the ${t.host} · ${t.mbps} MB/s · ~${t.per_min} parts/min per server</div>`:"")+`<div class="w"><b>Average part:</b> ~${T.avg_mb} MB</div>`;
+const hs=Object.entries(D.hosts||{});document.getElementById("hh").style.display=hs.length?"":"none";
+document.getElementById("hosts").innerHTML=hs.map(([h,v])=>`<div class="card"><b>${h}</b> <span class="pill ${v.workers?"p-running":"p-queued"}">${v.workers?"Online":"Idle"}</span><div class="w">${v.workers||0} workers · ${(v.per_min||0).toFixed(1)} parts/min${v.mbps?` · ${v.mbps} MB/s`:""} · ${n(v.done||0)} parts done${v.seats_uploaded?` · ${v.seats_uploaded} seats on Drive`:""}${(v.current_acs&&v.current_acs.length)?` · now AC ${v.current_acs.join(", ")}`:(v.current_ac?` · now AC ${v.current_ac}`:"")}</div>${v.hint&&!v.workers?`<div class="w">${v.hint}</div>`:""}</div>`).join("");
+let rows=D.acs.filter(a=>(F=="all"||a.status==F)&&(!Q||(a.name+" "+a.district+" "+a.ac).toLowerCase().includes(Q)));
+document.getElementById("rows").innerHTML=rows.map(a=>{const shown=(a.status==="downloading"||a.status==="downloaded"||a.status==="uploading")?(a.dl||a.have||0):(a.have||0);const p=Math.min(100,100*shown/Math.max(1,a.required));
+return `<tr><td class="num">${a.ac}</td><td>${a.name}</td><td class="hide-sm">${a.district}</td><td class="num">${n(a.required)}</td><td class="num">${a.have?n(a.have):"—"}</td><td class="num">${a.todo?n(a.todo):"—"}</td>
+<td><div class="bar"><i class="${p>=100?"ok":""}" style="width:${p}%"></i></div><small>${p.toFixed(0)}%</small></td>
+<td><span class="pill p-${a.status}">${L[a.status]||a.status}</span></td><td>${a.drive?`<a href="${a.drive}" target="_blank">Open</a>`:"—"}</td></tr>`}).join("")}
+async function load(){try{D=await (await fetch("data_2026.json?t="+Date.now(),{cache:"no-store"})).json();draw()}catch(e){document.getElementById("sub").textContent="Could not load data_2026.json – retrying…"}}
+flt();load();setInterval(load,120000);
+</script></body></html>
