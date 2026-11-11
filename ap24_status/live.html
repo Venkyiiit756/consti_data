@@ -1,0 +1,27 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AP 2026 rolls - live lanes</title>
+<style>body{font-family:system-ui,sans-serif;margin:16px;background:#0f1115;color:#e6e6e6}h1{font-size:20px}
+.card{display:inline-block;background:#1a1d24;border-radius:10px;padding:10px 14px;margin:4px}
+table{border-collapse:collapse;width:100%;margin-top:12px}td,th{padding:6px 8px;border-bottom:1px solid #2a2e38;text-align:left;font-size:14px}
+.Colab{color:#f9ab00}.Mac{color:#7cc4ff}.Box{color:#8be28b}.muted{color:#888}</style></head><body>
+<h1>AP 2026 voter rolls: live lane status</h1>
+<div id="sum" class="muted">Loading...</div>
+<h3>Working now</h3><table id="active"></table>
+<h3>Done on Drive</h3><div id="done" class="muted"></div>
+<script>
+const SRC="https://api.github.com/repos/Venkyiiit756/consti_data/contents/live.json?ref=live";
+async function load(){
+ try{const r=await fetch(SRC+"&t="+Date.now(),{headers:{Accept:"application/vnd.github.raw"},cache:"no-store"});
+ const d=await r.json();const age=Math.round((Date.now()/1000-d.updated_ts)/60);
+ const act=d.rows.filter(x=>x.active.length);const done=d.rows.filter(x=>x.zips&&!x.active.length);
+ const by=l=>act.filter(x=>x.active.includes(l)).length;
+ document.getElementById('sum').innerHTML=`<span class="card">Updated ${d.updated} (${age} min ago)</span>
+ <span class="card">Seats with zips on Drive: <b>${d.seats_with_zips}</b> / ${d.total_seats}</span>
+ <span class="card Colab">Colab: ${by('Colab')} seats</span><span class="card Mac">Mac: ${by('Mac')}</span><span class="card Box">Box: ${by('Box')}</span>`;
+ document.getElementById('active').innerHTML='<tr><th>Seat</th><th>Lane</th><th>Claimed</th><th>Zips so far</th></tr>'+
+  act.map(x=>`<tr><td>${x.seat}</td><td>${x.active.map(l=>`<span class="${l}">${l}</span>`).join(', ')}</td><td>${x.active.map(l=>x.marker_age_min[l]+' min ago').join(', ')}</td><td>${x.zips} (${x.mb} MB)</td></tr>`).join('');
+ document.getElementById('done').textContent=done.map(x=>x.seat).join(', ');
+ }catch(e){document.getElementById('sum').textContent='Could not load ('+e+'), retrying...';}
+}
+load();setInterval(load,60000);
+</script></body></html>
