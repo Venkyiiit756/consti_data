@@ -14,7 +14,7 @@ function bar(x){let o='';if(x.dl_pct!=null)o+=`${pbar(x.dl_pct,'d')}Downloaded $
 o+=`${pbar(x.up_pct)}On Drive ${x.mb} / ~${x.est_mb} MB (${x.up_pct}%) <span class="sm">${x.zips} zips</span>`;if(x.active.length==1&&x.active[0]=='Colab')o+=' <span class="sm">(Colab blocked by election site, nothing downloading)</span>';return o}
 const SRC="https://api.github.com/repos/Venkyiiit756/consti_data/contents/live.json?ref=live";
 async function load(){
- try{const r=await fetch(SRC+"&t="+Date.now(),{headers:{Accept:"application/vnd.github.raw"},cache:"no-store"});
+ try{let r=await fetch(SRC+"&t="+Date.now(),{headers:{Accept:"application/vnd.github.raw"},cache:"no-store"}).catch(()=>null);if(!r||!r.ok)r=await fetch("https://raw.githubusercontent.com/Venkyiiit756/consti_data/live/live.json?t="+Date.now(),{cache:"no-store"});
  const d=await r.json();const age=Math.round((Date.now()/1000-d.updated_ts)/60);
  const act=d.rows.filter(x=>x.active.length);const done=d.rows.filter(x=>x.zips&&!x.active.length);
  const by=l=>act.filter(x=>x.active.includes(l)).length;
@@ -26,5 +26,5 @@ async function load(){
  document.getElementById('done').textContent=done.map(x=>x.seat).join(', ');
  }catch(e){document.getElementById('sum').textContent='Could not load ('+e+'), retrying...';}
 }
-load();setInterval(load,60000);
+load();setInterval(load,120000);
 </script></body></html>
