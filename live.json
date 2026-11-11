@@ -1,0 +1,2139 @@
+{
+"updated": "2026-11-11 20:36:40 IST",
+"updated_ts": 1794409596.796625,
+"seats_with_zips": 175,
+"total_seats": 175,
+"rows": [
+{
+"seat": "Achanta",
+"zips": 30,
+"mb": 2502,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 19249,
+"ac": 56,
+"parts_total": 199,
+"est_mb": 2288,
+"up_pct": 100
+},
+{
+"seat": "Addanki",
+"zips": 35,
+"mb": 3205,
+"active": [],
+"marker_age_min": {
+"Box": 505
+},
+"last_zip_age_min": 510,
+"ac": 105,
+"parts_total": 314,
+"est_mb": 3205,
+"up_pct": 100
+},
+{
+"seat": "Adoni",
+"zips": 36,
+"mb": 3315,
+"active": [],
+"marker_age_min": {
+"Colab done": 326
+},
+"last_zip_age_min": 326,
+"ac": 146,
+"parts_total": 284,
+"est_mb": 3266,
+"up_pct": 100
+},
+{
+"seat": "Allagadda",
+"zips": 34,
+"mb": 3119,
+"active": [],
+"marker_age_min": {
+"Colab done": 350
+},
+"last_zip_age_min": 350,
+"ac": 134,
+"parts_total": 312,
+"est_mb": 3588,
+"up_pct": 87
+},
+{
+"seat": "Alur",
+"zips": 36,
+"mb": 3351,
+"active": [],
+"marker_age_min": {
+"Box": 316,
+"Mac": 356
+},
+"last_zip_age_min": 359,
+"ac": 147,
+"parts_total": 320,
+"est_mb": 3351,
+"up_pct": 100
+},
+{
+"seat": "Amadalavalasa",
+"zips": 28,
+"mb": 2624,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1855,
+"ac": 6,
+"parts_total": 270,
+"est_mb": 2624,
+"up_pct": 100
+},
+{
+"seat": "Anakapalle",
+"zips": 32,
+"mb": 2907,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1755,
+"ac": 30,
+"parts_total": 275,
+"est_mb": 2907,
+"up_pct": 100
+},
+{
+"seat": "Anantapur_Urban",
+"zips": 37,
+"mb": 3453,
+"active": [],
+"marker_age_min": {
+"Mac": 373
+},
+"last_zip_age_min": 430,
+"ac": 153,
+"parts_total": 355,
+"est_mb": 4082,
+"up_pct": 85
+},
+{
+"seat": "Araku_Valley",
+"zips": 33,
+"mb": 3104,
+"active": [],
+"marker_age_min": {
+"Box": 590
+},
+"last_zip_age_min": 1786,
+"ac": 28,
+"parts_total": 319,
+"est_mb": 3104,
+"up_pct": 100
+},
+{
+"seat": "Atmakur",
+"zips": 30,
+"mb": 2824,
+"active": [],
+"marker_age_min": {
+"Colab done": 420
+},
+"last_zip_age_min": 421,
+"ac": 115,
+"parts_total": 283,
+"est_mb": 3254,
+"up_pct": 87
+},
+{
+"seat": "Avanigadda",
+"zips": 32,
+"mb": 2939,
+"active": [],
+"marker_age_min": {
+"Box": 311
+},
+"last_zip_age_min": 312,
+"ac": 76,
+"parts_total": 267,
+"est_mb": 2939,
+"up_pct": 100
+},
+{
+"seat": "Badvel",
+"zips": 31,
+"mb": 2918,
+"active": [],
+"marker_age_min": {
+"Box": 443
+},
+"last_zip_age_min": 444,
+"ac": 124,
+"parts_total": 289,
+"est_mb": 2918,
+"up_pct": 100
+},
+{
+"seat": "Banaganapalle",
+"zips": 35,
+"mb": 3178,
+"active": [],
+"marker_age_min": {
+"Colab done": 330
+},
+"last_zip_age_min": 330,
+"ac": 140,
+"parts_total": 306,
+"est_mb": 3519,
+"up_pct": 90
+},
+{
+"seat": "Bapatla",
+"zips": 27,
+"mb": 2548,
+"active": [],
+"marker_age_min": {
+"Box": 516,
+"Colab done": 1315
+},
+"last_zip_age_min": 518,
+"ac": 92,
+"parts_total": 281,
+"est_mb": 2548,
+"up_pct": 100
+},
+{
+"seat": "Bhimavaram",
+"zips": 43,
+"mb": 3576,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 19188,
+"ac": 59,
+"parts_total": 262,
+"est_mb": 3013,
+"up_pct": 100
+},
+{
+"seat": "Bhimili",
+"zips": 54,
+"mb": 4943,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1576,
+"ac": 20,
+"parts_total": 400,
+"est_mb": 4943,
+"up_pct": 100
+},
+{
+"seat": "Bobbili",
+"zips": 34,
+"mb": 3071,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1759,
+"ac": 14,
+"parts_total": 294,
+"est_mb": 3071,
+"up_pct": 100
+},
+{
+"seat": "Chandragiri",
+"zips": 41,
+"mb": 3791,
+"active": [],
+"marker_age_min": {
+"Mac": 1218
+},
+"last_zip_age_min": 1218,
+"ac": 166,
+"parts_total": 358,
+"est_mb": 4117,
+"up_pct": 92
+},
+{
+"seat": "Cheepurupalle",
+"zips": 30,
+"mb": 2709,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1733,
+"ac": 15,
+"parts_total": 261,
+"est_mb": 2709,
+"up_pct": 100
+},
+{
+"seat": "Chilakaluripet",
+"zips": 32,
+"mb": 2932,
+"active": [],
+"marker_age_min": {
+"Box": 509,
+"Colab done": 1319
+},
+"last_zip_age_min": 516,
+"ac": 96,
+"parts_total": 278,
+"est_mb": 2932,
+"up_pct": 100
+},
+{
+"seat": "Chintalapudi",
+"zips": 41,
+"mb": 3754,
+"active": [],
+"marker_age_min": {
+"Box": 315
+},
+"last_zip_age_min": 1521,
+"ac": 68,
+"parts_total": 292,
+"est_mb": 3754,
+"up_pct": 100
+},
+{
+"seat": "Chirala",
+"zips": 29,
+"mb": 2658,
+"active": [],
+"marker_age_min": {
+"Box": 492
+},
+"last_zip_age_min": 507,
+"ac": 106,
+"parts_total": 246,
+"est_mb": 2658,
+"up_pct": 100
+},
+{
+"seat": "Chittoor",
+"zips": 27,
+"mb": 2524,
+"active": [],
+"marker_age_min": {
+"Mac": 1449
+},
+"last_zip_age_min": 1449,
+"ac": 172,
+"parts_total": 256,
+"est_mb": 2944,
+"up_pct": 86
+},
+{
+"seat": "Chodavaram",
+"zips": 32,
+"mb": 2923,
+"active": [],
+"marker_age_min": {
+"Box": 613
+},
+"last_zip_age_min": 1790,
+"ac": 26,
+"parts_total": 272,
+"est_mb": 2923,
+"up_pct": 100
+},
+{
+"seat": "Darsi",
+"zips": 33,
+"mb": 3053,
+"active": [],
+"marker_age_min": {
+"Box": 306
+},
+"last_zip_age_min": 307,
+"ac": 103,
+"parts_total": 291,
+"est_mb": 3053,
+"up_pct": 100
+},
+{
+"seat": "Denduluru",
+"zips": 34,
+"mb": 3063,
+"active": [],
+"marker_age_min": {
+"Box": 323
+},
+"last_zip_age_min": 1605,
+"ac": 64,
+"parts_total": 248,
+"est_mb": 3063,
+"up_pct": 100
+},
+{
+"seat": "Dharmavaram",
+"zips": 37,
+"mb": 3375,
+"active": [],
+"marker_age_min": {
+"Mac": 663
+},
+"last_zip_age_min": 663,
+"ac": 160,
+"parts_total": 315,
+"est_mb": 3622,
+"up_pct": 93
+},
+{
+"seat": "Dhone",
+"zips": 31,
+"mb": 2910,
+"active": [],
+"marker_age_min": {
+"Box": 368
+},
+"last_zip_age_min": 368,
+"ac": 141,
+"parts_total": 296,
+"est_mb": 2910,
+"up_pct": 100
+},
+{
+"seat": "Eluru",
+"zips": 37,
+"mb": 3320,
+"active": [],
+"marker_age_min": {
+"Box": 319
+},
+"last_zip_age_min": 1573,
+"ac": 65,
+"parts_total": 247,
+"est_mb": 3320,
+"up_pct": 100
+},
+{
+"seat": "Etcherla",
+"zips": 35,
+"mb": 3233,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1853,
+"ac": 7,
+"parts_total": 318,
+"est_mb": 3232,
+"up_pct": 100
+},
+{
+"seat": "Gajapathinagaram",
+"zips": 29,
+"mb": 2729,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1703,
+"ac": 16,
+"parts_total": 267,
+"est_mb": 2728,
+"up_pct": 100
+},
+{
+"seat": "Gajuwaka",
+"zips": 46,
+"mb": 4203,
+"active": [],
+"marker_age_min": {
+"Box": 313
+},
+"last_zip_age_min": 1796,
+"ac": 25,
+"parts_total": 339,
+"est_mb": 4203,
+"up_pct": 100
+},
+{
+"seat": "Gangadhara_Nellore",
+"zips": 30,
+"mb": 2761,
+"active": [],
+"marker_age_min": {
+"Mac": 1409
+},
+"last_zip_age_min": 1409,
+"ac": 171,
+"parts_total": 277,
+"est_mb": 3186,
+"up_pct": 87
+},
+{
+"seat": "Gannavaram_Krishna",
+"zips": 41,
+"mb": 3797,
+"active": [],
+"marker_age_min": {
+"Box": 583
+},
+"last_zip_age_min": 608,
+"ac": 71,
+"parts_total": 327,
+"est_mb": 3797,
+"up_pct": 100
+},
+{
+"seat": "Giddalur",
+"zips": 35,
+"mb": 3260,
+"active": [],
+"marker_age_min": {
+"Colab done": 420
+},
+"last_zip_age_min": 420,
+"ac": 112,
+"parts_total": 287,
+"est_mb": 3300,
+"up_pct": 99
+},
+{
+"seat": "Gudivada",
+"zips": 30,
+"mb": 2760,
+"active": [],
+"marker_age_min": {
+"Box": 582
+},
+"last_zip_age_min": 607,
+"ac": 72,
+"parts_total": 254,
+"est_mb": 2760,
+"up_pct": 100
+},
+{
+"seat": "Gudur",
+"zips": 34,
+"mb": 3161,
+"active": [],
+"marker_age_min": {
+"Box": 471
+},
+"last_zip_age_min": 478,
+"ac": 120,
+"parts_total": 311,
+"est_mb": 3164,
+"up_pct": 100
+},
+{
+"seat": "Guntakal",
+"zips": 41,
+"mb": 3802,
+"active": [],
+"marker_age_min": {
+"Box": 191,
+"Mac": 373
+},
+"last_zip_age_min": 203,
+"ac": 150,
+"parts_total": 347,
+"est_mb": 3608,
+"up_pct": 100
+},
+{
+"seat": "Guntur_East",
+"zips": 34,
+"mb": 3098,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1876,
+"ac": 95,
+"parts_total": 312,
+"est_mb": 3098,
+"up_pct": 100
+},
+{
+"seat": "Guntur_West",
+"zips": 37,
+"mb": 3375,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1878,
+"ac": 94,
+"parts_total": 338,
+"est_mb": 3375,
+"up_pct": 100
+},
+{
+"seat": "Gurajala",
+"zips": 38,
+"mb": 3527,
+"active": [],
+"marker_age_min": {
+"Box": 309
+},
+"last_zip_age_min": 309,
+"ac": 100,
+"parts_total": 328,
+"est_mb": 3526,
+"up_pct": 100
+},
+{
+"seat": "Hindupur",
+"zips": 33,
+"mb": 3022,
+"active": [],
+"marker_age_min": {
+"Mac": 557
+},
+"last_zip_age_min": 557,
+"ac": 157,
+"parts_total": 312,
+"est_mb": 3588,
+"up_pct": 84
+},
+{
+"seat": "Ichchapuram",
+"zips": 38,
+"mb": 3472,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1875,
+"ac": 1,
+"parts_total": 319,
+"est_mb": 3472,
+"up_pct": 100
+},
+{
+"seat": "Jaggayyapeta",
+"zips": 32,
+"mb": 2911,
+"active": [],
+"marker_age_min": {
+"Box": 565,
+"Colab done": 941
+},
+"last_zip_age_min": 573,
+"ac": 84,
+"parts_total": 225,
+"est_mb": 2822,
+"up_pct": 100
+},
+{
+"seat": "Jammalamadugu",
+"zips": 36,
+"mb": 3292,
+"active": [],
+"marker_age_min": {
+"Box": 422
+},
+"last_zip_age_min": 422,
+"ac": 131,
+"parts_total": 327,
+"est_mb": 3292,
+"up_pct": 100
+},
+{
+"seat": "Kadapa",
+"zips": 35,
+"mb": 3234,
+"active": [],
+"marker_age_min": {
+"Box": 433
+},
+"last_zip_age_min": 433,
+"ac": 126,
+"parts_total": 340,
+"est_mb": 3234,
+"up_pct": 100
+},
+{
+"seat": "Kadiri",
+"zips": 35,
+"mb": 3290,
+"active": [],
+"marker_age_min": {
+"Mac": 695
+},
+"last_zip_age_min": 695,
+"ac": 161,
+"parts_total": 325,
+"est_mb": 3738,
+"up_pct": 88
+},
+{
+"seat": "Kaikalur",
+"zips": 31,
+"mb": 2842,
+"active": [],
+"marker_age_min": {
+"Box": 582
+},
+"last_zip_age_min": 605,
+"ac": 73,
+"parts_total": 244,
+"est_mb": 2842,
+"up_pct": 100
+},
+{
+"seat": "Kalyandurg",
+"zips": 33,
+"mb": 3015,
+"active": [],
+"marker_age_min": {
+"Mac": 432
+},
+"last_zip_age_min": 444,
+"ac": 154,
+"parts_total": 282,
+"est_mb": 3243,
+"up_pct": 93
+},
+{
+"seat": "Kamalapuram",
+"zips": 30,
+"mb": 2792,
+"active": [],
+"marker_age_min": {
+"Colab done": 371
+},
+"last_zip_age_min": 371,
+"ac": 130,
+"parts_total": 279,
+"est_mb": 3208,
+"up_pct": 87
+},
+{
+"seat": "Kandukur",
+"zips": 33,
+"mb": 3045,
+"active": [],
+"marker_age_min": {
+"Colab done": 420
+},
+"last_zip_age_min": 420,
+"ac": 109,
+"parts_total": 293,
+"est_mb": 3370,
+"up_pct": 90
+},
+{
+"seat": "Kanigiri",
+"zips": 34,
+"mb": 3140,
+"active": [],
+"marker_age_min": {
+"Colab done": 419
+},
+"last_zip_age_min": 419,
+"ac": 113,
+"parts_total": 314,
+"est_mb": 3611,
+"up_pct": 87
+},
+{
+"seat": "Kavali",
+"zips": 33,
+"mb": 3121,
+"active": [],
+"marker_age_min": {
+"Colab done": 420
+},
+"last_zip_age_min": 420,
+"ac": 114,
+"parts_total": 324,
+"est_mb": 3726,
+"up_pct": 84
+},
+{
+"seat": "Kodumur",
+"zips": 32,
+"mb": 3002,
+"active": [],
+"marker_age_min": {
+"Box": 363
+},
+"last_zip_age_min": 363,
+"ac": 143,
+"parts_total": 291,
+"est_mb": 3259,
+"up_pct": 92
+},
+{
+"seat": "Kodur",
+"zips": 29,
+"mb": 2675,
+"active": [],
+"marker_age_min": {
+"Box": 430
+},
+"last_zip_age_min": 431,
+"ac": 127,
+"parts_total": 269,
+"est_mb": 2675,
+"up_pct": 100
+},
+{
+"seat": "Kondapi",
+"zips": 35,
+"mb": 3193,
+"active": [],
+"marker_age_min": {
+"Colab done": 426
+},
+"last_zip_age_min": 426,
+"ac": 110,
+"parts_total": 291,
+"est_mb": 3346,
+"up_pct": 95
+},
+{
+"seat": "Kovur",
+"zips": 35,
+"mb": 3274,
+"active": [],
+"marker_age_min": {
+"Colab done": 419
+},
+"last_zip_age_min": 419,
+"ac": 116,
+"parts_total": 327,
+"est_mb": 3760,
+"up_pct": 87
+},
+{
+"seat": "Kuppam",
+"zips": 31,
+"mb": 2854,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1806,
+"ac": 175,
+"parts_total": 294,
+"est_mb": 3381,
+"up_pct": 84
+},
+{
+"seat": "Kurnool",
+"zips": 33,
+"mb": 3100,
+"active": [],
+"marker_age_min": {
+"Colab done": 349
+},
+"last_zip_age_min": 349,
+"ac": 137,
+"parts_total": 318,
+"est_mb": 3657,
+"up_pct": 85
+},
+{
+"seat": "Kurupam",
+"zips": 28,
+"mb": 2569,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1792,
+"ac": 11,
+"parts_total": 272,
+"est_mb": 2569,
+"up_pct": 100
+},
+{
+"seat": "Macherla",
+"zips": 37,
+"mb": 3433,
+"active": [],
+"marker_age_min": {
+"Box": 196
+},
+"last_zip_age_min": 308,
+"ac": 101,
+"parts_total": 321,
+"est_mb": 3433,
+"up_pct": 100
+},
+{
+"seat": "Machilipatnam",
+"zips": 29,
+"mb": 2689,
+"active": [],
+"marker_age_min": {
+"Box": 312
+},
+"last_zip_age_min": 312,
+"ac": 75,
+"parts_total": 223,
+"est_mb": 2689,
+"up_pct": 100
+},
+{
+"seat": "Madakasira",
+"zips": 29,
+"mb": 2711,
+"active": [],
+"marker_age_min": {
+"Mac": 520
+},
+"last_zip_age_min": 520,
+"ac": 156,
+"parts_total": 274,
+"est_mb": 3151,
+"up_pct": 86
+},
+{
+"seat": "Madanapalle",
+"zips": 38,
+"mb": 3470,
+"active": [],
+"marker_age_min": {
+"Mac": 1132
+},
+"last_zip_age_min": 1132,
+"ac": 164,
+"parts_total": 277,
+"est_mb": 3186,
+"up_pct": 100
+},
+{
+"seat": "Madugula",
+"zips": 28,
+"mb": 2530,
+"active": [],
+"marker_age_min": {
+"Box": 644
+},
+"last_zip_age_min": 1789,
+"ac": 27,
+"parts_total": 238,
+"est_mb": 2530,
+"up_pct": 100
+},
+{
+"seat": "Mangalagiri",
+"zips": 43,
+"mb": 3996,
+"active": [],
+"marker_age_min": {
+"Box": 553,
+"Colab done": 907
+},
+"last_zip_age_min": 566,
+"ac": 87,
+"parts_total": 353,
+"est_mb": 3996,
+"up_pct": 100
+},
+{
+"seat": "Mantralayam",
+"zips": 30,
+"mb": 2767,
+"active": [],
+"marker_age_min": {
+"Box": 361
+},
+"last_zip_age_min": 362,
+"ac": 145,
+"parts_total": 267,
+"est_mb": 2767,
+"up_pct": 100
+},
+{
+"seat": "Markapuram",
+"zips": 31,
+"mb": 2871,
+"active": [],
+"marker_age_min": {
+"Colab done": 426
+},
+"last_zip_age_min": 426,
+"ac": 111,
+"parts_total": 277,
+"est_mb": 3186,
+"up_pct": 90
+},
+{
+"seat": "Mydukur",
+"zips": 31,
+"mb": 2872,
+"active": [],
+"marker_age_min": {
+"Colab done": 356
+},
+"last_zip_age_min": 357,
+"ac": 133,
+"parts_total": 284,
+"est_mb": 3266,
+"up_pct": 88
+},
+{
+"seat": "Mylavaram",
+"zips": 43,
+"mb": 3908,
+"active": [],
+"marker_age_min": {
+"Box": 568
+},
+"last_zip_age_min": 577,
+"ac": 82,
+"parts_total": 323,
+"est_mb": 3908,
+"up_pct": 100
+},
+{
+"seat": "Nagari",
+"zips": 28,
+"mb": 2580,
+"active": [],
+"marker_age_min": {
+"Mac": 1380
+},
+"last_zip_age_min": 1380,
+"ac": 170,
+"parts_total": 262,
+"est_mb": 3013,
+"up_pct": 86
+},
+{
+"seat": "Nandigama",
+"zips": 31,
+"mb": 2801,
+"active": [],
+"marker_age_min": {
+"Box": 566
+},
+"last_zip_age_min": 575,
+"ac": 83,
+"parts_total": 234,
+"est_mb": 2801,
+"up_pct": 100
+},
+{
+"seat": "Nandikotkur",
+"zips": 31,
+"mb": 2861,
+"active": [],
+"marker_age_min": {
+"Colab done": 354
+},
+"last_zip_age_min": 355,
+"ac": 136,
+"parts_total": 276,
+"est_mb": 3174,
+"up_pct": 90
+},
+{
+"seat": "Nandyal",
+"zips": 36,
+"mb": 3334,
+"active": [],
+"marker_age_min": {
+"Box": 371
+},
+"last_zip_age_min": 371,
+"ac": 139,
+"parts_total": 334,
+"est_mb": 3334,
+"up_pct": 100
+},
+{
+"seat": "Narasannapeta",
+"zips": 31,
+"mb": 2902,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1851,
+"ac": 8,
+"parts_total": 290,
+"est_mb": 2902,
+"up_pct": 100
+},
+{
+"seat": "Narasapuram",
+"zips": 29,
+"mb": 2429,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 19208,
+"ac": 58,
+"parts_total": 181,
+"est_mb": 2082,
+"up_pct": 100
+},
+{
+"seat": "Narasaraopet",
+"zips": 32,
+"mb": 2934,
+"active": [],
+"marker_age_min": {
+"Box": 508,
+"Colab done": 1314
+},
+"last_zip_age_min": 515,
+"ac": 97,
+"parts_total": 285,
+"est_mb": 2934,
+"up_pct": 100
+},
+{
+"seat": "Narsipatnam",
+"zips": 31,
+"mb": 2874,
+"active": [],
+"marker_age_min": {
+"Box": 613
+},
+"last_zip_age_min": 1641,
+"ac": 34,
+"parts_total": 273,
+"est_mb": 2874,
+"up_pct": 100
+},
+{
+"seat": "Nellimarla",
+"zips": 32,
+"mb": 2884,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1672,
+"ac": 17,
+"parts_total": 252,
+"est_mb": 2884,
+"up_pct": 100
+},
+{
+"seat": "Nellore_City",
+"zips": 33,
+"mb": 3003,
+"active": [],
+"marker_age_min": {
+"Box": 487
+},
+"last_zip_age_min": 488,
+"ac": 117,
+"parts_total": 258,
+"est_mb": 3003,
+"up_pct": 100
+},
+{
+"seat": "Nellore_Rural",
+"zips": 37,
+"mb": 3408,
+"active": [],
+"marker_age_min": {
+"Box": 483
+},
+"last_zip_age_min": 484,
+"ac": 118,
+"parts_total": 344,
+"est_mb": 3408,
+"up_pct": 100
+},
+{
+"seat": "Nuzvid",
+"zips": 35,
+"mb": 3207,
+"active": [],
+"marker_age_min": {
+"Box": 584
+},
+"last_zip_age_min": 612,
+"ac": 70,
+"parts_total": 291,
+"est_mb": 3207,
+"up_pct": 100
+},
+{
+"seat": "Ongole",
+"zips": 36,
+"mb": 3300,
+"active": [],
+"marker_age_min": {
+"Box": 490
+},
+"last_zip_age_min": 490,
+"ac": 108,
+"parts_total": 271,
+"est_mb": 3300,
+"up_pct": 100
+},
+{
+"seat": "Paderu",
+"zips": 35,
+"mb": 3193,
+"active": [],
+"marker_age_min": {
+"Box": 327
+},
+"last_zip_age_min": 1757,
+"ac": 29,
+"parts_total": 332,
+"est_mb": 3193,
+"up_pct": 100
+},
+{
+"seat": "Palakollu",
+"zips": 32,
+"mb": 2729,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 19236,
+"ac": 57,
+"parts_total": 203,
+"est_mb": 2334,
+"up_pct": 100
+},
+{
+"seat": "Palakonda",
+"zips": 29,
+"mb": 2617,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1817,
+"ac": 10,
+"parts_total": 307,
+"est_mb": 2617,
+"up_pct": 100
+},
+{
+"seat": "Palamaner",
+"zips": 37,
+"mb": 3434,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1578,
+"ac": 174,
+"parts_total": 325,
+"est_mb": 3738,
+"up_pct": 92
+},
+{
+"seat": "Palasa",
+"zips": 32,
+"mb": 2939,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1873,
+"ac": 2,
+"parts_total": 302,
+"est_mb": 2939,
+"up_pct": 100
+},
+{
+"seat": "Pamarru",
+"zips": 28,
+"mb": 2555,
+"active": [],
+"marker_age_min": {
+"Box": 581
+},
+"last_zip_age_min": 591,
+"ac": 77,
+"parts_total": 238,
+"est_mb": 2555,
+"up_pct": 100
+},
+{
+"seat": "Panyam",
+"zips": 45,
+"mb": 4155,
+"active": [],
+"marker_age_min": {
+"Colab done": 339
+},
+"last_zip_age_min": 339,
+"ac": 138,
+"parts_total": 373,
+"est_mb": 4290,
+"up_pct": 97
+},
+{
+"seat": "Parchur",
+"zips": 33,
+"mb": 3085,
+"active": [],
+"marker_age_min": {
+"Box": 201
+},
+"last_zip_age_min": 306,
+"ac": 104,
+"parts_total": 304,
+"est_mb": 3085,
+"up_pct": 100
+},
+{
+"seat": "Parvathipuram",
+"zips": 27,
+"mb": 2519,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1791,
+"ac": 12,
+"parts_total": 242,
+"est_mb": 2519,
+"up_pct": 100
+},
+{
+"seat": "Pathapatnam",
+"zips": 32,
+"mb": 3044,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1868,
+"ac": 4,
+"parts_total": 323,
+"est_mb": 3044,
+"up_pct": 100
+},
+{
+"seat": "Pattikonda",
+"zips": 32,
+"mb": 2964,
+"active": [],
+"marker_age_min": {
+"Box": 328
+},
+"last_zip_age_min": 366,
+"ac": 142,
+"parts_total": 277,
+"est_mb": 2964,
+"up_pct": 100
+},
+{
+"seat": "Payakaraopet",
+"zips": 36,
+"mb": 3331,
+"active": [],
+"marker_age_min": {
+"Box": 317
+},
+"last_zip_age_min": 1670,
+"ac": 33,
+"parts_total": 312,
+"est_mb": 3331,
+"up_pct": 100
+},
+{
+"seat": "Pedakurapadu",
+"zips": 33,
+"mb": 3077,
+"active": [],
+"marker_age_min": {
+"Box": 562,
+"Colab done": 912
+},
+"last_zip_age_min": 571,
+"ac": 85,
+"parts_total": 281,
+"est_mb": 3077,
+"up_pct": 100
+},
+{
+"seat": "Pedana",
+"zips": 26,
+"mb": 2357,
+"active": [],
+"marker_age_min": {
+"Box": 581
+},
+"last_zip_age_min": 603,
+"ac": 74,
+"parts_total": 219,
+"est_mb": 2357,
+"up_pct": 100
+},
+{
+"seat": "Peddapuram",
+"zips": 36,
+"mb": 2895,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1885,
+"ac": 39,
+"parts_total": 238,
+"est_mb": 2895,
+"up_pct": 100
+},
+{
+"seat": "Penamaluru",
+"zips": 42,
+"mb": 3889,
+"active": [],
+"marker_age_min": {
+"Box": 579
+},
+"last_zip_age_min": 588,
+"ac": 78,
+"parts_total": 319,
+"est_mb": 3889,
+"up_pct": 100
+},
+{
+"seat": "Pendurthi",
+"zips": 46,
+"mb": 4241,
+"active": [],
+"marker_age_min": {
+"Box": 306
+},
+"last_zip_age_min": 1729,
+"ac": 31,
+"parts_total": 341,
+"est_mb": 4241,
+"up_pct": 100
+},
+{
+"seat": "Penukonda",
+"zips": 34,
+"mb": 3098,
+"active": [],
+"marker_age_min": {
+"Mac": 594
+},
+"last_zip_age_min": 594,
+"ac": 158,
+"parts_total": 296,
+"est_mb": 3404,
+"up_pct": 91
+},
+{
+"seat": "Pileru",
+"zips": 32,
+"mb": 2993,
+"active": [],
+"marker_age_min": {
+"Mac": 1084
+},
+"last_zip_age_min": 1084,
+"ac": 163,
+"parts_total": 296,
+"est_mb": 3404,
+"up_pct": 88
+},
+{
+"seat": "Polavaram",
+"zips": 38,
+"mb": 3485,
+"active": [],
+"marker_age_min": {
+"Box": 315
+},
+"last_zip_age_min": 1542,
+"ac": 67,
+"parts_total": 324,
+"est_mb": 3485,
+"up_pct": 100
+},
+{
+"seat": "Ponnur",
+"zips": 32,
+"mb": 2988,
+"active": [],
+"marker_age_min": {
+"Box": 522,
+"Colab done": 1113
+},
+"last_zip_age_min": 564,
+"ac": 88,
+"parts_total": 277,
+"est_mb": 2987,
+"up_pct": 100
+},
+{
+"seat": "Prathipadu_SC",
+"zips": 38,
+"mb": 3484,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1881,
+"ac": null,
+"parts_total": 0,
+"est_mb": 3000,
+"up_pct": 100
+},
+{
+"seat": "Proddatur",
+"zips": 35,
+"mb": 3303,
+"active": [],
+"marker_age_min": {
+"Box": 420
+},
+"last_zip_age_min": 420,
+"ac": 132,
+"parts_total": 310,
+"est_mb": 3303,
+"up_pct": 100
+},
+{
+"seat": "Pulivendla",
+"zips": 32,
+"mb": 3003,
+"active": [],
+"marker_age_min": {
+"Box": 425
+},
+"last_zip_age_min": 425,
+"ac": 129,
+"parts_total": 309,
+"est_mb": 3003,
+"up_pct": 100
+},
+{
+"seat": "Punganur",
+"zips": 33,
+"mb": 3091,
+"active": [],
+"marker_age_min": {
+"Mac": 1168
+},
+"last_zip_age_min": 1168,
+"ac": 165,
+"parts_total": 286,
+"est_mb": 3289,
+"up_pct": 94
+},
+{
+"seat": "Puthalapattu",
+"zips": 31,
+"mb": 2881,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1506,
+"ac": 173,
+"parts_total": 294,
+"est_mb": 3381,
+"up_pct": 85
+},
+{
+"seat": "Puttaparthi",
+"zips": 31,
+"mb": 2825,
+"active": [],
+"marker_age_min": {
+"Mac": 613
+},
+"last_zip_age_min": 628,
+"ac": 159,
+"parts_total": 264,
+"est_mb": 3036,
+"up_pct": 93
+},
+{
+"seat": "Rajam",
+"zips": 32,
+"mb": 2974,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1850,
+"ac": 9,
+"parts_total": 295,
+"est_mb": 2973,
+"up_pct": 100
+},
+{
+"seat": "Rajampet",
+"zips": 35,
+"mb": 3221,
+"active": [],
+"marker_age_min": {
+"Box": 443
+},
+"last_zip_age_min": 439,
+"ac": 125,
+"parts_total": 306,
+"est_mb": 3221,
+"up_pct": 100
+},
+{
+"seat": "Rampachodavaram",
+"zips": 38,
+"mb": 3518,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1883,
+"ac": 53,
+"parts_total": 399,
+"est_mb": 3518,
+"up_pct": 100
+},
+{
+"seat": "Raptadu",
+"zips": 36,
+"mb": 3290,
+"active": [],
+"marker_age_min": {
+"Mac": 489
+},
+"last_zip_age_min": 489,
+"ac": 155,
+"parts_total": 308,
+"est_mb": 3542,
+"up_pct": 93
+},
+{
+"seat": "Rayachoti",
+"zips": 37,
+"mb": 3373,
+"active": [],
+"marker_age_min": {
+"Box": 427
+},
+"last_zip_age_min": 428,
+"ac": 128,
+"parts_total": 302,
+"est_mb": 3373,
+"up_pct": 100
+},
+{
+"seat": "Rayadurg",
+"zips": 37,
+"mb": 3379,
+"active": [],
+"marker_age_min": {
+"Box": 183,
+"Mac": 373
+},
+"last_zip_age_min": 292,
+"ac": 148,
+"parts_total": 343,
+"est_mb": 3379,
+"up_pct": 100
+},
+{
+"seat": "Repalle",
+"zips": 32,
+"mb": 2964,
+"active": [],
+"marker_age_min": {
+"Box": 520,
+"Colab done": 1108
+},
+"last_zip_age_min": 559,
+"ac": 90,
+"parts_total": 299,
+"est_mb": 2964,
+"up_pct": 100
+},
+{
+"seat": "Salur",
+"zips": 29,
+"mb": 2659,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1760,
+"ac": 13,
+"parts_total": 256,
+"est_mb": 2659,
+"up_pct": 100
+},
+{
+"seat": "Santhanuthalapadu",
+"zips": 31,
+"mb": 2863,
+"active": [],
+"marker_age_min": {
+"Box": 492
+},
+"last_zip_age_min": 500,
+"ac": 107,
+"parts_total": 265,
+"est_mb": 2863,
+"up_pct": 100
+},
+{
+"seat": "Sarvepalli",
+"zips": 32,
+"mb": 2996,
+"active": [],
+"marker_age_min": {
+"Box": 480
+},
+"last_zip_age_min": 480,
+"ac": 119,
+"parts_total": 289,
+"est_mb": 2996,
+"up_pct": 100
+},
+{
+"seat": "Sattenapalle",
+"zips": 36,
+"mb": 3272,
+"active": [],
+"marker_age_min": {
+"Box": 506,
+"Colab done": 1305
+},
+"last_zip_age_min": 512,
+"ac": 98,
+"parts_total": 295,
+"est_mb": 3272,
+"up_pct": 100
+},
+{
+"seat": "Satyavedu",
+"zips": 30,
+"mb": 2745,
+"active": [],
+"marker_age_min": {
+"Mac": 1340
+},
+"last_zip_age_min": 1340,
+"ac": 169,
+"parts_total": 279,
+"est_mb": 3208,
+"up_pct": 86
+},
+{
+"seat": "Singanamala",
+"zips": 36,
+"mb": 3270,
+"active": [],
+"marker_age_min": {
+"Mac": 357
+},
+"last_zip_age_min": 428,
+"ac": 152,
+"parts_total": 314,
+"est_mb": 3611,
+"up_pct": 91
+},
+{
+"seat": "Srikakulam",
+"zips": 40,
+"mb": 3668,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1866,
+"ac": 5,
+"parts_total": 324,
+"est_mb": 3668,
+"up_pct": 100
+},
+{
+"seat": "Srikalahasti",
+"zips": 34,
+"mb": 3140,
+"active": [],
+"marker_age_min": {
+"Mac": 1302
+},
+"last_zip_age_min": 1302,
+"ac": 168,
+"parts_total": 319,
+"est_mb": 3668,
+"up_pct": 86
+},
+{
+"seat": "Srisailam",
+"zips": 27,
+"mb": 2523,
+"active": [],
+"marker_age_min": {
+"Box": 419,
+"Colab done": 362
+},
+"last_zip_age_min": 362,
+"ac": 135,
+"parts_total": 239,
+"est_mb": 2501,
+"up_pct": 100
+},
+{
+"seat": "Srungavarapukota",
+"zips": 33,
+"mb": 3002,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1608,
+"ac": 19,
+"parts_total": 279,
+"est_mb": 3002,
+"up_pct": 100
+},
+{
+"seat": "Sullurpeta",
+"zips": 33,
+"mb": 3070,
+"active": [],
+"marker_age_min": {
+"Box": 450
+},
+"last_zip_age_min": 457,
+"ac": 121,
+"parts_total": 314,
+"est_mb": 3070,
+"up_pct": 100
+},
+{
+"seat": "Tadepalligudem",
+"zips": 35,
+"mb": 2967,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 19148,
+"ac": 62,
+"parts_total": 249,
+"est_mb": 2864,
+"up_pct": 100
+},
+{
+"seat": "Tadikonda",
+"zips": 31,
+"mb": 2794,
+"active": [],
+"marker_age_min": {
+"Box": 551,
+"Colab done": 941
+},
+"last_zip_age_min": 569,
+"ac": 86,
+"parts_total": 252,
+"est_mb": 2794,
+"up_pct": 100
+},
+{
+"seat": "Tadpatri",
+"zips": 28,
+"mb": 2550,
+"active": [],
+"marker_age_min": {
+"Box": 191,
+"Mac": 373
+},
+"last_zip_age_min": 202,
+"ac": 151,
+"parts_total": 321,
+"est_mb": 3297,
+"up_pct": 77
+},
+{
+"seat": "Tanuku",
+"zips": 38,
+"mb": 3220,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 19165,
+"ac": 61,
+"parts_total": 254,
+"est_mb": 2921,
+"up_pct": 100
+},
+{
+"seat": "Tekkali",
+"zips": 34,
+"mb": 3163,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1871,
+"ac": 3,
+"parts_total": 318,
+"est_mb": 3163,
+"up_pct": 100
+},
+{
+"seat": "Tenali",
+"zips": 39,
+"mb": 3603,
+"active": [],
+"marker_age_min": {
+"Box": 519,
+"Colab done": 1099
+},
+"last_zip_age_min": 551,
+"ac": 91,
+"parts_total": 317,
+"est_mb": 3603,
+"up_pct": 100
+},
+{
+"seat": "Thamballapalle",
+"zips": 32,
+"mb": 2895,
+"active": [],
+"marker_age_min": {
+"Mac": 1039
+},
+"last_zip_age_min": 1039,
+"ac": 162,
+"parts_total": 263,
+"est_mb": 3024,
+"up_pct": 96
+},
+{
+"seat": "Tirupati",
+"zips": 33,
+"mb": 3102,
+"active": [],
+"marker_age_min": {
+"Mac": 1259
+},
+"last_zip_age_min": 1259,
+"ac": 167,
+"parts_total": 358,
+"est_mb": 4117,
+"up_pct": 75
+},
+{
+"seat": "Tiruvuru",
+"zips": 31,
+"mb": 2872,
+"active": [],
+"marker_age_min": {
+"Box": 614
+},
+"last_zip_age_min": 1486,
+"ac": 69,
+"parts_total": 246,
+"est_mb": 2872,
+"up_pct": 100
+},
+{
+"seat": "Udayagiri",
+"zips": 34,
+"mb": 3158,
+"active": [],
+"marker_age_min": {
+"Box": 446
+},
+"last_zip_age_min": 447,
+"ac": 123,
+"parts_total": 324,
+"est_mb": 3158,
+"up_pct": 100
+},
+{
+"seat": "Undi",
+"zips": 38,
+"mb": 3180,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 19175,
+"ac": 60,
+"parts_total": 244,
+"est_mb": 2806,
+"up_pct": 100
+},
+{
+"seat": "Ungutur",
+"zips": 32,
+"mb": 2900,
+"active": [],
+"marker_age_min": {
+"Box": 613
+},
+"last_zip_age_min": 1607,
+"ac": 63,
+"parts_total": 245,
+"est_mb": 2900,
+"up_pct": 100
+},
+{
+"seat": "Uravakonda",
+"zips": 31,
+"mb": 2875,
+"active": [],
+"marker_age_min": {
+"Box": 196,
+"Mac": 373
+},
+"last_zip_age_min": 205,
+"ac": 149,
+"parts_total": 286,
+"est_mb": 2875,
+"up_pct": 100
+},
+{
+"seat": "Vemuru",
+"zips": 28,
+"mb": 2594,
+"active": [],
+"marker_age_min": {
+"Box": 521,
+"Colab done": 1151
+},
+"last_zip_age_min": 562,
+"ac": 89,
+"parts_total": 237,
+"est_mb": 2594,
+"up_pct": 100
+},
+{
+"seat": "Venkatagiri",
+"zips": 34,
+"mb": 3115,
+"active": [],
+"marker_age_min": {
+"Colab done": 364
+},
+"last_zip_age_min": 364,
+"ac": 122,
+"parts_total": 324,
+"est_mb": 3726,
+"up_pct": 84
+},
+{
+"seat": "Vijayawada_Central",
+"zips": 44,
+"mb": 3997,
+"active": [],
+"marker_age_min": {
+"Box": 577
+},
+"last_zip_age_min": 583,
+"ac": 80,
+"parts_total": 318,
+"est_mb": 3997,
+"up_pct": 100
+},
+{
+"seat": "Vijayawada_East",
+"zips": 43,
+"mb": 3886,
+"active": [],
+"marker_age_min": {
+"Box": 568
+},
+"last_zip_age_min": 580,
+"ac": 81,
+"parts_total": 321,
+"est_mb": 3886,
+"up_pct": 100
+},
+{
+"seat": "Vijayawada_West",
+"zips": 39,
+"mb": 3576,
+"active": [],
+"marker_age_min": {
+"Box": 579
+},
+"last_zip_age_min": 585,
+"ac": 79,
+"parts_total": 269,
+"est_mb": 3576,
+"up_pct": 100
+},
+{
+"seat": "Vinukonda",
+"zips": 38,
+"mb": 3549,
+"active": [],
+"marker_age_min": {
+"Box": 310
+},
+"last_zip_age_min": 310,
+"ac": 99,
+"parts_total": 329,
+"est_mb": 3549,
+"up_pct": 100
+},
+{
+"seat": "Visakhapatnam_East",
+"zips": 43,
+"mb": 3857,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1545,
+"ac": 21,
+"parts_total": 285,
+"est_mb": 3857,
+"up_pct": 100
+},
+{
+"seat": "Visakhapatnam_North",
+"zips": 41,
+"mb": 3768,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1488,
+"ac": 23,
+"parts_total": 293,
+"est_mb": 3768,
+"up_pct": 100
+},
+{
+"seat": "Visakhapatnam_South",
+"zips": 32,
+"mb": 2947,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1524,
+"ac": 22,
+"parts_total": 248,
+"est_mb": 2947,
+"up_pct": 100
+},
+{
+"seat": "Visakhapatnam_West",
+"zips": 31,
+"mb": 2780,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1461,
+"ac": 24,
+"parts_total": 237,
+"est_mb": 2780,
+"up_pct": 100
+},
+{
+"seat": "Vizianagaram",
+"zips": 41,
+"mb": 3705,
+"active": [],
+"marker_age_min": {},
+"last_zip_age_min": 1644,
+"ac": 18,
+"parts_total": 321,
+"est_mb": 3705,
+"up_pct": 100
+},
+{
+"seat": "Yelamanchili",
+"zips": 30,
+"mb": 2771,
+"active": [],
+"marker_age_min": {
+"Box": 638
+},
+"last_zip_age_min": 1701,
+"ac": 32,
+"parts_total": 266,
+"est_mb": 2771,
+"up_pct": 100
+},
+{
+"seat": "Yemmiganur",
+"zips": 35,
+"mb": 3185,
+"active": [],
+"marker_age_min": {
+"Colab done": 326
+},
+"last_zip_age_min": 326,
+"ac": 144,
+"parts_total": 322,
+"est_mb": 3703,
+"up_pct": 86
+},
+{
+"seat": "Yerragondapalem",
+"zips": 30,
+"mb": 2783,
+"active": [],
+"marker_age_min": {
+"Box": 307
+},
+"last_zip_age_min": 307,
+"ac": 102,
+"parts_total": 267,
+"est_mb": 2783,
+"up_pct": 100
+}
+],
+"colab": {
+"mbps": 0.0,
+"parts_3min": 0,
+"relay_mbps": 0.0,
+"seats": [],
+"running": false
+},
+"gb_on_drive": 545.5,
+"box": {
+"current_ac": null,
+"per_min": 0.0,
+"mbps": 0.0,
+"seats_left": 1
+},
+"mac": {
+"current_ac": null,
+"mbps": 0.0,
+"seats_uploaded": 24,
+"t": 1794390593.518035,
+"up_ac": null,
+"waiting_upload": 0,
+"last_up_mbps": 1.4
+}
+}
