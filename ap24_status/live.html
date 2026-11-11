@@ -10,17 +10,17 @@ table{border-collapse:collapse;width:100%;margin-top:12px}td,th{padding:6px 8px;
 <h3>Done on Drive</h3><div id="done" class="muted"></div>
 <style>.pb{background:#2a2e38;border-radius:4px;height:10px;width:160px;display:inline-block;vertical-align:middle;margin-right:6px}.pb i{display:block;height:10px;border-radius:4px;background:#4caf50}.pb.d i{background:#2196f3}.sm{font-size:12px;color:#9aa}</style><script>
 function pbar(p,c){return `<span class="pb ${c||''}"><i style="width:${p||0}%"></i></span>`}
-function bar(x){let o='';if(x.dl_pct!=null)o+=`${pbar(x.dl_pct,'d')}Downloaded ${x.dl_parts}/${x.parts_total} parts (${x.dl_pct}%)<br>`;
-o+=`${pbar(x.up_pct)}On Drive ${x.mb} / ~${x.est_mb} MB (${x.up_pct}%) <span class="sm">${x.zips} zips</span>`;if(x.active.length==1&&x.active[0]=='Colab')o+=' <span class="sm">(Colab blocked by election site, nothing downloading)</span>';return o}
+let d0={};function bar(x){let o='';if(x.dl_pct!=null)o+=`${pbar(x.dl_pct,'d')}Downloaded ${x.dl_parts}/${x.parts_total} parts (${x.dl_pct}%)<br>`;
+o+=`${pbar(x.up_pct)}On Drive ${x.mb} / ~${x.est_mb} MB (${x.up_pct}%) <span class="sm">${x.zips} zips</span>`;if(x.active.includes('Colab')&&d0.colab&&d0.colab.seats&&d0.colab.seats.includes(x.seat))o+=' <span class="sm">(Colab pulling via relay)</span>';return o}
 const SRC="https://api.github.com/repos/Venkyiiit756/consti_data/contents/live.json?ref=live";
 async function load(){
  try{let r=await fetch(SRC+"&t="+Date.now(),{headers:{Accept:"application/vnd.github.raw"},cache:"no-store"}).catch(()=>null);if(!r||!r.ok)r=await fetch("https://raw.githubusercontent.com/Venkyiiit756/consti_data/live/live.json?t="+Date.now(),{cache:"no-store"});
- const d=await r.json();const age=Math.round((Date.now()/1000-d.updated_ts)/60);
+ const d=await r.json();d0=d;const age=Math.round((Date.now()/1000-d.updated_ts)/60);
  const act=d.rows.filter(x=>x.active.length);const done=d.rows.filter(x=>x.zips&&!x.active.length);
  const by=l=>act.filter(x=>x.active.includes(l)).length;
  document.getElementById('sum').innerHTML=`<span class="card">Updated ${d.updated} (${age} min ago)</span>
  <span class="card">Seats with zips on Drive: <b>${d.seats_with_zips}</b> / ${d.total_seats}</span>
- <span class="card Colab">Colab: ${by('Colab')} seats</span><span class="card Mac">Mac: ${by('Mac')}</span><span class="card Box">Box: ${by('Box')}</span>`;
+ <span class="card Colab">Colab: ${d.colab?(d.colab.running?`<b>running</b> via relay (not blocked), ${d.colab.mbps} MB/s, pulling ${d.colab.seats.length} seats: ${d.colab.seats.join(", ")}`:(d.colab.seats&&d.colab.seats.length?`claimed ${d.colab.seats.join(", ")}, speed ${d.colab.mbps??"?"} MB/s`:"not running")):by('Colab')+" seats"}</span><span class="card Mac">Mac: ${by('Mac')}</span><span class="card Box">Box: ${by('Box')}</span>`;
  document.getElementById('active').innerHTML='<tr><th>Seat</th><th>Lane</th><th>Claimed</th><th>Progress</th></tr>'+
   act.map(x=>`<tr><td>${x.seat}</td><td>${x.active.map(l=>`<span class="${l}">${l}</span>`).join(', ')}</td><td>${x.active.map(l=>x.marker_age_min[l]+' min ago').join(', ')}</td><td>${bar(x)}</td></tr>`).join('');
  document.getElementById('done').textContent=done.map(x=>x.seat).join(', ');
