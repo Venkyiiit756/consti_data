@@ -1,0 +1,162 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AP 2026 SIR lists — status</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1d2433;--mute:#6b7385;--line:#e5e8ee;--ok:#1f9d55;--run:#2563eb;--warn:#d97706;--bad:#dc2626;--hold:#8b5cf6}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:18px 20px 6px}h1{font-size:19px;margin:0}small,.mute{color:var(--mute)}
+.wrap{padding:0 20px 30px;max-width:1200px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:12px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.k{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.04em}.v{font-size:22px;font-weight:650;margin-top:2px}
+.bar{height:8px;background:#eef0f4;border-radius:5px;overflow:hidden;min-width:60px}.bar>i{display:block;height:100%;background:var(--run)}
+.bar.big{height:12px;margin-top:8px}.bar>i.ok{background:var(--ok)}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{font-size:12px;color:var(--mute);font-weight:600;background:#fafbfc;position:sticky;top:0;cursor:pointer;user-select:none}
+td.num,th.num{text-align:right}tr:last-child td{border-bottom:0}th .arrow{font-size:10px;margin-left:3px;color:#9aa3b2}
+.pill{display:inline-block;padding:1px 8px;border-radius:20px;font-size:12px;font-weight:600;background:#eef0f4;color:var(--mute)}
+.p-uploaded{background:#dcf5e6;color:var(--ok)}.p-pending,.p-none{background:#eef0f4;color:var(--mute)}
+.p-zipped,.p-uploading{background:#fff1d6;color:var(--warn)}.p-downloading{background:#e0eaff;color:var(--run)}.p-failed{background:#fde2e2;color:var(--bad)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:16px 0 8px}.tools button{border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 12px;cursor:pointer;font:inherit}
+.tools button.on{background:var(--ink);color:#fff;border-color:var(--ink)}.tools input{border:1px solid var(--line);border-radius:20px;padding:6px 12px;font:inherit;flex:1;min-width:140px;max-width:260px}
+.scroll{overflow-x:auto;border-radius:10px}a{color:var(--run);text-decoration:none}
+.w{font-size:12.5px;color:var(--mute);margin-top:6px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px}.dot.off{background:#c3c8d2}
+h2{font-size:15px;margin:22px 0 6px}
+.tabs{display:flex;gap:6px;margin:0 0 10px}.tabs a{border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 14px;color:var(--ink);font-weight:600;font-size:13px}.tabs a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.kindgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+@media(max-width:640px){.hide-sm{display:none}th,td{padding:6px}}
+</style></head><body>
+<header class="wrap" style="padding-left:0;padding-right:0"><nav class="tabs"><a href="./">2024 roll</a><a href="2025.html">2025 roll</a><a href="2026.html">2026 roll</a><a class="on" href="sir.html">2026 SIR lists</a></nav>
+<h1>AP 2026 SIR lists — download status</h1>
+<small id="sub">loading…</small></header>
+<div class="wrap">
+<div class="grid" id="tot"></div>
+<div class="card"><div class="k" id="ovk">ASDD lists (all 175 constituencies)</div><div id="ov"></div><div class="bar big"><i id="ovb" class="ok"></i></div></div>
+<div class="card" id="finalbox" style="display:none;border-color:var(--ok);margin:12px 0 0"></div>
+<div id="gaps" style="border:1px solid #e0b252;background:#fff8e6;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:14px;line-height:1.5;color:#222"></div>
+<h2>List types</h2><div class="kindgrid" id="kinds"></div>
+<div id="alerts"></div>
+<div class="tools" id="flt"></div>
+<div class="scroll"><table><thead id="thead"></thead><tbody id="rows"></tbody></table></div>
+<p class="mute" style="margin-top:18px">ASDD = part-wise absent, shifted, dead and duplicate lists from the ECI (Telugu PDFs). No Mapping, Logical Discrepancy, Minutes and Additions come from district sites when published. Additions have not been published by ECI yet. This page refreshes itself every 60 seconds. Draft-roll status is on the <a href="2026.html">2026 roll</a> tab.</p>
+</div>
+<script>
+const KL={ASDD:"ASDD",NoMapping:"No Mapping",LogicalDiscrepancy:"Logical Discrepancy",Minutes:"Minutes",Additions:"Additions"};
+const KS=["ASDD","NoMapping","LogicalDiscrepancy","Minutes","Additions"];
+const L={pending:"Pending",downloading:"Downloading",zipped:"Downloaded – waiting upload",uploading:"Uploading",uploaded:"On Drive ✓",failed:"Failed",none:"—"};
+let F="all",Q="",D=null,SORT={col:"ac",dir:1};
+const ist=t=>t?new Date(t*1000).toLocaleString("en-IN",{timeZone:"Asia/Kolkata",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:true})+" IST":"";
+const n=x=>(x||0).toLocaleString("en-IN");
+const pill=(st)=>`<span class="pill p-${st}">${L[st]||st}</span>`;
+function jobline(j){
+  if(!j)return "";
+  const d=on=>`<span class="dot ${on?"":"off"}"></span>`;
+  return `${d(j.asdd)}ASDD job ${j.asdd?"running":"idle"} · ${d(j.phase2)}phase 2 ${j.phase2?"running":(j.phase2_done?"done":"idle")} · ${d(j.keeper)}keeper ${j.keeper?"on":"off"}`;
+}
+function flt(){const f=[["all","All"],["in_progress","In progress"],["pending","Pending"],["uploaded","On Drive"],["failed","Failed"],["missing","Missing parts"]];
+document.getElementById("flt").innerHTML=f.map(([k,v])=>`<button class="${F==k?"on":""}" onclick="F='${k}';flt();draw()">${v}</button>`).join("")+`<input placeholder="Search constituency / district" value="${Q.replace(/"/g,"&quot;")}" oninput="Q=this.value.toLowerCase();draw()">`}
+function asddOf(a){return (a.kinds&&a.kinds.ASDD)||{};}
+function rowMatch(a){
+  const s=asddOf(a).status||"pending";
+  const anyActive=KS.some(k=>["downloading","zipped","uploading"].includes((a.kinds[k]||{}).status));
+  const anyFail=KS.some(k=>(a.kinds[k]||{}).status==="failed");
+  const anyMiss=KS.some(k=>((a.kinds[k]||{}).missing||0)>0);
+  if(F=="in_progress") return anyActive;
+  if(F=="pending") return s==="pending";
+  if(F=="uploaded") return s==="uploaded";
+  if(F=="failed") return anyFail;
+  if(F=="missing") return anyMiss;
+  return true;
+}
+function sortRows(rows){
+  const {col,dir}=SORT;
+  const val=a=>{
+    if(col==="ac") return a.ac;
+    if(col==="name") return (a.name||"").toLowerCase();
+    if(col==="district") return (a.district||"").toLowerCase();
+    if(col==="parts") return a.asdd_parts||0;
+    if(col==="required") return a.asdd_required||0;
+    if(col==="missing") return a.asdd_missing||0;
+    if(col==="status") return (asddOf(a).status||"");
+    if(col.startsWith("k:")) return ((a.kinds[col.slice(2)]||{}).status)||"";
+    return 0;
+  };
+  rows.sort((a,b)=>{const va=val(a),vb=val(b);if(va<vb)return -1*dir;if(va>vb)return 1*dir;return a.ac-b.ac;});
+  return rows;
+}
+function th(id,label,cls){
+  const on=SORT.col===id;const arrow=on?(SORT.dir===1?"▲":"▼"):"";
+  return `<th class="${cls||""}" onclick="SORT.col='${id}';SORT.dir=${on?-SORT.dir:1};draw()">${label}<span class="arrow">${arrow}</span></th>`;
+}
+function draw(){
+  if(!D)return;
+  const T=D.totals, j=D.jobs||{};
+  document.getElementById("sub").textContent=(D.updated||ist(D.now))+" · "+jobline(j).replace(/<[^>]+>/g,"");
+  document.getElementById("tot").innerHTML=[
+    ["Total seats",n(T.seats)],
+    ["ASDD on Drive",T.asdd_seats_uploaded+" / "+T.seats],
+    ["Lists downloaded",n(T.lists_downloaded)+" / "+n(T.lists_expected)],
+    ["Lists on Drive",n(T.lists_uploaded)+" / "+n(T.lists_expected)],
+    ["In progress",n(T.lists_in_progress)],
+    ["Failed",n(T.lists_failed)],
+    ["ASDD parts",n(T.asdd_parts_downloaded)+" / "+n(T.asdd_parts_total)],
+    ["Missing parts",n(T.asdd_parts_missing)]
+  ].map(([k,v])=>`<div class="card"><div class="k">${k}</div><div class="v">${v}</div></div>`).join("");
+  const pct=100*T.asdd_seats_uploaded/Math.max(1,T.seats);
+  document.getElementById("ov").innerHTML=`<b>${n(T.asdd_seats_uploaded)}</b> of ${n(T.seats)} seats on Drive (${pct.toFixed(1)}%) · ${n(T.asdd_parts_downloaded)} of ${n(T.asdd_parts_total)} parts`+(T.asdd_parts_missing?` · ${n(T.asdd_parts_missing)} missing`:"");
+  document.getElementById("ovb").style.width=pct+"%";
+  document.getElementById("ovb").className=pct>=100?"ok":"";
+  const fb=document.getElementById("finalbox");
+  if(D.all_done){fb.style.display="";fb.innerHTML=`<div class="k">SIR lists complete</div><div class="w">All ASDD seats are on Drive and the district-list pass is finished. This page will keep showing the final state.</div>`;}
+  else{fb.style.display="none";}
+  document.getElementById("kinds").innerHTML=KS.map(k=>{
+    const x=D.kinds[k]||{};
+    const note=x.note||((k==="Additions"&&!(x.seats_expected||x.seats_total))?"not published by ECI yet":"");
+    const exp=x.seats_expected||0, up=x.seats_uploaded||0;
+    const p=100*up/Math.max(1,exp);
+    return `<div class="card"><b>${KL[k]||k}</b> ${note?`<span class="pill">${note}</span>`:""}
+      <div class="w">${n(up)} / ${n(exp)} seats on Drive · ${n(x.seats_downloaded||0)} downloaded${x.seats_in_progress?` · ${x.seats_in_progress} in progress`:""}${x.seats_failed?` · ${x.seats_failed} failed`:""}</div>
+      <div class="w">${n(x.parts_downloaded||0)} / ${n(x.parts_total||0)} parts${x.parts_missing?` · ${n(x.parts_missing)} missing`:""}</div>
+      <div class="bar" style="margin-top:8px"><i class="${p>=100?"ok":""}" style="width:${p}%"></i></div></div>`;
+  }).join("");
+  const al=[];
+  if((D.in_progress||[]).length){
+    al.push(`<div class="card" style="margin-top:12px"><div class="k">In progress</div><div class="w">${D.in_progress.map(x=>`AC ${x.ac} ${x.name} · ${KL[x.kind]||x.kind} · ${L[x.status]||x.status}${x.required?` (${n(x.parts)}/${n(x.required)})`:""}`).join("<br>")}</div></div>`);
+  }
+  if((D.failed||[]).length){
+    al.push(`<div class="card" style="margin-top:12px;border-color:var(--bad)"><div class="k">Failed</div><div class="w">${D.failed.map(x=>`AC ${x.ac} ${x.name} · ${KL[x.kind]||x.kind}${x.note?": "+x.note:""}`).join("<br>")}</div></div>`);
+  }
+  document.getElementById("alerts").innerHTML=al.join("");
+  document.getElementById("thead").innerHTML=`<tr>${th("ac","AC","num")}${th("name","Constituency")}${th("district","District","hide-sm")}${th("required","Required","num")}${th("parts","Have","num")}${th("missing","Missing","num")}<th style="min-width:110px">Progress</th>${th("status","ASDD")}${th("k:NoMapping","No Map")}${th("k:LogicalDiscrepancy","Logical")}${th("k:Minutes","Minutes")}${th("k:Additions","Additions")}<th>Drive</th></tr>`;
+  let rows=(D.seats||[]).filter(a=>rowMatch(a)&&(!Q||(a.name+" "+a.district+" "+a.ac).toLowerCase().includes(Q)));
+  rows=sortRows(rows.slice());
+  document.getElementById("rows").innerHTML=rows.map(a=>{
+    const s=asddOf(a); const req=a.asdd_required||s.required||0; const have=a.asdd_parts||s.parts||0;
+    const p=Math.min(100,100*have/Math.max(1,req));
+    const kp=k=>pill((a.kinds[k]||{}).status||"none");
+    return `<tr><td class="num">${a.ac}</td><td>${a.name}</td><td class="hide-sm">${a.district||""}</td>
+      <td class="num">${req?n(req):"—"}</td><td class="num">${have?n(have):"—"}</td><td class="num">${a.asdd_missing?n(a.asdd_missing):"—"}</td>
+      <td><div class="bar"><i class="${p>=100?"ok":""}" style="width:${p}%"></i></div><small>${req?p.toFixed(0)+"%":"—"}</small></td>
+      <td>${pill(s.status||"pending")}</td><td>${kp("NoMapping")}</td><td>${kp("LogicalDiscrepancy")}</td><td>${kp("Minutes")}</td><td>${kp("Additions")}</td>
+      <td>${a.drive?`<a href="${a.drive}" target="_blank">Open</a>`:"—"}</td></tr>`;
+  }).join("");
+}
+
+function drawGaps(){
+  const g=D.gaps, r=D.recheck, el=document.getElementById("gaps"); if(!el) return;
+  if(!g){el.style.display="none";return}
+  const dist=a=>{const c={};a.forEach(x=>{c[x.district||"?"]=(c[x.district||"?"]||0)+1});return Object.entries(c).sort((x,y)=>y[1]-x[1]).map(([d,k])=>d+" ("+k+")").join(", ")};
+  const nm=a=>a.map(x=>x.ac+" "+x.name).join(", ");
+  const mp=g.asdd_missing_parts||[];
+  let h=`<b>Known gaps</b> <small>(auto-updated ${D.updated||""})</small><ul style="margin:6px 0 0 18px;padding:0">`;
+  h+=`<li><b>Deletion and duplicate list (ECI):</b> ${n(D.totals.asdd_seats_uploaded)} / ${n(D.totals.seats)} seats on Drive. `+(mp.length?`${mp.length} parts missing because ECI's own link is dead: ${mp.map(x=>x.name+" (AC "+x.ac+") part "+x.part).join(", ")}.`:"No parts missing.")+`</li>`;
+  h+=`<li><b>No district list at all:</b> ${g.neither.length} seats. By district: ${dist(g.neither)||"none"}.<details><summary>Seats</summary>${nm(g.neither)}</details></li>`;
+  h+=`<li><b>Only one of the two lists:</b> ${g.no_nomap.length+g.no_logical.length} seats (${g.no_nomap.length} without No Mapping, ${g.no_logical.length} without Logical Discrepancy).<details><summary>Seats</summary>No Mapping missing: ${nm(g.no_nomap)||"none"}<br>Logical missing: ${nm(g.no_logical)||"none"}</details></li>`;
+  if(r){
+    const f=r.found||{}, F=k=>f[k]?`${f[k].seats} seats (~${n(f[k].pdfs)} PDFs)`:"—";
+    h+=`<li><b>District re-check:</b> ${r.stage||""} <small>(${r.updated||""})</small>. Found so far: No Mapping for ${F("NoMapping")}, Logical Discrepancy for ${F("LogicalDiscrepancy")}.`+(r.downloaded!=null?` Downloaded and verified: ${n(r.downloaded)} PDFs.`:"")+(r.uploaded_seats!=null?` Uploaded to Drive: ${n(r.uploaded_seats)} seat folders.`:"")+((r.notes||[]).length?`<ul style="margin:4px 0 0 18px;padding:0">${r.notes.map(x=>"<li>"+x+"</li>").join("")}</ul>`:"")+`</li>`;
+  }
+  el.innerHTML=h+"</ul>";
+}
+async function load(){try{D=await (await fetch("sir_data.json?t="+Date.now(),{cache:"no-store"})).json();draw();try{drawGaps()}catch(e){}}catch(e){document.getElementById("sub").textContent="Could not load sir_data.json – retrying…"}}
+flt();load();setInterval(load,60000);
+</script></body></html>

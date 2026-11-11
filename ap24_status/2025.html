@@ -1,0 +1,84 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AP 2025 Electoral Roll — status</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1d2433;--mute:#6b7385;--line:#e5e8ee;--ok:#1f9d55;--run:#2563eb;--warn:#d97706;--bad:#dc2626}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+header{padding:18px 0 6px}h1{font-size:19px;margin:0}small,.mute{color:var(--mute)}
+.wrap{padding:0 20px 30px;max-width:1200px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:12px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.k{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.04em}.v{font-size:22px;font-weight:650;margin-top:2px}
+.bar{height:8px;background:#eef0f4;border-radius:5px;overflow:hidden;min-width:60px}.bar>i{display:block;height:100%;background:var(--run)}.bar>i.ok{background:var(--ok)}
+.bar.big{height:12px;margin-top:8px}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line)}
+th,td{padding:7px 9px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{font-size:12px;color:var(--mute);font-weight:600;background:#fafbfc;position:sticky;top:0}
+td.num,th.num{text-align:right}tr:last-child td{border-bottom:0}td.wrap2{white-space:normal;max-width:280px;font-size:12.5px;color:var(--mute)}
+.pill{display:inline-block;padding:1px 8px;border-radius:20px;font-size:12px;font-weight:600;background:#eef0f4;color:var(--mute)}
+.p-on_drive{background:#dcf5e6;color:var(--ok)}.p-working{background:#e0eaff;color:var(--run)}.p-zipped,.p-uploading{background:#fff1d6;color:var(--warn)}.p-no_folder{background:#fde2e2;color:var(--bad)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:16px 0 8px}.tools button{border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 12px;cursor:pointer;font:inherit}
+.tools button.on{background:var(--ink);color:#fff;border-color:var(--ink)}.tools input{border:1px solid var(--line);border-radius:20px;padding:6px 12px;font:inherit;flex:1;min-width:140px;max-width:260px}
+.scroll{overflow-x:auto;border-radius:10px;border:1px solid var(--line)}a{color:var(--run);text-decoration:none}
+.hosts{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px}.w{font-size:12.5px;color:var(--mute);margin-top:6px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px}.dot.off{background:var(--bad)}
+h2{font-size:15px;margin:22px 0 6px}
+.stale{display:none;background:#fde2e2;color:var(--bad);border:1px solid #f5b5b5;border-radius:10px;padding:10px 14px;margin:10px 0;font-weight:600}
+.tabs{display:flex;gap:6px;margin:0 0 10px;flex-wrap:wrap}.tabs a{border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 14px;color:var(--ink);font-weight:600;font-size:13px}.tabs a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+@media(max-width:640px){.hide-sm{display:none}th,td{padding:6px}}
+</style></head><body><div class="wrap">
+<header><nav class="tabs"><a href="./">2024 roll</a><a class="on" href="2025.html">2025 roll</a><a href="2026.html">2026 roll</a><a href="sir.html">2026 SIR lists</a></nav>
+<h1>AP 2025 Final Roll — download status</h1><small id="sub">loading…</small></header>
+<div class="stale" id="stale"></div>
+<div class="grid" id="tot"></div>
+<div class="card"><div class="k">Parts downloaded (all 175 seats)</div><div id="ov"></div><div class="bar big"><i id="ovb" class="ok"></i></div></div>
+<h2>Lanes</h2><div class="hosts" id="lanes"></div>
+<div class="tools" id="flt"></div>
+<div class="scroll"><table><thead><tr><th class="num">AC</th><th>Constituency</th><th class="hide-sm">District</th><th class="num">Parts</th><th style="min-width:100px">Progress</th><th>Status</th><th class="hide-sm">Lane</th><th class="num hide-sm">GB</th><th>Stuck parts</th><th>Drive</th></tr></thead><tbody id="rows"></tbody></table></div>
+<p class="mute" style="margin-top:18px">Source: ECI voters portal, Final Roll 2025 (published 6 Jan 2025), English PDFs. Files go to <b>Voter_Rolls/&lt;Seat&gt;/2025</b> as <code>&lt;seat&gt;_2025_partNN.zip</code>. Some parts are listed by ECI but have no 2025 PDF (ECI answers "File not found"); they are counted as "no PDF on ECI", not as stuck. Stuck parts are retried automatically after every seat is done, and each seat folder gets a <code>MISSING_PARTS_NOTE_2025.txt</code> while any part is missing. Google Colab is the main worker; the Grok box lane is a bonus that pauses while that computer sleeps and resumes by itself. A seat held by a lane that goes quiet for 15 minutes goes back to the queue for another lane. This page refreshes itself.</p>
+</div>
+<script>
+const L={pending:"Waiting",working:"Downloading",zipped:"Zipped, waiting to upload",uploading:"Uploading",on_drive:"On Drive ✓",no_folder:"No seat folder"};
+let D=null,F="all",Q="";
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pct=(a,b)=>b?Math.min(100,Math.round(100*a/b)):0;
+function ago(s){if(s<90)return s+" s ago";if(s<5400)return Math.round(s/60)+" min ago";return (s/3600).toFixed(1)+" h ago"}
+function draw(){
+ const t=D.totals,now=Date.now()/1000,age=now-D.updated_ts;
+ document.getElementById("sub").textContent="Updated "+D.updated+" ("+ago(Math.max(0,Math.round(age)))+") · "+D.roll;
+ const st=document.getElementById("stale");
+ if(age>1500){st.style.display="block";st.textContent="This page has not been refreshed for "+ago(Math.round(age))+". The numbers below may be out of date.";}else st.style.display="none";
+ const box=(k,v,s)=>`<div class="card"><div class="k">${k}</div><div class="v">${v}</div>${s?`<div class="w">${s}</div>`:""}</div>`;
+ document.getElementById("tot").innerHTML=
+  box("Seats on Drive",t.on_drive+" / "+t.seats)+box("Downloading now",t.working)+box("Waiting to upload",t.waiting_upload)+
+  box("Parts done",t.parts_done.toLocaleString()+" / "+t.parts_total.toLocaleString(),t.no_pdf?t.no_pdf+" listed parts have no PDF on ECI":"")+box("Size so far",t.gb+" GB")+
+  box("Speed",t.parts_per_min+" parts/min",t.eta_hours!=null?"about "+t.eta_hours+" h left at this pace":"")+box("Stuck parts",t.stuck_parts);
+ const p=pct(t.parts_done+(t.no_pdf||0),t.parts_total);
+ document.getElementById("ov").textContent=p+"%";document.getElementById("ovb").style.width=p+"%";
+ const SP={active:["","Running"],paused:["p-zipped","Paused"],stopped:["p-zipped","Not running"],benched:["p-no_folder","Benched"],retired:["","Retired"]};
+ const ER=e=>Object.entries(e||{}).filter(([k])=>!k.startsWith("relay_on")).sort((a,b)=>b[1]-a[1]).slice(0,4).map(([k,v])=>k.replace(/_/g," ")+" "+v).join(", ");
+ const lanes=(D.lanes||[]).filter(l=>l.state!=="retired"||l.age_s<3600);
+ document.getElementById("lanes").innerHTML=lanes.map(l=>{const s=l.state||(l.stale?"stopped":"active"),on=s==="active",sp=SP[s]||["",s];
+  return `<div class="card"><div><span class="dot ${on?"":"off"}" style="${s==="paused"?"background:var(--warn)":""}"></span><b>${esc(l.host||l.lane)}</b> <span class="pill ${sp[0]}">${sp[1]}</span></div>
+  ${l.state_text?`<div class="w">${esc(l.state_text)}</div>`:""}
+  <div class="w">Last seen ${esc(l.last_seen)} (${ago(l.age_s)})</div>
+  ${on?`<div class="w"><b>${l.parts_per_min??0} parts/min</b> · ${l.mbps??0} MB/s · seats ${esc((l.seats||[]).join(", ")||"–")} · done ${l.seats_done??0}</div>`:""}
+  ${on&&l.net?`<div class="w">ECI via ${esc([...new Set(Object.values(l.net))].join("/"))}${ER(l.errs)?" · last 10 min: "+esc(ER(l.errs)):""}</div>`:""}
+  ${l.uploading?`<div class="w">Uploading AC ${esc(l.uploading)}</div>`:""}${on&&l.up_gate?`<div class="w">Upload paused: ${esc(l.up_gate)}</div>`:""}
+  ${on&&l.msg&&l.msg!=="working"?`<div class="w">${esc(l.msg)}</div>`:""}</div>`}).join("")||'<div class="mute">No lane has checked in yet.</div>';
+ const cnt=s=>D.seats.filter(x=>s==="all"||x.status===s||(s==="stuck"&&x.nmissing)).length;
+ const fl=[["all","All"],["working","Downloading"],["zipped","Waiting to upload"],["uploading","Uploading"],["on_drive","On Drive"],["stuck","Has stuck parts"],["pending","Waiting"]];
+ document.getElementById("flt").innerHTML=fl.map(([k,n])=>`<button class="${F===k?"on":""}" data-f="${k}">${n} (${cnt(k)})</button>`).join("")+`<input id="q" placeholder="Search seat or AC" value="${esc(Q)}">`;
+ document.querySelectorAll("#flt button").forEach(b=>b.onclick=()=>{F=b.dataset.f;draw()});
+ const qi=document.getElementById("q");qi.oninput=()=>{Q=qi.value;drawRows()};drawRows();
+}
+function drawRows(){
+ const q=Q.trim().toLowerCase();
+ const rows=D.seats.filter(x=>(F==="all"||x.status===F||(F==="stuck"&&x.nmissing))&&(!q||String(x.ac)===q||x.name.toLowerCase().includes(q)||x.district.toLowerCase().includes(q)));
+ document.getElementById("rows").innerHTML=rows.map(x=>{const p=pct(x.done+(x.status==="working"?0:(x.absent||0)),x.total);
+  const miss=x.nmissing?(x.missing.join(", ")+(x.nmissing>x.missing.length?" …":"")+(x.retrying?" (retrying now)":x.retry_round?` (after ${x.retry_round} retry pass${x.retry_round>1?"es":""})`:"")):"";
+  return `<tr><td class="num">${x.ac}</td><td>${esc(x.name)}</td><td class="hide-sm">${esc(x.district)}</td><td class="num">${x.done} / ${x.total}${x.absent?`<div class="mute" style="font-size:11.5px">${x.absent} no PDF on ECI</div>`:""}</td>
+  <td><div class="bar"><i class="${x.status==="on_drive"?"ok":""}" style="width:${p}%"></i></div></td><td><span class="pill p-${x.status}">${L[x.status]||x.status}</span></td>
+  <td class="hide-sm">${esc(x.lane||"")}</td><td class="num hide-sm">${x.gb||""}</td><td class="wrap2">${esc(miss)}</td><td>${x.link?`<a href="${esc(x.link)}" target="_blank" rel="noopener">Open</a>`:""}</td></tr>`}).join("");
+}
+async function load(){try{const r=await fetch("data_2025.json?t="+Date.now(),{cache:"no-store"});D=await r.json();draw()}catch(e){document.getElementById("sub").textContent="Could not load data_2025.json"}}
+load();setInterval(load,60000);
+</script></body></html>

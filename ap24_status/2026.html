@@ -26,7 +26,7 @@ h2{font-size:15px;margin:22px 0 6px}details{margin-top:14px}
 .tabs{display:flex;gap:6px;margin:0 0 10px}.tabs a{border:1px solid var(--line);background:#fff;border-radius:20px;padding:5px 14px;color:var(--ink);font-weight:600;font-size:13px}.tabs a.on{background:var(--ink);color:#fff;border-color:var(--ink)}
 .p-on_drive{background:#dcf5e6;color:var(--ok)}.p-to_download{background:#eef0f4;color:var(--mute)}.p-partial{background:#fff1d6;color:var(--warn)}.p-downloading{background:#e0eaff;color:var(--run)}.p-downloaded,.p-uploading{background:#fff1d6;color:var(--warn)}
 </style></head><body>
-<header class="wrap" style="padding-left:0;padding-right:0"><nav class="tabs"><a href="./">2024 roll</a><a class="on" href="2026.html">2026 roll</a></nav>
+<header class="wrap" style="padding-left:0;padding-right:0"><nav class="tabs"><a href="./">2024 roll</a><a href="2025.html">2025 roll</a><a class="on" href="2026.html">2026 roll</a><a href="sir.html">2026 SIR lists</a></nav>
 <h1>AP 2026 SIR Draft Roll — download status</h1>
 <small id="sub">loading…</small></header>
 <div class="wrap">
@@ -57,7 +57,7 @@ if(D.final||D.phase==="done"){fb.style.display="";fb.innerHTML=`<div class="k">2
 const t=D.test||{};
 document.getElementById("plan").innerHTML=`<div class="w" style="margin-top:0"><b>Roll:</b> ${D.roll}</div><div class="w"><b>Source:</b> ${D.source}</div>`+(t.files?`<div class="w"><b>Speed test:</b> ${t.files} parts (${t.mb} MB) in ${t.secs} s on the ${t.host} · ${t.mbps} MB/s · ~${t.per_min} parts/min per server</div>`:"")+`<div class="w"><b>Average part:</b> ~${T.avg_mb} MB</div>`;
 const hs=Object.entries(D.hosts||{});document.getElementById("hh").style.display=hs.length?"":"none";
-document.getElementById("hosts").innerHTML=hs.map(([h,v])=>`<div class="card"><b>${h}</b> <span class="pill ${v.workers?"p-running":"p-queued"}">${v.workers?"Online":"Idle"}</span><div class="w">${v.workers||0} workers · ${(v.per_min||0).toFixed(1)} parts/min${v.mbps?` · ${v.mbps} MB/s`:""} · ${n(v.done||0)} parts done${v.seats_uploaded?` · ${v.seats_uploaded} seats on Drive`:""}${(v.current_acs&&v.current_acs.length)?` · now AC ${v.current_acs.join(", ")}`:(v.current_ac?` · now AC ${v.current_ac}`:"")}</div>${v.hint&&!v.workers?`<div class="w">${v.hint}</div>`:""}</div>`).join("");
+document.getElementById("hosts").innerHTML=hs.map(([h,v])=>`<div class="card"><b>${h}</b> <span class="pill ${v.workers?"p-running":"p-queued"}">${v.workers?"Online":"Idle"}</span><div class="w">${v.workers||0} workers · ${(v.per_min||0).toFixed(1)} parts/min${v.mbps?` · ${v.mbps} MB/s`:""} · ${n(v.done||0)} parts done${v.seats_uploaded?` · ${v.seats_uploaded} seats on Drive`:""}${(v.current_acs&&v.current_acs.length)?` · now AC ${v.current_acs.join(", ")}`:(v.current_ac?` · now AC ${v.current_ac}`:"")}</div>${v.hint&&(!v.workers||h.startsWith("MacBook"))?`<div class="w">${v.hint}</div>`:""}</div>`).join("");
 let rows=D.acs.filter(a=>(F=="all"||a.status==F)&&(!Q||(a.name+" "+a.district+" "+a.ac).toLowerCase().includes(Q)));
 document.getElementById("rows").innerHTML=rows.map(a=>{const shown=(a.status==="downloading"||a.status==="downloaded"||a.status==="uploading")?(a.dl||a.have||0):(a.have||0);const p=Math.min(100,100*shown/Math.max(1,a.required));
 return `<tr><td class="num">${a.ac}</td><td>${a.name}</td><td class="hide-sm">${a.district}</td><td class="num">${n(a.required)}</td><td class="num">${a.have?n(a.have):"—"}</td><td class="num">${a.todo?n(a.todo):"—"}</td>
