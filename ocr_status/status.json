@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 02:56:54 AM IST",
- "updated_epoch": 1794518814,
+ "updated": "13 Nov 2026, 03:06:58 AM IST",
+ "updated_epoch": 1794519418,
  "total_constituencies": 175,
- "done_constituencies": 36,
+ "done_constituencies": 40,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 36,
+   "done": 40,
    "errors": 0,
-   "parts": 10456,
-   "needs_review": 309,
+   "parts": 11604,
+   "needs_review": 345,
    "failed": 0,
-   "electors": 7727496,
-   "eta": "13 Nov, 01:22 PM IST"
+   "electors": 8579433,
+   "eta": "13 Nov, 11:33 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 02:16 AM IST"
+   "eta": "13 Nov, 10:18 PM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 02:56:50 IST",
+  "phase": "OCR 33 - Payakaraopet (2026)",
+  "updated": "2026-11-13 03:06:55 IST",
   "year": "2026",
-  "next": "31 - Pendurthi (2026)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,30 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "31 - Pendurthi (2026)",
+   "ac": "33 - Payakaraopet",
+   "phase": "OCR",
+   "processed": 250,
+   "total": 312,
+   "parts_per_min": 104.9,
+   "prefetch": "",
    "uploading": [],
-   "done_session": 3,
-   "parts_session": 926,
+   "done_session": 5,
+   "parts_session": 1533,
    "last": [
+    {
+     "ac": "32 - Yelamanchili",
+     "year": "2026",
+     "parts": 266,
+     "secs": 249,
+     "finished": "2026-11-13 03:03:46 IST"
+    },
+    {
+     "ac": "31 - Pendurthi",
+     "year": "2026",
+     "parts": 341,
+     "secs": 436,
+     "finished": "2026-11-13 03:01:50 IST"
+    },
     {
      "ac": "30 - Anakapalle",
      "year": "2026",
@@ -73,85 +87,83 @@
      "finished": "2026-11-13 02:51:38 IST"
     }
    ],
-   "load1": 8.57,
-   "cores_busy": 0,
-   "updated": "2026-11-13 02:56:50 IST",
-   "updated_epoch": 1794518810,
-   "fetch": {
-    "ac": "31 - Pendurthi",
-    "year": "2026",
-    "done": 37,
-    "total": 46,
-    "mb": 3037.0,
-    "mbps": 22.27
-   },
-   "age_s": 4
+   "load1": 10.27,
+   "cores_busy": 8,
+   "updated": "2026-11-13 03:06:55 IST",
+   "updated_epoch": 1794519415,
+   "fetch": null,
+   "age_s": 3
   },
   {
    "worker": "mac",
-   "host": "192.168.1.17",
+   "host": "192.168.1.7",
    "cores_total": 10,
    "ocr_workers": 10,
-   "started": "2026-11-13 02:19:22 IST",
-   "year": "2026",
-   "ac": "169 - Satyavedu",
-   "phase": "OCR",
+   "started": "2026-11-13 03:02:58 IST",
+   "year": "",
+   "ac": "",
+   "phase": "downloading",
    "processed": 0,
-   "total": 279,
-   "parts_per_min": 0.0,
-   "prefetch": "",
-   "uploading": [
-    "170 - Nagari"
-   ],
-   "done_session": 5,
-   "parts_session": 1446,
-   "last": [
-    {
-     "ac": "171 - Gangadhara Nellore",
-     "year": "2026",
-     "parts": 277,
-     "secs": 728,
-     "finished": "2026-11-13 02:51:48 IST"
-    },
-    {
-     "ac": "172 - Chittoor",
-     "year": "2026",
-     "parts": 256,
-     "secs": 658,
-     "finished": "2026-11-13 02:44:53 IST"
-    },
-    {
-     "ac": "173 - Puthalapattu",
-     "year": "2026",
-     "parts": 294,
-     "secs": 713,
-     "finished": "2026-11-13 02:39:52 IST"
-    },
-    {
-     "ac": "174 - Palamaner",
-     "year": "2026",
-     "parts": 325,
-     "secs": 845,
-     "finished": "2026-11-13 02:36:37 IST"
-    },
-    {
-     "ac": "175 - Kuppam",
-     "year": "2026",
-     "parts": 294,
-     "secs": 499,
-     "finished": "2026-11-13 02:27:51 IST"
-    }
-   ],
-   "load1": 19.02,
-   "cores_busy": 10,
-   "updated": "2026-11-13 02:56:10 IST",
-   "updated_epoch": 1794518770,
-   "fetch": null,
-   "age_s": 44
+   "total": 0,
+   "parts_per_min": 0,
+   "prefetch": "168 - Srikalahasti (2026)",
+   "uploading": [],
+   "done_session": 0,
+   "parts_session": 0,
+   "last": [],
+   "load1": 1.69,
+   "cores_busy": 0,
+   "updated": "2026-11-13 03:06:47 IST",
+   "updated_epoch": 1794519407,
+   "fetch": {
+    "ac": "168 - Srikalahasti",
+    "year": "2026",
+    "done": 26,
+    "total": 34,
+    "mb": 2075.1,
+    "mbps": 11.46
+   },
+   "age_s": 11
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 16.0,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "32 - Yelamanchili",
+   "worker": "box",
+   "parts": 266,
+   "electors": 190527,
+   "secs": 149,
+   "finished": "2026-11-13 03:03:43 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "169 - Satyavedu",
+   "worker": "mac",
+   "parts": 279,
+   "electors": 192102,
+   "secs": 355,
+   "finished": "2026-11-13 03:02:47 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "31 - Pendurthi",
+   "worker": "box",
+   "parts": 341,
+   "electors": 286494,
+   "secs": 191,
+   "finished": "2026-11-13 03:01:47 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "170 - Nagari",
+   "worker": "mac",
+   "parts": 262,
+   "electors": 182814,
+   "secs": 323,
+   "finished": "2026-11-13 02:56:53 IST"
+  },
   {
    "year": "2026",
    "ac": "30 - Anakapalle",
@@ -187,42 +199,6 @@
    "electors": 221949,
    "secs": 185,
    "finished": "2026-11-13 02:50:52 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "172 - Chittoor",
-   "worker": "mac",
-   "parts": 256,
-   "electors": 177100,
-   "secs": 326,
-   "finished": "2026-11-13 02:44:46 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "27 - Madugula",
-   "worker": "box",
-   "parts": 238,
-   "electors": 176391,
-   "secs": 136,
-   "finished": "2026-11-13 02:43:40 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "26 - Chodavaram",
-   "worker": "box",
-   "parts": 272,
-   "electors": 214277,
-   "secs": 152,
-   "finished": "2026-11-13 02:40:38 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "173 - Puthalapattu",
-   "worker": "mac",
-   "parts": 294,
-   "electors": 202434,
-   "secs": 370,
-   "finished": "2026-11-13 02:39:44 IST"
   }
  ],
  "failures": [],
@@ -839,6 +815,91 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1jX85CHG3FRStvk5_Vpnk52NCnsHVnuPxh1RiL6wnRxg/edit",
    "folder": "https://drive.google.com/drive/folders/1r-3NINP030GCG3qKYm4Z48zuvKg4BEVx"
+  },
+  {
+   "label": "170 - Nagari",
+   "district": "Chittoor",
+   "year": "2026",
+   "state": "done",
+   "total": 262,
+   "processed": 262,
+   "needs_review": 24,
+   "failed": 0,
+   "elapsed_s": 323,
+   "electors": 182814,
+   "rate_per_min": 48.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1zkDHUsYUckWFyapeou9Qn6FIucL5elj2umMJOMhPUnY/edit",
+   "folder": "https://drive.google.com/drive/folders/1qfJ1J4z8lgJUMO_0qARyX2I8YVTiXWVG"
+  },
+  {
+   "label": "31 - Pendurthi",
+   "district": "Anakapalli",
+   "year": "2026",
+   "state": "done",
+   "total": 341,
+   "processed": 341,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 191,
+   "electors": 286494,
+   "rate_per_min": 107.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1dlfpOvBM2ktmo-YV7rQUSwL_rMFdZV8k2Id_VysnB9w/edit",
+   "folder": "https://drive.google.com/drive/folders/1S-QPfCYc8SRlRDorGYaOftZ7-Qj-rPyk"
+  },
+  {
+   "label": "32 - Yelamanchili",
+   "district": "Anakapalli",
+   "year": "2026",
+   "state": "done",
+   "total": 266,
+   "processed": 266,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 149,
+   "electors": 190527,
+   "rate_per_min": 107.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1LZBAzq97AyFGGKKcETv4owv7cW1RF38IluKw5MNCz3Q/edit",
+   "folder": "https://drive.google.com/drive/folders/1vZEKapD7iyzyFqL-Mm4WRE7Ky8aNY4bJ"
+  },
+  {
+   "label": "169 - Satyavedu",
+   "district": "Tirupati",
+   "year": "2026",
+   "state": "done",
+   "total": 279,
+   "processed": 279,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 355,
+   "electors": 192102,
+   "rate_per_min": 47.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Ndp0xxQAzAORZVbWexusUFVVvxS04bn5CQsYpW_Ee-s/edit",
+   "folder": "https://drive.google.com/drive/folders/1u_CESa8eVz7CkatxUMBGTNvvzMYH9NHM"
+  },
+  {
+   "label": "33 - Payakaraopet",
+   "district": "Anakapalli",
+   "year": "2026",
+   "state": "running",
+   "total": 312,
+   "processed": 260,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 146,
+   "electors": null,
+   "rate_per_min": 106.8,
+   "eta_s": 29,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
