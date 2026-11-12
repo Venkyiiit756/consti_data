@@ -1,24 +1,26 @@
 {
- "updated": "12 Nov 2026, 10:04:17 PM IST",
- "updated_epoch": 1794501257,
+ "updated": "12 Nov 2026, 10:14:26 PM IST",
+ "updated_epoch": 1794501866,
  "total_constituencies": 174,
- "done_constituencies": 2,
+ "done_constituencies": 3,
  "years": {
   "2026": {
    "total_constituencies": 174,
-   "done": 2,
+   "done": 3,
    "errors": 0,
-   "parts": 564,
-   "needs_review": 11,
+   "parts": 883,
+   "needs_review": 17,
    "failed": 0,
-   "electors": 440859
+   "electors": 682458
   }
  },
  "batch": {
-  "phase": "OCR 1 - Ichchapuram (2026)",
-  "updated": "2026-11-12 22:02:53 IST",
+  "phase": "Scanning Drive for 2026 rolls",
+  "updated": "2026-11-12 22:10:48 IST",
   "year": "2026",
-  "next": ""
+  "next": "",
+  "eta": "",
+  "per_ac_s": 242
  },
  "runs": [
   {
@@ -59,18 +61,18 @@
    "label": "1 - Ichchapuram",
    "district": "Srikakulam",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 319,
-   "processed": 120,
-   "needs_review": 8,
+   "processed": 319,
+   "needs_review": 14,
    "failed": 0,
-   "elapsed_s": 82,
-   "electors": null,
-   "rate_per_min": 87.8,
-   "eta_s": 136,
+   "elapsed_s": 235,
+   "electors": 241599,
+   "rate_per_min": 81.4,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1utXHhUYUk0sOT4PprInbwQVYShH-O90qkJgQPNY6S44/edit",
+   "folder": "https://drive.google.com/drive/folders/1W5n3LppqaEDFzoxht_uzCSEnxkmkzz0N"
   }
  ]
 }
