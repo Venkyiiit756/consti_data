@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 04:28:51 AM IST",
- "updated_epoch": 1794524331,
+ "updated": "13 Nov 2026, 04:50:37 AM IST",
+ "updated_epoch": 1794525637,
  "total_constituencies": 175,
- "done_constituencies": 61,
+ "done_constituencies": 64,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 61,
+   "done": 64,
    "errors": 0,
-   "parts": 17664,
-   "needs_review": 662,
+   "parts": 18609,
+   "needs_review": 694,
    "failed": 0,
-   "electors": 13122641,
-   "eta": "13 Nov, 11:36 AM IST"
+   "electors": 13792782,
+   "eta": "13 Nov, 01:36 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 10:21 PM IST"
+   "eta": "14 Nov, 03:11 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 42 - Ramachandrapuram (2026)",
-  "updated": "2026-11-13 04:28:49 IST",
+  "updated": "2026-11-13 04:50:33 IST",
   "year": "2026",
   "next": "43 - Mummidivaram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2026",
    "ac": "42 - Ramachandrapuram",
    "phase": "OCR",
-   "processed": 20,
+   "processed": 50,
    "total": 247,
-   "parts_per_min": 68.0,
+   "parts_per_min": 2.3,
    "prefetch": "43 - Mummidivaram (2026)",
    "uploading": [],
    "done_session": 14,
@@ -87,19 +87,19 @@
      "finished": "2026-11-13 03:25:37 IST"
     }
    ],
-   "load1": 10.85,
+   "load1": 11.7,
    "cores_busy": 8,
-   "updated": "2026-11-13 04:28:49 IST",
-   "updated_epoch": 1794524329,
+   "updated": "2026-11-13 04:50:33 IST",
+   "updated_epoch": 1794525633,
    "fetch": {
     "ac": "43 - Mummidivaram",
     "year": "2026",
-    "done": 7,
+    "done": 14,
     "total": 41,
-    "mb": 491.2,
-    "mbps": 41.84
+    "mb": 949.5,
+    "mbps": 44.48
    },
-   "age_s": 2
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -108,16 +108,39 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "156 - Madakasira",
+   "ac": "152 - Singanamala",
    "phase": "OCR",
-   "processed": 140,
-   "total": 274,
-   "parts_per_min": 48.5,
-   "prefetch": "153 - Anantapur Urban (2026)",
-   "uploading": [],
-   "done_session": 12,
-   "parts_session": 3669,
+   "processed": 10,
+   "total": 314,
+   "parts_per_min": 29.7,
+   "prefetch": "149 - Uravakonda (2026)",
+   "uploading": [
+    "153 - Anantapur Urban"
+   ],
+   "done_session": 15,
+   "parts_session": 4533,
    "last": [
+    {
+     "ac": "154 - Kalyandurg",
+     "year": "2026",
+     "parts": 282,
+     "secs": 653,
+     "finished": "2026-11-13 04:42:53 IST"
+    },
+    {
+     "ac": "155 - Raptadu",
+     "year": "2026",
+     "parts": 308,
+     "secs": 688,
+     "finished": "2026-11-13 04:37:47 IST"
+    },
+    {
+     "ac": "156 - Madakasira",
+     "year": "2026",
+     "parts": 274,
+     "secs": 583,
+     "finished": "2026-11-13 04:31:44 IST"
+    },
     {
      "ac": "157 - Hindupur",
      "year": "2026",
@@ -131,46 +154,52 @@
      "parts": 296,
      "secs": 693,
      "finished": "2026-11-13 04:19:38 IST"
-    },
-    {
-     "ac": "159 - Puttaparthi",
-     "year": "2026",
-     "parts": 264,
-     "secs": 708,
-     "finished": "2026-11-13 04:13:32 IST"
-    },
-    {
-     "ac": "160 - Dharmavaram",
-     "year": "2026",
-     "parts": 315,
-     "secs": 698,
-     "finished": "2026-11-13 04:07:48 IST"
-    },
-    {
-     "ac": "161 - Kadiri",
-     "year": "2026",
-     "parts": 325,
-     "secs": 741,
-     "finished": "2026-11-13 04:00:50 IST"
     }
    ],
-   "load1": 30.82,
+   "load1": 21.83,
    "cores_busy": 10,
-   "updated": "2026-11-13 04:27:59 IST",
-   "updated_epoch": 1794524279,
+   "updated": "2026-11-13 04:49:44 IST",
+   "updated_epoch": 1794525584,
    "fetch": {
-    "ac": "153 - Anantapur Urban",
+    "ac": "149 - Uravakonda",
     "year": "2026",
-    "done": 12,
-    "total": 37,
-    "mb": 1039.7,
-    "mbps": 13.57
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 52
+   "age_s": 53
   }
  ],
- "throughput_ac_per_hr": 16.0,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "153 - Anantapur Urban",
+   "worker": "mac",
+   "parts": 355,
+   "electors": 228673,
+   "secs": 421,
+   "finished": "2026-11-13 04:49:43 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "154 - Kalyandurg",
+   "worker": "mac",
+   "parts": 282,
+   "electors": 217858,
+   "secs": 332,
+   "finished": "2026-11-13 04:42:46 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "155 - Raptadu",
+   "worker": "mac",
+   "parts": 308,
+   "electors": 223610,
+   "secs": 374,
+   "finished": "2026-11-13 04:37:39 IST"
+  },
   {
    "year": "2026",
    "ac": "41 - Kakinada City",
@@ -215,33 +244,6 @@
    "electors": 214116,
    "secs": 377,
    "finished": "2026-11-13 04:18:55 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "38 - Kakinada Rural",
-   "worker": "box",
-   "parts": 281,
-   "electors": 227143,
-   "secs": 2985,
-   "finished": "2026-11-13 04:16:35 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "159 - Puttaparthi",
-   "worker": "mac",
-   "parts": 264,
-   "electors": 198229,
-   "secs": 332,
-   "finished": "2026-11-13 04:12:49 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "160 - Dharmavaram",
-   "worker": "mac",
-   "parts": 315,
-   "electors": 235180,
-   "secs": 392,
-   "finished": "2026-11-13 04:07:40 IST"
   }
  ],
  "failures": [],
@@ -1290,16 +1292,67 @@
    "year": "2026",
    "state": "running",
    "total": 247,
-   "processed": 20,
-   "needs_review": 0,
+   "processed": 60,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 14,
+   "elapsed_s": 1325,
    "electors": null,
-   "rate_per_min": 85.7,
-   "eta_s": 159,
+   "rate_per_min": 2.7,
+   "eta_s": 4130,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "153 - Anantapur Urban",
+   "district": "Ananthapuramu",
+   "year": "2026",
+   "state": "done",
+   "total": 355,
+   "processed": 355,
+   "needs_review": 11,
+   "failed": 0,
+   "elapsed_s": 421,
+   "electors": 228673,
+   "rate_per_min": 50.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1PS14kVqxgOGzW3MNavEebi8Cp1UCD3RrXK9IWogXVZw/edit",
+   "folder": "https://drive.google.com/drive/folders/1ALdrHwPSTGqCM3AZ2_Yawi_tuCYP6dUY"
+  },
+  {
+   "label": "154 - Kalyandurg",
+   "district": "Ananthapuramu",
+   "year": "2026",
+   "state": "done",
+   "total": 282,
+   "processed": 282,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 332,
+   "electors": 217858,
+   "rate_per_min": 51.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1cbyDCGXuqzohjhYQtc-1bBVRphZvFv2iR3F0THMwd60/edit",
+   "folder": "https://drive.google.com/drive/folders/1NsVuMVBJXdPp1C2ZQyldy686zEEyitoV"
+  },
+  {
+   "label": "155 - Raptadu",
+   "district": "Ananthapuramu",
+   "year": "2026",
+   "state": "done",
+   "total": 308,
+   "processed": 308,
+   "needs_review": 14,
+   "failed": 0,
+   "elapsed_s": 374,
+   "electors": 223610,
+   "rate_per_min": 49.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1kyQjXp2SoOiU4XlqMFUCjunxQAyFrJOpHp5vikcTaI4/edit",
+   "folder": "https://drive.google.com/drive/folders/10UUNq0mr_hlbBwKGsx78TscHxiipgxNt"
   }
  ]
 }
