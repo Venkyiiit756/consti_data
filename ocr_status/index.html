@@ -12,47 +12,56 @@ main{max-width:860px;margin:0 auto;padding:24px 16px}h1{font-size:20px;margin:0 
 table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--b)}th{color:var(--t2);font-weight:500;font-size:12px}
 td.n,th.n{text-align:right}a{color:var(--acc);text-decoration:none}.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px}.stale .dot{background:var(--bad)}
-.scroll{overflow-x:auto}
+.scroll{overflow-x:auto}.yr{display:flex;justify-content:space-between;align-items:baseline}.yr h2{font-size:16px;margin:0}
+.tabs{display:flex;gap:6px;margin-bottom:10px}.tabs button{font:inherit;font-size:13px;padding:4px 12px;border-radius:8px;border:1px solid var(--b);background:transparent;color:var(--t2);cursor:pointer}.tabs button.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.muted{color:var(--t2);font-size:12px}
 </style></head><body><main>
 <h1>Voter Roll OCR – Live</h1><div class="sub" id="upd"><span class="dot"></span>loading…</div>
-<div class="card"><div class="grid">
-<div><div class="k">Constituencies done</div><div class="v" id="cdone">–</div></div>
-<div><div class="k">Parts processed</div><div class="v" id="pdone">–</div></div>
-<div><div class="k">Needs review</div><div class="v" id="rev">–</div></div>
-<div><div class="k">Failed</div><div class="v" id="fail">–</div></div>
-</div></div>
-<div class="card" id="cur"></div>
-<div class="card"><div class="k" style="margin-bottom:8px">Finished constituencies</div><div class="scroll"><table>
-<thead><tr><th>Constituency</th><th class="n">Parts</th><th class="n">Review</th><th class="n">Failed</th><th class="n">Time</th><th>Sheet</th></tr></thead>
+<div id="years"></div>
+<div class="card" id="cur" style="display:none"></div>
+<div class="card" id="errc" style="display:none"><div class="k" style="margin-bottom:8px">Skipped after errors</div><div class="scroll"><table><tbody id="errs"></tbody></table></div></div>
+<div class="card"><div class="yr" style="margin-bottom:8px"><div class="k">Finished constituencies</div><div class="tabs" id="tabs"></div></div><div class="scroll"><table>
+<thead><tr><th>Constituency</th><th class="n">Parts</th><th class="n">Electors</th><th class="n">Review</th><th class="n">Failed</th><th>Sheet</th></tr></thead>
 <tbody id="done"></tbody></table></div></div>
 </main><script>
 const $=id=>document.getElementById(id),fmt=n=>(n||0).toLocaleString('en-IN');
 const dur=s=>s==null?'–':s<60?Math.round(s)+'s':s<3600?Math.floor(s/60)+'m '+Math.round(s%60)+'s':Math.floor(s/3600)+'h '+Math.round(s%3600/60)+'m';
 const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let base='',lastLive=0;
+const acn=l=>parseInt(l)||0;
+let base='',lastLive=0,tab=null;
 async function getStatus(){
  if(Date.now()-lastLive>60000){lastLive=Date.now();try{const l=await (await fetch('live.json?t='+Date.now(),{cache:'no-store'})).json();
    base=(l.tunnel&&!location.href.startsWith(l.tunnel))?l.tunnel.replace(/\/$/,'')+'/':''}catch(e){base=''}}
  if(base){try{return await (await fetch(base+'status.json?t='+Date.now(),{cache:'no-store'})).json()}catch(e){}}
  return await (await fetch('status.json?t='+Date.now(),{cache:'no-store'})).json();
 }
+function setTab(y){tab=y;tick()}
 async function tick(){try{
- const d=await getStatus(), R=d.runs||[];
+ const d=await getStatus(), R=d.runs||[], Y=d.years||{'2026':{total_constituencies:d.total_constituencies,done:d.done_constituencies}};
  const stale=Date.now()/1000-d.updated_epoch>60;
  $('upd').className='sub'+(stale?' stale':''); $('upd').innerHTML='<span class="dot"></span>'+(stale?'Pipeline idle/offline · last update ':'Live · updated ')+esc(d.updated);
- $('cdone').textContent=d.done_constituencies+' / '+d.total_constituencies;
- const P=R.reduce((a,r)=>a+r.processed,0),T=R.reduce((a,r)=>a+r.total,0);
- $('pdone').textContent=fmt(P)+(R.some(r=>r.state!=='done')?' / '+fmt(T):'');
- const rv=R.reduce((a,r)=>a+r.needs_review,0),fl=R.reduce((a,r)=>a+r.failed,0);
- $('rev').textContent=fmt(rv);$('rev').className='v'+(rv?' warn':'');$('fail').textContent=fmt(fl);$('fail').className='v'+(fl?' bad':'');
- const c=R.find(r=>r.state==='running')||R.find(r=>r.state==='queued');
+ const ys=Object.keys(Y).sort().reverse(); if(!tab||!Y[tab])tab=ys[0];
+ $('years').innerHTML=ys.map(y=>{const v=Y[y],t=v.total_constituencies,pct=t?100*v.done/t:0;
+  return '<div class="card"><div class="yr"><h2>'+y+' rolls</h2><span class="muted">'+(t?pct.toFixed(0)+'% of constituencies':'not started')+'</span></div>'+
+  '<div class="bar"><i style="width:'+pct.toFixed(1)+'%"></i></div><div class="grid">'+
+  '<div><div class="k">Constituencies</div><div class="v">'+v.done+' / '+(t||'–')+'</div></div>'+
+  '<div><div class="k">Parts</div><div class="v">'+fmt(v.parts)+'</div></div>'+
+  '<div><div class="k">Electors</div><div class="v">'+fmt(v.electors)+'</div></div>'+
+  '<div><div class="k">Review · Failed</div><div class="v"><span class="'+(v.needs_review?'warn':'')+'">'+fmt(v.needs_review)+'</span> · <span class="'+(v.failed||v.errors?'bad':'')+'">'+fmt(v.failed+(v.errors||0))+'</span></div></div>'+
+  '</div></div>'}).join('');
+ const b=d.batch||{}, c=R.find(r=>r.state==='running')||R.find(r=>r.state==='uploading');
  if(c){const pct=c.total?100*c.processed/c.total:0;$('cur').style.display='';
-  $('cur').innerHTML='<div class="k">Current run</div><div class="v" style="font-size:18px;margin-top:4px">'+esc(c.label)+' <span style="color:var(--t2);font-weight:400">'+esc(c.district)+' '+esc(c.year)+'</span></div>'+
+  $('cur').innerHTML='<div class="k">Now processing</div><div class="v" style="font-size:18px;margin-top:4px">'+esc(c.label)+' <span style="color:var(--t2);font-weight:400">'+esc(c.district)+' · '+esc(c.year)+'</span></div>'+
   '<div class="bar"><i style="width:'+pct.toFixed(1)+'%"></i></div><div class="grid" style="font-size:14px">'+
-  '<div>'+fmt(c.processed)+' / '+fmt(c.total)+' parts ('+pct.toFixed(0)+'%)</div><div>'+c.rate_per_min+' parts/min</div><div>ETA '+dur(c.eta_s)+'</div>'+
-  '<div>Review <b class="'+(c.needs_review?'warn':'')+'">'+c.needs_review+'</b> · Failed <b class="'+(c.failed?'bad':'')+'">'+c.failed+'</b></div></div>';}
+  '<div>'+fmt(c.processed)+' / '+fmt(c.total)+' parts ('+pct.toFixed(0)+'%)</div><div>'+c.rate_per_min+' parts/min</div><div>'+(c.state==='uploading'?'Uploading sheet':'ETA '+dur(c.eta_s))+'</div>'+
+  '<div>Review <b class="'+(c.needs_review?'warn':'')+'">'+c.needs_review+'</b> · Failed <b class="'+(c.failed?'bad':'')+'">'+c.failed+'</b></div></div>'+
+  (b.next?'<div class="muted" style="margin-top:8px">Next: '+esc(b.next)+(b.eta?' · all done ≈ '+esc(b.eta):'')+'</div>':'');}
+ else if(b.phase){$('cur').style.display='';$('cur').innerHTML='<div class="k">Pipeline</div><div style="margin-top:4px">'+esc(b.phase)+(b.next?' · next: '+esc(b.next):'')+(b.eta?' · all done ≈ '+esc(b.eta):'')+'</div>'}
  else{$('cur').style.display='none'}
- $('done').innerHTML=R.filter(r=>r.state==='done').map(r=>'<tr><td>'+esc(r.label)+'<div style="color:var(--t2);font-size:12px">'+esc(r.district)+' '+esc(r.year)+'</div></td><td class="n">'+fmt(r.processed)+'</td><td class="n'+(r.needs_review?' warn':'')+'">'+r.needs_review+'</td><td class="n'+(r.failed?' bad':'')+'">'+r.failed+'</td><td class="n">'+dur(r.elapsed_s)+'</td><td>'+(r.sheet?'<a href="'+esc(r.sheet)+'" target="_blank" rel="noopener">Sheet</a>':'')+(r.folder?' · <a href="'+esc(r.folder)+'" target="_blank" rel="noopener">Folder</a>':'')+'</td></tr>').join('');
+ const E=R.filter(r=>r.state==='error');$('errc').style.display=E.length?'':'none';
+ $('errs').innerHTML=E.map(r=>'<tr><td>'+esc(r.label)+' <span class="muted">'+esc(r.year)+'</span></td><td class="bad">'+esc(r.error)+'</td></tr>').join('');
+ $('tabs').innerHTML=ys.length>1?ys.map(y=>'<button class="'+(y===tab?'on':'')+'" onclick="setTab(\''+y+'\')">'+y+'</button>').join(''):'';
+ $('done').innerHTML=R.filter(r=>r.state==='done'&&r.year===tab).sort((a,b)=>acn(a.label)-acn(b.label)).map(r=>'<tr><td>'+esc(r.label)+'<div class="muted">'+esc(r.district)+'</div></td><td class="n">'+fmt(r.processed)+'</td><td class="n">'+(r.electors==null?'–':fmt(r.electors))+'</td><td class="n'+(r.needs_review?' warn':'')+'">'+r.needs_review+'</td><td class="n'+(r.failed?' bad':'')+'">'+r.failed+'</td><td>'+(r.sheet?'<a href="'+esc(r.sheet)+'" target="_blank" rel="noopener">Sheet</a>':'')+(r.folder?' · <a href="'+esc(r.folder)+'" target="_blank" rel="noopener">Folder</a>':'')+'</td></tr>').join('')||'<tr><td class="muted" colspan="6">None yet</td></tr>';
 }catch(e){$('upd').className='sub stale';$('upd').innerHTML='<span class="dot"></span>Cannot reach status ('+esc(e.message)+')'}}
 tick();setInterval(tick,4000);
 </script></body></html>

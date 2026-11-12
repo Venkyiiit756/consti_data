@@ -1,8 +1,20 @@
 {
- "updated": "12 Nov 2026, 09:44:02 PM IST",
- "updated_epoch": 1794500042,
+ "updated": "12 Nov 2026, 09:54:08 PM IST",
+ "updated_epoch": 1794500648,
  "total_constituencies": 174,
  "done_constituencies": 2,
+ "years": {
+  "2026": {
+   "total_constituencies": 174,
+   "done": 2,
+   "errors": 0,
+   "parts": 564,
+   "needs_review": 3,
+   "failed": 0,
+   "electors": 440859
+  }
+ },
+ "batch": {},
  "runs": [
   {
    "label": "59 - Bhimavaram",
@@ -14,8 +26,10 @@
    "needs_review": 0,
    "failed": 0,
    "elapsed_s": 438,
+   "electors": 239031,
    "rate_per_min": 35.9,
    "eta_s": null,
+   "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/19fuqVsHXQP-B4aec1kY5q6pFU0Sso6wFllpC2WpBMQg/edit",
    "folder": "https://drive.google.com/drive/folders/1rjoJGqqhNaSmKQVAgcXVUriVNEqZLVhP"
   },
@@ -29,10 +43,12 @@
    "needs_review": 3,
    "failed": 0,
    "elapsed_s": 295,
+   "electors": 201828,
    "rate_per_min": 61.4,
    "eta_s": null,
-   "sheet": "",
-   "folder": ""
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1_-AcL5mCUYIEcmJ8iNItmzVwxy_9D-QzC0RYzotu8fI/edit",
+   "folder": "https://drive.google.com/drive/folders/15p_RjyMno7l72LJllKEToFpqDh290wqs"
   }
  ]
 }
