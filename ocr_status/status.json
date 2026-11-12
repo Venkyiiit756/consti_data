@@ -1,6 +1,6 @@
 {
- "updated": "12 Nov 2026, 09:54:08 PM IST",
- "updated_epoch": 1794500648,
+ "updated": "12 Nov 2026, 10:04:17 PM IST",
+ "updated_epoch": 1794501257,
  "total_constituencies": 174,
  "done_constituencies": 2,
  "years": {
@@ -9,12 +9,17 @@
    "done": 2,
    "errors": 0,
    "parts": 564,
-   "needs_review": 3,
+   "needs_review": 11,
    "failed": 0,
    "electors": 440859
   }
  },
- "batch": {},
+ "batch": {
+  "phase": "OCR 1 - Ichchapuram (2026)",
+  "updated": "2026-11-12 22:02:53 IST",
+  "year": "2026",
+  "next": ""
+ },
  "runs": [
   {
    "label": "59 - Bhimavaram",
@@ -49,6 +54,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1_-AcL5mCUYIEcmJ8iNItmzVwxy_9D-QzC0RYzotu8fI/edit",
    "folder": "https://drive.google.com/drive/folders/15p_RjyMno7l72LJllKEToFpqDh290wqs"
+  },
+  {
+   "label": "1 - Ichchapuram",
+   "district": "Srikakulam",
+   "year": "2026",
+   "state": "running",
+   "total": 319,
+   "processed": 120,
+   "needs_review": 8,
+   "failed": 0,
+   "elapsed_s": 82,
+   "electors": null,
+   "rate_per_min": 87.8,
+   "eta_s": 136,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
