@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Voter Roll OCR – Live</title>
+<style>
+:root{--bg:#fafafa;--card:#fff;--t:#111;--t2:#666;--b:#e5e5e5;--acc:#2563eb;--ok:#16a34a;--warn:#d97706;--bad:#dc2626}
+@media(prefers-color-scheme:dark){:root{--bg:#0d0d0d;--card:#171717;--t:#eee;--t2:#999;--b:#2a2a2a}}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--t)}
+main{max-width:860px;margin:0 auto;padding:24px 16px}h1{font-size:20px;margin:0 0 4px}.sub{color:var(--t2);font-size:13px;margin-bottom:20px}
+.card{background:var(--card);border:1px solid var(--b);border-radius:14px;padding:18px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
+.k{color:var(--t2);font-size:12px;text-transform:uppercase;letter-spacing:.04em}.v{font-size:24px;font-weight:600}
+.bar{height:10px;background:var(--b);border-radius:6px;overflow:hidden;margin:12px 0 8px}.bar>i{display:block;height:100%;background:var(--acc);transition:width .6s}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--b)}th{color:var(--t2);font-weight:500;font-size:12px}
+td.n,th.n{text-align:right}a{color:var(--acc);text-decoration:none}.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--ok);margin-right:6px}.stale .dot{background:var(--bad)}
+.scroll{overflow-x:auto}
+</style></head><body><main>
+<h1>Voter Roll OCR – Live</h1><div class="sub" id="upd"><span class="dot"></span>loading…</div>
+<div class="card"><div class="grid">
+<div><div class="k">Constituencies done</div><div class="v" id="cdone">–</div></div>
+<div><div class="k">Parts processed</div><div class="v" id="pdone">–</div></div>
+<div><div class="k">Needs review</div><div class="v" id="rev">–</div></div>
+<div><div class="k">Failed</div><div class="v" id="fail">–</div></div>
+</div></div>
+<div class="card" id="cur"></div>
+<div class="card"><div class="k" style="margin-bottom:8px">Finished constituencies</div><div class="scroll"><table>
+<thead><tr><th>Constituency</th><th class="n">Parts</th><th class="n">Review</th><th class="n">Failed</th><th class="n">Time</th><th>Sheet</th></tr></thead>
+<tbody id="done"></tbody></table></div></div>
+</main><script>
+const $=id=>document.getElementById(id),fmt=n=>(n||0).toLocaleString('en-IN');
+const dur=s=>s==null?'–':s<60?Math.round(s)+'s':s<3600?Math.floor(s/60)+'m '+Math.round(s%60)+'s':Math.floor(s/3600)+'h '+Math.round(s%3600/60)+'m';
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let base='',lastLive=0;
+async function getStatus(){
+ if(Date.now()-lastLive>60000){lastLive=Date.now();try{const l=await (await fetch('live.json?t='+Date.now(),{cache:'no-store'})).json();
+   base=(l.tunnel&&!location.href.startsWith(l.tunnel))?l.tunnel.replace(/\/$/,'')+'/':''}catch(e){base=''}}
+ if(base){try{return await (await fetch(base+'status.json?t='+Date.now(),{cache:'no-store'})).json()}catch(e){}}
+ return await (await fetch('status.json?t='+Date.now(),{cache:'no-store'})).json();
+}
+async function tick(){try{
+ const d=await getStatus(), R=d.runs||[];
+ const stale=Date.now()/1000-d.updated_epoch>60;
+ $('upd').className='sub'+(stale?' stale':''); $('upd').innerHTML='<span class="dot"></span>'+(stale?'Pipeline idle/offline · last update ':'Live · updated ')+esc(d.updated);
+ $('cdone').textContent=d.done_constituencies+' / '+d.total_constituencies;
+ const P=R.reduce((a,r)=>a+r.processed,0),T=R.reduce((a,r)=>a+r.total,0);
+ $('pdone').textContent=fmt(P)+(R.some(r=>r.state!=='done')?' / '+fmt(T):'');
+ const rv=R.reduce((a,r)=>a+r.needs_review,0),fl=R.reduce((a,r)=>a+r.failed,0);
+ $('rev').textContent=fmt(rv);$('rev').className='v'+(rv?' warn':'');$('fail').textContent=fmt(fl);$('fail').className='v'+(fl?' bad':'');
+ const c=R.find(r=>r.state==='running')||R.find(r=>r.state==='queued');
+ if(c){const pct=c.total?100*c.processed/c.total:0;$('cur').style.display='';
+  $('cur').innerHTML='<div class="k">Current run</div><div class="v" style="font-size:18px;margin-top:4px">'+esc(c.label)+' <span style="color:var(--t2);font-weight:400">'+esc(c.district)+' '+esc(c.year)+'</span></div>'+
+  '<div class="bar"><i style="width:'+pct.toFixed(1)+'%"></i></div><div class="grid" style="font-size:14px">'+
+  '<div>'+fmt(c.processed)+' / '+fmt(c.total)+' parts ('+pct.toFixed(0)+'%)</div><div>'+c.rate_per_min+' parts/min</div><div>ETA '+dur(c.eta_s)+'</div>'+
+  '<div>Review <b class="'+(c.needs_review?'warn':'')+'">'+c.needs_review+'</b> · Failed <b class="'+(c.failed?'bad':'')+'">'+c.failed+'</b></div></div>';}
+ else{$('cur').style.display='none'}
+ $('done').innerHTML=R.filter(r=>r.state==='done').map(r=>'<tr><td>'+esc(r.label)+'<div style="color:var(--t2);font-size:12px">'+esc(r.district)+' '+esc(r.year)+'</div></td><td class="n">'+fmt(r.processed)+'</td><td class="n'+(r.needs_review?' warn':'')+'">'+r.needs_review+'</td><td class="n'+(r.failed?' bad':'')+'">'+r.failed+'</td><td class="n">'+dur(r.elapsed_s)+'</td><td>'+(r.sheet?'<a href="'+esc(r.sheet)+'" target="_blank" rel="noopener">Sheet</a>':'')+(r.folder?' · <a href="'+esc(r.folder)+'" target="_blank" rel="noopener">Folder</a>':'')+'</td></tr>').join('');
+}catch(e){$('upd').className='sub stale';$('upd').innerHTML='<span class="dot"></span>Cannot reach status ('+esc(e.message)+')'}}
+tick();setInterval(tick,4000);
+</script></body></html>
