@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 01:38:01 AM IST",
- "updated_epoch": 1794514081,
+ "updated": "13 Nov 2026, 01:38:52 AM IST",
+ "updated_epoch": 1794514132,
  "total_constituencies": 175,
  "done_constituencies": 16,
  "years": {
@@ -9,7 +9,7 @@
    "done": 16,
    "errors": 0,
    "parts": 4653,
-   "needs_review": 151,
+   "needs_review": 154,
    "failed": 0,
    "electors": 3286320
   },
@@ -310,13 +310,13 @@
    "year": "2026",
    "state": "running",
    "total": 267,
-   "processed": 170,
-   "needs_review": 2,
+   "processed": 260,
+   "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 100,
+   "elapsed_s": 151,
    "electors": null,
-   "rate_per_min": 102.0,
-   "eta_s": 57,
+   "rate_per_min": 103.3,
+   "eta_s": 4,
    "error": "",
    "sheet": "",
    "folder": ""
