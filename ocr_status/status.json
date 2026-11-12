@@ -1,17 +1,17 @@
 {
- "updated": "12 Nov 2026, 11:27:54 PM IST",
- "updated_epoch": 1794506274,
+ "updated": "12 Nov 2026, 11:49:53 PM IST",
+ "updated_epoch": 1794507593,
  "total_constituencies": 175,
- "done_constituencies": 8,
+ "done_constituencies": 9,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 8,
+   "done": 9,
    "errors": 0,
-   "parts": 2436,
-   "needs_review": 67,
+   "parts": 2726,
+   "needs_review": 71,
    "failed": 0,
-   "electors": 1764119
+   "electors": 1963927
   },
   "2024": {
    "total_constituencies": 172,
@@ -24,12 +24,12 @@
   }
  },
  "batch": {
-  "phase": "OCR 8 - Narasannapeta (2026)",
-  "updated": "2026-11-12 23:23:20 IST",
+  "phase": "OCR 9 - Rajam (2026)",
+  "updated": "2026-11-12 23:49:45 IST",
   "year": "2026",
-  "next": "9 - Rajam",
-  "eta": "14 Nov 08:12 AM IST (2026)",
-  "per_ac_s": 708
+  "next": "10 - Palakonda",
+  "eta": "14 Nov 03:26 PM IST (2026)",
+  "per_ac_s": 859
  },
  "runs": [
   {
@@ -172,15 +172,32 @@
    "label": "8 - Narasannapeta",
    "district": "Srikakulam",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 290,
-   "processed": 210,
-   "needs_review": 2,
+   "processed": 290,
+   "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 222,
+   "elapsed_s": 1558,
+   "electors": 199808,
+   "rate_per_min": 11.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1wzd5CpnlMgLUoIrvqSRvXUotvZJr3Dd8xEduiIcKTrw/edit",
+   "folder": "https://drive.google.com/drive/folders/10BrES-b3TCs_NB4_rNnlAGWPaoPZQNTl"
+  },
+  {
+   "label": "9 - Rajam",
+   "district": "Vizianagaram",
+   "year": "2026",
+   "state": "queued",
+   "total": 0,
+   "processed": 0,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 0,
    "electors": null,
-   "rate_per_min": 56.8,
-   "eta_s": 85,
+   "rate_per_min": 0,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
