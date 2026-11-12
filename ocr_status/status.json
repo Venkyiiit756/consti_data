@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 02:46:44 AM IST",
- "updated_epoch": 1794518204,
+ "updated": "13 Nov 2026, 02:56:54 AM IST",
+ "updated_epoch": 1794518814,
  "total_constituencies": 175,
- "done_constituencies": 32,
+ "done_constituencies": 36,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 32,
+   "done": 36,
    "errors": 0,
-   "parts": 9253,
-   "needs_review": 274,
+   "parts": 10456,
+   "needs_review": 309,
    "failed": 0,
-   "electors": 6887591,
-   "eta": "13 Nov, 03:23 PM IST"
+   "electors": 7727496,
+   "eta": "13 Nov, 01:22 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 06:34 AM IST"
+   "eta": "14 Nov, 02:16 AM IST"
   }
  },
  "batch": {
   "phase": "downloading",
-  "updated": "2026-11-13 02:46:40 IST",
-  "year": "",
-  "next": "28 - Araku Valley (2026)",
+  "updated": "2026-11-13 02:56:50 IST",
+  "year": "2026",
+  "next": "31 - Pendurthi (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -40,28 +40,50 @@
    "cores_total": 8,
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
-   "year": "",
+   "year": "2026",
    "ac": "",
    "phase": "downloading",
    "processed": 0,
    "total": 0,
    "parts_per_min": 0,
-   "prefetch": "28 - Araku Valley (2026)",
+   "prefetch": "31 - Pendurthi (2026)",
    "uploading": [],
-   "done_session": 0,
-   "parts_session": 0,
-   "last": [],
-   "load1": 0.7,
+   "done_session": 3,
+   "parts_session": 926,
+   "last": [
+    {
+     "ac": "30 - Anakapalle",
+     "year": "2026",
+     "parts": 275,
+     "secs": 304,
+     "finished": "2026-11-13 02:56:48 IST"
+    },
+    {
+     "ac": "29 - Paderu",
+     "year": "2026",
+     "parts": 332,
+     "secs": 431,
+     "finished": "2026-11-13 02:54:56 IST"
+    },
+    {
+     "ac": "28 - Araku Valley",
+     "year": "2026",
+     "parts": 319,
+     "secs": 409,
+     "finished": "2026-11-13 02:51:38 IST"
+    }
+   ],
+   "load1": 8.57,
    "cores_busy": 0,
-   "updated": "2026-11-13 02:46:40 IST",
-   "updated_epoch": 1794518200,
+   "updated": "2026-11-13 02:56:50 IST",
+   "updated_epoch": 1794518810,
    "fetch": {
-    "ac": "28 - Araku Valley",
+    "ac": "31 - Pendurthi",
     "year": "2026",
-    "done": 19,
-    "total": 33,
-    "mb": 1622.0,
-    "mbps": 14.64
+    "done": 37,
+    "total": 46,
+    "mb": 3037.0,
+    "mbps": 22.27
    },
    "age_s": 4
   },
@@ -72,16 +94,25 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:19:22 IST",
    "year": "2026",
-   "ac": "171 - Gangadhara Nellore",
+   "ac": "169 - Satyavedu",
    "phase": "OCR",
-   "processed": 20,
-   "total": 277,
-   "parts_per_min": 25.6,
-   "prefetch": "169 - Satyavedu (2026)",
-   "uploading": [],
-   "done_session": 4,
-   "parts_session": 1169,
+   "processed": 0,
+   "total": 279,
+   "parts_per_min": 0.0,
+   "prefetch": "",
+   "uploading": [
+    "170 - Nagari"
+   ],
+   "done_session": 5,
+   "parts_session": 1446,
    "last": [
+    {
+     "ac": "171 - Gangadhara Nellore",
+     "year": "2026",
+     "parts": 277,
+     "secs": 728,
+     "finished": "2026-11-13 02:51:48 IST"
+    },
     {
      "ac": "172 - Chittoor",
      "year": "2026",
@@ -111,23 +142,52 @@
      "finished": "2026-11-13 02:27:51 IST"
     }
    ],
-   "load1": 36.65,
+   "load1": 19.02,
    "cores_busy": 10,
-   "updated": "2026-11-13 02:45:14 IST",
-   "updated_epoch": 1794518114,
-   "fetch": {
-    "ac": "169 - Satyavedu",
-    "year": "2026",
-    "done": 52,
-    "total": 279,
-    "mb": 10.6,
-    "mbps": 0.3
-   },
-   "age_s": 90
+   "updated": "2026-11-13 02:56:10 IST",
+   "updated_epoch": 1794518770,
+   "fetch": null,
+   "age_s": 44
   }
  ],
- "throughput_ac_per_hr": 11.3,
+ "throughput_ac_per_hr": 13.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "30 - Anakapalle",
+   "worker": "box",
+   "parts": 275,
+   "electors": 196813,
+   "secs": 154,
+   "finished": "2026-11-13 02:56:45 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "29 - Paderu",
+   "worker": "box",
+   "parts": 332,
+   "electors": 221485,
+   "secs": 187,
+   "finished": "2026-11-13 02:54:47 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "171 - Gangadhara Nellore",
+   "worker": "mac",
+   "parts": 277,
+   "electors": 199658,
+   "secs": 370,
+   "finished": "2026-11-13 02:50:57 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "28 - Araku Valley",
+   "worker": "box",
+   "parts": 319,
+   "electors": 221949,
+   "secs": 185,
+   "finished": "2026-11-13 02:50:52 IST"
+  },
   {
    "year": "2026",
    "ac": "172 - Chittoor",
@@ -163,42 +223,6 @@
    "electors": 202434,
    "secs": 370,
    "finished": "2026-11-13 02:39:44 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "25 - Gajuwaka",
-   "worker": "box",
-   "parts": 339,
-   "electors": 285240,
-   "secs": 186,
-   "finished": "2026-11-13 02:38:34 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "174 - Palamaner",
-   "worker": "mac",
-   "parts": 325,
-   "electors": 249885,
-   "secs": 413,
-   "finished": "2026-11-13 02:35:50 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "24 - Visakhapatnam West",
-   "worker": "box",
-   "parts": 237,
-   "electors": 183334,
-   "secs": 136,
-   "finished": "2026-11-13 02:29:42 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "23 - Visakhapatnam North",
-   "worker": "box",
-   "parts": 293,
-   "electors": 252808,
-   "secs": 168,
-   "finished": "2026-11-13 02:27:32 IST"
   }
  ],
  "failures": [],
@@ -747,6 +771,74 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1CTUT9HwkQDZmg9U0SoCF-XWUqPkFctr1U_tqxEsQl7c/edit",
    "folder": "https://drive.google.com/drive/folders/1PVhX78MvNu06mB5roBIKOr4-cJGvfmcy"
+  },
+  {
+   "label": "28 - Araku Valley",
+   "district": "Alluri Sitharama Raju",
+   "year": "2026",
+   "state": "done",
+   "total": 319,
+   "processed": 319,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 185,
+   "electors": 221949,
+   "rate_per_min": 103.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1wd-KxpydxBMY1zkq95nrkaDCMovzLYVAn3eLxAYLtdY/edit",
+   "folder": "https://drive.google.com/drive/folders/1VLCkkotwP-tWe4cKUwbMvUE2CmXO9Aqc"
+  },
+  {
+   "label": "29 - Paderu",
+   "district": "Alluri Sitharama Raju",
+   "year": "2026",
+   "state": "done",
+   "total": 332,
+   "processed": 332,
+   "needs_review": 12,
+   "failed": 0,
+   "elapsed_s": 187,
+   "electors": 221485,
+   "rate_per_min": 106.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1OLUAMiZIfdjuO4NmP5KYJsHPiTCJC0EjhX_NqtCGkLw/edit",
+   "folder": "https://drive.google.com/drive/folders/1-DFzGN5sKb0cadwwa3qrKX0mcpl0G3ji"
+  },
+  {
+   "label": "171 - Gangadhara Nellore",
+   "district": "Chittoor",
+   "year": "2026",
+   "state": "done",
+   "total": 277,
+   "processed": 277,
+   "needs_review": 18,
+   "failed": 0,
+   "elapsed_s": 370,
+   "electors": 199658,
+   "rate_per_min": 44.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1f_Iz0m64Y9LcpOH7VhjO8O5tQlKnCJCboJiZQSpmlI8/edit",
+   "folder": "https://drive.google.com/drive/folders/1Z5Zgk-jNoIRCqdeCGJUNNk1zadTQSLN8"
+  },
+  {
+   "label": "30 - Anakapalle",
+   "district": "Anakapalli",
+   "year": "2026",
+   "state": "done",
+   "total": 275,
+   "processed": 275,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 154,
+   "electors": 196813,
+   "rate_per_min": 107.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1jX85CHG3FRStvk5_Vpnk52NCnsHVnuPxh1RiL6wnRxg/edit",
+   "folder": "https://drive.google.com/drive/folders/1r-3NINP030GCG3qKYm4Z48zuvKg4BEVx"
   }
  ]
 }
