@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 03:26:31 AM IST",
- "updated_epoch": 1794520591,
+ "updated": "13 Nov 2026, 03:53:51 AM IST",
+ "updated_epoch": 1794522231,
  "total_constituencies": 175,
  "done_constituencies": 47,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 396,
    "failed": 0,
    "electors": 10081198,
-   "eta": "13 Nov, 10:03 AM IST"
+   "eta": "13 Nov, 11:34 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 06:57 PM IST"
+   "eta": "13 Nov, 09:53 PM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 03:26:31 IST",
+  "phase": "OCR 38 - Kakinada Rural (2026)",
+  "updated": "2026-11-13 03:53:47 IST",
   "year": "2026",
-  "next": "38 - Kakinada Rural (2026)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "38 - Kakinada Rural (2026)",
+   "ac": "38 - Kakinada Rural",
+   "phase": "OCR",
+   "processed": 20,
+   "total": 281,
+   "parts_per_min": 0.7,
+   "prefetch": "",
    "uploading": [],
    "done_session": 10,
    "parts_session": 2896,
@@ -87,19 +87,12 @@
      "finished": "2026-11-13 03:07:39 IST"
     }
    ],
-   "load1": 4.07,
-   "cores_busy": 0,
-   "updated": "2026-11-13 03:26:31 IST",
-   "updated_epoch": 1794520591,
-   "fetch": {
-    "ac": "38 - Kakinada Rural",
-    "year": "2026",
-    "done": 41,
-    "total": 42,
-    "mb": 2819.2,
-    "mbps": 4.3
-   },
-   "age_s": 0
+   "load1": 5.71,
+   "cores_busy": 8,
+   "updated": "2026-11-13 03:53:47 IST",
+   "updated_epoch": 1794522227,
+   "fetch": null,
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -108,47 +101,68 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "166 - Chandragiri",
+   "ac": "162 - Thamballapalle",
    "phase": "OCR",
-   "processed": 160,
-   "total": 358,
-   "parts_per_min": 45.6,
-   "prefetch": "164 - Madanapalle (2026)",
+   "processed": 240,
+   "total": 263,
+   "parts_per_min": 45.9,
+   "prefetch": "159 - Puttaparthi (2026)",
    "uploading": [],
-   "done_session": 2,
-   "parts_session": 677,
+   "done_session": 6,
+   "parts_session": 1894,
    "last": [
+    {
+     "ac": "163 - Pileru",
+     "year": "2026",
+     "parts": 296,
+     "secs": 772,
+     "finished": "2026-11-13 03:49:43 IST"
+    },
+    {
+     "ac": "164 - Madanapalle",
+     "year": "2026",
+     "parts": 277,
+     "secs": 788,
+     "finished": "2026-11-13 03:42:48 IST"
+    },
+    {
+     "ac": "165 - Punganur",
+     "year": "2026",
+     "parts": 286,
+     "secs": 643,
+     "finished": "2026-11-13 03:36:37 IST"
+    },
+    {
+     "ac": "166 - Chandragiri",
+     "year": "2026",
+     "parts": 358,
+     "secs": 871,
+     "finished": "2026-11-13 03:30:41 IST"
+    },
     {
      "ac": "167 - Tirupati",
      "year": "2026",
      "parts": 358,
      "secs": 816,
      "finished": "2026-11-13 03:22:31 IST"
-    },
-    {
-     "ac": "168 - Srikalahasti",
-     "year": "2026",
-     "parts": 319,
-     "secs": 604,
-     "finished": "2026-11-13 03:13:48 IST"
     }
    ],
-   "load1": 25.69,
+   "load1": 42.7,
    "cores_busy": 10,
-   "updated": "2026-11-13 03:24:59 IST",
-   "updated_epoch": 1794520499,
+   "updated": "2026-11-13 03:53:16 IST",
+   "updated_epoch": 1794522196,
    "fetch": {
-    "ac": "164 - Madanapalle",
+    "ac": "159 - Puttaparthi",
     "year": "2026",
-    "done": 18,
-    "total": 38,
-    "mb": 1397.2,
-    "mbps": 10.94
+    "done": 30,
+    "total": 31,
+    "mb": 2448.3,
+    "mbps": 9.49
    },
-   "age_s": 92
+   "age_s": 35
   }
  ],
- "throughput_ac_per_hr": 19.3,
+ "throughput_ac_per_hr": 16.7,
  "recent": [
   {
    "year": "2026",
@@ -1024,6 +1038,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1R2fDat42L4MJs5DOQ8lxnKk8MWpJN7ilxrpAO-dcbdU/edit",
    "folder": "https://drive.google.com/drive/folders/1Az9eOLmToP9BJITfpdIeIVzNaMcsuKr_"
+  },
+  {
+   "label": "38 - Kakinada Rural",
+   "district": "Kakinada",
+   "year": "2026",
+   "state": "running",
+   "total": 281,
+   "processed": 30,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 21,
+   "electors": null,
+   "rate_per_min": 85.7,
+   "eta_s": 176,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
