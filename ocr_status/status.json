@@ -1,17 +1,17 @@
 {
- "updated": "13 Nov 2026, 01:38:52 AM IST",
- "updated_epoch": 1794514132,
+ "updated": "13 Nov 2026, 01:58:14 AM IST",
+ "updated_epoch": 1794515294,
  "total_constituencies": 175,
- "done_constituencies": 16,
+ "done_constituencies": 18,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 16,
+   "done": 18,
    "errors": 0,
-   "parts": 4653,
-   "needs_review": 154,
+   "parts": 5172,
+   "needs_review": 162,
    "failed": 0,
-   "electors": 3286320
+   "electors": 3685995
   },
   "2024": {
    "total_constituencies": 172,
@@ -24,12 +24,12 @@
   }
  },
  "batch": {
-  "phase": "OCR 16 - Gajapathinagaram (2026)",
-  "updated": "2026-11-13 01:36:03 IST",
+  "phase": "OCR 18 - Vizianagaram (2026)",
+  "updated": "2026-11-13 01:57:14 IST",
   "year": "2026",
-  "next": "17 - Nellimarla",
-  "eta": "14 Nov 02:29 PM IST (2026)",
-  "per_ac_s": 839
+  "next": "19 - Srungavarapukota",
+  "eta": "14 Nov 02:40 PM IST (2026)",
+  "per_ac_s": 843
  },
  "runs": [
   {
@@ -308,15 +308,49 @@
    "label": "16 - Gajapathinagaram",
    "district": "Vizianagaram",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 267,
-   "processed": 260,
+   "processed": 267,
    "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 151,
+   "elapsed_s": 155,
+   "electors": 198428,
+   "rate_per_min": 103.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1nbdXBEsmrL_ykodA5R2D-wcgB6YP80uckcY9scYWVp8/edit",
+   "folder": "https://drive.google.com/drive/folders/1RsukV6yiOShGrKKZOmUzzeucydiTXolh"
+  },
+  {
+   "label": "17 - Nellimarla",
+   "district": "Vizianagaram",
+   "year": "2026",
+   "state": "done",
+   "total": 252,
+   "processed": 252,
+   "needs_review": 8,
+   "failed": 0,
+   "elapsed_s": 200,
+   "electors": 201247,
+   "rate_per_min": 75.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1WEbkVsyI1mVTf5_gpHEz2Z3S3eGbKmQRVfRvMydRijA/edit",
+   "folder": "https://drive.google.com/drive/folders/1wv_lh0yQu-jgOHo1m-46LgILLocqqv7w"
+  },
+  {
+   "label": "18 - Vizianagaram",
+   "district": "Vizianagaram",
+   "year": "2026",
+   "state": "running",
+   "total": 321,
+   "processed": 50,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 34,
    "electors": null,
-   "rate_per_min": 103.3,
-   "eta_s": 4,
+   "rate_per_min": 88.2,
+   "eta_s": 184,
    "error": "",
    "sheet": "",
    "folder": ""
