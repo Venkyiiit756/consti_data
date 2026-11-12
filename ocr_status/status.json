@@ -1,17 +1,17 @@
 {
- "updated": "13 Nov 2026, 12:29:51 AM IST",
- "updated_epoch": 1794509991,
+ "updated": "13 Nov 2026, 12:51:16 AM IST",
+ "updated_epoch": 1794511276,
  "total_constituencies": 175,
- "done_constituencies": 14,
+ "done_constituencies": 15,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 14,
+   "done": 15,
    "errors": 0,
-   "parts": 4098,
-   "needs_review": 143,
+   "parts": 4392,
+   "needs_review": 146,
    "failed": 0,
-   "electors": 2885562
+   "electors": 3097909
   },
   "2024": {
    "total_constituencies": 172,
@@ -24,12 +24,12 @@
   }
  },
  "batch": {
-  "phase": "OCR 14 - Bobbili (2026)",
-  "updated": "2026-11-13 00:26:43 IST",
+  "phase": "OCR 15 - Cheepurupalle (2026)",
+  "updated": "2026-11-13 00:49:47 IST",
   "year": "2026",
-  "next": "15 - Cheepurupalle",
-  "eta": "14 Nov 06:25 AM IST (2026)",
-  "per_ac_s": 670
+  "next": "16 - Gajapathinagaram",
+  "eta": "14 Nov 09:15 AM IST (2026)",
+  "per_ac_s": 730
  },
  "runs": [
   {
@@ -274,15 +274,32 @@
    "label": "14 - Bobbili",
    "district": "Vizianagaram",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 294,
-   "processed": 280,
-   "needs_review": 8,
+   "processed": 294,
+   "needs_review": 10,
    "failed": 0,
-   "elapsed_s": 167,
+   "elapsed_s": 1357,
+   "electors": 212347,
+   "rate_per_min": 13.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/10BMeR7pADHBv7pQ2IXwS87vqWo1twiKqOBtRxvKrQg4/edit",
+   "folder": "https://drive.google.com/drive/folders/1Hm5rcHbNnnM0NQEVD9rS3hyR6gbmke_H"
+  },
+  {
+   "label": "15 - Cheepurupalle",
+   "district": "Vizianagaram",
+   "year": "2026",
+   "state": "running",
+   "total": 261,
+   "processed": 110,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 67,
    "electors": null,
-   "rate_per_min": 100.6,
-   "eta_s": 8,
+   "rate_per_min": 98.5,
+   "eta_s": 92,
    "error": "",
    "sheet": "",
    "folder": ""
