@@ -1,17 +1,17 @@
 {
- "updated": "12 Nov 2026, 10:34:35 PM IST",
- "updated_epoch": 1794503075,
+ "updated": "12 Nov 2026, 10:39:16 PM IST",
+ "updated_epoch": 1794503356,
  "total_constituencies": 175,
- "done_constituencies": 4,
+ "done_constituencies": 5,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 4,
+   "done": 5,
    "errors": 0,
-   "parts": 1201,
-   "needs_review": 55,
+   "parts": 1524,
+   "needs_review": 59,
    "failed": 0,
-   "electors": 900282
+   "electors": 1108889
   },
   "2024": {
    "total_constituencies": 172,
@@ -24,12 +24,12 @@
   }
  },
  "batch": {
-  "phase": "Uploading 4 - Pathapatnam (2026)",
-  "updated": "2026-11-12 22:34:29 IST",
+  "phase": "OCR 5 - Srikakulam (2026)",
+  "updated": "2026-11-12 22:34:39 IST",
   "year": "2026",
-  "next": "5 - Srikakulam",
-  "eta": "13 Nov 06:20 PM IST (2026)",
-  "per_ac_s": 418
+  "next": "6 - Amadalavalasa",
+  "eta": "13 Nov 01:53 PM IST (2026)",
+  "per_ac_s": 324
  },
  "runs": [
   {
@@ -104,15 +104,32 @@
    "label": "4 - Pathapatnam",
    "district": "Srikakulam",
    "year": "2026",
-   "state": "uploading",
+   "state": "done",
    "total": 323,
    "processed": 323,
    "needs_review": 31,
    "failed": 0,
    "elapsed_s": 205,
-   "electors": null,
+   "electors": 208607,
    "rate_per_min": 94.5,
    "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1tpu7x0p9mN46tNsk0yyz4VnecCSM9B1d5uGTrfS00pM/edit",
+   "folder": "https://drive.google.com/drive/folders/1zkNW5xsSJCkRu-MXWy16NY4-6gERSIr-"
+  },
+  {
+   "label": "5 - Srikakulam",
+   "district": "Srikakulam",
+   "year": "2026",
+   "state": "running",
+   "total": 324,
+   "processed": 300,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 215,
+   "electors": null,
+   "rate_per_min": 83.7,
+   "eta_s": 17,
    "error": "",
    "sheet": "",
    "folder": ""
