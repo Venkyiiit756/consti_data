@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 01:27:09 AM IST",
- "updated_epoch": 1794513429,
+ "updated": "13 Nov 2026, 01:38:01 AM IST",
+ "updated_epoch": 1794514081,
  "total_constituencies": 175,
  "done_constituencies": 16,
  "years": {
@@ -9,7 +9,7 @@
    "done": 16,
    "errors": 0,
    "parts": 4653,
-   "needs_review": 149,
+   "needs_review": 151,
    "failed": 0,
    "electors": 3286320
   },
@@ -24,8 +24,8 @@
   }
  },
  "batch": {
-  "phase": "Downloading 16 - Gajapathinagaram (2026)",
-  "updated": "2026-11-13 01:25:40 IST",
+  "phase": "OCR 16 - Gajapathinagaram (2026)",
+  "updated": "2026-11-13 01:36:03 IST",
   "year": "2026",
   "next": "17 - Nellimarla",
   "eta": "14 Nov 02:29 PM IST (2026)",
@@ -303,6 +303,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1TdMQV1P4Rlg6JLhrGO1Zy486JX95jHDTQspndKNih78/edit",
    "folder": "https://drive.google.com/drive/folders/1OJU03aDnuTfFlih7t-alJypDJ1z9Ph-9"
+  },
+  {
+   "label": "16 - Gajapathinagaram",
+   "district": "Vizianagaram",
+   "year": "2026",
+   "state": "running",
+   "total": 267,
+   "processed": 170,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 100,
+   "electors": null,
+   "rate_per_min": 102.0,
+   "eta_s": 57,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
