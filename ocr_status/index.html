@@ -59,15 +59,18 @@ async function tick(){try{
  $('thr').textContent=d.all_done?'All done':(d.throughput_ac_per_hr?d.throughput_ac_per_hr+' constituencies/hour':'');
  $('wks').innerHTML=WK.map(w=>{const nm=w.worker==='box'?'Grok box':w.worker==='mac'?'MacBook':w.worker;
   if(w.age_s==null)return '<div class="wk off"><div class="wn"><span class="dot"></span>'+esc(nm)+'</div><div class="ws"><span>'+esc(w.phase)+'</span><span>'+(w.cores_total||'?')+' cores</span></div></div>';
-  const off=w.age_s>300, pct=w.total?100*w.processed/w.total:0, cb=w.cores_busy||0, ct=w.cores_total||'?';
-  const cls=off?'off':(w.phase==='OCR'?'':'wait');
-  return '<div class="wk '+cls+'"><div class="wn"><span class="dot"></span>'+esc(nm)+'<div class="muted">'+(off?'offline · '+dur(w.age_s)+' ago':'heartbeat '+dur(w.age_s)+' ago')+'</div></div><div>'+
-   '<div><b>'+esc(w.phase||'')+'</b>'+(w.ac?' · '+esc(w.ac)+' <span class="muted">'+esc(w.year)+'</span>':'')+'</div>'+
-   (w.phase==='OCR'?'<div class="mini"><i style="width:'+pct.toFixed(1)+'%"></i></div>':'')+
+  const off=w.age_s>600, slow=w.age_s>150, pct=w.total?100*w.processed/w.total:0, cb=w.cores_busy||0, ct=w.cores_total||'?', F=w.fetch;
+  const cls=off?'off':(slow?'wait':'');
+  const ocr=w.phase==='OCR', dl=!ocr&&F&&F.ac;
+  const fl=F&&F.ac?('Downloading '+esc(F.ac)+(F.total?': '+fmt(F.done)+'/'+fmt(F.total)+' parts':': reading zip index')+(F.mbps?' · '+F.mbps+' MB/s':'')):(w.prefetch?'Next: '+esc(w.prefetch):'');
+  return '<div class="wk '+cls+'"><div class="wn"><span class="dot"></span>'+esc(nm)+'<div class="muted">'+(off?'offline · last seen '+dur(w.age_s)+' ago':slow?'heartbeat late · '+dur(w.age_s):'live · '+dur(w.age_s)+' ago')+'</div></div><div>'+
+   '<div><b>'+esc(ocr?'OCR':dl?'Downloading':(w.phase||''))+'</b>'+(ocr&&w.ac?' · '+esc(w.ac)+' <span class="muted">'+esc(w.year)+'</span>':dl?' · '+esc(F.ac)+' <span class="muted">'+esc(F.year)+'</span>':'')+'</div>'+
+   (ocr?'<div class="mini"><i style="width:'+pct.toFixed(1)+'%"></i></div>':dl&&F.total?'<div class="mini"><i style="width:'+(100*F.done/F.total).toFixed(1)+'%;background:var(--ok)"></i></div>':'')+
    '<div class="ws"><span>Cores <b>'+cb+'/'+ct+'</b></span><span>Load <b>'+(w.load1!=null?w.load1:'–')+'</b></span>'+
-   (w.phase==='OCR'?'<span>Parts <b>'+fmt(w.processed)+'/'+fmt(w.total)+'</b></span><span><b>'+(w.parts_per_min||0)+'</b>/min</span>':'')+
+   (ocr?'<span>Parts <b>'+fmt(w.processed)+'/'+fmt(w.total)+'</b></span><span><b>'+(w.parts_per_min||0)+'</b>/min</span>':'')+
+   (dl&&F.total?'<span>Parts <b>'+fmt(F.done)+'/'+fmt(F.total)+'</b></span><span><b>'+(F.mbps||0)+'</b> MB/s</span>':'')+
    (w.done_session!=null?'<span>Done this run <b>'+w.done_session+'</b></span>':'')+'</div>'+
-   ((w.prefetch||(w.uploading&&w.uploading.length))?'<div class="muted">'+(w.prefetch?'Downloading: '+esc(w.prefetch):'')+(w.prefetch&&w.uploading&&w.uploading.length?' · ':'')+(w.uploading&&w.uploading.length?'Uploading: '+esc(w.uploading.join(', ')):'')+'</div>':'')+
+   (((ocr&&fl)||(w.uploading&&w.uploading.length))?'<div class="muted">'+(ocr?fl:'')+(ocr&&fl&&w.uploading&&w.uploading.length?' · ':'')+(w.uploading&&w.uploading.length?'Uploading: '+esc(w.uploading.join(', ')):'')+'</div>':'')+
    '</div></div>'}).join('')||'<div class="muted">No workers reporting</div>';
  const RC=d.recent||[];$('recc').style.display=RC.length?'':'none';
  $('rec').innerHTML=RC.map(x=>'<tr><td>'+esc(x.ac)+' <span class="muted">'+esc(x.year)+'</span></td><td class="muted">'+esc(x.worker==='box'?'Grok box':x.worker==='mac'?'MacBook':x.worker)+'</td><td class="n">'+fmt(x.parts)+' parts</td><td class="n muted">'+esc((x.finished||'').slice(11,16))+' IST</td></tr>').join('');
