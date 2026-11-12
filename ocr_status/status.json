@@ -1,17 +1,17 @@
 {
- "updated": "12 Nov 2026, 11:08:04 PM IST",
- "updated_epoch": 1794505084,
+ "updated": "12 Nov 2026, 11:25:31 PM IST",
+ "updated_epoch": 1794506131,
  "total_constituencies": 175,
- "done_constituencies": 7,
+ "done_constituencies": 8,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 7,
+   "done": 8,
    "errors": 0,
-   "parts": 2118,
-   "needs_review": 65,
+   "parts": 2436,
+   "needs_review": 67,
    "failed": 0,
-   "electors": 1537977
+   "electors": 1764119
   },
   "2024": {
    "total_constituencies": 172,
@@ -24,12 +24,12 @@
   }
  },
  "batch": {
-  "phase": "Uploading 7 - Etcherla (2026)",
-  "updated": "2026-11-12 23:07:10 IST",
+  "phase": "OCR 8 - Narasannapeta (2026)",
+  "updated": "2026-11-12 23:23:20 IST",
   "year": "2026",
-  "next": "8 - Narasannapeta",
-  "eta": "14 Nov 03:04 AM IST (2026)",
-  "per_ac_s": 600
+  "next": "9 - Rajam",
+  "eta": "14 Nov 08:12 AM IST (2026)",
+  "per_ac_s": 708
  },
  "runs": [
   {
@@ -155,15 +155,32 @@
    "label": "7 - Etcherla",
    "district": "Srikakulam",
    "year": "2026",
-   "state": "uploading",
+   "state": "done",
    "total": 318,
    "processed": 318,
    "needs_review": 4,
    "failed": 0,
    "elapsed_s": 182,
-   "electors": null,
+   "electors": 226142,
    "rate_per_min": 104.8,
    "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ZwJYUYeJozAYdhK5Hm0oEkBH_HEu6tenaJbNNHjmqZ8/edit",
+   "folder": "https://drive.google.com/drive/folders/1Abbb5zM1bQ2Q4fGvesX5tzwq_tn7vyie"
+  },
+  {
+   "label": "8 - Narasannapeta",
+   "district": "Srikakulam",
+   "year": "2026",
+   "state": "running",
+   "total": 290,
+   "processed": 90,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 112,
+   "electors": null,
+   "rate_per_min": 48.2,
+   "eta_s": 249,
    "error": "",
    "sheet": "",
    "folder": ""
