@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 04:53:05 AM IST",
- "updated_epoch": 1794525785,
+ "updated": "13 Nov 2026, 05:23:02 AM IST",
+ "updated_epoch": 1794527582,
  "total_constituencies": 175,
  "done_constituencies": 65,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 702,
    "failed": 0,
    "electors": 13983422,
-   "eta": "13 Nov, 01:34 PM IST"
+   "eta": "13 Nov, 05:10 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 03:08 AM IST"
+   "eta": "14 Nov, 11:35 AM IST"
   }
  },
  "batch": {
   "phase": "downloading",
-  "updated": "2026-11-13 04:53:04 IST",
+  "updated": "2026-11-13 05:23:00 IST",
   "year": "2026",
   "next": "43 - Mummidivaram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -89,19 +89,19 @@
      "finished": "2026-11-13 03:25:37 IST"
     }
    ],
-   "load1": 5.95,
+   "load1": 4.71,
    "cores_busy": 0,
-   "updated": "2026-11-13 04:53:04 IST",
-   "updated_epoch": 1794525784,
+   "updated": "2026-11-13 05:23:00 IST",
+   "updated_epoch": 1794527580,
    "fetch": {
     "ac": "43 - Mummidivaram",
     "year": "2026",
-    "done": 31,
+    "done": 32,
     "total": 41,
-    "mb": 2003.7,
-    "mbps": 1.37
+    "mb": 2088.1,
+    "mbps": 0.64
    },
-   "age_s": 1
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -168,10 +168,10 @@
     "mb": 1330.1,
     "mbps": 17.44
    },
-   "age_s": 130
+   "age_s": 1927
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 9.3,
  "recent": [
   {
    "year": "2026",
