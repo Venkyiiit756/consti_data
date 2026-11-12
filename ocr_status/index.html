@@ -62,13 +62,13 @@ async function tick(){try{
   const off=w.age_s>600, slow=w.age_s>150, pct=w.total?100*w.processed/w.total:0, cb=w.cores_busy||0, ct=w.cores_total||'?', F=w.fetch;
   const cls=off?'off':(slow?'wait':'');
   const ocr=w.phase==='OCR', dl=!ocr&&F&&F.ac;
-  const fl=F&&F.ac?('Downloading '+esc(F.ac)+(F.total?': '+fmt(F.done)+'/'+fmt(F.total)+' parts':': reading zip index')+(F.mbps?' · '+F.mbps+' MB/s':'')):(w.prefetch?'Next: '+esc(w.prefetch):'');
+  const fl=F&&F.ac?('Downloading '+esc(F.ac)+(F.total?': '+fmt(F.done)+'/'+fmt(F.total)+' zips':'')+(F.mbps?' · '+F.mbps+' MB/s':'')):(w.prefetch?'Next: '+esc(w.prefetch):'');
   return '<div class="wk '+cls+'"><div class="wn"><span class="dot"></span>'+esc(nm)+'<div class="muted">'+(off?'offline · last seen '+dur(w.age_s)+' ago':slow?'heartbeat late · '+dur(w.age_s):'live · '+dur(w.age_s)+' ago')+'</div></div><div>'+
    '<div><b>'+esc(ocr?'OCR':dl?'Downloading':(w.phase||''))+'</b>'+(ocr&&w.ac?' · '+esc(w.ac)+' <span class="muted">'+esc(w.year)+'</span>':dl?' · '+esc(F.ac)+' <span class="muted">'+esc(F.year)+'</span>':'')+'</div>'+
    (ocr?'<div class="mini"><i style="width:'+pct.toFixed(1)+'%"></i></div>':dl&&F.total?'<div class="mini"><i style="width:'+(100*F.done/F.total).toFixed(1)+'%;background:var(--ok)"></i></div>':'')+
    '<div class="ws"><span>Cores <b>'+cb+'/'+ct+'</b></span><span>Load <b>'+(w.load1!=null?w.load1:'–')+'</b></span>'+
    (ocr?'<span>Parts <b>'+fmt(w.processed)+'/'+fmt(w.total)+'</b></span><span><b>'+(w.parts_per_min||0)+'</b>/min</span>':'')+
-   (dl&&F.total?'<span>Parts <b>'+fmt(F.done)+'/'+fmt(F.total)+'</b></span><span><b>'+(F.mbps||0)+'</b> MB/s</span>':'')+
+   (dl&&F.total?'<span>Zips <b>'+fmt(F.done)+'/'+fmt(F.total)+'</b></span><span><b>'+(F.mbps||0)+'</b> MB/s</span>':'')+
    (w.done_session!=null?'<span>Done this run <b>'+w.done_session+'</b></span>':'')+'</div>'+
    (((ocr&&fl)||(w.uploading&&w.uploading.length))?'<div class="muted">'+(ocr?fl:'')+(ocr&&fl&&w.uploading&&w.uploading.length?' · ':'')+(w.uploading&&w.uploading.length?'Uploading: '+esc(w.uploading.join(', ')):'')+'</div>':'')+
    '</div></div>'}).join('')||'<div class="muted">No workers reporting</div>';
