@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 04:50:37 AM IST",
- "updated_epoch": 1794525637,
+ "updated": "13 Nov 2026, 04:53:05 AM IST",
+ "updated_epoch": 1794525785,
  "total_constituencies": 175,
- "done_constituencies": 64,
+ "done_constituencies": 65,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 64,
+   "done": 65,
    "errors": 0,
-   "parts": 18609,
-   "needs_review": 694,
+   "parts": 18883,
+   "needs_review": 702,
    "failed": 0,
-   "electors": 13792782,
-   "eta": "13 Nov, 01:36 PM IST"
+   "electors": 13983422,
+   "eta": "13 Nov, 01:34 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 03:11 AM IST"
+   "eta": "14 Nov, 03:08 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 42 - Ramachandrapuram (2026)",
-  "updated": "2026-11-13 04:50:33 IST",
+  "phase": "downloading",
+  "updated": "2026-11-13 04:53:04 IST",
   "year": "2026",
   "next": "43 - Mummidivaram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "42 - Ramachandrapuram",
-   "phase": "OCR",
-   "processed": 50,
-   "total": 247,
-   "parts_per_min": 2.3,
+   "ac": "",
+   "phase": "downloading",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
    "prefetch": "43 - Mummidivaram (2026)",
-   "uploading": [],
+   "uploading": [
+    "42 - Ramachandrapuram"
+   ],
    "done_session": 14,
    "parts_session": 3924,
    "last": [
@@ -87,19 +89,19 @@
      "finished": "2026-11-13 03:25:37 IST"
     }
    ],
-   "load1": 11.7,
-   "cores_busy": 8,
-   "updated": "2026-11-13 04:50:33 IST",
-   "updated_epoch": 1794525633,
+   "load1": 5.95,
+   "cores_busy": 0,
+   "updated": "2026-11-13 04:53:04 IST",
+   "updated_epoch": 1794525784,
    "fetch": {
     "ac": "43 - Mummidivaram",
     "year": "2026",
-    "done": 14,
+    "done": 31,
     "total": 41,
-    "mb": 949.5,
-    "mbps": 44.48
+    "mb": 2003.7,
+    "mbps": 1.37
    },
-   "age_s": 4
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -110,16 +112,21 @@
    "year": "2026",
    "ac": "152 - Singanamala",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 70,
    "total": 314,
-   "parts_per_min": 29.7,
+   "parts_per_min": 45.9,
    "prefetch": "149 - Uravakonda (2026)",
-   "uploading": [
-    "153 - Anantapur Urban"
-   ],
-   "done_session": 15,
-   "parts_session": 4533,
+   "uploading": [],
+   "done_session": 16,
+   "parts_session": 4888,
    "last": [
+    {
+     "ac": "153 - Anantapur Urban",
+     "year": "2026",
+     "parts": 355,
+     "secs": 773,
+     "finished": "2026-11-13 04:49:50 IST"
+    },
     {
      "ac": "154 - Kalyandurg",
      "year": "2026",
@@ -147,28 +154,21 @@
      "parts": 312,
      "secs": 714,
      "finished": "2026-11-13 04:26:33 IST"
-    },
-    {
-     "ac": "158 - Penukonda",
-     "year": "2026",
-     "parts": 296,
-     "secs": 693,
-     "finished": "2026-11-13 04:19:38 IST"
     }
    ],
-   "load1": 21.83,
+   "load1": 28.4,
    "cores_busy": 10,
-   "updated": "2026-11-13 04:49:44 IST",
-   "updated_epoch": 1794525584,
+   "updated": "2026-11-13 04:50:55 IST",
+   "updated_epoch": 1794525655,
    "fetch": {
     "ac": "149 - Uravakonda",
     "year": "2026",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 16,
+    "total": 31,
+    "mb": 1330.1,
+    "mbps": 17.44
    },
-   "age_s": 53
+   "age_s": 130
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -199,6 +199,15 @@
    "electors": 223610,
    "secs": 374,
    "finished": "2026-11-13 04:37:39 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "156 - Madakasira",
+   "worker": "mac",
+   "parts": 274,
+   "electors": 190640,
+   "secs": 330,
+   "finished": "2026-11-13 04:31:36 IST"
   },
   {
    "year": "2026",
@@ -235,15 +244,6 @@
    "electors": 196397,
    "secs": 144,
    "finished": "2026-11-13 04:22:39 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "158 - Penukonda",
-   "worker": "mac",
-   "parts": 296,
-   "electors": 214116,
-   "secs": 377,
-   "finished": "2026-11-13 04:18:55 IST"
   }
  ],
  "failures": [],
@@ -1290,15 +1290,15 @@
    "label": "42 - Ramachandrapuram",
    "district": "Konaseema",
    "year": "2026",
-   "state": "running",
+   "state": "uploading",
    "total": 247,
-   "processed": 60,
-   "needs_review": 2,
+   "processed": 247,
+   "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 1325,
+   "elapsed_s": 1434,
    "electors": null,
-   "rate_per_min": 2.7,
-   "eta_s": 4130,
+   "rate_per_min": 10.3,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -1353,6 +1353,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1kyQjXp2SoOiU4XlqMFUCjunxQAyFrJOpHp5vikcTaI4/edit",
    "folder": "https://drive.google.com/drive/folders/10UUNq0mr_hlbBwKGsx78TscHxiipgxNt"
+  },
+  {
+   "label": "156 - Madakasira",
+   "district": "Sri Sathya Sai",
+   "year": "2026",
+   "state": "done",
+   "total": 274,
+   "processed": 274,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 330,
+   "electors": 190640,
+   "rate_per_min": 49.8,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1da6uOfq7MUHsKMbLt3N5SZoBrMfZSOzzh_kzRWhWjT8/edit",
+   "folder": "https://drive.google.com/drive/folders/1cEGxzpnv9l_GvRZ3O1rmv8rqq1_eX3RF"
   }
  ]
 }
