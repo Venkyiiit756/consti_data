@@ -1,8 +1,8 @@
 {
- "updated": "12 Nov 2026, 09:33:55 PM IST",
- "updated_epoch": 1794499435,
+ "updated": "12 Nov 2026, 09:44:02 PM IST",
+ "updated_epoch": 1794500042,
  "total_constituencies": 174,
- "done_constituencies": 1,
+ "done_constituencies": 2,
  "runs": [
   {
    "label": "59 - Bhimavaram",
@@ -18,6 +18,21 @@
    "eta_s": null,
    "sheet": "https://docs.google.com/spreadsheets/d/19fuqVsHXQP-B4aec1kY5q6pFU0Sso6wFllpC2WpBMQg/edit",
    "folder": "https://drive.google.com/drive/folders/1rjoJGqqhNaSmKQVAgcXVUriVNEqZLVhP"
+  },
+  {
+   "label": "2 - Palasa",
+   "district": "Srikakulam",
+   "year": "2026",
+   "state": "done",
+   "total": 302,
+   "processed": 302,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 295,
+   "rate_per_min": 61.4,
+   "eta_s": null,
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
