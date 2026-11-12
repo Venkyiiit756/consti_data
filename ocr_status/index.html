@@ -15,10 +15,16 @@ td.n,th.n{text-align:right}a{color:var(--acc);text-decoration:none}.ok{color:var
 .scroll{overflow-x:auto}.yr{display:flex;justify-content:space-between;align-items:baseline}.yr h2{font-size:16px;margin:0}
 .tabs{display:flex;gap:6px;margin-bottom:10px}.tabs button{font:inherit;font-size:13px;padding:4px 12px;border-radius:8px;border:1px solid var(--b);background:transparent;color:var(--t2);cursor:pointer}.tabs button.on{background:var(--acc);border-color:var(--acc);color:#fff}
 .muted{color:var(--t2);font-size:12px}
+.wk{display:grid;grid-template-columns:110px 1fr;gap:4px 14px;padding:12px 0;border-bottom:1px solid var(--b)}.wk:last-child{border-bottom:0}
+.wn{font-weight:600}.wn .dot{vertical-align:1px}.off .dot{background:var(--bad)}.wait .dot{background:var(--warn)}
+.ws{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--t2)}.ws b{color:var(--t);font-weight:600}
+.mini{height:6px;background:var(--b);border-radius:4px;overflow:hidden;margin:6px 0 4px}.mini>i{display:block;height:100%;background:var(--acc)}
+@media(max-width:560px){.wk{grid-template-columns:1fr}}
 </style></head><body><main>
 <h1>Voter Roll OCR – Live</h1><div class="sub" id="upd"><span class="dot"></span>loading…</div>
 <div id="years"></div>
-<div class="card" id="cur" style="display:none"></div>
+<div class="card" id="wkc"><div class="yr" style="margin-bottom:4px"><div class="k">Machines</div><div class="muted" id="thr"></div></div><div id="wks"></div></div>
+<div class="card" id="recc" style="display:none"><div class="k" style="margin-bottom:8px">Recent completions</div><div class="scroll"><table><tbody id="rec"></tbody></table></div></div>
 <div class="card" id="errc" style="display:none"><div class="k" style="margin-bottom:8px">Skipped after errors</div><div class="scroll"><table><tbody id="errs"></tbody></table></div></div>
 <div class="card"><div class="yr" style="margin-bottom:8px"><div class="k">Finished constituencies</div><div class="tabs" id="tabs"></div></div><div class="scroll"><table>
 <thead><tr><th>Constituency</th><th class="n">Parts</th><th class="n">Electors</th><th class="n">Review</th><th class="n">Failed</th><th>Sheet</th></tr></thead>
@@ -38,26 +44,33 @@ async function getStatus(){
 function setTab(y){tab=y;tick()}
 async function tick(){try{
  const d=await getStatus(), R=d.runs||[], Y=d.years||{'2026':{total_constituencies:d.total_constituencies,done:d.done_constituencies}};
- const stale=Date.now()/1000-d.updated_epoch>60;
+ const stale=Date.now()/1000-d.updated_epoch>180;
  $('upd').className='sub'+(stale?' stale':''); $('upd').innerHTML='<span class="dot"></span>'+(stale?'Pipeline idle/offline · last update ':'Live · updated ')+esc(d.updated);
  const ys=Object.keys(Y).sort().reverse(); if(!tab||!Y[tab])tab=ys[0];
  $('years').innerHTML=ys.map(y=>{const v=Y[y],t=v.total_constituencies,pct=t?100*v.done/t:0;
-  return '<div class="card"><div class="yr"><h2>'+y+' rolls</h2><span class="muted">'+(t?pct.toFixed(0)+'% of constituencies':'not started')+'</span></div>'+
+  return '<div class="card"><div class="yr"><h2>'+y+' rolls</h2><span class="muted">'+(t?pct.toFixed(0)+'% of constituencies'+(v.eta&&v.done<t?' · ETA '+esc(v.eta):''):'not started')+'</span></div>'+
   '<div class="bar"><i style="width:'+pct.toFixed(1)+'%"></i></div><div class="grid">'+
   '<div><div class="k">Constituencies</div><div class="v">'+v.done+' / '+(t||'–')+'</div></div>'+
   '<div><div class="k">Parts</div><div class="v">'+fmt(v.parts)+'</div></div>'+
   '<div><div class="k">Electors</div><div class="v">'+fmt(v.electors)+'</div></div>'+
   '<div><div class="k">Review · Failed</div><div class="v"><span class="'+(v.needs_review?'warn':'')+'">'+fmt(v.needs_review)+'</span> · <span class="'+(v.failed||v.errors?'bad':'')+'">'+fmt(v.failed+(v.errors||0))+'</span></div></div>'+
   '</div></div>'}).join('');
- const b=d.batch||{}, c=R.find(r=>r.state==='running')||R.find(r=>r.state==='uploading');
- if(c){const pct=c.total?100*c.processed/c.total:0;$('cur').style.display='';
-  $('cur').innerHTML='<div class="k">Now processing</div><div class="v" style="font-size:18px;margin-top:4px">'+esc(c.label)+' <span style="color:var(--t2);font-weight:400">'+esc(c.district)+' · '+esc(c.year)+'</span></div>'+
-  '<div class="bar"><i style="width:'+pct.toFixed(1)+'%"></i></div><div class="grid" style="font-size:14px">'+
-  '<div>'+fmt(c.processed)+' / '+fmt(c.total)+' parts ('+pct.toFixed(0)+'%)</div><div>'+c.rate_per_min+' parts/min</div><div>'+(c.state==='uploading'?'Uploading sheet':'ETA '+dur(c.eta_s))+'</div>'+
-  '<div>Review <b class="'+(c.needs_review?'warn':'')+'">'+c.needs_review+'</b> · Failed <b class="'+(c.failed?'bad':'')+'">'+c.failed+'</b></div></div>'+
-  (b.next?'<div class="muted" style="margin-top:8px">Next: '+esc(b.next)+(b.eta?' · all done ≈ '+esc(b.eta):'')+'</div>':'');}
- else if(b.phase){$('cur').style.display='';$('cur').innerHTML='<div class="k">Pipeline</div><div style="margin-top:4px">'+esc(b.phase)+(b.next?' · next: '+esc(b.next):'')+(b.eta?' · all done ≈ '+esc(b.eta):'')+'</div>'}
- else{$('cur').style.display='none'}
+ const WK=d.workers||[];
+ $('thr').textContent=d.all_done?'All done':(d.throughput_ac_per_hr?d.throughput_ac_per_hr+' constituencies/hour':'');
+ $('wks').innerHTML=WK.map(w=>{const nm=w.worker==='box'?'Grok box':w.worker==='mac'?'MacBook':w.worker;
+  if(w.age_s==null)return '<div class="wk off"><div class="wn"><span class="dot"></span>'+esc(nm)+'</div><div class="ws"><span>'+esc(w.phase)+'</span><span>'+(w.cores_total||'?')+' cores</span></div></div>';
+  const off=w.age_s>300, pct=w.total?100*w.processed/w.total:0, cb=w.cores_busy||0, ct=w.cores_total||'?';
+  const cls=off?'off':(w.phase==='OCR'?'':'wait');
+  return '<div class="wk '+cls+'"><div class="wn"><span class="dot"></span>'+esc(nm)+'<div class="muted">'+(off?'offline · '+dur(w.age_s)+' ago':'heartbeat '+dur(w.age_s)+' ago')+'</div></div><div>'+
+   '<div><b>'+esc(w.phase||'')+'</b>'+(w.ac?' · '+esc(w.ac)+' <span class="muted">'+esc(w.year)+'</span>':'')+'</div>'+
+   (w.phase==='OCR'?'<div class="mini"><i style="width:'+pct.toFixed(1)+'%"></i></div>':'')+
+   '<div class="ws"><span>Cores <b>'+cb+'/'+ct+'</b></span><span>Load <b>'+(w.load1!=null?w.load1:'–')+'</b></span>'+
+   (w.phase==='OCR'?'<span>Parts <b>'+fmt(w.processed)+'/'+fmt(w.total)+'</b></span><span><b>'+(w.parts_per_min||0)+'</b>/min</span>':'')+
+   (w.done_session!=null?'<span>Done this run <b>'+w.done_session+'</b></span>':'')+'</div>'+
+   ((w.prefetch||(w.uploading&&w.uploading.length))?'<div class="muted">'+(w.prefetch?'Downloading: '+esc(w.prefetch):'')+(w.prefetch&&w.uploading&&w.uploading.length?' · ':'')+(w.uploading&&w.uploading.length?'Uploading: '+esc(w.uploading.join(', ')):'')+'</div>':'')+
+   '</div></div>'}).join('')||'<div class="muted">No workers reporting</div>';
+ const RC=d.recent||[];$('recc').style.display=RC.length?'':'none';
+ $('rec').innerHTML=RC.map(x=>'<tr><td>'+esc(x.ac)+' <span class="muted">'+esc(x.year)+'</span></td><td class="muted">'+esc(x.worker==='box'?'Grok box':x.worker==='mac'?'MacBook':x.worker)+'</td><td class="n">'+fmt(x.parts)+' parts</td><td class="n muted">'+esc((x.finished||'').slice(11,16))+' IST</td></tr>').join('');
  const E=R.filter(r=>r.state==='error');$('errc').style.display=E.length?'':'none';
  $('errs').innerHTML=E.map(r=>'<tr><td>'+esc(r.label)+' <span class="muted">'+esc(r.year)+'</span></td><td class="bad">'+esc(r.error)+'</td></tr>').join('');
  $('tabs').innerHTML=ys.length>1?ys.map(y=>'<button class="'+(y===tab?'on':'')+'" onclick="setTab(\''+y+'\')">'+y+'</button>').join(''):'';
