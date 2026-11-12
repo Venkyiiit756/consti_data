@@ -1,17 +1,17 @@
 {
- "updated": "13 Nov 2026, 12:54:07 AM IST",
- "updated_epoch": 1794511447,
+ "updated": "13 Nov 2026, 01:27:09 AM IST",
+ "updated_epoch": 1794513429,
  "total_constituencies": 175,
- "done_constituencies": 15,
+ "done_constituencies": 16,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 15,
+   "done": 16,
    "errors": 0,
-   "parts": 4392,
-   "needs_review": 147,
+   "parts": 4653,
+   "needs_review": 149,
    "failed": 0,
-   "electors": 3097909
+   "electors": 3286320
   },
   "2024": {
    "total_constituencies": 172,
@@ -24,12 +24,12 @@
   }
  },
  "batch": {
-  "phase": "OCR 15 - Cheepurupalle (2026)",
-  "updated": "2026-11-13 00:49:47 IST",
+  "phase": "Downloading 16 - Gajapathinagaram (2026)",
+  "updated": "2026-11-13 01:25:40 IST",
   "year": "2026",
-  "next": "16 - Gajapathinagaram",
-  "eta": "14 Nov 09:15 AM IST (2026)",
-  "per_ac_s": 730
+  "next": "17 - Nellimarla",
+  "eta": "14 Nov 02:29 PM IST (2026)",
+  "per_ac_s": 839
  },
  "runs": [
   {
@@ -291,18 +291,18 @@
    "label": "15 - Cheepurupalle",
    "district": "Vizianagaram",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 261,
-   "processed": 210,
-   "needs_review": 2,
+   "processed": 261,
+   "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 204,
-   "electors": null,
-   "rate_per_min": 61.8,
-   "eta_s": 50,
+   "elapsed_s": 2113,
+   "electors": 188411,
+   "rate_per_min": 7.4,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1TdMQV1P4Rlg6JLhrGO1Zy486JX95jHDTQspndKNih78/edit",
+   "folder": "https://drive.google.com/drive/folders/1OJU03aDnuTfFlih7t-alJypDJ1z9Ph-9"
   }
  ]
 }
