@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 04:16:06 AM IST",
- "updated_epoch": 1794523566,
+ "updated": "13 Nov 2026, 04:26:11 AM IST",
+ "updated_epoch": 1794524171,
  "total_constituencies": 175,
- "done_constituencies": 52,
+ "done_constituencies": 59,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 52,
+   "done": 59,
    "errors": 0,
-   "parts": 15124,
-   "needs_review": 579,
+   "parts": 17091,
+   "needs_review": 613,
    "failed": 0,
-   "electors": 11217363,
-   "eta": "13 Nov, 01:29 PM IST"
+   "electors": 12722052,
+   "eta": "13 Nov, 11:41 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 02:23 AM IST"
+   "eta": "13 Nov, 10:26 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 38 - Kakinada Rural (2026)",
-  "updated": "2026-11-13 04:16:04 IST",
+  "phase": "OCR 41 - Kakinada City (2026)",
+  "updated": "2026-11-13 04:26:09 IST",
   "year": "2026",
-  "next": "39 - Peddapuram (2026)",
+  "next": "42 - Ramachandrapuram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,37 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "38 - Kakinada Rural",
+   "ac": "41 - Kakinada City",
    "phase": "OCR",
-   "processed": 240,
-   "total": 281,
-   "parts_per_min": 4.9,
-   "prefetch": "39 - Peddapuram (2026)",
+   "processed": 30,
+   "total": 261,
+   "parts_per_min": 93.7,
+   "prefetch": "42 - Ramachandrapuram (2026)",
    "uploading": [],
-   "done_session": 10,
-   "parts_session": 2896,
+   "done_session": 13,
+   "parts_session": 3663,
    "last": [
+    {
+     "ac": "40 - Anaparthi",
+     "year": "2026",
+     "parts": 248,
+     "secs": 301,
+     "finished": "2026-11-13 04:25:37 IST"
+    },
+    {
+     "ac": "39 - Peddapuram",
+     "year": "2026",
+     "parts": 238,
+     "secs": 1619,
+     "finished": "2026-11-13 04:22:41 IST"
+    },
+    {
+     "ac": "38 - Kakinada Rural",
+     "year": "2026",
+     "parts": 281,
+     "secs": 3709,
+     "finished": "2026-11-13 04:16:38 IST"
+    },
     {
      "ac": "37 - Pithapuram",
      "year": "2026",
@@ -64,40 +85,19 @@
      "parts": 247,
      "secs": 282,
      "finished": "2026-11-13 03:14:47 IST"
-    },
-    {
-     "ac": "35 - Tuni",
-     "year": "2026",
-     "parts": 265,
-     "secs": 284,
-     "finished": "2026-11-13 03:12:41 IST"
-    },
-    {
-     "ac": "34 - Narsipatnam",
-     "year": "2026",
-     "parts": 273,
-     "secs": 335,
-     "finished": "2026-11-13 03:10:43 IST"
-    },
-    {
-     "ac": "33 - Payakaraopet",
-     "year": "2026",
-     "parts": 312,
-     "secs": 369,
-     "finished": "2026-11-13 03:07:39 IST"
     }
    ],
-   "load1": 11.73,
+   "load1": 7.91,
    "cores_busy": 8,
-   "updated": "2026-11-13 04:16:04 IST",
-   "updated_epoch": 1794523564,
+   "updated": "2026-11-13 04:26:09 IST",
+   "updated_epoch": 1794524169,
    "fetch": {
-    "ac": "39 - Peddapuram",
+    "ac": "42 - Ramachandrapuram",
     "year": "2026",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 2,
+    "total": 35,
+    "mb": 158.9,
+    "mbps": 12.96
    },
    "age_s": 2
   },
@@ -108,64 +108,132 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "161 - Kadiri",
+   "ac": "157 - Hindupur",
    "phase": "OCR",
-   "processed": 20,
-   "total": 325,
-   "parts_per_min": 35.0,
-   "prefetch": "",
-   "uploading": [
-    "162 - Thamballapalle"
-   ],
-   "done_session": 6,
-   "parts_session": 1894,
+   "processed": 290,
+   "total": 312,
+   "parts_per_min": 47.0,
+   "prefetch": "154 - Kalyandurg (2026)",
+   "uploading": [],
+   "done_session": 11,
+   "parts_session": 3357,
    "last": [
     {
-     "ac": "163 - Pileru",
+     "ac": "158 - Penukonda",
      "year": "2026",
      "parts": 296,
-     "secs": 772,
-     "finished": "2026-11-13 03:49:43 IST"
+     "secs": 693,
+     "finished": "2026-11-13 04:19:38 IST"
     },
     {
-     "ac": "164 - Madanapalle",
+     "ac": "159 - Puttaparthi",
      "year": "2026",
-     "parts": 277,
-     "secs": 788,
-     "finished": "2026-11-13 03:42:48 IST"
+     "parts": 264,
+     "secs": 708,
+     "finished": "2026-11-13 04:13:32 IST"
     },
     {
-     "ac": "165 - Punganur",
+     "ac": "160 - Dharmavaram",
      "year": "2026",
-     "parts": 286,
-     "secs": 643,
-     "finished": "2026-11-13 03:36:37 IST"
+     "parts": 315,
+     "secs": 698,
+     "finished": "2026-11-13 04:07:48 IST"
     },
     {
-     "ac": "166 - Chandragiri",
+     "ac": "161 - Kadiri",
      "year": "2026",
-     "parts": 358,
-     "secs": 871,
-     "finished": "2026-11-13 03:30:41 IST"
+     "parts": 325,
+     "secs": 741,
+     "finished": "2026-11-13 04:00:50 IST"
     },
     {
-     "ac": "167 - Tirupati",
+     "ac": "162 - Thamballapalle",
      "year": "2026",
-     "parts": 358,
-     "secs": 816,
-     "finished": "2026-11-13 03:22:31 IST"
+     "parts": 263,
+     "secs": 572,
+     "finished": "2026-11-13 03:54:22 IST"
     }
    ],
-   "load1": 29.11,
+   "load1": 21.22,
    "cores_busy": 10,
-   "updated": "2026-11-13 03:54:07 IST",
-   "updated_epoch": 1794522247,
-   "fetch": null,
-   "age_s": 1319
+   "updated": "2026-11-13 04:24:46 IST",
+   "updated_epoch": 1794524086,
+   "fetch": {
+    "ac": "154 - Kalyandurg",
+    "year": "2026",
+    "done": 33,
+    "total": 33,
+    "mb": 2614.4,
+    "mbps": 9.05
+   },
+   "age_s": 85
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 16.0,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "40 - Anaparthi",
+   "worker": "box",
+   "parts": 248,
+   "electors": 212129,
+   "secs": 146,
+   "finished": "2026-11-13 04:25:35 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "39 - Peddapuram",
+   "worker": "box",
+   "parts": 238,
+   "electors": 196397,
+   "secs": 144,
+   "finished": "2026-11-13 04:22:39 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "158 - Penukonda",
+   "worker": "mac",
+   "parts": 296,
+   "electors": 214116,
+   "secs": 377,
+   "finished": "2026-11-13 04:18:55 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "38 - Kakinada Rural",
+   "worker": "box",
+   "parts": 281,
+   "electors": 227143,
+   "secs": 2985,
+   "finished": "2026-11-13 04:16:35 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "159 - Puttaparthi",
+   "worker": "mac",
+   "parts": 264,
+   "electors": 198229,
+   "secs": 332,
+   "finished": "2026-11-13 04:12:49 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "160 - Dharmavaram",
+   "worker": "mac",
+   "parts": 315,
+   "electors": 235180,
+   "secs": 392,
+   "finished": "2026-11-13 04:07:40 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "161 - Kadiri",
+   "worker": "mac",
+   "parts": 325,
+   "electors": 221495,
+   "secs": 402,
+   "finished": "2026-11-13 04:00:43 IST"
+  },
   {
    "year": "2026",
    "ac": "162 - Thamballapalle",
@@ -174,69 +242,6 @@
    "electors": 205026,
    "secs": 330,
    "finished": "2026-11-13 03:53:52 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "163 - Pileru",
-   "worker": "mac",
-   "parts": 296,
-   "electors": 207327,
-   "secs": 382,
-   "finished": "2026-11-13 03:49:34 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "164 - Madanapalle",
-   "worker": "mac",
-   "parts": 277,
-   "electors": 238280,
-   "secs": 376,
-   "finished": "2026-11-13 03:42:40 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "165 - Punganur",
-   "worker": "mac",
-   "parts": 286,
-   "electors": 222010,
-   "secs": 386,
-   "finished": "2026-11-13 03:35:51 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "166 - Chandragiri",
-   "worker": "mac",
-   "parts": 358,
-   "electors": 263522,
-   "secs": 450,
-   "finished": "2026-11-13 03:30:32 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "37 - Pithapuram",
-   "worker": "box",
-   "parts": 266,
-   "electors": 220894,
-   "secs": 641,
-   "finished": "2026-11-13 03:25:33 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "167 - Tirupati",
-   "worker": "mac",
-   "parts": 358,
-   "electors": 203630,
-   "secs": 470,
-   "finished": "2026-11-13 03:21:56 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "36 - Prathipadu",
-   "worker": "box",
-   "parts": 247,
-   "electors": 199339,
-   "secs": 135,
-   "finished": "2026-11-13 03:14:44 IST"
   }
  ],
  "failures": [],
@@ -1045,18 +1050,18 @@
    "label": "38 - Kakinada Rural",
    "district": "Kakinada",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 281,
-   "processed": 250,
+   "processed": 281,
    "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 1359,
-   "electors": null,
-   "rate_per_min": 11.0,
-   "eta_s": 169,
+   "elapsed_s": 1378,
+   "electors": 227143,
+   "rate_per_min": 12.2,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1istD6eoEhgiAGwd9q7b223Vc11PJ98Hu8RUlecLhauo/edit",
+   "folder": "https://drive.google.com/drive/folders/1yOxZgw1TtLngaI-YaOop6cEEliv-6CPF"
   },
   {
    "label": "163 - Pileru",
@@ -1142,6 +1147,125 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1GQRwAcUxtnGknthIDvT1QAqCKVTH3glKrS7kBRfyCqw/edit",
    "folder": "https://drive.google.com/drive/folders/1AhrJOu6WjTrDLBtSfPatd9xI6aFJrGve"
+  },
+  {
+   "label": "159 - Puttaparthi",
+   "district": "Sri Sathya Sai",
+   "year": "2026",
+   "state": "done",
+   "total": 264,
+   "processed": 264,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 332,
+   "electors": 198229,
+   "rate_per_min": 47.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/18iEYcE4I3JBWvpNqHiFCkcun38YF1rs8wFAfrFvDN44/edit",
+   "folder": "https://drive.google.com/drive/folders/1O2luT3RmyyWKgmwk24b_Uf2KnAYdhzPz"
+  },
+  {
+   "label": "160 - Dharmavaram",
+   "district": "Sri Sathya Sai",
+   "year": "2026",
+   "state": "done",
+   "total": 315,
+   "processed": 315,
+   "needs_review": 17,
+   "failed": 0,
+   "elapsed_s": 392,
+   "electors": 235180,
+   "rate_per_min": 48.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1f8xa3DZkP7CW7A1VZq5UjfnXG8FeQxramq0ChzFW7PY/edit",
+   "folder": "https://drive.google.com/drive/folders/1yrChIPM-SrlpA7Z5Vjws9oJ-HOPDYgY1"
+  },
+  {
+   "label": "161 - Kadiri",
+   "district": "Sri Sathya Sai",
+   "year": "2026",
+   "state": "done",
+   "total": 325,
+   "processed": 325,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 402,
+   "electors": 221495,
+   "rate_per_min": 48.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/17TqQWhtrbDoc323Y-AB-fzK7fyOE1QRKbS_PthJp6s8/edit",
+   "folder": "https://drive.google.com/drive/folders/1gtpcxMXmM8eeT4BCOTUJ6RLYpmtC6D5U"
+  },
+  {
+   "label": "158 - Penukonda",
+   "district": "Sri Sathya Sai",
+   "year": "2026",
+   "state": "done",
+   "total": 296,
+   "processed": 296,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 377,
+   "electors": 214116,
+   "rate_per_min": 47.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1BV0i8uqbXAEedR3Pnhgqt2koRVRGpVsV2rQN73YdJTY/edit",
+   "folder": "https://drive.google.com/drive/folders/1VNfCsJqT-VPZETlepp9TzNj9Lou8zYQj"
+  },
+  {
+   "label": "39 - Peddapuram",
+   "district": "Kakinada",
+   "year": "2026",
+   "state": "done",
+   "total": 238,
+   "processed": 238,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 144,
+   "electors": 196397,
+   "rate_per_min": 99.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1-DR6Cju5dXbsXXwHwm2EubeV47RTjxrKkHOQt1duSmY/edit",
+   "folder": "https://drive.google.com/drive/folders/1e8DKoHdR4IWQj2tqeUn5vsXCJBpn4EE5"
+  },
+  {
+   "label": "40 - Anaparthi",
+   "district": "East Godavari",
+   "year": "2026",
+   "state": "done",
+   "total": 248,
+   "processed": 248,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 146,
+   "electors": 212129,
+   "rate_per_min": 101.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1F0tA7y8C4C6m5Up_tPWzUlhiQTPYQBL9NxFmaPALJiA/edit",
+   "folder": "https://drive.google.com/drive/folders/15SPMXLxM2rmQenyBAhdsPbjzEqN_6fdq"
+  },
+  {
+   "label": "41 - Kakinada City",
+   "district": "Kakinada",
+   "year": "2026",
+   "state": "running",
+   "total": 261,
+   "processed": 30,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 19,
+   "electors": null,
+   "rate_per_min": 94.7,
+   "eta_s": 146,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
