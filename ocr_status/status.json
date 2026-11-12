@@ -1,24 +1,33 @@
 {
- "updated": "12 Nov 2026, 10:14:26 PM IST",
- "updated_epoch": 1794501866,
- "total_constituencies": 174,
+ "updated": "12 Nov 2026, 10:24:29 PM IST",
+ "updated_epoch": 1794502469,
+ "total_constituencies": 175,
  "done_constituencies": 3,
  "years": {
   "2026": {
-   "total_constituencies": 174,
+   "total_constituencies": 175,
    "done": 3,
    "errors": 0,
    "parts": 883,
    "needs_review": 17,
    "failed": 0,
    "electors": 682458
+  },
+  "2024": {
+   "total_constituencies": 172,
+   "done": 0,
+   "errors": 0,
+   "parts": 0,
+   "needs_review": 0,
+   "failed": 0,
+   "electors": 0
   }
  },
  "batch": {
-  "phase": "Scanning Drive for 2026 rolls",
-  "updated": "2026-11-12 22:10:48 IST",
+  "phase": "Downloading 3 - Tekkali (2026)",
+  "updated": "2026-11-12 22:23:50 IST",
   "year": "2026",
-  "next": "",
+  "next": "4 - Pathapatnam",
   "eta": "",
   "per_ac_s": 242
  },
