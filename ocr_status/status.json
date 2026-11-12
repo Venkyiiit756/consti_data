@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 03:55:33 AM IST",
- "updated_epoch": 1794522333,
+ "updated": "13 Nov 2026, 04:16:06 AM IST",
+ "updated_epoch": 1794523566,
  "total_constituencies": 175,
- "done_constituencies": 51,
+ "done_constituencies": 52,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 51,
+   "done": 52,
    "errors": 0,
-   "parts": 14861,
-   "needs_review": 570,
+   "parts": 15124,
+   "needs_review": 579,
    "failed": 0,
-   "electors": 11012337,
-   "eta": "13 Nov, 10:34 AM IST"
+   "electors": 11217363,
+   "eta": "13 Nov, 01:29 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 07:46 PM IST"
+   "eta": "14 Nov, 02:23 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 38 - Kakinada Rural (2026)",
-  "updated": "2026-11-13 03:55:32 IST",
+  "updated": "2026-11-13 04:16:04 IST",
   "year": "2026",
-  "next": "",
+  "next": "39 - Peddapuram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,10 +43,10 @@
    "year": "2026",
    "ac": "38 - Kakinada Rural",
    "phase": "OCR",
-   "processed": 210,
+   "processed": 240,
    "total": 281,
-   "parts_per_min": 7.3,
-   "prefetch": "",
+   "parts_per_min": 4.9,
+   "prefetch": "39 - Peddapuram (2026)",
    "uploading": [],
    "done_session": 10,
    "parts_session": 2896,
@@ -87,12 +87,19 @@
      "finished": "2026-11-13 03:07:39 IST"
     }
    ],
-   "load1": 10.21,
+   "load1": 11.73,
    "cores_busy": 8,
-   "updated": "2026-11-13 03:55:32 IST",
-   "updated_epoch": 1794522332,
-   "fetch": null,
-   "age_s": 1
+   "updated": "2026-11-13 04:16:04 IST",
+   "updated_epoch": 1794523564,
+   "fetch": {
+    "ac": "39 - Peddapuram",
+    "year": "2026",
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
+   },
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -103,10 +110,10 @@
    "year": "2026",
    "ac": "161 - Kadiri",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 20,
    "total": 325,
-   "parts_per_min": 42.9,
-   "prefetch": "159 - Puttaparthi (2026)",
+   "parts_per_min": 35.0,
+   "prefetch": "",
    "uploading": [
     "162 - Thamballapalle"
    ],
@@ -149,23 +156,25 @@
      "finished": "2026-11-13 03:22:31 IST"
     }
    ],
-   "load1": 32.25,
+   "load1": 29.11,
    "cores_busy": 10,
-   "updated": "2026-11-13 03:53:46 IST",
-   "updated_epoch": 1794522226,
-   "fetch": {
-    "ac": "159 - Puttaparthi",
-    "year": "2026",
-    "done": 30,
-    "total": 31,
-    "mb": 2448.3,
-    "mbps": 9.49
-   },
-   "age_s": 107
+   "updated": "2026-11-13 03:54:07 IST",
+   "updated_epoch": 1794522247,
+   "fetch": null,
+   "age_s": 1319
   }
  ],
- "throughput_ac_per_hr": 18.7,
+ "throughput_ac_per_hr": 13.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "162 - Thamballapalle",
+   "worker": "mac",
+   "parts": 263,
+   "electors": 205026,
+   "secs": 330,
+   "finished": "2026-11-13 03:53:52 IST"
+  },
   {
    "year": "2026",
    "ac": "163 - Pileru",
@@ -228,15 +237,6 @@
    "electors": 199339,
    "secs": 135,
    "finished": "2026-11-13 03:14:44 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "168 - Srikalahasti",
-   "worker": "mac",
-   "parts": 319,
-   "electors": 223227,
-   "secs": 293,
-   "finished": "2026-11-13 03:13:41 IST"
   }
  ],
  "failures": [],
@@ -1047,13 +1047,13 @@
    "year": "2026",
    "state": "running",
    "total": 281,
-   "processed": 210,
+   "processed": 250,
    "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 124,
+   "elapsed_s": 1359,
    "electors": null,
-   "rate_per_min": 101.6,
-   "eta_s": 42,
+   "rate_per_min": 11.0,
+   "eta_s": 169,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -1125,6 +1125,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1HWh941TBdhPKadWB2dOxIJvXSYWXf_BwF7ys8OXOSlI/edit",
    "folder": "https://drive.google.com/drive/folders/15WbILf3Xsch1jKz--Jpf4HHR1QlOAFhL"
+  },
+  {
+   "label": "162 - Thamballapalle",
+   "district": "Annamayya",
+   "year": "2026",
+   "state": "done",
+   "total": 263,
+   "processed": 263,
+   "needs_review": 9,
+   "failed": 0,
+   "elapsed_s": 330,
+   "electors": 205026,
+   "rate_per_min": 47.8,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1GQRwAcUxtnGknthIDvT1QAqCKVTH3glKrS7kBRfyCqw/edit",
+   "folder": "https://drive.google.com/drive/folders/1AhrJOu6WjTrDLBtSfPatd9xI6aFJrGve"
   }
  ]
 }
