@@ -1,17 +1,17 @@
 {
- "updated": "12 Nov 2026, 10:39:16 PM IST",
- "updated_epoch": 1794503356,
+ "updated": "12 Nov 2026, 11:08:04 PM IST",
+ "updated_epoch": 1794505084,
  "total_constituencies": 175,
- "done_constituencies": 5,
+ "done_constituencies": 7,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 5,
+   "done": 7,
    "errors": 0,
-   "parts": 1524,
-   "needs_review": 59,
+   "parts": 2118,
+   "needs_review": 65,
    "failed": 0,
-   "electors": 1108889
+   "electors": 1537977
   },
   "2024": {
    "total_constituencies": 172,
@@ -24,12 +24,12 @@
   }
  },
  "batch": {
-  "phase": "OCR 5 - Srikakulam (2026)",
-  "updated": "2026-11-12 22:34:39 IST",
+  "phase": "Uploading 7 - Etcherla (2026)",
+  "updated": "2026-11-12 23:07:10 IST",
   "year": "2026",
-  "next": "6 - Amadalavalasa",
-  "eta": "13 Nov 01:53 PM IST (2026)",
-  "per_ac_s": 324
+  "next": "8 - Narasannapeta",
+  "eta": "14 Nov 03:04 AM IST (2026)",
+  "per_ac_s": 600
  },
  "runs": [
   {
@@ -121,15 +121,49 @@
    "label": "5 - Srikakulam",
    "district": "Srikakulam",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 324,
-   "processed": 300,
+   "processed": 324,
    "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 215,
+   "elapsed_s": 1530,
+   "electors": 251218,
+   "rate_per_min": 12.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1GKnnJShhrYa-fDshOVDcd-Xj3POCC3_g-FNIl7h5lWk/edit",
+   "folder": "https://drive.google.com/drive/folders/1nrRS5mEF8kyNRl09Zb0YEzHTC37_Jq1o"
+  },
+  {
+   "label": "6 - Amadalavalasa",
+   "district": "Srikakulam",
+   "year": "2026",
+   "state": "done",
+   "total": 270,
+   "processed": 270,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 164,
+   "electors": 177870,
+   "rate_per_min": 98.8,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1yVJeUYmcZdzaA-T82WvrjMjvNMOWOLN2HlY37Lf8HUk/edit",
+   "folder": "https://drive.google.com/drive/folders/1uy8p0XrPjSqnuSWJ4RDUXFfUKKFlDxrj"
+  },
+  {
+   "label": "7 - Etcherla",
+   "district": "Srikakulam",
+   "year": "2026",
+   "state": "uploading",
+   "total": 318,
+   "processed": 318,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 182,
    "electors": null,
-   "rate_per_min": 83.7,
-   "eta_s": 17,
+   "rate_per_min": 104.8,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
