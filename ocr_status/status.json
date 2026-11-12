@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 03:16:05 AM IST",
- "updated_epoch": 1794519965,
+ "updated": "13 Nov 2026, 03:26:31 AM IST",
+ "updated_epoch": 1794520591,
  "total_constituencies": 175,
- "done_constituencies": 45,
+ "done_constituencies": 47,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 45,
+   "done": 47,
    "errors": 0,
-   "parts": 13020,
-   "needs_review": 391,
+   "parts": 13644,
+   "needs_review": 396,
    "failed": 0,
-   "electors": 9656674,
-   "eta": "13 Nov, 09:59 AM IST"
+   "electors": 10081198,
+   "eta": "13 Nov, 10:03 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 06:53 PM IST"
+   "eta": "13 Nov, 06:57 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 37 - Pithapuram (2026)",
-  "updated": "2026-11-13 03:16:00 IST",
+  "phase": "downloading",
+  "updated": "2026-11-13 03:26:31 IST",
   "year": "2026",
   "next": "38 - Kakinada Rural (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "37 - Pithapuram",
-   "phase": "OCR",
-   "processed": 120,
-   "total": 266,
-   "parts_per_min": 95.2,
+   "ac": "",
+   "phase": "downloading",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
    "prefetch": "38 - Kakinada Rural (2026)",
    "uploading": [],
-   "done_session": 9,
-   "parts_session": 2630,
+   "done_session": 10,
+   "parts_session": 2896,
    "last": [
+    {
+     "ac": "37 - Pithapuram",
+     "year": "2026",
+     "parts": 266,
+     "secs": 780,
+     "finished": "2026-11-13 03:25:37 IST"
+    },
     {
      "ac": "36 - Prathipadu",
      "year": "2026",
@@ -78,28 +85,21 @@
      "parts": 312,
      "secs": 369,
      "finished": "2026-11-13 03:07:39 IST"
-    },
-    {
-     "ac": "32 - Yelamanchili",
-     "year": "2026",
-     "parts": 266,
-     "secs": 249,
-     "finished": "2026-11-13 03:03:46 IST"
     }
    ],
-   "load1": 10.96,
-   "cores_busy": 8,
-   "updated": "2026-11-13 03:16:00 IST",
-   "updated_epoch": 1794519960,
+   "load1": 4.07,
+   "cores_busy": 0,
+   "updated": "2026-11-13 03:26:31 IST",
+   "updated_epoch": 1794520591,
    "fetch": {
     "ac": "38 - Kakinada Rural",
     "year": "2026",
-    "done": 22,
+    "done": 41,
     "total": 42,
-    "mb": 1555.3,
-    "mbps": 21.96
+    "mb": 2819.2,
+    "mbps": 4.3
    },
-   "age_s": 5
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -108,28 +108,66 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "167 - Tirupati",
+   "ac": "166 - Chandragiri",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 160,
    "total": 358,
-   "parts_per_min": 0.0,
-   "prefetch": "",
-   "uploading": [
-    "168 - Srikalahasti"
+   "parts_per_min": 45.6,
+   "prefetch": "164 - Madanapalle (2026)",
+   "uploading": [],
+   "done_session": 2,
+   "parts_session": 677,
+   "last": [
+    {
+     "ac": "167 - Tirupati",
+     "year": "2026",
+     "parts": 358,
+     "secs": 816,
+     "finished": "2026-11-13 03:22:31 IST"
+    },
+    {
+     "ac": "168 - Srikalahasti",
+     "year": "2026",
+     "parts": 319,
+     "secs": 604,
+     "finished": "2026-11-13 03:13:48 IST"
+    }
    ],
-   "done_session": 0,
-   "parts_session": 0,
-   "last": [],
-   "load1": 11.07,
+   "load1": 25.69,
    "cores_busy": 10,
-   "updated": "2026-11-13 03:13:44 IST",
-   "updated_epoch": 1794519824,
-   "fetch": null,
-   "age_s": 141
+   "updated": "2026-11-13 03:24:59 IST",
+   "updated_epoch": 1794520499,
+   "fetch": {
+    "ac": "164 - Madanapalle",
+    "year": "2026",
+    "done": 18,
+    "total": 38,
+    "mb": 1397.2,
+    "mbps": 10.94
+   },
+   "age_s": 92
   }
  ],
  "throughput_ac_per_hr": 19.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "37 - Pithapuram",
+   "worker": "box",
+   "parts": 266,
+   "electors": 220894,
+   "secs": 641,
+   "finished": "2026-11-13 03:25:33 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "167 - Tirupati",
+   "worker": "mac",
+   "parts": 358,
+   "electors": 203630,
+   "secs": 470,
+   "finished": "2026-11-13 03:21:56 IST"
+  },
   {
    "year": "2026",
    "ac": "36 - Prathipadu",
@@ -183,24 +221,6 @@
    "electors": 190527,
    "secs": 149,
    "finished": "2026-11-13 03:03:43 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "169 - Satyavedu",
-   "worker": "mac",
-   "parts": 279,
-   "electors": 192102,
-   "secs": 355,
-   "finished": "2026-11-13 03:02:47 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "31 - Pendurthi",
-   "worker": "box",
-   "parts": 341,
-   "electors": 286494,
-   "secs": 191,
-   "finished": "2026-11-13 03:01:47 IST"
   }
  ],
  "failures": [],
@@ -975,18 +995,35 @@
    "label": "37 - Pithapuram",
    "district": "Kakinada",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 266,
-   "processed": 130,
+   "processed": 266,
    "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 76,
-   "electors": null,
-   "rate_per_min": 102.6,
-   "eta_s": 80,
+   "elapsed_s": 640,
+   "electors": 220894,
+   "rate_per_min": 24.9,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1Cm8ZOtSEPxyijoGJwQxqCfi4qA64jffF2eSXZjNx-rQ/edit",
+   "folder": "https://drive.google.com/drive/folders/13wltz7tWtQfB9NHgYgYtGPJfNzinTyLx"
+  },
+  {
+   "label": "167 - Tirupati",
+   "district": "Tirupati",
+   "year": "2026",
+   "state": "done",
+   "total": 358,
+   "processed": 358,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 470,
+   "electors": 203630,
+   "rate_per_min": 45.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1R2fDat42L4MJs5DOQ8lxnKk8MWpJN7ilxrpAO-dcbdU/edit",
+   "folder": "https://drive.google.com/drive/folders/1Az9eOLmToP9BJITfpdIeIVzNaMcsuKr_"
   }
  ]
 }
