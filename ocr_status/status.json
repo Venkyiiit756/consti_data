@@ -1,17 +1,17 @@
 {
- "updated": "12 Nov 2026, 11:51:48 PM IST",
- "updated_epoch": 1794507708,
+ "updated": "13 Nov 2026, 12:16:51 AM IST",
+ "updated_epoch": 1794509211,
  "total_constituencies": 175,
- "done_constituencies": 9,
+ "done_constituencies": 10,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 9,
+   "done": 10,
    "errors": 0,
-   "parts": 2726,
-   "needs_review": 74,
+   "parts": 3021,
+   "needs_review": 93,
    "failed": 0,
-   "electors": 1963927
+   "electors": 2170119
   },
   "2024": {
    "total_constituencies": 172,
@@ -24,12 +24,12 @@
   }
  },
  "batch": {
-  "phase": "OCR 9 - Rajam (2026)",
-  "updated": "2026-11-12 23:49:45 IST",
+  "phase": "OCR 10 - Palakonda (2026)",
+  "updated": "2026-11-13 00:14:10 IST",
   "year": "2026",
-  "next": "10 - Palakonda",
-  "eta": "14 Nov 03:26 PM IST (2026)",
-  "per_ac_s": 859
+  "next": "11 - Kurupam",
+  "eta": "14 Nov 07:20 PM IST (2026)",
+  "per_ac_s": 941
  },
  "runs": [
   {
@@ -189,15 +189,32 @@
    "label": "9 - Rajam",
    "district": "Vizianagaram",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 295,
-   "processed": 100,
-   "needs_review": 3,
+   "processed": 295,
+   "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 62,
+   "elapsed_s": 1395,
+   "electors": 206192,
+   "rate_per_min": 12.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ippyDAoQFT12oNyi0Em6EqQ2k19KykDlS2MtZGlx8H0/edit",
+   "folder": "https://drive.google.com/drive/folders/1dPrzi9NlOVTrQw3huXVe6EhD2b3WJpC0"
+  },
+  {
+   "label": "10 - Palakonda",
+   "district": "Parvathipuram Manyam",
+   "year": "2026",
+   "state": "running",
+   "total": 307,
+   "processed": 250,
+   "needs_review": 18,
+   "failed": 0,
+   "elapsed_s": 143,
    "electors": null,
-   "rate_per_min": 96.8,
-   "eta_s": 121,
+   "rate_per_min": 104.9,
+   "eta_s": 33,
    "error": "",
    "sheet": "",
    "folder": ""
