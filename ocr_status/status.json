@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 02:13:44 PM IST",
- "updated_epoch": 1794559424,
+ "updated": "13 Nov 2026, 02:15:56 PM IST",
+ "updated_epoch": 1794559556,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 02:13 PM IST"
+   "eta": "13 Nov, 02:15 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 23,
    "errors": 0,
    "parts": 6354,
-   "needs_review": 180,
+   "needs_review": 188,
    "failed": 0,
    "electors": 5541935,
-   "eta": "14 Nov, 12:52 AM IST"
+   "eta": "14 Nov, 12:54 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 8 - Narasannapeta (2024)",
-  "updated": "2026-11-13 14:13:40 IST",
+  "updated": "2026-11-13 14:15:55 IST",
   "year": "2024",
   "next": "11 - Kurupam (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "8 - Narasannapeta",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 260,
    "total": 290,
-   "parts_per_min": 87.5,
+   "parts_per_min": 100.3,
    "prefetch": "11 - Kurupam (2024)",
    "uploading": [],
    "done_session": 14,
@@ -87,19 +87,19 @@
      "finished": "2026-11-13 12:46:40 IST"
     }
    ],
-   "load1": 10.5,
+   "load1": 10.56,
    "cores_busy": 8,
-   "updated": "2026-11-13 14:13:40 IST",
-   "updated_epoch": 1794559420,
+   "updated": "2026-11-13 14:15:55 IST",
+   "updated_epoch": 1794559555,
    "fetch": {
     "ac": "11 - Kurupam",
     "year": "2024",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 14,
+    "total": 14,
+    "mb": 1025.2,
+    "mbps": 39.85
    },
-   "age_s": 4
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -110,9 +110,9 @@
    "year": "2024",
    "ac": "158 - Penukonda",
    "phase": "OCR",
-   "processed": 50,
+   "processed": 100,
    "total": 265,
-   "parts_per_min": 47.7,
+   "parts_per_min": 44.8,
    "prefetch": "155 - Raptadu (2024)",
    "uploading": [
     "159 - Puttaparthi"
@@ -156,19 +156,19 @@
      "finished": "2026-11-13 13:47:01 IST"
     }
    ],
-   "load1": 21.02,
+   "load1": 26.88,
    "cores_busy": 10,
-   "updated": "2026-11-13 14:13:00 IST",
-   "updated_epoch": 1794559380,
+   "updated": "2026-11-13 14:14:11 IST",
+   "updated_epoch": 1794559451,
    "fetch": {
     "ac": "155 - Raptadu",
     "year": "2024",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 16,
+    "total": 20,
+    "mb": 1101.7,
+    "mbps": 12.79
    },
-   "age_s": 44
+   "age_s": 105
   }
  ],
  "throughput_ac_per_hr": 14.0,
@@ -3621,13 +3621,13 @@
    "year": "2024",
    "state": "running",
    "total": 290,
-   "processed": 30,
-   "needs_review": 2,
+   "processed": 270,
+   "needs_review": 10,
    "failed": 0,
-   "elapsed_s": 18,
+   "elapsed_s": 157,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 156,
+   "rate_per_min": 103.2,
+   "eta_s": 12,
    "error": "",
    "sheet": "",
    "folder": ""
