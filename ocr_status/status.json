@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 10:54:41 AM IST",
- "updated_epoch": 1794547481,
+ "updated": "13 Nov 2026, 11:20:13 AM IST",
+ "updated_epoch": 1794549013,
  "total_constituencies": 175,
- "done_constituencies": 150,
+ "done_constituencies": 155,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 150,
+   "done": 155,
    "errors": 0,
-   "parts": 43301,
-   "needs_review": 1232,
+   "parts": 44747,
+   "needs_review": 1242,
    "failed": 33,
-   "electors": 31928441,
-   "eta": "13 Nov, 12:47 PM IST"
+   "electors": 33021115,
+   "eta": "13 Nov, 01:06 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 01:41 AM IST"
+   "eta": "14 Nov, 04:16 AM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 10:54:37 IST",
+  "phase": "OCR 67 - Polavaram (2026)",
+  "updated": "2026-11-13 11:20:12 IST",
   "year": "2026",
-  "next": "67 - Polavaram (2026)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,18 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "67 - Polavaram (2026)",
-   "uploading": [
-    "66 - Gopalapuram"
-   ],
-   "done_session": 2,
-   "parts_session": 495,
+   "ac": "67 - Polavaram",
+   "phase": "OCR",
+   "processed": 10,
+   "total": 324,
+   "parts_per_min": 96.4,
+   "prefetch": "",
+   "uploading": [],
+   "done_session": 3,
+   "parts_session": 775,
    "last": [
+    {
+     "ac": "66 - Gopalapuram",
+     "year": "2026",
+     "parts": 280,
+     "secs": 3349,
+     "finished": "2026-11-13 11:18:39 IST"
+    },
     {
      "ac": "65 - Eluru",
      "year": "2026",
@@ -68,19 +73,12 @@
      "finished": "2026-11-13 10:20:40 IST"
     }
    ],
-   "load1": 6.14,
-   "cores_busy": 0,
-   "updated": "2026-11-13 10:54:37 IST",
-   "updated_epoch": 1794547477,
-   "fetch": {
-    "ac": "67 - Polavaram",
-    "year": "2026",
-    "done": 32,
-    "total": 38,
-    "mb": 2720.1,
-    "mbps": 1.61
-   },
-   "age_s": 4
+   "load1": 1.75,
+   "cores_busy": 8,
+   "updated": "2026-11-13 11:20:12 IST",
+   "updated_epoch": 1794549012,
+   "fetch": null,
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -89,69 +87,114 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2026",
-   "ac": "90 - Repalle",
+   "ac": "86 - Tadikonda",
    "phase": "OCR",
-   "processed": 100,
-   "total": 299,
-   "parts_per_min": 43.9,
-   "prefetch": "87 - Mangalagiri (2026)",
+   "processed": 210,
+   "total": 252,
+   "parts_per_min": 49.8,
+   "prefetch": "83 - Nandigama (2026)",
    "uploading": [],
-   "done_session": 8,
-   "parts_session": 2440,
+   "done_session": 12,
+   "parts_session": 3606,
    "last": [
+    {
+     "ac": "87 - Mangalagiri",
+     "year": "2026",
+     "parts": 353,
+     "secs": 789,
+     "finished": "2026-11-13 11:16:52 IST"
+    },
+    {
+     "ac": "88 - Ponnur",
+     "year": "2026",
+     "parts": 277,
+     "secs": 680,
+     "finished": "2026-11-13 11:09:34 IST"
+    },
+    {
+     "ac": "89 - Vemuru",
+     "year": "2026",
+     "parts": 237,
+     "secs": 539,
+     "finished": "2026-11-13 11:03:33 IST"
+    },
+    {
+     "ac": "90 - Repalle",
+     "year": "2026",
+     "parts": 299,
+     "secs": 720,
+     "finished": "2026-11-13 10:59:49 IST"
+    },
     {
      "ac": "91 - Tenali",
      "year": "2026",
      "parts": 317,
      "secs": 836,
      "finished": "2026-11-13 10:53:42 IST"
-    },
-    {
-     "ac": "92 - Bapatla",
-     "year": "2026",
-     "parts": 281,
-     "secs": 619,
-     "finished": "2026-11-13 10:47:56 IST"
-    },
-    {
-     "ac": "93 - Prathipadu SC",
-     "year": "2026",
-     "parts": 334,
-     "secs": 767,
-     "finished": "2026-11-13 10:42:49 IST"
-    },
-    {
-     "ac": "94 - Guntur West",
-     "year": "2026",
-     "parts": 338,
-     "secs": 710,
-     "finished": "2026-11-13 10:34:39 IST"
-    },
-    {
-     "ac": "95 - Guntur East",
-     "year": "2026",
-     "parts": 312,
-     "secs": 753,
-     "finished": "2026-11-13 10:29:49 IST"
     }
    ],
-   "load1": 24.11,
+   "load1": 22.81,
    "cores_busy": 10,
-   "updated": "2026-11-13 10:54:12 IST",
-   "updated_epoch": 1794547452,
+   "updated": "2026-11-13 11:19:05 IST",
+   "updated_epoch": 1794548945,
    "fetch": {
-    "ac": "87 - Mangalagiri",
+    "ac": "83 - Nandigama",
     "year": "2026",
-    "done": 24,
-    "total": 43,
-    "mb": 1859.7,
-    "mbps": 19.99
+    "done": 31,
+    "total": 31,
+    "mb": 2308.9,
+    "mbps": 14.19
    },
-   "age_s": 29
+   "age_s": 68
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 11.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "66 - Gopalapuram",
+   "worker": "box",
+   "parts": 280,
+   "electors": 226998,
+   "secs": 1693,
+   "finished": "2026-11-13 11:18:36 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "87 - Mangalagiri",
+   "worker": "mac",
+   "parts": 353,
+   "electors": 275395,
+   "secs": 414,
+   "finished": "2026-11-13 11:16:40 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "88 - Ponnur",
+   "worker": "mac",
+   "parts": 277,
+   "electors": 203416,
+   "secs": 329,
+   "finished": "2026-11-13 11:08:55 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "89 - Vemuru",
+   "worker": "mac",
+   "parts": 237,
+   "electors": 178450,
+   "secs": 278,
+   "finished": "2026-11-13 11:02:53 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "90 - Repalle",
+   "worker": "mac",
+   "parts": 299,
+   "electors": 208415,
+   "secs": 355,
+   "finished": "2026-11-13 10:59:40 IST"
+  },
   {
    "year": "2026",
    "ac": "91 - Tenali",
@@ -178,51 +221,6 @@
    "electors": 235765,
    "secs": 399,
    "finished": "2026-11-13 10:42:42 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "94 - Guntur West",
-   "worker": "mac",
-   "parts": 338,
-   "electors": 233101,
-   "secs": 393,
-   "finished": "2026-11-13 10:34:30 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "95 - Guntur East",
-   "worker": "mac",
-   "parts": 312,
-   "electors": 203085,
-   "secs": 356,
-   "finished": "2026-11-13 10:28:49 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "65 - Eluru",
-   "worker": "box",
-   "parts": 247,
-   "electors": 221372,
-   "secs": 143,
-   "finished": "2026-11-13 10:25:38 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "96 - Chilakaluripet",
-   "worker": "mac",
-   "parts": 278,
-   "electors": 199590,
-   "secs": 326,
-   "finished": "2026-11-13 10:21:50 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "64 - Denduluru",
-   "worker": "box",
-   "parts": 248,
-   "electors": 211017,
-   "secs": 1654,
-   "finished": "2026-11-13 10:20:37 IST"
   }
  ],
  "failures": [],
@@ -2697,18 +2695,18 @@
    "label": "66 - Gopalapuram",
    "district": "East Godavari",
    "year": "2026",
-   "state": "uploading",
+   "state": "done",
    "total": 280,
    "processed": 280,
    "needs_review": 0,
    "failed": 0,
    "elapsed_s": 1693,
-   "electors": null,
+   "electors": 226998,
    "rate_per_min": 9.9,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1Yi7vpK4pBGC8QZ2hsT6YXfGXCnOi0yANv-HR5FiOL-I/edit",
+   "folder": "https://drive.google.com/drive/folders/1hX99raCnXIQdOtf4RG2F6fdDMggC9aDM"
   },
   {
    "label": "92 - Bapatla",
@@ -2794,6 +2792,91 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1hrfqFBHV0V2n5s9IMhEHmxxxMRpppzlTi4PwmOyoHDk/edit",
    "folder": "https://drive.google.com/drive/folders/1O0fgWagKv9N8Fh8-SAMJK6OmHufoz6zR"
+  },
+  {
+   "label": "87 - Mangalagiri",
+   "district": "Guntur",
+   "year": "2026",
+   "state": "done",
+   "total": 353,
+   "processed": 353,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 414,
+   "electors": 275395,
+   "rate_per_min": 51.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1HHIn7MvzqrEDR4KoN7CLbdqkftN-3dXpN8-xAU27-Og/edit",
+   "folder": "https://drive.google.com/drive/folders/1U3AJYPrC2WAMdd3pEtFCHx5lh07lkyT0"
+  },
+  {
+   "label": "88 - Ponnur",
+   "district": "Guntur",
+   "year": "2026",
+   "state": "done",
+   "total": 277,
+   "processed": 277,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 329,
+   "electors": 203416,
+   "rate_per_min": 50.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Pz5qktT-ybOhgPkIh-fswzGFl-quN9ClC0dI2vLzq3E/edit",
+   "folder": "https://drive.google.com/drive/folders/1oyTXQJdbc4Ntj9otdMltoL0OLBwXZXih"
+  },
+  {
+   "label": "89 - Vemuru",
+   "district": "Bapatla",
+   "year": "2026",
+   "state": "done",
+   "total": 237,
+   "processed": 237,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 278,
+   "electors": 178450,
+   "rate_per_min": 51.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1FPxfWEEBc1hiLrLYZ8G1kDcXk1mCbbor9us7pQJOeso/edit",
+   "folder": "https://drive.google.com/drive/folders/1sf8B8L_xWdECXixu_bpSgMu_Tr4FuZhw"
+  },
+  {
+   "label": "90 - Repalle",
+   "district": "Bapatla",
+   "year": "2026",
+   "state": "done",
+   "total": 299,
+   "processed": 299,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 355,
+   "electors": 208415,
+   "rate_per_min": 50.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1JfnK-7kKGpmOTjYIDvFS_mjJKYKdCvhb87SgpikdnYI/edit",
+   "folder": "https://drive.google.com/drive/folders/1CnL5Y8TiUnVAa0nva7IHX8YZI_U_V-wV"
+  },
+  {
+   "label": "67 - Polavaram",
+   "district": "Eluru",
+   "year": "2026",
+   "state": "running",
+   "total": 324,
+   "processed": 10,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 6,
+   "electors": null,
+   "rate_per_min": 100.0,
+   "eta_s": 188,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
