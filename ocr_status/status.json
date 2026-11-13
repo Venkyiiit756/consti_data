@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 03:57:25 PM IST",
- "updated_epoch": 1794565645,
+ "updated": "13 Nov 2026, 03:58:07 PM IST",
+ "updated_epoch": 1794565687,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 03:57 PM IST"
+   "eta": "13 Nov, 03:58 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 51,
    "errors": 0,
    "parts": 13377,
-   "needs_review": 408,
+   "needs_review": 430,
    "failed": 0,
    "electors": 11690821,
-   "eta": "13 Nov, 11:50 PM IST"
+   "eta": "13 Nov, 11:51 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 19 - Srungavarapukota (2024)",
-  "updated": "2026-11-13 15:57:24 IST",
+  "updated": "2026-11-13 15:58:04 IST",
   "year": "2024",
-  "next": "",
+  "next": "22 - Visakhapatnam South (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,10 +43,10 @@
    "year": "2024",
    "ac": "19 - Srungavarapukota",
    "phase": "OCR",
-   "processed": 70,
+   "processed": 140,
    "total": 270,
-   "parts_per_min": 89.4,
-   "prefetch": "",
+   "parts_per_min": 96.5,
+   "prefetch": "22 - Visakhapatnam South (2024)",
    "uploading": [],
    "done_session": 25,
    "parts_session": 6836,
@@ -87,12 +87,19 @@
      "finished": "2026-11-13 15:12:53 IST"
     }
    ],
-   "load1": 11.98,
+   "load1": 11.26,
    "cores_busy": 8,
-   "updated": "2026-11-13 15:57:24 IST",
-   "updated_epoch": 1794565644,
-   "fetch": null,
-   "age_s": 1
+   "updated": "2026-11-13 15:58:04 IST",
+   "updated_epoch": 1794565684,
+   "fetch": {
+    "ac": "22 - Visakhapatnam South",
+    "year": "2024",
+    "done": 15,
+    "total": 16,
+    "mb": 1006.6,
+    "mbps": 38.1
+   },
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -103,9 +110,9 @@
    "year": "2024",
    "ac": "142 - Pattikonda",
    "phase": "OCR",
-   "processed": 220,
+   "processed": 230,
    "total": 255,
-   "parts_per_min": 13.8,
+   "parts_per_min": 13.3,
    "prefetch": "139 - Nandyal (2024)",
    "uploading": [],
    "done_session": 61,
@@ -147,10 +154,10 @@
      "finished": "2026-11-13 15:17:48 IST"
     }
    ],
-   "load1": 54.5,
+   "load1": 44.04,
    "cores_busy": 10,
-   "updated": "2026-11-13 15:55:50 IST",
-   "updated_epoch": 1794565550,
+   "updated": "2026-11-13 15:57:13 IST",
+   "updated_epoch": 1794565634,
    "fetch": {
     "ac": "139 - Nandyal",
     "year": "2024",
@@ -159,7 +166,7 @@
     "mb": 1534.8,
     "mbps": 8.7
    },
-   "age_s": 95
+   "age_s": 53
   }
  ],
  "throughput_ac_per_hr": 15.3,
@@ -4088,13 +4095,13 @@
    "year": "2024",
    "state": "running",
    "total": 270,
-   "processed": 70,
-   "needs_review": 1,
+   "processed": 140,
+   "needs_review": 23,
    "failed": 0,
-   "elapsed_s": 44,
+   "elapsed_s": 86,
    "electors": null,
-   "rate_per_min": 95.5,
-   "eta_s": 126,
+   "rate_per_min": 97.7,
+   "eta_s": 80,
    "error": "",
    "sheet": "",
    "folder": ""
