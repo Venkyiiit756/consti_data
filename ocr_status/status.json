@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 08:56:23 PM IST",
- "updated_epoch": 1794583583,
+ "updated": "13 Nov 2026, 09:19:08 PM IST",
+ "updated_epoch": 1794584948,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 08:56 PM IST"
+   "eta": "13 Nov, 09:19 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 110,
+   "done": 114,
    "errors": 0,
-   "parts": 29264,
-   "needs_review": 929,
+   "parts": 30412,
+   "needs_review": 1000,
    "failed": 0,
-   "electors": 25603502,
-   "eta": "14 Nov, 01:35 AM IST"
+   "electors": 26599127,
+   "eta": "14 Nov, 01:16 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 38 - Kakinada Rural (2024)",
-  "updated": "2026-11-13 20:56:20 IST",
+  "updated": "2026-11-13 21:19:04 IST",
   "year": "2024",
   "next": "39 - Peddapuram (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "38 - Kakinada Rural",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 70,
    "total": 252,
-   "parts_per_min": 17.4,
+   "parts_per_min": 2.9,
    "prefetch": "39 - Peddapuram (2024)",
    "uploading": [],
    "done_session": 44,
@@ -87,19 +87,19 @@
      "finished": "2026-11-13 20:12:42 IST"
     }
    ],
-   "load1": 11.71,
+   "load1": 12.09,
    "cores_busy": 8,
-   "updated": "2026-11-13 20:56:20 IST",
-   "updated_epoch": 1794583580,
+   "updated": "2026-11-13 21:19:04 IST",
+   "updated_epoch": 1794584944,
    "fetch": {
     "ac": "39 - Peddapuram",
     "year": "2024",
-    "done": 2,
+    "done": 13,
     "total": 15,
-    "mb": 171.1,
-    "mbps": 2.04
+    "mb": 1013.7,
+    "mbps": 0.7
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -108,69 +108,105 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "102 - Yerragondapalem",
+   "ac": "98 - Sattenapalle",
    "phase": "OCR",
-   "processed": 170,
-   "total": 265,
-   "parts_per_min": 38.5,
-   "prefetch": "99 - Vinukonda (2024)",
+   "processed": 70,
+   "total": 269,
+   "parts_per_min": 40.7,
+   "prefetch": "92 - Bapatla (2024)",
    "uploading": [],
-   "done_session": 101,
-   "parts_session": 27349,
+   "done_session": 105,
+   "parts_session": 28497,
    "last": [
+    {
+     "ac": "99 - Vinukonda",
+     "year": "2024",
+     "parts": 291,
+     "secs": 688,
+     "finished": "2026-11-13 21:17:50 IST"
+    },
+    {
+     "ac": "100 - Gurajala",
+     "year": "2024",
+     "parts": 300,
+     "secs": 664,
+     "finished": "2026-11-13 21:11:53 IST"
+    },
+    {
+     "ac": "101 - Macherla",
+     "year": "2024",
+     "parts": 292,
+     "secs": 711,
+     "finished": "2026-11-13 21:04:40 IST"
+    },
+    {
+     "ac": "102 - Yerragondapalem",
+     "year": "2024",
+     "parts": 265,
+     "secs": 730,
+     "finished": "2026-11-13 20:59:40 IST"
+    },
     {
      "ac": "103 - Darsi",
      "year": "2024",
      "parts": 282,
      "secs": 595,
      "finished": "2026-11-13 20:50:46 IST"
-    },
-    {
-     "ac": "104 - Parchur",
-     "year": "2024",
-     "parts": 295,
-     "secs": 694,
-     "finished": "2026-11-13 20:45:33 IST"
-    },
-    {
-     "ac": "105 - Addanki",
-     "year": "2024",
-     "parts": 296,
-     "secs": 832,
-     "finished": "2026-11-13 20:40:34 IST"
-    },
-    {
-     "ac": "106 - Chirala",
-     "year": "2024",
-     "parts": 218,
-     "secs": 635,
-     "finished": "2026-11-13 20:30:47 IST"
-    },
-    {
-     "ac": "107 - Santhanuthalapadu",
-     "year": "2024",
-     "parts": 253,
-     "secs": 750,
-     "finished": "2026-11-13 20:27:43 IST"
     }
    ],
-   "load1": 24.45,
+   "load1": 37.15,
    "cores_busy": 10,
-   "updated": "2026-11-13 20:53:56 IST",
-   "updated_epoch": 1794583436,
+   "updated": "2026-11-13 21:17:57 IST",
+   "updated_epoch": 1794584877,
    "fetch": {
-    "ac": "99 - Vinukonda",
+    "ac": "92 - Bapatla",
     "year": "2024",
-    "done": 20,
-    "total": 20,
-    "mb": 1267.7,
-    "mbps": 6.6
+    "done": 9,
+    "total": 14,
+    "mb": 685.6,
+    "mbps": 9.39
    },
-   "age_s": 147
+   "age_s": 71
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 14.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "99 - Vinukonda",
+   "worker": "mac",
+   "parts": 291,
+   "electors": 267214,
+   "secs": 400,
+   "finished": "2026-11-13 21:17:38 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "100 - Gurajala",
+   "worker": "mac",
+   "parts": 300,
+   "electors": 268488,
+   "secs": 422,
+   "finished": "2026-11-13 21:11:44 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "101 - Macherla",
+   "worker": "mac",
+   "parts": 292,
+   "electors": 252709,
+   "secs": 393,
+   "finished": "2026-11-13 21:03:49 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "102 - Yerragondapalem",
+   "worker": "mac",
+   "parts": 265,
+   "electors": 207214,
+   "secs": 388,
+   "finished": "2026-11-13 20:59:31 IST"
+  },
   {
    "year": "2024",
    "ac": "37 - Pithapuram",
@@ -206,42 +242,6 @@
    "electors": 233310,
    "secs": 393,
    "finished": "2026-11-13 20:50:37 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "104 - Parchur",
-   "worker": "mac",
-   "parts": 295,
-   "electors": 229333,
-   "secs": 412,
-   "finished": "2026-11-13 20:44:49 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "105 - Addanki",
-   "worker": "mac",
-   "parts": 296,
-   "electors": 241121,
-   "secs": 412,
-   "finished": "2026-11-13 20:39:51 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "106 - Chirala",
-   "worker": "mac",
-   "parts": 218,
-   "electors": 202711,
-   "secs": 340,
-   "finished": "2026-11-13 20:30:35 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "107 - Santhanuthalapadu",
-   "worker": "mac",
-   "parts": 253,
-   "electors": 210395,
-   "secs": 392,
-   "finished": "2026-11-13 20:27:35 IST"
   }
  ],
  "failures": [],
@@ -5098,16 +5098,84 @@
    "year": "2024",
    "state": "running",
    "total": 252,
-   "processed": 40,
+   "processed": 80,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 105,
+   "elapsed_s": 1471,
    "electors": null,
-   "rate_per_min": 22.9,
-   "eta_s": 556,
+   "rate_per_min": 3.3,
+   "eta_s": 3163,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "99 - Vinukonda",
+   "district": "Palnadu",
+   "year": "2024",
+   "state": "done",
+   "total": 291,
+   "processed": 291,
+   "needs_review": 10,
+   "failed": 0,
+   "elapsed_s": 400,
+   "electors": 267214,
+   "rate_per_min": 43.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1n8set-ra4lSyhZW6y5VkpuCCsTMEHK83x_hjIh_ia9M/edit",
+   "folder": "https://drive.google.com/drive/folders/17Qj_4EBh8lAJkLhzoi_T6dciPLC_fprd"
+  },
+  {
+   "label": "100 - Gurajala",
+   "district": "Palnadu",
+   "year": "2024",
+   "state": "done",
+   "total": 300,
+   "processed": 300,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 422,
+   "electors": 268488,
+   "rate_per_min": 42.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1XTkCd31glp4U0dmWrVrUwU77MxDjsoeMHK2lhQiuXZg/edit",
+   "folder": "https://drive.google.com/drive/folders/1kwfSGHoFMSrdiBinlYgz2vFRhfw7exCV"
+  },
+  {
+   "label": "101 - Macherla",
+   "district": "Palnadu",
+   "year": "2024",
+   "state": "done",
+   "total": 292,
+   "processed": 292,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 393,
+   "electors": 252709,
+   "rate_per_min": 44.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Wl1VlSGXHBIBR3dgQJW23i_t0vR9QVbM8VtT72fQyl8/edit",
+   "folder": "https://drive.google.com/drive/folders/1tVMNzPC7Jz89YA-ZpfpeFLzBInhPpnFP"
+  },
+  {
+   "label": "102 - Yerragondapalem",
+   "district": "Prakasam",
+   "year": "2024",
+   "state": "done",
+   "total": 265,
+   "processed": 265,
+   "needs_review": 57,
+   "failed": 0,
+   "elapsed_s": 388,
+   "electors": 207214,
+   "rate_per_min": 41.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1_P6WpqgsSoOkx8hXNcceevcO0BIWc0GcJi5NoosRouw/edit",
+   "folder": "https://drive.google.com/drive/folders/1AScybMUpdeHv3XBtriKxvGTqxI_LXIWe"
   }
  ]
 }
