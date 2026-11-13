@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 05:49:22 AM IST",
- "updated_epoch": 1794529162,
+ "updated": "13 Nov 2026, 05:50:28 AM IST",
+ "updated_epoch": 1794529228,
  "total_constituencies": 175,
- "done_constituencies": 76,
+ "done_constituencies": 77,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 76,
+   "done": 77,
    "errors": 0,
-   "parts": 22118,
+   "parts": 22425,
    "needs_review": 753,
    "failed": 3,
-   "electors": 16350480,
-   "eta": "13 Nov, 01:38 PM IST"
+   "electors": 16568804,
+   "eta": "13 Nov, 01:11 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 03:13 AM IST"
+   "eta": "14 Nov, 02:05 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 43 - Mummidivaram (2026)",
-  "updated": "2026-11-13 05:49:19 IST",
+  "phase": "downloading",
+  "updated": "2026-11-13 05:50:24 IST",
   "year": "2026",
   "next": "44 - Amalapuram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "43 - Mummidivaram",
-   "phase": "OCR",
-   "processed": 280,
-   "total": 307,
-   "parts_per_min": 11.0,
+   "ac": "",
+   "phase": "downloading",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
    "prefetch": "44 - Amalapuram (2026)",
    "uploading": [],
-   "done_session": 15,
-   "parts_session": 4171,
+   "done_session": 16,
+   "parts_session": 4478,
    "last": [
+    {
+     "ac": "43 - Mummidivaram",
+     "year": "2026",
+     "parts": 307,
+     "secs": 4867,
+     "finished": "2026-11-13 05:49:42 IST"
+    },
     {
      "ac": "42 - Ramachandrapuram",
      "year": "2026",
@@ -78,28 +85,21 @@
      "parts": 238,
      "secs": 1619,
      "finished": "2026-11-13 04:22:41 IST"
-    },
-    {
-     "ac": "38 - Kakinada Rural",
-     "year": "2026",
-     "parts": 281,
-     "secs": 3709,
-     "finished": "2026-11-13 04:16:38 IST"
     }
    ],
-   "load1": 12.08,
-   "cores_busy": 8,
-   "updated": "2026-11-13 05:49:19 IST",
-   "updated_epoch": 1794529159,
+   "load1": 5.01,
+   "cores_busy": 0,
+   "updated": "2026-11-13 05:50:24 IST",
+   "updated_epoch": 1794529224,
    "fetch": {
     "ac": "44 - Amalapuram",
     "year": "2026",
-    "done": 32,
+    "done": 34,
     "total": 38,
-    "mb": 2374.1,
-    "mbps": 1.62
+    "mb": 2458.9,
+    "mbps": 1.63
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -108,69 +108,78 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "147 - Alur",
+   "ac": "142 - Pattikonda",
    "phase": "OCR",
-   "processed": 240,
-   "total": 320,
-   "parts_per_min": 50.3,
-   "prefetch": "144 - Yemmiganur (2026)",
+   "processed": 80,
+   "total": 277,
+   "parts_per_min": 45.4,
+   "prefetch": "139 - Nandyal (2026)",
    "uploading": [],
-   "done_session": 21,
-   "parts_session": 6418,
+   "done_session": 26,
+   "parts_session": 7876,
    "last": [
     {
-     "ac": "148 - Rayadurg",
+     "ac": "143 - Kodumur",
      "year": "2026",
-     "parts": 343,
-     "secs": 677,
-     "finished": "2026-11-13 05:19:55 IST"
+     "parts": 265,
+     "secs": 515,
+     "finished": "2026-11-13 05:47:57 IST"
     },
     {
-     "ac": "149 - Uravakonda",
+     "ac": "144 - Yemmiganur",
      "year": "2026",
-     "parts": 286,
-     "secs": 653,
-     "finished": "2026-11-13 05:15:34 IST"
+     "parts": 322,
+     "secs": 668,
+     "finished": "2026-11-13 05:42:52 IST"
     },
     {
-     "ac": "150 - Guntakal",
+     "ac": "145 - Mantralayam",
      "year": "2026",
-     "parts": 339,
+     "parts": 267,
      "secs": 732,
-     "finished": "2026-11-13 05:07:56 IST"
+     "finished": "2026-11-13 05:37:50 IST"
     },
     {
-     "ac": "151 - Tadpatri",
+     "ac": "146 - Adoni",
      "year": "2026",
-     "parts": 248,
-     "secs": 628,
-     "finished": "2026-11-13 05:01:57 IST"
+     "parts": 284,
+     "secs": 783,
+     "finished": "2026-11-13 05:33:52 IST"
     },
     {
-     "ac": "152 - Singanamala",
+     "ac": "147 - Alur",
      "year": "2026",
-     "parts": 314,
-     "secs": 746,
-     "finished": "2026-11-13 04:56:42 IST"
+     "parts": 320,
+     "secs": 685,
+     "finished": "2026-11-13 05:25:55 IST"
     }
    ],
-   "load1": 21.28,
+   "load1": 24.93,
    "cores_busy": 10,
-   "updated": "2026-11-13 05:24:15 IST",
-   "updated_epoch": 1794527655,
+   "updated": "2026-11-13 05:48:59 IST",
+   "updated_epoch": 1794529139,
    "fetch": {
-    "ac": "144 - Yemmiganur",
+    "ac": "139 - Nandyal",
     "year": "2026",
-    "done": 35,
-    "total": 35,
-    "mb": 2621.1,
-    "mbps": 10.37
+    "done": 10,
+    "total": 36,
+    "mb": 858.3,
+    "mbps": 11.54
    },
-   "age_s": 1507
+   "age_s": 89
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 13.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "43 - Mummidivaram",
+   "worker": "box",
+   "parts": 307,
+   "electors": 218324,
+   "secs": 1535,
+   "finished": "2026-11-13 05:49:39 IST"
+  },
   {
    "year": "2026",
    "ac": "143 - Kodumur",
@@ -233,15 +242,6 @@
    "electors": 203306,
    "secs": 336,
    "finished": "2026-11-13 05:14:49 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "150 - Guntakal",
-   "worker": "mac",
-   "parts": 339,
-   "electors": 245673,
-   "secs": 394,
-   "finished": "2026-11-13 05:07:48 IST"
   }
  ],
  "failures": [],
@@ -1458,18 +1458,18 @@
    "label": "43 - Mummidivaram",
    "district": "Konaseema",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 307,
-   "processed": 290,
+   "processed": 307,
    "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 1526,
-   "electors": null,
-   "rate_per_min": 11.4,
-   "eta_s": 89,
+   "elapsed_s": 1535,
+   "electors": 218324,
+   "rate_per_min": 12.0,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1qArJsxRCv2yunAb3CPsUok7anGmldZ_EgA3Flq4g3Rg/edit",
+   "folder": "https://drive.google.com/drive/folders/1qPwwyCptMkJ_QpTqIOJVrrq0wHHvt2rZ"
   },
   {
    "label": "143 - Kodumur",
