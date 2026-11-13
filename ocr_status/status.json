@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 09:49:19 PM IST",
- "updated_epoch": 1794586759,
+ "updated": "13 Nov 2026, 09:50:30 PM IST",
+ "updated_epoch": 1794586830,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 09:49 PM IST"
+   "eta": "13 Nov, 09:50 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 1050,
    "failed": 0,
    "electors": 27955929,
-   "eta": "14 Nov, 02:09 AM IST"
+   "eta": "14 Nov, 02:10 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 40 - Anaparthi (2024)",
-  "updated": "2026-11-13 21:49:16 IST",
+  "updated": "2026-11-13 21:50:27 IST",
   "year": "2024",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "40 - Anaparthi",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 40,
    "total": 227,
-   "parts_per_min": 74.0,
+   "parts_per_min": 30.4,
    "prefetch": "",
    "uploading": [
     "39 - Peddapuram"
@@ -89,10 +89,10 @@
      "finished": "2026-11-13 20:17:53 IST"
     }
    ],
-   "load1": 10.94,
+   "load1": 11.48,
    "cores_busy": 8,
-   "updated": "2026-11-13 21:49:16 IST",
-   "updated_epoch": 1794586756,
+   "updated": "2026-11-13 21:50:27 IST",
+   "updated_epoch": 1794586827,
    "fetch": null,
    "age_s": 3
   },
@@ -161,7 +161,7 @@
     "mb": 1769.8,
     "mbps": 12.45
    },
-   "age_s": 35
+   "age_s": 106
   }
  ],
  "throughput_ac_per_hr": 12.0,
@@ -5280,13 +5280,13 @@
    "year": "2024",
    "state": "running",
    "total": 227,
-   "processed": 10,
+   "processed": 40,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 7,
+   "elapsed_s": 76,
    "electors": null,
-   "rate_per_min": 85.7,
-   "eta_s": 152,
+   "rate_per_min": 31.6,
+   "eta_s": 355,
    "error": "",
    "sheet": "",
    "folder": ""
