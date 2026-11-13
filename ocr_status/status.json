@@ -1,35 +1,35 @@
 {
- "updated": "13 Nov 2026, 12:42:58 PM IST",
- "updated_epoch": 1794553978,
+ "updated": "13 Nov 2026, 12:44:55 PM IST",
+ "updated_epoch": 1794554095,
  "total_constituencies": 175,
- "done_constituencies": 174,
+ "done_constituencies": 175,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 174,
+   "done": 175,
    "errors": 0,
-   "parts": 49887,
-   "needs_review": 1332,
+   "parts": 50214,
+   "needs_review": 1334,
    "failed": 38,
-   "electors": 37105586,
-   "eta": "13 Nov, 12:46 PM IST"
+   "electors": 37367704,
+   "eta": "13 Nov, 12:44 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 2,
    "errors": 0,
    "parts": 578,
-   "needs_review": 23,
+   "needs_review": 26,
    "failed": 0,
    "electors": 487745,
-   "eta": "13 Nov, 11:52 PM IST"
+   "eta": "13 Nov, 11:22 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 3 - Tekkali (2024)",
-  "updated": "2026-11-13 12:42:57 IST",
+  "phase": "OCR 4 - Pathapatnam (2024)",
+  "updated": "2026-11-13 12:44:52 IST",
   "year": "2024",
-  "next": "5 - Srikakulam (2024)",
+  "next": "7 - Etcherla (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "3 - Tekkali",
+   "ac": "4 - Pathapatnam",
    "phase": "OCR",
-   "processed": 120,
-   "total": 315,
-   "parts_per_min": 92.5,
-   "prefetch": "5 - Srikakulam (2024)",
-   "uploading": [],
+   "processed": 10,
+   "total": 321,
+   "parts_per_min": 75.5,
+   "prefetch": "7 - Etcherla (2024)",
+   "uploading": [
+    "3 - Tekkali"
+   ],
    "done_session": 9,
    "parts_session": 2506,
    "last": [
@@ -87,19 +89,19 @@
      "finished": "2026-11-13 12:24:54 IST"
     }
    ],
-   "load1": 11.21,
+   "load1": 10.29,
    "cores_busy": 8,
-   "updated": "2026-11-13 12:42:57 IST",
-   "updated_epoch": 1794553977,
+   "updated": "2026-11-13 12:44:52 IST",
+   "updated_epoch": 1794554092,
    "fetch": {
-    "ac": "5 - Srikakulam",
+    "ac": "7 - Etcherla",
     "year": "2024",
-    "done": 19,
-    "total": 20,
-    "mb": 1537.8,
-    "mbps": 22.28
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 1
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -110,16 +112,21 @@
    "year": "2024",
    "ac": "175 - Kuppam",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 140,
    "total": 243,
-   "parts_per_min": 48.3,
+   "parts_per_min": 49.9,
    "prefetch": "172 - Chittoor (2024)",
-   "uploading": [
-    "71 - Gannavaram Krishna"
-   ],
-   "done_session": 27,
-   "parts_session": 7593,
+   "uploading": [],
+   "done_session": 28,
+   "parts_session": 7920,
    "last": [
+    {
+     "ac": "71 - Gannavaram Krishna",
+     "year": "2026",
+     "parts": 327,
+     "secs": 766,
+     "finished": "2026-11-13 12:43:36 IST"
+    },
     {
      "ac": "72 - Gudivada",
      "year": "2026",
@@ -147,32 +154,34 @@
      "parts": 223,
      "secs": 594,
      "finished": "2026-11-13 12:21:41 IST"
-    },
-    {
-     "ac": "76 - Avanigadda",
-     "year": "2026",
-     "parts": 267,
-     "secs": 674,
-     "finished": "2026-11-13 12:17:27 IST"
     }
    ],
-   "load1": 20.47,
+   "load1": 21.43,
    "cores_busy": 10,
-   "updated": "2026-11-13 12:41:53 IST",
-   "updated_epoch": 1794553913,
+   "updated": "2026-11-13 12:44:04 IST",
+   "updated_epoch": 1794554044,
    "fetch": {
     "ac": "172 - Chittoor",
     "year": "2024",
-    "done": 1,
+    "done": 16,
     "total": 16,
-    "mb": 0.1,
-    "mbps": 0.01
+    "mb": 1105.5,
+    "mbps": 10.42
    },
-   "age_s": 65
+   "age_s": 51
   }
  ],
- "throughput_ac_per_hr": 15.3,
+ "throughput_ac_per_hr": 16.0,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "71 - Gannavaram Krishna",
+   "worker": "mac",
+   "parts": 327,
+   "electors": 262118,
+   "secs": 387,
+   "finished": "2026-11-13 12:43:27 IST"
+  },
   {
    "year": "2024",
    "ac": "2 - Palasa",
@@ -235,15 +244,6 @@
    "electors": 158667,
    "secs": 267,
    "finished": "2026-11-13 12:25:37 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "68 - Chintalapudi",
-   "worker": "box",
-   "parts": 292,
-   "electors": 255148,
-   "secs": 164,
-   "finished": "2026-11-13 12:24:51 IST"
   }
  ],
  "failures": [],
@@ -3245,15 +3245,49 @@
    "label": "3 - Tekkali",
    "district": "Srikakulam",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 315,
-   "processed": 130,
-   "needs_review": 7,
+   "processed": 315,
+   "needs_review": 10,
    "failed": 0,
-   "elapsed_s": 78,
+   "elapsed_s": 185,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 111,
+   "rate_per_min": 102.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "71 - Gannavaram Krishna",
+   "district": "Krishna",
+   "year": "2026",
+   "state": "done",
+   "total": 327,
+   "processed": 327,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 387,
+   "electors": 262118,
+   "rate_per_min": 50.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1WoX4ntpwHt79MlBPFNxRf6LOFpGp4ou-gkzpLXsAqWc/edit",
+   "folder": "https://drive.google.com/drive/folders/1tmTdk04uZKsUlnk6O5YeqPjfPX2cB0zH"
+  },
+  {
+   "label": "4 - Pathapatnam",
+   "district": "Srikakulam",
+   "year": "2024",
+   "state": "running",
+   "total": 321,
+   "processed": 10,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 7,
+   "electors": null,
+   "rate_per_min": 85.7,
+   "eta_s": 218,
    "error": "",
    "sheet": "",
    "folder": ""
