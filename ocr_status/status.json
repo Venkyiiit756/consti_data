@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 10:26:37 AM IST",
- "updated_epoch": 1794545797,
+ "updated": "13 Nov 2026, 10:53:32 AM IST",
+ "updated_epoch": 1794547412,
  "total_constituencies": 175,
- "done_constituencies": 145,
+ "done_constituencies": 149,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 145,
+   "done": 149,
    "errors": 0,
-   "parts": 41719,
-   "needs_review": 1187,
+   "parts": 42984,
+   "needs_review": 1229,
    "failed": 33,
-   "electors": 30842810,
-   "eta": "13 Nov, 12:19 PM IST"
+   "electors": 31686191,
+   "eta": "13 Nov, 12:56 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 11:04 PM IST"
+   "eta": "14 Nov, 02:31 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 66 - Gopalapuram (2026)",
-  "updated": "2026-11-13 10:26:37 IST",
+  "updated": "2026-11-13 10:53:27 IST",
   "year": "2026",
   "next": "67 - Polavaram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2026",
    "ac": "66 - Gopalapuram",
    "phase": "OCR",
-   "processed": 80,
+   "processed": 210,
    "total": 280,
-   "parts_per_min": 98.6,
+   "parts_per_min": 7.6,
    "prefetch": "67 - Polavaram (2026)",
    "uploading": [],
    "done_session": 2,
@@ -66,19 +66,19 @@
      "finished": "2026-11-13 10:20:40 IST"
     }
    ],
-   "load1": 8.48,
+   "load1": 11.37,
    "cores_busy": 8,
-   "updated": "2026-11-13 10:26:37 IST",
-   "updated_epoch": 1794545797,
+   "updated": "2026-11-13 10:53:27 IST",
+   "updated_epoch": 1794547407,
    "fetch": {
     "ac": "67 - Polavaram",
     "year": "2026",
-    "done": 7,
+    "done": 18,
     "total": 38,
-    "mb": 567.9,
-    "mbps": 15.3
+    "mb": 1514.7,
+    "mbps": 0.93
    },
-   "age_s": 0
+   "age_s": 5
   },
   {
    "worker": "mac",
@@ -87,55 +87,107 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2026",
-   "ac": "95 - Guntur East",
+   "ac": "90 - Repalle",
    "phase": "OCR",
-   "processed": 210,
-   "total": 312,
-   "parts_per_min": 51.2,
-   "prefetch": "93 - Prathipadu SC (2026)",
-   "uploading": [],
-   "done_session": 3,
-   "parts_session": 858,
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
+   "prefetch": "88 - Ponnur (2026)",
+   "uploading": [
+    "91 - Tenali"
+   ],
+   "done_session": 7,
+   "parts_session": 2123,
    "last": [
+    {
+     "ac": "92 - Bapatla",
+     "year": "2026",
+     "parts": 281,
+     "secs": 619,
+     "finished": "2026-11-13 10:47:56 IST"
+    },
+    {
+     "ac": "93 - Prathipadu SC",
+     "year": "2026",
+     "parts": 334,
+     "secs": 767,
+     "finished": "2026-11-13 10:42:49 IST"
+    },
+    {
+     "ac": "94 - Guntur West",
+     "year": "2026",
+     "parts": 338,
+     "secs": 710,
+     "finished": "2026-11-13 10:34:39 IST"
+    },
+    {
+     "ac": "95 - Guntur East",
+     "year": "2026",
+     "parts": 312,
+     "secs": 753,
+     "finished": "2026-11-13 10:29:49 IST"
+    },
     {
      "ac": "96 - Chilakaluripet",
      "year": "2026",
      "parts": 278,
      "secs": 590,
      "finished": "2026-11-13 10:21:58 IST"
-    },
-    {
-     "ac": "97 - Narasaraopet",
-     "year": "2026",
-     "parts": 285,
-     "secs": 626,
-     "finished": "2026-11-13 10:17:32 IST"
-    },
-    {
-     "ac": "98 - Sattenapalle",
-     "year": "2026",
-     "parts": 295,
-     "secs": 623,
-     "finished": "2026-11-13 10:12:54 IST"
     }
    ],
-   "load1": 22.47,
-   "cores_busy": 10,
-   "updated": "2026-11-13 10:25:06 IST",
-   "updated_epoch": 1794545706,
+   "load1": 25.49,
+   "cores_busy": 7,
+   "updated": "2026-11-13 10:51:55 IST",
+   "updated_epoch": 1794547315,
    "fetch": {
-    "ac": "93 - Prathipadu SC",
+    "ac": "88 - Ponnur",
     "year": "2026",
-    "done": 20,
-    "total": 38,
-    "mb": 1433.7,
-    "mbps": 16.9
+    "done": 31,
+    "total": 32,
+    "mb": 2530.0,
+    "mbps": 12.7
    },
-   "age_s": 91
+   "age_s": 97
   }
  ],
- "throughput_ac_per_hr": 16.0,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "92 - Bapatla",
+   "worker": "mac",
+   "parts": 281,
+   "electors": 171430,
+   "secs": 335,
+   "finished": "2026-11-13 10:47:49 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "93 - Prathipadu SC",
+   "worker": "mac",
+   "parts": 334,
+   "electors": 235765,
+   "secs": 399,
+   "finished": "2026-11-13 10:42:42 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "94 - Guntur West",
+   "worker": "mac",
+   "parts": 338,
+   "electors": 233101,
+   "secs": 393,
+   "finished": "2026-11-13 10:34:30 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "95 - Guntur East",
+   "worker": "mac",
+   "parts": 312,
+   "electors": 203085,
+   "secs": 356,
+   "finished": "2026-11-13 10:28:49 IST"
+  },
   {
    "year": "2026",
    "ac": "65 - Eluru",
@@ -171,42 +223,6 @@
    "electors": 203821,
    "secs": 350,
    "finished": "2026-11-13 10:17:14 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "98 - Sattenapalle",
-   "worker": "mac",
-   "parts": 295,
-   "electors": 223828,
-   "secs": 227,
-   "finished": "2026-11-13 10:12:47 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "99 - Vinukonda",
-   "worker": "mac",
-   "parts": 329,
-   "electors": 241566,
-   "secs": 368,
-   "finished": "2026-11-13 10:01:44 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "100 - Gurajala",
-   "worker": "mac",
-   "parts": 328,
-   "electors": 241254,
-   "secs": 365,
-   "finished": "2026-11-13 09:54:49 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "101 - Macherla",
-   "worker": "mac",
-   "parts": 321,
-   "electors": 234804,
-   "secs": 356,
-   "finished": "2026-11-13 09:48:50 IST"
   }
  ],
  "failures": [],
@@ -2683,16 +2699,84 @@
    "year": "2026",
    "state": "running",
    "total": 280,
-   "processed": 80,
+   "processed": 220,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 46,
+   "elapsed_s": 1661,
    "electors": null,
-   "rate_per_min": 104.3,
-   "eta_s": 115,
+   "rate_per_min": 7.9,
+   "eta_s": 453,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "92 - Bapatla",
+   "district": "Bapatla",
+   "year": "2026",
+   "state": "done",
+   "total": 281,
+   "processed": 281,
+   "needs_review": 21,
+   "failed": 0,
+   "elapsed_s": 335,
+   "electors": 171430,
+   "rate_per_min": 50.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1xHTG-qfHJ7i0YesnrsbAQeNynJldojrs0Wv_JVFHB4U/edit",
+   "folder": "https://drive.google.com/drive/folders/1WCG1PdYmij5PK8R19COu7dO4WijxGcFx"
+  },
+  {
+   "label": "93 - Prathipadu SC",
+   "district": "Guntur",
+   "year": "2026",
+   "state": "done",
+   "total": 334,
+   "processed": 334,
+   "needs_review": 8,
+   "failed": 0,
+   "elapsed_s": 399,
+   "electors": 235765,
+   "rate_per_min": 50.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Zu9HOu24pqimaM4R8x3YPRgmxNrXJNVqJHk1-yD7Czg/edit",
+   "folder": "https://drive.google.com/drive/folders/115ApRUpumF_INjEqamQk3qbU_ivhXvcS"
+  },
+  {
+   "label": "94 - Guntur West",
+   "district": "Guntur",
+   "year": "2026",
+   "state": "done",
+   "total": 338,
+   "processed": 338,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 393,
+   "electors": 233101,
+   "rate_per_min": 51.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1JYJ6oSirNiAenmnSjbpyj9gGoNlhfaTBSIiFkYBFH1A/edit",
+   "folder": "https://drive.google.com/drive/folders/1OVrM6bAplO9faFU-BTTFrGoYhkSv_i1p"
+  },
+  {
+   "label": "95 - Guntur East",
+   "district": "Guntur",
+   "year": "2026",
+   "state": "done",
+   "total": 312,
+   "processed": 312,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 356,
+   "electors": 203085,
+   "rate_per_min": 52.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Khq488iAjOka6Opnen1SN5Inq6_r-ssnSGKRtHcpGGk/edit",
+   "folder": "https://drive.google.com/drive/folders/1ciV3Zvo_T0jwx8DBzU_WRp6dbpKaH-Uo"
   }
  ]
 }
