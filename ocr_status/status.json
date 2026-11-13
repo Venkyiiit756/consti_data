@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 08:19:12 PM IST",
- "updated_epoch": 1794581352,
+ "updated": "13 Nov 2026, 08:21:34 PM IST",
+ "updated_epoch": 1794581494,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 08:19 PM IST"
+   "eta": "13 Nov, 08:21 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 101,
    "errors": 0,
    "parts": 26990,
-   "needs_review": 813,
+   "needs_review": 814,
    "failed": 0,
    "electors": 23596740,
-   "eta": "14 Nov, 02:14 AM IST"
+   "eta": "14 Nov, 02:16 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 36 - Prathipadu (2024)",
-  "updated": "2026-11-13 20:19:08 IST",
+  "phase": "OCR 37 - Pithapuram (2024)",
+  "updated": "2026-11-13 20:21:31 IST",
   "year": "2024",
   "next": "38 - Kakinada Rural (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,11 +41,11 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "36 - Prathipadu",
+   "ac": "37 - Pithapuram",
    "phase": "OCR",
-   "processed": 210,
-   "total": 223,
-   "parts_per_min": 95.1,
+   "processed": 70,
+   "total": 241,
+   "parts_per_min": 29.8,
    "prefetch": "38 - Kakinada Rural (2024)",
    "uploading": [
     "35 - Tuni"
@@ -89,10 +89,10 @@
      "finished": "2026-11-13 19:54:41 IST"
     }
    ],
-   "load1": 12.3,
+   "load1": 11.12,
    "cores_busy": 8,
-   "updated": "2026-11-13 20:19:08 IST",
-   "updated_epoch": 1794581348,
+   "updated": "2026-11-13 20:21:31 IST",
+   "updated_epoch": 1794581491,
    "fetch": {
     "ac": "38 - Kakinada Rural",
     "year": "2024",
@@ -101,7 +101,7 @@
     "mb": 1229.5,
     "mbps": 17.7
    },
-   "age_s": 4
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -170,7 +170,7 @@
     "mb": 0,
     "mbps": 0
    },
-   "age_s": 27
+   "age_s": 169
   }
  ],
  "throughput_ac_per_hr": 12.0,
@@ -4983,13 +4983,13 @@
    "year": "2024",
    "state": "running",
    "total": 241,
-   "processed": 0,
-   "needs_review": 0,
+   "processed": 80,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 0,
+   "elapsed_s": 142,
    "electors": null,
-   "rate_per_min": 0,
-   "eta_s": null,
+   "rate_per_min": 33.8,
+   "eta_s": 286,
    "error": "",
    "sheet": "",
    "folder": ""
