@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:01:35 AM IST",
- "updated_epoch": 1794601895,
+ "updated": "14 Nov 2026, 02:18:34 AM IST",
+ "updated_epoch": 1794602914,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:01 AM IST"
+   "eta": "14 Nov, 02:18 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 3,
+   "done": 7,
    "errors": 0,
-   "parts": 826,
-   "needs_review": 33,
+   "parts": 1920,
+   "needs_review": 66,
    "failed": 0,
-   "electors": 716543,
-   "eta": "14 Nov, 07:07 PM IST"
+   "electors": 1647497,
+   "eta": "14 Nov, 05:57 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:01 AM IST"
+   "eta": "14 Nov, 02:18 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 3 - Tekkali (2025)",
-  "updated": "2026-11-14 02:01:35 IST",
+  "phase": "OCR 4 - Pathapatnam (2025)",
+  "updated": "2026-11-14 02:18:32 IST",
   "year": "2025",
   "next": "6 - Amadalavalasa (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "3 - Tekkali",
+   "ac": "4 - Pathapatnam",
    "phase": "OCR",
-   "processed": 300,
-   "total": 315,
-   "parts_per_min": 81.5,
+   "processed": 80,
+   "total": 323,
+   "parts_per_min": 90.4,
    "prefetch": "6 - Amadalavalasa (2025)",
    "uploading": [],
-   "done_session": 2,
-   "parts_session": 583,
+   "done_session": 3,
+   "parts_session": 898,
    "last": [
+    {
+     "ac": "3 - Tekkali",
+     "year": "2025",
+     "parts": 315,
+     "secs": 1231,
+     "finished": "2026-11-14 02:17:55 IST"
+    },
     {
      "ac": "2 - Palasa",
      "year": "2025",
@@ -76,19 +83,19 @@
      "finished": "2026-11-14 01:56:42 IST"
     }
    ],
-   "load1": 11.71,
+   "load1": 13.27,
    "cores_busy": 8,
-   "updated": "2026-11-14 02:01:35 IST",
-   "updated_epoch": 1794601895,
+   "updated": "2026-11-14 02:18:32 IST",
+   "updated_epoch": 1794602912,
    "fetch": {
     "ac": "6 - Amadalavalasa",
     "year": "2025",
-    "done": 10,
+    "done": 11,
     "total": 13,
-    "mb": 768.8,
-    "mbps": 29.63
+    "mb": 770.9,
+    "mbps": 0.75
    },
-   "age_s": 0
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -97,16 +104,37 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "174 - Palamaner",
+   "ac": "171 - Gangadhara Nellore",
    "phase": "OCR",
-   "processed": 240,
-   "total": 288,
-   "parts_per_min": 54.2,
-   "prefetch": "172 - Chittoor (2025)",
+   "processed": 140,
+   "total": 256,
+   "parts_per_min": 38.1,
+   "prefetch": "168 - Srikalahasti (2025)",
    "uploading": [],
-   "done_session": 1,
-   "parts_session": 243,
+   "done_session": 4,
+   "parts_session": 1022,
    "last": [
+    {
+     "ac": "172 - Chittoor",
+     "year": "2025",
+     "parts": 229,
+     "secs": 571,
+     "finished": "2026-11-14 02:14:56 IST"
+    },
+    {
+     "ac": "173 - Puthalapattu",
+     "year": "2025",
+     "parts": 262,
+     "secs": 554,
+     "finished": "2026-11-14 02:08:53 IST"
+    },
+    {
+     "ac": "174 - Palamaner",
+     "year": "2025",
+     "parts": 288,
+     "secs": 760,
+     "finished": "2026-11-14 02:03:36 IST"
+    },
     {
      "ac": "175 - Kuppam",
      "year": "2025",
@@ -115,23 +143,59 @@
      "finished": "2026-11-14 01:55:33 IST"
     }
    ],
-   "load1": 36.13,
+   "load1": 26.75,
    "cores_busy": 10,
-   "updated": "2026-11-14 02:00:15 IST",
-   "updated_epoch": 1794601815,
+   "updated": "2026-11-14 02:17:10 IST",
+   "updated_epoch": 1794602830,
    "fetch": {
-    "ac": "172 - Chittoor",
+    "ac": "168 - Srikalahasti",
     "year": "2025",
-    "done": 12,
-    "total": 13,
-    "mb": 970.3,
-    "mbps": 17.39
+    "done": 16,
+    "total": 16,
+    "mb": 1252.3,
+    "mbps": 8.24
    },
-   "age_s": 80
+   "age_s": 84
   }
  ],
- "throughput_ac_per_hr": 10.0,
+ "throughput_ac_per_hr": 10.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "3 - Tekkali",
+   "worker": "box",
+   "parts": 315,
+   "electors": 236681,
+   "secs": 1184,
+   "finished": "2026-11-14 02:17:52 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "172 - Chittoor",
+   "worker": "mac",
+   "parts": 229,
+   "electors": 203570,
+   "secs": 342,
+   "finished": "2026-11-14 02:13:56 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "173 - Puthalapattu",
+   "worker": "mac",
+   "parts": 262,
+   "electors": 221638,
+   "secs": 399,
+   "finished": "2026-11-14 02:08:46 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "174 - Palamaner",
+   "worker": "mac",
+   "parts": 288,
+   "electors": 269065,
+   "secs": 320,
+   "finished": "2026-11-14 02:02:52 IST"
+  },
   {
    "year": "2025",
    "ac": "2 - Palasa",
@@ -167,42 +231,6 @@
    "electors": 174125,
    "secs": 103,
    "finished": "2026-11-14 01:35:37 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "54 - Kovvur",
-   "worker": "box",
-   "parts": 154,
-   "electors": 154264,
-   "secs": 92,
-   "finished": "2026-11-14 01:33:38 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "53 - Rampachodavaram",
-   "worker": "box",
-   "parts": 399,
-   "electors": 277317,
-   "secs": 2151,
-   "finished": "2026-11-14 01:31:48 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "52 - Jaggampeta",
-   "worker": "box",
-   "parts": 248,
-   "electors": 236803,
-   "secs": 1765,
-   "finished": "2026-11-14 01:23:51 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "56 - Achanta",
-   "worker": "mac",
-   "parts": 183,
-   "electors": 174644,
-   "secs": 266,
-   "finished": "2026-11-14 01:05:47 IST"
   }
  ],
  "failures": [],
@@ -6162,18 +6190,86 @@
    "label": "3 - Tekkali",
    "district": "Srikakulam",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 315,
-   "processed": 300,
-   "needs_review": 10,
+   "processed": 315,
+   "needs_review": 11,
    "failed": 0,
-   "elapsed_s": 186,
+   "elapsed_s": 1184,
+   "electors": 236681,
+   "rate_per_min": 16.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1QS6xLX-FoUghwgav-zUDGLIYCUmtxYV0chFO2320FG4/edit",
+   "folder": "https://drive.google.com/drive/folders/1jAILFOwMpUlpazyGYXhDfxl57wfwu0mV"
+  },
+  {
+   "label": "172 - Chittoor",
+   "district": "Chittoor",
+   "year": "2025",
+   "state": "done",
+   "total": 229,
+   "processed": 229,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 342,
+   "electors": 203570,
+   "rate_per_min": 40.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1sT_vNddbvi8lyW2_k6s_dWHRAIkjkVeHmAYj9emYeis/edit",
+   "folder": "https://drive.google.com/drive/folders/1VZJrVmIzciMBMaM6O0ma34bz6eEJD6qF"
+  },
+  {
+   "label": "4 - Pathapatnam",
+   "district": "Srikakulam",
+   "year": "2025",
+   "state": "running",
+   "total": 323,
+   "processed": 80,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 50,
    "electors": null,
-   "rate_per_min": 96.8,
-   "eta_s": 9,
+   "rate_per_min": 96.0,
+   "eta_s": 152,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "173 - Puthalapattu",
+   "district": "Chittoor",
+   "year": "2025",
+   "state": "done",
+   "total": 262,
+   "processed": 262,
+   "needs_review": 16,
+   "failed": 0,
+   "elapsed_s": 399,
+   "electors": 221638,
+   "rate_per_min": 39.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Lv_iUmB6oLwK5VtHvsTittZ4nyCgY79C3TKGpJ6Znw0/edit",
+   "folder": "https://drive.google.com/drive/folders/14mYHBCM4St7Ug5JhMAYBb_Gv4lO0Nbn9"
+  },
+  {
+   "label": "174 - Palamaner",
+   "district": "Chittoor",
+   "year": "2025",
+   "state": "done",
+   "total": 288,
+   "processed": 288,
+   "needs_review": 13,
+   "failed": 0,
+   "elapsed_s": 320,
+   "electors": 269065,
+   "rate_per_min": 54.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/14KAwjY5KM7aiKF8evZNC19NZMrXhJD8v8sT9AQBP7JA/edit",
+   "folder": "https://drive.google.com/drive/folders/1LKH0uHWvuCYXms3SCm29t_oBIj2lAXiX"
   }
  ]
 }
