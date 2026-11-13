@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:18:34 AM IST",
- "updated_epoch": 1794602914,
+ "updated": "14 Nov 2026, 02:20:38 AM IST",
+ "updated_epoch": 1794603038,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:18 AM IST"
+   "eta": "14 Nov, 02:20 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 7,
    "errors": 0,
    "parts": 1920,
-   "needs_review": 66,
+   "needs_review": 71,
    "failed": 0,
    "electors": 1647497,
-   "eta": "14 Nov, 05:57 PM IST"
+   "eta": "14 Nov, 07:02 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:18 AM IST"
+   "eta": "14 Nov, 02:20 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 4 - Pathapatnam (2025)",
-  "updated": "2026-11-14 02:18:32 IST",
+  "updated": "2026-11-14 02:20:37 IST",
   "year": "2025",
-  "next": "6 - Amadalavalasa (2025)",
+  "next": "7 - Etcherla (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -53,10 +53,10 @@
    "year": "2025",
    "ac": "4 - Pathapatnam",
    "phase": "OCR",
-   "processed": 80,
+   "processed": 300,
    "total": 323,
-   "parts_per_min": 90.4,
-   "prefetch": "6 - Amadalavalasa (2025)",
+   "parts_per_min": 101.1,
+   "prefetch": "7 - Etcherla (2025)",
    "uploading": [],
    "done_session": 3,
    "parts_session": 898,
@@ -83,19 +83,19 @@
      "finished": "2026-11-14 01:56:42 IST"
     }
    ],
-   "load1": 13.27,
+   "load1": 11.12,
    "cores_busy": 8,
-   "updated": "2026-11-14 02:18:32 IST",
-   "updated_epoch": 1794602912,
+   "updated": "2026-11-14 02:20:37 IST",
+   "updated_epoch": 1794603037,
    "fetch": {
-    "ac": "6 - Amadalavalasa",
+    "ac": "7 - Etcherla",
     "year": "2025",
-    "done": 11,
-    "total": 13,
-    "mb": 770.9,
-    "mbps": 0.75
+    "done": 6,
+    "total": 15,
+    "mb": 571.7,
+    "mbps": 40.01
    },
-   "age_s": 2
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -106,9 +106,9 @@
    "year": "2025",
    "ac": "171 - Gangadhara Nellore",
    "phase": "OCR",
-   "processed": 140,
+   "processed": 220,
    "total": 256,
-   "parts_per_min": 38.1,
+   "parts_per_min": 38.6,
    "prefetch": "168 - Srikalahasti (2025)",
    "uploading": [],
    "done_session": 4,
@@ -143,10 +143,10 @@
      "finished": "2026-11-14 01:55:33 IST"
     }
    ],
-   "load1": 26.75,
+   "load1": 23.81,
    "cores_busy": 10,
-   "updated": "2026-11-14 02:17:10 IST",
-   "updated_epoch": 1794602830,
+   "updated": "2026-11-14 02:19:12 IST",
+   "updated_epoch": 1794602952,
    "fetch": {
     "ac": "168 - Srikalahasti",
     "year": "2025",
@@ -155,10 +155,10 @@
     "mb": 1252.3,
     "mbps": 8.24
    },
-   "age_s": 84
+   "age_s": 86
   }
  ],
- "throughput_ac_per_hr": 10.7,
+ "throughput_ac_per_hr": 10.0,
  "recent": [
   {
    "year": "2025",
@@ -6226,13 +6226,13 @@
    "year": "2025",
    "state": "running",
    "total": 323,
-   "processed": 80,
-   "needs_review": 0,
+   "processed": 300,
+   "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 50,
+   "elapsed_s": 178,
    "electors": null,
-   "rate_per_min": 96.0,
-   "eta_s": 152,
+   "rate_per_min": 101.1,
+   "eta_s": 14,
    "error": "",
    "sheet": "",
    "folder": ""
