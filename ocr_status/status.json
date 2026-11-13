@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 12:26:45 AM IST",
- "updated_epoch": 1794596205,
+ "updated": "14 Nov 2026, 12:26:51 AM IST",
+ "updated_epoch": 1794596211,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -27,9 +27,9 @@
  },
  "batch": {
   "phase": "OCR 52 - Jaggampeta (2024)",
-  "updated": "2026-11-14 00:26:41 IST",
+  "updated": "2026-11-14 00:26:51 IST",
   "year": "2024",
-  "next": "54 - Kovvur (2024)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,10 +43,10 @@
    "year": "2024",
    "ac": "52 - Jaggampeta",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 40,
    "total": 248,
-   "parts_per_min": 82.2,
-   "prefetch": "54 - Kovvur (2024)",
+   "parts_per_min": 75.2,
+   "prefetch": "",
    "uploading": [],
    "done_session": 58,
    "parts_session": 14840,
@@ -87,19 +87,12 @@
      "finished": "2026-11-14 00:14:39 IST"
     }
    ],
-   "load1": 11.14,
+   "load1": 11.42,
    "cores_busy": 8,
-   "updated": "2026-11-14 00:26:41 IST",
-   "updated_epoch": 1794596201,
-   "fetch": {
-    "ac": "54 - Kovvur",
-    "year": "2024",
-    "done": 10,
-    "total": 11,
-    "mb": 736.8,
-    "mbps": 26.19
-   },
-   "age_s": 4
+   "updated": "2026-11-14 00:26:51 IST",
+   "updated_epoch": 1794596211,
+   "fetch": null,
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -166,7 +159,7 @@
     "mb": 1171.2,
     "mbps": 9.52
    },
-   "age_s": 33
+   "age_s": 39
   }
  ],
  "throughput_ac_per_hr": 16.0,
