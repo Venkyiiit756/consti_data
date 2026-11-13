@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:22:48 AM IST",
- "updated_epoch": 1794603168,
+ "updated": "14 Nov 2026, 02:24:52 AM IST",
+ "updated_epoch": 1794603292,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:22 AM IST"
+   "eta": "14 Nov, 02:24 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 8,
+   "done": 10,
    "errors": 0,
-   "parts": 2243,
-   "needs_review": 76,
+   "parts": 2778,
+   "needs_review": 81,
    "failed": 0,
-   "electors": 1880127,
-   "eta": "14 Nov, 05:56 PM IST"
+   "electors": 2359674,
+   "eta": "14 Nov, 04:53 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:22 AM IST"
+   "eta": "14 Nov, 02:24 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 5 - Srikakulam (2025)",
-  "updated": "2026-11-14 02:22:47 IST",
+  "phase": "OCR 6 - Amadalavalasa (2025)",
+  "updated": "2026-11-14 02:24:52 IST",
   "year": "2025",
-  "next": "8 - Narasannapeta (2025)",
+  "next": "9 - Rajam (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "5 - Srikakulam",
+   "ac": "6 - Amadalavalasa",
    "phase": "OCR",
-   "processed": 200,
-   "total": 279,
-   "parts_per_min": 100.9,
-   "prefetch": "8 - Narasannapeta (2025)",
+   "processed": 140,
+   "total": 259,
+   "parts_per_min": 100.5,
+   "prefetch": "9 - Rajam (2025)",
    "uploading": [],
-   "done_session": 4,
-   "parts_session": 1221,
+   "done_session": 5,
+   "parts_session": 1500,
    "last": [
+    {
+     "ac": "5 - Srikakulam",
+     "year": "2025",
+     "parts": 279,
+     "secs": 245,
+     "finished": "2026-11-14 02:23:43 IST"
+    },
     {
      "ac": "4 - Pathapatnam",
      "year": "2025",
@@ -90,19 +97,19 @@
      "finished": "2026-11-14 01:56:42 IST"
     }
    ],
-   "load1": 11.09,
+   "load1": 10.88,
    "cores_busy": 8,
-   "updated": "2026-11-14 02:22:47 IST",
-   "updated_epoch": 1794603167,
+   "updated": "2026-11-14 02:24:52 IST",
+   "updated_epoch": 1794603292,
    "fetch": {
-    "ac": "8 - Narasannapeta",
+    "ac": "9 - Rajam",
     "year": "2025",
-    "done": 13,
-    "total": 14,
-    "mb": 1061.3,
-    "mbps": 17.72
+    "done": 15,
+    "total": 15,
+    "mb": 1159.7,
+    "mbps": 19.52
    },
-   "age_s": 1
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -113,16 +120,21 @@
    "year": "2025",
    "ac": "170 - Nagari",
    "phase": "OCR",
-   "processed": 70,
+   "processed": 160,
    "total": 233,
-   "parts_per_min": 35.0,
+   "parts_per_min": 37.2,
    "prefetch": "167 - Tirupati (2025)",
-   "uploading": [
-    "171 - Gangadhara Nellore"
-   ],
-   "done_session": 4,
-   "parts_session": 1022,
+   "uploading": [],
+   "done_session": 5,
+   "parts_session": 1278,
    "last": [
+    {
+     "ac": "171 - Gangadhara Nellore",
+     "year": "2025",
+     "parts": 256,
+     "secs": 784,
+     "finished": "2026-11-14 02:23:32 IST"
+    },
     {
      "ac": "172 - Chittoor",
      "year": "2025",
@@ -152,23 +164,41 @@
      "finished": "2026-11-14 01:55:33 IST"
     }
    ],
-   "load1": 24.83,
+   "load1": 22.82,
    "cores_busy": 10,
-   "updated": "2026-11-14 02:21:50 IST",
-   "updated_epoch": 1794603110,
+   "updated": "2026-11-14 02:24:08 IST",
+   "updated_epoch": 1794603248,
    "fetch": {
     "ac": "167 - Tirupati",
     "year": "2025",
-    "done": 8,
+    "done": 20,
     "total": 20,
-    "mb": 681.7,
-    "mbps": 6.7
+    "mb": 1640.2,
+    "mbps": 6.92
    },
-   "age_s": 58
+   "age_s": 44
   }
  ],
- "throughput_ac_per_hr": 10.7,
+ "throughput_ac_per_hr": 11.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "5 - Srikakulam",
+   "worker": "box",
+   "parts": 279,
+   "electors": 273924,
+   "secs": 160,
+   "finished": "2026-11-14 02:23:40 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "171 - Gangadhara Nellore",
+   "worker": "mac",
+   "parts": 256,
+   "electors": 205623,
+   "secs": 380,
+   "finished": "2026-11-14 02:22:53 IST"
+  },
   {
    "year": "2025",
    "ac": "4 - Pathapatnam",
@@ -222,24 +252,6 @@
    "electors": 219931,
    "secs": 165,
    "finished": "2026-11-14 01:58:41 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "1 - Ichchapuram",
-   "worker": "box",
-   "parts": 299,
-   "electors": 269578,
-   "secs": 304,
-   "finished": "2026-11-14 01:55:55 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "175 - Kuppam",
-   "worker": "mac",
-   "parts": 243,
-   "electors": 227034,
-   "secs": 151,
-   "finished": "2026-11-14 01:54:55 IST"
   }
  ],
  "failures": [],
@@ -6284,18 +6296,52 @@
    "label": "5 - Srikakulam",
    "district": "Srikakulam",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 279,
-   "processed": 200,
-   "needs_review": 5,
+   "processed": 279,
+   "needs_review": 7,
    "failed": 0,
-   "elapsed_s": 118,
+   "elapsed_s": 160,
+   "electors": 273924,
+   "rate_per_min": 104.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1xqjKk_JG5dlGvLtwCgISAEs5OcodJrnF6EXV8t1nUHo/edit",
+   "folder": "https://drive.google.com/drive/folders/1Zb1U6da2pnfpnhUp9EvrI4k7ARv47XNg"
+  },
+  {
+   "label": "6 - Amadalavalasa",
+   "district": "Srikakulam",
+   "year": "2025",
+   "state": "running",
+   "total": 259,
+   "processed": 140,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 82,
    "electors": null,
-   "rate_per_min": 101.7,
-   "eta_s": 47,
+   "rate_per_min": 102.4,
+   "eta_s": 70,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "171 - Gangadhara Nellore",
+   "district": "Chittoor",
+   "year": "2025",
+   "state": "done",
+   "total": 256,
+   "processed": 256,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 380,
+   "electors": 205623,
+   "rate_per_min": 40.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/18SiU60mrLilgDTIZhSXHzjHYOeUVFLOAo_VFW5CuSdg/edit",
+   "folder": "https://drive.google.com/drive/folders/1agXUrzrpWQZq-IAkJph5bDRHjyn7exmz"
   }
  ]
 }
