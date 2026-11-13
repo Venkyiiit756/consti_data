@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:32:34 AM IST",
- "updated_epoch": 1794600154,
+ "updated": "14 Nov 2026, 01:34:41 AM IST",
+ "updated_epoch": 1794600281,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:32 AM IST"
+   "eta": "14 Nov, 01:34 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 171,
    "errors": 0,
-   "parts": 43812,
-   "needs_review": 1348,
+   "parts": 43791,
+   "needs_review": 1344,
    "failed": 0,
-   "electors": 38996611,
-   "eta": "14 Nov, 01:36 AM IST"
+   "electors": 38976750,
+   "eta": "14 Nov, 01:38 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 54 - Kovvur (2024)",
-  "updated": "2026-11-14 01:32:33 IST",
+  "phase": "OCR 55 - Nidadavole (2024)",
+  "updated": "2026-11-14 01:34:38 IST",
   "year": "2024",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "54 - Kovvur",
+   "ac": "55 - Nidadavole",
    "phase": "OCR",
-   "processed": 90,
-   "total": 154,
-   "parts_per_min": 94.7,
+   "processed": 150,
+   "total": 175,
+   "parts_per_min": 100.1,
    "prefetch": "",
    "uploading": [],
-   "done_session": 60,
-   "parts_session": 15487,
+   "done_session": 61,
+   "parts_session": 15641,
    "last": [
+    {
+     "ac": "54 - Kovvur",
+     "year": "2024",
+     "parts": 154,
+     "secs": 200,
+     "finished": "2026-11-14 01:33:41 IST"
+    },
     {
      "ac": "53 - Rampachodavaram",
      "year": "2024",
@@ -78,21 +85,14 @@
      "parts": 152,
      "secs": 1471,
      "finished": "2026-11-14 00:24:35 IST"
-    },
-    {
-     "ac": "49 - Rajanagaram",
-     "year": "2024",
-     "parts": 212,
-     "secs": 262,
-     "finished": "2026-11-14 00:15:48 IST"
     }
    ],
-   "load1": 11.1,
+   "load1": 10.37,
    "cores_busy": 8,
-   "updated": "2026-11-14 01:32:33 IST",
-   "updated_epoch": 1794600153,
+   "updated": "2026-11-14 01:34:38 IST",
+   "updated_epoch": 1794600278,
    "fetch": null,
-   "age_s": 1
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -111,15 +111,24 @@
    "done_session": 0,
    "parts_session": 0,
    "last": [],
-   "load1": 1.78,
+   "load1": 1.74,
    "cores_busy": 0,
-   "updated": "2026-11-14 01:30:58 IST",
-   "updated_epoch": 1794600058,
-   "age_s": 96
+   "updated": "2026-11-14 01:33:16 IST",
+   "updated_epoch": 1794600196,
+   "age_s": 85
   }
  ],
- "throughput_ac_per_hr": 15.3,
+ "throughput_ac_per_hr": 16.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "54 - Kovvur",
+   "worker": "box",
+   "parts": 154,
+   "electors": 154264,
+   "secs": 92,
+   "finished": "2026-11-14 01:33:38 IST"
+  },
   {
    "year": "2024",
    "ac": "53 - Rampachodavaram",
@@ -182,15 +191,6 @@
    "electors": 210829,
    "secs": 281,
    "finished": "2026-11-14 00:53:51 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "60 - Undi",
-   "worker": "mac",
-   "parts": 235,
-   "electors": 220228,
-   "secs": 324,
-   "finished": "2026-11-14 00:49:48 IST"
   }
  ],
  "failures": [],
@@ -6014,15 +6014,15 @@
    "label": "55 - Nidadavole",
    "district": "East Godavari",
    "year": "2024",
-   "state": "done",
+   "state": "running",
    "total": 175,
-   "processed": 175,
-   "needs_review": 11,
+   "processed": 150,
+   "needs_review": 7,
    "failed": 0,
-   "elapsed_s": 263,
+   "elapsed_s": 90,
    "electors": 174125,
-   "rate_per_min": 39.9,
-   "eta_s": null,
+   "rate_per_min": 100.0,
+   "eta_s": 15,
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1tFdAIfO4oNBPriH0BY4VCKSUC3yLkXnTzhm3g6SQYLg/edit",
    "folder": "https://drive.google.com/drive/folders/1pHva3Qea_84Lpdnuyj4IbdiyK6uC0otx"
@@ -6082,18 +6082,18 @@
    "label": "54 - Kovvur",
    "district": "East Godavari",
    "year": "2024",
-   "state": "running",
+   "state": "done",
    "total": 154,
-   "processed": 90,
+   "processed": 154,
    "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 55,
-   "electors": null,
-   "rate_per_min": 98.2,
-   "eta_s": 39,
+   "elapsed_s": 92,
+   "electors": 154264,
+   "rate_per_min": 100.4,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1GdCEi5R5AceZfUoBM_U3FhcxQJO_6nJgrNjKsNNzl1s/edit",
+   "folder": "https://drive.google.com/drive/folders/1P2aj1Y9XQMiVb2-G210vjeGAqDSJP0Wk"
   }
  ]
 }
