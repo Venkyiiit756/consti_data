@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 02:22:36 PM IST",
- "updated_epoch": 1794559956,
+ "updated": "13 Nov 2026, 02:55:06 PM IST",
+ "updated_epoch": 1794561906,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 02:22 PM IST"
+   "eta": "13 Nov, 02:55 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 206,
    "failed": 0,
    "electors": 6435494,
-   "eta": "13 Nov, 11:49 PM IST"
+   "eta": "14 Nov, 04:30 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 10 - Palakonda (2024)",
-  "updated": "2026-11-13 14:22:35 IST",
+  "updated": "2026-11-13 14:55:03 IST",
   "year": "2024",
   "next": "13 - Salur (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "10 - Palakonda",
    "phase": "OCR",
-   "processed": 80,
+   "processed": 160,
    "total": 281,
-   "parts_per_min": 91.8,
+   "parts_per_min": 4.8,
    "prefetch": "13 - Salur (2024)",
    "uploading": [],
    "done_session": 16,
@@ -87,19 +87,19 @@
      "finished": "2026-11-13 13:55:47 IST"
     }
    ],
-   "load1": 11.07,
+   "load1": 13.57,
    "cores_busy": 8,
-   "updated": "2026-11-13 14:22:35 IST",
-   "updated_epoch": 1794559955,
+   "updated": "2026-11-13 14:55:03 IST",
+   "updated_epoch": 1794561903,
    "fetch": {
     "ac": "13 - Salur",
     "year": "2024",
-    "done": 7,
+    "done": 8,
     "total": 15,
-    "mb": 503.7,
-    "mbps": 32.39
+    "mb": 587.7,
+    "mbps": 0.3
    },
-   "age_s": 1
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -108,68 +108,70 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "157 - Hindupur",
+   "ac": "150 - Guntakal",
    "phase": "OCR",
-   "processed": 210,
-   "total": 253,
-   "parts_per_min": 44.6,
-   "prefetch": "154 - Kalyandurg (2024)",
-   "uploading": [],
-   "done_session": 46,
-   "parts_session": 12726,
+   "processed": 20,
+   "total": 276,
+   "parts_per_min": 34.9,
+   "prefetch": "147 - Alur (2024)",
+   "uploading": [
+    "151 - Tadpatri"
+   ],
+   "done_session": 52,
+   "parts_session": 14194,
    "last": [
     {
-     "ac": "158 - Penukonda",
+     "ac": "152 - Singanamala",
      "year": "2024",
-     "parts": 265,
-     "secs": 520,
-     "finished": "2026-11-13 14:18:40 IST"
+     "parts": 161,
+     "secs": 343,
+     "finished": "2026-11-13 14:49:30 IST"
     },
     {
-     "ac": "159 - Puttaparthi",
+     "ac": "153 - Anantapur Urban",
      "year": "2024",
-     "parts": 238,
-     "secs": 604,
-     "finished": "2026-11-13 14:14:48 IST"
+     "parts": 277,
+     "secs": 703,
+     "finished": "2026-11-13 14:46:51 IST"
     },
     {
-     "ac": "160 - Dharmavaram",
+     "ac": "154 - Kalyandurg",
      "year": "2024",
-     "parts": 287,
-     "secs": 658,
-     "finished": "2026-11-13 14:09:37 IST"
+     "parts": 261,
+     "secs": 657,
+     "finished": "2026-11-13 14:41:50 IST"
     },
     {
-     "ac": "161 - Kadiri",
+     "ac": "155 - Raptadu",
      "year": "2024",
-     "parts": 281,
-     "secs": 670,
-     "finished": "2026-11-13 14:03:54 IST"
+     "parts": 279,
+     "secs": 722,
+     "finished": "2026-11-13 14:36:42 IST"
     },
     {
-     "ac": "162 - Thamballapalle",
+     "ac": "156 - Madakasira",
      "year": "2024",
-     "parts": 236,
-     "secs": 508,
-     "finished": "2026-11-13 13:56:55 IST"
+     "parts": 237,
+     "secs": 718,
+     "finished": "2026-11-13 14:31:36 IST"
     }
    ],
-   "load1": 20.14,
+   "load1": 18.96,
    "cores_busy": 10,
-   "updated": "2026-11-13 14:22:13 IST",
-   "updated_epoch": 1794559933,
+   "updated": "2026-11-13 14:54:45 IST",
+   "updated_epoch": 1794561885,
    "fetch": {
-    "ac": "154 - Kalyandurg",
+    "ac": "147 - Alur",
     "year": "2024",
-    "done": 18,
-    "total": 18,
-    "mb": 1188.0,
-    "mbps": 6.84
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 23
+   "age_s": 21
   }
  ],
- "throughput_ac_per_hr": 15.3,
+ "throughput_ac_per_hr": 10.7,
  "recent": [
   {
    "year": "2024",
@@ -3687,13 +3689,13 @@
    "year": "2024",
    "state": "running",
    "total": 281,
-   "processed": 80,
+   "processed": 170,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 47,
+   "elapsed_s": 2000,
    "electors": null,
-   "rate_per_min": 102.1,
-   "eta_s": 118,
+   "rate_per_min": 5.1,
+   "eta_s": 1306,
    "error": "",
    "sheet": "",
    "folder": ""
