@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 12:16:25 AM IST",
- "updated_epoch": 1794595585,
+ "updated": "14 Nov 2026, 12:17:25 AM IST",
+ "updated_epoch": 1794595645,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 12:16 AM IST"
+   "eta": "14 Nov, 12:17 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 1270,
    "failed": 0,
    "electors": 35686494,
-   "eta": "14 Nov, 01:29 AM IST"
+   "eta": "14 Nov, 01:30 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 50 - Rajahmundry City (2024)",
-  "updated": "2026-11-14 00:16:21 IST",
+  "phase": "OCR 51 - Rajahmundry Rural (2024)",
+  "updated": "2026-11-14 00:17:22 IST",
   "year": "2024",
   "next": "53 - Rampachodavaram (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "50 - Rajahmundry City",
+   "ac": "51 - Rajahmundry Rural",
    "phase": "OCR",
-   "processed": 110,
-   "total": 152,
-   "parts_per_min": 98.5,
+   "processed": 50,
+   "total": 235,
+   "parts_per_min": 83.2,
    "prefetch": "53 - Rampachodavaram (2024)",
-   "uploading": [],
+   "uploading": [
+    "50 - Rajahmundry City"
+   ],
    "done_session": 56,
    "parts_session": 14453,
    "last": [
@@ -87,19 +89,19 @@
      "finished": "2026-11-14 00:13:29 IST"
     }
    ],
-   "load1": 11.15,
+   "load1": 10.6,
    "cores_busy": 8,
-   "updated": "2026-11-14 00:16:21 IST",
-   "updated_epoch": 1794595581,
+   "updated": "2026-11-14 00:17:22 IST",
+   "updated_epoch": 1794595642,
    "fetch": {
     "ac": "53 - Rampachodavaram",
     "year": "2024",
-    "done": 7,
+    "done": 20,
     "total": 21,
-    "mb": 518.7,
-    "mbps": 27.39
+    "mb": 1463.7,
+    "mbps": 18.57
    },
-   "age_s": 4
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -110,9 +112,9 @@
    "year": "2024",
    "ac": "66 - Gopalapuram",
    "phase": "OCR",
-   "processed": 140,
+   "processed": 190,
    "total": 243,
-   "parts_per_min": 39.2,
+   "parts_per_min": 42.3,
    "prefetch": "63 - Ungutur (2024)",
    "uploading": [],
    "done_session": 134,
@@ -154,10 +156,10 @@
      "finished": "2026-11-13 23:49:33 IST"
     }
    ],
-   "load1": 35.0,
+   "load1": 28.63,
    "cores_busy": 10,
-   "updated": "2026-11-14 00:15:06 IST",
-   "updated_epoch": 1794595506,
+   "updated": "2026-11-14 00:16:01 IST",
+   "updated_epoch": 1794595561,
    "fetch": {
     "ac": "63 - Ungutur",
     "year": "2024",
@@ -166,7 +168,7 @@
     "mb": 1108.3,
     "mbps": 8.65
    },
-   "age_s": 79
+   "age_s": 84
   }
  ],
  "throughput_ac_per_hr": 14.0,
@@ -5861,15 +5863,32 @@
    "label": "50 - Rajahmundry City",
    "district": "East Godavari",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 152,
-   "processed": 110,
+   "processed": 152,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 66,
+   "elapsed_s": 91,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 25,
+   "rate_per_min": 100.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "51 - Rajahmundry Rural",
+   "district": "East Godavari",
+   "year": "2024",
+   "state": "running",
+   "total": 235,
+   "processed": 60,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 37,
+   "electors": null,
+   "rate_per_min": 97.3,
+   "eta_s": 108,
    "error": "",
    "sheet": "",
    "folder": ""
