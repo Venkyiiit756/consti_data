@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 09:22:40 AM IST",
- "updated_epoch": 1794541960,
+ "updated": "13 Nov 2026, 09:24:47 AM IST",
+ "updated_epoch": 1794542087,
  "total_constituencies": 175,
- "done_constituencies": 129,
+ "done_constituencies": 130,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 129,
+   "done": 130,
    "errors": 0,
-   "parts": 37220,
-   "needs_review": 1031,
+   "parts": 37464,
+   "needs_review": 1035,
    "failed": 33,
-   "electors": 27372546,
-   "eta": "13 Nov, 11:56 AM IST"
+   "electors": 27601697,
+   "eta": "13 Nov, 11:54 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 09:29 PM IST"
+   "eta": "13 Nov, 09:28 PM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 09:22:38 IST",
+  "phase": "OCR 61 - Tanuku (2026)",
+  "updated": "2026-11-13 09:24:43 IST",
   "year": "2026",
-  "next": "61 - Tanuku (2026)",
+  "next": "62 - Tadepalligudem (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,18 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "61 - Tanuku (2026)",
-   "uploading": [
-    "60 - Undi"
-   ],
-   "done_session": 31,
-   "parts_session": 8194,
+   "ac": "61 - Tanuku",
+   "phase": "OCR",
+   "processed": 170,
+   "total": 254,
+   "parts_per_min": 95.6,
+   "prefetch": "62 - Tadepalligudem (2026)",
+   "uploading": [],
+   "done_session": 32,
+   "parts_session": 8438,
    "last": [
+    {
+     "ac": "60 - Undi",
+     "year": "2026",
+     "parts": 244,
+     "secs": 1018,
+     "finished": "2026-11-13 09:22:41 IST"
+    },
     {
      "ac": "58 - Narasapuram",
      "year": "2026",
@@ -80,28 +85,21 @@
      "parts": 248,
      "secs": 1382,
      "finished": "2026-11-13 08:50:42 IST"
-    },
-    {
-     "ac": "54 - Kovvur",
-     "year": "2026",
-     "parts": 212,
-     "secs": 247,
-     "finished": "2026-11-13 08:30:32 IST"
     }
    ],
-   "load1": 6.47,
-   "cores_busy": 0,
-   "updated": "2026-11-13 09:22:38 IST",
-   "updated_epoch": 1794541958,
+   "load1": 12.82,
+   "cores_busy": 8,
+   "updated": "2026-11-13 09:24:43 IST",
+   "updated_epoch": 1794542083,
    "fetch": {
-    "ac": "61 - Tanuku",
+    "ac": "62 - Tadepalligudem",
     "year": "2026",
-    "done": 30,
-    "total": 38,
-    "mb": 2200.8,
-    "mbps": 26.38
+    "done": 18,
+    "total": 35,
+    "mb": 1293.5,
+    "mbps": 43.41
    },
-   "age_s": 2
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -112,9 +110,9 @@
    "year": "2026",
    "ac": "105 - Addanki",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 240,
    "total": 314,
-   "parts_per_min": 39.0,
+   "parts_per_min": 50.6,
    "prefetch": "102 - Yerragondapalem (2026)",
    "uploading": [],
    "done_session": 63,
@@ -156,23 +154,32 @@
      "finished": "2026-11-13 08:58:53 IST"
     }
    ],
-   "load1": 24.2,
+   "load1": 19.67,
    "cores_busy": 10,
-   "updated": "2026-11-13 09:20:11 IST",
-   "updated_epoch": 1794541811,
+   "updated": "2026-11-13 09:24:09 IST",
+   "updated_epoch": 1794542049,
    "fetch": {
     "ac": "102 - Yerragondapalem",
     "year": "2026",
-    "done": 8,
+    "done": 30,
     "total": 30,
-    "mb": 575.1,
-    "mbps": 19.62
+    "mb": 2264.7,
+    "mbps": 11.9
    },
-   "age_s": 149
+   "age_s": 38
   }
  ],
  "throughput_ac_per_hr": 18.0,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "60 - Undi",
+   "worker": "box",
+   "parts": 244,
+   "electors": 229151,
+   "secs": 134,
+   "finished": "2026-11-13 09:22:38 IST"
+  },
   {
    "year": "2026",
    "ac": "106 - Chirala",
@@ -235,15 +242,6 @@
    "electors": 177027,
    "secs": 506,
    "finished": "2026-11-13 09:00:39 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "110 - Kondapi",
-   "worker": "mac",
-   "parts": 291,
-   "electors": 220247,
-   "secs": 341,
-   "finished": "2026-11-13 08:58:46 IST"
   }
  ],
  "failures": [],
@@ -2429,18 +2427,18 @@
    "label": "60 - Undi",
    "district": "West Godavari",
    "year": "2026",
-   "state": "uploading",
+   "state": "done",
    "total": 244,
    "processed": 244,
    "needs_review": 5,
    "failed": 0,
    "elapsed_s": 133,
-   "electors": null,
+   "electors": 229151,
    "rate_per_min": 110.1,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1Vz5I0Y-3JOK4R4maTEm44PXPlbYcgMGB9-GucaWbyEY/edit",
+   "folder": "https://drive.google.com/drive/folders/1gwFSvn-1XHRcRlA9IyqJwqoaQwq6urym"
   },
   {
    "label": "106 - Chirala",
@@ -2458,6 +2456,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1yVm-hSXcIPmeY0lgxNG0rKOr11r-dwM7dpP_aT4eIkk/edit",
    "folder": "https://drive.google.com/drive/folders/1ye2dt1Nh2srl_F-Z85JnQ2uqDGUR-rUT"
+  },
+  {
+   "label": "61 - Tanuku",
+   "district": "West Godavari",
+   "year": "2026",
+   "state": "running",
+   "total": 254,
+   "processed": 180,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 108,
+   "electors": null,
+   "rate_per_min": 100.0,
+   "eta_s": 44,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
