@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 04:20:12 AM IST",
- "updated_epoch": 1794610212,
+ "updated": "14 Nov 2026, 04:22:19 AM IST",
+ "updated_epoch": 1794610339,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 04:20 AM IST"
+   "eta": "14 Nov, 04:22 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 31,
+   "done": 33,
    "errors": 0,
-   "parts": 8564,
-   "needs_review": 309,
+   "parts": 9118,
+   "needs_review": 332,
    "failed": 0,
-   "electors": 7407240,
-   "eta": "14 Nov, 05:44 PM IST"
+   "electors": 7883623,
+   "eta": "14 Nov, 04:07 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 04:20 AM IST"
+   "eta": "14 Nov, 04:22 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 11 - Kurupam (2025)",
-  "updated": "2026-11-14 04:20:10 IST",
+  "phase": "OCR 12 - Parvathipuram (2025)",
+  "updated": "2026-11-14 04:22:15 IST",
   "year": "2025",
-  "next": "14 - Bobbili (2025)",
+  "next": "15 - Cheepurupalle (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "11 - Kurupam",
+   "ac": "12 - Parvathipuram",
    "phase": "OCR",
-   "processed": 110,
-   "total": 269,
-   "parts_per_min": 98.7,
-   "prefetch": "14 - Bobbili (2025)",
+   "processed": 70,
+   "total": 233,
+   "parts_per_min": 93.5,
+   "prefetch": "15 - Cheepurupalle (2025)",
    "uploading": [],
-   "done_session": 10,
-   "parts_session": 2929,
+   "done_session": 11,
+   "parts_session": 3198,
    "last": [
+    {
+     "ac": "11 - Kurupam",
+     "year": "2025",
+     "parts": 269,
+     "secs": 223,
+     "finished": "2026-11-14 04:21:48 IST"
+    },
     {
      "ac": "10 - Palakonda",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 309,
      "secs": 1984,
      "finished": "2026-11-14 03:18:48 IST"
-    },
-    {
-     "ac": "6 - Amadalavalasa",
-     "year": "2025",
-     "parts": 259,
-     "secs": 2610,
-     "finished": "2026-11-14 02:47:51 IST"
     }
    ],
-   "load1": 10.93,
+   "load1": 11.37,
    "cores_busy": 8,
-   "updated": "2026-11-14 04:20:10 IST",
-   "updated_epoch": 1794610210,
+   "updated": "2026-11-14 04:22:15 IST",
+   "updated_epoch": 1794610335,
    "fetch": {
-    "ac": "14 - Bobbili",
+    "ac": "15 - Cheepurupalle",
     "year": "2025",
-    "done": 11,
-    "total": 15,
-    "mb": 960.0,
-    "mbps": 38.22
+    "done": 13,
+    "total": 13,
+    "mb": 1062.6,
+    "mbps": 38.63
    },
-   "age_s": 2
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -120,16 +120,21 @@
    "year": "2025",
    "ac": "152 - Singanamala",
    "phase": "OCR",
-   "processed": 20,
+   "processed": 170,
    "total": 293,
-   "parts_per_min": 31.9,
+   "parts_per_min": 38.1,
    "prefetch": "149 - Uravakonda (2025)",
-   "uploading": [
-    "153 - Anantapur Urban"
-   ],
-   "done_session": 21,
-   "parts_session": 5635,
+   "uploading": [],
+   "done_session": 22,
+   "parts_session": 5920,
    "last": [
+    {
+     "ac": "153 - Anantapur Urban",
+     "year": "2025",
+     "parts": 285,
+     "secs": 840,
+     "finished": "2026-11-14 04:20:49 IST"
+    },
     {
      "ac": "154 - Kalyandurg",
      "year": "2025",
@@ -157,32 +162,43 @@
      "parts": 265,
      "secs": 682,
      "finished": "2026-11-14 03:50:54 IST"
-    },
-    {
-     "ac": "159 - Puttaparthi",
-     "year": "2025",
-     "parts": 241,
-     "secs": 540,
-     "finished": "2026-11-14 03:42:59 IST"
     }
    ],
-   "load1": 23.13,
+   "load1": 28.04,
    "cores_busy": 10,
-   "updated": "2026-11-14 04:17:17 IST",
-   "updated_epoch": 1794610037,
+   "updated": "2026-11-14 04:21:07 IST",
+   "updated_epoch": 1794610267,
    "fetch": {
     "ac": "149 - Uravakonda",
     "year": "2025",
-    "done": 5,
+    "done": 15,
     "total": 15,
-    "mb": 382.9,
-    "mbps": 13.51
+    "mb": 1152.6,
+    "mbps": 4.92
    },
-   "age_s": 175
+   "age_s": 72
   }
  ],
- "throughput_ac_per_hr": 10.7,
+ "throughput_ac_per_hr": 12.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "11 - Kurupam",
+   "worker": "box",
+   "parts": 269,
+   "electors": 194790,
+   "secs": 147,
+   "finished": "2026-11-14 04:21:45 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "153 - Anantapur Urban",
+   "worker": "mac",
+   "parts": 285,
+   "electors": 281593,
+   "secs": 436,
+   "finished": "2026-11-14 04:20:42 IST"
+  },
   {
    "year": "2025",
    "ac": "10 - Palakonda",
@@ -236,24 +252,6 @@
    "electors": 253164,
    "secs": 403,
    "finished": "2026-11-14 03:57:49 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "158 - Penukonda",
-   "worker": "mac",
-   "parts": 265,
-   "electors": 236511,
-   "secs": 409,
-   "finished": "2026-11-14 03:50:47 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "159 - Puttaparthi",
-   "worker": "mac",
-   "parts": 241,
-   "electors": 211695,
-   "secs": 364,
-   "finished": "2026-11-14 03:42:51 IST"
   }
  ],
  "failures": [],
@@ -6689,18 +6687,52 @@
    "label": "11 - Kurupam",
    "district": "Parvathipuram Manyam",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 269,
-   "processed": 120,
-   "needs_review": 22,
+   "processed": 269,
+   "needs_review": 25,
    "failed": 0,
-   "elapsed_s": 69,
+   "elapsed_s": 147,
+   "electors": 194790,
+   "rate_per_min": 109.8,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1tyhph1zqTXeCpjOLsKIT4lAjjEoSedFFgUHEjACOPwI/edit",
+   "folder": "https://drive.google.com/drive/folders/1vp6RvmEhVSF4GbYtjaiWaVK19eMNWKKT"
+  },
+  {
+   "label": "12 - Parvathipuram",
+   "district": "Parvathipuram Manyam",
+   "year": "2025",
+   "state": "running",
+   "total": 233,
+   "processed": 70,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 43,
    "electors": null,
-   "rate_per_min": 104.3,
-   "eta_s": 86,
+   "rate_per_min": 97.7,
+   "eta_s": 100,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "153 - Anantapur Urban",
+   "district": "Ananthapuramu",
+   "year": "2025",
+   "state": "done",
+   "total": 285,
+   "processed": 285,
+   "needs_review": 19,
+   "failed": 0,
+   "elapsed_s": 436,
+   "electors": 281593,
+   "rate_per_min": 39.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1eqhR2hUjTZUIc1qlN8gREQ7TTtnmaOOYEKPrwXQQ_uc/edit",
+   "folder": "https://drive.google.com/drive/folders/1n_UGPvvG3nEibFNGYuz3wRCJhlluo7th"
   }
  ]
 }
