@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 09:26:50 AM IST",
- "updated_epoch": 1794542210,
+ "updated": "13 Nov 2026, 09:28:59 AM IST",
+ "updated_epoch": 1794542339,
  "total_constituencies": 175,
- "done_constituencies": 132,
+ "done_constituencies": 133,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 132,
+   "done": 133,
    "errors": 0,
-   "parts": 38032,
-   "needs_review": 1045,
+   "parts": 38281,
+   "needs_review": 1046,
    "failed": 33,
-   "electors": 28043872,
-   "eta": "13 Nov, 11:45 AM IST"
+   "electors": 28259618,
+   "eta": "13 Nov, 11:39 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 08:57 PM IST"
+   "eta": "13 Nov, 08:33 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 62 - Tadepalligudem (2026)",
-  "updated": "2026-11-13 09:26:48 IST",
+  "phase": "downloading",
+  "updated": "2026-11-13 09:28:58 IST",
   "year": "2026",
   "next": "63 - Ungutur (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "62 - Tadepalligudem",
-   "phase": "OCR",
-   "processed": 90,
-   "total": 249,
-   "parts_per_min": 98.6,
+   "ac": "",
+   "phase": "downloading",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
    "prefetch": "63 - Ungutur (2026)",
    "uploading": [],
-   "done_session": 33,
-   "parts_session": 8692,
+   "done_session": 34,
+   "parts_session": 8941,
    "last": [
+    {
+     "ac": "62 - Tadepalligudem",
+     "year": "2026",
+     "parts": 249,
+     "secs": 303,
+     "finished": "2026-11-13 09:28:37 IST"
+    },
     {
      "ac": "61 - Tanuku",
      "year": "2026",
@@ -78,28 +85,21 @@
      "parts": 203,
      "secs": 831,
      "finished": "2026-11-13 09:04:44 IST"
-    },
-    {
-     "ac": "56 - Achanta",
-     "year": "2026",
-     "parts": 199,
-     "secs": 1911,
-     "finished": "2026-11-13 09:00:42 IST"
     }
    ],
-   "load1": 11.15,
-   "cores_busy": 8,
-   "updated": "2026-11-13 09:26:48 IST",
-   "updated_epoch": 1794542208,
+   "load1": 4.92,
+   "cores_busy": 0,
+   "updated": "2026-11-13 09:28:58 IST",
+   "updated_epoch": 1794542338,
    "fetch": {
     "ac": "63 - Ungutur",
     "year": "2026",
-    "done": 1,
+    "done": 29,
     "total": 32,
-    "mb": 0.4,
-    "mbps": 0.06
+    "mb": 2239.1,
+    "mbps": 17.98
    },
-   "age_s": 2
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -110,9 +110,9 @@
    "year": "2026",
    "ac": "104 - Parchur",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 130,
    "total": 304,
-   "parts_per_min": 39.9,
+   "parts_per_min": 49.7,
    "prefetch": "101 - Macherla (2026)",
    "uploading": [],
    "done_session": 64,
@@ -154,23 +154,32 @@
      "finished": "2026-11-13 09:04:50 IST"
     }
    ],
-   "load1": 19.28,
+   "load1": 20.25,
    "cores_busy": 10,
-   "updated": "2026-11-13 09:26:06 IST",
-   "updated_epoch": 1794542166,
+   "updated": "2026-11-13 09:27:58 IST",
+   "updated_epoch": 1794542278,
    "fetch": {
     "ac": "101 - Macherla",
     "year": "2026",
-    "done": 8,
+    "done": 27,
     "total": 37,
-    "mb": 555.3,
-    "mbps": 17.47
+    "mb": 2072.3,
+    "mbps": 15.55
    },
-   "age_s": 44
+   "age_s": 61
   }
  ],
- "throughput_ac_per_hr": 18.7,
+ "throughput_ac_per_hr": 19.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "62 - Tadepalligudem",
+   "worker": "box",
+   "parts": 249,
+   "electors": 215746,
+   "secs": 134,
+   "finished": "2026-11-13 09:28:35 IST"
+  },
   {
    "year": "2026",
    "ac": "105 - Addanki",
@@ -233,15 +242,6 @@
    "electors": 218662,
    "secs": 322,
    "finished": "2026-11-13 09:09:50 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "109 - Kandukur",
-   "worker": "mac",
-   "parts": 293,
-   "electors": 210487,
-   "secs": 342,
-   "finished": "2026-11-13 09:04:43 IST"
   }
  ],
  "failures": [],
@@ -2478,18 +2478,18 @@
    "label": "62 - Tadepalligudem",
    "district": "West Godavari",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 249,
-   "processed": 100,
-   "needs_review": 1,
+   "processed": 249,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 56,
-   "electors": null,
-   "rate_per_min": 107.1,
-   "eta_s": 83,
+   "elapsed_s": 134,
+   "electors": 215746,
+   "rate_per_min": 111.5,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1obZuIlalDX3Uhly09K2npBrsDbqxRcrxiDZbJ2fA4v0/edit",
+   "folder": "https://drive.google.com/drive/folders/1KGaECP9B6CFjQRxNeS_v55ENjJKXOu_B"
   },
   {
    "label": "105 - Addanki",
