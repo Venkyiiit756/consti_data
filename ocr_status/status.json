@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 01:57:21 PM IST",
- "updated_epoch": 1794558441,
+ "updated": "13 Nov 2026, 02:11:37 PM IST",
+ "updated_epoch": 1794559297,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 01:57 PM IST"
+   "eta": "13 Nov, 02:11 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 19,
+   "done": 22,
    "errors": 0,
-   "parts": 5227,
-   "needs_review": 156,
+   "parts": 6048,
+   "needs_review": 175,
    "failed": 0,
-   "electors": 4595033,
-   "eta": "13 Nov, 11:31 PM IST"
+   "electors": 5293800,
+   "eta": "14 Nov, 12:25 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 6 - Amadalavalasa (2024)",
-  "updated": "2026-11-13 13:57:17 IST",
+  "phase": "OCR 7 - Etcherla (2024)",
+  "updated": "2026-11-13 14:11:35 IST",
   "year": "2024",
-  "next": "8 - Narasannapeta (2024)",
+  "next": "9 - Rajam (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "6 - Amadalavalasa",
+   "ac": "7 - Etcherla",
    "phase": "OCR",
-   "processed": 180,
-   "total": 253,
-   "parts_per_min": 99.9,
-   "prefetch": "8 - Narasannapeta (2024)",
+   "processed": 110,
+   "total": 306,
+   "parts_per_min": 91.9,
+   "prefetch": "9 - Rajam (2024)",
    "uploading": [],
-   "done_session": 12,
-   "parts_session": 3420,
+   "done_session": 13,
+   "parts_session": 3673,
    "last": [
+    {
+     "ac": "6 - Amadalavalasa",
+     "year": "2024",
+     "parts": 253,
+     "secs": 939,
+     "finished": "2026-11-13 14:10:43 IST"
+    },
     {
      "ac": "5 - Srikakulam",
      "year": "2024",
@@ -78,28 +85,21 @@
      "parts": 279,
      "secs": 310,
      "finished": "2026-11-13 12:41:53 IST"
-    },
-    {
-     "ac": "1 - Ichchapuram",
-     "year": "2024",
-     "parts": 299,
-     "secs": 674,
-     "finished": "2026-11-13 12:39:47 IST"
     }
    ],
-   "load1": 11.95,
+   "load1": 10.71,
    "cores_busy": 8,
-   "updated": "2026-11-13 13:57:17 IST",
-   "updated_epoch": 1794558437,
+   "updated": "2026-11-13 14:11:35 IST",
+   "updated_epoch": 1794559295,
    "fetch": {
-    "ac": "8 - Narasannapeta",
+    "ac": "9 - Rajam",
     "year": "2024",
-    "done": 14,
-    "total": 16,
-    "mb": 858.7,
-    "mbps": 0.24
+    "done": 7,
+    "total": 17,
+    "mb": 516.8,
+    "mbps": 38.05
    },
-   "age_s": 4
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -108,18 +108,37 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "161 - Kadiri",
+   "ac": "159 - Puttaparthi",
    "phase": "OCR",
-   "processed": 20,
-   "total": 281,
-   "parts_per_min": 39.8,
-   "prefetch": "158 - Penukonda (2024)",
-   "uploading": [
-    "162 - Thamballapalle"
-   ],
-   "done_session": 41,
-   "parts_session": 11419,
+   "processed": 140,
+   "total": 238,
+   "parts_per_min": 44.2,
+   "prefetch": "156 - Madakasira (2024)",
+   "uploading": [],
+   "done_session": 44,
+   "parts_session": 12223,
    "last": [
+    {
+     "ac": "160 - Dharmavaram",
+     "year": "2024",
+     "parts": 287,
+     "secs": 658,
+     "finished": "2026-11-13 14:09:37 IST"
+    },
+    {
+     "ac": "161 - Kadiri",
+     "year": "2024",
+     "parts": 281,
+     "secs": 670,
+     "finished": "2026-11-13 14:03:54 IST"
+    },
+    {
+     "ac": "162 - Thamballapalle",
+     "year": "2024",
+     "parts": 236,
+     "secs": 508,
+     "finished": "2026-11-13 13:56:55 IST"
+    },
     {
      "ac": "163 - Pileru",
      "year": "2024",
@@ -133,46 +152,52 @@
      "parts": 259,
      "secs": 563,
      "finished": "2026-11-13 13:47:01 IST"
-    },
-    {
-     "ac": "165 - Punganur",
-     "year": "2024",
-     "parts": 262,
-     "secs": 688,
-     "finished": "2026-11-13 13:42:51 IST"
-    },
-    {
-     "ac": "166 - Chandragiri",
-     "year": "2024",
-     "parts": 358,
-     "secs": 636,
-     "finished": "2026-11-13 13:35:45 IST"
-    },
-    {
-     "ac": "167 - Tirupati",
-     "year": "2024",
-     "parts": 267,
-     "secs": 793,
-     "finished": "2026-11-13 13:29:41 IST"
     }
    ],
-   "load1": 19.35,
+   "load1": 32.05,
    "cores_busy": 10,
-   "updated": "2026-11-13 13:55:53 IST",
-   "updated_epoch": 1794558353,
+   "updated": "2026-11-13 14:10:12 IST",
+   "updated_epoch": 1794559212,
    "fetch": {
-    "ac": "158 - Penukonda",
+    "ac": "156 - Madakasira",
     "year": "2024",
-    "done": 1,
-    "total": 18,
-    "mb": 0.2,
-    "mbps": 0.02
+    "done": 15,
+    "total": 16,
+    "mb": 1023.5,
+    "mbps": 18.51
    },
-   "age_s": 88
+   "age_s": 85
   }
  ],
- "throughput_ac_per_hr": 16.0,
+ "throughput_ac_per_hr": 14.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "6 - Amadalavalasa",
+   "worker": "box",
+   "parts": 253,
+   "electors": 192649,
+   "secs": 894,
+   "finished": "2026-11-13 14:10:40 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "160 - Dharmavaram",
+   "worker": "mac",
+   "parts": 287,
+   "electors": 245758,
+   "secs": 356,
+   "finished": "2026-11-13 14:08:55 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "161 - Kadiri",
+   "worker": "mac",
+   "parts": 281,
+   "electors": 260360,
+   "secs": 342,
+   "finished": "2026-11-13 14:02:53 IST"
+  },
   {
    "year": "2024",
    "ac": "162 - Thamballapalle",
@@ -217,33 +242,6 @@
    "electors": 266590,
    "secs": 316,
    "finished": "2026-11-13 13:46:53 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "165 - Punganur",
-   "worker": "mac",
-   "parts": 262,
-   "electors": 245808,
-   "secs": 320,
-   "finished": "2026-11-13 13:41:49 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "166 - Chandragiri",
-   "worker": "mac",
-   "parts": 358,
-   "electors": 291241,
-   "secs": 426,
-   "finished": "2026-11-13 13:34:57 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "167 - Tirupati",
-   "worker": "mac",
-   "parts": 267,
-   "electors": 302503,
-   "secs": 325,
-   "finished": "2026-11-13 13:28:56 IST"
   }
  ],
  "failures": [],
@@ -3432,18 +3430,18 @@
    "label": "6 - Amadalavalasa",
    "district": "Srikakulam",
    "year": "2024",
-   "state": "running",
+   "state": "done",
    "total": 253,
-   "processed": 180,
-   "needs_review": 8,
+   "processed": 253,
+   "needs_review": 10,
    "failed": 0,
-   "elapsed_s": 108,
-   "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 44,
+   "elapsed_s": 894,
+   "electors": 192649,
+   "rate_per_min": 17.0,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1o-f9FsdQbelbGsJd1-aQrSCLhsGBLjE5Y5FbWD9uzfs/edit",
+   "folder": "https://drive.google.com/drive/folders/1KMdT45KJYtF8uuD90gJznzDKtiioPmjE"
   },
   {
    "label": "162 - Thamballapalle",
@@ -3563,6 +3561,57 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/149VBey-WEI_YmRGOiC67iMz88fCRkuW4TKRld0faXCM/edit",
    "folder": "https://drive.google.com/drive/folders/1-SeCpLFdEWCHCMSzyupiihtHqicVGxgH"
+  },
+  {
+   "label": "160 - Dharmavaram",
+   "district": "Sri Sathya Sai",
+   "year": "2024",
+   "state": "done",
+   "total": 287,
+   "processed": 287,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 356,
+   "electors": 245758,
+   "rate_per_min": 48.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1OW3r5FiCH8DLdAh3BquOilr_SrXTrvv1Rz4GLubm2sQ/edit",
+   "folder": "https://drive.google.com/drive/folders/12sooWzM5Ok-gn-zeNUnRC-2vMRibgGzt"
+  },
+  {
+   "label": "161 - Kadiri",
+   "district": "Sri Sathya Sai",
+   "year": "2024",
+   "state": "done",
+   "total": 281,
+   "processed": 281,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 342,
+   "electors": 260360,
+   "rate_per_min": 49.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ca-OteT3DnBDAsgtkuV9xrxZhcI2C8S9mUexz2mJYuA/edit",
+   "folder": "https://drive.google.com/drive/folders/1dfCsHwL_SGf6StMHQciQtQ-fCpG4orx5"
+  },
+  {
+   "label": "7 - Etcherla",
+   "district": "Srikakulam",
+   "year": "2024",
+   "state": "running",
+   "total": 306,
+   "processed": 120,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 72,
+   "electors": null,
+   "rate_per_min": 100.0,
+   "eta_s": 112,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
