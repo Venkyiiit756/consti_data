@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 03:16:07 PM IST",
- "updated_epoch": 1794563167,
+ "updated": "13 Nov 2026, 03:17:04 PM IST",
+ "updated_epoch": 1794563224,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 03:16 PM IST"
+   "eta": "13 Nov, 03:17 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 42,
+   "done": 43,
    "errors": 0,
-   "parts": 11281,
+   "parts": 11538,
    "needs_review": 385,
    "failed": 0,
-   "electors": 9791349,
-   "eta": "13 Nov, 10:13 PM IST"
+   "electors": 10003773,
+   "eta": "13 Nov, 10:11 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 16 - Gajapathinagaram (2024)",
-  "updated": "2026-11-13 15:16:07 IST",
+  "updated": "2026-11-13 15:17:02 IST",
   "year": "2024",
   "next": "19 - Srungavarapukota (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,16 +43,21 @@
    "year": "2024",
    "ac": "16 - Gajapathinagaram",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 120,
    "total": 263,
-   "parts_per_min": 95.5,
+   "parts_per_min": 97.5,
    "prefetch": "19 - Srungavarapukota (2024)",
-   "uploading": [
-    "15 - Cheepurupalle"
-   ],
-   "done_session": 21,
-   "parts_session": 5832,
+   "uploading": [],
+   "done_session": 22,
+   "parts_session": 6089,
    "last": [
+    {
+     "ac": "15 - Cheepurupalle",
+     "year": "2024",
+     "parts": 257,
+     "secs": 521,
+     "finished": "2026-11-13 15:16:41 IST"
+    },
     {
      "ac": "14 - Bobbili",
      "year": "2024",
@@ -80,28 +85,21 @@
      "parts": 268,
      "secs": 489,
      "finished": "2026-11-13 15:03:49 IST"
-    },
-    {
-     "ac": "10 - Palakonda",
-     "year": "2024",
-     "parts": 281,
-     "secs": 2134,
-     "finished": "2026-11-13 14:56:52 IST"
     }
    ],
-   "load1": 10.93,
+   "load1": 11.28,
    "cores_busy": 8,
-   "updated": "2026-11-13 15:16:07 IST",
-   "updated_epoch": 1794563167,
+   "updated": "2026-11-13 15:17:02 IST",
+   "updated_epoch": 1794563222,
    "fetch": {
     "ac": "19 - Srungavarapukota",
     "year": "2024",
-    "done": 6,
+    "done": 17,
     "total": 17,
-    "mb": 510.8,
-    "mbps": 43.2
+    "mb": 1200.8,
+    "mbps": 18.21
    },
-   "age_s": 0
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -110,13 +108,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "147 - Alur",
+   "ac": "146 - Adoni",
    "phase": "OCR",
-   "processed": 90,
-   "total": 129,
-   "parts_per_min": 37.8,
-   "prefetch": "144 - Yemmiganur (2024)",
-   "uploading": [],
+   "processed": 10,
+   "total": 256,
+   "parts_per_min": 28.0,
+   "prefetch": "",
+   "uploading": [
+    "147 - Alur"
+   ],
    "done_session": 56,
    "parts_session": 15297,
    "last": [
@@ -156,23 +156,25 @@
      "finished": "2026-11-13 14:49:30 IST"
     }
    ],
-   "load1": 50.15,
+   "load1": 50.01,
    "cores_busy": 10,
-   "updated": "2026-11-13 15:14:58 IST",
-   "updated_epoch": 1794563098,
-   "fetch": {
-    "ac": "144 - Yemmiganur",
-    "year": "2024",
-    "done": 14,
-    "total": 19,
-    "mb": 938.6,
-    "mbps": 7.15
-   },
-   "age_s": 69
+   "updated": "2026-11-13 15:16:14 IST",
+   "updated_epoch": 1794563174,
+   "fetch": null,
+   "age_s": 50
   }
  ],
  "throughput_ac_per_hr": 18.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "15 - Cheepurupalle",
+   "worker": "box",
+   "parts": 257,
+   "electors": 212424,
+   "secs": 243,
+   "finished": "2026-11-13 15:16:38 IST"
+  },
   {
    "year": "2024",
    "ac": "148 - Rayadurg",
@@ -235,15 +237,6 @@
    "electors": 277588,
    "secs": 333,
    "finished": "2026-11-13 15:00:53 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "10 - Palakonda",
-   "worker": "box",
-   "parts": 281,
-   "electors": 187033,
-   "secs": 2063,
-   "finished": "2026-11-13 14:56:48 IST"
   }
  ],
  "failures": [],
@@ -3925,18 +3918,18 @@
    "label": "15 - Cheepurupalle",
    "district": "Vizianagaram",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 257,
    "processed": 257,
    "needs_review": 35,
    "failed": 0,
    "elapsed_s": 243,
-   "electors": null,
+   "electors": 212424,
    "rate_per_min": 63.5,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1t_ZCT52Q4-fwBkJAoY4_2d2BOYXTb2gKqY_XJ1by0zA/edit",
+   "folder": "https://drive.google.com/drive/folders/1CPvhzuiyF1sSGt1J1qF7WrFGkN_V2Z3G"
   },
   {
    "label": "16 - Gajapathinagaram",
@@ -3944,13 +3937,13 @@
    "year": "2024",
    "state": "running",
    "total": 263,
-   "processed": 30,
+   "processed": 130,
    "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 18,
+   "elapsed_s": 75,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 140,
+   "rate_per_min": 104.0,
+   "eta_s": 77,
    "error": "",
    "sheet": "",
    "folder": ""
