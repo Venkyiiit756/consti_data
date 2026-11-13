@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 12:44:55 PM IST",
- "updated_epoch": 1794554095,
+ "updated": "13 Nov 2026, 12:46:54 PM IST",
+ "updated_epoch": 1794554214,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 12:44 PM IST"
+   "eta": "13 Nov, 12:46 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 2,
+   "done": 3,
    "errors": 0,
-   "parts": 578,
+   "parts": 893,
    "needs_review": 26,
    "failed": 0,
-   "electors": 487745,
-   "eta": "13 Nov, 11:22 PM IST"
+   "electors": 724072,
+   "eta": "13 Nov, 11:20 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 4 - Pathapatnam (2024)",
-  "updated": "2026-11-13 12:44:52 IST",
+  "updated": "2026-11-13 12:46:53 IST",
   "year": "2024",
   "next": "7 - Etcherla (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,16 +43,21 @@
    "year": "2024",
    "ac": "4 - Pathapatnam",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 80,
    "total": 321,
-   "parts_per_min": 75.5,
+   "parts_per_min": 37.1,
    "prefetch": "7 - Etcherla (2024)",
-   "uploading": [
-    "3 - Tekkali"
-   ],
-   "done_session": 9,
-   "parts_session": 2506,
+   "uploading": [],
+   "done_session": 10,
+   "parts_session": 2821,
    "last": [
+    {
+     "ac": "3 - Tekkali",
+     "year": "2024",
+     "parts": 315,
+     "secs": 377,
+     "finished": "2026-11-13 12:46:40 IST"
+    },
     {
      "ac": "2 - Palasa",
      "year": "2024",
@@ -80,28 +85,21 @@
      "parts": 246,
      "secs": 282,
      "finished": "2026-11-13 12:27:52 IST"
-    },
-    {
-     "ac": "68 - Chintalapudi",
-     "year": "2026",
-     "parts": 292,
-     "secs": 1933,
-     "finished": "2026-11-13 12:24:54 IST"
     }
    ],
-   "load1": 10.29,
+   "load1": 11.2,
    "cores_busy": 8,
-   "updated": "2026-11-13 12:44:52 IST",
-   "updated_epoch": 1794554092,
+   "updated": "2026-11-13 12:46:53 IST",
+   "updated_epoch": 1794554213,
    "fetch": {
     "ac": "7 - Etcherla",
     "year": "2024",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 18,
+    "total": 18,
+    "mb": 1363.5,
+    "mbps": 10.91
    },
-   "age_s": 3
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -110,13 +108,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "175 - Kuppam",
+   "ac": "174 - Palamaner",
    "phase": "OCR",
-   "processed": 140,
-   "total": 243,
-   "parts_per_min": 49.9,
-   "prefetch": "172 - Chittoor (2024)",
-   "uploading": [],
+   "processed": 0,
+   "total": 287,
+   "parts_per_min": 0.0,
+   "prefetch": "",
+   "uploading": [
+    "175 - Kuppam"
+   ],
    "done_session": 28,
    "parts_session": 7920,
    "last": [
@@ -156,23 +156,25 @@
      "finished": "2026-11-13 12:21:41 IST"
     }
    ],
-   "load1": 21.43,
+   "load1": 17.82,
    "cores_busy": 10,
-   "updated": "2026-11-13 12:44:04 IST",
-   "updated_epoch": 1794554044,
-   "fetch": {
-    "ac": "172 - Chittoor",
-    "year": "2024",
-    "done": 16,
-    "total": 16,
-    "mb": 1105.5,
-    "mbps": 10.42
-   },
-   "age_s": 51
+   "updated": "2026-11-13 12:46:00 IST",
+   "updated_epoch": 1794554160,
+   "fetch": null,
+   "age_s": 54
   }
  ],
  "throughput_ac_per_hr": 16.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "3 - Tekkali",
+   "worker": "box",
+   "parts": 315,
+   "electors": 236327,
+   "secs": 185,
+   "finished": "2026-11-13 12:46:37 IST"
+  },
   {
    "year": "2026",
    "ac": "71 - Gannavaram Krishna",
@@ -235,15 +237,6 @@
    "electors": 195574,
    "secs": 145,
    "finished": "2026-11-13 12:27:49 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "74 - Pedana",
-   "worker": "mac",
-   "parts": 219,
-   "electors": 158667,
-   "secs": 267,
-   "finished": "2026-11-13 12:25:37 IST"
   }
  ],
  "failures": [],
@@ -3245,18 +3238,18 @@
    "label": "3 - Tekkali",
    "district": "Srikakulam",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 315,
    "processed": 315,
    "needs_review": 10,
    "failed": 0,
    "elapsed_s": 185,
-   "electors": null,
+   "electors": 236327,
    "rate_per_min": 102.2,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/17iYL0MozHC30mHxnG2CW0Ij6l8hef4EF1E5PhVR3_bg/edit",
+   "folder": "https://drive.google.com/drive/folders/1TkNhiL370-uZ67MVdjgq5W5EuXsRDXQS"
   },
   {
    "label": "71 - Gannavaram Krishna",
@@ -3281,13 +3274,13 @@
    "year": "2024",
    "state": "running",
    "total": 321,
-   "processed": 10,
+   "processed": 80,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 7,
+   "elapsed_s": 125,
    "electors": null,
-   "rate_per_min": 85.7,
-   "eta_s": 218,
+   "rate_per_min": 38.4,
+   "eta_s": 377,
    "error": "",
    "sheet": "",
    "folder": ""
