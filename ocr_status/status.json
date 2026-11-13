@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 08:17:14 AM IST",
- "updated_epoch": 1794538034,
+ "updated": "13 Nov 2026, 08:27:20 AM IST",
+ "updated_epoch": 1794538640,
  "total_constituencies": 175,
- "done_constituencies": 109,
+ "done_constituencies": 113,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 109,
+   "done": 113,
    "errors": 0,
-   "parts": 31768,
-   "needs_review": 887,
+   "parts": 32927,
+   "needs_review": 928,
    "failed": 33,
-   "electors": 23314995,
-   "eta": "13 Nov, 01:14 PM IST"
+   "electors": 24178267,
+   "eta": "13 Nov, 12:40 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 02:08 AM IST"
+   "eta": "14 Nov, 12:24 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 51 - Rajahmundry Rural (2026)",
-  "updated": "2026-11-13 08:17:13 IST",
+  "phase": "OCR 53 - Rampachodavaram (2026)",
+  "updated": "2026-11-13 08:27:18 IST",
   "year": "2026",
-  "next": "52 - Jaggampeta (2026)",
+  "next": "55 - Nidadavole (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,30 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "51 - Rajahmundry Rural",
+   "ac": "53 - Rampachodavaram",
    "phase": "OCR",
-   "processed": 250,
-   "total": 310,
-   "parts_per_min": 105.9,
-   "prefetch": "52 - Jaggampeta (2026)",
+   "processed": 330,
+   "total": 399,
+   "parts_per_min": 107.3,
+   "prefetch": "55 - Nidadavole (2026)",
    "uploading": [],
-   "done_session": 23,
-   "parts_session": 6178,
+   "done_session": 25,
+   "parts_session": 6752,
    "last": [
+    {
+     "ac": "52 - Jaggampeta",
+     "year": "2026",
+     "parts": 264,
+     "secs": 433,
+     "finished": "2026-11-13 08:22:43 IST"
+    },
+    {
+     "ac": "51 - Rajahmundry Rural",
+     "year": "2026",
+     "parts": 310,
+     "secs": 315,
+     "finished": "2026-11-13 08:17:53 IST"
+    },
     {
      "ac": "50 - Rajahmundry City",
      "year": "2026",
@@ -71,35 +85,21 @@
      "parts": 239,
      "secs": 1268,
      "finished": "2026-11-13 07:56:40 IST"
-    },
-    {
-     "ac": "47 - Kothapeta",
-     "year": "2026",
-     "parts": 277,
-     "secs": 4504,
-     "finished": "2026-11-13 07:37:46 IST"
-    },
-    {
-     "ac": "46 - P Gannavaram",
-     "year": "2026",
-     "parts": 214,
-     "secs": 2213,
-     "finished": "2026-11-13 06:56:47 IST"
     }
    ],
-   "load1": 10.56,
+   "load1": 10.64,
    "cores_busy": 8,
-   "updated": "2026-11-13 08:17:13 IST",
-   "updated_epoch": 1794538033,
+   "updated": "2026-11-13 08:27:18 IST",
+   "updated_epoch": 1794538638,
    "fetch": {
-    "ac": "52 - Jaggampeta",
+    "ac": "55 - Nidadavole",
     "year": "2026",
-    "done": 36,
-    "total": 38,
-    "mb": 2563.8,
-    "mbps": 27.06
+    "done": 15,
+    "total": 41,
+    "mb": 869.7,
+    "mbps": 44.47
    },
-   "age_s": 1
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -108,16 +108,30 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "117 - Nellore City",
+   "ac": "115 - Atmakur",
    "phase": "OCR",
-   "processed": 170,
-   "total": 258,
-   "parts_per_min": 46.4,
-   "prefetch": "114 - Kavali (2026)",
+   "processed": 110,
+   "total": 283,
+   "parts_per_min": 46.2,
+   "prefetch": "112 - Giddalur (2026)",
    "uploading": [],
-   "done_session": 51,
-   "parts_session": 15519,
+   "done_session": 53,
+   "parts_session": 16104,
    "last": [
+    {
+     "ac": "116 - Kovur",
+     "year": "2026",
+     "parts": 327,
+     "secs": 690,
+     "finished": "2026-11-13 08:25:46 IST"
+    },
+    {
+     "ac": "117 - Nellore City",
+     "year": "2026",
+     "parts": 258,
+     "secs": 583,
+     "finished": "2026-11-13 08:18:39 IST"
+    },
     {
      "ac": "118 - Nellore Rural",
      "year": "2026",
@@ -138,39 +152,61 @@
      "parts": 302,
      "secs": 721,
      "finished": "2026-11-13 08:01:38 IST"
-    },
-    {
-     "ac": "121 - Sullurpeta",
-     "year": "2026",
-     "parts": 314,
-     "secs": 662,
-     "finished": "2026-11-13 07:54:54 IST"
-    },
-    {
-     "ac": "122 - Venkatagiri",
-     "year": "2026",
-     "parts": 324,
-     "secs": 599,
-     "finished": "2026-11-13 07:49:38 IST"
     }
    ],
-   "load1": 33.38,
+   "load1": 28.13,
    "cores_busy": 10,
-   "updated": "2026-11-13 08:16:04 IST",
-   "updated_epoch": 1794537964,
+   "updated": "2026-11-13 08:26:15 IST",
+   "updated_epoch": 1794538575,
    "fetch": {
-    "ac": "114 - Kavali",
+    "ac": "112 - Giddalur",
     "year": "2026",
-    "done": 31,
-    "total": 33,
-    "mb": 2574.5,
-    "mbps": 12.87
+    "done": 23,
+    "total": 35,
+    "mb": 1779.4,
+    "mbps": 17.98
    },
-   "age_s": 70
+   "age_s": 65
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 14.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "116 - Kovur",
+   "worker": "mac",
+   "parts": 327,
+   "electors": 224428,
+   "secs": 376,
+   "finished": "2026-11-13 08:25:34 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "52 - Jaggampeta",
+   "worker": "box",
+   "parts": 264,
+   "electors": 211063,
+   "secs": 285,
+   "finished": "2026-11-13 08:22:40 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "117 - Nellore City",
+   "worker": "mac",
+   "parts": 258,
+   "electors": 193195,
+   "secs": 312,
+   "finished": "2026-11-13 08:17:55 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "51 - Rajahmundry Rural",
+   "worker": "box",
+   "parts": 310,
+   "electors": 234586,
+   "secs": 170,
+   "finished": "2026-11-13 08:17:50 IST"
+  },
   {
    "year": "2026",
    "ac": "50 - Rajahmundry City",
@@ -206,42 +242,6 @@
    "electors": 205910,
    "secs": 337,
    "finished": "2026-11-13 08:06:42 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "120 - Gudur",
-   "worker": "mac",
-   "parts": 302,
-   "electors": 208534,
-   "secs": 342,
-   "finished": "2026-11-13 08:00:49 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "48 - Mandapeta",
-   "worker": "box",
-   "parts": 239,
-   "electors": 204412,
-   "secs": 139,
-   "finished": "2026-11-13 07:56:36 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "121 - Sullurpeta",
-   "worker": "mac",
-   "parts": 314,
-   "electors": 214302,
-   "secs": 347,
-   "finished": "2026-11-13 07:54:47 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "122 - Venkatagiri",
-   "worker": "mac",
-   "parts": 324,
-   "electors": 209276,
-   "secs": 370,
-   "finished": "2026-11-13 07:49:26 IST"
   }
  ],
  "failures": [],
@@ -2104,18 +2104,86 @@
    "label": "51 - Rajahmundry Rural",
    "district": "East Godavari",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 310,
-   "processed": 250,
+   "processed": 310,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 139,
+   "elapsed_s": 170,
+   "electors": 234586,
+   "rate_per_min": 109.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1oxdEMRsHzvRPIrJ5Ou8Ewnu-DOMdlWX5r2DQOooR5Cg/edit",
+   "folder": "https://drive.google.com/drive/folders/1AEaAjVqArwS699RdkgzUmDdVEXeLT6yT"
+  },
+  {
+   "label": "52 - Jaggampeta",
+   "district": "Kakinada",
+   "year": "2026",
+   "state": "done",
+   "total": 264,
+   "processed": 264,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 285,
+   "electors": 211063,
+   "rate_per_min": 55.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1uecMN_Rj36g0zmdH4oXBRp3f3sa-bB1kzIePCre87zk/edit",
+   "folder": "https://drive.google.com/drive/folders/1Cm3hClv3TBlwDxG4nkrFgeWFNc_JGAES"
+  },
+  {
+   "label": "117 - Nellore City",
+   "district": "Nellore",
+   "year": "2026",
+   "state": "done",
+   "total": 258,
+   "processed": 258,
+   "needs_review": 11,
+   "failed": 0,
+   "elapsed_s": 312,
+   "electors": 193195,
+   "rate_per_min": 49.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/16zyI_c0IUrtpVQMtiqVg-hELmT0dwNAHs0cuuxavWnE/edit",
+   "folder": "https://drive.google.com/drive/folders/1hU4jstnRswKzQaklsVnvqdsE_gjIkJ3Q"
+  },
+  {
+   "label": "53 - Rampachodavaram",
+   "district": "Alluri Sitharama Raju",
+   "year": "2026",
+   "state": "running",
+   "total": 399,
+   "processed": 340,
+   "needs_review": 22,
+   "failed": 0,
+   "elapsed_s": 185,
    "electors": null,
-   "rate_per_min": 107.9,
-   "eta_s": 33,
+   "rate_per_min": 110.3,
+   "eta_s": 32,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "116 - Kovur",
+   "district": "Nellore",
+   "year": "2026",
+   "state": "done",
+   "total": 327,
+   "processed": 327,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 376,
+   "electors": 224428,
+   "rate_per_min": 52.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1peB-0rcyy-_SjbqZAszOcUyqrGYKNHViMUw9wCNJJH8/edit",
+   "folder": "https://drive.google.com/drive/folders/1dealaYzsGEudkHWt65yHajwA-5NT-5Ft"
   }
  ]
 }
