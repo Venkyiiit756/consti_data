@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 08:02:16 PM IST",
- "updated_epoch": 1794580336,
+ "updated": "13 Nov 2026, 08:04:06 PM IST",
+ "updated_epoch": 1794580446,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 08:02 PM IST"
+   "eta": "13 Nov, 08:04 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 747,
    "failed": 0,
    "electors": 22661179,
-   "eta": "14 Nov, 02:39 AM IST"
+   "eta": "14 Nov, 02:41 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 33 - Payakaraopet (2024)",
-  "updated": "2026-11-13 20:02:12 IST",
+  "updated": "2026-11-13 20:03:26 IST",
   "year": "2024",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "33 - Payakaraopet",
    "phase": "OCR",
-   "processed": 230,
+   "processed": 250,
    "total": 292,
-   "parts_per_min": 100.5,
+   "parts_per_min": 71.2,
    "prefetch": "",
    "uploading": [],
    "done_session": 39,
@@ -87,12 +87,12 @@
      "finished": "2026-11-13 18:48:47 IST"
     }
    ],
-   "load1": 10.99,
+   "load1": 11.02,
    "cores_busy": 8,
-   "updated": "2026-11-13 20:02:12 IST",
-   "updated_epoch": 1794580332,
+   "updated": "2026-11-13 20:03:26 IST",
+   "updated_epoch": 1794580406,
    "fetch": null,
-   "age_s": 4
+   "age_s": 40
   },
   {
    "worker": "mac",
@@ -159,7 +159,7 @@
     "mb": 1197.7,
     "mbps": 11.13
    },
-   "age_s": 134
+   "age_s": 244
   }
  ],
  "throughput_ac_per_hr": 11.3,
@@ -4870,13 +4870,13 @@
    "year": "2024",
    "state": "running",
    "total": 292,
-   "processed": 230,
+   "processed": 260,
    "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 136,
+   "elapsed_s": 212,
    "electors": null,
-   "rate_per_min": 101.5,
-   "eta_s": 37,
+   "rate_per_min": 73.6,
+   "eta_s": 26,
    "error": "",
    "sheet": "",
    "folder": ""
