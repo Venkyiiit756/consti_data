@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 08:49:41 AM IST",
- "updated_epoch": 1794539981,
+ "updated": "13 Nov 2026, 08:59:45 AM IST",
+ "updated_epoch": 1794540585,
  "total_constituencies": 175,
- "done_constituencies": 119,
+ "done_constituencies": 122,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 119,
+   "done": 122,
    "errors": 0,
-   "parts": 34746,
-   "needs_review": 998,
+   "parts": 35562,
+   "needs_review": 1021,
    "failed": 33,
-   "electors": 25431113,
-   "eta": "13 Nov, 12:28 PM IST"
+   "electors": 26045882,
+   "eta": "13 Nov, 12:10 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 11:41 PM IST"
+   "eta": "13 Nov, 10:29 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 55 - Nidadavole (2026)",
-  "updated": "2026-11-13 08:49:39 IST",
+  "phase": "downloading",
+  "updated": "2026-11-13 08:59:42 IST",
   "year": "2026",
-  "next": "56 - Achanta (2026)",
+  "next": "57 - Palakollu (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,25 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "55 - Nidadavole",
-   "phase": "OCR",
-   "processed": 160,
-   "total": 248,
-   "parts_per_min": 8.0,
-   "prefetch": "56 - Achanta (2026)",
-   "uploading": [],
-   "done_session": 27,
-   "parts_session": 7363,
+   "ac": "",
+   "phase": "downloading",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
+   "prefetch": "57 - Palakollu (2026)",
+   "uploading": [
+    "56 - Achanta"
+   ],
+   "done_session": 28,
+   "parts_session": 7611,
    "last": [
+    {
+     "ac": "55 - Nidadavole",
+     "year": "2026",
+     "parts": 248,
+     "secs": 1382,
+     "finished": "2026-11-13 08:50:42 IST"
+    },
     {
      "ac": "54 - Kovvur",
      "year": "2026",
@@ -78,28 +87,21 @@
      "parts": 310,
      "secs": 315,
      "finished": "2026-11-13 08:17:53 IST"
-    },
-    {
-     "ac": "50 - Rajahmundry City",
-     "year": "2026",
-     "parts": 263,
-     "secs": 2141,
-     "finished": "2026-11-13 08:14:41 IST"
     }
    ],
-   "load1": 13.66,
-   "cores_busy": 8,
-   "updated": "2026-11-13 08:49:39 IST",
-   "updated_epoch": 1794539979,
+   "load1": 7.4,
+   "cores_busy": 0,
+   "updated": "2026-11-13 08:59:42 IST",
+   "updated_epoch": 1794540582,
    "fetch": {
-    "ac": "56 - Achanta",
+    "ac": "57 - Palakollu",
     "year": "2026",
-    "done": 26,
-    "total": 30,
-    "mb": 1857.3,
-    "mbps": 1.53
+    "done": 6,
+    "total": 32,
+    "mb": 338.8,
+    "mbps": 0.69
    },
-   "age_s": 2
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -108,69 +110,98 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "115 - Atmakur",
+   "ac": "109 - Kandukur",
    "phase": "OCR",
-   "processed": 270,
-   "total": 283,
-   "parts_per_min": 51.3,
-   "prefetch": "112 - Giddalur (2026)",
-   "uploading": [],
-   "done_session": 53,
-   "parts_session": 16104,
+   "processed": 10,
+   "total": 293,
+   "parts_per_min": 31.5,
+   "prefetch": "106 - Chirala (2026)",
+   "uploading": [
+    "110 - Kondapi"
+   ],
+   "done_session": 58,
+   "parts_session": 17589,
    "last": [
     {
-     "ac": "116 - Kovur",
+     "ac": "111 - Markapuram",
      "year": "2026",
-     "parts": 327,
-     "secs": 690,
-     "finished": "2026-11-13 08:25:46 IST"
+     "parts": 277,
+     "secs": 784,
+     "finished": "2026-11-13 08:54:40 IST"
     },
     {
-     "ac": "117 - Nellore City",
+     "ac": "112 - Giddalur",
      "year": "2026",
-     "parts": 258,
-     "secs": 583,
-     "finished": "2026-11-13 08:18:39 IST"
+     "parts": 287,
+     "secs": 551,
+     "finished": "2026-11-13 08:47:54 IST"
     },
     {
-     "ac": "118 - Nellore Rural",
+     "ac": "113 - Kanigiri",
      "year": "2026",
-     "parts": 344,
-     "secs": 691,
-     "finished": "2026-11-13 08:12:53 IST"
+     "parts": 314,
+     "secs": 751,
+     "finished": "2026-11-13 08:43:55 IST"
     },
     {
-     "ac": "119 - Sarvepalli",
+     "ac": "114 - Kavali",
      "year": "2026",
-     "parts": 289,
-     "secs": 769,
-     "finished": "2026-11-13 08:06:52 IST"
+     "parts": 324,
+     "secs": 682,
+     "finished": "2026-11-13 08:36:46 IST"
     },
     {
-     "ac": "120 - Gudur",
+     "ac": "115 - Atmakur",
      "year": "2026",
-     "parts": 302,
-     "secs": 721,
-     "finished": "2026-11-13 08:01:38 IST"
+     "parts": 283,
+     "secs": 561,
+     "finished": "2026-11-13 08:29:54 IST"
     }
    ],
-   "load1": 20.8,
+   "load1": 24.56,
    "cores_busy": 10,
-   "updated": "2026-11-13 08:29:08 IST",
-   "updated_epoch": 1794538748,
+   "updated": "2026-11-13 08:58:46 IST",
+   "updated_epoch": 1794540526,
    "fetch": {
-    "ac": "112 - Giddalur",
+    "ac": "106 - Chirala",
     "year": "2026",
-    "done": 35,
-    "total": 35,
-    "mb": 2719.6,
-    "mbps": 14.99
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 1233
+   "age_s": 59
   }
  ],
- "throughput_ac_per_hr": 15.3,
+ "throughput_ac_per_hr": 16.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "110 - Kondapi",
+   "worker": "mac",
+   "parts": 291,
+   "electors": 220247,
+   "secs": 341,
+   "finished": "2026-11-13 08:58:46 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "111 - Markapuram",
+   "worker": "mac",
+   "parts": 277,
+   "electors": 194212,
+   "secs": 328,
+   "finished": "2026-11-13 08:53:58 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "55 - Nidadavole",
+   "worker": "box",
+   "parts": 248,
+   "electors": 200310,
+   "secs": 1236,
+   "finished": "2026-11-13 08:50:39 IST"
+  },
   {
    "year": "2026",
    "ac": "112 - Giddalur",
@@ -215,33 +246,6 @@
    "electors": 191710,
    "secs": 326,
    "finished": "2026-11-13 08:29:46 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "53 - Rampachodavaram",
-   "worker": "box",
-   "parts": 399,
-   "electors": 239591,
-   "secs": 218,
-   "finished": "2026-11-13 08:28:36 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "116 - Kovur",
-   "worker": "mac",
-   "parts": 327,
-   "electors": 224428,
-   "secs": 376,
-   "finished": "2026-11-13 08:25:34 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "52 - Jaggampeta",
-   "worker": "box",
-   "parts": 264,
-   "electors": 211063,
-   "secs": 285,
-   "finished": "2026-11-13 08:22:40 IST"
   }
  ],
  "failures": [],
@@ -2206,18 +2210,18 @@
    "label": "55 - Nidadavole",
    "district": "East Godavari",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 248,
-   "processed": 170,
-   "needs_review": 0,
+   "processed": 248,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 1194,
-   "electors": null,
-   "rate_per_min": 8.5,
-   "eta_s": 548,
+   "elapsed_s": 1235,
+   "electors": 200310,
+   "rate_per_min": 12.0,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1X748jIX8pEG_aMs134q2b8-FPOaDo8aivabLH3Wlwf0/edit",
+   "folder": "https://drive.google.com/drive/folders/1r8CUEUdiPT6gXS9N2fmjVQsZEaq07wgy"
   },
   {
    "label": "112 - Giddalur",
@@ -2286,6 +2290,57 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/16dvOSattmsJb_ylMxN-aogSnl3HiPblhL20nb6TdJgw/edit",
    "folder": "https://drive.google.com/drive/folders/1K8a2jDi27Swg8aNM2JY7iU9alaWksURF"
+  },
+  {
+   "label": "56 - Achanta",
+   "district": "West Godavari",
+   "year": "2026",
+   "state": "uploading",
+   "total": 199,
+   "processed": 199,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 506,
+   "electors": null,
+   "rate_per_min": 23.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "111 - Markapuram",
+   "district": "Prakasam",
+   "year": "2026",
+   "state": "done",
+   "total": 277,
+   "processed": 277,
+   "needs_review": 12,
+   "failed": 0,
+   "elapsed_s": 328,
+   "electors": 194212,
+   "rate_per_min": 50.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1cyU-lbmrC9xBFufsU_7AjyYXYjuTgxC5zrFcJ6yI8lY/edit",
+   "folder": "https://drive.google.com/drive/folders/1EoP06E4FsgjkhINSNJohFs8uo825gPoP"
+  },
+  {
+   "label": "110 - Kondapi",
+   "district": "Prakasam",
+   "year": "2026",
+   "state": "done",
+   "total": 291,
+   "processed": 291,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 341,
+   "electors": 220247,
+   "rate_per_min": 51.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/19Om9_vbmA_EDCzZxOSS-BfXOVRt8N9N9EAQvhubPJBg/edit",
+   "folder": "https://drive.google.com/drive/folders/1SJ5OFb49sCJmo6j52evpJ6VkRfa45DWi"
   }
  ]
 }
