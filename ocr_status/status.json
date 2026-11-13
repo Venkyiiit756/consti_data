@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 06:50:38 PM IST",
- "updated_epoch": 1794576038,
+ "updated": "13 Nov 2026, 06:51:05 PM IST",
+ "updated_epoch": 1794576065,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,14 +12,14 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 06:50 PM IST"
+   "eta": "13 Nov, 06:51 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 83,
    "errors": 0,
    "parts": 22053,
-   "needs_review": 651,
+   "needs_review": 652,
    "failed": 0,
    "electors": 19379309,
    "eta": "14 Nov, 01:52 AM IST"
@@ -27,7 +27,7 @@
  },
  "batch": {
   "phase": "OCR 29 - Paderu (2024)",
-  "updated": "2026-11-13 18:50:34 IST",
+  "updated": "2026-11-13 18:51:04 IST",
   "year": "2024",
   "next": "32 - Yelamanchili (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "29 - Paderu",
    "phase": "OCR",
-   "processed": 190,
+   "processed": 240,
    "total": 317,
-   "parts_per_min": 8.1,
+   "parts_per_min": 10.0,
    "prefetch": "32 - Yelamanchili (2024)",
    "uploading": [],
    "done_session": 35,
@@ -87,19 +87,19 @@
      "finished": "2026-11-13 17:56:47 IST"
     }
    ],
-   "load1": 10.58,
+   "load1": 10.91,
    "cores_busy": 8,
-   "updated": "2026-11-13 18:50:34 IST",
-   "updated_epoch": 1794576034,
+   "updated": "2026-11-13 18:51:04 IST",
+   "updated_epoch": 1794576064,
    "fetch": {
     "ac": "32 - Yelamanchili",
     "year": "2024",
-    "done": 11,
+    "done": 16,
     "total": 16,
-    "mb": 849.8,
-    "mbps": 32.59
+    "mb": 1104.5,
+    "mbps": 14.62
    },
-   "age_s": 4
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -166,7 +166,7 @@
     "mb": 1370.2,
     "mbps": 7.08
    },
-   "age_s": 27
+   "age_s": 54
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -4588,13 +4588,13 @@
    "year": "2024",
    "state": "running",
    "total": 317,
-   "processed": 200,
-   "needs_review": 5,
+   "processed": 240,
+   "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 1406,
+   "elapsed_s": 1431,
    "electors": null,
-   "rate_per_min": 8.5,
-   "eta_s": 823,
+   "rate_per_min": 10.1,
+   "eta_s": 459,
    "error": "",
    "sheet": "",
    "folder": ""
