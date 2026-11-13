@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:25:04 AM IST",
- "updated_epoch": 1794603304,
+ "updated": "14 Nov 2026, 02:47:31 AM IST",
+ "updated_epoch": 1794604651,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:25 AM IST"
+   "eta": "14 Nov, 02:47 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 10,
+   "done": 13,
    "errors": 0,
-   "parts": 2778,
-   "needs_review": 82,
+   "parts": 3584,
+   "needs_review": 114,
    "failed": 0,
-   "electors": 2359674,
-   "eta": "14 Nov, 04:53 PM IST"
+   "electors": 3032118,
+   "eta": "14 Nov, 04:59 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:25 AM IST"
+   "eta": "14 Nov, 02:47 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 6 - Amadalavalasa (2025)",
-  "updated": "2026-11-14 02:25:02 IST",
+  "updated": "2026-11-14 02:47:31 IST",
   "year": "2025",
   "next": "9 - Rajam (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "6 - Amadalavalasa",
    "phase": "OCR",
-   "processed": 150,
+   "processed": 250,
    "total": 259,
-   "parts_per_min": 96.1,
+   "parts_per_min": 10.4,
    "prefetch": "9 - Rajam (2025)",
    "uploading": [],
    "done_session": 5,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 01:56:42 IST"
     }
    ],
-   "load1": 10.82,
+   "load1": 12.32,
    "cores_busy": 8,
-   "updated": "2026-11-14 02:25:02 IST",
-   "updated_epoch": 1794603302,
+   "updated": "2026-11-14 02:47:31 IST",
+   "updated_epoch": 1794604651,
    "fetch": {
     "ac": "9 - Rajam",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1159.7,
     "mbps": 19.52
    },
-   "age_s": 2
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -118,16 +118,37 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "170 - Nagari",
+   "ac": "167 - Tirupati",
    "phase": "OCR",
-   "processed": 160,
-   "total": 233,
-   "parts_per_min": 37.2,
-   "prefetch": "167 - Tirupati (2025)",
+   "processed": 230,
+   "total": 274,
+   "parts_per_min": 37.9,
+   "prefetch": "164 - Madanapalle (2025)",
    "uploading": [],
-   "done_session": 5,
-   "parts_session": 1278,
+   "done_session": 8,
+   "parts_session": 2084,
    "last": [
+    {
+     "ac": "168 - Srikalahasti",
+     "year": "2025",
+     "parts": 294,
+     "secs": 749,
+     "finished": "2026-11-14 02:42:28 IST"
+    },
+    {
+     "ac": "169 - Satyavedu",
+     "year": "2025",
+     "parts": 279,
+     "secs": 684,
+     "finished": "2026-11-14 02:33:52 IST"
+    },
+    {
+     "ac": "170 - Nagari",
+     "year": "2025",
+     "parts": 233,
+     "secs": 563,
+     "finished": "2026-11-14 02:27:39 IST"
+    },
     {
      "ac": "171 - Gangadhara Nellore",
      "year": "2025",
@@ -141,46 +162,52 @@
      "parts": 229,
      "secs": 571,
      "finished": "2026-11-14 02:14:56 IST"
-    },
-    {
-     "ac": "173 - Puthalapattu",
-     "year": "2025",
-     "parts": 262,
-     "secs": 554,
-     "finished": "2026-11-14 02:08:53 IST"
-    },
-    {
-     "ac": "174 - Palamaner",
-     "year": "2025",
-     "parts": 288,
-     "secs": 760,
-     "finished": "2026-11-14 02:03:36 IST"
-    },
-    {
-     "ac": "175 - Kuppam",
-     "year": "2025",
-     "parts": 243,
-     "secs": 409,
-     "finished": "2026-11-14 01:55:33 IST"
     }
    ],
-   "load1": 22.82,
+   "load1": 20.87,
    "cores_busy": 10,
-   "updated": "2026-11-14 02:24:08 IST",
-   "updated_epoch": 1794603248,
+   "updated": "2026-11-14 02:45:55 IST",
+   "updated_epoch": 1794604555,
    "fetch": {
-    "ac": "167 - Tirupati",
+    "ac": "164 - Madanapalle",
     "year": "2025",
-    "done": 20,
-    "total": 20,
-    "mb": 1640.2,
-    "mbps": 6.92
+    "done": 17,
+    "total": 17,
+    "mb": 1347.8,
+    "mbps": 13.19
    },
-   "age_s": 56
+   "age_s": 96
   }
  ],
  "throughput_ac_per_hr": 11.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "168 - Srikalahasti",
+   "worker": "mac",
+   "parts": 294,
+   "electors": 254888,
+   "secs": 440,
+   "finished": "2026-11-14 02:41:49 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "169 - Satyavedu",
+   "worker": "mac",
+   "parts": 279,
+   "electors": 214847,
+   "secs": 415,
+   "finished": "2026-11-14 02:32:57 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "170 - Nagari",
+   "worker": "mac",
+   "parts": 233,
+   "electors": 202709,
+   "secs": 346,
+   "finished": "2026-11-14 02:26:58 IST"
+  },
   {
    "year": "2025",
    "ac": "5 - Srikakulam",
@@ -225,33 +252,6 @@
    "electors": 203570,
    "secs": 342,
    "finished": "2026-11-14 02:13:56 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "173 - Puthalapattu",
-   "worker": "mac",
-   "parts": 262,
-   "electors": 221638,
-   "secs": 399,
-   "finished": "2026-11-14 02:08:46 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "174 - Palamaner",
-   "worker": "mac",
-   "parts": 288,
-   "electors": 269065,
-   "secs": 320,
-   "finished": "2026-11-14 02:02:52 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "2 - Palasa",
-   "worker": "box",
-   "parts": 284,
-   "electors": 219931,
-   "secs": 165,
-   "finished": "2026-11-14 01:58:41 IST"
   }
  ],
  "failures": [],
@@ -6315,13 +6315,13 @@
    "year": "2025",
    "state": "running",
    "total": 259,
-   "processed": 160,
-   "needs_review": 4,
+   "processed": 250,
+   "needs_review": 9,
    "failed": 0,
-   "elapsed_s": 94,
+   "elapsed_s": 1441,
    "electors": null,
-   "rate_per_min": 102.1,
-   "eta_s": 58,
+   "rate_per_min": 10.4,
+   "eta_s": 52,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -6342,6 +6342,57 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/18SiU60mrLilgDTIZhSXHzjHYOeUVFLOAo_VFW5CuSdg/edit",
    "folder": "https://drive.google.com/drive/folders/1agXUrzrpWQZq-IAkJph5bDRHjyn7exmz"
+  },
+  {
+   "label": "168 - Srikalahasti",
+   "district": "Tirupati",
+   "year": "2025",
+   "state": "done",
+   "total": 294,
+   "processed": 294,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 440,
+   "electors": 254888,
+   "rate_per_min": 40.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1W62tze4PqwLMWnwc0SIYd9ziQVpsJuNzYsMuKwHY5jI/edit",
+   "folder": "https://drive.google.com/drive/folders/13YSYjWPHBZFAc_aODyrmCJyUPXRM92DX"
+  },
+  {
+   "label": "169 - Satyavedu",
+   "district": "Tirupati",
+   "year": "2025",
+   "state": "done",
+   "total": 279,
+   "processed": 279,
+   "needs_review": 8,
+   "failed": 0,
+   "elapsed_s": 415,
+   "electors": 214847,
+   "rate_per_min": 40.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1-ycKXIgKmEpqnvFi0b76jRMc1-CxapzHCP2714r__V4/edit",
+   "folder": "https://drive.google.com/drive/folders/1Ve8ncDLMaPd1Lbvg7CDAz3VgasRJUuO-"
+  },
+  {
+   "label": "170 - Nagari",
+   "district": "Chittoor",
+   "year": "2025",
+   "state": "done",
+   "total": 233,
+   "processed": 233,
+   "needs_review": 13,
+   "failed": 0,
+   "elapsed_s": 346,
+   "electors": 202709,
+   "rate_per_min": 40.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1rtA6jbokK0ZQe-YPxSsEwGySbaCd3CYMBrHFgfw6Qas/edit",
+   "folder": "https://drive.google.com/drive/folders/1j1ifYlTfqeAa5ce7VtkkYUni9FACrpa-"
   }
  ]
 }
