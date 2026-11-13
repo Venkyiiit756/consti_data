@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 09:21:07 PM IST",
- "updated_epoch": 1794585067,
+ "updated": "13 Nov 2026, 09:21:10 PM IST",
+ "updated_epoch": 1794585070,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -27,7 +27,7 @@
  },
  "batch": {
   "phase": "OCR 39 - Peddapuram (2024)",
-  "updated": "2026-11-13 21:21:04 IST",
+  "updated": "2026-11-13 21:21:09 IST",
   "year": "2024",
   "next": "40 - Anaparthi (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -45,7 +45,7 @@
    "phase": "OCR",
    "processed": 0,
    "total": 190,
-   "parts_per_min": 0,
+   "parts_per_min": 0.0,
    "prefetch": "40 - Anaparthi (2024)",
    "uploading": [
     "38 - Kakinada Rural"
@@ -89,10 +89,10 @@
      "finished": "2026-11-13 20:12:42 IST"
     }
    ],
-   "load1": 11.39,
+   "load1": 11.36,
    "cores_busy": 8,
-   "updated": "2026-11-13 21:21:04 IST",
-   "updated_epoch": 1794585064,
+   "updated": "2026-11-13 21:21:09 IST",
+   "updated_epoch": 1794585069,
    "fetch": {
     "ac": "40 - Anaparthi",
     "year": "2024",
@@ -101,7 +101,7 @@
     "mb": 985.2,
     "mbps": 37.53
    },
-   "age_s": 3
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -168,7 +168,7 @@
     "mb": 1027.5,
     "mbps": 8.17
    },
-   "age_s": 73
+   "age_s": 76
   }
  ],
  "throughput_ac_per_hr": 14.0,
