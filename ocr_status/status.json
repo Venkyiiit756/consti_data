@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:25:36 AM IST",
- "updated_epoch": 1794599736,
+ "updated": "14 Nov 2026, 01:30:27 AM IST",
+ "updated_epoch": 1794600027,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:25 AM IST"
+   "eta": "14 Nov, 01:30 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 170,
    "errors": 0,
    "parts": 43413,
-   "needs_review": 1343,
+   "needs_review": 1345,
    "failed": 0,
    "electors": 38719294,
-   "eta": "14 Nov, 01:32 AM IST"
+   "eta": "14 Nov, 01:38 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 53 - Rampachodavaram (2024)",
-  "updated": "2026-11-14 01:25:35 IST",
+  "updated": "2026-11-14 01:30:23 IST",
   "year": "2024",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "53 - Rampachodavaram",
    "phase": "OCR",
-   "processed": 250,
+   "processed": 270,
    "total": 399,
-   "parts_per_min": 8.4,
+   "parts_per_min": 7.8,
    "prefetch": "",
    "uploading": [],
    "done_session": 59,
@@ -87,12 +87,12 @@
      "finished": "2026-11-14 00:14:50 IST"
     }
    ],
-   "load1": 10.92,
+   "load1": 11.06,
    "cores_busy": 8,
-   "updated": "2026-11-14 01:25:35 IST",
-   "updated_epoch": 1794599735,
+   "updated": "2026-11-14 01:30:23 IST",
+   "updated_epoch": 1794600023,
    "fetch": null,
-   "age_s": 1
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -115,10 +115,10 @@
    "cores_busy": 0,
    "updated": "2026-11-14 01:24:09 IST",
    "updated_epoch": 1794599649,
-   "age_s": 87
+   "age_s": 378
   }
  ],
- "throughput_ac_per_hr": 16.7,
+ "throughput_ac_per_hr": 15.3,
  "recent": [
   {
    "year": "2024",
@@ -5999,13 +5999,13 @@
    "year": "2024",
    "state": "running",
    "total": 399,
-   "processed": 250,
-   "needs_review": 5,
+   "processed": 280,
+   "needs_review": 7,
    "failed": 0,
-   "elapsed_s": 1753,
+   "elapsed_s": 2080,
    "electors": null,
-   "rate_per_min": 8.6,
-   "eta_s": 1045,
+   "rate_per_min": 8.1,
+   "eta_s": 884,
    "error": "",
    "sheet": "",
    "folder": ""
