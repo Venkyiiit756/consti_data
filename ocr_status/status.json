@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 04:28:21 AM IST",
- "updated_epoch": 1794610701,
+ "updated": "14 Nov 2026, 04:28:27 AM IST",
+ "updated_epoch": 1794610707,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 14 - Bobbili (2025)",
-  "updated": "2026-11-14 04:28:20 IST",
+  "updated": "2026-11-14 04:28:25 IST",
   "year": "2025",
   "next": "17 - Nellimarla (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "14 - Bobbili",
    "phase": "OCR",
-   "processed": 180,
+   "processed": 190,
    "total": 264,
-   "parts_per_min": 82.8,
+   "parts_per_min": 84.2,
    "prefetch": "17 - Nellimarla (2025)",
    "uploading": [],
    "done_session": 13,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 04:17:50 IST"
     }
    ],
-   "load1": 11.14,
+   "load1": 11.13,
    "cores_busy": 8,
-   "updated": "2026-11-14 04:28:20 IST",
-   "updated_epoch": 1794610700,
+   "updated": "2026-11-14 04:28:25 IST",
+   "updated_epoch": 1794610705,
    "fetch": {
     "ac": "17 - Nellimarla",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1057.8,
     "mbps": 12.12
    },
-   "age_s": 1
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -178,7 +178,7 @@
     "mb": 964.6,
     "mbps": 8.11
    },
-   "age_s": 97
+   "age_s": 103
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -6759,13 +6759,13 @@
    "year": "2025",
    "state": "running",
    "total": 264,
-   "processed": 180,
+   "processed": 190,
    "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 126,
+   "elapsed_s": 133,
    "electors": null,
    "rate_per_min": 85.7,
-   "eta_s": 59,
+   "eta_s": 52,
    "error": "",
    "sheet": "",
    "folder": ""
