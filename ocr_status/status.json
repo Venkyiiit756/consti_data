@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:57:48 AM IST",
- "updated_epoch": 1794601668,
+ "updated": "14 Nov 2026, 01:59:55 AM IST",
+ "updated_epoch": 1794601795,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:57 AM IST"
+   "eta": "14 Nov, 01:59 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 2,
+   "done": 3,
    "errors": 0,
-   "parts": 542,
-   "needs_review": 23,
+   "parts": 826,
+   "needs_review": 31,
    "failed": 0,
-   "electors": 496612,
-   "eta": "14 Nov, 07:09 PM IST"
+   "electors": 716543,
+   "eta": "14 Nov, 06:01 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 01:57 AM IST"
+   "eta": "14 Nov, 01:59 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 2 - Palasa (2025)",
-  "updated": "2026-11-14 01:57:46 IST",
+  "phase": "OCR 3 - Tekkali (2025)",
+  "updated": "2026-11-14 01:59:51 IST",
   "year": "2025",
-  "next": "4 - Pathapatnam (2025)",
+  "next": "5 - Srikakulam (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "2 - Palasa",
+   "ac": "3 - Tekkali",
    "phase": "OCR",
-   "processed": 260,
-   "total": 284,
-   "parts_per_min": 99.2,
-   "prefetch": "4 - Pathapatnam (2025)",
+   "processed": 180,
+   "total": 315,
+   "parts_per_min": 92.3,
+   "prefetch": "5 - Srikakulam (2025)",
    "uploading": [],
-   "done_session": 1,
-   "parts_session": 299,
+   "done_session": 2,
+   "parts_session": 583,
    "last": [
+    {
+     "ac": "2 - Palasa",
+     "year": "2025",
+     "parts": 284,
+     "secs": 329,
+     "finished": "2026-11-14 01:58:44 IST"
+    },
     {
      "ac": "1 - Ichchapuram",
      "year": "2025",
@@ -69,19 +76,19 @@
      "finished": "2026-11-14 01:56:42 IST"
     }
    ],
-   "load1": 10.93,
+   "load1": 10.96,
    "cores_busy": 8,
-   "updated": "2026-11-14 01:57:46 IST",
-   "updated_epoch": 1794601666,
+   "updated": "2026-11-14 01:59:51 IST",
+   "updated_epoch": 1794601791,
    "fetch": {
-    "ac": "4 - Pathapatnam",
+    "ac": "5 - Srikakulam",
     "year": "2025",
-    "done": 6,
-    "total": 14,
-    "mb": 582.7,
-    "mbps": 38.67
+    "done": 13,
+    "total": 18,
+    "mb": 1146.0,
+    "mbps": 18.7
    },
-   "age_s": 2
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -92,10 +99,10 @@
    "year": "2025",
    "ac": "174 - Palamaner",
    "phase": "OCR",
-   "processed": 90,
+   "processed": 190,
    "total": 288,
-   "parts_per_min": 96.6,
-   "prefetch": "173 - Puthalapattu (2025)",
+   "parts_per_min": 62.1,
+   "prefetch": "172 - Chittoor (2025)",
    "uploading": [],
    "done_session": 1,
    "parts_session": 243,
@@ -108,23 +115,32 @@
      "finished": "2026-11-14 01:55:33 IST"
     }
    ],
-   "load1": 9.21,
+   "load1": 19.47,
    "cores_busy": 10,
-   "updated": "2026-11-14 01:56:45 IST",
-   "updated_epoch": 1794601605,
+   "updated": "2026-11-14 01:58:53 IST",
+   "updated_epoch": 1794601733,
    "fetch": {
-    "ac": "173 - Puthalapattu",
+    "ac": "172 - Chittoor",
     "year": "2025",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 2,
+    "total": 13,
+    "mb": 99.1,
+    "mbps": 4.7
    },
-   "age_s": 63
+   "age_s": 62
   }
  ],
- "throughput_ac_per_hr": 10.0,
+ "throughput_ac_per_hr": 10.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "2 - Palasa",
+   "worker": "box",
+   "parts": 284,
+   "electors": 219931,
+   "secs": 165,
+   "finished": "2026-11-14 01:58:41 IST"
+  },
   {
    "year": "2025",
    "ac": "1 - Ichchapuram",
@@ -187,15 +203,6 @@
    "electors": 174644,
    "secs": 266,
    "finished": "2026-11-14 01:05:47 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "57 - Palakollu",
-   "worker": "mac",
-   "parts": 176,
-   "electors": 176004,
-   "secs": 240,
-   "finished": "2026-11-14 01:01:47 IST"
   }
  ],
  "failures": [],
@@ -6121,18 +6128,18 @@
    "label": "2 - Palasa",
    "district": "Srikakulam",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 284,
-   "processed": 260,
+   "processed": 284,
    "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 154,
-   "electors": null,
-   "rate_per_min": 101.3,
-   "eta_s": 14,
+   "elapsed_s": 165,
+   "electors": 219931,
+   "rate_per_min": 103.3,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1rnrfK-HmJ7uuqA2gOjhKGcXHKTD3T55Yp1mUXmnM_Wk/edit",
+   "folder": "https://drive.google.com/drive/folders/1glbRpwsvOCvOPToiH9G_WJynuDkb8vfd"
   },
   {
    "label": "175 - Kuppam",
@@ -6150,6 +6157,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1TOZfxiBEb99J1yoqmsDVXLNIJIKSI8dp06Gk_4bGQSQ/edit",
    "folder": "https://drive.google.com/drive/folders/1nnSRJHVls1bUxZ0-3Mwx7af7ZLW9ILxv"
+  },
+  {
+   "label": "3 - Tekkali",
+   "district": "Srikakulam",
+   "year": "2025",
+   "state": "running",
+   "total": 315,
+   "processed": 190,
+   "needs_review": 8,
+   "failed": 0,
+   "elapsed_s": 117,
+   "electors": null,
+   "rate_per_min": 97.4,
+   "eta_s": 77,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
