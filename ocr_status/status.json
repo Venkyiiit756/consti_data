@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 03:03:55 PM IST",
- "updated_epoch": 1794562435,
+ "updated": "13 Nov 2026, 03:07:40 PM IST",
+ "updated_epoch": 1794562660,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 03:03 PM IST"
+   "eta": "13 Nov, 03:07 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 37,
+   "done": 38,
    "errors": 0,
-   "parts": 9994,
-   "needs_review": 323,
+   "parts": 10253,
+   "needs_review": 331,
    "failed": 0,
-   "electors": 8681652,
-   "eta": "13 Nov, 11:09 PM IST"
+   "electors": 8905991,
+   "eta": "13 Nov, 11:10 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 12 - Parvathipuram (2024)",
-  "updated": "2026-11-13 15:03:54 IST",
+  "phase": "OCR 13 - Salur (2024)",
+  "updated": "2026-11-13 15:07:38 IST",
   "year": "2024",
-  "next": "",
+  "next": "15 - Cheepurupalle (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "12 - Parvathipuram",
+   "ac": "13 - Salur",
    "phase": "OCR",
-   "processed": 80,
-   "total": 231,
-   "parts_per_min": 89.5,
-   "prefetch": "",
-   "uploading": [],
+   "processed": 60,
+   "total": 241,
+   "parts_per_min": 91.2,
+   "prefetch": "15 - Cheepurupalle (2024)",
+   "uploading": [
+    "12 - Parvathipuram"
+   ],
    "done_session": 18,
    "parts_session": 5100,
    "last": [
@@ -87,12 +89,19 @@
      "finished": "2026-11-13 14:13:39 IST"
     }
    ],
-   "load1": 11.51,
+   "load1": 10.58,
    "cores_busy": 8,
-   "updated": "2026-11-13 15:03:54 IST",
-   "updated_epoch": 1794562434,
-   "fetch": null,
-   "age_s": 1
+   "updated": "2026-11-13 15:07:38 IST",
+   "updated_epoch": 1794562658,
+   "fetch": {
+    "ac": "15 - Cheepurupalle",
+    "year": "2024",
+    "done": 14,
+    "total": 15,
+    "mb": 1030.0,
+    "mbps": 8.3
+   },
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -101,16 +110,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "149 - Uravakonda",
+   "ac": "148 - Rayadurg",
    "phase": "OCR",
-   "processed": 150,
-   "total": 259,
-   "parts_per_min": 43.4,
-   "prefetch": "146 - Adoni (2024)",
+   "processed": 50,
+   "total": 296,
+   "parts_per_min": 32.8,
+   "prefetch": "145 - Mantralayam (2024)",
    "uploading": [],
-   "done_session": 54,
-   "parts_session": 14742,
+   "done_session": 55,
+   "parts_session": 15001,
    "last": [
+    {
+     "ac": "149 - Uravakonda",
+     "year": "2024",
+     "parts": 259,
+     "secs": 551,
+     "finished": "2026-11-13 15:06:42 IST"
+    },
     {
      "ac": "150 - Guntakal",
      "year": "2024",
@@ -138,32 +154,34 @@
      "parts": 277,
      "secs": 703,
      "finished": "2026-11-13 14:46:51 IST"
-    },
-    {
-     "ac": "154 - Kalyandurg",
-     "year": "2024",
-     "parts": 261,
-     "secs": 657,
-     "finished": "2026-11-13 14:41:50 IST"
     }
    ],
-   "load1": 62.24,
+   "load1": 78.76,
    "cores_busy": 10,
-   "updated": "2026-11-13 15:03:11 IST",
-   "updated_epoch": 1794562391,
+   "updated": "2026-11-13 15:06:48 IST",
+   "updated_epoch": 1794562608,
    "fetch": {
-    "ac": "146 - Adoni",
+    "ac": "145 - Mantralayam",
     "year": "2024",
-    "done": 20,
-    "total": 20,
-    "mb": 1434.9,
-    "mbps": 10.63
+    "done": 10,
+    "total": 11,
+    "mb": 596.4,
+    "mbps": 8.02
    },
-   "age_s": 44
+   "age_s": 52
   }
  ],
  "throughput_ac_per_hr": 16.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "149 - Uravakonda",
+   "worker": "mac",
+   "parts": 259,
+   "electors": 224339,
+   "secs": 333,
+   "finished": "2026-11-13 15:05:54 IST"
+  },
   {
    "year": "2024",
    "ac": "11 - Kurupam",
@@ -226,15 +244,6 @@
    "electors": 230785,
    "secs": 329,
    "finished": "2026-11-13 14:40:54 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "155 - Raptadu",
-   "worker": "mac",
-   "parts": 279,
-   "electors": 249489,
-   "secs": 347,
-   "finished": "2026-11-13 14:35:57 IST"
   }
  ],
  "failures": [],
@@ -3848,15 +3857,49 @@
    "label": "12 - Parvathipuram",
    "district": "Parvathipuram Manyam",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 231,
-   "processed": 80,
-   "needs_review": 2,
+   "processed": 231,
+   "needs_review": 9,
    "failed": 0,
-   "elapsed_s": 48,
+   "elapsed_s": 238,
+   "electors": null,
+   "rate_per_min": 58.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "149 - Uravakonda",
+   "district": "Ananthapuramu",
+   "year": "2024",
+   "state": "done",
+   "total": 259,
+   "processed": 259,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 333,
+   "electors": 224339,
+   "rate_per_min": 46.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1CI3GEb3pUmvV1FI5qjR_IngYFVthQEPwWU_UYWmhENI/edit",
+   "folder": "https://drive.google.com/drive/folders/1u0I6v7kSP7-1R_VOw8e_4-Qnx7ZEej1l"
+  },
+  {
+   "label": "13 - Salur",
+   "district": "Parvathipuram Manyam",
+   "year": "2024",
+   "state": "running",
+   "total": 241,
+   "processed": 60,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 36,
    "electors": null,
    "rate_per_min": 100.0,
-   "eta_s": 91,
+   "eta_s": 109,
    "error": "",
    "sheet": "",
    "folder": ""
