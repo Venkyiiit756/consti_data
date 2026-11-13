@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 07:57:08 AM IST",
- "updated_epoch": 1794536828,
+ "updated": "13 Nov 2026, 07:59:19 AM IST",
+ "updated_epoch": 1794536959,
  "total_constituencies": 175,
  "done_constituencies": 104,
  "years": {
@@ -9,10 +9,10 @@
    "done": 104,
    "errors": 0,
    "parts": 30332,
-   "needs_review": 874,
+   "needs_review": 875,
    "failed": 33,
    "electors": 22251308,
-   "eta": "13 Nov, 01:33 PM IST"
+   "eta": "13 Nov, 01:35 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 03:08 AM IST"
+   "eta": "14 Nov, 03:10 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 49 - Rajanagaram (2026)",
-  "updated": "2026-11-13 07:57:05 IST",
+  "phase": "OCR 50 - Rajahmundry City (2026)",
+  "updated": "2026-11-13 07:59:15 IST",
   "year": "2026",
-  "next": "50 - Rajahmundry City (2026)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "49 - Rajanagaram",
+   "ac": "50 - Rajahmundry City",
    "phase": "OCR",
-   "processed": 120,
-   "total": 238,
-   "parts_per_min": 6.8,
-   "prefetch": "50 - Rajahmundry City (2026)",
-   "uploading": [],
+   "processed": 30,
+   "total": 263,
+   "parts_per_min": 26.3,
+   "prefetch": "",
+   "uploading": [
+    "49 - Rajanagaram"
+   ],
    "done_session": 21,
    "parts_session": 5677,
    "last": [
@@ -87,19 +89,12 @@
      "finished": "2026-11-13 06:20:50 IST"
     }
    ],
-   "load1": 11.64,
+   "load1": 7.19,
    "cores_busy": 8,
-   "updated": "2026-11-13 07:57:05 IST",
-   "updated_epoch": 1794536825,
-   "fetch": {
-    "ac": "50 - Rajahmundry City",
-    "year": "2026",
-    "done": 27,
-    "total": 37,
-    "mb": 2251.0,
-    "mbps": 2.06
-   },
-   "age_s": 3
+   "updated": "2026-11-13 07:59:15 IST",
+   "updated_epoch": 1794536955,
+   "fetch": null,
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -110,9 +105,9 @@
    "year": "2026",
    "ac": "120 - Gudur",
    "phase": "OCR",
-   "processed": 70,
+   "processed": 130,
    "total": 302,
-   "parts_per_min": 49.7,
+   "parts_per_min": 47.0,
    "prefetch": "117 - Nellore City (2026)",
    "uploading": [],
    "done_session": 48,
@@ -154,19 +149,19 @@
      "finished": "2026-11-13 07:31:54 IST"
     }
    ],
-   "load1": 32.49,
+   "load1": 25.26,
    "cores_busy": 10,
-   "updated": "2026-11-13 07:55:52 IST",
-   "updated_epoch": 1794536752,
+   "updated": "2026-11-13 07:57:13 IST",
+   "updated_epoch": 1794536833,
    "fetch": {
     "ac": "117 - Nellore City",
     "year": "2026",
-    "done": 13,
+    "done": 31,
     "total": 33,
-    "mb": 1032.7,
-    "mbps": 14.75
+    "mb": 2429.3,
+    "mbps": 15.98
    },
-   "age_s": 76
+   "age_s": 126
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -1968,15 +1963,15 @@
    "label": "49 - Rajanagaram",
    "district": "East Godavari",
    "year": "2026",
-   "state": "running",
+   "state": "uploading",
    "total": 238,
-   "processed": 130,
-   "needs_review": 0,
+   "processed": 238,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 1067,
+   "elapsed_s": 1127,
    "electors": null,
-   "rate_per_min": 7.3,
-   "eta_s": 886,
+   "rate_per_min": 12.7,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -2031,6 +2026,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1GGZYCuyfS6phwWTEAxfOdunG9jN9JSaQ4D_OHmWSLRE/edit",
    "folder": "https://drive.google.com/drive/folders/1SDUmPINVSpeuVrKmOFGSb7Lq_KYufGla"
+  },
+  {
+   "label": "50 - Rajahmundry City",
+   "district": "East Godavari",
+   "year": "2026",
+   "state": "running",
+   "total": 263,
+   "processed": 30,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 66,
+   "electors": null,
+   "rate_per_min": 27.3,
+   "eta_s": 513,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
