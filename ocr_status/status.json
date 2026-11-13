@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 04:55:10 PM IST",
- "updated_epoch": 1794569110,
+ "updated": "13 Nov 2026, 04:56:38 PM IST",
+ "updated_epoch": 1794569198,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 04:55 PM IST"
+   "eta": "13 Nov, 04:56 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 59,
+   "done": 60,
    "errors": 0,
-   "parts": 15647,
-   "needs_review": 525,
+   "parts": 15857,
+   "needs_review": 526,
    "failed": 0,
-   "electors": 13760517,
-   "eta": "14 Nov, 05:01 AM IST"
+   "electors": 13957038,
+   "eta": "14 Nov, 04:08 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 22 - Visakhapatnam South (2024)",
-  "updated": "2026-11-13 16:55:05 IST",
+  "phase": "OCR 23 - Visakhapatnam North (2024)",
+  "updated": "2026-11-13 16:56:35 IST",
   "year": "2024",
-  "next": "25 - Gajuwaka (2024)",
+  "next": "26 - Chodavaram (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "22 - Visakhapatnam South",
+   "ac": "23 - Visakhapatnam North",
    "phase": "OCR",
-   "processed": 160,
-   "total": 210,
-   "parts_per_min": 4.9,
-   "prefetch": "25 - Gajuwaka (2024)",
+   "processed": 90,
+   "total": 272,
+   "parts_per_min": 85.5,
+   "prefetch": "26 - Chodavaram (2024)",
    "uploading": [],
-   "done_session": 28,
-   "parts_session": 7662,
+   "done_session": 29,
+   "parts_session": 7872,
    "last": [
+    {
+     "ac": "22 - Visakhapatnam South",
+     "year": "2024",
+     "parts": 210,
+     "secs": 3117,
+     "finished": "2026-11-13 16:55:48 IST"
+    },
     {
      "ac": "21 - Visakhapatnam East",
      "year": "2024",
@@ -78,28 +85,21 @@
      "parts": 237,
      "secs": 1978,
      "finished": "2026-11-13 15:56:55 IST"
-    },
-    {
-     "ac": "17 - Nellimarla",
-     "year": "2024",
-     "parts": 247,
-     "secs": 2188,
-     "finished": "2026-11-13 15:56:44 IST"
     }
    ],
-   "load1": 11.9,
+   "load1": 11.23,
    "cores_busy": 8,
-   "updated": "2026-11-13 16:55:05 IST",
-   "updated_epoch": 1794569105,
+   "updated": "2026-11-13 16:56:35 IST",
+   "updated_epoch": 1794569195,
    "fetch": {
-    "ac": "25 - Gajuwaka",
+    "ac": "26 - Chodavaram",
     "year": "2024",
-    "done": 26,
-    "total": 26,
-    "mb": 1866.1,
-    "mbps": 0.96
+    "done": 14,
+    "total": 16,
+    "mb": 1021.5,
+    "mbps": 35.64
    },
-   "age_s": 5
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -110,9 +110,9 @@
    "year": "2024",
    "ac": "137 - Kurnool",
    "phase": "OCR",
-   "processed": 70,
+   "processed": 160,
    "total": 258,
-   "parts_per_min": 37.6,
+   "parts_per_min": 38.6,
    "prefetch": "134 - Allagadda (2024)",
    "uploading": [],
    "done_session": 66,
@@ -154,23 +154,32 @@
      "finished": "2026-11-13 16:04:48 IST"
     }
    ],
-   "load1": 37.63,
+   "load1": 29.38,
    "cores_busy": 10,
-   "updated": "2026-11-13 16:53:58 IST",
-   "updated_epoch": 1794569038,
+   "updated": "2026-11-13 16:56:15 IST",
+   "updated_epoch": 1794569175,
    "fetch": {
     "ac": "134 - Allagadda",
     "year": "2024",
-    "done": 9,
+    "done": 13,
     "total": 13,
-    "mb": 601.5,
-    "mbps": 9.6
+    "mb": 937.4,
+    "mbps": 11.76
    },
-   "age_s": 72
+   "age_s": 23
   }
  ],
- "throughput_ac_per_hr": 9.3,
+ "throughput_ac_per_hr": 10.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "22 - Visakhapatnam South",
+   "worker": "box",
+   "parts": 210,
+   "electors": 196521,
+   "secs": 1997,
+   "finished": "2026-11-13 16:55:44 IST"
+  },
   {
    "year": "2024",
    "ac": "138 - Panyam",
@@ -233,15 +242,6 @@
    "electors": 222505,
    "secs": 1224,
    "finished": "2026-11-13 16:18:48 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "142 - Pattikonda",
-   "worker": "mac",
-   "parts": 255,
-   "electors": 223603,
-   "secs": 1296,
-   "finished": "2026-11-13 16:02:59 IST"
   }
  ],
  "failures": [],
@@ -4161,18 +4161,18 @@
    "label": "22 - Visakhapatnam South",
    "district": "Visakhapatnam",
    "year": "2024",
-   "state": "running",
+   "state": "done",
    "total": 210,
-   "processed": 170,
+   "processed": 210,
    "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 1974,
-   "electors": null,
-   "rate_per_min": 5.2,
-   "eta_s": 464,
+   "elapsed_s": 1997,
+   "electors": 196521,
+   "rate_per_min": 6.3,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1VVOz8ywpTzyx4p-hisfQW5T9OzNFLVI9LWG6C0_FTmw/edit",
+   "folder": "https://drive.google.com/drive/folders/1h8Zd2khVQorwNRHR7kUfDJSJaohGRbzZ"
   },
   {
    "label": "138 - Panyam",
@@ -4241,6 +4241,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1ZT0Z4i8lJ4CJXkihCAS7tk3l56m7KNMCxd1yUKla_1c/edit",
    "folder": "https://drive.google.com/drive/folders/1s6OspxtUHEyP76kEprfapiMcJ8OEFxhj"
+  },
+  {
+   "label": "23 - Visakhapatnam North",
+   "district": "Visakhapatnam",
+   "year": "2024",
+   "state": "running",
+   "total": 272,
+   "processed": 100,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 64,
+   "electors": null,
+   "rate_per_min": 93.8,
+   "eta_s": 110,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
