@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 09:03:57 AM IST",
- "updated_epoch": 1794540837,
+ "updated": "13 Nov 2026, 09:05:48 AM IST",
+ "updated_epoch": 1794540948,
  "total_constituencies": 175,
- "done_constituencies": 123,
+ "done_constituencies": 125,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 123,
+   "done": 125,
    "errors": 0,
-   "parts": 35761,
-   "needs_review": 1021,
+   "parts": 36257,
+   "needs_review": 1023,
    "failed": 33,
-   "electors": 26222909,
-   "eta": "13 Nov, 12:11 PM IST"
+   "electors": 26616391,
+   "eta": "13 Nov, 11:52 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 10:30 PM IST"
+   "eta": "13 Nov, 09:25 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 57 - Palakollu (2026)",
-  "updated": "2026-11-13 09:03:53 IST",
+  "phase": "OCR 58 - Narasapuram (2026)",
+  "updated": "2026-11-13 09:05:48 IST",
   "year": "2026",
-  "next": "58 - Narasapuram (2026)",
+  "next": "60 - Undi (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "57 - Palakollu",
+   "ac": "58 - Narasapuram",
    "phase": "OCR",
-   "processed": 120,
-   "total": 203,
-   "parts_per_min": 103.9,
-   "prefetch": "58 - Narasapuram (2026)",
+   "processed": 10,
+   "total": 181,
+   "parts_per_min": 60.2,
+   "prefetch": "60 - Undi (2026)",
    "uploading": [],
-   "done_session": 29,
-   "parts_session": 7810,
+   "done_session": 30,
+   "parts_session": 8013,
    "last": [
+    {
+     "ac": "57 - Palakollu",
+     "year": "2026",
+     "parts": 203,
+     "secs": 831,
+     "finished": "2026-11-13 09:04:44 IST"
+    },
     {
      "ac": "56 - Achanta",
      "year": "2026",
@@ -78,28 +85,21 @@
      "parts": 399,
      "secs": 649,
      "finished": "2026-11-13 08:28:40 IST"
-    },
-    {
-     "ac": "52 - Jaggampeta",
-     "year": "2026",
-     "parts": 264,
-     "secs": 433,
-     "finished": "2026-11-13 08:22:43 IST"
     }
    ],
-   "load1": 8.26,
+   "load1": 4.58,
    "cores_busy": 8,
-   "updated": "2026-11-13 09:03:53 IST",
-   "updated_epoch": 1794540833,
+   "updated": "2026-11-13 09:05:48 IST",
+   "updated_epoch": 1794540948,
    "fetch": {
-    "ac": "58 - Narasapuram",
+    "ac": "60 - Undi",
     "year": "2026",
-    "done": 16,
-    "total": 29,
-    "mb": 1207.0,
-    "mbps": 19.09
+    "done": 1,
+    "total": 38,
+    "mb": 0.2,
+    "mbps": 0.05
    },
-   "age_s": 4
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -108,16 +108,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "109 - Kandukur",
+   "ac": "108 - Ongole",
    "phase": "OCR",
-   "processed": 270,
-   "total": 293,
-   "parts_per_min": 50.9,
-   "prefetch": "106 - Chirala (2026)",
+   "processed": 40,
+   "total": 271,
+   "parts_per_min": 41.5,
+   "prefetch": "105 - Addanki (2026)",
    "uploading": [],
-   "done_session": 59,
-   "parts_session": 17880,
+   "done_session": 60,
+   "parts_session": 18173,
    "last": [
+    {
+     "ac": "109 - Kandukur",
+     "year": "2026",
+     "parts": 293,
+     "secs": 623,
+     "finished": "2026-11-13 09:04:50 IST"
+    },
     {
      "ac": "110 - Kondapi",
      "year": "2026",
@@ -145,32 +152,43 @@
      "parts": 314,
      "secs": 751,
      "finished": "2026-11-13 08:43:55 IST"
-    },
-    {
-     "ac": "114 - Kavali",
-     "year": "2026",
-     "parts": 324,
-     "secs": 682,
-     "finished": "2026-11-13 08:36:46 IST"
     }
    ],
-   "load1": 21.06,
+   "load1": 23.42,
    "cores_busy": 10,
-   "updated": "2026-11-13 09:03:46 IST",
-   "updated_epoch": 1794540826,
+   "updated": "2026-11-13 09:05:07 IST",
+   "updated_epoch": 1794540907,
    "fetch": {
-    "ac": "106 - Chirala",
+    "ac": "105 - Addanki",
     "year": "2026",
-    "done": 29,
-    "total": 29,
-    "mb": 2125.9,
-    "mbps": 8.69
+    "done": 5,
+    "total": 35,
+    "mb": 463.7,
+    "mbps": 17.33
    },
-   "age_s": 11
+   "age_s": 41
   }
  ],
- "throughput_ac_per_hr": 16.7,
+ "throughput_ac_per_hr": 18.0,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "109 - Kandukur",
+   "worker": "mac",
+   "parts": 293,
+   "electors": 210487,
+   "secs": 342,
+   "finished": "2026-11-13 09:04:43 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "57 - Palakollu",
+   "worker": "box",
+   "parts": 203,
+   "electors": 182995,
+   "secs": 110,
+   "finished": "2026-11-13 09:04:41 IST"
+  },
   {
    "year": "2026",
    "ac": "56 - Achanta",
@@ -224,24 +242,6 @@
    "electors": 215664,
    "secs": 368,
    "finished": "2026-11-13 08:43:47 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "114 - Kavali",
-   "worker": "mac",
-   "parts": 324,
-   "electors": 209558,
-   "secs": 378,
-   "finished": "2026-11-13 08:36:00 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "54 - Kovvur",
-   "worker": "box",
-   "parts": 212,
-   "electors": 173766,
-   "secs": 116,
-   "finished": "2026-11-13 08:29:55 IST"
   }
  ],
  "failures": [],
@@ -2342,18 +2342,52 @@
    "label": "57 - Palakollu",
    "district": "West Godavari",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 203,
-   "processed": 130,
+   "processed": 203,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 73,
+   "elapsed_s": 110,
+   "electors": 182995,
+   "rate_per_min": 110.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1gPKtQ5_CFctK9oe-1niLhCcYtz-Y7iD89dT_V71hHfs/edit",
+   "folder": "https://drive.google.com/drive/folders/1RlkaYFKtlF9GF_JX9sKKY8CfjLGVObPH"
+  },
+  {
+   "label": "58 - Narasapuram",
+   "district": "West Godavari",
+   "year": "2026",
+   "state": "running",
+   "total": 181,
+   "processed": 10,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 6,
    "electors": null,
-   "rate_per_min": 106.8,
-   "eta_s": 41,
+   "rate_per_min": 100.0,
+   "eta_s": 103,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "109 - Kandukur",
+   "district": "Nellore",
+   "year": "2026",
+   "state": "done",
+   "total": 293,
+   "processed": 293,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 342,
+   "electors": 210487,
+   "rate_per_min": 51.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1lvv7OsdK8l2cEAAPFpieum3VBhgWsKsUYc-2proDUbE/edit",
+   "folder": "https://drive.google.com/drive/folders/1SKqjkXJ7OI6QPN2XhJAYpD8rElDwLz4x"
   }
  ]
 }
