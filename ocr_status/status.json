@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 10:57:45 PM IST",
- "updated_epoch": 1794590865,
+ "updated": "13 Nov 2026, 10:57:51 PM IST",
+ "updated_epoch": 1794590871,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -27,7 +27,7 @@
  },
  "batch": {
   "phase": "OCR 45 - Razole (2024)",
-  "updated": "2026-11-13 22:57:42 IST",
+  "updated": "2026-11-13 22:57:47 IST",
   "year": "2024",
   "next": "47 - Kothapeta (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "45 - Razole",
    "phase": "OCR",
-   "processed": 90,
+   "processed": 100,
    "total": 205,
-   "parts_per_min": 95.3,
+   "parts_per_min": 97.3,
    "prefetch": "47 - Kothapeta (2024)",
    "uploading": [
     "44 - Amalapuram"
@@ -89,19 +89,19 @@
      "finished": "2026-11-13 22:13:42 IST"
     }
    ],
-   "load1": 11.34,
+   "load1": 11.4,
    "cores_busy": 8,
-   "updated": "2026-11-13 22:57:42 IST",
-   "updated_epoch": 1794590862,
+   "updated": "2026-11-13 22:57:47 IST",
+   "updated_epoch": 1794590867,
    "fetch": {
     "ac": "47 - Kothapeta",
     "year": "2024",
-    "done": 16,
+    "done": 18,
     "total": 20,
-    "mb": 1139.0,
-    "mbps": 19.79
+    "mb": 1303.8,
+    "mbps": 19.68
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -170,7 +170,7 @@
     "mb": 258.0,
     "mbps": 11.17
    },
-   "age_s": 94
+   "age_s": 100
   }
  ],
  "throughput_ac_per_hr": 13.3,
@@ -5544,13 +5544,13 @@
    "year": "2024",
    "state": "running",
    "total": 205,
-   "processed": 90,
+   "processed": 100,
    "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 54,
+   "elapsed_s": 61,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 69,
+   "rate_per_min": 98.4,
+   "eta_s": 64,
    "error": "",
    "sheet": "",
    "folder": ""
