@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 11:27:15 PM IST",
- "updated_epoch": 1794592635,
+ "updated": "13 Nov 2026, 11:55:39 PM IST",
+ "updated_epoch": 1794594339,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 11:27 PM IST"
+   "eta": "13 Nov, 11:55 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 140,
+   "done": 142,
    "errors": 0,
-   "parts": 36810,
-   "needs_review": 1193,
+   "parts": 37275,
+   "needs_review": 1199,
    "failed": 0,
-   "electors": 32484407,
-   "eta": "14 Nov, 01:58 AM IST"
+   "electors": 32901285,
+   "eta": "14 Nov, 04:01 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 46 - P Gannavaram (2024)",
-  "updated": "2026-11-13 23:27:12 IST",
+  "phase": "OCR 47 - Kothapeta (2024)",
+  "updated": "2026-11-13 23:55:36 IST",
   "year": "2024",
-  "next": "48 - Mandapeta (2024)",
+  "next": "49 - Rajanagaram (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "46 - P Gannavaram",
+   "ac": "47 - Kothapeta",
    "phase": "OCR",
-   "processed": 130,
-   "total": 212,
-   "parts_per_min": 76.7,
-   "prefetch": "48 - Mandapeta (2024)",
+   "processed": 40,
+   "total": 261,
+   "parts_per_min": 85.1,
+   "prefetch": "49 - Rajanagaram (2024)",
    "uploading": [
     "44 - Amalapuram"
    ],
@@ -89,17 +89,17 @@
      "finished": "2026-11-13 22:13:42 IST"
     }
    ],
-   "load1": 16.18,
+   "load1": 11.75,
    "cores_busy": 8,
-   "updated": "2026-11-13 23:27:12 IST",
-   "updated_epoch": 1794592632,
+   "updated": "2026-11-13 23:55:36 IST",
+   "updated_epoch": 1794594336,
    "fetch": {
-    "ac": "48 - Mandapeta",
+    "ac": "49 - Rajanagaram",
     "year": "2024",
-    "done": 14,
-    "total": 16,
-    "mb": 979.8,
-    "mbps": 13.69
+    "done": 8,
+    "total": 17,
+    "mb": 568.1,
+    "mbps": 12.13
    },
    "age_s": 3
   },
@@ -110,69 +110,87 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "75 - Machilipatnam",
+   "ac": "70 - Nuzvid",
    "phase": "OCR",
-   "processed": 140,
-   "total": 171,
-   "parts_per_min": 36.5,
-   "prefetch": "72 - Gudivada (2024)",
+   "processed": 210,
+   "total": 285,
+   "parts_per_min": 38.3,
+   "prefetch": "67 - Polavaram (2024)",
    "uploading": [],
-   "done_session": 125,
-   "parts_session": 33541,
+   "done_session": 130,
+   "parts_session": 34677,
    "last": [
     {
-     "ac": "76 - Avanigadda",
+     "ac": "71 - Gannavaram Krishna",
      "year": "2024",
-     "parts": 267,
-     "secs": 687,
-     "finished": "2026-11-13 23:23:33 IST"
+     "parts": 294,
+     "secs": 610,
+     "finished": "2026-11-13 23:49:33 IST"
     },
     {
-     "ac": "77 - Pamarru",
+     "ac": "72 - Gudivada",
      "year": "2024",
-     "parts": 238,
-     "secs": 616,
-     "finished": "2026-11-13 23:16:39 IST"
+     "parts": 224,
+     "secs": 578,
+     "finished": "2026-11-13 23:43:53 IST"
     },
     {
-     "ac": "78 - Penamaluru",
+     "ac": "73 - Kaikalur",
      "year": "2024",
-     "parts": 286,
-     "secs": 706,
-     "finished": "2026-11-13 23:10:51 IST"
+     "parts": 234,
+     "secs": 492,
+     "finished": "2026-11-13 23:37:39 IST"
     },
     {
-     "ac": "79 - Vijayawada West",
+     "ac": "74 - Pedana",
      "year": "2024",
-     "parts": 231,
-     "secs": 581,
-     "finished": "2026-11-13 23:03:27 IST"
+     "parts": 213,
+     "secs": 661,
+     "finished": "2026-11-13 23:34:43 IST"
     },
     {
-     "ac": "80 - Vijayawada Central",
+     "ac": "75 - Machilipatnam",
      "year": "2024",
-     "parts": 257,
-     "secs": 815,
-     "finished": "2026-11-13 22:57:56 IST"
+     "parts": 171,
+     "secs": 503,
+     "finished": "2026-11-13 23:26:36 IST"
     }
    ],
-   "load1": 26.96,
+   "load1": 30.91,
    "cores_busy": 10,
-   "updated": "2026-11-13 23:24:56 IST",
-   "updated_epoch": 1794592496,
+   "updated": "2026-11-13 23:53:54 IST",
+   "updated_epoch": 1794594234,
    "fetch": {
-    "ac": "72 - Gudivada",
+    "ac": "67 - Polavaram",
     "year": "2024",
-    "done": 16,
-    "total": 16,
-    "mb": 1185.8,
-    "mbps": 9.15
+    "done": 18,
+    "total": 18,
+    "mb": 1269.8,
+    "mbps": 6.56
    },
-   "age_s": 139
+   "age_s": 105
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 7.3,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "71 - Gannavaram Krishna",
+   "worker": "mac",
+   "parts": 294,
+   "electors": 261877,
+   "secs": 394,
+   "finished": "2026-11-13 23:48:51 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "75 - Machilipatnam",
+   "worker": "mac",
+   "parts": 171,
+   "electors": 155001,
+   "secs": 261,
+   "finished": "2026-11-13 23:25:54 IST"
+  },
   {
    "year": "2024",
    "ac": "76 - Avanigadda",
@@ -226,24 +244,6 @@
    "electors": 263823,
    "secs": 468,
    "finished": "2026-11-13 22:50:50 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "82 - Mylavaram",
-   "worker": "mac",
-   "parts": 295,
-   "electors": 281732,
-   "secs": 447,
-   "finished": "2026-11-13 22:40:55 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "83 - Nandigama",
-   "worker": "mac",
-   "parts": 212,
-   "electors": 197968,
-   "secs": 321,
-   "finished": "2026-11-13 22:34:39 IST"
   }
  ],
  "failures": [],
@@ -5642,18 +5642,69 @@
    "label": "46 - P Gannavaram",
    "district": "Konaseema",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 212,
-   "processed": 140,
-   "needs_review": 3,
+   "processed": 212,
+   "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 104,
+   "elapsed_s": 1778,
    "electors": null,
-   "rate_per_min": 80.8,
-   "eta_s": 53,
+   "rate_per_min": 7.2,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "75 - Machilipatnam",
+   "district": "Krishna",
+   "year": "2024",
+   "state": "done",
+   "total": 171,
+   "processed": 171,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 261,
+   "electors": 155001,
+   "rate_per_min": 39.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1MUpxhqVIQW50_MuugR9GmBlwYc4je0KdPcCtxLYYqwA/edit",
+   "folder": "https://drive.google.com/drive/folders/1zoeQmKNUPX2W3TWCOOz4SETBYl36XgBt"
+  },
+  {
+   "label": "47 - Kothapeta",
+   "district": "Konaseema",
+   "year": "2024",
+   "state": "running",
+   "total": 261,
+   "processed": 50,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 30,
+   "electors": null,
+   "rate_per_min": 100.0,
+   "eta_s": 127,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "71 - Gannavaram Krishna",
+   "district": "Krishna",
+   "year": "2024",
+   "state": "done",
+   "total": 294,
+   "processed": 294,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 394,
+   "electors": 261877,
+   "rate_per_min": 44.8,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1n2itQrSYna4poifmRPGPuEOD3N36vvghjamjD2PGAGA/edit",
+   "folder": "https://drive.google.com/drive/folders/16FmsiFagIPSjxYYl9Onu28XI2ulEFmUr"
   }
  ]
 }
