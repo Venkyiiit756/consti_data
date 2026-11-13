@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 12:28:25 PM IST",
- "updated_epoch": 1794553105,
+ "updated": "13 Nov 2026, 12:30:26 PM IST",
+ "updated_epoch": 1794553226,
  "total_constituencies": 175,
  "done_constituencies": 171,
  "years": {
@@ -9,10 +9,10 @@
    "done": 171,
    "errors": 0,
    "parts": 49098,
-   "needs_review": 1315,
+   "needs_review": 1324,
    "failed": 38,
    "electors": 36501880,
-   "eta": "13 Nov, 12:45 PM IST"
+   "eta": "13 Nov, 12:48 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 01:02 AM IST"
+   "eta": "14 Nov, 01:42 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 70 - Nuzvid (2026)",
-  "updated": "2026-11-13 12:28:23 IST",
-  "year": "2026",
-  "next": "1 - Ichchapuram (2024)",
+  "phase": "OCR 1 - Ichchapuram (2024)",
+  "updated": "2026-11-13 12:30:23 IST",
+  "year": "2024",
+  "next": "2 - Palasa (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -40,14 +40,16 @@
    "cores_total": 8,
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
-   "year": "2026",
-   "ac": "70 - Nuzvid",
+   "year": "2024",
+   "ac": "1 - Ichchapuram",
    "phase": "OCR",
-   "processed": 120,
-   "total": 291,
-   "parts_per_min": 91.8,
-   "prefetch": "1 - Ichchapuram (2024)",
-   "uploading": [],
+   "processed": 40,
+   "total": 299,
+   "parts_per_min": 82.1,
+   "prefetch": "2 - Palasa (2024)",
+   "uploading": [
+    "70 - Nuzvid"
+   ],
    "done_session": 6,
    "parts_session": 1637,
    "last": [
@@ -87,19 +89,19 @@
      "finished": "2026-11-13 10:25:41 IST"
     }
    ],
-   "load1": 11.16,
+   "load1": 10.39,
    "cores_busy": 8,
-   "updated": "2026-11-13 12:28:23 IST",
-   "updated_epoch": 1794553103,
+   "updated": "2026-11-13 12:30:23 IST",
+   "updated_epoch": 1794553223,
    "fetch": {
-    "ac": "1 - Ichchapuram",
+    "ac": "2 - Palasa",
     "year": "2024",
-    "done": 14,
-    "total": 19,
-    "mb": 1032.6,
-    "mbps": 42.92
+    "done": 9,
+    "total": 16,
+    "mb": 690.2,
+    "mbps": 31.7
    },
-   "age_s": 2
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -110,9 +112,9 @@
    "year": "2026",
    "ac": "73 - Kaikalur",
    "phase": "OCR",
-   "processed": 100,
+   "processed": 220,
    "total": 244,
-   "parts_per_min": 46.4,
+   "parts_per_min": 48.5,
    "prefetch": "175 - Kuppam (2024)",
    "uploading": [],
    "done_session": 25,
@@ -154,22 +156,22 @@
      "finished": "2026-11-13 12:07:32 IST"
     }
    ],
-   "load1": 53.54,
+   "load1": 23.61,
    "cores_busy": 10,
-   "updated": "2026-11-13 12:26:53 IST",
-   "updated_epoch": 1794553013,
+   "updated": "2026-11-13 12:29:16 IST",
+   "updated_epoch": 1794553156,
    "fetch": {
     "ac": "175 - Kuppam",
     "year": "2024",
-    "done": 8,
+    "done": 16,
     "total": 16,
-    "mb": 677.3,
-    "mbps": 12.15
+    "mb": 1184.1,
+    "mbps": 9.0
    },
-   "age_s": 92
+   "age_s": 70
   }
  ],
- "throughput_ac_per_hr": 14.0,
+ "throughput_ac_per_hr": 13.3,
  "recent": [
   {
    "year": "2026",
@@ -3158,15 +3160,32 @@
    "label": "70 - Nuzvid",
    "district": "Eluru",
    "year": "2026",
-   "state": "running",
+   "state": "uploading",
    "total": 291,
-   "processed": 130,
-   "needs_review": 1,
+   "processed": 291,
+   "needs_review": 10,
    "failed": 5,
-   "elapsed_s": 80,
+   "elapsed_s": 169,
    "electors": null,
-   "rate_per_min": 97.5,
-   "eta_s": 99,
+   "rate_per_min": 103.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "1 - Ichchapuram",
+   "district": "Srikakulam",
+   "year": "2024",
+   "state": "running",
+   "total": 299,
+   "processed": 50,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 30,
+   "electors": null,
+   "rate_per_min": 100.0,
+   "eta_s": 149,
    "error": "",
    "sheet": "",
    "folder": ""
