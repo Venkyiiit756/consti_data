@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 10:53:32 AM IST",
- "updated_epoch": 1794547412,
+ "updated": "13 Nov 2026, 10:54:41 AM IST",
+ "updated_epoch": 1794547481,
  "total_constituencies": 175,
- "done_constituencies": 149,
+ "done_constituencies": 150,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 149,
+   "done": 150,
    "errors": 0,
-   "parts": 42984,
-   "needs_review": 1229,
+   "parts": 43301,
+   "needs_review": 1232,
    "failed": 33,
-   "electors": 31686191,
-   "eta": "13 Nov, 12:56 PM IST"
+   "electors": 31928441,
+   "eta": "13 Nov, 12:47 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 02:31 AM IST"
+   "eta": "14 Nov, 01:41 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 66 - Gopalapuram (2026)",
-  "updated": "2026-11-13 10:53:27 IST",
+  "phase": "downloading",
+  "updated": "2026-11-13 10:54:37 IST",
   "year": "2026",
   "next": "67 - Polavaram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2026",
-   "ac": "66 - Gopalapuram",
-   "phase": "OCR",
-   "processed": 210,
-   "total": 280,
-   "parts_per_min": 7.6,
+   "ac": "",
+   "phase": "downloading",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
    "prefetch": "67 - Polavaram (2026)",
-   "uploading": [],
+   "uploading": [
+    "66 - Gopalapuram"
+   ],
    "done_session": 2,
    "parts_session": 495,
    "last": [
@@ -66,19 +68,19 @@
      "finished": "2026-11-13 10:20:40 IST"
     }
    ],
-   "load1": 11.37,
-   "cores_busy": 8,
-   "updated": "2026-11-13 10:53:27 IST",
-   "updated_epoch": 1794547407,
+   "load1": 6.14,
+   "cores_busy": 0,
+   "updated": "2026-11-13 10:54:37 IST",
+   "updated_epoch": 1794547477,
    "fetch": {
     "ac": "67 - Polavaram",
     "year": "2026",
-    "done": 18,
+    "done": 32,
     "total": 38,
-    "mb": 1514.7,
-    "mbps": 0.93
+    "mb": 2720.1,
+    "mbps": 1.61
    },
-   "age_s": 5
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -89,16 +91,21 @@
    "year": "2026",
    "ac": "90 - Repalle",
    "phase": "OCR",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "88 - Ponnur (2026)",
-   "uploading": [
-    "91 - Tenali"
-   ],
-   "done_session": 7,
-   "parts_session": 2123,
+   "processed": 100,
+   "total": 299,
+   "parts_per_min": 43.9,
+   "prefetch": "87 - Mangalagiri (2026)",
+   "uploading": [],
+   "done_session": 8,
+   "parts_session": 2440,
    "last": [
+    {
+     "ac": "91 - Tenali",
+     "year": "2026",
+     "parts": 317,
+     "secs": 836,
+     "finished": "2026-11-13 10:53:42 IST"
+    },
     {
      "ac": "92 - Bapatla",
      "year": "2026",
@@ -126,32 +133,34 @@
      "parts": 312,
      "secs": 753,
      "finished": "2026-11-13 10:29:49 IST"
-    },
-    {
-     "ac": "96 - Chilakaluripet",
-     "year": "2026",
-     "parts": 278,
-     "secs": 590,
-     "finished": "2026-11-13 10:21:58 IST"
     }
    ],
-   "load1": 25.49,
-   "cores_busy": 7,
-   "updated": "2026-11-13 10:51:55 IST",
-   "updated_epoch": 1794547315,
+   "load1": 24.11,
+   "cores_busy": 10,
+   "updated": "2026-11-13 10:54:12 IST",
+   "updated_epoch": 1794547452,
    "fetch": {
-    "ac": "88 - Ponnur",
+    "ac": "87 - Mangalagiri",
     "year": "2026",
-    "done": 31,
-    "total": 32,
-    "mb": 2530.0,
-    "mbps": 12.7
+    "done": 24,
+    "total": 43,
+    "mb": 1859.7,
+    "mbps": 19.99
    },
-   "age_s": 97
+   "age_s": 29
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 13.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "91 - Tenali",
+   "worker": "mac",
+   "parts": 317,
+   "electors": 242250,
+   "secs": 371,
+   "finished": "2026-11-13 10:53:34 IST"
+  },
   {
    "year": "2026",
    "ac": "92 - Bapatla",
@@ -214,15 +223,6 @@
    "electors": 211017,
    "secs": 1654,
    "finished": "2026-11-13 10:20:37 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "97 - Narasaraopet",
-   "worker": "mac",
-   "parts": 285,
-   "electors": 203821,
-   "secs": 350,
-   "finished": "2026-11-13 10:17:14 IST"
   }
  ],
  "failures": [],
@@ -2697,15 +2697,15 @@
    "label": "66 - Gopalapuram",
    "district": "East Godavari",
    "year": "2026",
-   "state": "running",
+   "state": "uploading",
    "total": 280,
-   "processed": 220,
+   "processed": 280,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 1661,
+   "elapsed_s": 1693,
    "electors": null,
-   "rate_per_min": 7.9,
-   "eta_s": 453,
+   "rate_per_min": 9.9,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -2777,6 +2777,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1Khq488iAjOka6Opnen1SN5Inq6_r-ssnSGKRtHcpGGk/edit",
    "folder": "https://drive.google.com/drive/folders/1ciV3Zvo_T0jwx8DBzU_WRp6dbpKaH-Uo"
+  },
+  {
+   "label": "91 - Tenali",
+   "district": "Guntur",
+   "year": "2026",
+   "state": "done",
+   "total": 317,
+   "processed": 317,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 371,
+   "electors": 242250,
+   "rate_per_min": 51.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1hrfqFBHV0V2n5s9IMhEHmxxxMRpppzlTi4PwmOyoHDk/edit",
+   "folder": "https://drive.google.com/drive/folders/1O0fgWagKv9N8Fh8-SAMJK6OmHufoz6zR"
   }
  ]
 }
