@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:36:45 AM IST",
- "updated_epoch": 1794600405,
+ "updated": "14 Nov 2026, 01:38:52 AM IST",
+ "updated_epoch": 1794600532,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:36 AM IST"
+   "eta": "14 Nov, 01:38 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,7 +22,7 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 01:36 AM IST"
+   "eta": "14 Nov, 01:38 AM IST"
   }
  },
  "batch": {
@@ -36,63 +36,21 @@
  "workers": [
   {
    "worker": "box",
-   "host": "grok-bot-vm-9062624",
+   "host": "Grok box",
    "cores_total": 8,
-   "ocr_workers": 10,
-   "started": "2026-11-13 09:33:29 IST",
+   "ocr_workers": 8,
+   "load1": 0.35,
+   "phase": "all",
    "year": "2024",
-   "ac": "",
-   "phase": "all done",
+   "ac": "done",
    "processed": 0,
    "total": 0,
    "parts_per_min": 0,
+   "cores_busy": 0,
    "prefetch": "",
    "uploading": [],
-   "done_session": 62,
-   "parts_session": 15816,
-   "last": [
-    {
-     "ac": "55 - Nidadavole",
-     "year": "2024",
-     "parts": 175,
-     "secs": 1886,
-     "finished": "2026-11-14 01:35:40 IST"
-    },
-    {
-     "ac": "54 - Kovvur",
-     "year": "2024",
-     "parts": 154,
-     "secs": 200,
-     "finished": "2026-11-14 01:33:41 IST"
-    },
-    {
-     "ac": "53 - Rampachodavaram",
-     "year": "2024",
-     "parts": 399,
-     "secs": 2752,
-     "finished": "2026-11-14 01:31:51 IST"
-    },
-    {
-     "ac": "52 - Jaggampeta",
-     "year": "2024",
-     "parts": 248,
-     "secs": 3523,
-     "finished": "2026-11-14 01:23:54 IST"
-    },
-    {
-     "ac": "51 - Rajahmundry Rural",
-     "year": "2024",
-     "parts": 235,
-     "secs": 715,
-     "finished": "2026-11-14 00:26:38 IST"
-    }
-   ],
-   "load1": 4.12,
-   "cores_busy": 0,
-   "updated": "2026-11-14 01:35:53 IST",
-   "updated_epoch": 1794600353,
-   "fetch": null,
-   "age_s": 52
+   "age_s": 0,
+   "updated_epoch": 1794600532
   },
   {
    "worker": "mac",
@@ -115,10 +73,10 @@
    "cores_busy": 0,
    "updated": "2026-11-14 01:34:41 IST",
    "updated_epoch": 1794600281,
-   "age_s": 124
+   "age_s": 251
   }
  ],
- "throughput_ac_per_hr": 16.0,
+ "throughput_ac_per_hr": 15.3,
  "recent": [
   {
    "year": "2024",
