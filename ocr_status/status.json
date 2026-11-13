@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 11:55:39 PM IST",
- "updated_epoch": 1794594339,
+ "updated": "13 Nov 2026, 11:56:55 PM IST",
+ "updated_epoch": 1794594415,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 11:55 PM IST"
+   "eta": "13 Nov, 11:56 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 142,
+   "done": 146,
    "errors": 0,
-   "parts": 37275,
-   "needs_review": 1199,
+   "parts": 38231,
+   "needs_review": 1231,
    "failed": 0,
-   "electors": 32901285,
-   "eta": "14 Nov, 04:01 AM IST"
+   "electors": 33703031,
+   "eta": "14 Nov, 02:32 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 47 - Kothapeta (2024)",
-  "updated": "2026-11-13 23:55:36 IST",
+  "updated": "2026-11-13 23:56:51 IST",
   "year": "2024",
-  "next": "49 - Rajanagaram (2024)",
+  "next": "50 - Rajahmundry City (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,10 +43,10 @@
    "year": "2024",
    "ac": "47 - Kothapeta",
    "phase": "OCR",
-   "processed": 40,
+   "processed": 160,
    "total": 261,
-   "parts_per_min": 85.1,
-   "prefetch": "49 - Rajanagaram (2024)",
+   "parts_per_min": 93.0,
+   "prefetch": "50 - Rajahmundry City (2024)",
    "uploading": [
     "44 - Amalapuram"
    ],
@@ -89,19 +89,19 @@
      "finished": "2026-11-13 22:13:42 IST"
     }
    ],
-   "load1": 11.75,
+   "load1": 11.58,
    "cores_busy": 8,
-   "updated": "2026-11-13 23:55:36 IST",
-   "updated_epoch": 1794594336,
+   "updated": "2026-11-13 23:56:51 IST",
+   "updated_epoch": 1794594411,
    "fetch": {
-    "ac": "49 - Rajanagaram",
+    "ac": "50 - Rajahmundry City",
     "year": "2024",
-    "done": 8,
-    "total": 17,
-    "mb": 568.1,
-    "mbps": 12.13
+    "done": 7,
+    "total": 13,
+    "mb": 484.5,
+    "mbps": 39.57
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -110,13 +110,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "70 - Nuzvid",
+   "ac": "69 - Tiruvuru",
    "phase": "OCR",
-   "processed": 210,
-   "total": 285,
-   "parts_per_min": 38.3,
-   "prefetch": "67 - Polavaram (2024)",
-   "uploading": [],
+   "processed": 40,
+   "total": 233,
+   "parts_per_min": 46.7,
+   "prefetch": "66 - Gopalapuram (2024)",
+   "uploading": [
+    "70 - Nuzvid"
+   ],
    "done_session": 130,
    "parts_session": 34677,
    "last": [
@@ -156,23 +158,32 @@
      "finished": "2026-11-13 23:26:36 IST"
     }
    ],
-   "load1": 30.91,
+   "load1": 24.7,
    "cores_busy": 10,
-   "updated": "2026-11-13 23:53:54 IST",
-   "updated_epoch": 1794594234,
+   "updated": "2026-11-13 23:56:10 IST",
+   "updated_epoch": 1794594370,
    "fetch": {
-    "ac": "67 - Polavaram",
+    "ac": "66 - Gopalapuram",
     "year": "2024",
-    "done": 18,
-    "total": 18,
-    "mb": 1269.8,
-    "mbps": 6.56
+    "done": 9,
+    "total": 16,
+    "mb": 637.5,
+    "mbps": 17.2
    },
-   "age_s": 105
+   "age_s": 45
   }
  ],
- "throughput_ac_per_hr": 7.3,
+ "throughput_ac_per_hr": 10.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "70 - Nuzvid",
+   "worker": "mac",
+   "parts": 285,
+   "electors": 237634,
+   "secs": 413,
+   "finished": "2026-11-13 23:55:50 IST"
+  },
   {
    "year": "2024",
    "ac": "71 - Gannavaram Krishna",
@@ -181,6 +192,33 @@
    "electors": 261877,
    "secs": 394,
    "finished": "2026-11-13 23:48:51 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "72 - Gudivada",
+   "worker": "mac",
+   "parts": 224,
+   "electors": 196548,
+   "secs": 326,
+   "finished": "2026-11-13 23:42:55 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "73 - Kaikalur",
+   "worker": "mac",
+   "parts": 234,
+   "electors": 204141,
+   "secs": 334,
+   "finished": "2026-11-13 23:36:55 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "74 - Pedana",
+   "worker": "mac",
+   "parts": 213,
+   "electors": 163423,
+   "secs": 324,
+   "finished": "2026-11-13 23:33:53 IST"
   },
   {
    "year": "2024",
@@ -208,42 +246,6 @@
    "electors": 184632,
    "secs": 358,
    "finished": "2026-11-13 23:15:55 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "78 - Penamaluru",
-   "worker": "mac",
-   "parts": 286,
-   "electors": 267150,
-   "secs": 434,
-   "finished": "2026-11-13 23:10:38 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "79 - Vijayawada West",
-   "worker": "mac",
-   "parts": 231,
-   "electors": 225851,
-   "secs": 363,
-   "finished": "2026-11-13 23:02:53 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "80 - Vijayawada Central",
-   "worker": "mac",
-   "parts": 257,
-   "electors": 272701,
-   "secs": 409,
-   "finished": "2026-11-13 22:57:46 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "81 - Vijayawada East",
-   "worker": "mac",
-   "parts": 293,
-   "electors": 263823,
-   "secs": 468,
-   "finished": "2026-11-13 22:50:50 IST"
   }
  ],
  "failures": [],
@@ -5678,13 +5680,13 @@
    "year": "2024",
    "state": "running",
    "total": 261,
-   "processed": 50,
-   "needs_review": 0,
+   "processed": 170,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 30,
+   "elapsed_s": 103,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 127,
+   "rate_per_min": 99.0,
+   "eta_s": 55,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -5705,6 +5707,74 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1n2itQrSYna4poifmRPGPuEOD3N36vvghjamjD2PGAGA/edit",
    "folder": "https://drive.google.com/drive/folders/16FmsiFagIPSjxYYl9Onu28XI2ulEFmUr"
+  },
+  {
+   "label": "72 - Gudivada",
+   "district": "Krishna",
+   "year": "2024",
+   "state": "done",
+   "total": 224,
+   "processed": 224,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 326,
+   "electors": 196548,
+   "rate_per_min": 41.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1W8R_UEAv8R_A-ATv0-4iPwdhq4h96dvbb3ndObMzJT0/edit",
+   "folder": "https://drive.google.com/drive/folders/1ApyH7RuQu-VXNxwRHrjYCiaGhQ1PowND"
+  },
+  {
+   "label": "73 - Kaikalur",
+   "district": "Eluru",
+   "year": "2024",
+   "state": "done",
+   "total": 234,
+   "processed": 234,
+   "needs_review": 10,
+   "failed": 0,
+   "elapsed_s": 334,
+   "electors": 204141,
+   "rate_per_min": 42.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ulKph9h9dUQ9St5NUVTwxfbg1hag5gKhG2An1B9rCzA/edit",
+   "folder": "https://drive.google.com/drive/folders/1VO5C1KZ7gvRKvH21YPq-G-aFDludxgJ6"
+  },
+  {
+   "label": "74 - Pedana",
+   "district": "Krishna",
+   "year": "2024",
+   "state": "done",
+   "total": 213,
+   "processed": 213,
+   "needs_review": 11,
+   "failed": 0,
+   "elapsed_s": 324,
+   "electors": 163423,
+   "rate_per_min": 39.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1QFMSixymZTI9W77YvzQnNBMOEoUeyMw__I4F9UGe1o8/edit",
+   "folder": "https://drive.google.com/drive/folders/1IV83WEV5PSdhk2jI5AYEBJtfAsE6jMqY"
+  },
+  {
+   "label": "70 - Nuzvid",
+   "district": "Eluru",
+   "year": "2024",
+   "state": "done",
+   "total": 285,
+   "processed": 285,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 413,
+   "electors": 237634,
+   "rate_per_min": 41.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/17cu-iWOlDWUIygnWF-mRasDAQSanQjJoII_ytHN5BH0/edit",
+   "folder": "https://drive.google.com/drive/folders/1aRP2H9lPXIrECHV33iiBLAOdl0qfl_gp"
   }
  ]
 }
