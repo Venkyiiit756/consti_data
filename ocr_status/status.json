@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 10:24:39 AM IST",
- "updated_epoch": 1794545679,
+ "updated": "13 Nov 2026, 10:26:31 AM IST",
+ "updated_epoch": 1794545791,
  "total_constituencies": 175,
- "done_constituencies": 144,
+ "done_constituencies": 145,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 144,
+   "done": 145,
    "errors": 0,
-   "parts": 41472,
-   "needs_review": 1186,
+   "parts": 41719,
+   "needs_review": 1187,
    "failed": 33,
-   "electors": 30621438,
-   "eta": "13 Nov, 12:25 PM IST"
+   "electors": 30842810,
+   "eta": "13 Nov, 12:19 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 11:39 PM IST"
+   "eta": "13 Nov, 11:04 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 65 - Eluru (2026)",
-  "updated": "2026-11-13 10:24:37 IST",
+  "phase": "OCR 66 - Gopalapuram (2026)",
+  "updated": "2026-11-13 10:26:27 IST",
   "year": "2026",
-  "next": "66 - Gopalapuram (2026)",
+  "next": "67 - Polavaram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2026",
-   "ac": "65 - Eluru",
+   "ac": "66 - Gopalapuram",
    "phase": "OCR",
-   "processed": 190,
-   "total": 247,
-   "parts_per_min": 102.9,
-   "prefetch": "66 - Gopalapuram (2026)",
+   "processed": 60,
+   "total": 280,
+   "parts_per_min": 93.1,
+   "prefetch": "67 - Polavaram (2026)",
    "uploading": [],
-   "done_session": 1,
-   "parts_session": 248,
+   "done_session": 2,
+   "parts_session": 495,
    "last": [
+    {
+     "ac": "65 - Eluru",
+     "year": "2026",
+     "parts": 247,
+     "secs": 1974,
+     "finished": "2026-11-13 10:25:41 IST"
+    },
     {
      "ac": "64 - Denduluru",
      "year": "2026",
@@ -59,19 +66,19 @@
      "finished": "2026-11-13 10:20:40 IST"
     }
    ],
-   "load1": 9.17,
+   "load1": 7.85,
    "cores_busy": 8,
-   "updated": "2026-11-13 10:24:37 IST",
-   "updated_epoch": 1794545677,
+   "updated": "2026-11-13 10:26:27 IST",
+   "updated_epoch": 1794545787,
    "fetch": {
-    "ac": "66 - Gopalapuram",
+    "ac": "67 - Polavaram",
     "year": "2026",
-    "done": 23,
+    "done": 6,
     "total": 38,
-    "mb": 1767.3,
-    "mbps": 23.78
+    "mb": 567.7,
+    "mbps": 38.33
    },
-   "age_s": 2
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -82,9 +89,9 @@
    "year": "2026",
    "ac": "95 - Guntur East",
    "phase": "OCR",
-   "processed": 170,
+   "processed": 210,
    "total": 312,
-   "parts_per_min": 52.3,
+   "parts_per_min": 51.2,
    "prefetch": "93 - Prathipadu SC (2026)",
    "uploading": [],
    "done_session": 3,
@@ -112,23 +119,32 @@
      "finished": "2026-11-13 10:12:54 IST"
     }
    ],
-   "load1": 22.56,
+   "load1": 22.47,
    "cores_busy": 10,
-   "updated": "2026-11-13 10:24:15 IST",
-   "updated_epoch": 1794545655,
+   "updated": "2026-11-13 10:25:06 IST",
+   "updated_epoch": 1794545706,
    "fetch": {
     "ac": "93 - Prathipadu SC",
     "year": "2026",
-    "done": 8,
+    "done": 20,
     "total": 38,
-    "mb": 576.3,
-    "mbps": 18.78
+    "mb": 1433.7,
+    "mbps": 16.9
    },
-   "age_s": 24
+   "age_s": 85
   }
  ],
- "throughput_ac_per_hr": 15.3,
+ "throughput_ac_per_hr": 16.0,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "65 - Eluru",
+   "worker": "box",
+   "parts": 247,
+   "electors": 221372,
+   "secs": 143,
+   "finished": "2026-11-13 10:25:38 IST"
+  },
   {
    "year": "2026",
    "ac": "96 - Chilakaluripet",
@@ -191,15 +207,6 @@
    "electors": 234804,
    "secs": 356,
    "finished": "2026-11-13 09:48:50 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "102 - Yerragondapalem",
-   "worker": "mac",
-   "parts": 267,
-   "electors": 190539,
-   "secs": 307,
-   "finished": "2026-11-13 09:42:40 IST"
   }
  ],
  "failures": [],
@@ -2657,15 +2664,32 @@
    "label": "65 - Eluru",
    "district": "Eluru",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 247,
-   "processed": 190,
-   "needs_review": 2,
+   "processed": 247,
+   "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 110,
-   "electors": null,
+   "elapsed_s": 143,
+   "electors": 221372,
    "rate_per_min": 103.6,
-   "eta_s": 33,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1xHhHwgPj1LILIkgURLzuXTiMoMaxOkmd_q8IWQgKojU/edit",
+   "folder": "https://drive.google.com/drive/folders/1U9ZPmFCbCHIfvMlwLaW29SsO5b4N-Qq3"
+  },
+  {
+   "label": "66 - Gopalapuram",
+   "district": "East Godavari",
+   "year": "2026",
+   "state": "running",
+   "total": 280,
+   "processed": 70,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 40,
+   "electors": null,
+   "rate_per_min": 105.0,
+   "eta_s": 120,
    "error": "",
    "sheet": "",
    "folder": ""
