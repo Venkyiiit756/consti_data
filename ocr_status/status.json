@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 07:39:17 AM IST",
- "updated_epoch": 1794535757,
+ "updated": "13 Nov 2026, 07:57:08 AM IST",
+ "updated_epoch": 1794536828,
  "total_constituencies": 175,
- "done_constituencies": 100,
+ "done_constituencies": 104,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 100,
+   "done": 104,
    "errors": 0,
-   "parts": 29131,
-   "needs_review": 865,
-   "failed": 22,
-   "electors": 21408654,
-   "eta": "13 Nov, 01:16 PM IST"
+   "parts": 30332,
+   "needs_review": 874,
+   "failed": 33,
+   "electors": 22251308,
+   "eta": "13 Nov, 01:33 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 02:10 AM IST"
+   "eta": "14 Nov, 03:08 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 48 - Mandapeta (2026)",
-  "updated": "2026-11-13 07:39:17 IST",
+  "phase": "OCR 49 - Rajanagaram (2026)",
+  "updated": "2026-11-13 07:57:05 IST",
   "year": "2026",
   "next": "50 - Rajahmundry City (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "48 - Mandapeta",
+   "ac": "49 - Rajanagaram",
    "phase": "OCR",
-   "processed": 230,
-   "total": 239,
-   "parts_per_min": 101.6,
+   "processed": 120,
+   "total": 238,
+   "parts_per_min": 6.8,
    "prefetch": "50 - Rajahmundry City (2026)",
    "uploading": [],
-   "done_session": 20,
-   "parts_session": 5438,
+   "done_session": 21,
+   "parts_session": 5677,
    "last": [
+    {
+     "ac": "48 - Mandapeta",
+     "year": "2026",
+     "parts": 239,
+     "secs": 1268,
+     "finished": "2026-11-13 07:56:40 IST"
+    },
     {
      "ac": "47 - Kothapeta",
      "year": "2026",
@@ -78,28 +85,21 @@
      "parts": 259,
      "secs": 3376,
      "finished": "2026-11-13 06:20:50 IST"
-    },
-    {
-     "ac": "43 - Mummidivaram",
-     "year": "2026",
-     "parts": 307,
-     "secs": 4867,
-     "finished": "2026-11-13 05:49:42 IST"
     }
    ],
-   "load1": 11.71,
+   "load1": 11.64,
    "cores_busy": 8,
-   "updated": "2026-11-13 07:39:17 IST",
-   "updated_epoch": 1794535757,
+   "updated": "2026-11-13 07:57:05 IST",
+   "updated_epoch": 1794536825,
    "fetch": {
     "ac": "50 - Rajahmundry City",
     "year": "2026",
-    "done": 6,
+    "done": 27,
     "total": 37,
-    "mb": 546.2,
-    "mbps": 39.77
+    "mb": 2251.0,
+    "mbps": 2.06
    },
-   "age_s": 0
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -108,16 +108,37 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "123 - Udayagiri",
+   "ac": "120 - Gudur",
    "phase": "OCR",
-   "processed": 90,
-   "total": 324,
-   "parts_per_min": 49.5,
-   "prefetch": "120 - Gudur (2026)",
+   "processed": 70,
+   "total": 302,
+   "parts_per_min": 49.7,
+   "prefetch": "117 - Nellore City (2026)",
    "uploading": [],
-   "done_session": 45,
-   "parts_session": 13622,
+   "done_session": 48,
+   "parts_session": 14584,
    "last": [
+    {
+     "ac": "121 - Sullurpeta",
+     "year": "2026",
+     "parts": 314,
+     "secs": 662,
+     "finished": "2026-11-13 07:54:54 IST"
+    },
+    {
+     "ac": "122 - Venkatagiri",
+     "year": "2026",
+     "parts": 324,
+     "secs": 599,
+     "finished": "2026-11-13 07:49:38 IST"
+    },
+    {
+     "ac": "123 - Udayagiri",
+     "year": "2026",
+     "parts": 324,
+     "secs": 616,
+     "finished": "2026-11-13 07:43:14 IST"
+    },
     {
      "ac": "124 - Badvel",
      "year": "2026",
@@ -131,46 +152,61 @@
      "parts": 306,
      "secs": 684,
      "finished": "2026-11-13 07:31:54 IST"
-    },
-    {
-     "ac": "126 - Kadapa",
-     "year": "2026",
-     "parts": 340,
-     "secs": 629,
-     "finished": "2026-11-13 07:25:56 IST"
-    },
-    {
-     "ac": "127 - Kodur",
-     "year": "2026",
-     "parts": 269,
-     "secs": 518,
-     "finished": "2026-11-13 07:19:51 IST"
-    },
-    {
-     "ac": "128 - Rayachoti",
-     "year": "2026",
-     "parts": 302,
-     "secs": 698,
-     "finished": "2026-11-13 07:14:51 IST"
     }
    ],
-   "load1": 22.38,
+   "load1": 32.49,
    "cores_busy": 10,
-   "updated": "2026-11-13 07:38:10 IST",
-   "updated_epoch": 1794535690,
+   "updated": "2026-11-13 07:55:52 IST",
+   "updated_epoch": 1794536752,
    "fetch": {
-    "ac": "120 - Gudur",
+    "ac": "117 - Nellore City",
     "year": "2026",
-    "done": 10,
+    "done": 13,
     "total": 33,
-    "mb": 923.9,
-    "mbps": 10.61
+    "mb": 1032.7,
+    "mbps": 14.75
    },
-   "age_s": 67
+   "age_s": 76
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "48 - Mandapeta",
+   "worker": "box",
+   "parts": 239,
+   "electors": 204412,
+   "secs": 139,
+   "finished": "2026-11-13 07:56:36 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "121 - Sullurpeta",
+   "worker": "mac",
+   "parts": 314,
+   "electors": 214302,
+   "secs": 347,
+   "finished": "2026-11-13 07:54:47 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "122 - Venkatagiri",
+   "worker": "mac",
+   "parts": 324,
+   "electors": 209276,
+   "secs": 370,
+   "finished": "2026-11-13 07:49:26 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "123 - Udayagiri",
+   "worker": "mac",
+   "parts": 324,
+   "electors": 214664,
+   "secs": 370,
+   "finished": "2026-11-13 07:42:49 IST"
+  },
   {
    "year": "2026",
    "ac": "47 - Kothapeta",
@@ -206,42 +242,6 @@
    "electors": 217999,
    "secs": 381,
    "finished": "2026-11-13 07:25:48 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "127 - Kodur",
-   "worker": "mac",
-   "parts": 269,
-   "electors": 180017,
-   "secs": 305,
-   "finished": "2026-11-13 07:19:40 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "128 - Rayachoti",
-   "worker": "mac",
-   "parts": 302,
-   "electors": 231913,
-   "secs": 344,
-   "finished": "2026-11-13 07:14:41 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "129 - Pulivendla",
-   "worker": "mac",
-   "parts": 309,
-   "electors": 200531,
-   "secs": 348,
-   "finished": "2026-11-13 07:09:46 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "130 - Kamalapuram",
-   "worker": "mac",
-   "parts": 279,
-   "electors": 184559,
-   "secs": 321,
-   "finished": "2026-11-13 07:03:46 IST"
   }
  ],
  "failures": [],
@@ -1900,18 +1900,18 @@
    "label": "48 - Mandapeta",
    "district": "Konaseema",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 239,
-   "processed": 230,
+   "processed": 239,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 135,
-   "electors": null,
-   "rate_per_min": 102.2,
-   "eta_s": 5,
+   "elapsed_s": 139,
+   "electors": 204412,
+   "rate_per_min": 103.2,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1dJpyzaIurrWW82ueKLc7-zxz7oThWo4R5uCW_lR9LyU/edit",
+   "folder": "https://drive.google.com/drive/folders/1l-tlwXVBv9IVGq0P9hDrLmFm352KbjeO"
   },
   {
    "label": "124 - Badvel",
@@ -1963,6 +1963,74 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1CsmNi1ftUBA4mae4RPVLbISfbsMq0X6fkELy9MVl4wg/edit",
    "folder": "https://drive.google.com/drive/folders/1Skm8fdEpenkohLo3w9Z7wM3piFv4sMM-"
+  },
+  {
+   "label": "49 - Rajanagaram",
+   "district": "East Godavari",
+   "year": "2026",
+   "state": "running",
+   "total": 238,
+   "processed": 130,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 1067,
+   "electors": null,
+   "rate_per_min": 7.3,
+   "eta_s": 886,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "121 - Sullurpeta",
+   "district": "Tirupati",
+   "year": "2026",
+   "state": "done",
+   "total": 314,
+   "processed": 314,
+   "needs_review": 3,
+   "failed": 11,
+   "elapsed_s": 347,
+   "electors": 214302,
+   "rate_per_min": 54.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1nOgxD-JtptIPvI2ce0hhTFF3bEwNPa-BcR-nUKqW7VE/edit",
+   "folder": "https://drive.google.com/drive/folders/1XBsD3WLY0jWwgWdZMmn5aLKSid-6txIQ"
+  },
+  {
+   "label": "122 - Venkatagiri",
+   "district": "Tirupati",
+   "year": "2026",
+   "state": "done",
+   "total": 324,
+   "processed": 324,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 370,
+   "electors": 209276,
+   "rate_per_min": 52.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1eaTOjBl_flTs7d_y-xd1MW5hsrkGWO0M6XWt6zmpCas/edit",
+   "folder": "https://drive.google.com/drive/folders/1TXgUzGmfgXWf-AIcApOIepZDk7BuGtCb"
+  },
+  {
+   "label": "123 - Udayagiri",
+   "district": "Nellore",
+   "year": "2026",
+   "state": "done",
+   "total": 324,
+   "processed": 324,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 370,
+   "electors": 214664,
+   "rate_per_min": 52.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1GGZYCuyfS6phwWTEAxfOdunG9jN9JSaQ4D_OHmWSLRE/edit",
+   "folder": "https://drive.google.com/drive/folders/1SDUmPINVSpeuVrKmOFGSb7Lq_KYufGla"
   }
  ]
 }
