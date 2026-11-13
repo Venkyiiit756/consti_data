@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 06:22:41 PM IST",
- "updated_epoch": 1794574361,
+ "updated": "13 Nov 2026, 06:25:57 PM IST",
+ "updated_epoch": 1794574557,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 06:22 PM IST"
+   "eta": "13 Nov, 06:25 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 77,
+   "done": 79,
    "errors": 0,
-   "parts": 20321,
-   "needs_review": 609,
+   "parts": 20828,
+   "needs_review": 616,
    "failed": 0,
-   "electors": 17995562,
-   "eta": "14 Nov, 01:52 AM IST"
+   "electors": 18403841,
+   "eta": "14 Nov, 01:46 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 28 - Araku Valley (2024)",
-  "updated": "2026-11-13 18:22:37 IST",
+  "updated": "2026-11-13 18:25:56 IST",
   "year": "2024",
-  "next": "",
+  "next": "31 - Pendurthi (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,16 +43,21 @@
    "year": "2024",
    "ac": "28 - Araku Valley",
    "phase": "OCR",
-   "processed": 60,
+   "processed": 210,
    "total": 303,
-   "parts_per_min": 97.4,
-   "prefetch": "",
-   "uploading": [
-    "27 - Madugula"
-   ],
-   "done_session": 33,
-   "parts_session": 8905,
+   "parts_per_min": 53.2,
+   "prefetch": "31 - Pendurthi (2024)",
+   "uploading": [],
+   "done_session": 34,
+   "parts_session": 9140,
    "last": [
+    {
+     "ac": "27 - Madugula",
+     "year": "2024",
+     "parts": 235,
+     "secs": 2275,
+     "finished": "2026-11-13 18:22:47 IST"
+    },
     {
      "ac": "26 - Chodavaram",
      "year": "2024",
@@ -80,21 +85,21 @@
      "parts": 272,
      "secs": 3637,
      "finished": "2026-11-13 17:54:43 IST"
-    },
-    {
-     "ac": "22 - Visakhapatnam South",
-     "year": "2024",
-     "parts": 210,
-     "secs": 3117,
-     "finished": "2026-11-13 16:55:48 IST"
     }
    ],
-   "load1": 11.02,
+   "load1": 11.49,
    "cores_busy": 8,
-   "updated": "2026-11-13 18:22:37 IST",
-   "updated_epoch": 1794574357,
-   "fetch": null,
-   "age_s": 4
+   "updated": "2026-11-13 18:25:56 IST",
+   "updated_epoch": 1794574556,
+   "fetch": {
+    "ac": "31 - Pendurthi",
+    "year": "2024",
+    "done": 6,
+    "total": 24,
+    "mb": 255.6,
+    "mbps": 1.31
+   },
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -105,16 +110,21 @@
    "year": "2024",
    "ac": "123 - Udayagiri",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 130,
    "total": 322,
-   "parts_per_min": 0.0,
+   "parts_per_min": 37.4,
    "prefetch": "120 - Gudur (2024)",
-   "uploading": [
-    "124 - Badvel"
-   ],
-   "done_session": 79,
-   "parts_session": 21264,
+   "uploading": [],
+   "done_session": 80,
+   "parts_session": 21536,
    "last": [
+    {
+     "ac": "124 - Badvel",
+     "year": "2024",
+     "parts": 272,
+     "secs": 637,
+     "finished": "2026-11-13 18:23:44 IST"
+    },
     {
      "ac": "125 - Rajampet",
      "year": "2024",
@@ -142,32 +152,43 @@
      "parts": 292,
      "secs": 751,
      "finished": "2026-11-13 17:58:51 IST"
-    },
-    {
-     "ac": "129 - Pulivendla",
-     "year": "2024",
-     "parts": 301,
-     "secs": 783,
-     "finished": "2026-11-13 17:49:59 IST"
     }
    ],
-   "load1": 22.45,
+   "load1": 28.47,
    "cores_busy": 10,
-   "updated": "2026-11-13 18:21:46 IST",
-   "updated_epoch": 1794574306,
+   "updated": "2026-11-13 18:25:05 IST",
+   "updated_epoch": 1794574505,
    "fetch": {
     "ac": "120 - Gudur",
     "year": "2024",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 19,
+    "total": 19,
+    "mb": 1286.3,
+    "mbps": 10.67
    },
-   "age_s": 55
+   "age_s": 52
   }
  ],
  "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "124 - Badvel",
+   "worker": "mac",
+   "parts": 272,
+   "electors": 219290,
+   "secs": 389,
+   "finished": "2026-11-13 18:23:35 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "27 - Madugula",
+   "worker": "box",
+   "parts": 235,
+   "electors": 188989,
+   "secs": 138,
+   "finished": "2026-11-13 18:22:44 IST"
+  },
   {
    "year": "2024",
    "ac": "26 - Chodavaram",
@@ -221,24 +242,6 @@
    "electors": 255168,
    "secs": 430,
    "finished": "2026-11-13 17:58:44 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "24 - Visakhapatnam West",
-   "worker": "box",
-   "parts": 220,
-   "electors": 213439,
-   "secs": 2104,
-   "finished": "2026-11-13 17:56:43 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "23 - Visakhapatnam North",
-   "worker": "box",
-   "parts": 272,
-   "electors": 292189,
-   "secs": 1526,
-   "finished": "2026-11-13 17:54:40 IST"
   }
  ],
  "failures": [],
@@ -4532,18 +4535,18 @@
    "label": "27 - Madugula",
    "district": "Anakapalli",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 235,
    "processed": 235,
    "needs_review": 3,
    "failed": 0,
    "elapsed_s": 138,
-   "electors": null,
+   "electors": 188989,
    "rate_per_min": 102.2,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1U2nTKIGT3zYVsh765dHgUtFj9_Kydat9hxHgK5KDuQM/edit",
+   "folder": "https://drive.google.com/drive/folders/18ptTh0MU2qSdE-pIqMCgY6DgDB6YYHHv"
   },
   {
    "label": "28 - Araku Valley",
@@ -4551,16 +4554,33 @@
    "year": "2024",
    "state": "running",
    "total": 303,
-   "processed": 60,
-   "needs_review": 0,
+   "processed": 210,
+   "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 35,
+   "elapsed_s": 235,
    "electors": null,
-   "rate_per_min": 102.9,
-   "eta_s": 142,
+   "rate_per_min": 53.6,
+   "eta_s": 104,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "124 - Badvel",
+   "district": "YSR Kadapa",
+   "year": "2024",
+   "state": "done",
+   "total": 272,
+   "processed": 272,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 389,
+   "electors": 219290,
+   "rate_per_min": 42.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/13WwnFEv5vFA4lKRmMgIJxa5y8K59FJp8LyJVdU0ywe0/edit",
+   "folder": "https://drive.google.com/drive/folders/149-_OIDNAlO81_etmK8pCiF4mtM7Vuze"
   }
  ]
 }
