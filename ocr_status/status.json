@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 07:58:35 PM IST",
- "updated_epoch": 1794580115,
+ "updated": "13 Nov 2026, 08:00:42 PM IST",
+ "updated_epoch": 1794580242,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 07:58 PM IST"
+   "eta": "13 Nov, 08:00 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 95,
    "errors": 0,
    "parts": 25358,
-   "needs_review": 740,
+   "needs_review": 741,
    "failed": 0,
    "electors": 22149714,
-   "eta": "14 Nov, 03:11 AM IST"
+   "eta": "14 Nov, 03:13 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 32 - Yelamanchili (2024)",
-  "updated": "2026-11-13 19:58:32 IST",
+  "phase": "OCR 33 - Payakaraopet (2024)",
+  "updated": "2026-11-13 20:00:37 IST",
   "year": "2024",
-  "next": "",
+  "next": "34 - Narsipatnam (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "32 - Yelamanchili",
+   "ac": "33 - Payakaraopet",
    "phase": "OCR",
-   "processed": 100,
-   "total": 244,
-   "parts_per_min": 101.8,
-   "prefetch": "",
+   "processed": 70,
+   "total": 292,
+   "parts_per_min": 99.3,
+   "prefetch": "34 - Narsipatnam (2024)",
    "uploading": [
     "31 - Pendurthi"
    ],
@@ -89,12 +89,19 @@
      "finished": "2026-11-13 18:20:30 IST"
     }
    ],
-   "load1": 11.08,
+   "load1": 10.78,
    "cores_busy": 8,
-   "updated": "2026-11-13 19:58:32 IST",
-   "updated_epoch": 1794580112,
-   "fetch": null,
-   "age_s": 3
+   "updated": "2026-11-13 20:00:37 IST",
+   "updated_epoch": 1794580237,
+   "fetch": {
+    "ac": "34 - Narsipatnam",
+    "year": "2024",
+    "done": 2,
+    "total": 16,
+    "mb": 170.5,
+    "mbps": 35.5
+   },
+   "age_s": 5
   },
   {
    "worker": "mac",
@@ -105,16 +112,21 @@
    "year": "2024",
    "ac": "110 - Kondapi",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 130,
    "total": 283,
-   "parts_per_min": 0.0,
+   "parts_per_min": 38.0,
    "prefetch": "107 - Santhanuthalapadu (2024)",
-   "uploading": [
-    "111 - Markapuram"
-   ],
-   "done_session": 92,
-   "parts_session": 24943,
+   "uploading": [],
+   "done_session": 93,
+   "parts_session": 25200,
    "last": [
+    {
+     "ac": "111 - Markapuram",
+     "year": "2024",
+     "parts": 257,
+     "secs": 745,
+     "finished": "2026-11-13 19:57:35 IST"
+    },
     {
      "ac": "112 - Giddalur",
      "year": "2024",
@@ -142,28 +154,21 @@
      "parts": 278,
      "secs": 658,
      "finished": "2026-11-13 19:25:51 IST"
-    },
-    {
-     "ac": "116 - Kovur",
-     "year": "2024",
-     "parts": 324,
-     "secs": 781,
-     "finished": "2026-11-13 19:18:25 IST"
     }
    ],
-   "load1": 33.46,
+   "load1": 32.61,
    "cores_busy": 10,
-   "updated": "2026-11-13 19:55:54 IST",
-   "updated_epoch": 1794579954,
+   "updated": "2026-11-13 19:59:06 IST",
+   "updated_epoch": 1794580146,
    "fetch": {
     "ac": "107 - Santhanuthalapadu",
     "year": "2024",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 16,
+    "total": 16,
+    "mb": 1197.7,
+    "mbps": 11.13
    },
-   "age_s": 161
+   "age_s": 96
   }
  ],
  "throughput_ac_per_hr": 10.7,
@@ -4855,15 +4860,32 @@
    "label": "32 - Yelamanchili",
    "district": "Anakapalli",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 244,
-   "processed": 100,
+   "processed": 244,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 142,
+   "electors": null,
+   "rate_per_min": 103.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "33 - Payakaraopet",
+   "district": "Anakapalli",
+   "year": "2024",
+   "state": "running",
+   "total": 292,
+   "processed": 70,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 57,
+   "elapsed_s": 41,
    "electors": null,
-   "rate_per_min": 105.3,
-   "eta_s": 82,
+   "rate_per_min": 102.4,
+   "eta_s": 130,
    "error": "",
    "sheet": "",
    "folder": ""
