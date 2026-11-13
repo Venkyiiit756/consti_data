@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 10:20:46 PM IST",
- "updated_epoch": 1794588646,
+ "updated": "13 Nov 2026, 10:23:10 PM IST",
+ "updated_epoch": 1794588790,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 10:20 PM IST"
+   "eta": "13 Nov, 10:23 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 129,
    "errors": 0,
    "parts": 33983,
-   "needs_review": 1085,
+   "needs_review": 1087,
    "failed": 0,
    "electors": 29906632,
-   "eta": "14 Nov, 01:16 AM IST"
+   "eta": "14 Nov, 01:36 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 43 - Mummidivaram (2024)",
-  "updated": "2026-11-13 22:20:46 IST",
+  "phase": "OCR 44 - Amalapuram (2024)",
+  "updated": "2026-11-13 22:23:09 IST",
   "year": "2024",
   "next": "46 - P Gannavaram (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "43 - Mummidivaram",
+   "ac": "44 - Amalapuram",
    "phase": "OCR",
-   "processed": 130,
-   "total": 264,
-   "parts_per_min": 67.5,
+   "processed": 20,
+   "total": 235,
+   "parts_per_min": 66.8,
    "prefetch": "46 - P Gannavaram (2024)",
-   "uploading": [],
+   "uploading": [
+    "43 - Mummidivaram"
+   ],
    "done_session": 49,
    "parts_session": 12853,
    "last": [
@@ -87,19 +89,19 @@
      "finished": "2026-11-13 21:47:51 IST"
     }
    ],
-   "load1": 9.33,
+   "load1": 10.99,
    "cores_busy": 8,
-   "updated": "2026-11-13 22:20:46 IST",
-   "updated_epoch": 1794588646,
+   "updated": "2026-11-13 22:23:09 IST",
+   "updated_epoch": 1794588789,
    "fetch": {
     "ac": "46 - P Gannavaram",
     "year": "2024",
-    "done": 6,
+    "done": 14,
     "total": 16,
-    "mb": 484.9,
-    "mbps": 41.22
+    "mb": 902.8,
+    "mbps": 5.75
    },
-   "age_s": 0
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -108,13 +110,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "85 - Pedakurapadu",
+   "ac": "84 - Jaggayyapeta",
    "phase": "OCR",
-   "processed": 140,
-   "total": 266,
-   "parts_per_min": 37.0,
-   "prefetch": "82 - Mylavaram (2024)",
-   "uploading": [],
+   "processed": 0,
+   "total": 218,
+   "parts_per_min": 0,
+   "prefetch": "",
+   "uploading": [
+    "85 - Pedakurapadu"
+   ],
    "done_session": 115,
    "parts_session": 30978,
    "last": [
@@ -154,22 +158,15 @@
      "finished": "2026-11-13 21:52:46 IST"
     }
    ],
-   "load1": 41.66,
+   "load1": 22.25,
    "cores_busy": 10,
-   "updated": "2026-11-13 22:19:10 IST",
-   "updated_epoch": 1794588550,
-   "fetch": {
-    "ac": "82 - Mylavaram",
-    "year": "2024",
-    "done": 22,
-    "total": 22,
-    "mb": 1539.6,
-    "mbps": 13.08
-   },
-   "age_s": 96
+   "updated": "2026-11-13 22:22:08 IST",
+   "updated_epoch": 1794588728,
+   "fetch": null,
+   "age_s": 62
   }
  ],
- "throughput_ac_per_hr": 14.7,
+ "throughput_ac_per_hr": 13.3,
  "recent": [
   {
    "year": "2024",
@@ -5419,15 +5416,32 @@
    "label": "43 - Mummidivaram",
    "district": "Konaseema",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 264,
-   "processed": 130,
-   "needs_review": 4,
+   "processed": 264,
+   "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 79,
+   "elapsed_s": 240,
    "electors": null,
-   "rate_per_min": 98.7,
-   "eta_s": 81,
+   "rate_per_min": 66.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "44 - Amalapuram",
+   "district": "Konaseema",
+   "year": "2024",
+   "state": "running",
+   "total": 235,
+   "processed": 20,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 14,
+   "electors": null,
+   "rate_per_min": 85.7,
+   "eta_s": 150,
    "error": "",
    "sheet": "",
    "folder": ""
