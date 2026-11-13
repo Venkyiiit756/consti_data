@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 12:56:17 PM IST",
- "updated_epoch": 1794554777,
+ "updated": "13 Nov 2026, 01:22:14 PM IST",
+ "updated_epoch": 1794556334,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 12:56 PM IST"
+   "eta": "13 Nov, 01:22 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 5,
+   "done": 10,
    "errors": 0,
-   "parts": 1423,
-   "needs_review": 50,
+   "parts": 2672,
+   "needs_review": 86,
    "failed": 0,
-   "electors": 1217743,
-   "eta": "13 Nov, 11:49 PM IST"
+   "electors": 2278410,
+   "eta": "13 Nov, 11:56 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 5 - Srikakulam (2024)",
-  "updated": "2026-11-13 12:56:17 IST",
+  "updated": "2026-11-13 13:22:11 IST",
   "year": "2024",
   "next": "8 - Narasannapeta (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "5 - Srikakulam",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 120,
    "total": 278,
-   "parts_per_min": 0.0,
+   "parts_per_min": 4.5,
    "prefetch": "8 - Narasannapeta (2024)",
    "uploading": [
     "4 - Pathapatnam"
@@ -89,19 +89,19 @@
      "finished": "2026-11-13 12:27:52 IST"
     }
    ],
-   "load1": 10.28,
+   "load1": 11.92,
    "cores_busy": 8,
-   "updated": "2026-11-13 12:56:17 IST",
-   "updated_epoch": 1794554777,
+   "updated": "2026-11-13 13:22:11 IST",
+   "updated_epoch": 1794556331,
    "fetch": {
     "ac": "8 - Narasannapeta",
     "year": "2024",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 1,
+    "total": 16,
+    "mb": 1.0,
+    "mbps": 0.0
    },
-   "age_s": 0
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -110,69 +110,114 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "173 - Puthalapattu",
+   "ac": "168 - Srikalahasti",
    "phase": "OCR",
-   "processed": 190,
-   "total": 260,
+   "processed": 240,
+   "total": 293,
    "parts_per_min": 49.0,
-   "prefetch": "170 - Nagari (2024)",
+   "prefetch": "165 - Punganur (2024)",
    "uploading": [],
-   "done_session": 30,
-   "parts_session": 8450,
+   "done_session": 35,
+   "parts_session": 9699,
    "last": [
     {
-     "ac": "174 - Palamaner",
+     "ac": "169 - Satyavedu",
      "year": "2024",
-     "parts": 287,
-     "secs": 619,
-     "finished": "2026-11-13 12:53:30 IST"
+     "parts": 279,
+     "secs": 565,
+     "finished": "2026-11-13 13:18:28 IST"
     },
     {
-     "ac": "175 - Kuppam",
+     "ac": "170 - Nagari",
      "year": "2024",
-     "parts": 243,
-     "secs": 631,
-     "finished": "2026-11-13 12:49:34 IST"
+     "parts": 229,
+     "secs": 459,
+     "finished": "2026-11-13 13:11:31 IST"
     },
     {
-     "ac": "71 - Gannavaram Krishna",
-     "year": "2026",
-     "parts": 327,
-     "secs": 766,
-     "finished": "2026-11-13 12:43:36 IST"
+     "ac": "171 - Gangadhara Nellore",
+     "year": "2024",
+     "parts": 255,
+     "secs": 620,
+     "finished": "2026-11-13 13:08:35 IST"
     },
     {
-     "ac": "72 - Gudivada",
-     "year": "2026",
-     "parts": 254,
-     "secs": 795,
-     "finished": "2026-11-13 12:38:53 IST"
+     "ac": "172 - Chittoor",
+     "year": "2024",
+     "parts": 226,
+     "secs": 493,
+     "finished": "2026-11-13 13:02:44 IST"
     },
     {
-     "ac": "73 - Kaikalur",
-     "year": "2026",
-     "parts": 244,
-     "secs": 714,
-     "finished": "2026-11-13 12:31:49 IST"
+     "ac": "173 - Puthalapattu",
+     "year": "2024",
+     "parts": 260,
+     "secs": 666,
+     "finished": "2026-11-13 12:57:38 IST"
     }
    ],
-   "load1": 20.54,
+   "load1": 18.46,
    "cores_busy": 10,
-   "updated": "2026-11-13 12:55:07 IST",
-   "updated_epoch": 1794554707,
+   "updated": "2026-11-13 13:20:51 IST",
+   "updated_epoch": 1794556251,
    "fetch": {
-    "ac": "170 - Nagari",
+    "ac": "165 - Punganur",
     "year": "2024",
-    "done": 15,
-    "total": 15,
-    "mb": 926.8,
-    "mbps": 7.86
+    "done": 18,
+    "total": 18,
+    "mb": 1209.7,
+    "mbps": 6.76
    },
-   "age_s": 70
+   "age_s": 83
   }
  ],
  "throughput_ac_per_hr": 15.3,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "169 - Satyavedu",
+   "worker": "mac",
+   "parts": 279,
+   "electors": 222355,
+   "secs": 337,
+   "finished": "2026-11-13 13:17:55 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "170 - Nagari",
+   "worker": "mac",
+   "parts": 229,
+   "electors": 209514,
+   "secs": 270,
+   "finished": "2026-11-13 13:10:55 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "171 - Gangadhara Nellore",
+   "worker": "mac",
+   "parts": 255,
+   "electors": 204949,
+   "secs": 303,
+   "finished": "2026-11-13 13:07:53 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "172 - Chittoor",
+   "worker": "mac",
+   "parts": 226,
+   "electors": 202850,
+   "secs": 270,
+   "finished": "2026-11-13 13:02:33 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "173 - Puthalapattu",
+   "worker": "mac",
+   "parts": 260,
+   "electors": 220999,
+   "secs": 302,
+   "finished": "2026-11-13 12:56:56 IST"
+  },
   {
    "year": "2024",
    "ac": "174 - Palamaner",
@@ -199,51 +244,6 @@
    "electors": 236327,
    "secs": 185,
    "finished": "2026-11-13 12:46:37 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "71 - Gannavaram Krishna",
-   "worker": "mac",
-   "parts": 327,
-   "electors": 262118,
-   "secs": 387,
-   "finished": "2026-11-13 12:43:27 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "2 - Palasa",
-   "worker": "box",
-   "parts": 279,
-   "electors": 219543,
-   "secs": 160,
-   "finished": "2026-11-13 12:41:50 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "1 - Ichchapuram",
-   "worker": "box",
-   "parts": 299,
-   "electors": 268202,
-   "secs": 545,
-   "finished": "2026-11-13 12:39:44 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "72 - Gudivada",
-   "worker": "mac",
-   "parts": 254,
-   "electors": 189933,
-   "secs": 308,
-   "finished": "2026-11-13 12:38:45 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "73 - Kaikalur",
-   "worker": "mac",
-   "parts": 244,
-   "electors": 192635,
-   "secs": 298,
-   "finished": "2026-11-13 12:31:37 IST"
   }
  ],
  "failures": [],
@@ -3332,16 +3332,101 @@
    "year": "2024",
    "state": "running",
    "total": 278,
-   "processed": 0,
-   "needs_review": 0,
+   "processed": 120,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 0,
+   "elapsed_s": 1592,
    "electors": null,
-   "rate_per_min": 0,
-   "eta_s": null,
+   "rate_per_min": 4.5,
+   "eta_s": 2096,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "169 - Satyavedu",
+   "district": "Tirupati",
+   "year": "2024",
+   "state": "done",
+   "total": 279,
+   "processed": 279,
+   "needs_review": 11,
+   "failed": 0,
+   "elapsed_s": 337,
+   "electors": 222355,
+   "rate_per_min": 49.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1PHqpVh-lZHBLKQWyM6yigPaUy4GX7my-zoJHtAUk0eA/edit",
+   "folder": "https://drive.google.com/drive/folders/13BJKQKfzsoKdeHx7SGSVcCOMQ76STrYn"
+  },
+  {
+   "label": "170 - Nagari",
+   "district": "Chittoor",
+   "year": "2024",
+   "state": "done",
+   "total": 229,
+   "processed": 229,
+   "needs_review": 13,
+   "failed": 0,
+   "elapsed_s": 270,
+   "electors": 209514,
+   "rate_per_min": 50.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1H0rJdRpuah0VLvXsgrKrk_5VYpJ_7BNNQdjcLZGkCDA/edit",
+   "folder": "https://drive.google.com/drive/folders/1UK1YMjAUghxdNlM5MYCve6VzTWO2jwxV"
+  },
+  {
+   "label": "171 - Gangadhara Nellore",
+   "district": "Chittoor",
+   "year": "2024",
+   "state": "done",
+   "total": 255,
+   "processed": 255,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 303,
+   "electors": 204949,
+   "rate_per_min": 50.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1oC4e3NOCVj3e1gX1FtSB0riXMht5VDMWWrgSTmGAFjc/edit",
+   "folder": "https://drive.google.com/drive/folders/1o1MlqGkUWyIkKgngaPa_5C_ILinONflA"
+  },
+  {
+   "label": "172 - Chittoor",
+   "district": "Chittoor",
+   "year": "2024",
+   "state": "done",
+   "total": 226,
+   "processed": 226,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 270,
+   "electors": 202850,
+   "rate_per_min": 50.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1JMK0FkM2jxNGMuaDhlwqarDbOp2-LT5ptJKyshv2wCQ/edit",
+   "folder": "https://drive.google.com/drive/folders/1nGwnG_lowDX7xMIxlNjz5vEiLXiaTMnL"
+  },
+  {
+   "label": "173 - Puthalapattu",
+   "district": "Chittoor",
+   "year": "2024",
+   "state": "done",
+   "total": 260,
+   "processed": 260,
+   "needs_review": 9,
+   "failed": 0,
+   "elapsed_s": 302,
+   "electors": 220999,
+   "rate_per_min": 51.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1aUpdQdCp7GY5Lo8vghTqRwgBocKRMzr16nzTqPCup_I/edit",
+   "folder": "https://drive.google.com/drive/folders/1Ie07pwBSHGxYTX7mxKJTqzk_p03xxerb"
   }
  ]
 }
