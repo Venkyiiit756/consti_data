@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 06:25:57 PM IST",
- "updated_epoch": 1794574557,
+ "updated": "13 Nov 2026, 06:27:10 PM IST",
+ "updated_epoch": 1794574630,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 06:25 PM IST"
+   "eta": "13 Nov, 06:27 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 616,
    "failed": 0,
    "electors": 18403841,
-   "eta": "14 Nov, 01:46 AM IST"
+   "eta": "14 Nov, 01:47 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 28 - Araku Valley (2024)",
-  "updated": "2026-11-13 18:25:56 IST",
+  "phase": "OCR 29 - Paderu (2024)",
+  "updated": "2026-11-13 18:27:10 IST",
   "year": "2024",
   "next": "31 - Pendurthi (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "28 - Araku Valley",
+   "ac": "29 - Paderu",
    "phase": "OCR",
-   "processed": 210,
-   "total": 303,
-   "parts_per_min": 53.2,
+   "processed": 0,
+   "total": 317,
+   "parts_per_min": 0,
    "prefetch": "31 - Pendurthi (2024)",
-   "uploading": [],
+   "uploading": [
+    "28 - Araku Valley"
+   ],
    "done_session": 34,
    "parts_session": 9140,
    "last": [
@@ -87,19 +89,19 @@
      "finished": "2026-11-13 17:54:43 IST"
     }
    ],
-   "load1": 11.49,
+   "load1": 10.6,
    "cores_busy": 8,
-   "updated": "2026-11-13 18:25:56 IST",
-   "updated_epoch": 1794574556,
+   "updated": "2026-11-13 18:27:10 IST",
+   "updated_epoch": 1794574630,
    "fetch": {
     "ac": "31 - Pendurthi",
     "year": "2024",
-    "done": 6,
+    "done": 17,
     "total": 24,
-    "mb": 255.6,
-    "mbps": 1.31
+    "mb": 1100.6,
+    "mbps": 4.04
    },
-   "age_s": 1
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -110,9 +112,9 @@
    "year": "2024",
    "ac": "123 - Udayagiri",
    "phase": "OCR",
-   "processed": 130,
+   "processed": 170,
    "total": 322,
-   "parts_per_min": 37.4,
+   "parts_per_min": 40.1,
    "prefetch": "120 - Gudur (2024)",
    "uploading": [],
    "done_session": 80,
@@ -154,10 +156,10 @@
      "finished": "2026-11-13 17:58:51 IST"
     }
    ],
-   "load1": 28.47,
+   "load1": 22.57,
    "cores_busy": 10,
-   "updated": "2026-11-13 18:25:05 IST",
-   "updated_epoch": 1794574505,
+   "updated": "2026-11-13 18:25:51 IST",
+   "updated_epoch": 1794574551,
    "fetch": {
     "ac": "120 - Gudur",
     "year": "2024",
@@ -166,7 +168,7 @@
     "mb": 1286.3,
     "mbps": 10.67
    },
-   "age_s": 52
+   "age_s": 79
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -4552,15 +4554,15 @@
    "label": "28 - Araku Valley",
    "district": "Alluri Sitharama Raju",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 303,
-   "processed": 210,
+   "processed": 303,
    "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 235,
+   "elapsed_s": 309,
    "electors": null,
-   "rate_per_min": 53.6,
-   "eta_s": 104,
+   "rate_per_min": 58.8,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -4581,6 +4583,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/13WwnFEv5vFA4lKRmMgIJxa5y8K59FJp8LyJVdU0ywe0/edit",
    "folder": "https://drive.google.com/drive/folders/149-_OIDNAlO81_etmK8pCiF4mtM7Vuze"
+  },
+  {
+   "label": "29 - Paderu",
+   "district": "Alluri Sitharama Raju",
+   "year": "2024",
+   "state": "running",
+   "total": 317,
+   "processed": 0,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 0,
+   "electors": null,
+   "rate_per_min": 0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
