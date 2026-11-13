@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 09:01:56 AM IST",
- "updated_epoch": 1794540716,
+ "updated": "13 Nov 2026, 09:03:57 AM IST",
+ "updated_epoch": 1794540837,
  "total_constituencies": 175,
  "done_constituencies": 123,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1021,
    "failed": 33,
    "electors": 26222909,
-   "eta": "13 Nov, 12:09 PM IST"
+   "eta": "13 Nov, 12:11 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 10:28 PM IST"
+   "eta": "13 Nov, 10:30 PM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 09:01:53 IST",
+  "phase": "OCR 57 - Palakollu (2026)",
+  "updated": "2026-11-13 09:03:53 IST",
   "year": "2026",
-  "next": "57 - Palakollu (2026)",
+  "next": "58 - Narasapuram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "57 - Palakollu (2026)",
+   "ac": "57 - Palakollu",
+   "phase": "OCR",
+   "processed": 120,
+   "total": 203,
+   "parts_per_min": 103.9,
+   "prefetch": "58 - Narasapuram (2026)",
    "uploading": [],
    "done_session": 29,
    "parts_session": 7810,
@@ -87,19 +87,19 @@
      "finished": "2026-11-13 08:22:43 IST"
     }
    ],
-   "load1": 1.2,
-   "cores_busy": 0,
-   "updated": "2026-11-13 09:01:53 IST",
-   "updated_epoch": 1794540713,
+   "load1": 8.26,
+   "cores_busy": 8,
+   "updated": "2026-11-13 09:03:53 IST",
+   "updated_epoch": 1794540833,
    "fetch": {
-    "ac": "57 - Palakollu",
+    "ac": "58 - Narasapuram",
     "year": "2026",
-    "done": 30,
-    "total": 32,
-    "mb": 1954.7,
-    "mbps": 2.97
+    "done": 16,
+    "total": 29,
+    "mb": 1207.0,
+    "mbps": 19.09
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -110,9 +110,9 @@
    "year": "2026",
    "ac": "109 - Kandukur",
    "phase": "OCR",
-   "processed": 130,
+   "processed": 270,
    "total": 293,
-   "parts_per_min": 48.4,
+   "parts_per_min": 50.9,
    "prefetch": "106 - Chirala (2026)",
    "uploading": [],
    "done_session": 59,
@@ -154,19 +154,19 @@
      "finished": "2026-11-13 08:36:46 IST"
     }
    ],
-   "load1": 24.71,
+   "load1": 21.06,
    "cores_busy": 10,
-   "updated": "2026-11-13 09:01:08 IST",
-   "updated_epoch": 1794540668,
+   "updated": "2026-11-13 09:03:46 IST",
+   "updated_epoch": 1794540826,
    "fetch": {
     "ac": "106 - Chirala",
     "year": "2026",
-    "done": 26,
+    "done": 29,
     "total": 29,
-    "mb": 2026.7,
-    "mbps": 17.95
+    "mb": 2125.9,
+    "mbps": 8.69
    },
-   "age_s": 48
+   "age_s": 11
   }
  ],
  "throughput_ac_per_hr": 16.7,
@@ -2337,6 +2337,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/19Om9_vbmA_EDCzZxOSS-BfXOVRt8N9N9EAQvhubPJBg/edit",
    "folder": "https://drive.google.com/drive/folders/1SJ5OFb49sCJmo6j52evpJ6VkRfa45DWi"
+  },
+  {
+   "label": "57 - Palakollu",
+   "district": "West Godavari",
+   "year": "2026",
+   "state": "running",
+   "total": 203,
+   "processed": 130,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 73,
+   "electors": null,
+   "rate_per_min": 106.8,
+   "eta_s": 41,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
