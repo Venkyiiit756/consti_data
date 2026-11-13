@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 12:19:59 PM IST",
- "updated_epoch": 1794552599,
+ "updated": "13 Nov 2026, 12:22:06 PM IST",
+ "updated_epoch": 1794552726,
  "total_constituencies": 175,
- "done_constituencies": 167,
+ "done_constituencies": 168,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 167,
+   "done": 168,
    "errors": 0,
-   "parts": 48118,
-   "needs_review": 1299,
+   "parts": 48341,
+   "needs_review": 1301,
    "failed": 33,
-   "electors": 35713631,
-   "eta": "13 Nov, 12:59 PM IST"
+   "electors": 35892491,
+   "eta": "13 Nov, 12:55 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 03:19 AM IST"
+   "eta": "14 Nov, 02:30 AM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 12:19:58 IST",
+  "phase": "OCR 68 - Chintalapudi (2026)",
+  "updated": "2026-11-13 12:22:03 IST",
   "year": "2026",
-  "next": "68 - Chintalapudi (2026)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "68 - Chintalapudi (2026)",
+   "ac": "68 - Chintalapudi",
+   "phase": "OCR",
+   "processed": 10,
+   "total": 292,
+   "parts_per_min": 72.5,
+   "prefetch": "",
    "uploading": [],
    "done_session": 4,
    "parts_session": 1099,
@@ -80,19 +80,12 @@
      "finished": "2026-11-13 10:20:40 IST"
     }
    ],
-   "load1": 1.19,
-   "cores_busy": 0,
-   "updated": "2026-11-13 12:19:58 IST",
-   "updated_epoch": 1794552598,
-   "fetch": {
-    "ac": "68 - Chintalapudi",
-    "year": "2026",
-    "done": 29,
-    "total": 41,
-    "mb": 2193.0,
-    "mbps": 1.34
-   },
-   "age_s": 1
+   "load1": 1.25,
+   "cores_busy": 8,
+   "updated": "2026-11-13 12:22:03 IST",
+   "updated_epoch": 1794552723,
+   "fetch": null,
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -101,16 +94,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2026",
-   "ac": "75 - Machilipatnam",
+   "ac": "74 - Pedana",
    "phase": "OCR",
-   "processed": 140,
-   "total": 223,
-   "parts_per_min": 47.0,
-   "prefetch": "72 - Gudivada (2026)",
+   "processed": 60,
+   "total": 219,
+   "parts_per_min": 41.4,
+   "prefetch": "71 - Gannavaram Krishna (2026)",
    "uploading": [],
-   "done_session": 23,
-   "parts_session": 6653,
+   "done_session": 24,
+   "parts_session": 6876,
    "last": [
+    {
+     "ac": "75 - Machilipatnam",
+     "year": "2026",
+     "parts": 223,
+     "secs": 594,
+     "finished": "2026-11-13 12:21:41 IST"
+    },
     {
      "ac": "76 - Avanigadda",
      "year": "2026",
@@ -138,32 +138,34 @@
      "parts": 269,
      "secs": 708,
      "finished": "2026-11-13 12:00:39 IST"
-    },
-    {
-     "ac": "80 - Vijayawada Central",
-     "year": "2026",
-     "parts": 318,
-     "secs": 873,
-     "finished": "2026-11-13 11:55:52 IST"
     }
    ],
-   "load1": 24.47,
+   "load1": 34.59,
    "cores_busy": 10,
-   "updated": "2026-11-13 12:18:45 IST",
-   "updated_epoch": 1794552525,
+   "updated": "2026-11-13 12:21:43 IST",
+   "updated_epoch": 1794552703,
    "fetch": {
-    "ac": "72 - Gudivada",
+    "ac": "71 - Gannavaram Krishna",
     "year": "2026",
-    "done": 23,
-    "total": 30,
-    "mb": 1871.7,
-    "mbps": 14.06
+    "done": 8,
+    "total": 41,
+    "mb": 667.3,
+    "mbps": 11.39
    },
-   "age_s": 74
+   "age_s": 23
   }
  ],
- "throughput_ac_per_hr": 12.0,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "75 - Machilipatnam",
+   "worker": "mac",
+   "parts": 223,
+   "electors": 178860,
+   "secs": 270,
+   "finished": "2026-11-13 12:20:55 IST"
+  },
   {
    "year": "2026",
    "ac": "76 - Avanigadda",
@@ -226,15 +228,6 @@
    "electors": 249985,
    "secs": 387,
    "finished": "2026-11-13 11:47:56 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "82 - Mylavaram",
-   "worker": "mac",
-   "parts": 323,
-   "electors": 264459,
-   "secs": 390,
-   "finished": "2026-11-13 11:42:49 IST"
   }
  ],
  "failures": [],
@@ -3078,6 +3071,40 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1IlOoKFilsH2wC3qCs3p-rc3T1n7BwAeuRvpE6kS-vg0/edit",
    "folder": "https://drive.google.com/drive/folders/1dPBWPb_7R8IsvzU4gD6iSg4_dc9yPcRS"
+  },
+  {
+   "label": "75 - Machilipatnam",
+   "district": "Krishna",
+   "year": "2026",
+   "state": "done",
+   "total": 223,
+   "processed": 223,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 270,
+   "electors": 178860,
+   "rate_per_min": 49.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Cdq-0QlYE894C49lpysodpa_tW9jgYIIcs9HtCWding/edit",
+   "folder": "https://drive.google.com/drive/folders/1mQaUmyeLs-pRvZGM-ENtSAfIFK3ck9oz"
+  },
+  {
+   "label": "68 - Chintalapudi",
+   "district": "Eluru",
+   "year": "2026",
+   "state": "running",
+   "total": 292,
+   "processed": 10,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 7,
+   "electors": null,
+   "rate_per_min": 85.7,
+   "eta_s": 197,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
