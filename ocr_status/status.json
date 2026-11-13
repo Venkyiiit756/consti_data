@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 02:22:08 PM IST",
- "updated_epoch": 1794559928,
+ "updated": "13 Nov 2026, 02:22:36 PM IST",
+ "updated_epoch": 1794559956,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -16,18 +16,18 @@
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 26,
+   "done": 27,
    "errors": 0,
-   "parts": 7147,
+   "parts": 7429,
    "needs_review": 206,
    "failed": 0,
-   "electors": 6210789,
-   "eta": "14 Nov, 12:19 AM IST"
+   "electors": 6435494,
+   "eta": "13 Nov, 11:49 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 10 - Palakonda (2024)",
-  "updated": "2026-11-13 14:22:05 IST",
+  "updated": "2026-11-13 14:22:35 IST",
   "year": "2024",
   "next": "13 - Salur (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,16 +43,21 @@
    "year": "2024",
    "ac": "10 - Palakonda",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 80,
    "total": 281,
-   "parts_per_min": 80.8,
+   "parts_per_min": 91.8,
    "prefetch": "13 - Salur (2024)",
-   "uploading": [
-    "9 - Rajam"
-   ],
-   "done_session": 15,
-   "parts_session": 4269,
+   "uploading": [],
+   "done_session": 16,
+   "parts_session": 4551,
    "last": [
+    {
+     "ac": "9 - Rajam",
+     "year": "2024",
+     "parts": 282,
+     "secs": 461,
+     "finished": "2026-11-13 14:22:31 IST"
+    },
     {
      "ac": "8 - Narasannapeta",
      "year": "2024",
@@ -80,19 +85,12 @@
      "parts": 278,
      "secs": 3715,
      "finished": "2026-11-13 13:55:47 IST"
-    },
-    {
-     "ac": "4 - Pathapatnam",
-     "year": "2024",
-     "parts": 321,
-     "secs": 4357,
-     "finished": "2026-11-13 13:55:33 IST"
     }
    ],
-   "load1": 11.28,
+   "load1": 11.07,
    "cores_busy": 8,
-   "updated": "2026-11-13 14:22:05 IST",
-   "updated_epoch": 1794559925,
+   "updated": "2026-11-13 14:22:35 IST",
+   "updated_epoch": 1794559955,
    "fetch": {
     "ac": "13 - Salur",
     "year": "2024",
@@ -101,7 +99,7 @@
     "mb": 503.7,
     "mbps": 32.39
    },
-   "age_s": 3
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -112,9 +110,9 @@
    "year": "2024",
    "ac": "157 - Hindupur",
    "phase": "OCR",
-   "processed": 140,
+   "processed": 210,
    "total": 253,
-   "parts_per_min": 44.0,
+   "parts_per_min": 44.6,
    "prefetch": "154 - Kalyandurg (2024)",
    "uploading": [],
    "done_session": 46,
@@ -156,10 +154,10 @@
      "finished": "2026-11-13 13:56:55 IST"
     }
    ],
-   "load1": 26.37,
+   "load1": 20.14,
    "cores_busy": 10,
-   "updated": "2026-11-13 14:20:42 IST",
-   "updated_epoch": 1794559842,
+   "updated": "2026-11-13 14:22:13 IST",
+   "updated_epoch": 1794559933,
    "fetch": {
     "ac": "154 - Kalyandurg",
     "year": "2024",
@@ -168,11 +166,20 @@
     "mb": 1188.0,
     "mbps": 6.84
    },
-   "age_s": 86
+   "age_s": 23
   }
  ],
- "throughput_ac_per_hr": 14.7,
+ "throughput_ac_per_hr": 15.3,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "9 - Rajam",
+   "worker": "box",
+   "parts": 282,
+   "electors": 224705,
+   "secs": 337,
+   "finished": "2026-11-13 14:21:53 IST"
+  },
   {
    "year": "2024",
    "ac": "158 - Penukonda",
@@ -235,15 +242,6 @@
    "electors": 260360,
    "secs": 342,
    "finished": "2026-11-13 14:02:53 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "162 - Thamballapalle",
-   "worker": "mac",
-   "parts": 236,
-   "electors": 231742,
-   "secs": 287,
-   "finished": "2026-11-13 13:56:00 IST"
   }
  ],
  "failures": [],
@@ -3636,18 +3634,18 @@
    "label": "9 - Rajam",
    "district": "Vizianagaram",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 282,
    "processed": 282,
    "needs_review": 8,
    "failed": 0,
    "elapsed_s": 336,
-   "electors": null,
+   "electors": 224705,
    "rate_per_min": 50.4,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1eHTXp9gHFcHJUZ_l2GbmkFFZnOld4jMDSlZar1Gfbc0/edit",
+   "folder": "https://drive.google.com/drive/folders/10bAYcAOShLYLv__HqDlHszv5Z_O-FGp2"
   },
   {
    "label": "159 - Puttaparthi",
@@ -3689,13 +3687,13 @@
    "year": "2024",
    "state": "running",
    "total": 281,
-   "processed": 40,
+   "processed": 80,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 24,
+   "elapsed_s": 47,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 145,
+   "rate_per_min": 102.1,
+   "eta_s": 118,
    "error": "",
    "sheet": "",
    "folder": ""
