@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 08:21:34 PM IST",
- "updated_epoch": 1794581494,
+ "updated": "13 Nov 2026, 08:23:22 PM IST",
+ "updated_epoch": 1794581602,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 08:21 PM IST"
+   "eta": "13 Nov, 08:23 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 101,
+   "done": 102,
    "errors": 0,
-   "parts": 26990,
-   "needs_review": 814,
+   "parts": 27241,
+   "needs_review": 827,
    "failed": 0,
-   "electors": 23596740,
-   "eta": "14 Nov, 02:16 AM IST"
+   "electors": 23825862,
+   "eta": "14 Nov, 02:13 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 37 - Pithapuram (2024)",
-  "updated": "2026-11-13 20:21:31 IST",
+  "phase": "downloading",
+  "updated": "2026-11-13 20:23:21 IST",
   "year": "2024",
   "next": "38 - Kakinada Rural (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,11 +41,11 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "37 - Pithapuram",
-   "phase": "OCR",
-   "processed": 70,
-   "total": 241,
-   "parts_per_min": 29.8,
+   "ac": "",
+   "phase": "downloading",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
    "prefetch": "38 - Kakinada Rural (2024)",
    "uploading": [
     "35 - Tuni"
@@ -89,19 +89,19 @@
      "finished": "2026-11-13 19:54:41 IST"
     }
    ],
-   "load1": 11.12,
-   "cores_busy": 8,
-   "updated": "2026-11-13 20:21:31 IST",
-   "updated_epoch": 1794581491,
+   "load1": 8.49,
+   "cores_busy": 0,
+   "updated": "2026-11-13 20:23:21 IST",
+   "updated_epoch": 1794581601,
    "fetch": {
     "ac": "38 - Kakinada Rural",
     "year": "2024",
-    "done": 17,
+    "done": 18,
     "total": 20,
-    "mb": 1229.5,
-    "mbps": 17.7
+    "mb": 1230.7,
+    "mbps": 4.21
    },
-   "age_s": 3
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -112,16 +112,21 @@
    "year": "2024",
    "ac": "107 - Santhanuthalapadu",
    "phase": "OCR",
-   "processed": 60,
+   "processed": 190,
    "total": 253,
-   "parts_per_min": 34.7,
+   "parts_per_min": 36.6,
    "prefetch": "104 - Parchur (2024)",
-   "uploading": [
-    "108 - Ongole"
-   ],
-   "done_session": 95,
-   "parts_session": 25754,
+   "uploading": [],
+   "done_session": 96,
+   "parts_session": 26005,
    "last": [
+    {
+     "ac": "108 - Ongole",
+     "year": "2024",
+     "parts": 251,
+     "secs": 637,
+     "finished": "2026-11-13 20:18:49 IST"
+    },
     {
      "ac": "109 - Kandukur",
      "year": "2024",
@@ -149,32 +154,34 @@
      "parts": 284,
      "secs": 741,
      "finished": "2026-11-13 19:49:45 IST"
-    },
-    {
-     "ac": "113 - Kanigiri",
-     "year": "2024",
-     "parts": 295,
-     "secs": 739,
-     "finished": "2026-11-13 19:42:54 IST"
     }
    ],
-   "load1": 34.06,
+   "load1": 30.51,
    "cores_busy": 10,
-   "updated": "2026-11-13 20:18:45 IST",
-   "updated_epoch": 1794581325,
+   "updated": "2026-11-13 20:22:13 IST",
+   "updated_epoch": 1794581533,
    "fetch": {
     "ac": "104 - Parchur",
     "year": "2024",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 18,
+    "total": 18,
+    "mb": 1201.1,
+    "mbps": 9.47
    },
-   "age_s": 169
+   "age_s": 69
   }
  ],
  "throughput_ac_per_hr": 12.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "108 - Ongole",
+   "worker": "mac",
+   "parts": 251,
+   "electors": 229122,
+   "secs": 403,
+   "finished": "2026-11-13 20:18:38 IST"
+  },
   {
    "year": "2024",
    "ac": "34 - Narsipatnam",
@@ -237,15 +244,6 @@
    "electors": 214608,
    "secs": 419,
    "finished": "2026-11-13 19:56:56 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "30 - Anakapalle",
-   "worker": "box",
-   "parts": 246,
-   "electors": 207436,
-   "secs": 2218,
-   "finished": "2026-11-13 19:54:38 IST"
   }
  ],
  "failures": [],
@@ -4981,18 +4979,35 @@
    "label": "37 - Pithapuram",
    "district": "Kakinada",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 241,
-   "processed": 80,
-   "needs_review": 1,
+   "processed": 241,
+   "needs_review": 13,
    "failed": 0,
-   "elapsed_s": 142,
+   "elapsed_s": 238,
    "electors": null,
-   "rate_per_min": 33.8,
-   "eta_s": 286,
+   "rate_per_min": 60.8,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "108 - Ongole",
+   "district": "Prakasam",
+   "year": "2024",
+   "state": "done",
+   "total": 251,
+   "processed": 251,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 403,
+   "electors": 229122,
+   "rate_per_min": 37.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1lzgPMxJJMY3YfdK5YzOdFh4ZveqU9OVrby-qB-K3IxA/edit",
+   "folder": "https://drive.google.com/drive/folders/1UdmVyiaPrS1Uweb0Ib8N9OiteqzePay-"
   }
  ]
 }
