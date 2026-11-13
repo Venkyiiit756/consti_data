@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 12:55:58 AM IST",
- "updated_epoch": 1794597958,
+ "updated": "14 Nov 2026, 01:24:14 AM IST",
+ "updated_epoch": 1794599654,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 12:55 AM IST"
+   "eta": "14 Nov, 01:24 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 165,
+   "done": 170,
    "errors": 0,
-   "parts": 42473,
-   "needs_review": 1313,
+   "parts": 43413,
+   "needs_review": 1340,
    "failed": 0,
-   "electors": 37802667,
-   "eta": "14 Nov, 01:22 AM IST"
+   "electors": 38719294,
+   "eta": "14 Nov, 01:31 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 53 - Rampachodavaram (2024)",
-  "updated": "2026-11-14 00:55:54 IST",
+  "updated": "2026-11-14 01:24:10 IST",
   "year": "2024",
   "next": "55 - Nidadavole (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,16 +43,21 @@
    "year": "2024",
    "ac": "53 - Rampachodavaram",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 160,
    "total": 399,
-   "parts_per_min": 64.7,
+   "parts_per_min": 5.6,
    "prefetch": "55 - Nidadavole (2024)",
-   "uploading": [
-    "52 - Jaggampeta"
-   ],
-   "done_session": 58,
-   "parts_session": 14840,
+   "uploading": [],
+   "done_session": 59,
+   "parts_session": 15088,
    "last": [
+    {
+     "ac": "52 - Jaggampeta",
+     "year": "2024",
+     "parts": 248,
+     "secs": 3523,
+     "finished": "2026-11-14 01:23:54 IST"
+    },
     {
      "ac": "51 - Rajahmundry Rural",
      "year": "2024",
@@ -80,99 +85,93 @@
      "parts": 211,
      "secs": 1969,
      "finished": "2026-11-14 00:14:50 IST"
-    },
-    {
-     "ac": "47 - Kothapeta",
-     "year": "2024",
-     "parts": 261,
-     "secs": 2913,
-     "finished": "2026-11-14 00:14:39 IST"
     }
    ],
-   "load1": 10.16,
+   "load1": 10.57,
    "cores_busy": 8,
-   "updated": "2026-11-14 00:55:54 IST",
-   "updated_epoch": 1794597954,
+   "updated": "2026-11-14 01:24:10 IST",
+   "updated_epoch": 1794599650,
    "fetch": {
     "ac": "55 - Nidadavole",
     "year": "2024",
-    "done": 3,
+    "done": 10,
     "total": 12,
-    "mb": 273.5,
-    "mbps": 103.9
+    "mb": 733.6,
+    "mbps": 0.44
    },
    "age_s": 4
   },
   {
    "worker": "mac",
-   "host": "192.168.1.7",
+   "host": "192.168.1.17",
    "cores_total": 10,
    "ocr_workers": 10,
-   "started": "2026-11-13 10:01:55 IST",
-   "year": "2024",
-   "ac": "58 - Narasapuram",
-   "phase": "OCR",
-   "processed": 110,
-   "total": 158,
-   "parts_per_min": 39.1,
-   "prefetch": "55 - Nidadavole (2024)",
+   "started": "2026-11-14 01:21:56 IST",
+   "year": "",
+   "ac": "",
+   "phase": "uploading last results",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
+   "prefetch": "",
    "uploading": [],
-   "done_session": 142,
-   "parts_session": 37481,
-   "last": [
-    {
-     "ac": "59 - Bhimavaram",
-     "year": "2024",
-     "parts": 205,
-     "secs": 636,
-     "finished": "2026-11-14 00:54:33 IST"
-    },
-    {
-     "ac": "60 - Undi",
-     "year": "2024",
-     "parts": 235,
-     "secs": 624,
-     "finished": "2026-11-14 00:49:55 IST"
-    },
-    {
-     "ac": "61 - Tanuku",
-     "year": "2024",
-     "parts": 220,
-     "secs": 454,
-     "finished": "2026-11-14 00:42:59 IST"
-    },
-    {
-     "ac": "62 - Tadepalligudem",
-     "year": "2024",
-     "parts": 193,
-     "secs": 572,
-     "finished": "2026-11-14 00:40:34 IST"
-    },
-    {
-     "ac": "63 - Ungutur",
-     "year": "2024",
-     "parts": 213,
-     "secs": 593,
-     "finished": "2026-11-14 00:35:50 IST"
-    }
-   ],
-   "load1": 22.17,
-   "cores_busy": 10,
-   "updated": "2026-11-14 00:55:17 IST",
-   "updated_epoch": 1794597917,
-   "fetch": {
-    "ac": "55 - Nidadavole",
-    "year": "2024",
-    "done": 12,
-    "total": 12,
-    "mb": 829.5,
-    "mbps": 10.7
-   },
-   "age_s": 41
+   "done_session": 0,
+   "parts_session": 0,
+   "last": [],
+   "load1": 2.01,
+   "cores_busy": 0,
+   "updated": "2026-11-14 01:23:43 IST",
+   "updated_epoch": 1794599623,
+   "age_s": 31
   }
  ],
- "throughput_ac_per_hr": 16.0,
+ "throughput_ac_per_hr": 16.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "52 - Jaggampeta",
+   "worker": "box",
+   "parts": 248,
+   "electors": 236803,
+   "secs": 1765,
+   "finished": "2026-11-14 01:23:51 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "55 - Nidadavole",
+   "worker": "mac",
+   "parts": 175,
+   "electors": 174125,
+   "secs": 263,
+   "finished": "2026-11-14 01:10:51 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "56 - Achanta",
+   "worker": "mac",
+   "parts": 183,
+   "electors": 174644,
+   "secs": 266,
+   "finished": "2026-11-14 01:05:47 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "57 - Palakollu",
+   "worker": "mac",
+   "parts": 176,
+   "electors": 176004,
+   "secs": 240,
+   "finished": "2026-11-14 01:01:47 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "58 - Narasapuram",
+   "worker": "mac",
+   "parts": 158,
+   "electors": 155051,
+   "secs": 222,
+   "finished": "2026-11-14 00:57:43 IST"
+  },
   {
    "year": "2024",
    "ac": "59 - Bhimavaram",
@@ -199,51 +198,6 @@
    "electors": 217185,
    "secs": 296,
    "finished": "2026-11-14 00:42:50 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "62 - Tadepalligudem",
-   "worker": "mac",
-   "parts": 193,
-   "electors": 192434,
-   "secs": 256,
-   "finished": "2026-11-14 00:38:55 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "63 - Ungutur",
-   "worker": "mac",
-   "parts": 213,
-   "electors": 204988,
-   "secs": 306,
-   "finished": "2026-11-14 00:34:53 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "64 - Denduluru",
-   "worker": "mac",
-   "parts": 231,
-   "electors": 213082,
-   "secs": 333,
-   "finished": "2026-11-14 00:29:58 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "51 - Rajahmundry Rural",
-   "worker": "box",
-   "parts": 235,
-   "electors": 232210,
-   "secs": 574,
-   "finished": "2026-11-14 00:26:34 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "65 - Eluru",
-   "worker": "mac",
-   "parts": 212,
-   "electors": 235345,
-   "secs": 332,
-   "finished": "2026-11-14 00:22:58 IST"
   }
  ],
  "failures": [],
@@ -5931,18 +5885,18 @@
    "label": "52 - Jaggampeta",
    "district": "Kakinada",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 248,
    "processed": 248,
    "needs_review": 5,
    "failed": 0,
    "elapsed_s": 1765,
-   "electors": null,
+   "electors": 236803,
    "rate_per_min": 8.4,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1zMIx9EZrFn6zANiMggss2hUFoeGUPGPFJJrRXnBUDuc/edit",
+   "folder": "https://drive.google.com/drive/folders/1YLKOg9MqMINUTqPNTpK5T0586y-uSUcK"
   },
   {
    "label": "60 - Undi",
@@ -6052,16 +6006,84 @@
    "year": "2024",
    "state": "running",
    "total": 399,
-   "processed": 10,
-   "needs_review": 0,
+   "processed": 170,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 8,
+   "elapsed_s": 1707,
    "electors": null,
-   "rate_per_min": 75.0,
-   "eta_s": 311,
+   "rate_per_min": 6.0,
+   "eta_s": 2299,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "55 - Nidadavole",
+   "district": "East Godavari",
+   "year": "2024",
+   "state": "done",
+   "total": 175,
+   "processed": 175,
+   "needs_review": 11,
+   "failed": 0,
+   "elapsed_s": 263,
+   "electors": 174125,
+   "rate_per_min": 39.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1tFdAIfO4oNBPriH0BY4VCKSUC3yLkXnTzhm3g6SQYLg/edit",
+   "folder": "https://drive.google.com/drive/folders/1pHva3Qea_84Lpdnuyj4IbdiyK6uC0otx"
+  },
+  {
+   "label": "56 - Achanta",
+   "district": "West Godavari",
+   "year": "2024",
+   "state": "done",
+   "total": 183,
+   "processed": 183,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 266,
+   "electors": 174644,
+   "rate_per_min": 41.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/19NC7eE5ta63JJQ6XJ0GLt3D_0nKhscTuF8q6ZldPD-M/edit",
+   "folder": "https://drive.google.com/drive/folders/1x_92xbT_NWbNaaKiWEtlXk0AzG8rgP0H"
+  },
+  {
+   "label": "57 - Palakollu",
+   "district": "West Godavari",
+   "year": "2024",
+   "state": "done",
+   "total": 176,
+   "processed": 176,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 240,
+   "electors": 176004,
+   "rate_per_min": 44.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1lrVEOpCj4nxJlH45TVtzzF5j39qBdG0kS_1ZOO2iJmg/edit",
+   "folder": "https://drive.google.com/drive/folders/1Qt9AsmG9cAmK-KxM79VbR6pNZBdMyRzE"
+  },
+  {
+   "label": "58 - Narasapuram",
+   "district": "West Godavari",
+   "year": "2024",
+   "state": "done",
+   "total": 158,
+   "processed": 158,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 222,
+   "electors": 155051,
+   "rate_per_min": 42.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1o7UD--DEmLQANjQfIZpKFF5E-l9F75tdROrA91M_FxE/edit",
+   "folder": "https://drive.google.com/drive/folders/1QVdrSURgIq_cDzwg6VHYHO08UOnpEG3-"
   }
  ]
 }
