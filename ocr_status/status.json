@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 06:19:43 PM IST",
- "updated_epoch": 1794574183,
+ "updated": "13 Nov 2026, 06:21:43 PM IST",
+ "updated_epoch": 1794574303,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 06:19 PM IST"
+   "eta": "13 Nov, 06:21 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 76,
+   "done": 77,
    "errors": 0,
-   "parts": 20079,
-   "needs_review": 606,
+   "parts": 20321,
+   "needs_review": 609,
    "failed": 0,
-   "electors": 17772537,
-   "eta": "14 Nov, 02:19 AM IST"
+   "electors": 17995562,
+   "eta": "14 Nov, 01:51 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 26 - Chodavaram (2024)",
-  "updated": "2026-11-13 18:19:42 IST",
+  "phase": "OCR 27 - Madugula (2024)",
+  "updated": "2026-11-13 18:21:42 IST",
   "year": "2024",
-  "next": "29 - Paderu (2024)",
+  "next": "30 - Anakapalle (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "26 - Chodavaram",
+   "ac": "27 - Madugula",
    "phase": "OCR",
-   "processed": 240,
-   "total": 242,
-   "parts_per_min": 97.7,
-   "prefetch": "29 - Paderu (2024)",
+   "processed": 190,
+   "total": 235,
+   "parts_per_min": 95.1,
+   "prefetch": "30 - Anakapalle (2024)",
    "uploading": [],
-   "done_session": 32,
-   "parts_session": 8663,
+   "done_session": 33,
+   "parts_session": 8905,
    "last": [
+    {
+     "ac": "26 - Chodavaram",
+     "year": "2024",
+     "parts": 242,
+     "secs": 263,
+     "finished": "2026-11-13 18:20:30 IST"
+    },
     {
      "ac": "25 - Gajuwaka",
      "year": "2024",
@@ -78,26 +85,19 @@
      "parts": 210,
      "secs": 3117,
      "finished": "2026-11-13 16:55:48 IST"
-    },
-    {
-     "ac": "21 - Visakhapatnam East",
-     "year": "2024",
-     "parts": 245,
-     "secs": 243,
-     "finished": "2026-11-13 16:22:46 IST"
     }
    ],
-   "load1": 10.15,
-   "cores_busy": 2,
-   "updated": "2026-11-13 18:19:42 IST",
-   "updated_epoch": 1794574182,
+   "load1": 11.17,
+   "cores_busy": 8,
+   "updated": "2026-11-13 18:21:42 IST",
+   "updated_epoch": 1794574302,
    "fetch": {
-    "ac": "29 - Paderu",
+    "ac": "30 - Anakapalle",
     "year": "2024",
-    "done": 18,
-    "total": 18,
-    "mb": 1374.3,
-    "mbps": 18.88
+    "done": 16,
+    "total": 16,
+    "mb": 1115.5,
+    "mbps": 14.67
    },
    "age_s": 1
   },
@@ -110,9 +110,9 @@
    "year": "2024",
    "ac": "124 - Badvel",
    "phase": "OCR",
-   "processed": 160,
+   "processed": 250,
    "total": 272,
-   "parts_per_min": 39.3,
+   "parts_per_min": 40.9,
    "prefetch": "121 - Sullurpeta (2024)",
    "uploading": [],
    "done_session": 79,
@@ -154,10 +154,10 @@
      "finished": "2026-11-13 17:49:59 IST"
     }
    ],
-   "load1": 41.15,
+   "load1": 25.02,
    "cores_busy": 10,
-   "updated": "2026-11-13 18:19:13 IST",
-   "updated_epoch": 1794574153,
+   "updated": "2026-11-13 18:21:15 IST",
+   "updated_epoch": 1794574275,
    "fetch": {
     "ac": "121 - Sullurpeta",
     "year": "2024",
@@ -166,11 +166,20 @@
     "mb": 1361.1,
     "mbps": 7.03
    },
-   "age_s": 30
+   "age_s": 28
   }
  ],
- "throughput_ac_per_hr": 12.0,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "26 - Chodavaram",
+   "worker": "box",
+   "parts": 242,
+   "electors": 223025,
+   "secs": 148,
+   "finished": "2026-11-13 18:19:54 IST"
+  },
   {
    "year": "2024",
    "ac": "25 - Gajuwaka",
@@ -233,15 +242,6 @@
    "electors": 292189,
    "secs": 1526,
    "finished": "2026-11-13 17:54:40 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "129 - Pulivendla",
-   "worker": "mac",
-   "parts": 301,
-   "electors": 229687,
-   "secs": 421,
-   "finished": "2026-11-13 17:48:58 IST"
   }
  ],
  "failures": [],
@@ -4501,18 +4501,18 @@
    "label": "26 - Chodavaram",
    "district": "Anakapalli",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 242,
    "processed": 242,
    "needs_review": 4,
    "failed": 0,
    "elapsed_s": 147,
-   "electors": null,
+   "electors": 223025,
    "rate_per_min": 98.8,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1OBH_42Yrtd8I48aU2CCZD2IEVcmBKxVv6IOiX-mooaw/edit",
+   "folder": "https://drive.google.com/drive/folders/1XFqxH81TmgQ0G1h9eekwByEDhj_q6cmP"
   },
   {
    "label": "125 - Rajampet",
@@ -4537,13 +4537,13 @@
    "year": "2024",
    "state": "running",
    "total": 235,
-   "processed": 0,
-   "needs_review": 0,
+   "processed": 200,
+   "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 0,
+   "elapsed_s": 121,
    "electors": null,
-   "rate_per_min": 0,
-   "eta_s": null,
+   "rate_per_min": 99.2,
+   "eta_s": 21,
    "error": "",
    "sheet": "",
    "folder": ""
