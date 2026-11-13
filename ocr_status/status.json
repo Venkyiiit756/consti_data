@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 01:57:05 PM IST",
- "updated_epoch": 1794558425,
+ "updated": "13 Nov 2026, 01:57:21 PM IST",
+ "updated_epoch": 1794558441,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -19,15 +19,15 @@
    "done": 19,
    "errors": 0,
    "parts": 5227,
-   "needs_review": 153,
+   "needs_review": 156,
    "failed": 0,
    "electors": 4595033,
-   "eta": "13 Nov, 11:30 PM IST"
+   "eta": "13 Nov, 11:31 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 6 - Amadalavalasa (2024)",
-  "updated": "2026-11-13 13:57:02 IST",
+  "updated": "2026-11-13 13:57:17 IST",
   "year": "2024",
   "next": "8 - Narasannapeta (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "6 - Amadalavalasa",
    "phase": "OCR",
-   "processed": 150,
+   "processed": 180,
    "total": 253,
-   "parts_per_min": 96.6,
+   "parts_per_min": 99.9,
    "prefetch": "8 - Narasannapeta (2024)",
    "uploading": [],
    "done_session": 12,
@@ -87,10 +87,10 @@
      "finished": "2026-11-13 12:39:47 IST"
     }
    ],
-   "load1": 12.11,
+   "load1": 11.95,
    "cores_busy": 8,
-   "updated": "2026-11-13 13:57:02 IST",
-   "updated_epoch": 1794558422,
+   "updated": "2026-11-13 13:57:17 IST",
+   "updated_epoch": 1794558437,
    "fetch": {
     "ac": "8 - Narasannapeta",
     "year": "2024",
@@ -99,7 +99,7 @@
     "mb": 858.7,
     "mbps": 0.24
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -168,7 +168,7 @@
     "mb": 0.2,
     "mbps": 0.02
    },
-   "age_s": 72
+   "age_s": 88
   }
  ],
  "throughput_ac_per_hr": 16.0,
@@ -3434,13 +3434,13 @@
    "year": "2024",
    "state": "running",
    "total": 253,
-   "processed": 160,
-   "needs_review": 5,
+   "processed": 180,
+   "needs_review": 8,
    "failed": 0,
-   "elapsed_s": 96,
+   "elapsed_s": 108,
    "electors": null,
    "rate_per_min": 100.0,
-   "eta_s": 56,
+   "eta_s": 44,
    "error": "",
    "sheet": "",
    "folder": ""
