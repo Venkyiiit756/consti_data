@@ -1,17 +1,17 @@
 {
- "updated": "13 Nov 2026, 05:25:26 AM IST",
- "updated_epoch": 1794527726,
+ "updated": "13 Nov 2026, 05:49:22 AM IST",
+ "updated_epoch": 1794529162,
  "total_constituencies": 175,
- "done_constituencies": 71,
+ "done_constituencies": 76,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 71,
+   "done": 76,
    "errors": 0,
-   "parts": 20660,
-   "needs_review": 732,
+   "parts": 22118,
+   "needs_review": 753,
    "failed": 3,
-   "electors": 15245602,
+   "electors": 16350480,
    "eta": "13 Nov, 01:38 PM IST"
   },
   "2024": {
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 03:12 AM IST"
+   "eta": "14 Nov, 03:13 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 43 - Mummidivaram (2026)",
-  "updated": "2026-11-13 05:25:25 IST",
+  "updated": "2026-11-13 05:49:19 IST",
   "year": "2026",
   "next": "44 - Amalapuram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2026",
    "ac": "43 - Mummidivaram",
    "phase": "OCR",
-   "processed": 150,
+   "processed": 280,
    "total": 307,
-   "parts_per_min": 100.2,
+   "parts_per_min": 11.0,
    "prefetch": "44 - Amalapuram (2026)",
    "uploading": [],
    "done_session": 15,
@@ -87,19 +87,19 @@
      "finished": "2026-11-13 04:16:38 IST"
     }
    ],
-   "load1": 9.2,
+   "load1": 12.08,
    "cores_busy": 8,
-   "updated": "2026-11-13 05:25:25 IST",
-   "updated_epoch": 1794527725,
+   "updated": "2026-11-13 05:49:19 IST",
+   "updated_epoch": 1794529159,
    "fetch": {
     "ac": "44 - Amalapuram",
     "year": "2026",
-    "done": 20,
+    "done": 32,
     "total": 38,
-    "mb": 1422.8,
-    "mbps": 48.31
+    "mb": 2374.1,
+    "mbps": 1.62
    },
-   "age_s": 1
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -166,11 +166,56 @@
     "mb": 2621.1,
     "mbps": 10.37
    },
-   "age_s": 71
+   "age_s": 1507
   }
  ],
  "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "143 - Kodumur",
+   "worker": "mac",
+   "parts": 265,
+   "electors": 208738,
+   "secs": 306,
+   "finished": "2026-11-13 05:47:49 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "144 - Yemmiganur",
+   "worker": "mac",
+   "parts": 322,
+   "electors": 221701,
+   "secs": 370,
+   "finished": "2026-11-13 05:42:45 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "145 - Mantralayam",
+   "worker": "mac",
+   "parts": 267,
+   "electors": 197152,
+   "secs": 303,
+   "finished": "2026-11-13 05:36:55 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "146 - Adoni",
+   "worker": "mac",
+   "parts": 284,
+   "electors": 239974,
+   "secs": 326,
+   "finished": "2026-11-13 05:32:54 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "147 - Alur",
+   "worker": "mac",
+   "parts": 320,
+   "electors": 237313,
+   "secs": 359,
+   "finished": "2026-11-13 05:25:48 IST"
+  },
   {
    "year": "2026",
    "ac": "148 - Rayadurg",
@@ -197,51 +242,6 @@
    "electors": 245673,
    "secs": 394,
    "finished": "2026-11-13 05:07:48 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "151 - Tadpatri",
-   "worker": "mac",
-   "parts": 248,
-   "electors": 167972,
-   "secs": 302,
-   "finished": "2026-11-13 05:01:50 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "152 - Singanamala",
-   "worker": "mac",
-   "parts": 314,
-   "electors": 222458,
-   "secs": 373,
-   "finished": "2026-11-13 04:55:56 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "42 - Ramachandrapuram",
-   "worker": "box",
-   "parts": 247,
-   "electors": 188410,
-   "secs": 1435,
-   "finished": "2026-11-13 04:52:37 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "153 - Anantapur Urban",
-   "worker": "mac",
-   "parts": 355,
-   "electors": 228673,
-   "secs": 421,
-   "finished": "2026-11-13 04:49:43 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "154 - Kalyandurg",
-   "worker": "mac",
-   "parts": 282,
-   "electors": 217858,
-   "secs": 332,
-   "finished": "2026-11-13 04:42:46 IST"
   }
  ],
  "failures": [],
@@ -1460,16 +1460,101 @@
    "year": "2026",
    "state": "running",
    "total": 307,
-   "processed": 150,
+   "processed": 290,
    "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 86,
+   "elapsed_s": 1526,
    "electors": null,
-   "rate_per_min": 104.7,
-   "eta_s": 90,
+   "rate_per_min": 11.4,
+   "eta_s": 89,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "143 - Kodumur",
+   "district": "Kurnool",
+   "year": "2026",
+   "state": "done",
+   "total": 265,
+   "processed": 265,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 306,
+   "electors": 208738,
+   "rate_per_min": 52.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ew8WNVY4xTd18D-1yZDbscwT5MSv-xzSCGlBZMted5A/edit",
+   "folder": "https://drive.google.com/drive/folders/1Kf1iO7g_rCFt7vTStTDJsZJmThF61RDN"
+  },
+  {
+   "label": "144 - Yemmiganur",
+   "district": "Kurnool",
+   "year": "2026",
+   "state": "done",
+   "total": 322,
+   "processed": 322,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 370,
+   "electors": 221701,
+   "rate_per_min": 52.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1vO7uT8n5cjmEZth2ERbHYyuoED9pFLq0q9i1f0_VXL8/edit",
+   "folder": "https://drive.google.com/drive/folders/1McEOZ1M66k9wg3Pg5EgZ6dEX0yffXyL0"
+  },
+  {
+   "label": "145 - Mantralayam",
+   "district": "Kurnool",
+   "year": "2026",
+   "state": "done",
+   "total": 267,
+   "processed": 267,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 303,
+   "electors": 197152,
+   "rate_per_min": 52.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1vRayv8HTL3mDvNd_oyagEOlLaYwA0x3fkvCiDkOjadI/edit",
+   "folder": "https://drive.google.com/drive/folders/1HMrdi4xWKjBfvTg_jLGVu4PHNHoY-Ohp"
+  },
+  {
+   "label": "146 - Adoni",
+   "district": "Kurnool",
+   "year": "2026",
+   "state": "done",
+   "total": 284,
+   "processed": 284,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 326,
+   "electors": 239974,
+   "rate_per_min": 52.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/15Jnxy3SYzf_8Hmeg7ReOPGpau6D33H9GZiGNuOMoK9c/edit",
+   "folder": "https://drive.google.com/drive/folders/1bcgRseyE7Ef_74b38vJ9-aR4r2ScZsLU"
+  },
+  {
+   "label": "147 - Alur",
+   "district": "Kurnool",
+   "year": "2026",
+   "state": "done",
+   "total": 320,
+   "processed": 320,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 359,
+   "electors": 237313,
+   "rate_per_min": 53.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ymme9aIYSFhgiSBFUHMfare0vNUf2kbFtt3kJMCJcVo/edit",
+   "folder": "https://drive.google.com/drive/folders/1qOCxjjR_s5TNDTiRNdFFB2f3j1fRQLr9"
   }
  ]
 }
