@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 07:17:29 PM IST",
- "updated_epoch": 1794577649,
+ "updated": "13 Nov 2026, 07:18:57 PM IST",
+ "updated_epoch": 1794577737,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 07:17 PM IST"
+   "eta": "13 Nov, 07:18 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 87,
+   "done": 89,
    "errors": 0,
-   "parts": 23043,
-   "needs_review": 682,
+   "parts": 23684,
+   "needs_review": 690,
    "failed": 0,
-   "electors": 20282486,
-   "eta": "14 Nov, 02:00 AM IST"
+   "electors": 20796743,
+   "eta": "14 Nov, 01:14 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 30 - Anakapalle (2024)",
-  "updated": "2026-11-13 19:17:26 IST",
+  "updated": "2026-11-13 19:18:56 IST",
   "year": "2024",
-  "next": "",
+  "next": "33 - Payakaraopet (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,16 +43,21 @@
    "year": "2024",
    "ac": "30 - Anakapalle",
    "phase": "OCR",
-   "processed": 50,
+   "processed": 200,
    "total": 246,
-   "parts_per_min": 90.6,
-   "prefetch": "",
-   "uploading": [
-    "29 - Paderu"
-   ],
-   "done_session": 35,
-   "parts_session": 9443,
+   "parts_per_min": 97.5,
+   "prefetch": "33 - Payakaraopet (2024)",
+   "uploading": [],
+   "done_session": 36,
+   "parts_session": 9760,
    "last": [
+    {
+     "ac": "29 - Paderu",
+     "year": "2024",
+     "parts": 317,
+     "secs": 3108,
+     "finished": "2026-11-13 19:17:45 IST"
+    },
     {
      "ac": "28 - Araku Valley",
      "year": "2024",
@@ -80,21 +85,21 @@
      "parts": 299,
      "secs": 3242,
      "finished": "2026-11-13 18:17:45 IST"
-    },
-    {
-     "ac": "24 - Visakhapatnam West",
-     "year": "2024",
-     "parts": 220,
-     "secs": 2230,
-     "finished": "2026-11-13 17:56:47 IST"
     }
    ],
-   "load1": 10.96,
+   "load1": 11.8,
    "cores_busy": 8,
-   "updated": "2026-11-13 19:17:26 IST",
-   "updated_epoch": 1794577646,
-   "fetch": null,
-   "age_s": 3
+   "updated": "2026-11-13 19:18:56 IST",
+   "updated_epoch": 1794577736,
+   "fetch": {
+    "ac": "33 - Payakaraopet",
+    "year": "2024",
+    "done": 17,
+    "total": 19,
+    "mb": 1195.8,
+    "mbps": 15.69
+   },
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -103,13 +108,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "116 - Kovur",
+   "ac": "115 - Atmakur",
    "phase": "OCR",
-   "processed": 260,
-   "total": 324,
-   "parts_per_min": 38.2,
-   "prefetch": "113 - Kanigiri (2024)",
-   "uploading": [],
+   "processed": 10,
+   "total": 278,
+   "parts_per_min": 20.5,
+   "prefetch": "112 - Giddalur (2024)",
+   "uploading": [
+    "116 - Kovur"
+   ],
    "done_session": 87,
    "parts_session": 23448,
    "last": [
@@ -149,23 +156,41 @@
      "finished": "2026-11-13 18:47:31 IST"
     }
    ],
-   "load1": 20.72,
+   "load1": 25.59,
    "cores_busy": 10,
-   "updated": "2026-11-13 19:15:55 IST",
-   "updated_epoch": 1794577555,
+   "updated": "2026-11-13 19:17:51 IST",
+   "updated_epoch": 1794577671,
    "fetch": {
-    "ac": "113 - Kanigiri",
+    "ac": "112 - Giddalur",
     "year": "2024",
-    "done": 18,
-    "total": 18,
-    "mb": 1285.8,
-    "mbps": 8.2
+    "done": 2,
+    "total": 19,
+    "mb": 84.2,
+    "mbps": 4.78
    },
-   "age_s": 94
+   "age_s": 66
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 14.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "116 - Kovur",
+   "worker": "mac",
+   "parts": 324,
+   "electors": 267345,
+   "secs": 496,
+   "finished": "2026-11-13 19:17:53 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "29 - Paderu",
+   "worker": "box",
+   "parts": 317,
+   "electors": 246912,
+   "secs": 2984,
+   "finished": "2026-11-13 19:17:41 IST"
+  },
   {
    "year": "2024",
    "ac": "117 - Nellore City",
@@ -219,24 +244,6 @@
    "electors": 246953,
    "secs": 449,
    "finished": "2026-11-13 18:46:49 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "122 - Venkatagiri",
-   "worker": "mac",
-   "parts": 298,
-   "electors": 243582,
-   "secs": 438,
-   "finished": "2026-11-13 18:38:41 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "123 - Udayagiri",
-   "worker": "mac",
-   "parts": 322,
-   "electors": 240488,
-   "secs": 471,
-   "finished": "2026-11-13 18:30:50 IST"
   }
  ],
  "failures": [],
@@ -4581,18 +4588,18 @@
    "label": "29 - Paderu",
    "district": "Alluri Sitharama Raju",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 317,
    "processed": 317,
    "needs_review": 7,
    "failed": 0,
    "elapsed_s": 2984,
-   "electors": null,
+   "electors": 246912,
    "rate_per_min": 6.4,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1dd_fws8YF3U8KdJXG7kTkSNgDJ4eZ61GQMuEGJFXuSg/edit",
+   "folder": "https://drive.google.com/drive/folders/10UYaoMYZHwVqwTSMI6POSiuGxtAUcZ9P"
   },
   {
    "label": "121 - Sullurpeta",
@@ -4719,16 +4726,33 @@
    "year": "2024",
    "state": "running",
    "total": 246,
-   "processed": 60,
+   "processed": 200,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 34,
+   "elapsed_s": 120,
    "electors": null,
-   "rate_per_min": 105.9,
-   "eta_s": 105,
+   "rate_per_min": 100.0,
+   "eta_s": 28,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "116 - Kovur",
+   "district": "Nellore",
+   "year": "2024",
+   "state": "done",
+   "total": 324,
+   "processed": 324,
+   "needs_review": 8,
+   "failed": 0,
+   "elapsed_s": 496,
+   "electors": 267345,
+   "rate_per_min": 39.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1FBSzmoZuEF4JITwPigOL6kfJ_keiDPUpy0IPIs6BTwQ/edit",
+   "folder": "https://drive.google.com/drive/folders/16QWDDZhV62KD-g9o5JQJEYa2F472ZbJU"
   }
  ]
 }
