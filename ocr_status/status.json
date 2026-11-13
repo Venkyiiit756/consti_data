@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 10:14:43 PM IST",
- "updated_epoch": 1794588283,
+ "updated": "13 Nov 2026, 10:16:53 PM IST",
+ "updated_epoch": 1794588413,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 10:14 PM IST"
+   "eta": "13 Nov, 10:16 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 125,
+   "done": 128,
    "errors": 0,
-   "parts": 33091,
-   "needs_review": 1070,
+   "parts": 33748,
+   "needs_review": 1080,
    "failed": 0,
-   "electors": 29095998,
-   "eta": "14 Nov, 01:46 AM IST"
+   "electors": 29708974,
+   "eta": "14 Nov, 01:16 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 40 - Anaparthi (2024)",
-  "updated": "2026-11-13 22:14:41 IST",
+  "phase": "OCR 42 - Ramachandrapuram (2024)",
+  "updated": "2026-11-13 22:16:51 IST",
   "year": "2024",
-  "next": "43 - Mummidivaram (2024)",
+  "next": "44 - Amalapuram (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,30 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "40 - Anaparthi",
+   "ac": "42 - Ramachandrapuram",
    "phase": "OCR",
-   "processed": 220,
-   "total": 227,
-   "parts_per_min": 8.6,
-   "prefetch": "43 - Mummidivaram (2024)",
+   "processed": 20,
+   "total": 235,
+   "parts_per_min": 67.2,
+   "prefetch": "44 - Amalapuram (2024)",
    "uploading": [],
-   "done_session": 46,
-   "parts_session": 12205,
+   "done_session": 48,
+   "parts_session": 12618,
    "last": [
+    {
+     "ac": "41 - Kakinada City",
+     "year": "2024",
+     "parts": 186,
+     "secs": 192,
+     "finished": "2026-11-13 22:16:47 IST"
+    },
+    {
+     "ac": "40 - Anaparthi",
+     "year": "2024",
+     "parts": 227,
+     "secs": 3172,
+     "finished": "2026-11-13 22:14:53 IST"
+    },
     {
      "ac": "39 - Peddapuram",
      "year": "2024",
@@ -71,33 +85,19 @@
      "parts": 241,
      "secs": 2157,
      "finished": "2026-11-13 20:53:51 IST"
-    },
-    {
-     "ac": "36 - Prathipadu",
-     "year": "2024",
-     "parts": 223,
-     "secs": 2270,
-     "finished": "2026-11-13 20:53:33 IST"
-    },
-    {
-     "ac": "35 - Tuni",
-     "year": "2024",
-     "parts": 215,
-     "secs": 2405,
-     "finished": "2026-11-13 20:52:47 IST"
     }
    ],
-   "load1": 10.7,
-   "cores_busy": 7,
-   "updated": "2026-11-13 22:14:41 IST",
-   "updated_epoch": 1794588281,
+   "load1": 11.12,
+   "cores_busy": 8,
+   "updated": "2026-11-13 22:16:51 IST",
+   "updated_epoch": 1794588411,
    "fetch": {
-    "ac": "43 - Mummidivaram",
+    "ac": "44 - Amalapuram",
     "year": "2024",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 6,
+    "total": 17,
+    "mb": 420.3,
+    "mbps": 32.05
    },
    "age_s": 2
   },
@@ -108,13 +108,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "86 - Tadikonda",
+   "ac": "85 - Pedakurapadu",
    "phase": "OCR",
-   "processed": 140,
-   "total": 244,
-   "parts_per_min": 37.4,
-   "prefetch": "83 - Nandigama (2024)",
-   "uploading": [],
+   "processed": 20,
+   "total": 266,
+   "parts_per_min": 36.1,
+   "prefetch": "82 - Mylavaram (2024)",
+   "uploading": [
+    "86 - Tadikonda"
+   ],
    "done_session": 114,
    "parts_session": 30734,
    "last": [
@@ -154,23 +156,50 @@
      "finished": "2026-11-13 21:45:47 IST"
     }
    ],
-   "load1": 27.64,
+   "load1": 23.94,
    "cores_busy": 10,
-   "updated": "2026-11-13 22:12:54 IST",
-   "updated_epoch": 1794588174,
+   "updated": "2026-11-13 22:15:56 IST",
+   "updated_epoch": 1794588356,
    "fetch": {
-    "ac": "83 - Nandigama",
+    "ac": "82 - Mylavaram",
     "year": "2024",
-    "done": 15,
-    "total": 15,
-    "mb": 937.8,
-    "mbps": 10.48
+    "done": 3,
+    "total": 22,
+    "mb": 259.6,
+    "mbps": 11.43
    },
-   "age_s": 109
+   "age_s": 57
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 14.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "41 - Kakinada City",
+   "worker": "box",
+   "parts": 186,
+   "electors": 180635,
+   "secs": 112,
+   "finished": "2026-11-13 22:16:44 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "86 - Tadikonda",
+   "worker": "mac",
+   "parts": 244,
+   "electors": 207615,
+   "secs": 374,
+   "finished": "2026-11-13 22:15:50 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "40 - Anaparthi",
+   "worker": "box",
+   "parts": 227,
+   "electors": 224726,
+   "secs": 1533,
+   "finished": "2026-11-13 22:14:49 IST"
+  },
   {
    "year": "2024",
    "ac": "39 - Peddapuram",
@@ -215,33 +244,6 @@
    "electors": 223040,
    "secs": 359,
    "finished": "2026-11-13 21:52:38 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "38 - Kakinada Rural",
-   "worker": "box",
-   "parts": 252,
-   "electors": 252320,
-   "secs": 1586,
-   "finished": "2026-11-13 21:47:48 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "91 - Tenali",
-   "worker": "mac",
-   "parts": 269,
-   "electors": 262087,
-   "secs": 381,
-   "finished": "2026-11-13 21:44:57 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "92 - Bapatla",
-   "worker": "mac",
-   "parts": 200,
-   "electors": 188065,
-   "secs": 283,
-   "finished": "2026-11-13 21:39:57 IST"
   }
  ],
  "failures": [],
@@ -5283,18 +5285,18 @@
    "label": "40 - Anaparthi",
    "district": "East Godavari",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 227,
    "processed": 227,
    "needs_review": 0,
    "failed": 0,
    "elapsed_s": 1533,
-   "electors": null,
+   "electors": 224726,
    "rate_per_min": 8.9,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1m_7ooUKN_cXSWteD54pYL6Jps-ibdzJtS_caK7GWa18/edit",
+   "folder": "https://drive.google.com/drive/folders/1mK3ipPWPYU15uFsr4ye-kKGcNFIaGTiK"
   },
   {
    "label": "87 - Mangalagiri",
@@ -5368,18 +5370,52 @@
    "label": "41 - Kakinada City",
    "district": "Kakinada",
    "year": "2024",
-   "state": "running",
+   "state": "done",
    "total": 186,
-   "processed": 0,
+   "processed": 186,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 111,
+   "electors": 180635,
+   "rate_per_min": 100.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Nv0tkyeGxCu6Qky0wIWBJNlD5ASW3b6K0PIDvp4Juzg/edit",
+   "folder": "https://drive.google.com/drive/folders/1O6x4QXbEuFs4zfw5iNwXzgwoIxHikmw1"
+  },
+  {
+   "label": "42 - Ramachandrapuram",
+   "district": "Konaseema",
+   "year": "2024",
+   "state": "running",
+   "total": 235,
+   "processed": 30,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 0,
+   "elapsed_s": 19,
    "electors": null,
-   "rate_per_min": 0,
-   "eta_s": null,
+   "rate_per_min": 94.7,
+   "eta_s": 130,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "86 - Tadikonda",
+   "district": "Guntur",
+   "year": "2024",
+   "state": "done",
+   "total": 244,
+   "processed": 244,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 374,
+   "electors": 207615,
+   "rate_per_min": 39.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ESad2KSDPuU8_3DUNt4pNOOJG1A2XF43JKQwQpsFHp4/edit",
+   "folder": "https://drive.google.com/drive/folders/15YuXiSysMg1chZm7D8pyB43myoCTqy82"
   }
  ]
 }
