@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 02:57:07 PM IST",
- "updated_epoch": 1794562027,
+ "updated": "13 Nov 2026, 03:03:25 PM IST",
+ "updated_epoch": 1794562405,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 02:57 PM IST"
+   "eta": "13 Nov, 03:03 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 35,
+   "done": 36,
    "errors": 0,
-   "parts": 9450,
-   "needs_review": 316,
+   "parts": 9726,
+   "needs_review": 321,
    "failed": 0,
-   "electors": 8209950,
-   "eta": "13 Nov, 11:30 PM IST"
+   "electors": 8487538,
+   "eta": "13 Nov, 11:33 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 11 - Kurupam (2024)",
-  "updated": "2026-11-13 14:57:03 IST",
+  "phase": "OCR 12 - Parvathipuram (2024)",
+  "updated": "2026-11-13 15:03:24 IST",
   "year": "2024",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "11 - Kurupam",
+   "ac": "12 - Parvathipuram",
    "phase": "OCR",
-   "processed": 90,
-   "total": 268,
-   "parts_per_min": 94.6,
+   "processed": 30,
+   "total": 231,
+   "parts_per_min": 76.3,
    "prefetch": "",
-   "uploading": [],
+   "uploading": [
+    "11 - Kurupam"
+   ],
    "done_session": 17,
    "parts_session": 4832,
    "last": [
@@ -87,12 +89,12 @@
      "finished": "2026-11-13 14:10:43 IST"
     }
    ],
-   "load1": 11.37,
+   "load1": 10.91,
    "cores_busy": 8,
-   "updated": "2026-11-13 14:57:03 IST",
-   "updated_epoch": 1794562023,
+   "updated": "2026-11-13 15:03:24 IST",
+   "updated_epoch": 1794562404,
    "fetch": null,
-   "age_s": 4
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -101,13 +103,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "150 - Guntakal",
+   "ac": "149 - Uravakonda",
    "phase": "OCR",
-   "processed": 120,
-   "total": 276,
-   "parts_per_min": 46.2,
-   "prefetch": "147 - Alur (2024)",
-   "uploading": [],
+   "processed": 50,
+   "total": 259,
+   "parts_per_min": 42.1,
+   "prefetch": "146 - Adoni (2024)",
+   "uploading": [
+    "150 - Guntakal"
+   ],
    "done_session": 53,
    "parts_session": 14466,
    "last": [
@@ -147,23 +151,32 @@
      "finished": "2026-11-13 14:36:42 IST"
     }
    ],
-   "load1": 23.67,
+   "load1": 23.83,
    "cores_busy": 10,
-   "updated": "2026-11-13 14:56:46 IST",
-   "updated_epoch": 1794562006,
+   "updated": "2026-11-13 15:00:55 IST",
+   "updated_epoch": 1794562255,
    "fetch": {
-    "ac": "147 - Alur",
+    "ac": "146 - Adoni",
     "year": "2024",
-    "done": 9,
-    "total": 9,
-    "mb": 603.8,
-    "mbps": 8.57
+    "done": 10,
+    "total": 20,
+    "mb": 759.8,
+    "mbps": 12.29
    },
-   "age_s": 21
+   "age_s": 150
   }
  ],
  "throughput_ac_per_hr": 16.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "150 - Guntakal",
+   "worker": "mac",
+   "parts": 276,
+   "electors": 277588,
+   "secs": 333,
+   "finished": "2026-11-13 15:00:53 IST"
+  },
   {
    "year": "2024",
    "ac": "10 - Palakonda",
@@ -226,15 +239,6 @@
    "electors": 210804,
    "secs": 303,
    "finished": "2026-11-13 14:30:52 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "157 - Hindupur",
-   "worker": "mac",
-   "parts": 253,
-   "electors": 243974,
-   "secs": 326,
-   "finished": "2026-11-13 14:26:51 IST"
   }
  ],
  "failures": [],
@@ -3797,15 +3801,15 @@
    "label": "11 - Kurupam",
    "district": "Parvathipuram Manyam",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 268,
-   "processed": 100,
-   "needs_review": 12,
+   "processed": 268,
+   "needs_review": 16,
    "failed": 0,
-   "elapsed_s": 59,
+   "elapsed_s": 414,
    "electors": null,
-   "rate_per_min": 101.7,
-   "eta_s": 99,
+   "rate_per_min": 38.8,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -3826,6 +3830,40 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1bZZoJvPTMPjlNNMQIRoaXGmFSBsr4OgOlaqSWi8WMmA/edit",
    "folder": "https://drive.google.com/drive/folders/1-0yByEdOEwYj2GIcFMjLf6Cx3Ro-CZgN"
+  },
+  {
+   "label": "150 - Guntakal",
+   "district": "Ananthapuramu",
+   "year": "2024",
+   "state": "done",
+   "total": 276,
+   "processed": 276,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 333,
+   "electors": 277588,
+   "rate_per_min": 49.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1PEgvhnHUY2DVCYO9Ux3wb90R87Zoggxrjabv_1nUzXw/edit",
+   "folder": "https://drive.google.com/drive/folders/1NzBiy3wGVUXBk7c5wijtbWq4M1T71bND"
+  },
+  {
+   "label": "12 - Parvathipuram",
+   "district": "Parvathipuram Manyam",
+   "year": "2024",
+   "state": "running",
+   "total": 231,
+   "processed": 40,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 24,
+   "electors": null,
+   "rate_per_min": 100.0,
+   "eta_s": 115,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
