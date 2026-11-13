@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 10:23:40 PM IST",
- "updated_epoch": 1794588820,
+ "updated": "13 Nov 2026, 10:56:05 PM IST",
+ "updated_epoch": 1794590765,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 10:23 PM IST"
+   "eta": "13 Nov, 10:56 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 129,
    "errors": 0,
    "parts": 33983,
-   "needs_review": 1089,
+   "needs_review": 1093,
    "failed": 0,
    "electors": 29906632,
-   "eta": "14 Nov, 01:37 AM IST"
+   "eta": "14 Nov, 03:32 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 44 - Amalapuram (2024)",
-  "updated": "2026-11-13 22:23:39 IST",
+  "updated": "2026-11-13 22:56:02 IST",
   "year": "2024",
-  "next": "46 - P Gannavaram (2024)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,10 +43,10 @@
    "year": "2024",
    "ac": "44 - Amalapuram",
    "phase": "OCR",
-   "processed": 70,
+   "processed": 160,
    "total": 235,
-   "parts_per_min": 87.6,
-   "prefetch": "46 - P Gannavaram (2024)",
+   "parts_per_min": 4.8,
+   "prefetch": "",
    "uploading": [
     "43 - Mummidivaram"
    ],
@@ -89,19 +89,12 @@
      "finished": "2026-11-13 21:47:51 IST"
     }
    ],
-   "load1": 11.16,
+   "load1": 12.42,
    "cores_busy": 8,
-   "updated": "2026-11-13 22:23:39 IST",
-   "updated_epoch": 1794588819,
-   "fetch": {
-    "ac": "46 - P Gannavaram",
-    "year": "2024",
-    "done": 15,
-    "total": 16,
-    "mb": 985.0,
-    "mbps": 4.36
-   },
-   "age_s": 1
+   "updated": "2026-11-13 22:56:02 IST",
+   "updated_epoch": 1794590762,
+   "fetch": null,
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -110,70 +103,70 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "84 - Jaggayyapeta",
+   "ac": "79 - Vijayawada West",
    "phase": "OCR",
    "processed": 20,
-   "total": 218,
-   "parts_per_min": 32.4,
-   "prefetch": "81 - Vijayawada East (2024)",
+   "total": 231,
+   "parts_per_min": 26.9,
+   "prefetch": "76 - Avanigadda (2024)",
    "uploading": [
-    "85 - Pedakurapadu"
+    "80 - Vijayawada Central"
    ],
-   "done_session": 115,
-   "parts_session": 30978,
+   "done_session": 120,
+   "parts_session": 32262,
    "last": [
     {
-     "ac": "86 - Tadikonda",
+     "ac": "81 - Vijayawada East",
      "year": "2024",
-     "parts": 244,
-     "secs": 554,
-     "finished": "2026-11-13 22:16:15 IST"
+     "parts": 293,
+     "secs": 862,
+     "finished": "2026-11-13 22:51:51 IST"
     },
     {
-     "ac": "87 - Mangalagiri",
+     "ac": "82 - Mylavaram",
      "year": "2024",
-     "parts": 286,
-     "secs": 616,
-     "finished": "2026-11-13 22:09:59 IST"
+     "parts": 295,
+     "secs": 706,
+     "finished": "2026-11-13 22:42:46 IST"
     },
     {
-     "ac": "88 - Ponnur",
+     "ac": "83 - Nandigama",
      "year": "2024",
-     "parts": 263,
-     "secs": 518,
-     "finished": "2026-11-13 22:03:13 IST"
+     "parts": 212,
+     "secs": 521,
+     "finished": "2026-11-13 22:34:47 IST"
     },
     {
-     "ac": "89 - Vemuru",
+     "ac": "84 - Jaggayyapeta",
      "year": "2024",
-     "parts": 233,
-     "secs": 668,
-     "finished": "2026-11-13 21:59:55 IST"
+     "parts": 218,
+     "secs": 576,
+     "finished": "2026-11-13 22:28:53 IST"
     },
     {
-     "ac": "90 - Repalle",
+     "ac": "85 - Pedakurapadu",
      "year": "2024",
-     "parts": 261,
-     "secs": 578,
-     "finished": "2026-11-13 21:52:46 IST"
+     "parts": 266,
+     "secs": 852,
+     "finished": "2026-11-13 22:25:38 IST"
     }
    ],
-   "load1": 21.48,
+   "load1": 20.07,
    "cores_busy": 10,
-   "updated": "2026-11-13 22:22:44 IST",
-   "updated_epoch": 1794588764,
+   "updated": "2026-11-13 22:55:46 IST",
+   "updated_epoch": 1794590746,
    "fetch": {
-    "ac": "81 - Vijayawada East",
+    "ac": "76 - Avanigadda",
     "year": "2024",
     "done": 0,
     "total": 0,
     "mb": 0,
     "mbps": 0
    },
-   "age_s": 56
+   "age_s": 19
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 9.3,
  "recent": [
   {
    "year": "2024",
@@ -5442,13 +5435,13 @@
    "year": "2024",
    "state": "running",
    "total": 235,
-   "processed": 70,
-   "needs_review": 2,
+   "processed": 170,
+   "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 44,
+   "elapsed_s": 1993,
    "electors": null,
-   "rate_per_min": 95.5,
-   "eta_s": 104,
+   "rate_per_min": 5.1,
+   "eta_s": 762,
    "error": "",
    "sheet": "",
    "folder": ""
