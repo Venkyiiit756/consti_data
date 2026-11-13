@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 08:17:26 PM IST",
- "updated_epoch": 1794581246,
+ "updated": "13 Nov 2026, 08:19:12 PM IST",
+ "updated_epoch": 1794581352,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 08:17 PM IST"
+   "eta": "13 Nov, 08:19 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 100,
+   "done": 101,
    "errors": 0,
-   "parts": 26730,
+   "parts": 26990,
    "needs_review": 813,
    "failed": 0,
-   "electors": 23380445,
-   "eta": "14 Nov, 02:17 AM IST"
+   "electors": 23596740,
+   "eta": "14 Nov, 02:14 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 36 - Prathipadu (2024)",
-  "updated": "2026-11-13 20:17:23 IST",
+  "updated": "2026-11-13 20:19:08 IST",
   "year": "2024",
-  "next": "37 - Pithapuram (2024)",
+  "next": "38 - Kakinada Rural (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,16 +43,23 @@
    "year": "2024",
    "ac": "36 - Prathipadu",
    "phase": "OCR",
-   "processed": 40,
+   "processed": 210,
    "total": 223,
-   "parts_per_min": 87.2,
-   "prefetch": "37 - Pithapuram (2024)",
+   "parts_per_min": 95.1,
+   "prefetch": "38 - Kakinada Rural (2024)",
    "uploading": [
-    "34 - Narsipatnam"
+    "35 - Tuni"
    ],
-   "done_session": 40,
-   "parts_session": 10824,
+   "done_session": 41,
+   "parts_session": 11084,
    "last": [
+    {
+     "ac": "34 - Narsipatnam",
+     "year": "2024",
+     "parts": 260,
+     "secs": 444,
+     "finished": "2026-11-13 20:17:53 IST"
+    },
     {
      "ac": "33 - Payakaraopet",
      "year": "2024",
@@ -80,28 +87,21 @@
      "parts": 246,
      "secs": 2344,
      "finished": "2026-11-13 19:54:41 IST"
-    },
-    {
-     "ac": "29 - Paderu",
-     "year": "2024",
-     "parts": 317,
-     "secs": 3108,
-     "finished": "2026-11-13 19:17:45 IST"
     }
    ],
-   "load1": 10.74,
+   "load1": 12.3,
    "cores_busy": 8,
-   "updated": "2026-11-13 20:17:23 IST",
-   "updated_epoch": 1794581243,
+   "updated": "2026-11-13 20:19:08 IST",
+   "updated_epoch": 1794581348,
    "fetch": {
-    "ac": "37 - Pithapuram",
+    "ac": "38 - Kakinada Rural",
     "year": "2024",
-    "done": 14,
-    "total": 18,
-    "mb": 1014.1,
-    "mbps": 35.82
+    "done": 17,
+    "total": 20,
+    "mb": 1229.5,
+    "mbps": 17.7
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -110,13 +110,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "108 - Ongole",
+   "ac": "107 - Santhanuthalapadu",
    "phase": "OCR",
-   "processed": 210,
-   "total": 251,
-   "parts_per_min": 36.0,
-   "prefetch": "105 - Addanki (2024)",
-   "uploading": [],
+   "processed": 60,
+   "total": 253,
+   "parts_per_min": 34.7,
+   "prefetch": "104 - Parchur (2024)",
+   "uploading": [
+    "108 - Ongole"
+   ],
    "done_session": 95,
    "parts_session": 25754,
    "last": [
@@ -156,23 +158,32 @@
      "finished": "2026-11-13 19:42:54 IST"
     }
    ],
-   "load1": 51.02,
+   "load1": 34.06,
    "cores_busy": 10,
-   "updated": "2026-11-13 20:16:08 IST",
-   "updated_epoch": 1794581168,
+   "updated": "2026-11-13 20:18:45 IST",
+   "updated_epoch": 1794581325,
    "fetch": {
-    "ac": "105 - Addanki",
+    "ac": "104 - Parchur",
     "year": "2024",
-    "done": 18,
-    "total": 18,
-    "mb": 1197.7,
-    "mbps": 7.88
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 78
+   "age_s": 27
   }
  ],
  "throughput_ac_per_hr": 12.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "34 - Narsipatnam",
+   "worker": "box",
+   "parts": 260,
+   "electors": 216295,
+   "secs": 159,
+   "finished": "2026-11-13 20:17:50 IST"
+  },
   {
    "year": "2024",
    "ac": "33 - Payakaraopet",
@@ -235,15 +246,6 @@
    "electors": 207436,
    "secs": 2218,
    "finished": "2026-11-13 19:54:38 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "112 - Giddalur",
-   "worker": "mac",
-   "parts": 284,
-   "electors": 239710,
-   "secs": 480,
-   "finished": "2026-11-13 19:49:36 IST"
   }
  ],
  "failures": [],
@@ -4894,18 +4896,18 @@
    "label": "34 - Narsipatnam",
    "district": "Anakapalli",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 260,
    "processed": 260,
    "needs_review": 10,
    "failed": 0,
    "elapsed_s": 159,
-   "electors": null,
+   "electors": 216295,
    "rate_per_min": 98.1,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1ymzINUd5gplSMthJgxj1qMnwWbXPr4bZgJEkqT3DJz8/edit",
+   "folder": "https://drive.google.com/drive/folders/1FztaRT6XlCGFoqEWClLDKl6PMdJvaD4v"
   },
   {
    "label": "109 - Kandukur",
@@ -4962,15 +4964,32 @@
    "label": "36 - Prathipadu",
    "district": "Kakinada",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 223,
-   "processed": 40,
+   "processed": 223,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 26,
+   "elapsed_s": 134,
    "electors": null,
-   "rate_per_min": 92.3,
-   "eta_s": 119,
+   "rate_per_min": 99.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "37 - Pithapuram",
+   "district": "Kakinada",
+   "year": "2024",
+   "state": "running",
+   "total": 241,
+   "processed": 0,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 0,
+   "electors": null,
+   "rate_per_min": 0,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
