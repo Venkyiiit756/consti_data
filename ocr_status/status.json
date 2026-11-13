@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 09:18:30 AM IST",
- "updated_epoch": 1794541710,
+ "updated": "13 Nov 2026, 09:20:34 AM IST",
+ "updated_epoch": 1794541834,
  "total_constituencies": 175,
- "done_constituencies": 127,
+ "done_constituencies": 129,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 127,
+   "done": 129,
    "errors": 0,
-   "parts": 36793,
-   "needs_review": 1026,
+   "parts": 37220,
+   "needs_review": 1028,
    "failed": 33,
-   "electors": 27029586,
-   "eta": "13 Nov, 12:04 PM IST"
+   "electors": 27372546,
+   "eta": "13 Nov, 11:53 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 10:00 PM IST"
+   "eta": "13 Nov, 09:27 PM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 09:18:28 IST",
+  "phase": "OCR 60 - Undi (2026)",
+  "updated": "2026-11-13 09:20:33 IST",
   "year": "2026",
-  "next": "60 - Undi (2026)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,18 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "60 - Undi (2026)",
-   "uploading": [
-    "58 - Narasapuram"
-   ],
-   "done_session": 30,
-   "parts_session": 8013,
+   "ac": "60 - Undi",
+   "phase": "OCR",
+   "processed": 50,
+   "total": 244,
+   "parts_per_min": 93.3,
+   "prefetch": "",
+   "uploading": [],
+   "done_session": 31,
+   "parts_session": 8194,
    "last": [
+    {
+     "ac": "58 - Narasapuram",
+     "year": "2026",
+     "parts": 181,
+     "secs": 952,
+     "finished": "2026-11-13 09:18:39 IST"
+    },
     {
      "ac": "57 - Palakollu",
      "year": "2026",
@@ -80,28 +85,14 @@
      "parts": 212,
      "secs": 247,
      "finished": "2026-11-13 08:30:32 IST"
-    },
-    {
-     "ac": "53 - Rampachodavaram",
-     "year": "2026",
-     "parts": 399,
-     "secs": 649,
-     "finished": "2026-11-13 08:28:40 IST"
     }
    ],
-   "load1": 7.98,
-   "cores_busy": 0,
-   "updated": "2026-11-13 09:18:28 IST",
-   "updated_epoch": 1794541708,
-   "fetch": {
-    "ac": "60 - Undi",
-    "year": "2026",
-    "done": 10,
-    "total": 38,
-    "mb": 423.8,
-    "mbps": 0.57
-   },
-   "age_s": 2
+   "load1": 5.63,
+   "cores_busy": 8,
+   "updated": "2026-11-13 09:20:33 IST",
+   "updated_epoch": 1794541833,
+   "fetch": null,
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -110,13 +101,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "106 - Chirala",
+   "ac": "105 - Addanki",
    "phase": "OCR",
-   "processed": 150,
-   "total": 246,
-   "parts_per_min": 50.3,
-   "prefetch": "103 - Darsi (2026)",
-   "uploading": [],
+   "processed": 10,
+   "total": 314,
+   "parts_per_min": 28.7,
+   "prefetch": "102 - Yerragondapalem (2026)",
+   "uploading": [
+    "106 - Chirala"
+   ],
    "done_session": 62,
    "parts_session": 18709,
    "last": [
@@ -156,23 +149,41 @@
      "finished": "2026-11-13 08:54:40 IST"
     }
    ],
-   "load1": 24.69,
+   "load1": 19.66,
    "cores_busy": 10,
-   "updated": "2026-11-13 09:17:43 IST",
-   "updated_epoch": 1794541663,
+   "updated": "2026-11-13 09:19:46 IST",
+   "updated_epoch": 1794541786,
    "fetch": {
-    "ac": "103 - Darsi",
+    "ac": "102 - Yerragondapalem",
     "year": "2026",
-    "done": 22,
-    "total": 33,
-    "mb": 1803.5,
-    "mbps": 10.72
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 47
+   "age_s": 48
   }
  ],
- "throughput_ac_per_hr": 17.3,
+ "throughput_ac_per_hr": 18.0,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "106 - Chirala",
+   "worker": "mac",
+   "parts": 246,
+   "electors": 179237,
+   "secs": 280,
+   "finished": "2026-11-13 09:19:47 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "58 - Narasapuram",
+   "worker": "box",
+   "parts": 181,
+   "electors": 163723,
+   "secs": 754,
+   "finished": "2026-11-13 09:18:36 IST"
+  },
   {
    "year": "2026",
    "ac": "107 - Santhanuthalapadu",
@@ -226,24 +237,6 @@
    "electors": 220247,
    "secs": 341,
    "finished": "2026-11-13 08:58:46 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "111 - Markapuram",
-   "worker": "mac",
-   "parts": 277,
-   "electors": 194212,
-   "secs": 328,
-   "finished": "2026-11-13 08:53:58 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "55 - Nidadavole",
-   "worker": "box",
-   "parts": 248,
-   "electors": 200310,
-   "secs": 1236,
-   "finished": "2026-11-13 08:50:39 IST"
   }
  ],
  "failures": [],
@@ -2361,18 +2354,18 @@
    "label": "58 - Narasapuram",
    "district": "West Godavari",
    "year": "2026",
-   "state": "uploading",
+   "state": "done",
    "total": 181,
    "processed": 181,
    "needs_review": 1,
    "failed": 0,
    "elapsed_s": 754,
-   "electors": null,
+   "electors": 163723,
    "rate_per_min": 14.4,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/15HMvV3STOP4F8BOi2QUxqZqCq9bR1fzWAFvijMYnAxg/edit",
+   "folder": "https://drive.google.com/drive/folders/1v23KcyBO3AK6WyzlHABeoBNPNlfBPBoZ"
   },
   {
    "label": "109 - Kandukur",
@@ -2424,6 +2417,40 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1_2ikJlkoupfVGWM6qO_NQQRw5Zk47hv9y4HOLvua9GY/edit",
    "folder": "https://drive.google.com/drive/folders/1rPk0K3XeP3uzGjz96LZ8Pe4_0dgXx4ac"
+  },
+  {
+   "label": "60 - Undi",
+   "district": "West Godavari",
+   "year": "2026",
+   "state": "running",
+   "total": 244,
+   "processed": 60,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 33,
+   "electors": null,
+   "rate_per_min": 109.1,
+   "eta_s": 101,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "106 - Chirala",
+   "district": "Bapatla",
+   "year": "2026",
+   "state": "done",
+   "total": 246,
+   "processed": 246,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 280,
+   "electors": 179237,
+   "rate_per_min": 52.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1yVm-hSXcIPmeY0lgxNG0rKOr11r-dwM7dpP_aT4eIkk/edit",
+   "folder": "https://drive.google.com/drive/folders/1ye2dt1Nh2srl_F-Z85JnQ2uqDGUR-rUT"
   }
  ]
 }
