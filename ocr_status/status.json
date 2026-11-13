@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 07:54:24 PM IST",
- "updated_epoch": 1794579864,
+ "updated": "13 Nov 2026, 07:55:54 PM IST",
+ "updated_epoch": 1794579954,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 07:54 PM IST"
+   "eta": "13 Nov, 07:55 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 93,
+   "done": 94,
    "errors": 0,
-   "parts": 24855,
-   "needs_review": 710,
+   "parts": 25101,
+   "needs_review": 726,
    "failed": 0,
-   "electors": 21727670,
-   "eta": "14 Nov, 04:22 AM IST"
+   "electors": 21935106,
+   "eta": "14 Nov, 03:43 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 31 - Pendurthi (2024)",
-  "updated": "2026-11-13 19:54:21 IST",
+  "updated": "2026-11-13 19:55:51 IST",
   "year": "2024",
   "next": "33 - Payakaraopet (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,16 +43,21 @@
    "year": "2024",
    "ac": "31 - Pendurthi",
    "phase": "OCR",
-   "processed": 40,
+   "processed": 180,
    "total": 282,
-   "parts_per_min": 81.8,
+   "parts_per_min": 90.5,
    "prefetch": "33 - Payakaraopet (2024)",
-   "uploading": [
-    "30 - Anakapalle"
-   ],
-   "done_session": 36,
-   "parts_session": 9760,
+   "uploading": [],
+   "done_session": 37,
+   "parts_session": 10006,
    "last": [
+    {
+     "ac": "30 - Anakapalle",
+     "year": "2024",
+     "parts": 246,
+     "secs": 2344,
+     "finished": "2026-11-13 19:54:41 IST"
+    },
     {
      "ac": "29 - Paderu",
      "year": "2024",
@@ -80,26 +85,19 @@
      "parts": 242,
      "secs": 263,
      "finished": "2026-11-13 18:20:30 IST"
-    },
-    {
-     "ac": "25 - Gajuwaka",
-     "year": "2024",
-     "parts": 299,
-     "secs": 3242,
-     "finished": "2026-11-13 18:17:45 IST"
     }
    ],
-   "load1": 10.98,
+   "load1": 11.42,
    "cores_busy": 8,
-   "updated": "2026-11-13 19:54:21 IST",
-   "updated_epoch": 1794579861,
+   "updated": "2026-11-13 19:55:51 IST",
+   "updated_epoch": 1794579951,
    "fetch": {
     "ac": "33 - Payakaraopet",
     "year": "2024",
-    "done": 17,
+    "done": 18,
     "total": 19,
-    "mb": 1195.8,
-    "mbps": 15.69
+    "mb": 1197.2,
+    "mbps": 0.53
    },
    "age_s": 3
   },
@@ -112,9 +110,9 @@
    "year": "2024",
    "ac": "111 - Markapuram",
    "phase": "OCR",
-   "processed": 180,
+   "processed": 220,
    "total": 257,
-   "parts_per_min": 35.2,
+   "parts_per_min": 35.4,
    "prefetch": "108 - Ongole (2024)",
    "uploading": [],
    "done_session": 92,
@@ -156,10 +154,10 @@
      "finished": "2026-11-13 19:18:25 IST"
     }
    ],
-   "load1": 26.85,
+   "load1": 31.04,
    "cores_busy": 10,
-   "updated": "2026-11-13 19:53:48 IST",
-   "updated_epoch": 1794579828,
+   "updated": "2026-11-13 19:54:54 IST",
+   "updated_epoch": 1794579894,
    "fetch": {
     "ac": "108 - Ongole",
     "year": "2024",
@@ -168,11 +166,20 @@
     "mb": 1181.1,
     "mbps": 9.39
    },
-   "age_s": 36
+   "age_s": 60
   }
  ],
- "throughput_ac_per_hr": 9.3,
+ "throughput_ac_per_hr": 10.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "30 - Anakapalle",
+   "worker": "box",
+   "parts": 246,
+   "electors": 207436,
+   "secs": 2218,
+   "finished": "2026-11-13 19:54:38 IST"
+  },
   {
    "year": "2024",
    "ac": "112 - Giddalur",
@@ -235,15 +242,6 @@
    "electors": 233978,
    "secs": 381,
    "finished": "2026-11-13 19:12:59 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "118 - Nellore Rural",
-   "worker": "mac",
-   "parts": 275,
-   "electors": 279800,
-   "secs": 417,
-   "finished": "2026-11-13 19:05:55 IST"
   }
  ],
  "failures": [],
@@ -4724,18 +4722,18 @@
    "label": "30 - Anakapalle",
    "district": "Anakapalli",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 246,
    "processed": 246,
    "needs_review": 2,
    "failed": 0,
    "elapsed_s": 2218,
-   "electors": null,
+   "electors": 207436,
    "rate_per_min": 6.7,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1vr-xk4ilCGaIEq0g-HQFm45cVGq6-l7WoWPj2PA7ctE/edit",
+   "folder": "https://drive.google.com/drive/folders/1PkCa_Cb7D5qnp37HMT9G3mNT2Gis_ln-"
   },
   {
    "label": "116 - Kovur",
@@ -4828,13 +4826,13 @@
    "year": "2024",
    "state": "running",
    "total": 282,
-   "processed": 40,
-   "needs_review": 2,
+   "processed": 180,
+   "needs_review": 18,
    "failed": 0,
-   "elapsed_s": 27,
+   "elapsed_s": 117,
    "electors": null,
-   "rate_per_min": 88.9,
-   "eta_s": 163,
+   "rate_per_min": 92.3,
+   "eta_s": 66,
    "error": "",
    "sheet": "",
    "folder": ""
