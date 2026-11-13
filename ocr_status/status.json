@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 11:20:13 AM IST",
- "updated_epoch": 1794549013,
+ "updated": "13 Nov 2026, 11:20:37 AM IST",
+ "updated_epoch": 1794549037,
  "total_constituencies": 175,
  "done_constituencies": 155,
  "years": {
@@ -9,7 +9,7 @@
    "done": 155,
    "errors": 0,
    "parts": 44747,
-   "needs_review": 1242,
+   "needs_review": 1243,
    "failed": 33,
    "electors": 33021115,
    "eta": "13 Nov, 01:06 PM IST"
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 04:16 AM IST"
+   "eta": "14 Nov, 04:17 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 67 - Polavaram (2026)",
-  "updated": "2026-11-13 11:20:12 IST",
+  "updated": "2026-11-13 11:20:32 IST",
   "year": "2026",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2026",
    "ac": "67 - Polavaram",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 40,
    "total": 324,
-   "parts_per_min": 96.4,
+   "parts_per_min": 91.5,
    "prefetch": "",
    "uploading": [],
    "done_session": 3,
@@ -73,12 +73,12 @@
      "finished": "2026-11-13 10:20:40 IST"
     }
    ],
-   "load1": 1.75,
+   "load1": 4.32,
    "cores_busy": 8,
-   "updated": "2026-11-13 11:20:12 IST",
-   "updated_epoch": 1794549012,
+   "updated": "2026-11-13 11:20:32 IST",
+   "updated_epoch": 1794549032,
    "fetch": null,
-   "age_s": 1
+   "age_s": 5
   },
   {
    "worker": "mac",
@@ -87,13 +87,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2026",
-   "ac": "86 - Tadikonda",
+   "ac": "85 - Pedakurapadu",
    "phase": "OCR",
-   "processed": 210,
-   "total": 252,
-   "parts_per_min": 49.8,
-   "prefetch": "83 - Nandigama (2026)",
-   "uploading": [],
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
+   "prefetch": "",
+   "uploading": [
+    "86 - Tadikonda"
+   ],
    "done_session": 12,
    "parts_session": 3606,
    "last": [
@@ -133,19 +135,12 @@
      "finished": "2026-11-13 10:53:42 IST"
     }
    ],
-   "load1": 22.81,
+   "load1": 31.86,
    "cores_busy": 10,
-   "updated": "2026-11-13 11:19:05 IST",
-   "updated_epoch": 1794548945,
-   "fetch": {
-    "ac": "83 - Nandigama",
-    "year": "2026",
-    "done": 31,
-    "total": 31,
-    "mb": 2308.9,
-    "mbps": 14.19
-   },
-   "age_s": 68
+   "updated": "2026-11-13 11:19:45 IST",
+   "updated_epoch": 1794548985,
+   "fetch": null,
+   "age_s": 52
   }
  ],
  "throughput_ac_per_hr": 11.3,
@@ -2867,13 +2862,13 @@
    "year": "2026",
    "state": "running",
    "total": 324,
-   "processed": 10,
-   "needs_review": 0,
+   "processed": 50,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 6,
+   "elapsed_s": 29,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 188,
+   "rate_per_min": 103.4,
+   "eta_s": 159,
    "error": "",
    "sheet": "",
    "folder": ""
