@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 11:56:55 PM IST",
- "updated_epoch": 1794594415,
+ "updated": "14 Nov 2026, 12:12:11 AM IST",
+ "updated_epoch": 1794595331,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 11:56 PM IST"
+   "eta": "14 Nov, 12:12 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 146,
+   "done": 149,
    "errors": 0,
-   "parts": 38231,
-   "needs_review": 1231,
+   "parts": 38958,
+   "needs_review": 1250,
    "failed": 0,
-   "electors": 33703031,
-   "eta": "14 Nov, 02:32 AM IST"
+   "electors": 34375954,
+   "eta": "14 Nov, 02:30 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 47 - Kothapeta (2024)",
-  "updated": "2026-11-13 23:56:51 IST",
+  "phase": "OCR 48 - Mandapeta (2024)",
+  "updated": "2026-11-14 00:12:06 IST",
   "year": "2024",
-  "next": "50 - Rajahmundry City (2024)",
+  "next": "51 - Rajahmundry Rural (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "47 - Kothapeta",
+   "ac": "48 - Mandapeta",
    "phase": "OCR",
-   "processed": 160,
-   "total": 261,
-   "parts_per_min": 93.0,
-   "prefetch": "50 - Rajahmundry City (2024)",
+   "processed": 100,
+   "total": 211,
+   "parts_per_min": 88.9,
+   "prefetch": "51 - Rajahmundry Rural (2024)",
    "uploading": [
     "44 - Amalapuram"
    ],
@@ -89,19 +89,19 @@
      "finished": "2026-11-13 22:13:42 IST"
     }
    ],
-   "load1": 11.58,
+   "load1": 10.81,
    "cores_busy": 8,
-   "updated": "2026-11-13 23:56:51 IST",
-   "updated_epoch": 1794594411,
+   "updated": "2026-11-14 00:12:06 IST",
+   "updated_epoch": 1794595326,
    "fetch": {
-    "ac": "50 - Rajahmundry City",
+    "ac": "51 - Rajahmundry Rural",
     "year": "2024",
-    "done": 7,
-    "total": 13,
-    "mb": 484.5,
-    "mbps": 39.57
+    "done": 6,
+    "total": 20,
+    "mb": 455.1,
+    "mbps": 37.5
    },
-   "age_s": 4
+   "age_s": 5
   },
   {
    "worker": "mac",
@@ -110,18 +110,37 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "69 - Tiruvuru",
+   "ac": "67 - Polavaram",
    "phase": "OCR",
-   "processed": 40,
-   "total": 233,
-   "parts_per_min": 46.7,
-   "prefetch": "66 - Gopalapuram (2024)",
-   "uploading": [
-    "70 - Nuzvid"
-   ],
-   "done_session": 130,
-   "parts_session": 34677,
+   "processed": 240,
+   "total": 275,
+   "parts_per_min": 44.5,
+   "prefetch": "64 - Denduluru (2024)",
+   "uploading": [],
+   "done_session": 133,
+   "parts_session": 35454,
    "last": [
+    {
+     "ac": "68 - Chintalapudi",
+     "year": "2024",
+     "parts": 259,
+     "secs": 687,
+     "finished": "2026-11-14 00:07:30 IST"
+    },
+    {
+     "ac": "69 - Tiruvuru",
+     "year": "2024",
+     "parts": 233,
+     "secs": 520,
+     "finished": "2026-11-14 00:01:36 IST"
+    },
+    {
+     "ac": "70 - Nuzvid",
+     "year": "2024",
+     "parts": 285,
+     "secs": 724,
+     "finished": "2026-11-13 23:56:34 IST"
+    },
     {
      "ac": "71 - Gannavaram Krishna",
      "year": "2024",
@@ -135,46 +154,52 @@
      "parts": 224,
      "secs": 578,
      "finished": "2026-11-13 23:43:53 IST"
-    },
-    {
-     "ac": "73 - Kaikalur",
-     "year": "2024",
-     "parts": 234,
-     "secs": 492,
-     "finished": "2026-11-13 23:37:39 IST"
-    },
-    {
-     "ac": "74 - Pedana",
-     "year": "2024",
-     "parts": 213,
-     "secs": 661,
-     "finished": "2026-11-13 23:34:43 IST"
-    },
-    {
-     "ac": "75 - Machilipatnam",
-     "year": "2024",
-     "parts": 171,
-     "secs": 503,
-     "finished": "2026-11-13 23:26:36 IST"
     }
    ],
-   "load1": 24.7,
+   "load1": 21.83,
    "cores_busy": 10,
-   "updated": "2026-11-13 23:56:10 IST",
-   "updated_epoch": 1794594370,
+   "updated": "2026-11-14 00:10:53 IST",
+   "updated_epoch": 1794595253,
    "fetch": {
-    "ac": "66 - Gopalapuram",
+    "ac": "64 - Denduluru",
     "year": "2024",
-    "done": 9,
+    "done": 16,
     "total": 16,
-    "mb": 637.5,
-    "mbps": 17.2
+    "mb": 1021.4,
+    "mbps": 5.81
    },
-   "age_s": 45
+   "age_s": 78
   }
  ],
  "throughput_ac_per_hr": 10.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "68 - Chintalapudi",
+   "worker": "mac",
+   "parts": 259,
+   "electors": 253661,
+   "secs": 321,
+   "finished": "2026-11-14 00:06:47 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "69 - Tiruvuru",
+   "worker": "mac",
+   "parts": 233,
+   "electors": 205754,
+   "secs": 291,
+   "finished": "2026-11-14 00:01:28 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "44 - Amalapuram",
+   "worker": "box",
+   "parts": 235,
+   "electors": 213508,
+   "secs": 2034,
+   "finished": "2026-11-13 23:56:53 IST"
+  },
   {
    "year": "2024",
    "ac": "70 - Nuzvid",
@@ -219,33 +244,6 @@
    "electors": 163423,
    "secs": 324,
    "finished": "2026-11-13 23:33:53 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "75 - Machilipatnam",
-   "worker": "mac",
-   "parts": 171,
-   "electors": 155001,
-   "secs": 261,
-   "finished": "2026-11-13 23:25:54 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "76 - Avanigadda",
-   "worker": "mac",
-   "parts": 267,
-   "electors": 212331,
-   "secs": 410,
-   "finished": "2026-11-13 23:22:52 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "77 - Pamarru",
-   "worker": "mac",
-   "parts": 238,
-   "electors": 184632,
-   "secs": 358,
-   "finished": "2026-11-13 23:15:55 IST"
   }
  ],
  "failures": [],
@@ -5440,18 +5438,18 @@
    "label": "44 - Amalapuram",
    "district": "Konaseema",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 235,
    "processed": 235,
    "needs_review": 9,
    "failed": 0,
    "elapsed_s": 2033,
-   "electors": null,
+   "electors": 213508,
    "rate_per_min": 6.9,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1gBcBXh8_Mfc25JzDQcrLlquRQ_9Y6Qn_kNwZsU4XXdA/edit",
+   "folder": "https://drive.google.com/drive/folders/1GPZMdCjXj8qE2cAAZfFT6MRmiDf0wTUi"
   },
   {
    "label": "81 - Vijayawada East",
@@ -5678,15 +5676,15 @@
    "label": "47 - Kothapeta",
    "district": "Konaseema",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 261,
-   "processed": 170,
+   "processed": 261,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 103,
+   "elapsed_s": 950,
    "electors": null,
-   "rate_per_min": 99.0,
-   "eta_s": 55,
+   "rate_per_min": 16.5,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -5775,6 +5773,57 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/17cu-iWOlDWUIygnWF-mRasDAQSanQjJoII_ytHN5BH0/edit",
    "folder": "https://drive.google.com/drive/folders/1aRP2H9lPXIrECHV33iiBLAOdl0qfl_gp"
+  },
+  {
+   "label": "48 - Mandapeta",
+   "district": "Konaseema",
+   "year": "2024",
+   "state": "running",
+   "total": 211,
+   "processed": 110,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 69,
+   "electors": null,
+   "rate_per_min": 95.7,
+   "eta_s": 63,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "68 - Chintalapudi",
+   "district": "Eluru",
+   "year": "2024",
+   "state": "done",
+   "total": 259,
+   "processed": 259,
+   "needs_review": 10,
+   "failed": 0,
+   "elapsed_s": 321,
+   "electors": 253661,
+   "rate_per_min": 48.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Qtdf-GAA26lRnK-kpV0LgbLZW3gMEpzYldQ_iBYYTE8/edit",
+   "folder": "https://drive.google.com/drive/folders/1MJMEmCkQcQJe8olFFiQMxG-Eu_criYIw"
+  },
+  {
+   "label": "69 - Tiruvuru",
+   "district": "NTR",
+   "year": "2024",
+   "state": "done",
+   "total": 233,
+   "processed": 233,
+   "needs_review": 9,
+   "failed": 0,
+   "elapsed_s": 291,
+   "electors": 205754,
+   "rate_per_min": 48.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1mfF77Jj4MrG5UlyQU5b14BDHz6Chkf9V4npnM2mKktw/edit",
+   "folder": "https://drive.google.com/drive/folders/1cGVqc_vsYrbSjARJatyFsvANkcl6CKkT"
   }
  ]
 }
