@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:45:12 AM IST",
- "updated_epoch": 1794600912,
+ "updated": "14 Nov 2026, 01:47:11 AM IST",
+ "updated_epoch": 1794601031,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:45 AM IST"
+   "eta": "14 Nov, 01:47 AM IST"
+  },
+  "2025": {
+   "total_constituencies": 174,
+   "done": 0,
+   "errors": 0,
+   "parts": 0,
+   "needs_review": 0,
+   "failed": 0,
+   "electors": 0,
+   "eta": "14 Nov, 06:05 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,13 +32,13 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 01:45 AM IST"
+   "eta": "14 Nov, 01:47 AM IST"
   }
  },
  "batch": {
-  "phase": "all done",
-  "updated": "2026-11-14 01:35:53 IST",
-  "year": "2024",
+  "phase": "downloading",
+  "updated": "2026-11-14 01:47:09 IST",
+  "year": "",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
@@ -36,21 +46,26 @@
  "workers": [
   {
    "worker": "box",
-   "host": "Grok box",
+   "host": "grok-bot-vm-9062624",
    "cores_total": 8,
-   "ocr_workers": 8,
-   "load1": 1.28,
-   "phase": "all",
-   "year": "2024",
-   "ac": "done",
+   "ocr_workers": 10,
+   "started": "2026-11-14 01:46:47 IST",
+   "year": "",
+   "ac": "",
+   "phase": "downloading",
    "processed": 0,
    "total": 0,
    "parts_per_min": 0,
-   "cores_busy": 0,
    "prefetch": "",
    "uploading": [],
-   "age_s": 0,
-   "updated_epoch": 1794600912
+   "done_session": 0,
+   "parts_session": 0,
+   "last": [],
+   "load1": 0.84,
+   "cores_busy": 0,
+   "updated": "2026-11-14 01:47:09 IST",
+   "updated_epoch": 1794601029,
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -73,10 +88,10 @@
    "cores_busy": 0,
    "updated": "2026-11-14 01:34:41 IST",
    "updated_epoch": 1794600281,
-   "age_s": 631
+   "age_s": 750
   }
  ],
- "throughput_ac_per_hr": 12.0,
+ "throughput_ac_per_hr": 10.7,
  "recent": [
   {
    "year": "2024",
@@ -152,7 +167,7 @@
   }
  ],
  "failures": [],
- "all_done": true,
+ "all_done": false,
  "runs": [
   {
    "label": "59 - Bhimavaram",
