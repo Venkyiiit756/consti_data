@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 06:21:43 PM IST",
- "updated_epoch": 1794574303,
+ "updated": "13 Nov 2026, 06:22:41 PM IST",
+ "updated_epoch": 1794574361,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 06:21 PM IST"
+   "eta": "13 Nov, 06:22 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 609,
    "failed": 0,
    "electors": 17995562,
-   "eta": "14 Nov, 01:51 AM IST"
+   "eta": "14 Nov, 01:52 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 27 - Madugula (2024)",
-  "updated": "2026-11-13 18:21:42 IST",
+  "phase": "OCR 28 - Araku Valley (2024)",
+  "updated": "2026-11-13 18:22:37 IST",
   "year": "2024",
-  "next": "30 - Anakapalle (2024)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "27 - Madugula",
+   "ac": "28 - Araku Valley",
    "phase": "OCR",
-   "processed": 190,
-   "total": 235,
-   "parts_per_min": 95.1,
-   "prefetch": "30 - Anakapalle (2024)",
-   "uploading": [],
+   "processed": 60,
+   "total": 303,
+   "parts_per_min": 97.4,
+   "prefetch": "",
+   "uploading": [
+    "27 - Madugula"
+   ],
    "done_session": 33,
    "parts_session": 8905,
    "last": [
@@ -87,19 +89,12 @@
      "finished": "2026-11-13 16:55:48 IST"
     }
    ],
-   "load1": 11.17,
+   "load1": 11.02,
    "cores_busy": 8,
-   "updated": "2026-11-13 18:21:42 IST",
-   "updated_epoch": 1794574302,
-   "fetch": {
-    "ac": "30 - Anakapalle",
-    "year": "2024",
-    "done": 16,
-    "total": 16,
-    "mb": 1115.5,
-    "mbps": 14.67
-   },
-   "age_s": 1
+   "updated": "2026-11-13 18:22:37 IST",
+   "updated_epoch": 1794574357,
+   "fetch": null,
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -108,13 +103,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "124 - Badvel",
+   "ac": "123 - Udayagiri",
    "phase": "OCR",
-   "processed": 250,
-   "total": 272,
-   "parts_per_min": 40.9,
-   "prefetch": "121 - Sullurpeta (2024)",
-   "uploading": [],
+   "processed": 0,
+   "total": 322,
+   "parts_per_min": 0.0,
+   "prefetch": "120 - Gudur (2024)",
+   "uploading": [
+    "124 - Badvel"
+   ],
    "done_session": 79,
    "parts_session": 21264,
    "last": [
@@ -154,19 +151,19 @@
      "finished": "2026-11-13 17:49:59 IST"
     }
    ],
-   "load1": 25.02,
+   "load1": 22.45,
    "cores_busy": 10,
-   "updated": "2026-11-13 18:21:15 IST",
-   "updated_epoch": 1794574275,
+   "updated": "2026-11-13 18:21:46 IST",
+   "updated_epoch": 1794574306,
    "fetch": {
-    "ac": "121 - Sullurpeta",
+    "ac": "120 - Gudur",
     "year": "2024",
-    "done": 18,
-    "total": 18,
-    "mb": 1361.1,
-    "mbps": 7.03
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 28
+   "age_s": 55
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -4535,15 +4532,32 @@
    "label": "27 - Madugula",
    "district": "Anakapalli",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 235,
-   "processed": 200,
+   "processed": 235,
    "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 121,
+   "elapsed_s": 138,
    "electors": null,
-   "rate_per_min": 99.2,
-   "eta_s": 21,
+   "rate_per_min": 102.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "28 - Araku Valley",
+   "district": "Alluri Sitharama Raju",
+   "year": "2024",
+   "state": "running",
+   "total": 303,
+   "processed": 60,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 35,
+   "electors": null,
+   "rate_per_min": 102.9,
+   "eta_s": 142,
    "error": "",
    "sheet": "",
    "folder": ""
