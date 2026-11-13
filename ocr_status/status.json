@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 09:50:30 PM IST",
- "updated_epoch": 1794586830,
+ "updated": "13 Nov 2026, 10:14:43 PM IST",
+ "updated_epoch": 1794588283,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 09:50 PM IST"
+   "eta": "13 Nov, 10:14 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 120,
+   "done": 125,
    "errors": 0,
-   "parts": 31858,
-   "needs_review": 1050,
+   "parts": 33091,
+   "needs_review": 1070,
    "failed": 0,
-   "electors": 27955929,
-   "eta": "14 Nov, 02:10 AM IST"
+   "electors": 29095998,
+   "eta": "14 Nov, 01:46 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 40 - Anaparthi (2024)",
-  "updated": "2026-11-13 21:50:27 IST",
+  "updated": "2026-11-13 22:14:41 IST",
   "year": "2024",
-  "next": "",
+  "next": "43 - Mummidivaram (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,16 +43,21 @@
    "year": "2024",
    "ac": "40 - Anaparthi",
    "phase": "OCR",
-   "processed": 40,
+   "processed": 220,
    "total": 227,
-   "parts_per_min": 30.4,
-   "prefetch": "",
-   "uploading": [
-    "39 - Peddapuram"
-   ],
-   "done_session": 45,
-   "parts_session": 12015,
+   "parts_per_min": 8.6,
+   "prefetch": "43 - Mummidivaram (2024)",
+   "uploading": [],
+   "done_session": 46,
+   "parts_session": 12205,
    "last": [
+    {
+     "ac": "39 - Peddapuram",
+     "year": "2024",
+     "parts": 190,
+     "secs": 4669,
+     "finished": "2026-11-13 22:13:42 IST"
+    },
     {
      "ac": "38 - Kakinada Rural",
      "year": "2024",
@@ -80,21 +85,21 @@
      "parts": 215,
      "secs": 2405,
      "finished": "2026-11-13 20:52:47 IST"
-    },
-    {
-     "ac": "34 - Narsipatnam",
-     "year": "2024",
-     "parts": 260,
-     "secs": 444,
-     "finished": "2026-11-13 20:17:53 IST"
     }
    ],
-   "load1": 11.48,
-   "cores_busy": 8,
-   "updated": "2026-11-13 21:50:27 IST",
-   "updated_epoch": 1794586827,
-   "fetch": null,
-   "age_s": 3
+   "load1": 10.7,
+   "cores_busy": 7,
+   "updated": "2026-11-13 22:14:41 IST",
+   "updated_epoch": 1794588281,
+   "fetch": {
+    "ac": "43 - Mummidivaram",
+    "year": "2024",
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
+   },
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -103,69 +108,114 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "90 - Repalle",
+   "ac": "86 - Tadikonda",
    "phase": "OCR",
-   "processed": 170,
-   "total": 261,
-   "parts_per_min": 41.4,
-   "prefetch": "87 - Mangalagiri (2024)",
+   "processed": 140,
+   "total": 244,
+   "parts_per_min": 37.4,
+   "prefetch": "83 - Nandigama (2024)",
    "uploading": [],
-   "done_session": 110,
-   "parts_session": 29691,
+   "done_session": 114,
+   "parts_session": 30734,
    "last": [
+    {
+     "ac": "87 - Mangalagiri",
+     "year": "2024",
+     "parts": 286,
+     "secs": 616,
+     "finished": "2026-11-13 22:09:59 IST"
+    },
+    {
+     "ac": "88 - Ponnur",
+     "year": "2024",
+     "parts": 263,
+     "secs": 518,
+     "finished": "2026-11-13 22:03:13 IST"
+    },
+    {
+     "ac": "89 - Vemuru",
+     "year": "2024",
+     "parts": 233,
+     "secs": 668,
+     "finished": "2026-11-13 21:59:55 IST"
+    },
+    {
+     "ac": "90 - Repalle",
+     "year": "2024",
+     "parts": 261,
+     "secs": 578,
+     "finished": "2026-11-13 21:52:46 IST"
+    },
     {
      "ac": "91 - Tenali",
      "year": "2024",
      "parts": 269,
      "secs": 622,
      "finished": "2026-11-13 21:45:47 IST"
-    },
-    {
-     "ac": "92 - Bapatla",
-     "year": "2024",
-     "parts": 200,
-     "secs": 546,
-     "finished": "2026-11-13 21:40:34 IST"
-    },
-    {
-     "ac": "96 - Chilakaluripet",
-     "year": "2024",
-     "parts": 223,
-     "secs": 537,
-     "finished": "2026-11-13 21:34:49 IST"
-    },
-    {
-     "ac": "97 - Narasaraopet",
-     "year": "2024",
-     "parts": 233,
-     "secs": 730,
-     "finished": "2026-11-13 21:30:23 IST"
-    },
-    {
-     "ac": "98 - Sattenapalle",
-     "year": "2024",
-     "parts": 269,
-     "secs": 594,
-     "finished": "2026-11-13 21:23:39 IST"
     }
    ],
-   "load1": 23.29,
+   "load1": 27.64,
    "cores_busy": 10,
-   "updated": "2026-11-13 21:48:44 IST",
-   "updated_epoch": 1794586724,
+   "updated": "2026-11-13 22:12:54 IST",
+   "updated_epoch": 1794588174,
    "fetch": {
-    "ac": "87 - Mangalagiri",
+    "ac": "83 - Nandigama",
     "year": "2024",
-    "done": 23,
-    "total": 23,
-    "mb": 1769.8,
-    "mbps": 12.45
+    "done": 15,
+    "total": 15,
+    "mb": 937.8,
+    "mbps": 10.48
    },
-   "age_s": 106
+   "age_s": 109
   }
  ],
- "throughput_ac_per_hr": 12.0,
+ "throughput_ac_per_hr": 13.3,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "39 - Peddapuram",
+   "worker": "box",
+   "parts": 190,
+   "electors": 201310,
+   "secs": 1685,
+   "finished": "2026-11-13 22:13:39 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "87 - Mangalagiri",
+   "worker": "mac",
+   "parts": 286,
+   "electors": 292432,
+   "secs": 425,
+   "finished": "2026-11-13 22:09:50 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "88 - Ponnur",
+   "worker": "mac",
+   "parts": 263,
+   "electors": 225829,
+   "secs": 365,
+   "finished": "2026-11-13 22:02:54 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "89 - Vemuru",
+   "worker": "mac",
+   "parts": 233,
+   "electors": 197458,
+   "secs": 323,
+   "finished": "2026-11-13 21:59:47 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "90 - Repalle",
+   "worker": "mac",
+   "parts": 261,
+   "electors": 223040,
+   "secs": 359,
+   "finished": "2026-11-13 21:52:38 IST"
+  },
   {
    "year": "2024",
    "ac": "38 - Kakinada Rural",
@@ -192,51 +242,6 @@
    "electors": 188065,
    "secs": 283,
    "finished": "2026-11-13 21:39:57 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "96 - Chilakaluripet",
-   "worker": "mac",
-   "parts": 223,
-   "electors": 204277,
-   "secs": 318,
-   "finished": "2026-11-13 21:34:40 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "97 - Narasaraopet",
-   "worker": "mac",
-   "parts": 233,
-   "electors": 215029,
-   "secs": 355,
-   "finished": "2026-11-13 21:29:55 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "98 - Sattenapalle",
-   "worker": "mac",
-   "parts": 269,
-   "electors": 235024,
-   "secs": 368,
-   "finished": "2026-11-13 21:22:55 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "99 - Vinukonda",
-   "worker": "mac",
-   "parts": 291,
-   "electors": 267214,
-   "secs": 400,
-   "finished": "2026-11-13 21:17:38 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "100 - Gurajala",
-   "worker": "mac",
-   "parts": 300,
-   "electors": 268488,
-   "secs": 422,
-   "finished": "2026-11-13 21:11:44 IST"
   }
  ],
  "failures": [],
@@ -5176,18 +5181,18 @@
    "label": "39 - Peddapuram",
    "district": "Kakinada",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 190,
    "processed": 190,
    "needs_review": 2,
    "failed": 0,
    "elapsed_s": 1685,
-   "electors": null,
+   "electors": 201310,
    "rate_per_min": 6.8,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1Nnzyzt3UrfFXZ6vXwIJkl71_AHcMo26jC-3G1L666IQ/edit",
+   "folder": "https://drive.google.com/drive/folders/1J-uKha2uNqhg2GK_F2ynrMfIXe80J8cU"
   },
   {
    "label": "91 - Tenali",
@@ -5278,15 +5283,100 @@
    "label": "40 - Anaparthi",
    "district": "East Godavari",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 227,
-   "processed": 40,
+   "processed": 227,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 76,
+   "elapsed_s": 1533,
    "electors": null,
-   "rate_per_min": 31.6,
-   "eta_s": 355,
+   "rate_per_min": 8.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "87 - Mangalagiri",
+   "district": "Guntur",
+   "year": "2024",
+   "state": "done",
+   "total": 286,
+   "processed": 286,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 425,
+   "electors": 292432,
+   "rate_per_min": 40.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/197MB1Bml4MQ2sYDfkx2BrcZuu3ALPcKThBTHEdR_d5E/edit",
+   "folder": "https://drive.google.com/drive/folders/10fsZJ369822o3gujlY9K9Th1ySPYfUXE"
+  },
+  {
+   "label": "88 - Ponnur",
+   "district": "Guntur",
+   "year": "2024",
+   "state": "done",
+   "total": 263,
+   "processed": 263,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 365,
+   "electors": 225829,
+   "rate_per_min": 43.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1AZTxXCyCkoUy3BHgsLX6DShSmoGV6Sb_Y06IeugNddY/edit",
+   "folder": "https://drive.google.com/drive/folders/1dm3iS07CNrlVS0KPYYT1DwaYW1mXTlfT"
+  },
+  {
+   "label": "89 - Vemuru",
+   "district": "Bapatla",
+   "year": "2024",
+   "state": "done",
+   "total": 233,
+   "processed": 233,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 323,
+   "electors": 197458,
+   "rate_per_min": 43.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1YUUMCrz8EL7OFAKl-TOYLC33ndzfbQqk9EJmKumPFzY/edit",
+   "folder": "https://drive.google.com/drive/folders/14enZkpuULsBZLcUHAh2YIPxY00zLWFJA"
+  },
+  {
+   "label": "90 - Repalle",
+   "district": "Bapatla",
+   "year": "2024",
+   "state": "done",
+   "total": 261,
+   "processed": 261,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 359,
+   "electors": 223040,
+   "rate_per_min": 43.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1kFZCgKR9595lsyzqvy3y_yZURLBwwgnuV7XOeI_0HPY/edit",
+   "folder": "https://drive.google.com/drive/folders/1W2lyOW1XoiqHw8EZ-qW3KijBpbJbI7Z0"
+  },
+  {
+   "label": "41 - Kakinada City",
+   "district": "Kakinada",
+   "year": "2024",
+   "state": "running",
+   "total": 186,
+   "processed": 0,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 0,
+   "electors": null,
+   "rate_per_min": 0,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
