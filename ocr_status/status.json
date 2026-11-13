@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:51:31 AM IST",
- "updated_epoch": 1794601291,
+ "updated": "14 Nov 2026, 01:52:38 AM IST",
+ "updated_epoch": 1794601358,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:51 AM IST"
+   "eta": "14 Nov, 01:52 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 0,
    "errors": 0,
    "parts": 0,
-   "needs_review": 4,
+   "needs_review": 11,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 07:15 PM IST"
+   "eta": "14 Nov, 07:16 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 01:51 AM IST"
+   "eta": "14 Nov, 01:52 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 1 - Ichchapuram (2025)",
-  "updated": "2026-11-14 01:51:29 IST",
+  "updated": "2026-11-14 01:52:34 IST",
   "year": "2025",
   "next": "2 - Palasa (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,27 +53,27 @@
    "year": "2025",
    "ac": "1 - Ichchapuram",
    "phase": "OCR",
-   "processed": 130,
+   "processed": 240,
    "total": 299,
-   "parts_per_min": 92.8,
+   "parts_per_min": 96.6,
    "prefetch": "2 - Palasa (2025)",
    "uploading": [],
    "done_session": 0,
    "parts_session": 0,
    "last": [],
-   "load1": 8.97,
+   "load1": 10.18,
    "cores_busy": 8,
-   "updated": "2026-11-14 01:51:29 IST",
-   "updated_epoch": 1794601289,
+   "updated": "2026-11-14 01:52:34 IST",
+   "updated_epoch": 1794601354,
    "fetch": {
     "ac": "2 - Palasa",
     "year": "2025",
-    "done": 8,
+    "done": 13,
     "total": 14,
-    "mb": 674.2,
-    "mbps": 28.71
+    "mb": 1153.9,
+    "mbps": 17.21
    },
-   "age_s": 2
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -104,7 +104,7 @@
     "mb": 284.4,
     "mbps": 10.76
    },
-   "age_s": 140
+   "age_s": 207
   }
  ],
  "throughput_ac_per_hr": 10.0,
@@ -6090,13 +6090,13 @@
    "year": "2025",
    "state": "running",
    "total": 299,
-   "processed": 140,
-   "needs_review": 4,
+   "processed": 250,
+   "needs_review": 11,
    "failed": 0,
-   "elapsed_s": 84,
+   "elapsed_s": 149,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 95,
+   "rate_per_min": 100.7,
+   "eta_s": 29,
    "error": "",
    "sheet": "",
    "folder": ""
