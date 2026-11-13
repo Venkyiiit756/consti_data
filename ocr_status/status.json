@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 05:22:01 PM IST",
- "updated_epoch": 1794570721,
+ "updated": "13 Nov 2026, 05:56:58 PM IST",
+ "updated_epoch": 1794572818,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 05:22 PM IST"
+   "eta": "13 Nov, 05:56 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 64,
+   "done": 71,
    "errors": 0,
-   "parts": 16791,
-   "needs_review": 554,
+   "parts": 18681,
+   "needs_review": 582,
    "failed": 0,
-   "electors": 14814502,
-   "eta": "14 Nov, 03:29 AM IST"
+   "electors": 16452184,
+   "eta": "14 Nov, 03:25 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 24 - Visakhapatnam West (2024)",
-  "updated": "2026-11-13 17:21:59 IST",
+  "phase": "OCR 25 - Gajuwaka (2024)",
+  "updated": "2026-11-13 17:56:56 IST",
   "year": "2024",
-  "next": "27 - Madugula (2024)",
+  "next": "28 - Araku Valley (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,18 +41,30 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "24 - Visakhapatnam West",
+   "ac": "25 - Gajuwaka",
    "phase": "OCR",
-   "processed": 60,
-   "total": 220,
-   "parts_per_min": 59.3,
-   "prefetch": "27 - Madugula (2024)",
-   "uploading": [
-    "23 - Visakhapatnam North"
-   ],
-   "done_session": 29,
-   "parts_session": 7872,
+   "processed": 80,
+   "total": 299,
+   "parts_per_min": 89.0,
+   "prefetch": "28 - Araku Valley (2024)",
+   "uploading": [],
+   "done_session": 31,
+   "parts_session": 8364,
    "last": [
+    {
+     "ac": "24 - Visakhapatnam West",
+     "year": "2024",
+     "parts": 220,
+     "secs": 2230,
+     "finished": "2026-11-13 17:56:47 IST"
+    },
+    {
+     "ac": "23 - Visakhapatnam North",
+     "year": "2024",
+     "parts": 272,
+     "secs": 3637,
+     "finished": "2026-11-13 17:54:43 IST"
+    },
     {
      "ac": "22 - Visakhapatnam South",
      "year": "2024",
@@ -73,28 +85,14 @@
      "parts": 311,
      "secs": 2211,
      "finished": "2026-11-13 16:20:51 IST"
-    },
-    {
-     "ac": "19 - Srungavarapukota",
-     "year": "2024",
-     "parts": 270,
-     "secs": 1400,
-     "finished": "2026-11-13 16:18:51 IST"
-    },
-    {
-     "ac": "18 - Vizianagaram",
-     "year": "2024",
-     "parts": 237,
-     "secs": 1978,
-     "finished": "2026-11-13 15:56:55 IST"
     }
    ],
-   "load1": 10.76,
+   "load1": 10.73,
    "cores_busy": 8,
-   "updated": "2026-11-13 17:21:59 IST",
-   "updated_epoch": 1794570719,
+   "updated": "2026-11-13 17:56:56 IST",
+   "updated_epoch": 1794572816,
    "fetch": {
-    "ac": "27 - Madugula",
+    "ac": "28 - Araku Valley",
     "year": "2024",
     "done": 0,
     "total": 0,
@@ -110,69 +108,132 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "133 - Mydukur",
+   "ac": "128 - Rayachoti",
    "phase": "OCR",
-   "processed": 230,
-   "total": 266,
-   "parts_per_min": 41.8,
-   "prefetch": "130 - Kamalapuram (2024)",
+   "processed": 270,
+   "total": 292,
+   "parts_per_min": 40.4,
+   "prefetch": "125 - Rajampet (2024)",
    "uploading": [],
-   "done_session": 70,
-   "parts_session": 18767,
+   "done_session": 75,
+   "parts_session": 20165,
    "last": [
     {
-     "ac": "134 - Allagadda",
+     "ac": "129 - Pulivendla",
      "year": "2024",
-     "parts": 205,
-     "secs": 458,
-     "finished": "2026-11-13 17:15:57 IST"
+     "parts": 301,
+     "secs": 783,
+     "finished": "2026-11-13 17:49:59 IST"
     },
     {
-     "ac": "135 - Srisailam",
+     "ac": "130 - Kamalapuram",
      "year": "2024",
-     "parts": 220,
-     "secs": 631,
-     "finished": "2026-11-13 17:12:34 IST"
+     "parts": 249,
+     "secs": 548,
+     "finished": "2026-11-13 17:42:26 IST"
     },
     {
-     "ac": "136 - Nandikotkur",
+     "ac": "131 - Jammalamadugu",
      "year": "2024",
-     "parts": 251,
-     "secs": 680,
-     "finished": "2026-11-13 17:05:52 IST"
+     "parts": 315,
+     "secs": 679,
+     "finished": "2026-11-13 17:35:51 IST"
     },
     {
-     "ac": "137 - Kurnool",
+     "ac": "132 - Proddatur",
      "year": "2024",
-     "parts": 258,
-     "secs": 967,
-     "finished": "2026-11-13 17:02:56 IST"
+     "parts": 267,
+     "secs": 671,
+     "finished": "2026-11-13 17:28:53 IST"
     },
     {
-     "ac": "138 - Panyam",
+     "ac": "133 - Mydukur",
      "year": "2024",
-     "parts": 340,
-     "secs": 896,
-     "finished": "2026-11-13 16:53:57 IST"
+     "parts": 266,
+     "secs": 676,
+     "finished": "2026-11-13 17:23:52 IST"
     }
    ],
-   "load1": 27.86,
+   "load1": 24.56,
    "cores_busy": 10,
-   "updated": "2026-11-13 17:20:08 IST",
-   "updated_epoch": 1794570608,
+   "updated": "2026-11-13 17:55:09 IST",
+   "updated_epoch": 1794572709,
    "fetch": {
-    "ac": "130 - Kamalapuram",
+    "ac": "125 - Rajampet",
     "year": "2024",
-    "done": 16,
-    "total": 16,
-    "mb": 1190.2,
-    "mbps": 13.39
+    "done": 19,
+    "total": 19,
+    "mb": 1365.3,
+    "mbps": 11.69
    },
-   "age_s": 113
+   "age_s": 109
   }
  ],
  "throughput_ac_per_hr": 10.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "24 - Visakhapatnam West",
+   "worker": "box",
+   "parts": 220,
+   "electors": 213439,
+   "secs": 2104,
+   "finished": "2026-11-13 17:56:43 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "23 - Visakhapatnam North",
+   "worker": "box",
+   "parts": 272,
+   "electors": 292189,
+   "secs": 1526,
+   "finished": "2026-11-13 17:54:40 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "129 - Pulivendla",
+   "worker": "mac",
+   "parts": 301,
+   "electors": 229687,
+   "secs": 421,
+   "finished": "2026-11-13 17:48:58 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "130 - Kamalapuram",
+   "worker": "mac",
+   "parts": 249,
+   "electors": 204169,
+   "secs": 399,
+   "finished": "2026-11-13 17:41:53 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "131 - Jammalamadugu",
+   "worker": "mac",
+   "parts": 315,
+   "electors": 242556,
+   "secs": 448,
+   "finished": "2026-11-13 17:35:43 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "132 - Proddatur",
+   "worker": "mac",
+   "parts": 267,
+   "electors": 247966,
+   "secs": 383,
+   "finished": "2026-11-13 17:27:54 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "133 - Mydukur",
+   "worker": "mac",
+   "parts": 266,
+   "electors": 207676,
+   "secs": 379,
+   "finished": "2026-11-13 17:23:41 IST"
+  },
   {
    "year": "2024",
    "ac": "134 - Allagadda",
@@ -181,69 +242,6 @@
    "electors": 170039,
    "secs": 299,
    "finished": "2026-11-13 17:15:49 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "135 - Srisailam",
-   "worker": "mac",
-   "parts": 220,
-   "electors": 194913,
-   "secs": 313,
-   "finished": "2026-11-13 17:11:58 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "136 - Nandikotkur",
-   "worker": "mac",
-   "parts": 251,
-   "electors": 218047,
-   "secs": 363,
-   "finished": "2026-11-13 17:04:54 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "137 - Kurnool",
-   "worker": "mac",
-   "parts": 258,
-   "electors": 274465,
-   "secs": 377,
-   "finished": "2026-11-13 17:02:44 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "22 - Visakhapatnam South",
-   "worker": "box",
-   "parts": 210,
-   "electors": 196521,
-   "secs": 1997,
-   "finished": "2026-11-13 16:55:44 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "138 - Panyam",
-   "worker": "mac",
-   "parts": 340,
-   "electors": 331706,
-   "secs": 487,
-   "finished": "2026-11-13 16:52:58 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "139 - Nandyal",
-   "worker": "mac",
-   "parts": 281,
-   "electors": 273938,
-   "secs": 407,
-   "finished": "2026-11-13 16:44:58 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "140 - Banaganapalle",
-   "worker": "mac",
-   "parts": 277,
-   "electors": 241179,
-   "secs": 402,
-   "finished": "2026-11-13 16:37:57 IST"
   }
  ],
  "failures": [],
@@ -4248,18 +4246,18 @@
    "label": "23 - Visakhapatnam North",
    "district": "Visakhapatnam",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 272,
    "processed": 272,
    "needs_review": 6,
    "failed": 0,
    "elapsed_s": 1525,
-   "electors": null,
+   "electors": 292189,
    "rate_per_min": 10.7,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1R8zQ0B6Xc0dUZNdHPjiw1kX3kqJ_lg0j840COPAQfbo/edit",
+   "folder": "https://drive.google.com/drive/folders/1j9t0pdWQ9anAcW0poim0DcT3INqI2TJ6"
   },
   {
    "label": "134 - Allagadda",
@@ -4333,15 +4331,117 @@
    "label": "24 - Visakhapatnam West",
    "district": "Visakhapatnam",
    "year": "2024",
-   "state": "running",
+   "state": "done",
    "total": 220,
-   "processed": 60,
+   "processed": 220,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 56,
+   "elapsed_s": 2104,
+   "electors": 213439,
+   "rate_per_min": 6.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Afh3ojmjlF1IG665-tFhAe7b_gckT6Cv_ci7fSSHjN8/edit",
+   "folder": "https://drive.google.com/drive/folders/1eWujIdsAz2Vr3nLrcSroScnpsjCxer16"
+  },
+  {
+   "label": "129 - Pulivendla",
+   "district": "YSR Kadapa",
+   "year": "2024",
+   "state": "done",
+   "total": 301,
+   "processed": 301,
+   "needs_review": 10,
+   "failed": 0,
+   "elapsed_s": 421,
+   "electors": 229687,
+   "rate_per_min": 42.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1yJIdeSkHbzcijwk4qw1dYpqgpMWrFX34wo92RWBv--c/edit",
+   "folder": "https://drive.google.com/drive/folders/1W02f7hnas9ZQzltrkPKeJ7QnayWtSzYM"
+  },
+  {
+   "label": "130 - Kamalapuram",
+   "district": "YSR Kadapa",
+   "year": "2024",
+   "state": "done",
+   "total": 249,
+   "processed": 249,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 399,
+   "electors": 204169,
+   "rate_per_min": 37.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1X_ZH8CMS6OXTRwt8ep-JgKxOF_m4DpN83jQCLkCGadU/edit",
+   "folder": "https://drive.google.com/drive/folders/1Q1rAeNdPgOuJ-AZ5dma9BKwnNBvJTRao"
+  },
+  {
+   "label": "131 - Jammalamadugu",
+   "district": "YSR Kadapa",
+   "year": "2024",
+   "state": "done",
+   "total": 315,
+   "processed": 315,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 448,
+   "electors": 242556,
+   "rate_per_min": 42.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Yl1sfvBOO8MUcKjxSy673aE2xZaq5EPyiQZl14TQSMM/edit",
+   "folder": "https://drive.google.com/drive/folders/1YmobNLeriUp7Z2HyM-qsLH015vUDg3m-"
+  },
+  {
+   "label": "132 - Proddatur",
+   "district": "YSR Kadapa",
+   "year": "2024",
+   "state": "done",
+   "total": 267,
+   "processed": 267,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 383,
+   "electors": 247966,
+   "rate_per_min": 41.8,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1iLZ7hd9ZgTlROTQcaX4DJie4BJ7jD671IfiqjX9kQwU/edit",
+   "folder": "https://drive.google.com/drive/folders/1kg87L2ywK3_V40euW-Bn_EoO7mAgwT--"
+  },
+  {
+   "label": "133 - Mydukur",
+   "district": "YSR Kadapa",
+   "year": "2024",
+   "state": "done",
+   "total": 266,
+   "processed": 266,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 379,
+   "electors": 207676,
+   "rate_per_min": 42.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ciBLCEKQy6nEsK8LHshTIgCjQiugMR0UtpwiNxNi-m4/edit",
+   "folder": "https://drive.google.com/drive/folders/11fG5Mt42gM0u8NBl6Cofe7sPZd_2FuMk"
+  },
+  {
+   "label": "25 - Gajuwaka",
+   "district": "Visakhapatnam",
+   "year": "2024",
+   "state": "running",
+   "total": 299,
+   "processed": 80,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 51,
    "electors": null,
-   "rate_per_min": 64.3,
-   "eta_s": 149,
+   "rate_per_min": 94.1,
+   "eta_s": 140,
    "error": "",
    "sheet": "",
    "folder": ""
