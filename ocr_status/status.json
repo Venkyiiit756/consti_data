@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 02:15:56 PM IST",
- "updated_epoch": 1794559556,
+ "updated": "13 Nov 2026, 02:17:15 PM IST",
+ "updated_epoch": 1794559635,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 02:15 PM IST"
+   "eta": "13 Nov, 02:17 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 23,
+   "done": 24,
    "errors": 0,
-   "parts": 6354,
-   "needs_review": 188,
+   "parts": 6592,
+   "needs_review": 194,
    "failed": 0,
-   "electors": 5541935,
-   "eta": "14 Nov, 12:54 AM IST"
+   "electors": 5752997,
+   "eta": "14 Nov, 12:51 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 8 - Narasannapeta (2024)",
-  "updated": "2026-11-13 14:15:55 IST",
+  "phase": "OCR 9 - Rajam (2024)",
+  "updated": "2026-11-13 14:17:10 IST",
   "year": "2024",
-  "next": "11 - Kurupam (2024)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "8 - Narasannapeta",
+   "ac": "9 - Rajam",
    "phase": "OCR",
-   "processed": 260,
-   "total": 290,
-   "parts_per_min": 100.3,
-   "prefetch": "11 - Kurupam (2024)",
-   "uploading": [],
+   "processed": 110,
+   "total": 282,
+   "parts_per_min": 102.7,
+   "prefetch": "",
+   "uploading": [
+    "8 - Narasannapeta"
+   ],
    "done_session": 14,
    "parts_session": 3979,
    "last": [
@@ -87,19 +89,12 @@
      "finished": "2026-11-13 12:46:40 IST"
     }
    ],
-   "load1": 10.56,
+   "load1": 10.35,
    "cores_busy": 8,
-   "updated": "2026-11-13 14:15:55 IST",
-   "updated_epoch": 1794559555,
-   "fetch": {
-    "ac": "11 - Kurupam",
-    "year": "2024",
-    "done": 14,
-    "total": 14,
-    "mb": 1025.2,
-    "mbps": 39.85
-   },
-   "age_s": 1
+   "updated": "2026-11-13 14:17:10 IST",
+   "updated_epoch": 1794559630,
+   "fetch": null,
+   "age_s": 5
   },
   {
    "worker": "mac",
@@ -110,16 +105,21 @@
    "year": "2024",
    "ac": "158 - Penukonda",
    "phase": "OCR",
-   "processed": 100,
+   "processed": 190,
    "total": 265,
-   "parts_per_min": 44.8,
+   "parts_per_min": 45.5,
    "prefetch": "155 - Raptadu (2024)",
-   "uploading": [
-    "159 - Puttaparthi"
-   ],
-   "done_session": 44,
-   "parts_session": 12223,
+   "uploading": [],
+   "done_session": 45,
+   "parts_session": 12461,
    "last": [
+    {
+     "ac": "159 - Puttaparthi",
+     "year": "2024",
+     "parts": 238,
+     "secs": 604,
+     "finished": "2026-11-13 14:14:48 IST"
+    },
     {
      "ac": "160 - Dharmavaram",
      "year": "2024",
@@ -147,32 +147,34 @@
      "parts": 281,
      "secs": 583,
      "finished": "2026-11-13 13:52:25 IST"
-    },
-    {
-     "ac": "164 - Madanapalle",
-     "year": "2024",
-     "parts": 259,
-     "secs": 563,
-     "finished": "2026-11-13 13:47:01 IST"
     }
    ],
-   "load1": 26.88,
+   "load1": 23.04,
    "cores_busy": 10,
-   "updated": "2026-11-13 14:14:11 IST",
-   "updated_epoch": 1794559451,
+   "updated": "2026-11-13 14:16:07 IST",
+   "updated_epoch": 1794559567,
    "fetch": {
     "ac": "155 - Raptadu",
     "year": "2024",
-    "done": 16,
+    "done": 20,
     "total": 20,
-    "mb": 1101.7,
-    "mbps": 12.79
+    "mb": 1273.8,
+    "mbps": 6.37
    },
-   "age_s": 105
+   "age_s": 68
   }
  ],
  "throughput_ac_per_hr": 14.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "159 - Puttaparthi",
+   "worker": "mac",
+   "parts": 238,
+   "electors": 211062,
+   "secs": 295,
+   "finished": "2026-11-13 14:14:33 IST"
+  },
   {
    "year": "2024",
    "ac": "7 - Etcherla",
@@ -235,15 +237,6 @@
    "electors": 223668,
    "secs": 655,
    "finished": "2026-11-13 13:55:29 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "163 - Pileru",
-   "worker": "mac",
-   "parts": 281,
-   "electors": 234608,
-   "secs": 338,
-   "finished": "2026-11-13 13:51:54 IST"
   }
  ],
  "failures": [],
@@ -3619,18 +3612,52 @@
    "label": "8 - Narasannapeta",
    "district": "Srikakulam",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 290,
-   "processed": 270,
-   "needs_review": 10,
+   "processed": 290,
+   "needs_review": 11,
    "failed": 0,
-   "elapsed_s": 157,
+   "elapsed_s": 166,
    "electors": null,
-   "rate_per_min": 103.2,
-   "eta_s": 12,
+   "rate_per_min": 104.8,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "9 - Rajam",
+   "district": "Vizianagaram",
+   "year": "2024",
+   "state": "running",
+   "total": 282,
+   "processed": 120,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 66,
+   "electors": null,
+   "rate_per_min": 109.1,
+   "eta_s": 89,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "159 - Puttaparthi",
+   "district": "Sri Sathya Sai",
+   "year": "2024",
+   "state": "done",
+   "total": 238,
+   "processed": 238,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 295,
+   "electors": 211062,
+   "rate_per_min": 48.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1_iz4uc8nEfU8jKnnsWZtr5a2SaRDKa1FPSNnRt-rZQk/edit",
+   "folder": "https://drive.google.com/drive/folders/1bhw2TD2qCIvxcAZMt_tHjRBJIqeFWaXb"
   }
  ]
 }
