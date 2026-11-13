@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 08:15:19 PM IST",
- "updated_epoch": 1794581119,
+ "updated": "13 Nov 2026, 08:17:26 PM IST",
+ "updated_epoch": 1794581246,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 08:15 PM IST"
+   "eta": "13 Nov, 08:17 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 813,
    "failed": 0,
    "electors": 23380445,
-   "eta": "14 Nov, 01:56 AM IST"
+   "eta": "14 Nov, 02:17 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 35 - Tuni (2024)",
-  "updated": "2026-11-13 20:15:18 IST",
+  "phase": "OCR 36 - Prathipadu (2024)",
+  "updated": "2026-11-13 20:17:23 IST",
   "year": "2024",
-  "next": "36 - Prathipadu (2024)",
+  "next": "37 - Pithapuram (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "35 - Tuni",
+   "ac": "36 - Prathipadu",
    "phase": "OCR",
    "processed": 40,
-   "total": 215,
-   "parts_per_min": 80.8,
-   "prefetch": "36 - Prathipadu (2024)",
+   "total": 223,
+   "parts_per_min": 87.2,
+   "prefetch": "37 - Pithapuram (2024)",
    "uploading": [
     "34 - Narsipatnam"
    ],
@@ -89,19 +89,19 @@
      "finished": "2026-11-13 19:17:45 IST"
     }
    ],
-   "load1": 11.5,
+   "load1": 10.74,
    "cores_busy": 8,
-   "updated": "2026-11-13 20:15:18 IST",
-   "updated_epoch": 1794581118,
+   "updated": "2026-11-13 20:17:23 IST",
+   "updated_epoch": 1794581243,
    "fetch": {
-    "ac": "36 - Prathipadu",
+    "ac": "37 - Pithapuram",
     "year": "2024",
-    "done": 12,
-    "total": 16,
-    "mb": 905.0,
-    "mbps": 32.33
+    "done": 14,
+    "total": 18,
+    "mb": 1014.1,
+    "mbps": 35.82
    },
-   "age_s": 1
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -112,9 +112,9 @@
    "year": "2024",
    "ac": "108 - Ongole",
    "phase": "OCR",
-   "processed": 150,
+   "processed": 210,
    "total": 251,
-   "parts_per_min": 34.0,
+   "parts_per_min": 36.0,
    "prefetch": "105 - Addanki (2024)",
    "uploading": [],
    "done_session": 95,
@@ -156,10 +156,10 @@
      "finished": "2026-11-13 19:42:54 IST"
     }
    ],
-   "load1": 53.67,
+   "load1": 51.02,
    "cores_busy": 10,
-   "updated": "2026-11-13 20:14:42 IST",
-   "updated_epoch": 1794581082,
+   "updated": "2026-11-13 20:16:08 IST",
+   "updated_epoch": 1794581168,
    "fetch": {
     "ac": "105 - Addanki",
     "year": "2024",
@@ -168,10 +168,10 @@
     "mb": 1197.7,
     "mbps": 7.88
    },
-   "age_s": 37
+   "age_s": 78
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 12.0,
  "recent": [
   {
    "year": "2024",
@@ -4945,15 +4945,32 @@
    "label": "35 - Tuni",
    "district": "Kakinada",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 215,
-   "processed": 40,
+   "processed": 215,
    "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 127,
+   "electors": null,
+   "rate_per_min": 101.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "36 - Prathipadu",
+   "district": "Kakinada",
+   "year": "2024",
+   "state": "running",
+   "total": 223,
+   "processed": 40,
+   "needs_review": 0,
    "failed": 0,
    "elapsed_s": 26,
    "electors": null,
    "rate_per_min": 92.3,
-   "eta_s": 114,
+   "eta_s": 119,
    "error": "",
    "sheet": "",
    "folder": ""
