@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 09:31:00 AM IST",
- "updated_epoch": 1794542460,
+ "updated": "13 Nov 2026, 09:33:09 AM IST",
+ "updated_epoch": 1794542589,
  "total_constituencies": 175,
- "done_constituencies": 133,
+ "done_constituencies": 134,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 133,
+   "done": 134,
    "errors": 0,
-   "parts": 38281,
-   "needs_review": 1047,
+   "parts": 38526,
+   "needs_review": 1048,
    "failed": 33,
-   "electors": 28259618,
-   "eta": "13 Nov, 11:46 AM IST"
+   "electors": 28456560,
+   "eta": "13 Nov, 11:40 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 08:58 PM IST"
+   "eta": "13 Nov, 08:34 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 63 - Ungutur (2026)",
-  "updated": "2026-11-13 09:30:58 IST",
+  "phase": "uploading last results",
+  "updated": "2026-11-13 09:32:28 IST",
   "year": "2026",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "63 - Ungutur",
-   "phase": "OCR",
-   "processed": 150,
-   "total": 245,
-   "parts_per_min": 104.6,
+   "ac": "",
+   "phase": "uploading last results",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
    "prefetch": "",
-   "uploading": [],
+   "uploading": [
+    "63 - Ungutur"
+   ],
    "done_session": 34,
    "parts_session": 8941,
    "last": [
@@ -87,12 +89,12 @@
      "finished": "2026-11-13 09:04:44 IST"
     }
    ],
-   "load1": 8.8,
-   "cores_busy": 8,
-   "updated": "2026-11-13 09:30:58 IST",
-   "updated_epoch": 1794542458,
+   "load1": 4.46,
+   "cores_busy": 0,
+   "updated": "2026-11-13 09:32:28 IST",
+   "updated_epoch": 1794542548,
    "fetch": null,
-   "age_s": 2
+   "age_s": 41
   },
   {
    "worker": "mac",
@@ -101,13 +103,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "104 - Parchur",
+   "ac": "103 - Darsi",
    "phase": "OCR",
-   "processed": 230,
-   "total": 304,
-   "parts_per_min": 51.3,
-   "prefetch": "101 - Macherla (2026)",
-   "uploading": [],
+   "processed": 30,
+   "total": 291,
+   "parts_per_min": 41.1,
+   "prefetch": "100 - Gurajala (2026)",
+   "uploading": [
+    "104 - Parchur"
+   ],
    "done_session": 64,
    "parts_session": 19269,
    "last": [
@@ -147,23 +151,32 @@
      "finished": "2026-11-13 09:04:50 IST"
     }
    ],
-   "load1": 19.69,
+   "load1": 19.23,
    "cores_busy": 10,
-   "updated": "2026-11-13 09:29:50 IST",
-   "updated_epoch": 1794542390,
+   "updated": "2026-11-13 09:31:52 IST",
+   "updated_epoch": 1794542512,
    "fetch": {
-    "ac": "101 - Macherla",
+    "ac": "100 - Gurajala",
     "year": "2026",
-    "done": 37,
-    "total": 37,
-    "mb": 2835.7,
-    "mbps": 11.27
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 70
+   "age_s": 77
   }
  ],
- "throughput_ac_per_hr": 18.7,
+ "throughput_ac_per_hr": 19.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "63 - Ungutur",
+   "worker": "box",
+   "parts": 245,
+   "electors": 196942,
+   "secs": 132,
+   "finished": "2026-11-13 09:32:26 IST"
+  },
   {
    "year": "2026",
    "ac": "62 - Tadepalligudem",
@@ -226,15 +239,6 @@
    "electors": 194533,
    "secs": 314,
    "finished": "2026-11-13 09:15:46 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "108 - Ongole",
-   "worker": "mac",
-   "parts": 271,
-   "electors": 218662,
-   "secs": 322,
-   "finished": "2026-11-13 09:09:50 IST"
   }
  ],
  "failures": [],
@@ -2505,18 +2509,18 @@
    "label": "63 - Ungutur",
    "district": "Eluru",
    "year": "2026",
-   "state": "running",
+   "state": "done",
    "total": 245,
-   "processed": 150,
-   "needs_review": 1,
+   "processed": 245,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 83,
-   "electors": null,
-   "rate_per_min": 108.4,
-   "eta_s": 53,
+   "elapsed_s": 131,
+   "electors": 196942,
+   "rate_per_min": 112.2,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1gol0SnSEBXqpbf1gzRjUMNQta0AewR3165hNuf8A5EE/edit",
+   "folder": "https://drive.google.com/drive/folders/1k6AGv8Lq5dKLtA9DT7TBu9Yziu8ZJHHE"
   }
  ]
 }
