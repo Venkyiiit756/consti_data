@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 06:57:35 AM IST",
- "updated_epoch": 1794533255,
+ "updated": "13 Nov 2026, 07:22:39 AM IST",
+ "updated_epoch": 1794534759,
  "total_constituencies": 175,
- "done_constituencies": 91,
+ "done_constituencies": 93,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 91,
+   "done": 93,
    "errors": 0,
-   "parts": 26433,
-   "needs_review": 822,
+   "parts": 27004,
+   "needs_review": 828,
    "failed": 3,
-   "electors": 19528742,
-   "eta": "13 Nov, 01:35 PM IST"
+   "electors": 19940672,
+   "eta": "13 Nov, 03:03 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 03:10 AM IST"
+   "eta": "14 Nov, 07:11 AM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 06:57:31 IST",
+  "phase": "OCR 47 - Kothapeta (2026)",
+  "updated": "2026-11-13 07:22:39 IST",
   "year": "2026",
-  "next": "47 - Kothapeta (2026)",
+  "next": "48 - Mandapeta (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "47 - Kothapeta (2026)",
+   "ac": "47 - Kothapeta",
+   "phase": "OCR",
+   "processed": 10,
+   "total": 277,
+   "parts_per_min": 49.1,
+   "prefetch": "48 - Mandapeta (2026)",
    "uploading": [],
    "done_session": 19,
    "parts_session": 5161,
@@ -87,19 +87,19 @@
      "finished": "2026-11-13 05:23:11 IST"
     }
    ],
-   "load1": 5.56,
-   "cores_busy": 0,
-   "updated": "2026-11-13 06:57:31 IST",
-   "updated_epoch": 1794533251,
+   "load1": 5.96,
+   "cores_busy": 8,
+   "updated": "2026-11-13 07:22:39 IST",
+   "updated_epoch": 1794534759,
    "fetch": {
-    "ac": "47 - Kothapeta",
+    "ac": "48 - Mandapeta",
     "year": "2026",
-    "done": 42,
-    "total": 45,
-    "mb": 2887.6,
-    "mbps": 1.4
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 4
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -108,64 +108,87 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "130 - Kamalapuram",
+   "ac": "126 - Kadapa",
    "phase": "OCR",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "",
-   "uploading": [
-    "131 - Jammalamadugu"
-   ],
-   "done_session": 37,
-   "parts_session": 11201,
+   "processed": 150,
+   "total": 340,
+   "parts_per_min": 50.9,
+   "prefetch": "123 - Udayagiri (2026)",
+   "uploading": [],
+   "done_session": 42,
+   "parts_session": 12687,
    "last": [
     {
-     "ac": "132 - Proddatur",
+     "ac": "127 - Kodur",
      "year": "2026",
-     "parts": 310,
-     "secs": 678,
-     "finished": "2026-11-13 06:52:38 IST"
+     "parts": 269,
+     "secs": 518,
+     "finished": "2026-11-13 07:19:51 IST"
     },
     {
-     "ac": "133 - Mydukur",
+     "ac": "128 - Rayachoti",
      "year": "2026",
-     "parts": 284,
-     "secs": 697,
-     "finished": "2026-11-13 06:47:09 IST"
+     "parts": 302,
+     "secs": 698,
+     "finished": "2026-11-13 07:14:51 IST"
     },
     {
-     "ac": "134 - Allagadda",
+     "ac": "129 - Pulivendla",
      "year": "2026",
-     "parts": 312,
-     "secs": 563,
-     "finished": "2026-11-13 06:39:51 IST"
+     "parts": 309,
+     "secs": 693,
+     "finished": "2026-11-13 07:09:55 IST"
     },
     {
-     "ac": "135 - Srisailam",
+     "ac": "130 - Kamalapuram",
      "year": "2026",
-     "parts": 239,
-     "secs": 430,
-     "finished": "2026-11-13 06:33:53 IST"
+     "parts": 279,
+     "secs": 665,
+     "finished": "2026-11-13 07:03:53 IST"
     },
     {
-     "ac": "136 - Nandikotkur",
+     "ac": "131 - Jammalamadugu",
      "year": "2026",
-     "parts": 276,
-     "secs": 530,
-     "finished": "2026-11-13 06:29:49 IST"
+     "parts": 327,
+     "secs": 702,
+     "finished": "2026-11-13 06:57:56 IST"
     }
    ],
-   "load1": 22.65,
-   "cores_busy": 7,
-   "updated": "2026-11-13 06:56:45 IST",
-   "updated_epoch": 1794533205,
-   "fetch": null,
-   "age_s": 50
+   "load1": 26.35,
+   "cores_busy": 10,
+   "updated": "2026-11-13 07:21:43 IST",
+   "updated_epoch": 1794534703,
+   "fetch": {
+    "ac": "123 - Udayagiri",
+    "year": "2026",
+    "done": 29,
+    "total": 34,
+    "mb": 2462.5,
+    "mbps": 16.8
+   },
+   "age_s": 56
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 10.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "127 - Kodur",
+   "worker": "mac",
+   "parts": 269,
+   "electors": 180017,
+   "secs": 305,
+   "finished": "2026-11-13 07:19:40 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "128 - Rayachoti",
+   "worker": "mac",
+   "parts": 302,
+   "electors": 231913,
+   "secs": 344,
+   "finished": "2026-11-13 07:14:41 IST"
+  },
   {
    "year": "2026",
    "ac": "46 - P Gannavaram",
@@ -219,24 +242,6 @@
    "electors": 197610,
    "secs": 318,
    "finished": "2026-11-13 06:29:42 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "137 - Kurnool",
-   "worker": "mac",
-   "parts": 318,
-   "electors": 227687,
-   "secs": 372,
-   "finished": "2026-11-13 06:23:54 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "45 - Razole",
-   "worker": "box",
-   "parts": 210,
-   "electors": 185123,
-   "secs": 112,
-   "finished": "2026-11-13 06:22:40 IST"
   }
  ],
  "failures": [],
@@ -1788,6 +1793,57 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1jfFttN69RckZ3sN-HYZYovKJgeuzKqt5y9hxxJi6Xx8/edit",
    "folder": "https://drive.google.com/drive/folders/1FPKzPw4ZMq4iZNdMNEpCF5CLhKkbzXdZ"
+  },
+  {
+   "label": "47 - Kothapeta",
+   "district": "Konaseema",
+   "year": "2026",
+   "state": "running",
+   "total": 277,
+   "processed": 10,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 7,
+   "electors": null,
+   "rate_per_min": 85.7,
+   "eta_s": 187,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "127 - Kodur",
+   "district": "Tirupati",
+   "year": "2026",
+   "state": "done",
+   "total": 269,
+   "processed": 269,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 305,
+   "electors": 180017,
+   "rate_per_min": 52.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1oOAsBf9ppYyYwpVKPZiHuCDuENKHssWb2fQcHDoLFd8/edit",
+   "folder": "https://drive.google.com/drive/folders/11nU1Aiqt2x9GCj5cjnMoVd1TTQsMfyQg"
+  },
+  {
+   "label": "128 - Rayachoti",
+   "district": "Annamayya",
+   "year": "2026",
+   "state": "done",
+   "total": 302,
+   "processed": 302,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 344,
+   "electors": 231913,
+   "rate_per_min": 52.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ndA7lIh8NIJBX6aoCK5bnzPH4DBdmN0Ic5FaRMjOG0s/edit",
+   "folder": "https://drive.google.com/drive/folders/1_UTtNdQ9IqsRJjWbuEph3tCv2ZwdSqw2"
   }
  ]
 }
