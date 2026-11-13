@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 06:15:41 AM IST",
- "updated_epoch": 1794530741,
+ "updated": "13 Nov 2026, 06:22:57 AM IST",
+ "updated_epoch": 1794531177,
  "total_constituencies": 175,
- "done_constituencies": 80,
+ "done_constituencies": 84,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 80,
+   "done": 84,
    "errors": 0,
-   "parts": 23361,
-   "needs_review": 764,
+   "parts": 24480,
+   "needs_review": 788,
    "failed": 3,
-   "electors": 17219421,
-   "eta": "13 Nov, 03:10 PM IST"
+   "electors": 18112967,
+   "eta": "13 Nov, 01:57 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 07:17 AM IST"
+   "eta": "14 Nov, 04:17 AM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 06:15:37 IST",
+  "phase": "OCR 46 - P Gannavaram (2026)",
+  "updated": "2026-11-13 06:22:57 IST",
   "year": "2026",
-  "next": "44 - Amalapuram (2026)",
+  "next": "47 - Kothapeta (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,16 +41,30 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "44 - Amalapuram (2026)",
+   "ac": "46 - P Gannavaram",
+   "phase": "OCR",
+   "processed": 90,
+   "total": 214,
+   "parts_per_min": 100.2,
+   "prefetch": "47 - Kothapeta (2026)",
    "uploading": [],
-   "done_session": 16,
-   "parts_session": 4478,
+   "done_session": 18,
+   "parts_session": 4947,
    "last": [
+    {
+     "ac": "45 - Razole",
+     "year": "2026",
+     "parts": 210,
+     "secs": 283,
+     "finished": "2026-11-13 06:22:43 IST"
+    },
+    {
+     "ac": "44 - Amalapuram",
+     "year": "2026",
+     "parts": 259,
+     "secs": 3376,
+     "finished": "2026-11-13 06:20:50 IST"
+    },
     {
      "ac": "43 - Mummidivaram",
      "year": "2026",
@@ -71,35 +85,21 @@
      "parts": 261,
      "secs": 313,
      "finished": "2026-11-13 04:28:43 IST"
-    },
-    {
-     "ac": "40 - Anaparthi",
-     "year": "2026",
-     "parts": 248,
-     "secs": 301,
-     "finished": "2026-11-13 04:25:37 IST"
-    },
-    {
-     "ac": "39 - Peddapuram",
-     "year": "2026",
-     "parts": 238,
-     "secs": 1619,
-     "finished": "2026-11-13 04:22:41 IST"
     }
    ],
-   "load1": 3.83,
-   "cores_busy": 0,
-   "updated": "2026-11-13 06:15:37 IST",
-   "updated_epoch": 1794530737,
+   "load1": 10.47,
+   "cores_busy": 8,
+   "updated": "2026-11-13 06:22:57 IST",
+   "updated_epoch": 1794531177,
    "fetch": {
-    "ac": "44 - Amalapuram",
+    "ac": "47 - Kothapeta",
     "year": "2026",
-    "done": 35,
-    "total": 38,
-    "mb": 2541.1,
-    "mbps": 0.83
+    "done": 8,
+    "total": 45,
+    "mb": 539.4,
+    "mbps": 38.42
    },
-   "age_s": 4
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -108,16 +108,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "138 - Panyam",
+   "ac": "137 - Kurnool",
    "phase": "OCR",
-   "processed": 230,
-   "total": 373,
-   "parts_per_min": 50.9,
-   "prefetch": "135 - Srisailam (2026)",
+   "processed": 240,
+   "total": 318,
+   "parts_per_min": 49.7,
+   "prefetch": "134 - Allagadda (2026)",
    "uploading": [],
-   "done_session": 30,
-   "parts_session": 9089,
+   "done_session": 31,
+   "parts_session": 9462,
    "last": [
+    {
+     "ac": "138 - Panyam",
+     "year": "2026",
+     "parts": 373,
+     "secs": 686,
+     "finished": "2026-11-13 06:17:50 IST"
+    },
     {
      "ac": "139 - Nandyal",
      "year": "2026",
@@ -145,32 +152,52 @@
      "parts": 277,
      "secs": 652,
      "finished": "2026-11-13 05:52:55 IST"
-    },
-    {
-     "ac": "143 - Kodumur",
-     "year": "2026",
-     "parts": 265,
-     "secs": 515,
-     "finished": "2026-11-13 05:47:57 IST"
     }
    ],
-   "load1": 22.23,
+   "load1": 31.22,
    "cores_busy": 10,
-   "updated": "2026-11-13 06:14:52 IST",
-   "updated_epoch": 1794530692,
+   "updated": "2026-11-13 06:22:13 IST",
+   "updated_epoch": 1794531133,
    "fetch": {
-    "ac": "135 - Srisailam",
+    "ac": "134 - Allagadda",
     "year": "2026",
-    "done": 27,
-    "total": 27,
-    "mb": 2155.9,
-    "mbps": 16.59
+    "done": 34,
+    "total": 34,
+    "mb": 2620.0,
+    "mbps": 14.77
    },
-   "age_s": 49
+   "age_s": 44
   }
  ],
- "throughput_ac_per_hr": 10.7,
+ "throughput_ac_per_hr": 12.0,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "45 - Razole",
+   "worker": "box",
+   "parts": 210,
+   "electors": 185123,
+   "secs": 112,
+   "finished": "2026-11-13 06:22:40 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "44 - Amalapuram",
+   "worker": "box",
+   "parts": 259,
+   "electors": 211594,
+   "secs": 146,
+   "finished": "2026-11-13 06:20:47 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "138 - Panyam",
+   "worker": "mac",
+   "parts": 373,
+   "electors": 283030,
+   "secs": 422,
+   "finished": "2026-11-13 06:17:42 IST"
+  },
   {
    "year": "2026",
    "ac": "139 - Nandyal",
@@ -200,48 +227,21 @@
   },
   {
    "year": "2026",
+   "ac": "142 - Pattikonda",
+   "worker": "mac",
+   "parts": 277,
+   "electors": 213799,
+   "secs": 316,
+   "finished": "2026-11-13 05:52:48 IST"
+  },
+  {
+   "year": "2026",
    "ac": "43 - Mummidivaram",
    "worker": "box",
    "parts": 307,
    "electors": 218324,
    "secs": 1535,
    "finished": "2026-11-13 05:49:39 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "143 - Kodumur",
-   "worker": "mac",
-   "parts": 265,
-   "electors": 208738,
-   "secs": 306,
-   "finished": "2026-11-13 05:47:49 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "144 - Yemmiganur",
-   "worker": "mac",
-   "parts": 322,
-   "electors": 221701,
-   "secs": 370,
-   "finished": "2026-11-13 05:42:45 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "145 - Mantralayam",
-   "worker": "mac",
-   "parts": 267,
-   "electors": 197152,
-   "secs": 303,
-   "finished": "2026-11-13 05:36:55 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "146 - Adoni",
-   "worker": "mac",
-   "parts": 284,
-   "electors": 239974,
-   "secs": 326,
-   "finished": "2026-11-13 05:32:54 IST"
   }
  ],
  "failures": [],
@@ -1606,6 +1606,91 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1YlxuVrFXJo_qReSVPdviv7HYksLcP4f9Z4dw9PHJ1JM/edit",
    "folder": "https://drive.google.com/drive/folders/11hoNHZALaPqyIwKNrx0hB-RB-1xCZAS_"
+  },
+  {
+   "label": "142 - Pattikonda",
+   "district": "Kurnool",
+   "year": "2026",
+   "state": "done",
+   "total": 277,
+   "processed": 277,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 316,
+   "electors": 213799,
+   "rate_per_min": 52.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1-W8jkkVudIbQbw9WwmrQuhoKM_VOxa30w5WsoZWQ_t0/edit",
+   "folder": "https://drive.google.com/drive/folders/1mJu-8BgRM83zMzrKDU0hJtalyTX8Xhb8"
+  },
+  {
+   "label": "44 - Amalapuram",
+   "district": "Konaseema",
+   "year": "2026",
+   "state": "done",
+   "total": 259,
+   "processed": 259,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 146,
+   "electors": 211594,
+   "rate_per_min": 106.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1hQEH0Fsz_NMPaIbQxNZjxEQJ1KqXt67xI194Itt2MiE/edit",
+   "folder": "https://drive.google.com/drive/folders/1z2fdM3Zs2FefcN4Z7Ktryj8eTOsv9Af8"
+  },
+  {
+   "label": "138 - Panyam",
+   "district": "Nandyal",
+   "year": "2026",
+   "state": "done",
+   "total": 373,
+   "processed": 373,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 422,
+   "electors": 283030,
+   "rate_per_min": 53.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1e3Mzlcni_9SUzmLqQvUoswioTYEEFQSUQOPnD-FghxU/edit",
+   "folder": "https://drive.google.com/drive/folders/15F26ttGrK8HprMVH0v1SMs4u6SCzoP-A"
+  },
+  {
+   "label": "45 - Razole",
+   "district": "Konaseema",
+   "year": "2026",
+   "state": "done",
+   "total": 210,
+   "processed": 210,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 112,
+   "electors": 185123,
+   "rate_per_min": 112.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1SMNgX3tdo4gor1PFDdstbEKtuxo6oFKEQk7roRnilc8/edit",
+   "folder": "https://drive.google.com/drive/folders/1GJL-0CBD1X18VK2jqrvAZ09weWAWo6fj"
+  },
+  {
+   "label": "46 - P Gannavaram",
+   "district": "Konaseema",
+   "year": "2026",
+   "state": "running",
+   "total": 214,
+   "processed": 90,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 50,
+   "electors": null,
+   "rate_per_min": 108.0,
+   "eta_s": 69,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
