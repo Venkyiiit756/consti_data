@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 08:13:12 PM IST",
- "updated_epoch": 1794580992,
+ "updated": "13 Nov 2026, 08:15:19 PM IST",
+ "updated_epoch": 1794581119,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 08:13 PM IST"
+   "eta": "13 Nov, 08:15 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 100,
    "errors": 0,
    "parts": 26730,
-   "needs_review": 807,
+   "needs_review": 813,
    "failed": 0,
    "electors": 23380445,
-   "eta": "14 Nov, 01:54 AM IST"
+   "eta": "14 Nov, 01:56 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 34 - Narsipatnam (2024)",
-  "updated": "2026-11-13 20:13:08 IST",
+  "phase": "OCR 35 - Tuni (2024)",
+  "updated": "2026-11-13 20:15:18 IST",
   "year": "2024",
-  "next": "35 - Tuni (2024)",
+  "next": "36 - Prathipadu (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "34 - Narsipatnam",
+   "ac": "35 - Tuni",
    "phase": "OCR",
-   "processed": 80,
-   "total": 260,
-   "parts_per_min": 82.0,
-   "prefetch": "35 - Tuni (2024)",
-   "uploading": [],
+   "processed": 40,
+   "total": 215,
+   "parts_per_min": 80.8,
+   "prefetch": "36 - Prathipadu (2024)",
+   "uploading": [
+    "34 - Narsipatnam"
+   ],
    "done_session": 40,
    "parts_session": 10824,
    "last": [
@@ -87,19 +89,19 @@
      "finished": "2026-11-13 19:17:45 IST"
     }
    ],
-   "load1": 11.61,
+   "load1": 11.5,
    "cores_busy": 8,
-   "updated": "2026-11-13 20:13:08 IST",
-   "updated_epoch": 1794580988,
+   "updated": "2026-11-13 20:15:18 IST",
+   "updated_epoch": 1794581118,
    "fetch": {
-    "ac": "35 - Tuni",
+    "ac": "36 - Prathipadu",
     "year": "2024",
-    "done": 13,
-    "total": 17,
-    "mb": 927.6,
-    "mbps": 31.07
+    "done": 12,
+    "total": 16,
+    "mb": 905.0,
+    "mbps": 32.33
    },
-   "age_s": 4
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -110,9 +112,9 @@
    "year": "2024",
    "ac": "108 - Ongole",
    "phase": "OCR",
-   "processed": 50,
+   "processed": 150,
    "total": 251,
-   "parts_per_min": 34.2,
+   "parts_per_min": 34.0,
    "prefetch": "105 - Addanki (2024)",
    "uploading": [],
    "done_session": 95,
@@ -154,19 +156,19 @@
      "finished": "2026-11-13 19:42:54 IST"
     }
    ],
-   "load1": 39.86,
+   "load1": 53.67,
    "cores_busy": 10,
-   "updated": "2026-11-13 20:11:46 IST",
-   "updated_epoch": 1794580906,
+   "updated": "2026-11-13 20:14:42 IST",
+   "updated_epoch": 1794581082,
    "fetch": {
     "ac": "105 - Addanki",
     "year": "2024",
-    "done": 12,
+    "done": 18,
     "total": 18,
-    "mb": 855.4,
-    "mbps": 12.22
+    "mb": 1197.7,
+    "mbps": 7.88
    },
-   "age_s": 86
+   "age_s": 37
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -4892,15 +4894,15 @@
    "label": "34 - Narsipatnam",
    "district": "Anakapalli",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 260,
-   "processed": 90,
-   "needs_review": 6,
+   "processed": 260,
+   "needs_review": 10,
    "failed": 0,
-   "elapsed_s": 61,
+   "elapsed_s": 159,
    "electors": null,
-   "rate_per_min": 88.5,
-   "eta_s": 115,
+   "rate_per_min": 98.1,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -4938,6 +4940,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1opsc2rAMOKboxrqYPVknxOwQ7G_YVjrnxMBMb4tVZ7o/edit",
    "folder": "https://drive.google.com/drive/folders/10fVOLjEIAkqf3AdEw7PVkjdjrUThs6CG"
+  },
+  {
+   "label": "35 - Tuni",
+   "district": "Kakinada",
+   "year": "2024",
+   "state": "running",
+   "total": 215,
+   "processed": 40,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 26,
+   "electors": null,
+   "rate_per_min": 92.3,
+   "eta_s": 114,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
