@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 07:55:54 PM IST",
- "updated_epoch": 1794579954,
+ "updated": "13 Nov 2026, 07:58:35 PM IST",
+ "updated_epoch": 1794580115,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 07:55 PM IST"
+   "eta": "13 Nov, 07:58 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 94,
+   "done": 95,
    "errors": 0,
-   "parts": 25101,
-   "needs_review": 726,
+   "parts": 25358,
+   "needs_review": 740,
    "failed": 0,
-   "electors": 21935106,
-   "eta": "14 Nov, 03:43 AM IST"
+   "electors": 22149714,
+   "eta": "14 Nov, 03:11 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 31 - Pendurthi (2024)",
-  "updated": "2026-11-13 19:55:51 IST",
+  "phase": "OCR 32 - Yelamanchili (2024)",
+  "updated": "2026-11-13 19:58:32 IST",
   "year": "2024",
-  "next": "33 - Payakaraopet (2024)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "31 - Pendurthi",
+   "ac": "32 - Yelamanchili",
    "phase": "OCR",
-   "processed": 180,
-   "total": 282,
-   "parts_per_min": 90.5,
-   "prefetch": "33 - Payakaraopet (2024)",
-   "uploading": [],
+   "processed": 100,
+   "total": 244,
+   "parts_per_min": 101.8,
+   "prefetch": "",
+   "uploading": [
+    "31 - Pendurthi"
+   ],
    "done_session": 37,
    "parts_session": 10006,
    "last": [
@@ -87,18 +89,11 @@
      "finished": "2026-11-13 18:20:30 IST"
     }
    ],
-   "load1": 11.42,
+   "load1": 11.08,
    "cores_busy": 8,
-   "updated": "2026-11-13 19:55:51 IST",
-   "updated_epoch": 1794579951,
-   "fetch": {
-    "ac": "33 - Payakaraopet",
-    "year": "2024",
-    "done": 18,
-    "total": 19,
-    "mb": 1197.2,
-    "mbps": 0.53
-   },
+   "updated": "2026-11-13 19:58:32 IST",
+   "updated_epoch": 1794580112,
+   "fetch": null,
    "age_s": 3
   },
   {
@@ -108,13 +103,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "111 - Markapuram",
+   "ac": "110 - Kondapi",
    "phase": "OCR",
-   "processed": 220,
-   "total": 257,
-   "parts_per_min": 35.4,
-   "prefetch": "108 - Ongole (2024)",
-   "uploading": [],
+   "processed": 0,
+   "total": 283,
+   "parts_per_min": 0.0,
+   "prefetch": "107 - Santhanuthalapadu (2024)",
+   "uploading": [
+    "111 - Markapuram"
+   ],
    "done_session": 92,
    "parts_session": 24943,
    "last": [
@@ -154,23 +151,32 @@
      "finished": "2026-11-13 19:18:25 IST"
     }
    ],
-   "load1": 31.04,
+   "load1": 33.46,
    "cores_busy": 10,
-   "updated": "2026-11-13 19:54:54 IST",
-   "updated_epoch": 1794579894,
+   "updated": "2026-11-13 19:55:54 IST",
+   "updated_epoch": 1794579954,
    "fetch": {
-    "ac": "108 - Ongole",
+    "ac": "107 - Santhanuthalapadu",
     "year": "2024",
-    "done": 19,
-    "total": 19,
-    "mb": 1181.1,
-    "mbps": 9.39
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 60
+   "age_s": 161
   }
  ],
- "throughput_ac_per_hr": 10.0,
+ "throughput_ac_per_hr": 10.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "111 - Markapuram",
+   "worker": "mac",
+   "parts": 257,
+   "electors": 214608,
+   "secs": 419,
+   "finished": "2026-11-13 19:56:56 IST"
+  },
   {
    "year": "2024",
    "ac": "30 - Anakapalle",
@@ -233,15 +239,6 @@
    "electors": 246912,
    "secs": 2984,
    "finished": "2026-11-13 19:17:41 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "117 - Nellore City",
-   "worker": "mac",
-   "parts": 248,
-   "electors": 233978,
-   "secs": 381,
-   "finished": "2026-11-13 19:12:59 IST"
   }
  ],
  "failures": [],
@@ -4824,15 +4821,49 @@
    "label": "31 - Pendurthi",
    "district": "Anakapalli",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 282,
-   "processed": 180,
-   "needs_review": 18,
+   "processed": 282,
+   "needs_review": 29,
    "failed": 0,
-   "elapsed_s": 117,
+   "elapsed_s": 222,
    "electors": null,
-   "rate_per_min": 92.3,
-   "eta_s": 66,
+   "rate_per_min": 76.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "111 - Markapuram",
+   "district": "Prakasam",
+   "year": "2024",
+   "state": "done",
+   "total": 257,
+   "processed": 257,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 419,
+   "electors": 214608,
+   "rate_per_min": 36.8,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1J_T_9NB02mFx_2mH1GVbU2Hwjv3I1kj9_YNP6VK1Mk4/edit",
+   "folder": "https://drive.google.com/drive/folders/1PuAUFjssrEahMki7wzxWD6h9OZ3C3O5Z"
+  },
+  {
+   "label": "32 - Yelamanchili",
+   "district": "Anakapalli",
+   "year": "2024",
+   "state": "running",
+   "total": 244,
+   "processed": 100,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 57,
+   "electors": null,
+   "rate_per_min": 105.3,
+   "eta_s": 82,
    "error": "",
    "sheet": "",
    "folder": ""
