@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 10:20:26 AM IST",
- "updated_epoch": 1794545426,
+ "updated": "13 Nov 2026, 10:22:30 AM IST",
+ "updated_epoch": 1794545550,
  "total_constituencies": 175,
- "done_constituencies": 142,
+ "done_constituencies": 143,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 142,
+   "done": 143,
    "errors": 0,
-   "parts": 40946,
+   "parts": 41194,
    "needs_review": 1181,
    "failed": 33,
-   "electors": 30210831,
-   "eta": "13 Nov, 12:29 PM IST"
+   "electors": 30421848,
+   "eta": "13 Nov, 12:27 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 11:42 PM IST"
+   "eta": "13 Nov, 11:40 PM IST"
   }
  },
  "batch": {
   "phase": "downloading",
-  "updated": "2026-11-13 10:20:22 IST",
+  "updated": "2026-11-13 10:22:27 IST",
   "year": "2026",
   "next": "65 - Eluru (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -47,25 +47,31 @@
    "total": 0,
    "parts_per_min": 0,
    "prefetch": "65 - Eluru (2026)",
-   "uploading": [
-    "64 - Denduluru"
+   "uploading": [],
+   "done_session": 1,
+   "parts_session": 248,
+   "last": [
+    {
+     "ac": "64 - Denduluru",
+     "year": "2026",
+     "parts": 248,
+     "secs": 2825,
+     "finished": "2026-11-13 10:20:40 IST"
+    }
    ],
-   "done_session": 0,
-   "parts_session": 0,
-   "last": [],
-   "load1": 9.57,
+   "load1": 1.24,
    "cores_busy": 0,
-   "updated": "2026-11-13 10:20:22 IST",
-   "updated_epoch": 1794545422,
+   "updated": "2026-11-13 10:22:27 IST",
+   "updated_epoch": 1794545547,
    "fetch": {
     "ac": "65 - Eluru",
     "year": "2026",
-    "done": 20,
+    "done": 36,
     "total": 37,
-    "mb": 1457.3,
-    "mbps": 0.89
+    "mb": 2570.0,
+    "mbps": 1.46
    },
-   "age_s": 4
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -74,13 +80,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2026",
-   "ac": "96 - Chilakaluripet",
+   "ac": "95 - Guntur East",
    "phase": "OCR",
-   "processed": 180,
-   "total": 278,
-   "parts_per_min": 49.8,
+   "processed": 0,
+   "total": 312,
+   "parts_per_min": 0.0,
    "prefetch": "94 - Guntur West (2026)",
-   "uploading": [],
+   "uploading": [
+    "96 - Chilakaluripet"
+   ],
    "done_session": 2,
    "parts_session": 580,
    "last": [
@@ -99,23 +107,32 @@
      "finished": "2026-11-13 10:12:54 IST"
     }
    ],
-   "load1": 20.41,
+   "load1": 25.78,
    "cores_busy": 10,
-   "updated": "2026-11-13 10:19:11 IST",
-   "updated_epoch": 1794545351,
+   "updated": "2026-11-13 10:21:07 IST",
+   "updated_epoch": 1794545467,
    "fetch": {
     "ac": "94 - Guntur West",
     "year": "2026",
-    "done": 16,
+    "done": 36,
     "total": 37,
-    "mb": 1122.1,
-    "mbps": 12.64
+    "mb": 2727.2,
+    "mbps": 13.25
    },
-   "age_s": 75
+   "age_s": 83
   }
  ],
  "throughput_ac_per_hr": 15.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "64 - Denduluru",
+   "worker": "box",
+   "parts": 248,
+   "electors": 211017,
+   "secs": 1654,
+   "finished": "2026-11-13 10:20:37 IST"
+  },
   {
    "year": "2026",
    "ac": "97 - Narasaraopet",
@@ -178,15 +195,6 @@
    "electors": 208662,
    "secs": 336,
    "finished": "2026-11-13 09:38:43 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "63 - Ungutur",
-   "worker": "box",
-   "parts": 245,
-   "electors": 196942,
-   "secs": 132,
-   "finished": "2026-11-13 09:32:26 IST"
   }
  ],
  "failures": [],
@@ -2542,18 +2550,18 @@
    "label": "64 - Denduluru",
    "district": "Eluru",
    "year": "2026",
-   "state": "uploading",
+   "state": "done",
    "total": 248,
    "processed": 248,
    "needs_review": 1,
    "failed": 0,
    "elapsed_s": 1654,
-   "electors": null,
+   "electors": 211017,
    "rate_per_min": 9.0,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1k5bNVFbCRH08iQlQifegwPZwRws122VxmJbvXAnuLPw/edit",
+   "folder": "https://drive.google.com/drive/folders/1Sumk9RxIhMk5tqBUf3ULZchM8p_lcLid"
   },
   {
    "label": "97 - Narasaraopet",
