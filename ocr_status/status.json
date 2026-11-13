@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 10:57:51 PM IST",
- "updated_epoch": 1794590871,
+ "updated": "13 Nov 2026, 11:24:47 PM IST",
+ "updated_epoch": 1794592487,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 10:57 PM IST"
+   "eta": "13 Nov, 11:24 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 135,
+   "done": 140,
    "errors": 0,
-   "parts": 35531,
-   "needs_review": 1146,
+   "parts": 36810,
+   "needs_review": 1190,
    "failed": 0,
-   "electors": 31321742,
-   "eta": "14 Nov, 01:44 AM IST"
+   "electors": 32484407,
+   "eta": "14 Nov, 01:56 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 45 - Razole (2024)",
-  "updated": "2026-11-13 22:57:47 IST",
+  "updated": "2026-11-13 23:24:43 IST",
   "year": "2024",
   "next": "47 - Kothapeta (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "45 - Razole",
    "phase": "OCR",
-   "processed": 100,
+   "processed": 120,
    "total": 205,
-   "parts_per_min": 97.3,
+   "parts_per_min": 4.3,
    "prefetch": "47 - Kothapeta (2024)",
    "uploading": [
     "44 - Amalapuram"
@@ -89,10 +89,10 @@
      "finished": "2026-11-13 22:13:42 IST"
     }
    ],
-   "load1": 11.4,
+   "load1": 11.34,
    "cores_busy": 8,
-   "updated": "2026-11-13 22:57:47 IST",
-   "updated_epoch": 1794590867,
+   "updated": "2026-11-13 23:24:43 IST",
+   "updated_epoch": 1794592483,
    "fetch": {
     "ac": "47 - Kothapeta",
     "year": "2024",
@@ -110,71 +110,116 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "79 - Vijayawada West",
+   "ac": "75 - Machilipatnam",
    "phase": "OCR",
-   "processed": 40,
-   "total": 231,
-   "parts_per_min": 34.3,
-   "prefetch": "76 - Avanigadda (2024)",
+   "processed": 70,
+   "total": 171,
+   "parts_per_min": 34.1,
+   "prefetch": "72 - Gudivada (2024)",
    "uploading": [
-    "80 - Vijayawada Central"
+    "76 - Avanigadda"
    ],
-   "done_session": 120,
-   "parts_session": 32262,
+   "done_session": 124,
+   "parts_session": 33274,
    "last": [
+    {
+     "ac": "77 - Pamarru",
+     "year": "2024",
+     "parts": 238,
+     "secs": 616,
+     "finished": "2026-11-13 23:16:39 IST"
+    },
+    {
+     "ac": "78 - Penamaluru",
+     "year": "2024",
+     "parts": 286,
+     "secs": 706,
+     "finished": "2026-11-13 23:10:51 IST"
+    },
+    {
+     "ac": "79 - Vijayawada West",
+     "year": "2024",
+     "parts": 231,
+     "secs": 581,
+     "finished": "2026-11-13 23:03:27 IST"
+    },
+    {
+     "ac": "80 - Vijayawada Central",
+     "year": "2024",
+     "parts": 257,
+     "secs": 815,
+     "finished": "2026-11-13 22:57:56 IST"
+    },
     {
      "ac": "81 - Vijayawada East",
      "year": "2024",
      "parts": 293,
      "secs": 862,
      "finished": "2026-11-13 22:51:51 IST"
-    },
-    {
-     "ac": "82 - Mylavaram",
-     "year": "2024",
-     "parts": 295,
-     "secs": 706,
-     "finished": "2026-11-13 22:42:46 IST"
-    },
-    {
-     "ac": "83 - Nandigama",
-     "year": "2024",
-     "parts": 212,
-     "secs": 521,
-     "finished": "2026-11-13 22:34:47 IST"
-    },
-    {
-     "ac": "84 - Jaggayyapeta",
-     "year": "2024",
-     "parts": 218,
-     "secs": 576,
-     "finished": "2026-11-13 22:28:53 IST"
-    },
-    {
-     "ac": "85 - Pedakurapadu",
-     "year": "2024",
-     "parts": 266,
-     "secs": 852,
-     "finished": "2026-11-13 22:25:38 IST"
     }
    ],
-   "load1": 44.69,
+   "load1": 29.62,
    "cores_busy": 10,
-   "updated": "2026-11-13 22:56:11 IST",
-   "updated_epoch": 1794590771,
+   "updated": "2026-11-13 23:23:09 IST",
+   "updated_epoch": 1794592389,
    "fetch": {
-    "ac": "76 - Avanigadda",
+    "ac": "72 - Gudivada",
     "year": "2024",
-    "done": 3,
+    "done": 12,
     "total": 16,
-    "mb": 258.0,
-    "mbps": 11.17
+    "mb": 932.3,
+    "mbps": 11.41
    },
-   "age_s": 100
+   "age_s": 98
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "76 - Avanigadda",
+   "worker": "mac",
+   "parts": 267,
+   "electors": 212331,
+   "secs": 410,
+   "finished": "2026-11-13 23:22:52 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "77 - Pamarru",
+   "worker": "mac",
+   "parts": 238,
+   "electors": 184632,
+   "secs": 358,
+   "finished": "2026-11-13 23:15:55 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "78 - Penamaluru",
+   "worker": "mac",
+   "parts": 286,
+   "electors": 267150,
+   "secs": 434,
+   "finished": "2026-11-13 23:10:38 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "79 - Vijayawada West",
+   "worker": "mac",
+   "parts": 231,
+   "electors": 225851,
+   "secs": 363,
+   "finished": "2026-11-13 23:02:53 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "80 - Vijayawada Central",
+   "worker": "mac",
+   "parts": 257,
+   "electors": 272701,
+   "secs": 409,
+   "finished": "2026-11-13 22:57:46 IST"
+  },
   {
    "year": "2024",
    "ac": "81 - Vijayawada East",
@@ -201,51 +246,6 @@
    "electors": 197968,
    "secs": 321,
    "finished": "2026-11-13 22:34:39 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "84 - Jaggayyapeta",
-   "worker": "mac",
-   "parts": 218,
-   "electors": 199616,
-   "secs": 329,
-   "finished": "2026-11-13 22:28:46 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "85 - Pedakurapadu",
-   "worker": "mac",
-   "parts": 266,
-   "electors": 232453,
-   "secs": 404,
-   "finished": "2026-11-13 22:24:58 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "43 - Mummidivaram",
-   "worker": "box",
-   "parts": 264,
-   "electors": 239518,
-   "secs": 241,
-   "finished": "2026-11-13 22:23:38 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "42 - Ramachandrapuram",
-   "worker": "box",
-   "parts": 235,
-   "electors": 197658,
-   "secs": 138,
-   "finished": "2026-11-13 22:19:40 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "41 - Kakinada City",
-   "worker": "box",
-   "parts": 186,
-   "electors": 180635,
-   "secs": 112,
-   "finished": "2026-11-13 22:16:44 IST"
   }
  ],
  "failures": [],
@@ -5544,16 +5544,101 @@
    "year": "2024",
    "state": "running",
    "total": 205,
-   "processed": 100,
-   "needs_review": 2,
+   "processed": 130,
+   "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 61,
+   "elapsed_s": 1680,
    "electors": null,
-   "rate_per_min": 98.4,
-   "eta_s": 64,
+   "rate_per_min": 4.6,
+   "eta_s": 969,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "76 - Avanigadda",
+   "district": "Krishna",
+   "year": "2024",
+   "state": "done",
+   "total": 267,
+   "processed": 267,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 410,
+   "electors": 212331,
+   "rate_per_min": 39.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1iSQtr8GUwoMO-KQ6ke75wzPRmRbH2yn563dLpUXohF4/edit",
+   "folder": "https://drive.google.com/drive/folders/1PKuAv5bcn3cyNJeFwCP-KVsa4gTaYyGA"
+  },
+  {
+   "label": "77 - Pamarru",
+   "district": "Krishna",
+   "year": "2024",
+   "state": "done",
+   "total": 238,
+   "processed": 238,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 358,
+   "electors": 184632,
+   "rate_per_min": 39.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1tG0TGJRRsSugxU7tQmerBPvc3LqggyKNswF0Q79wkhk/edit",
+   "folder": "https://drive.google.com/drive/folders/10P_yqKqAMxtGwlLo5yjJpIaZj1v_OpiG"
+  },
+  {
+   "label": "78 - Penamaluru",
+   "district": "Krishna",
+   "year": "2024",
+   "state": "done",
+   "total": 286,
+   "processed": 286,
+   "needs_review": 13,
+   "failed": 0,
+   "elapsed_s": 434,
+   "electors": 267150,
+   "rate_per_min": 39.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1jcJ4rv1gBRkw7QfMOUZ_UzGaJ0mMWAIRFGzTLK97gOk/edit",
+   "folder": "https://drive.google.com/drive/folders/1OgOGdUQy1bSURDYfI5o-Mvr5x-lAf0cH"
+  },
+  {
+   "label": "79 - Vijayawada West",
+   "district": "NTR",
+   "year": "2024",
+   "state": "done",
+   "total": 231,
+   "processed": 231,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 363,
+   "electors": 225851,
+   "rate_per_min": 38.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1TUMF-SP_8ZtL0SbrWXBp00o1TBVmn_E_QsQ7muH2Dhk/edit",
+   "folder": "https://drive.google.com/drive/folders/1uMDFZOmTK-V5VC0FLjO4jP18Ru5JQfTi"
+  },
+  {
+   "label": "80 - Vijayawada Central",
+   "district": "NTR",
+   "year": "2024",
+   "state": "done",
+   "total": 257,
+   "processed": 257,
+   "needs_review": 15,
+   "failed": 0,
+   "elapsed_s": 409,
+   "electors": 272701,
+   "rate_per_min": 37.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1pM2xLy8tvQ9DT7kzm9E1olSFfKVwN-ShS3y8oSLFgWI/edit",
+   "folder": "https://drive.google.com/drive/folders/18EyNnoedwhzfht0YLjKr_Rd7yi8fxRsJ"
   }
  ]
 }
