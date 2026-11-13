@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 12:26:51 AM IST",
- "updated_epoch": 1794596211,
+ "updated": "14 Nov 2026, 12:55:31 AM IST",
+ "updated_epoch": 1794597931,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 12:26 AM IST"
+   "eta": "14 Nov, 12:55 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 159,
+   "done": 164,
    "errors": 0,
-   "parts": 41176,
-   "needs_review": 1276,
+   "parts": 42268,
+   "needs_review": 1309,
    "failed": 0,
-   "electors": 36543921,
-   "eta": "14 Nov, 01:15 AM IST"
+   "electors": 37591838,
+   "eta": "14 Nov, 01:25 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 52 - Jaggampeta (2024)",
-  "updated": "2026-11-14 00:26:51 IST",
+  "updated": "2026-11-14 00:55:29 IST",
   "year": "2024",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "52 - Jaggampeta",
    "phase": "OCR",
-   "processed": 40,
+   "processed": 220,
    "total": 248,
-   "parts_per_min": 75.2,
+   "parts_per_min": 7.5,
    "prefetch": "",
    "uploading": [],
    "done_session": 58,
@@ -87,12 +87,12 @@
      "finished": "2026-11-14 00:14:39 IST"
     }
    ],
-   "load1": 11.42,
+   "load1": 10.91,
    "cores_busy": 8,
-   "updated": "2026-11-14 00:26:51 IST",
-   "updated_epoch": 1794596211,
+   "updated": "2026-11-14 00:55:29 IST",
+   "updated_epoch": 1794597929,
    "fetch": null,
-   "age_s": 0
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -101,69 +101,116 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "64 - Denduluru",
+   "ac": "58 - Narasapuram",
    "phase": "OCR",
-   "processed": 140,
-   "total": 231,
-   "parts_per_min": 38.2,
-   "prefetch": "61 - Tanuku (2024)",
-   "uploading": [],
-   "done_session": 136,
-   "parts_session": 36184,
+   "processed": 20,
+   "total": 158,
+   "parts_per_min": 28.1,
+   "prefetch": "55 - Nidadavole (2024)",
+   "uploading": [
+    "59 - Bhimavaram"
+   ],
+   "done_session": 141,
+   "parts_session": 37276,
    "last": [
     {
-     "ac": "65 - Eluru",
+     "ac": "60 - Undi",
      "year": "2024",
-     "parts": 212,
-     "secs": 652,
-     "finished": "2026-11-14 00:23:43 IST"
+     "parts": 235,
+     "secs": 624,
+     "finished": "2026-11-14 00:49:55 IST"
     },
     {
-     "ac": "66 - Gopalapuram",
+     "ac": "61 - Tanuku",
      "year": "2024",
-     "parts": 243,
-     "secs": 565,
-     "finished": "2026-11-14 00:19:48 IST"
+     "parts": 220,
+     "secs": 454,
+     "finished": "2026-11-14 00:42:59 IST"
     },
     {
-     "ac": "67 - Polavaram",
+     "ac": "62 - Tadepalligudem",
      "year": "2024",
-     "parts": 275,
-     "secs": 737,
-     "finished": "2026-11-14 00:14:32 IST"
+     "parts": 193,
+     "secs": 572,
+     "finished": "2026-11-14 00:40:34 IST"
     },
     {
-     "ac": "68 - Chintalapudi",
+     "ac": "63 - Ungutur",
      "year": "2024",
-     "parts": 259,
-     "secs": 687,
-     "finished": "2026-11-14 00:07:30 IST"
+     "parts": 213,
+     "secs": 593,
+     "finished": "2026-11-14 00:35:50 IST"
     },
     {
-     "ac": "69 - Tiruvuru",
+     "ac": "64 - Denduluru",
      "year": "2024",
-     "parts": 233,
-     "secs": 520,
-     "finished": "2026-11-14 00:01:36 IST"
+     "parts": 231,
+     "secs": 722,
+     "finished": "2026-11-14 00:31:37 IST"
     }
    ],
-   "load1": 45.24,
+   "load1": 22.95,
    "cores_busy": 10,
-   "updated": "2026-11-14 00:26:12 IST",
-   "updated_epoch": 1794596172,
+   "updated": "2026-11-14 00:53:11 IST",
+   "updated_epoch": 1794597791,
    "fetch": {
-    "ac": "61 - Tanuku",
+    "ac": "55 - Nidadavole",
     "year": "2024",
-    "done": 17,
-    "total": 17,
-    "mb": 1171.2,
-    "mbps": 9.52
+    "done": 5,
+    "total": 12,
+    "mb": 365.3,
+    "mbps": 11.71
    },
-   "age_s": 39
+   "age_s": 140
   }
  ],
  "throughput_ac_per_hr": 16.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "60 - Undi",
+   "worker": "mac",
+   "parts": 235,
+   "electors": 220228,
+   "secs": 324,
+   "finished": "2026-11-14 00:49:48 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "61 - Tanuku",
+   "worker": "mac",
+   "parts": 220,
+   "electors": 217185,
+   "secs": 296,
+   "finished": "2026-11-14 00:42:50 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "62 - Tadepalligudem",
+   "worker": "mac",
+   "parts": 193,
+   "electors": 192434,
+   "secs": 256,
+   "finished": "2026-11-14 00:38:55 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "63 - Ungutur",
+   "worker": "mac",
+   "parts": 213,
+   "electors": 204988,
+   "secs": 306,
+   "finished": "2026-11-14 00:34:53 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "64 - Denduluru",
+   "worker": "mac",
+   "parts": 231,
+   "electors": 213082,
+   "secs": 333,
+   "finished": "2026-11-14 00:29:58 IST"
+  },
   {
    "year": "2024",
    "ac": "51 - Rajahmundry Rural",
@@ -190,51 +237,6 @@
    "electors": 235851,
    "secs": 329,
    "finished": "2026-11-14 00:19:41 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "50 - Rajahmundry City",
-   "worker": "box",
-   "parts": 152,
-   "electors": 154021,
-   "secs": 91,
-   "finished": "2026-11-14 00:16:55 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "49 - Rajanagaram",
-   "worker": "box",
-   "parts": 212,
-   "electors": 210753,
-   "secs": 128,
-   "finished": "2026-11-14 00:15:45 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "48 - Mandapeta",
-   "worker": "box",
-   "parts": 211,
-   "electors": 203702,
-   "secs": 128,
-   "finished": "2026-11-14 00:14:46 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "47 - Kothapeta",
-   "worker": "box",
-   "parts": 261,
-   "electors": 251042,
-   "secs": 951,
-   "finished": "2026-11-14 00:14:35 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "67 - Polavaram",
-   "worker": "mac",
-   "parts": 275,
-   "electors": 248521,
-   "secs": 362,
-   "finished": "2026-11-14 00:14:25 IST"
   }
  ],
  "failures": [],
@@ -5924,16 +5926,101 @@
    "year": "2024",
    "state": "running",
    "total": 248,
-   "processed": 40,
-   "needs_review": 1,
+   "processed": 220,
+   "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 26,
+   "elapsed_s": 1749,
    "electors": null,
-   "rate_per_min": 92.3,
-   "eta_s": 135,
+   "rate_per_min": 7.5,
+   "eta_s": 223,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "60 - Undi",
+   "district": "West Godavari",
+   "year": "2024",
+   "state": "done",
+   "total": 235,
+   "processed": 235,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 324,
+   "electors": 220228,
+   "rate_per_min": 43.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/15_RGfAU-srkOx0BTSCfJJlnu4KYE_ZASVc43ahVMlDo/edit",
+   "folder": "https://drive.google.com/drive/folders/1h05F3ToAWqgU8wUXai8prXLry4QhXBRy"
+  },
+  {
+   "label": "61 - Tanuku",
+   "district": "West Godavari",
+   "year": "2024",
+   "state": "done",
+   "total": 220,
+   "processed": 220,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 296,
+   "electors": 217185,
+   "rate_per_min": 44.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/10MddhA31tlxnSS6AJuGtTcD1vg7FVTnylnMteJvDqzY/edit",
+   "folder": "https://drive.google.com/drive/folders/19PNRs_3fCLTUO-yCEZliLTubA79Q9Cll"
+  },
+  {
+   "label": "62 - Tadepalligudem",
+   "district": "West Godavari",
+   "year": "2024",
+   "state": "done",
+   "total": 193,
+   "processed": 193,
+   "needs_review": 18,
+   "failed": 0,
+   "elapsed_s": 256,
+   "electors": 192434,
+   "rate_per_min": 45.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1amSaAurtITF3fpsFVYUOx4x3lJcWJJzDwnCjxRpWqKY/edit",
+   "folder": "https://drive.google.com/drive/folders/1hPKbYJHgosFgYFL_9t13re-vqw6RGMN_"
+  },
+  {
+   "label": "63 - Ungutur",
+   "district": "Eluru",
+   "year": "2024",
+   "state": "done",
+   "total": 213,
+   "processed": 213,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 306,
+   "electors": 204988,
+   "rate_per_min": 41.8,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1OhHxzgQ4zt8dN84r4gaj-jMQSFQaiWZp3a9GeeOoMxo/edit",
+   "folder": "https://drive.google.com/drive/folders/1Ri5QM1MPR0Gx7IDWK-H3Q9fODjd1I4OV"
+  },
+  {
+   "label": "64 - Denduluru",
+   "district": "Eluru",
+   "year": "2024",
+   "state": "done",
+   "total": 231,
+   "processed": 231,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 333,
+   "electors": 213082,
+   "rate_per_min": 41.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1K2kAGR_RxwVR0YY0lPzi9cNmApcF45X2crqCCrlkzfg/edit",
+   "folder": "https://drive.google.com/drive/folders/1u0o0Ypzv7hQVrQVzYIfgMHhNpyqMlGzd"
   }
  ]
 }
