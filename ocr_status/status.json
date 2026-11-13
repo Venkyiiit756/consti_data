@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 10:16:53 PM IST",
- "updated_epoch": 1794588413,
+ "updated": "13 Nov 2026, 10:18:54 PM IST",
+ "updated_epoch": 1794588534,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 10:16 PM IST"
+   "eta": "13 Nov, 10:18 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 128,
    "errors": 0,
    "parts": 33748,
-   "needs_review": 1080,
+   "needs_review": 1081,
    "failed": 0,
    "electors": 29708974,
-   "eta": "14 Nov, 01:16 AM IST"
+   "eta": "14 Nov, 01:18 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 42 - Ramachandrapuram (2024)",
-  "updated": "2026-11-13 22:16:51 IST",
+  "phase": "OCR 43 - Mummidivaram (2024)",
+  "updated": "2026-11-13 22:18:51 IST",
   "year": "2024",
-  "next": "44 - Amalapuram (2024)",
+  "next": "45 - Razole (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "42 - Ramachandrapuram",
+   "ac": "43 - Mummidivaram",
    "phase": "OCR",
-   "processed": 20,
-   "total": 235,
-   "parts_per_min": 67.2,
-   "prefetch": "44 - Amalapuram (2024)",
-   "uploading": [],
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
+   "prefetch": "45 - Razole (2024)",
+   "uploading": [
+    "42 - Ramachandrapuram"
+   ],
    "done_session": 48,
    "parts_session": 12618,
    "last": [
@@ -87,19 +89,19 @@
      "finished": "2026-11-13 20:53:51 IST"
     }
    ],
-   "load1": 11.12,
-   "cores_busy": 8,
-   "updated": "2026-11-13 22:16:51 IST",
-   "updated_epoch": 1794588411,
+   "load1": 10.5,
+   "cores_busy": 0,
+   "updated": "2026-11-13 22:18:51 IST",
+   "updated_epoch": 1794588531,
    "fetch": {
-    "ac": "44 - Amalapuram",
+    "ac": "45 - Razole",
     "year": "2024",
-    "done": 6,
-    "total": 17,
-    "mb": 420.3,
-    "mbps": 32.05
+    "done": 5,
+    "total": 16,
+    "mb": 328.6,
+    "mbps": 27.14
    },
-   "age_s": 2
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -110,16 +112,21 @@
    "year": "2024",
    "ac": "85 - Pedakurapadu",
    "phase": "OCR",
-   "processed": 20,
+   "processed": 110,
    "total": 266,
-   "parts_per_min": 36.1,
+   "parts_per_min": 37.5,
    "prefetch": "82 - Mylavaram (2024)",
-   "uploading": [
-    "86 - Tadikonda"
-   ],
-   "done_session": 114,
-   "parts_session": 30734,
+   "uploading": [],
+   "done_session": 115,
+   "parts_session": 30978,
    "last": [
+    {
+     "ac": "86 - Tadikonda",
+     "year": "2024",
+     "parts": 244,
+     "secs": 554,
+     "finished": "2026-11-13 22:16:15 IST"
+    },
     {
      "ac": "87 - Mangalagiri",
      "year": "2024",
@@ -147,28 +154,21 @@
      "parts": 261,
      "secs": 578,
      "finished": "2026-11-13 21:52:46 IST"
-    },
-    {
-     "ac": "91 - Tenali",
-     "year": "2024",
-     "parts": 269,
-     "secs": 622,
-     "finished": "2026-11-13 21:45:47 IST"
     }
    ],
-   "load1": 23.94,
+   "load1": 34.71,
    "cores_busy": 10,
-   "updated": "2026-11-13 22:15:56 IST",
-   "updated_epoch": 1794588356,
+   "updated": "2026-11-13 22:18:19 IST",
+   "updated_epoch": 1794588499,
    "fetch": {
     "ac": "82 - Mylavaram",
     "year": "2024",
-    "done": 3,
+    "done": 22,
     "total": 22,
-    "mb": 259.6,
-    "mbps": 11.43
+    "mb": 1539.6,
+    "mbps": 13.08
    },
-   "age_s": 57
+   "age_s": 35
   }
  ],
  "throughput_ac_per_hr": 14.7,
@@ -5387,15 +5387,15 @@
    "label": "42 - Ramachandrapuram",
    "district": "Konaseema",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 235,
-   "processed": 30,
-   "needs_review": 0,
+   "processed": 235,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 19,
+   "elapsed_s": 138,
    "electors": null,
-   "rate_per_min": 94.7,
-   "eta_s": 130,
+   "rate_per_min": 102.2,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -5416,6 +5416,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1ESad2KSDPuU8_3DUNt4pNOOJG1A2XF43JKQwQpsFHp4/edit",
    "folder": "https://drive.google.com/drive/folders/15YuXiSysMg1chZm7D8pyB43myoCTqy82"
+  },
+  {
+   "label": "43 - Mummidivaram",
+   "district": "Konaseema",
+   "year": "2024",
+   "state": "running",
+   "total": 264,
+   "processed": 0,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 0,
+   "electors": null,
+   "rate_per_min": 0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
