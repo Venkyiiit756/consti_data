@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:59:55 AM IST",
- "updated_epoch": 1794601795,
+ "updated": "14 Nov 2026, 02:01:35 AM IST",
+ "updated_epoch": 1794601895,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:59 AM IST"
+   "eta": "14 Nov, 02:01 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 3,
    "errors": 0,
    "parts": 826,
-   "needs_review": 31,
+   "needs_review": 33,
    "failed": 0,
    "electors": 716543,
-   "eta": "14 Nov, 06:01 PM IST"
+   "eta": "14 Nov, 07:07 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 01:59 AM IST"
+   "eta": "14 Nov, 02:01 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 3 - Tekkali (2025)",
-  "updated": "2026-11-14 01:59:51 IST",
+  "updated": "2026-11-14 02:01:35 IST",
   "year": "2025",
-  "next": "5 - Srikakulam (2025)",
+  "next": "6 - Amadalavalasa (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -53,10 +53,10 @@
    "year": "2025",
    "ac": "3 - Tekkali",
    "phase": "OCR",
-   "processed": 180,
+   "processed": 300,
    "total": 315,
-   "parts_per_min": 92.3,
-   "prefetch": "5 - Srikakulam (2025)",
+   "parts_per_min": 81.5,
+   "prefetch": "6 - Amadalavalasa (2025)",
    "uploading": [],
    "done_session": 2,
    "parts_session": 583,
@@ -76,19 +76,19 @@
      "finished": "2026-11-14 01:56:42 IST"
     }
    ],
-   "load1": 10.96,
+   "load1": 11.71,
    "cores_busy": 8,
-   "updated": "2026-11-14 01:59:51 IST",
-   "updated_epoch": 1794601791,
+   "updated": "2026-11-14 02:01:35 IST",
+   "updated_epoch": 1794601895,
    "fetch": {
-    "ac": "5 - Srikakulam",
+    "ac": "6 - Amadalavalasa",
     "year": "2025",
-    "done": 13,
-    "total": 18,
-    "mb": 1146.0,
-    "mbps": 18.7
+    "done": 10,
+    "total": 13,
+    "mb": 768.8,
+    "mbps": 29.63
    },
-   "age_s": 4
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -99,9 +99,9 @@
    "year": "2025",
    "ac": "174 - Palamaner",
    "phase": "OCR",
-   "processed": 190,
+   "processed": 240,
    "total": 288,
-   "parts_per_min": 62.1,
+   "parts_per_min": 54.2,
    "prefetch": "172 - Chittoor (2025)",
    "uploading": [],
    "done_session": 1,
@@ -115,22 +115,22 @@
      "finished": "2026-11-14 01:55:33 IST"
     }
    ],
-   "load1": 19.47,
+   "load1": 36.13,
    "cores_busy": 10,
-   "updated": "2026-11-14 01:58:53 IST",
-   "updated_epoch": 1794601733,
+   "updated": "2026-11-14 02:00:15 IST",
+   "updated_epoch": 1794601815,
    "fetch": {
     "ac": "172 - Chittoor",
     "year": "2025",
-    "done": 2,
+    "done": 12,
     "total": 13,
-    "mb": 99.1,
-    "mbps": 4.7
+    "mb": 970.3,
+    "mbps": 17.39
    },
-   "age_s": 62
+   "age_s": 80
   }
  ],
- "throughput_ac_per_hr": 10.7,
+ "throughput_ac_per_hr": 10.0,
  "recent": [
   {
    "year": "2025",
@@ -6164,13 +6164,13 @@
    "year": "2025",
    "state": "running",
    "total": 315,
-   "processed": 190,
-   "needs_review": 8,
+   "processed": 300,
+   "needs_review": 10,
    "failed": 0,
-   "elapsed_s": 117,
+   "elapsed_s": 186,
    "electors": null,
-   "rate_per_min": 97.4,
-   "eta_s": 77,
+   "rate_per_min": 96.8,
+   "eta_s": 9,
    "error": "",
    "sheet": "",
    "folder": ""
