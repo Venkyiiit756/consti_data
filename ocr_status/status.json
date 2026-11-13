@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:34:41 AM IST",
- "updated_epoch": 1794600281,
+ "updated": "14 Nov 2026, 01:36:45 AM IST",
+ "updated_epoch": 1794600405,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:34 AM IST"
+   "eta": "14 Nov, 01:36 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 171,
+   "done": 172,
    "errors": 0,
-   "parts": 43791,
-   "needs_review": 1344,
+   "parts": 43966,
+   "needs_review": 1348,
    "failed": 0,
-   "electors": 38976750,
-   "eta": "14 Nov, 01:38 AM IST"
+   "electors": 39150875,
+   "eta": "14 Nov, 01:36 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 55 - Nidadavole (2024)",
-  "updated": "2026-11-14 01:34:38 IST",
+  "phase": "all done",
+  "updated": "2026-11-14 01:35:53 IST",
   "year": "2024",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,16 +41,23 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "55 - Nidadavole",
-   "phase": "OCR",
-   "processed": 150,
-   "total": 175,
-   "parts_per_min": 100.1,
+   "ac": "",
+   "phase": "all done",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
    "prefetch": "",
    "uploading": [],
-   "done_session": 61,
-   "parts_session": 15641,
+   "done_session": 62,
+   "parts_session": 15816,
    "last": [
+    {
+     "ac": "55 - Nidadavole",
+     "year": "2024",
+     "parts": 175,
+     "secs": 1886,
+     "finished": "2026-11-14 01:35:40 IST"
+    },
     {
      "ac": "54 - Kovvur",
      "year": "2024",
@@ -78,31 +85,24 @@
      "parts": 235,
      "secs": 715,
      "finished": "2026-11-14 00:26:38 IST"
-    },
-    {
-     "ac": "50 - Rajahmundry City",
-     "year": "2024",
-     "parts": 152,
-     "secs": 1471,
-     "finished": "2026-11-14 00:24:35 IST"
     }
    ],
-   "load1": 10.37,
-   "cores_busy": 8,
-   "updated": "2026-11-14 01:34:38 IST",
-   "updated_epoch": 1794600278,
+   "load1": 4.12,
+   "cores_busy": 0,
+   "updated": "2026-11-14 01:35:53 IST",
+   "updated_epoch": 1794600353,
    "fetch": null,
-   "age_s": 3
+   "age_s": 52
   },
   {
    "worker": "mac",
    "host": "192.168.1.17",
    "cores_total": 10,
    "ocr_workers": 10,
-   "started": "2026-11-14 01:21:56 IST",
+   "started": "2026-11-14 01:34:41 IST",
    "year": "",
    "ac": "",
-   "phase": "idle: 2 AC(s) still running on other workers or failed",
+   "phase": "starting",
    "processed": 0,
    "total": 0,
    "parts_per_min": 0,
@@ -111,15 +111,24 @@
    "done_session": 0,
    "parts_session": 0,
    "last": [],
-   "load1": 1.74,
+   "load1": 1.73,
    "cores_busy": 0,
-   "updated": "2026-11-14 01:33:16 IST",
-   "updated_epoch": 1794600196,
-   "age_s": 85
+   "updated": "2026-11-14 01:34:41 IST",
+   "updated_epoch": 1794600281,
+   "age_s": 124
   }
  ],
  "throughput_ac_per_hr": 16.0,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "55 - Nidadavole",
+   "worker": "box",
+   "parts": 175,
+   "electors": 174125,
+   "secs": 103,
+   "finished": "2026-11-14 01:35:37 IST"
+  },
   {
    "year": "2024",
    "ac": "54 - Kovvur",
@@ -146,15 +155,6 @@
    "electors": 236803,
    "secs": 1765,
    "finished": "2026-11-14 01:23:51 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "55 - Nidadavole",
-   "worker": "mac",
-   "parts": 175,
-   "electors": 174125,
-   "secs": 263,
-   "finished": "2026-11-14 01:10:51 IST"
   },
   {
    "year": "2024",
@@ -194,7 +194,7 @@
   }
  ],
  "failures": [],
- "all_done": false,
+ "all_done": true,
  "runs": [
   {
    "label": "59 - Bhimavaram",
@@ -6014,17 +6014,17 @@
    "label": "55 - Nidadavole",
    "district": "East Godavari",
    "year": "2024",
-   "state": "running",
+   "state": "done",
    "total": 175,
-   "processed": 150,
-   "needs_review": 7,
+   "processed": 175,
+   "needs_review": 11,
    "failed": 0,
-   "elapsed_s": 90,
+   "elapsed_s": 102,
    "electors": 174125,
-   "rate_per_min": 100.0,
-   "eta_s": 15,
+   "rate_per_min": 102.9,
+   "eta_s": null,
    "error": "",
-   "sheet": "https://docs.google.com/spreadsheets/d/1tFdAIfO4oNBPriH0BY4VCKSUC3yLkXnTzhm3g6SQYLg/edit",
+   "sheet": "https://docs.google.com/spreadsheets/d/1TSgzlWGPrASpyh4WCaWEkEi2U9mEZxETEdBQSzrXJ5U/edit",
    "folder": "https://drive.google.com/drive/folders/1pHva3Qea_84Lpdnuyj4IbdiyK6uC0otx"
   },
   {
