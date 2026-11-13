@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 04:49:12 AM IST",
- "updated_epoch": 1794611952,
+ "updated": "14 Nov 2026, 04:51:02 AM IST",
+ "updated_epoch": 1794612062,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 04:49 AM IST"
+   "eta": "14 Nov, 04:51 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 39,
+   "done": 40,
    "errors": 0,
-   "parts": 10697,
-   "needs_review": 373,
+   "parts": 10961,
+   "needs_review": 399,
    "failed": 0,
-   "electors": 9279725,
-   "eta": "14 Nov, 03:28 PM IST"
+   "electors": 9511547,
+   "eta": "14 Nov, 02:54 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 04:49 AM IST"
+   "eta": "14 Nov, 04:51 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 14 - Bobbili (2025)",
-  "updated": "2026-11-14 04:49:10 IST",
+  "phase": "OCR 15 - Cheepurupalle (2025)",
+  "updated": "2026-11-14 04:51:01 IST",
   "year": "2025",
-  "next": "17 - Nellimarla (2025)",
+  "next": "18 - Vizianagaram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "14 - Bobbili",
+   "ac": "15 - Cheepurupalle",
    "phase": "OCR",
-   "processed": 240,
-   "total": 264,
-   "parts_per_min": 10.4,
-   "prefetch": "17 - Nellimarla (2025)",
+   "processed": 150,
+   "total": 257,
+   "parts_per_min": 88.6,
+   "prefetch": "18 - Vizianagaram (2025)",
    "uploading": [],
-   "done_session": 13,
-   "parts_session": 3674,
+   "done_session": 14,
+   "parts_session": 3938,
    "last": [
+    {
+     "ac": "14 - Bobbili",
+     "year": "2025",
+     "parts": 264,
+     "secs": 1490,
+     "finished": "2026-11-14 04:49:42 IST"
+    },
     {
      "ac": "13 - Salur",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 287,
      "secs": 323,
      "finished": "2026-11-14 04:19:49 IST"
-    },
-    {
-     "ac": "9 - Rajam",
-     "year": "2025",
-     "parts": 284,
-     "secs": 1500,
-     "finished": "2026-11-14 04:17:50 IST"
     }
    ],
-   "load1": 11.42,
+   "load1": 10.94,
    "cores_busy": 8,
-   "updated": "2026-11-14 04:49:10 IST",
-   "updated_epoch": 1794611950,
+   "updated": "2026-11-14 04:51:01 IST",
+   "updated_epoch": 1794612061,
    "fetch": {
-    "ac": "17 - Nellimarla",
+    "ac": "18 - Vizianagaram",
     "year": "2025",
-    "done": 14,
-    "total": 14,
-    "mb": 1059.5,
-    "mbps": 0.8
+    "done": 16,
+    "total": 17,
+    "mb": 1337.1,
+    "mbps": 42.24
    },
-   "age_s": 2
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -120,9 +120,9 @@
    "year": "2025",
    "ac": "148 - Rayadurg",
    "phase": "OCR",
-   "processed": 140,
+   "processed": 240,
    "total": 296,
-   "parts_per_min": 38.1,
+   "parts_per_min": 39.2,
    "prefetch": "145 - Mantralayam (2025)",
    "uploading": [],
    "done_session": 26,
@@ -164,10 +164,10 @@
      "finished": "2026-11-14 04:20:49 IST"
     }
    ],
-   "load1": 24.28,
+   "load1": 22.7,
    "cores_busy": 10,
-   "updated": "2026-11-14 04:47:51 IST",
-   "updated_epoch": 1794611871,
+   "updated": "2026-11-14 04:50:18 IST",
+   "updated_epoch": 1794612018,
    "fetch": {
     "ac": "145 - Mantralayam",
     "year": "2025",
@@ -176,11 +176,20 @@
     "mb": 1072.7,
     "mbps": 8.96
    },
-   "age_s": 81
+   "age_s": 44
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 13.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "14 - Bobbili",
+   "worker": "box",
+   "parts": 264,
+   "electors": 231822,
+   "secs": 1390,
+   "finished": "2026-11-14 04:49:39 IST"
+  },
   {
    "year": "2025",
    "ac": "149 - Uravakonda",
@@ -243,15 +252,6 @@
    "electors": 194790,
    "secs": 147,
    "finished": "2026-11-14 04:21:45 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "153 - Anantapur Urban",
-   "worker": "mac",
-   "parts": 285,
-   "electors": 281593,
-   "secs": 436,
-   "finished": "2026-11-14 04:20:42 IST"
   }
  ],
  "failures": [],
@@ -6755,18 +6755,18 @@
    "label": "14 - Bobbili",
    "district": "Vizianagaram",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 264,
-   "processed": 240,
+   "processed": 264,
    "needs_review": 8,
    "failed": 0,
-   "elapsed_s": 1377,
-   "electors": null,
-   "rate_per_min": 10.5,
-   "eta_s": 138,
+   "elapsed_s": 1390,
+   "electors": 231822,
+   "rate_per_min": 11.4,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1zSkwXgXT6V1zkDq_mryAYDy0KAcjRtFqHLJ463FbN98/edit",
+   "folder": "https://drive.google.com/drive/folders/1s3DXyabzle4OUd2elgSC3UilC7CAXSkh"
   },
   {
    "label": "149 - Uravakonda",
@@ -6835,6 +6835,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1mn4BIqfb4lMBUOu4a_AjbRhsZPNpc9_ALrybKH_BZnE/edit",
    "folder": "https://drive.google.com/drive/folders/1fbbOWHo3UQszM3Bdsay97IiveQhj924N"
+  },
+  {
+   "label": "15 - Cheepurupalle",
+   "district": "Vizianagaram",
+   "year": "2025",
+   "state": "running",
+   "total": 257,
+   "processed": 150,
+   "needs_review": 26,
+   "failed": 0,
+   "elapsed_s": 93,
+   "electors": null,
+   "rate_per_min": 96.8,
+   "eta_s": 66,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
