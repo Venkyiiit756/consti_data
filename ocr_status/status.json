@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:24:14 AM IST",
- "updated_epoch": 1794599654,
+ "updated": "14 Nov 2026, 01:25:36 AM IST",
+ "updated_epoch": 1794599736,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:24 AM IST"
+   "eta": "14 Nov, 01:25 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 170,
    "errors": 0,
    "parts": 43413,
-   "needs_review": 1340,
+   "needs_review": 1343,
    "failed": 0,
    "electors": 38719294,
-   "eta": "14 Nov, 01:31 AM IST"
+   "eta": "14 Nov, 01:32 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 53 - Rampachodavaram (2024)",
-  "updated": "2026-11-14 01:24:10 IST",
+  "updated": "2026-11-14 01:25:35 IST",
   "year": "2024",
-  "next": "55 - Nidadavole (2024)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,10 +43,10 @@
    "year": "2024",
    "ac": "53 - Rampachodavaram",
    "phase": "OCR",
-   "processed": 160,
+   "processed": 250,
    "total": 399,
-   "parts_per_min": 5.6,
-   "prefetch": "55 - Nidadavole (2024)",
+   "parts_per_min": 8.4,
+   "prefetch": "",
    "uploading": [],
    "done_session": 59,
    "parts_session": 15088,
@@ -87,19 +87,12 @@
      "finished": "2026-11-14 00:14:50 IST"
     }
    ],
-   "load1": 10.57,
+   "load1": 10.92,
    "cores_busy": 8,
-   "updated": "2026-11-14 01:24:10 IST",
-   "updated_epoch": 1794599650,
-   "fetch": {
-    "ac": "55 - Nidadavole",
-    "year": "2024",
-    "done": 10,
-    "total": 12,
-    "mb": 733.6,
-    "mbps": 0.44
-   },
-   "age_s": 4
+   "updated": "2026-11-14 01:25:35 IST",
+   "updated_epoch": 1794599735,
+   "fetch": null,
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -109,7 +102,7 @@
    "started": "2026-11-14 01:21:56 IST",
    "year": "",
    "ac": "",
-   "phase": "uploading last results",
+   "phase": "idle: 2 AC(s) still running on other workers or failed",
    "processed": 0,
    "total": 0,
    "parts_per_min": 0,
@@ -118,11 +111,11 @@
    "done_session": 0,
    "parts_session": 0,
    "last": [],
-   "load1": 2.01,
+   "load1": 1.79,
    "cores_busy": 0,
-   "updated": "2026-11-14 01:23:43 IST",
-   "updated_epoch": 1794599623,
-   "age_s": 31
+   "updated": "2026-11-14 01:24:09 IST",
+   "updated_epoch": 1794599649,
+   "age_s": 87
   }
  ],
  "throughput_ac_per_hr": 16.7,
@@ -6006,13 +5999,13 @@
    "year": "2024",
    "state": "running",
    "total": 399,
-   "processed": 170,
-   "needs_review": 2,
+   "processed": 250,
+   "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 1707,
+   "elapsed_s": 1753,
    "electors": null,
-   "rate_per_min": 6.0,
-   "eta_s": 2299,
+   "rate_per_min": 8.6,
+   "eta_s": 1045,
    "error": "",
    "sheet": "",
    "folder": ""
