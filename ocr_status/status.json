@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 11:20:37 AM IST",
- "updated_epoch": 1794549037,
+ "updated": "13 Nov 2026, 11:42:52 AM IST",
+ "updated_epoch": 1794550372,
  "total_constituencies": 175,
- "done_constituencies": 155,
+ "done_constituencies": 159,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 155,
+   "done": 159,
    "errors": 0,
-   "parts": 44747,
-   "needs_review": 1243,
+   "parts": 45739,
+   "needs_review": 1255,
    "failed": 33,
-   "electors": 33021115,
-   "eta": "13 Nov, 01:06 PM IST"
+   "electors": 33816384,
+   "eta": "13 Nov, 01:02 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 04:17 AM IST"
+   "eta": "14 Nov, 03:22 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 67 - Polavaram (2026)",
-  "updated": "2026-11-13 11:20:32 IST",
+  "updated": "2026-11-13 11:42:52 IST",
   "year": "2026",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2026",
    "ac": "67 - Polavaram",
    "phase": "OCR",
-   "processed": 40,
+   "processed": 280,
    "total": 324,
-   "parts_per_min": 91.5,
+   "parts_per_min": 12.3,
    "prefetch": "",
    "uploading": [],
    "done_session": 3,
@@ -73,12 +73,12 @@
      "finished": "2026-11-13 10:20:40 IST"
     }
    ],
-   "load1": 4.32,
+   "load1": 10.72,
    "cores_busy": 8,
-   "updated": "2026-11-13 11:20:32 IST",
-   "updated_epoch": 1794549032,
+   "updated": "2026-11-13 11:42:52 IST",
+   "updated_epoch": 1794550372,
    "fetch": null,
-   "age_s": 5
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -87,64 +87,107 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2026",
-   "ac": "85 - Pedakurapadu",
+   "ac": "81 - Vijayawada East",
    "phase": "OCR",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "",
+   "processed": 40,
+   "total": 321,
+   "parts_per_min": 42.3,
+   "prefetch": "79 - Vijayawada West (2026)",
    "uploading": [
-    "86 - Tadikonda"
+    "82 - Mylavaram"
    ],
-   "done_session": 12,
-   "parts_session": 3606,
+   "done_session": 16,
+   "parts_session": 4598,
    "last": [
+    {
+     "ac": "83 - Nandigama",
+     "year": "2026",
+     "parts": 234,
+     "secs": 572,
+     "finished": "2026-11-13 11:36:45 IST"
+    },
+    {
+     "ac": "84 - Jaggayyapeta",
+     "year": "2026",
+     "parts": 225,
+     "secs": 577,
+     "finished": "2026-11-13 11:31:44 IST"
+    },
+    {
+     "ac": "85 - Pedakurapadu",
+     "year": "2026",
+     "parts": 281,
+     "secs": 577,
+     "finished": "2026-11-13 11:26:04 IST"
+    },
+    {
+     "ac": "86 - Tadikonda",
+     "year": "2026",
+     "parts": 252,
+     "secs": 737,
+     "finished": "2026-11-13 11:22:57 IST"
+    },
     {
      "ac": "87 - Mangalagiri",
      "year": "2026",
      "parts": 353,
      "secs": 789,
      "finished": "2026-11-13 11:16:52 IST"
-    },
-    {
-     "ac": "88 - Ponnur",
-     "year": "2026",
-     "parts": 277,
-     "secs": 680,
-     "finished": "2026-11-13 11:09:34 IST"
-    },
-    {
-     "ac": "89 - Vemuru",
-     "year": "2026",
-     "parts": 237,
-     "secs": 539,
-     "finished": "2026-11-13 11:03:33 IST"
-    },
-    {
-     "ac": "90 - Repalle",
-     "year": "2026",
-     "parts": 299,
-     "secs": 720,
-     "finished": "2026-11-13 10:59:49 IST"
-    },
-    {
-     "ac": "91 - Tenali",
-     "year": "2026",
-     "parts": 317,
-     "secs": 836,
-     "finished": "2026-11-13 10:53:42 IST"
     }
    ],
-   "load1": 31.86,
+   "load1": 23.03,
    "cores_busy": 10,
-   "updated": "2026-11-13 11:19:45 IST",
-   "updated_epoch": 1794548985,
-   "fetch": null,
-   "age_s": 52
+   "updated": "2026-11-13 11:41:56 IST",
+   "updated_epoch": 1794550316,
+   "fetch": {
+    "ac": "79 - Vijayawada West",
+    "year": "2026",
+    "done": 13,
+    "total": 39,
+    "mb": 1130.9,
+    "mbps": 8.32
+   },
+   "age_s": 56
   }
  ],
- "throughput_ac_per_hr": 11.3,
+ "throughput_ac_per_hr": 12.0,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "83 - Nandigama",
+   "worker": "mac",
+   "parts": 234,
+   "electors": 191709,
+   "secs": 274,
+   "finished": "2026-11-13 11:36:37 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "84 - Jaggayyapeta",
+   "worker": "mac",
+   "parts": 225,
+   "electors": 193191,
+   "secs": 279,
+   "finished": "2026-11-13 11:31:37 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "85 - Pedakurapadu",
+   "worker": "mac",
+   "parts": 281,
+   "electors": 218819,
+   "secs": 330,
+   "finished": "2026-11-13 11:25:54 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "86 - Tadikonda",
+   "worker": "mac",
+   "parts": 252,
+   "electors": 191550,
+   "secs": 295,
+   "finished": "2026-11-13 11:22:49 IST"
+  },
   {
    "year": "2026",
    "ac": "66 - Gopalapuram",
@@ -180,42 +223,6 @@
    "electors": 178450,
    "secs": 278,
    "finished": "2026-11-13 11:02:53 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "90 - Repalle",
-   "worker": "mac",
-   "parts": 299,
-   "electors": 208415,
-   "secs": 355,
-   "finished": "2026-11-13 10:59:40 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "91 - Tenali",
-   "worker": "mac",
-   "parts": 317,
-   "electors": 242250,
-   "secs": 371,
-   "finished": "2026-11-13 10:53:34 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "92 - Bapatla",
-   "worker": "mac",
-   "parts": 281,
-   "electors": 171430,
-   "secs": 335,
-   "finished": "2026-11-13 10:47:49 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "93 - Prathipadu SC",
-   "worker": "mac",
-   "parts": 334,
-   "electors": 235765,
-   "secs": 399,
-   "finished": "2026-11-13 10:42:42 IST"
   }
  ],
  "failures": [],
@@ -2862,16 +2869,84 @@
    "year": "2026",
    "state": "running",
    "total": 324,
-   "processed": 50,
-   "needs_review": 1,
+   "processed": 280,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 29,
+   "elapsed_s": 1362,
    "electors": null,
-   "rate_per_min": 103.4,
-   "eta_s": 159,
+   "rate_per_min": 12.3,
+   "eta_s": 214,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "83 - Nandigama",
+   "district": "NTR",
+   "year": "2026",
+   "state": "done",
+   "total": 234,
+   "processed": 234,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 274,
+   "electors": 191709,
+   "rate_per_min": 51.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1eivbDvlwUnijIkhtmqWrkC5tjpWhKlXulGruBVg2ZGU/edit",
+   "folder": "https://drive.google.com/drive/folders/1WDiK_R--l31JctFdspbQb3zuhFDc27AY"
+  },
+  {
+   "label": "84 - Jaggayyapeta",
+   "district": "NTR",
+   "year": "2026",
+   "state": "done",
+   "total": 225,
+   "processed": 225,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 279,
+   "electors": 193191,
+   "rate_per_min": 48.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1SR4w9RHntD2t2Qm-UcRNjpaABWZQMErumZmi4dB0fcs/edit",
+   "folder": "https://drive.google.com/drive/folders/13QSYLXSlTB4gInsJIUz6qrYWSkGv2-16"
+  },
+  {
+   "label": "85 - Pedakurapadu",
+   "district": "Palnadu",
+   "year": "2026",
+   "state": "done",
+   "total": 281,
+   "processed": 281,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 330,
+   "electors": 218819,
+   "rate_per_min": 51.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/14S-XAX0RXt8P7FfudBJzCly9xk4AO8QD-MMORH1hnsY/edit",
+   "folder": "https://drive.google.com/drive/folders/1FxWrRTV9hJYYCh8M3p45bqW_CDJVnad2"
+  },
+  {
+   "label": "86 - Tadikonda",
+   "district": "Guntur",
+   "year": "2026",
+   "state": "done",
+   "total": 252,
+   "processed": 252,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 295,
+   "electors": 191550,
+   "rate_per_min": 51.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1V-l-2PHC3it2ij3NpLxjzFk6iDwRSfFPkMCeAgqzT6A/edit",
+   "folder": "https://drive.google.com/drive/folders/1VpLMLC7vxjKUvPWZFDElNuTL_JfTxikZ"
   }
  ]
 }
