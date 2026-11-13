@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 04:15:54 AM IST",
- "updated_epoch": 1794609954,
+ "updated": "14 Nov 2026, 04:18:08 AM IST",
+ "updated_epoch": 1794610088,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 04:15 AM IST"
+   "eta": "14 Nov, 04:18 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 28,
+   "done": 30,
    "errors": 0,
-   "parts": 7703,
-   "needs_review": 282,
+   "parts": 8277,
+   "needs_review": 286,
    "failed": 0,
-   "electors": 6768762,
-   "eta": "14 Nov, 06:51 PM IST"
+   "electors": 7211950,
+   "eta": "14 Nov, 06:42 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 04:15 AM IST"
+   "eta": "14 Nov, 04:18 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 9 - Rajam (2025)",
-  "updated": "2026-11-14 04:15:50 IST",
+  "phase": "OCR 10 - Palakonda (2025)",
+  "updated": "2026-11-14 04:18:05 IST",
   "year": "2025",
-  "next": "12 - Parvathipuram (2025)",
+  "next": "13 - Salur (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,18 +51,30 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "9 - Rajam",
+   "ac": "10 - Palakonda",
    "phase": "OCR",
-   "processed": 210,
-   "total": 284,
-   "parts_per_min": 9.5,
-   "prefetch": "12 - Parvathipuram (2025)",
-   "uploading": [
-    "8 - Narasannapeta"
-   ],
-   "done_session": 7,
-   "parts_session": 2068,
+   "processed": 170,
+   "total": 287,
+   "parts_per_min": 103.6,
+   "prefetch": "13 - Salur (2025)",
+   "uploading": [],
+   "done_session": 9,
+   "parts_session": 2642,
    "last": [
+    {
+     "ac": "9 - Rajam",
+     "year": "2025",
+     "parts": 284,
+     "secs": 1500,
+     "finished": "2026-11-14 04:17:50 IST"
+    },
+    {
+     "ac": "8 - Narasannapeta",
+     "year": "2025",
+     "parts": 290,
+     "secs": 3653,
+     "finished": "2026-11-14 04:17:37 IST"
+    },
     {
      "ac": "7 - Etcherla",
      "year": "2025",
@@ -83,35 +95,21 @@
      "parts": 279,
      "secs": 245,
      "finished": "2026-11-14 02:23:43 IST"
-    },
-    {
-     "ac": "4 - Pathapatnam",
-     "year": "2025",
-     "parts": 323,
-     "secs": 312,
-     "finished": "2026-11-14 02:21:36 IST"
-    },
-    {
-     "ac": "3 - Tekkali",
-     "year": "2025",
-     "parts": 315,
-     "secs": 1231,
-     "finished": "2026-11-14 02:17:55 IST"
     }
    ],
-   "load1": 11.14,
+   "load1": 10.96,
    "cores_busy": 8,
-   "updated": "2026-11-14 04:15:50 IST",
-   "updated_epoch": 1794609950,
+   "updated": "2026-11-14 04:18:05 IST",
+   "updated_epoch": 1794610085,
    "fetch": {
-    "ac": "12 - Parvathipuram",
+    "ac": "13 - Salur",
     "year": "2025",
-    "done": 11,
-    "total": 12,
-    "mb": 864.6,
-    "mbps": 0.66
+    "done": 13,
+    "total": 13,
+    "mb": 1053.8,
+    "mbps": 14.4
    },
-   "age_s": 4
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -120,13 +118,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "153 - Anantapur Urban",
+   "ac": "152 - Singanamala",
    "phase": "OCR",
-   "processed": 220,
-   "total": 285,
-   "parts_per_min": 37.6,
-   "prefetch": "150 - Guntakal (2025)",
-   "uploading": [],
+   "processed": 0,
+   "total": 293,
+   "parts_per_min": 0.0,
+   "prefetch": "149 - Uravakonda (2025)",
+   "uploading": [
+    "153 - Anantapur Urban"
+   ],
    "done_session": 21,
    "parts_session": 5635,
    "last": [
@@ -166,23 +166,41 @@
      "finished": "2026-11-14 03:42:59 IST"
     }
    ],
-   "load1": 25.53,
+   "load1": 18.85,
    "cores_busy": 10,
-   "updated": "2026-11-14 04:15:15 IST",
-   "updated_epoch": 1794609915,
+   "updated": "2026-11-14 04:16:52 IST",
+   "updated_epoch": 1794610012,
    "fetch": {
-    "ac": "150 - Guntakal",
+    "ac": "149 - Uravakonda",
     "year": "2025",
-    "done": 17,
-    "total": 17,
-    "mb": 1251.4,
-    "mbps": 6.84
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 39
+   "age_s": 76
   }
  ],
  "throughput_ac_per_hr": 10.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "9 - Rajam",
+   "worker": "box",
+   "parts": 284,
+   "electors": 228017,
+   "secs": 1358,
+   "finished": "2026-11-14 04:17:47 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "8 - Narasannapeta",
+   "worker": "box",
+   "parts": 290,
+   "electors": 215171,
+   "secs": 2116,
+   "finished": "2026-11-14 04:17:34 IST"
+  },
   {
    "year": "2025",
    "ac": "154 - Kalyandurg",
@@ -236,24 +254,6 @@
    "electors": 246295,
    "secs": 450,
    "finished": "2026-11-14 03:36:57 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "161 - Kadiri",
-   "worker": "mac",
-   "parts": 281,
-   "electors": 254419,
-   "secs": 415,
-   "finished": "2026-11-14 03:28:53 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "162 - Thamballapalle",
-   "worker": "mac",
-   "parts": 236,
-   "electors": 225246,
-   "secs": 352,
-   "finished": "2026-11-14 03:22:43 IST"
   }
  ],
  "failures": [],
@@ -6502,18 +6502,18 @@
    "label": "8 - Narasannapeta",
    "district": "Srikakulam",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 290,
    "processed": 290,
    "needs_review": 9,
    "failed": 0,
    "elapsed_s": 2116,
-   "electors": null,
+   "electors": 215171,
    "rate_per_min": 8.2,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1lvE0tUv1SmO0zvlDgYDSRIfnyC2ydPv8RriuCOJQOjA/edit",
+   "folder": "https://drive.google.com/drive/folders/1Rb3ECRtW2TmEaAEjWBBvUatxlgbsl4aU"
   },
   {
    "label": "158 - Penukonda",
@@ -6604,18 +6604,18 @@
    "label": "9 - Rajam",
    "district": "Vizianagaram",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 284,
-   "processed": 220,
-   "needs_review": 3,
+   "processed": 284,
+   "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 1323,
-   "electors": null,
-   "rate_per_min": 10.0,
-   "eta_s": 385,
+   "elapsed_s": 1357,
+   "electors": 228017,
+   "rate_per_min": 12.6,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1v_Q9-HJEBhcgMd_WPTRjG45k2Oh0Yn-GqX0Cr_NbgtE/edit",
+   "folder": "https://drive.google.com/drive/folders/1GZYhGmILbSL0_kJ-VVsCdGwICevZALs1"
   },
   {
    "label": "154 - Kalyandurg",
@@ -6667,6 +6667,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1FoN-JRVUpJEjj032BIBHEtrcAzbhEWmEgUZ980I_EbY/edit",
    "folder": "https://drive.google.com/drive/folders/1DAWPodWCL_oAglOjwp0VMRwUC5WneBPC"
+  },
+  {
+   "label": "10 - Palakonda",
+   "district": "Parvathipuram Manyam",
+   "year": "2025",
+   "state": "running",
+   "total": 287,
+   "processed": 170,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 97,
+   "electors": null,
+   "rate_per_min": 105.2,
+   "eta_s": 67,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
