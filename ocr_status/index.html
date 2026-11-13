@@ -34,18 +34,19 @@ const $=id=>document.getElementById(id),fmt=n=>(n||0).toLocaleString('en-IN');
 const dur=s=>s==null?'–':s<60?Math.round(s)+'s':s<3600?Math.floor(s/60)+'m '+Math.round(s%60)+'s':Math.floor(s/3600)+'h '+Math.round(s%3600/60)+'m';
 const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const acn=l=>parseInt(l)||0;
-let base='',lastLive=0,tab=null;
+let base='',lastLive=0,tab=null,fromLive=false;
 async function getStatus(){
  if(Date.now()-lastLive>60000){lastLive=Date.now();try{const l=await (await fetch('live.json?t='+Date.now(),{cache:'no-store'})).json();
    base=(l.tunnel&&!location.href.startsWith(l.tunnel))?l.tunnel.replace(/\/$/,'')+'/':''}catch(e){base=''}}
- if(base){try{return await (await fetch(base+'status.json?t='+Date.now(),{cache:'no-store'})).json()}catch(e){}}
+ if(base){try{const d=await (await fetch(base+'status.json?t='+Date.now(),{cache:'no-store'})).json(); fromLive=true; return d}catch(e){}}
+ fromLive=false;
  return await (await fetch('status.json?t='+Date.now(),{cache:'no-store'})).json();
 }
 function setTab(y){tab=y;tick()}
 async function tick(){try{
  const d=await getStatus(), R=d.runs||[], Y=d.years||{'2026':{total_constituencies:d.total_constituencies,done:d.done_constituencies}};
- const stale=Date.now()/1000-d.updated_epoch>180;
- $('upd').className='sub'+(stale?' stale':''); $('upd').innerHTML='<span class="dot"></span>'+(stale?'Pipeline idle/offline · last update ':'Live · updated ')+esc(d.updated);
+ const age=Date.now()/1000-d.updated_epoch, stale=age>(fromLive?180:900);
+ $('upd').className='sub'+(stale?' stale':''); $('upd').innerHTML='<span class="dot"></span>'+(stale?'Pipeline idle/offline · last update ':fromLive?'Live · updated ':'Snapshot · updated ')+esc(d.updated);
  const ys=Object.keys(Y).sort().reverse(); if(!tab||!Y[tab])tab=ys[0];
  $('years').innerHTML=ys.map(y=>{const v=Y[y],t=v.total_constituencies,pct=t?100*v.done/t:0;
   return '<div class="card"><div class="yr"><h2>'+y+' rolls</h2><span class="muted">'+(t?pct.toFixed(0)+'% of constituencies'+(v.eta&&v.done<t?' · ETA '+esc(v.eta):''):'not started')+'</span></div>'+

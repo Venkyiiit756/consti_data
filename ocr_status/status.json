@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 08:59:45 AM IST",
- "updated_epoch": 1794540585,
+ "updated": "13 Nov 2026, 09:01:56 AM IST",
+ "updated_epoch": 1794540716,
  "total_constituencies": 175,
- "done_constituencies": 122,
+ "done_constituencies": 123,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 122,
+   "done": 123,
    "errors": 0,
-   "parts": 35562,
+   "parts": 35761,
    "needs_review": 1021,
    "failed": 33,
-   "electors": 26045882,
-   "eta": "13 Nov, 12:10 PM IST"
+   "electors": 26222909,
+   "eta": "13 Nov, 12:09 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 10:29 PM IST"
+   "eta": "13 Nov, 10:28 PM IST"
   }
  },
  "batch": {
   "phase": "downloading",
-  "updated": "2026-11-13 08:59:42 IST",
+  "updated": "2026-11-13 09:01:53 IST",
   "year": "2026",
   "next": "57 - Palakollu (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -47,12 +47,17 @@
    "total": 0,
    "parts_per_min": 0,
    "prefetch": "57 - Palakollu (2026)",
-   "uploading": [
-    "56 - Achanta"
-   ],
-   "done_session": 28,
-   "parts_session": 7611,
+   "uploading": [],
+   "done_session": 29,
+   "parts_session": 7810,
    "last": [
+    {
+     "ac": "56 - Achanta",
+     "year": "2026",
+     "parts": 199,
+     "secs": 1911,
+     "finished": "2026-11-13 09:00:42 IST"
+    },
     {
      "ac": "55 - Nidadavole",
      "year": "2026",
@@ -80,26 +85,19 @@
      "parts": 264,
      "secs": 433,
      "finished": "2026-11-13 08:22:43 IST"
-    },
-    {
-     "ac": "51 - Rajahmundry Rural",
-     "year": "2026",
-     "parts": 310,
-     "secs": 315,
-     "finished": "2026-11-13 08:17:53 IST"
     }
    ],
-   "load1": 7.4,
+   "load1": 1.2,
    "cores_busy": 0,
-   "updated": "2026-11-13 08:59:42 IST",
-   "updated_epoch": 1794540582,
+   "updated": "2026-11-13 09:01:53 IST",
+   "updated_epoch": 1794540713,
    "fetch": {
     "ac": "57 - Palakollu",
     "year": "2026",
-    "done": 6,
+    "done": 30,
     "total": 32,
-    "mb": 338.8,
-    "mbps": 0.69
+    "mb": 1954.7,
+    "mbps": 2.97
    },
    "age_s": 3
   },
@@ -112,16 +110,21 @@
    "year": "2026",
    "ac": "109 - Kandukur",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 130,
    "total": 293,
-   "parts_per_min": 31.5,
+   "parts_per_min": 48.4,
    "prefetch": "106 - Chirala (2026)",
-   "uploading": [
-    "110 - Kondapi"
-   ],
-   "done_session": 58,
-   "parts_session": 17589,
+   "uploading": [],
+   "done_session": 59,
+   "parts_session": 17880,
    "last": [
+    {
+     "ac": "110 - Kondapi",
+     "year": "2026",
+     "parts": 291,
+     "secs": 658,
+     "finished": "2026-11-13 08:58:53 IST"
+    },
     {
      "ac": "111 - Markapuram",
      "year": "2026",
@@ -149,32 +152,34 @@
      "parts": 324,
      "secs": 682,
      "finished": "2026-11-13 08:36:46 IST"
-    },
-    {
-     "ac": "115 - Atmakur",
-     "year": "2026",
-     "parts": 283,
-     "secs": 561,
-     "finished": "2026-11-13 08:29:54 IST"
     }
    ],
-   "load1": 24.56,
+   "load1": 24.71,
    "cores_busy": 10,
-   "updated": "2026-11-13 08:58:46 IST",
-   "updated_epoch": 1794540526,
+   "updated": "2026-11-13 09:01:08 IST",
+   "updated_epoch": 1794540668,
    "fetch": {
     "ac": "106 - Chirala",
     "year": "2026",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 26,
+    "total": 29,
+    "mb": 2026.7,
+    "mbps": 17.95
    },
-   "age_s": 59
+   "age_s": 48
   }
  ],
  "throughput_ac_per_hr": 16.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "56 - Achanta",
+   "worker": "box",
+   "parts": 199,
+   "electors": 177027,
+   "secs": 506,
+   "finished": "2026-11-13 09:00:39 IST"
+  },
   {
    "year": "2026",
    "ac": "110 - Kondapi",
@@ -237,15 +242,6 @@
    "electors": 173766,
    "secs": 116,
    "finished": "2026-11-13 08:29:55 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "115 - Atmakur",
-   "worker": "mac",
-   "parts": 283,
-   "electors": 191710,
-   "secs": 326,
-   "finished": "2026-11-13 08:29:46 IST"
   }
  ],
  "failures": [],
@@ -2295,18 +2291,18 @@
    "label": "56 - Achanta",
    "district": "West Godavari",
    "year": "2026",
-   "state": "uploading",
+   "state": "done",
    "total": 199,
    "processed": 199,
    "needs_review": 3,
    "failed": 0,
    "elapsed_s": 506,
-   "electors": null,
+   "electors": 177027,
    "rate_per_min": 23.6,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1JGlqCqZ4LfroF7T3VSJm4XGIdJXwE_hYEMr_YwH0Pp0/edit",
+   "folder": "https://drive.google.com/drive/folders/17YnjuyIAnCLoDaKSlmxYqy3oCCQvg003"
   },
   {
    "label": "111 - Markapuram",
