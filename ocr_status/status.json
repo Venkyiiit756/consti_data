@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 04:23:05 PM IST",
- "updated_epoch": 1794567185,
+ "updated": "13 Nov 2026, 04:55:10 PM IST",
+ "updated_epoch": 1794569110,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 04:23 PM IST"
+   "eta": "13 Nov, 04:55 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 55,
+   "done": 59,
    "errors": 0,
-   "parts": 14458,
-   "needs_review": 507,
+   "parts": 15647,
+   "needs_review": 525,
    "failed": 0,
-   "electors": 12679403,
-   "eta": "14 Nov, 12:21 AM IST"
+   "electors": 13760517,
+   "eta": "14 Nov, 05:01 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 22 - Visakhapatnam South (2024)",
-  "updated": "2026-11-13 16:23:00 IST",
+  "updated": "2026-11-13 16:55:05 IST",
   "year": "2024",
   "next": "25 - Gajuwaka (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "22 - Visakhapatnam South",
    "phase": "OCR",
-   "processed": 70,
+   "processed": 160,
    "total": 210,
-   "parts_per_min": 93.2,
+   "parts_per_min": 4.9,
    "prefetch": "25 - Gajuwaka (2024)",
    "uploading": [],
    "done_session": 28,
@@ -87,17 +87,17 @@
      "finished": "2026-11-13 15:56:44 IST"
     }
    ],
-   "load1": 11.3,
+   "load1": 11.9,
    "cores_busy": 8,
-   "updated": "2026-11-13 16:23:00 IST",
-   "updated_epoch": 1794567180,
+   "updated": "2026-11-13 16:55:05 IST",
+   "updated_epoch": 1794569105,
    "fetch": {
     "ac": "25 - Gajuwaka",
     "year": "2024",
-    "done": 13,
+    "done": 26,
     "total": 26,
-    "mb": 936.2,
-    "mbps": 39.39
+    "mb": 1866.1,
+    "mbps": 0.96
    },
    "age_s": 5
   },
@@ -108,69 +108,105 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "141 - Dhone",
+   "ac": "137 - Kurnool",
    "phase": "OCR",
-   "processed": 110,
-   "total": 291,
-   "parts_per_min": 5.3,
-   "prefetch": "138 - Panyam (2024)",
+   "processed": 70,
+   "total": 258,
+   "parts_per_min": 37.6,
+   "prefetch": "134 - Allagadda (2024)",
    "uploading": [],
-   "done_session": 62,
-   "parts_session": 16644,
+   "done_session": 66,
+   "parts_session": 17833,
    "last": [
+    {
+     "ac": "138 - Panyam",
+     "year": "2024",
+     "parts": 340,
+     "secs": 896,
+     "finished": "2026-11-13 16:53:57 IST"
+    },
+    {
+     "ac": "139 - Nandyal",
+     "year": "2024",
+     "parts": 281,
+     "secs": 732,
+     "finished": "2026-11-13 16:46:29 IST"
+    },
+    {
+     "ac": "140 - Banaganapalle",
+     "year": "2024",
+     "parts": 277,
+     "secs": 722,
+     "finished": "2026-11-13 16:39:34 IST"
+    },
+    {
+     "ac": "141 - Dhone",
+     "year": "2024",
+     "parts": 291,
+     "secs": 2081,
+     "finished": "2026-11-13 16:33:27 IST"
+    },
     {
      "ac": "142 - Pattikonda",
      "year": "2024",
      "parts": 255,
      "secs": 1635,
      "finished": "2026-11-13 16:04:48 IST"
-    },
-    {
-     "ac": "143 - Kodumur",
-     "year": "2024",
-     "parts": 275,
-     "secs": 636,
-     "finished": "2026-11-13 15:41:50 IST"
-    },
-    {
-     "ac": "144 - Yemmiganur",
-     "year": "2024",
-     "parts": 271,
-     "secs": 715,
-     "finished": "2026-11-13 15:34:52 IST"
-    },
-    {
-     "ac": "145 - Mantralayam",
-     "year": "2024",
-     "parts": 161,
-     "secs": 467,
-     "finished": "2026-11-13 15:28:37 IST"
-    },
-    {
-     "ac": "146 - Adoni",
-     "year": "2024",
-     "parts": 256,
-     "secs": 560,
-     "finished": "2026-11-13 15:22:58 IST"
     }
    ],
-   "load1": 136.97,
+   "load1": 37.63,
    "cores_busy": 10,
-   "updated": "2026-11-13 16:22:08 IST",
-   "updated_epoch": 1794567128,
+   "updated": "2026-11-13 16:53:58 IST",
+   "updated_epoch": 1794569038,
    "fetch": {
-    "ac": "138 - Panyam",
+    "ac": "134 - Allagadda",
     "year": "2024",
-    "done": 25,
-    "total": 25,
-    "mb": 1615.5,
-    "mbps": 5.42
+    "done": 9,
+    "total": 13,
+    "mb": 601.5,
+    "mbps": 9.6
    },
-   "age_s": 57
+   "age_s": 72
   }
  ],
- "throughput_ac_per_hr": 14.7,
+ "throughput_ac_per_hr": 9.3,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "138 - Panyam",
+   "worker": "mac",
+   "parts": 340,
+   "electors": 331706,
+   "secs": 487,
+   "finished": "2026-11-13 16:52:58 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "139 - Nandyal",
+   "worker": "mac",
+   "parts": 281,
+   "electors": 273938,
+   "secs": 407,
+   "finished": "2026-11-13 16:44:58 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "140 - Banaganapalle",
+   "worker": "mac",
+   "parts": 277,
+   "electors": 241179,
+   "secs": 402,
+   "finished": "2026-11-13 16:37:57 IST"
+  },
+  {
+   "year": "2024",
+   "ac": "141 - Dhone",
+   "worker": "mac",
+   "parts": 291,
+   "electors": 234291,
+   "secs": 1738,
+   "finished": "2026-11-13 16:31:54 IST"
+  },
   {
    "year": "2024",
    "ac": "21 - Visakhapatnam East",
@@ -206,42 +242,6 @@
    "electors": 223603,
    "secs": 1296,
    "finished": "2026-11-13 16:02:59 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "18 - Vizianagaram",
-   "worker": "box",
-   "parts": 237,
-   "electors": 225692,
-   "secs": 1887,
-   "finished": "2026-11-13 15:56:52 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "17 - Nellimarla",
-   "worker": "box",
-   "parts": 247,
-   "electors": 219036,
-   "secs": 185,
-   "finished": "2026-11-13 15:56:41 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "16 - Gajapathinagaram",
-   "worker": "box",
-   "parts": 263,
-   "electors": 210935,
-   "secs": 377,
-   "finished": "2026-11-13 15:55:50 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "143 - Kodumur",
-   "worker": "mac",
-   "parts": 275,
-   "electors": 246632,
-   "secs": 408,
-   "finished": "2026-11-13 15:41:41 IST"
   }
  ],
  "failures": [],
@@ -4163,16 +4163,84 @@
    "year": "2024",
    "state": "running",
    "total": 210,
-   "processed": 80,
-   "needs_review": 1,
+   "processed": 170,
+   "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 49,
+   "elapsed_s": 1974,
    "electors": null,
-   "rate_per_min": 98.0,
-   "eta_s": 80,
+   "rate_per_min": 5.2,
+   "eta_s": 464,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "138 - Panyam",
+   "district": "Nandyal",
+   "year": "2024",
+   "state": "done",
+   "total": 340,
+   "processed": 340,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 487,
+   "electors": 331706,
+   "rate_per_min": 41.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1uXOQEsarxCx85sSrCxiT7ef1IYcHUTgCJAr7ZIs_7t0/edit",
+   "folder": "https://drive.google.com/drive/folders/18oCfxZlICJy-BmC0rUvPXnk1T90Tz9YK"
+  },
+  {
+   "label": "139 - Nandyal",
+   "district": "Nandyal",
+   "year": "2024",
+   "state": "done",
+   "total": 281,
+   "processed": 281,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 407,
+   "electors": 273938,
+   "rate_per_min": 41.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1kFEvFhQzvM5r3BU-TbpyoQQKB73vglXsnA-dXSQI8XA/edit",
+   "folder": "https://drive.google.com/drive/folders/1F1fsgQP-c7jwpXmvfboXDlIJMl6cD6mi"
+  },
+  {
+   "label": "140 - Banaganapalle",
+   "district": "Nandyal",
+   "year": "2024",
+   "state": "done",
+   "total": 277,
+   "processed": 277,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 402,
+   "electors": 241179,
+   "rate_per_min": 41.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1S-6zaAH-A1YU02PkmZkKfShN1raXddvgWmq_Gd52egA/edit",
+   "folder": "https://drive.google.com/drive/folders/1MYT87HywmWpspu4Q4Amg0VKaQ3jhbwB8"
+  },
+  {
+   "label": "141 - Dhone",
+   "district": "Nandyal",
+   "year": "2024",
+   "state": "done",
+   "total": 291,
+   "processed": 291,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 1738,
+   "electors": 234291,
+   "rate_per_min": 10.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1ZT0Z4i8lJ4CJXkihCAS7tk3l56m7KNMCxd1yUKla_1c/edit",
+   "folder": "https://drive.google.com/drive/folders/1s6OspxtUHEyP76kEprfapiMcJ8OEFxhj"
   }
  ]
 }
