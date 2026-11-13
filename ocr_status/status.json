@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 04:26:24 AM IST",
- "updated_epoch": 1794610584,
+ "updated": "14 Nov 2026, 04:28:21 AM IST",
+ "updated_epoch": 1794610701,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 04:26 AM IST"
+   "eta": "14 Nov, 04:28 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 34,
+   "done": 35,
    "errors": 0,
-   "parts": 9351,
-   "needs_review": 343,
+   "parts": 9594,
+   "needs_review": 347,
    "failed": 0,
-   "electors": 8080937,
-   "eta": "14 Nov, 03:29 PM IST"
+   "electors": 8285681,
+   "eta": "14 Nov, 03:26 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 04:26 AM IST"
+   "eta": "14 Nov, 04:28 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 14 - Bobbili (2025)",
-  "updated": "2026-11-14 04:26:20 IST",
+  "updated": "2026-11-14 04:28:20 IST",
   "year": "2025",
-  "next": "",
+  "next": "17 - Nellimarla (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -53,16 +53,21 @@
    "year": "2025",
    "ac": "14 - Bobbili",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 180,
    "total": 264,
-   "parts_per_min": 57.8,
-   "prefetch": "",
-   "uploading": [
-    "13 - Salur"
-   ],
-   "done_session": 12,
-   "parts_session": 3431,
+   "parts_per_min": 82.8,
+   "prefetch": "17 - Nellimarla (2025)",
+   "uploading": [],
+   "done_session": 13,
+   "parts_session": 3674,
    "last": [
+    {
+     "ac": "13 - Salur",
+     "year": "2025",
+     "parts": 243,
+     "secs": 289,
+     "finished": "2026-11-14 04:27:30 IST"
+    },
     {
      "ac": "12 - Parvathipuram",
      "year": "2025",
@@ -90,21 +95,21 @@
      "parts": 284,
      "secs": 1500,
      "finished": "2026-11-14 04:17:50 IST"
-    },
-    {
-     "ac": "8 - Narasannapeta",
-     "year": "2025",
-     "parts": 290,
-     "secs": 3653,
-     "finished": "2026-11-14 04:17:37 IST"
     }
    ],
-   "load1": 10.25,
+   "load1": 11.14,
    "cores_busy": 8,
-   "updated": "2026-11-14 04:26:20 IST",
-   "updated_epoch": 1794610580,
-   "fetch": null,
-   "age_s": 4
+   "updated": "2026-11-14 04:28:20 IST",
+   "updated_epoch": 1794610700,
+   "fetch": {
+    "ac": "17 - Nellimarla",
+    "year": "2025",
+    "done": 13,
+    "total": 14,
+    "mb": 1057.8,
+    "mbps": 12.12
+   },
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -115,10 +120,10 @@
    "year": "2025",
    "ac": "151 - Tadpatri",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 100,
    "total": 274,
-   "parts_per_min": 0.0,
-   "prefetch": "",
+   "parts_per_min": 35.7,
+   "prefetch": "148 - Rayadurg (2025)",
    "uploading": [
     "152 - Singanamala"
    ],
@@ -161,16 +166,32 @@
      "finished": "2026-11-14 03:50:54 IST"
     }
    ],
-   "load1": 17.87,
+   "load1": 26.6,
    "cores_busy": 10,
-   "updated": "2026-11-14 04:24:11 IST",
-   "updated_epoch": 1794610451,
-   "fetch": null,
-   "age_s": 133
+   "updated": "2026-11-14 04:26:44 IST",
+   "updated_epoch": 1794610604,
+   "fetch": {
+    "ac": "148 - Rayadurg",
+    "year": "2025",
+    "done": 11,
+    "total": 17,
+    "mb": 964.6,
+    "mbps": 8.11
+   },
+   "age_s": 97
   }
  ],
  "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "13 - Salur",
+   "worker": "box",
+   "parts": 243,
+   "electors": 204744,
+   "secs": 135,
+   "finished": "2026-11-14 04:26:53 IST"
+  },
   {
    "year": "2025",
    "ac": "12 - Parvathipuram",
@@ -233,15 +254,6 @@
    "electors": 259577,
    "secs": 398,
    "finished": "2026-11-14 04:09:55 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "155 - Raptadu",
-   "worker": "mac",
-   "parts": 281,
-   "electors": 256980,
-   "secs": 434,
-   "finished": "2026-11-14 04:04:38 IST"
   }
  ],
  "failures": [],
@@ -6728,18 +6740,18 @@
    "label": "13 - Salur",
    "district": "Parvathipuram Manyam",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 243,
    "processed": 243,
    "needs_review": 4,
    "failed": 0,
    "elapsed_s": 135,
-   "electors": null,
+   "electors": 204744,
    "rate_per_min": 108.0,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/13v-1ldmZ0rlWXzS-dwkNsXKCBK2ILRYAPkrJpDzP2os/edit",
+   "folder": "https://drive.google.com/drive/folders/1uxs-_795cjkskEDiYVfn9Dpqm4Fck7gB"
   },
   {
    "label": "14 - Bobbili",
@@ -6747,13 +6759,13 @@
    "year": "2025",
    "state": "running",
    "total": 264,
-   "processed": 20,
-   "needs_review": 2,
+   "processed": 180,
+   "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 13,
+   "elapsed_s": 126,
    "electors": null,
-   "rate_per_min": 92.3,
-   "eta_s": 159,
+   "rate_per_min": 85.7,
+   "eta_s": 59,
    "error": "",
    "sheet": "",
    "folder": ""
