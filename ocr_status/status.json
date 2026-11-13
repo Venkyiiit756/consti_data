@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 09:28:59 AM IST",
- "updated_epoch": 1794542339,
+ "updated": "13 Nov 2026, 09:31:00 AM IST",
+ "updated_epoch": 1794542460,
  "total_constituencies": 175,
  "done_constituencies": 133,
  "years": {
@@ -9,10 +9,10 @@
    "done": 133,
    "errors": 0,
    "parts": 38281,
-   "needs_review": 1046,
+   "needs_review": 1047,
    "failed": 33,
    "electors": 28259618,
-   "eta": "13 Nov, 11:39 AM IST"
+   "eta": "13 Nov, 11:46 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 08:33 PM IST"
+   "eta": "13 Nov, 08:58 PM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 09:28:58 IST",
+  "phase": "OCR 63 - Ungutur (2026)",
+  "updated": "2026-11-13 09:30:58 IST",
   "year": "2026",
-  "next": "63 - Ungutur (2026)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "63 - Ungutur (2026)",
+   "ac": "63 - Ungutur",
+   "phase": "OCR",
+   "processed": 150,
+   "total": 245,
+   "parts_per_min": 104.6,
+   "prefetch": "",
    "uploading": [],
    "done_session": 34,
    "parts_session": 8941,
@@ -87,19 +87,12 @@
      "finished": "2026-11-13 09:04:44 IST"
     }
    ],
-   "load1": 4.92,
-   "cores_busy": 0,
-   "updated": "2026-11-13 09:28:58 IST",
-   "updated_epoch": 1794542338,
-   "fetch": {
-    "ac": "63 - Ungutur",
-    "year": "2026",
-    "done": 29,
-    "total": 32,
-    "mb": 2239.1,
-    "mbps": 17.98
-   },
-   "age_s": 1
+   "load1": 8.8,
+   "cores_busy": 8,
+   "updated": "2026-11-13 09:30:58 IST",
+   "updated_epoch": 1794542458,
+   "fetch": null,
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -110,9 +103,9 @@
    "year": "2026",
    "ac": "104 - Parchur",
    "phase": "OCR",
-   "processed": 130,
+   "processed": 230,
    "total": 304,
-   "parts_per_min": 49.7,
+   "parts_per_min": 51.3,
    "prefetch": "101 - Macherla (2026)",
    "uploading": [],
    "done_session": 64,
@@ -154,22 +147,22 @@
      "finished": "2026-11-13 09:04:50 IST"
     }
    ],
-   "load1": 20.25,
+   "load1": 19.69,
    "cores_busy": 10,
-   "updated": "2026-11-13 09:27:58 IST",
-   "updated_epoch": 1794542278,
+   "updated": "2026-11-13 09:29:50 IST",
+   "updated_epoch": 1794542390,
    "fetch": {
     "ac": "101 - Macherla",
     "year": "2026",
-    "done": 27,
+    "done": 37,
     "total": 37,
-    "mb": 2072.3,
-    "mbps": 15.55
+    "mb": 2835.7,
+    "mbps": 11.27
    },
-   "age_s": 61
+   "age_s": 70
   }
  ],
- "throughput_ac_per_hr": 19.3,
+ "throughput_ac_per_hr": 18.7,
  "recent": [
   {
    "year": "2026",
@@ -2507,6 +2500,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1Z2E2DR53FYgy-vCtvHMsUKApR-Ebfv2p8TPYDDeL_Fc/edit",
    "folder": "https://drive.google.com/drive/folders/1Fv1G9-rYMdMDQVPjyFVWj6z-ajm8TFf6"
+  },
+  {
+   "label": "63 - Ungutur",
+   "district": "Eluru",
+   "year": "2026",
+   "state": "running",
+   "total": 245,
+   "processed": 150,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 83,
+   "electors": null,
+   "rate_per_min": 108.4,
+   "eta_s": 53,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
