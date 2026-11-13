@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 10:22:30 AM IST",
- "updated_epoch": 1794545550,
+ "updated": "13 Nov 2026, 10:24:39 AM IST",
+ "updated_epoch": 1794545679,
  "total_constituencies": 175,
- "done_constituencies": 143,
+ "done_constituencies": 144,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 143,
+   "done": 144,
    "errors": 0,
-   "parts": 41194,
-   "needs_review": 1181,
+   "parts": 41472,
+   "needs_review": 1186,
    "failed": 33,
-   "electors": 30421848,
-   "eta": "13 Nov, 12:27 PM IST"
+   "electors": 30621438,
+   "eta": "13 Nov, 12:25 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 11:40 PM IST"
+   "eta": "13 Nov, 11:39 PM IST"
   }
  },
  "batch": {
-  "phase": "downloading",
-  "updated": "2026-11-13 10:22:27 IST",
+  "phase": "OCR 65 - Eluru (2026)",
+  "updated": "2026-11-13 10:24:37 IST",
   "year": "2026",
-  "next": "65 - Eluru (2026)",
+  "next": "66 - Gopalapuram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,12 +41,12 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2026",
-   "ac": "",
-   "phase": "downloading",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "65 - Eluru (2026)",
+   "ac": "65 - Eluru",
+   "phase": "OCR",
+   "processed": 190,
+   "total": 247,
+   "parts_per_min": 102.9,
+   "prefetch": "66 - Gopalapuram (2026)",
    "uploading": [],
    "done_session": 1,
    "parts_session": 248,
@@ -59,19 +59,19 @@
      "finished": "2026-11-13 10:20:40 IST"
     }
    ],
-   "load1": 1.24,
-   "cores_busy": 0,
-   "updated": "2026-11-13 10:22:27 IST",
-   "updated_epoch": 1794545547,
+   "load1": 9.17,
+   "cores_busy": 8,
+   "updated": "2026-11-13 10:24:37 IST",
+   "updated_epoch": 1794545677,
    "fetch": {
-    "ac": "65 - Eluru",
+    "ac": "66 - Gopalapuram",
     "year": "2026",
-    "done": 36,
-    "total": 37,
-    "mb": 2570.0,
-    "mbps": 1.46
+    "done": 23,
+    "total": 38,
+    "mb": 1767.3,
+    "mbps": 23.78
    },
-   "age_s": 3
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -82,16 +82,21 @@
    "year": "2026",
    "ac": "95 - Guntur East",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 170,
    "total": 312,
-   "parts_per_min": 0.0,
-   "prefetch": "94 - Guntur West (2026)",
-   "uploading": [
-    "96 - Chilakaluripet"
-   ],
-   "done_session": 2,
-   "parts_session": 580,
+   "parts_per_min": 52.3,
+   "prefetch": "93 - Prathipadu SC (2026)",
+   "uploading": [],
+   "done_session": 3,
+   "parts_session": 858,
    "last": [
+    {
+     "ac": "96 - Chilakaluripet",
+     "year": "2026",
+     "parts": 278,
+     "secs": 590,
+     "finished": "2026-11-13 10:21:58 IST"
+    },
     {
      "ac": "97 - Narasaraopet",
      "year": "2026",
@@ -107,23 +112,32 @@
      "finished": "2026-11-13 10:12:54 IST"
     }
    ],
-   "load1": 25.78,
+   "load1": 22.56,
    "cores_busy": 10,
-   "updated": "2026-11-13 10:21:07 IST",
-   "updated_epoch": 1794545467,
+   "updated": "2026-11-13 10:24:15 IST",
+   "updated_epoch": 1794545655,
    "fetch": {
-    "ac": "94 - Guntur West",
+    "ac": "93 - Prathipadu SC",
     "year": "2026",
-    "done": 36,
-    "total": 37,
-    "mb": 2727.2,
-    "mbps": 13.25
+    "done": 8,
+    "total": 38,
+    "mb": 576.3,
+    "mbps": 18.78
    },
-   "age_s": 83
+   "age_s": 24
   }
  ],
  "throughput_ac_per_hr": 15.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "96 - Chilakaluripet",
+   "worker": "mac",
+   "parts": 278,
+   "electors": 199590,
+   "secs": 326,
+   "finished": "2026-11-13 10:21:50 IST"
+  },
   {
    "year": "2026",
    "ac": "64 - Denduluru",
@@ -186,15 +200,6 @@
    "electors": 190539,
    "secs": 307,
    "finished": "2026-11-13 09:42:40 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "103 - Darsi",
-   "worker": "mac",
-   "parts": 291,
-   "electors": 208662,
-   "secs": 336,
-   "finished": "2026-11-13 09:38:43 IST"
   }
  ],
  "failures": [],
@@ -2630,6 +2635,40 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1pjZqioEcikRv4qLd__mjR9LnPjEAL9Eo4LPcM4VCnk4/edit",
    "folder": "https://drive.google.com/drive/folders/1rvDCb9eJNkFMWU9sbHi_z2AaKEGmqOYh"
+  },
+  {
+   "label": "96 - Chilakaluripet",
+   "district": "Palnadu",
+   "year": "2026",
+   "state": "done",
+   "total": 278,
+   "processed": 278,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 326,
+   "electors": 199590,
+   "rate_per_min": 51.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1EY00T5DNbGLjhrkjFehuaKehkqpszYb7EBLRsp9cvaQ/edit",
+   "folder": "https://drive.google.com/drive/folders/1WlCX9ZoF37Q91YGs_Wx08qhd8IMPT0oL"
+  },
+  {
+   "label": "65 - Eluru",
+   "district": "Eluru",
+   "year": "2026",
+   "state": "running",
+   "total": 247,
+   "processed": 190,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 110,
+   "electors": null,
+   "rate_per_min": 103.6,
+   "eta_s": 33,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
