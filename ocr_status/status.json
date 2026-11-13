@@ -1,33 +1,33 @@
 {
- "updated": "13 Nov 2026, 12:38:51 PM IST",
- "updated_epoch": 1794553731,
+ "updated": "13 Nov 2026, 12:39:51 PM IST",
+ "updated_epoch": 1794553791,
  "total_constituencies": 175,
- "done_constituencies": 173,
+ "done_constituencies": 174,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 173,
+   "done": 174,
    "errors": 0,
-   "parts": 49633,
-   "needs_review": 1328,
+   "parts": 49887,
+   "needs_review": 1332,
    "failed": 38,
-   "electors": 36915653,
-   "eta": "13 Nov, 12:47 PM IST"
+   "electors": 37105586,
+   "eta": "13 Nov, 12:43 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 0,
+   "done": 1,
    "errors": 0,
-   "parts": 0,
-   "needs_review": 11,
+   "parts": 299,
+   "needs_review": 15,
    "failed": 0,
-   "electors": 0,
-   "eta": "14 Nov, 01:04 AM IST"
+   "electors": 268202,
+   "eta": "14 Nov, 12:23 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 1 - Ichchapuram (2024)",
-  "updated": "2026-11-13 12:38:47 IST",
+  "phase": "OCR 2 - Palasa (2024)",
+  "updated": "2026-11-13 12:39:47 IST",
   "year": "2024",
   "next": "3 - Tekkali (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "1 - Ichchapuram",
+   "ac": "2 - Palasa",
    "phase": "OCR",
-   "processed": 270,
-   "total": 299,
-   "parts_per_min": 30.4,
+   "processed": 80,
+   "total": 279,
+   "parts_per_min": 100.3,
    "prefetch": "3 - Tekkali (2024)",
-   "uploading": [],
+   "uploading": [
+    "1 - Ichchapuram"
+   ],
    "done_session": 7,
    "parts_session": 1928,
    "last": [
@@ -87,17 +89,17 @@
      "finished": "2026-11-13 11:18:39 IST"
     }
    ],
-   "load1": 11.02,
+   "load1": 11.44,
    "cores_busy": 8,
-   "updated": "2026-11-13 12:38:47 IST",
-   "updated_epoch": 1794553727,
+   "updated": "2026-11-13 12:39:47 IST",
+   "updated_epoch": 1794553787,
    "fetch": {
     "ac": "3 - Tekkali",
     "year": "2024",
-    "done": 3,
+    "done": 17,
     "total": 18,
-    "mb": 167.5,
-    "mbps": 19.76
+    "mb": 1280.9,
+    "mbps": 18.62
    },
    "age_s": 4
   },
@@ -110,16 +112,21 @@
    "year": "2026",
    "ac": "71 - Gannavaram Krishna",
    "phase": "OCR",
-   "processed": 150,
+   "processed": 210,
    "total": 327,
-   "parts_per_min": 47.2,
+   "parts_per_min": 49.1,
    "prefetch": "173 - Puthalapattu (2024)",
-   "uploading": [
-    "72 - Gudivada"
-   ],
-   "done_session": 26,
-   "parts_session": 7339,
+   "uploading": [],
+   "done_session": 27,
+   "parts_session": 7593,
    "last": [
+    {
+     "ac": "72 - Gudivada",
+     "year": "2026",
+     "parts": 254,
+     "secs": 795,
+     "finished": "2026-11-13 12:38:53 IST"
+    },
     {
      "ac": "73 - Kaikalur",
      "year": "2026",
@@ -147,32 +154,43 @@
      "parts": 267,
      "secs": 674,
      "finished": "2026-11-13 12:17:27 IST"
-    },
-    {
-     "ac": "77 - Pamarru",
-     "year": "2026",
-     "parts": 238,
-     "secs": 539,
-     "finished": "2026-11-13 12:11:46 IST"
     }
    ],
-   "load1": 31.92,
+   "load1": 47.29,
    "cores_busy": 10,
-   "updated": "2026-11-13 12:37:59 IST",
-   "updated_epoch": 1794553679,
+   "updated": "2026-11-13 12:39:05 IST",
+   "updated_epoch": 1794553745,
    "fetch": {
     "ac": "173 - Puthalapattu",
     "year": "2024",
-    "done": 13,
+    "done": 15,
     "total": 17,
-    "mb": 1013.3,
-    "mbps": 5.71
+    "mb": 1100.7,
+    "mbps": 4.68
    },
-   "age_s": 52
+   "age_s": 46
   }
  ],
- "throughput_ac_per_hr": 14.0,
+ "throughput_ac_per_hr": 14.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "1 - Ichchapuram",
+   "worker": "box",
+   "parts": 299,
+   "electors": 268202,
+   "secs": 545,
+   "finished": "2026-11-13 12:39:44 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "72 - Gudivada",
+   "worker": "mac",
+   "parts": 254,
+   "electors": 189933,
+   "secs": 308,
+   "finished": "2026-11-13 12:38:45 IST"
+  },
   {
    "year": "2026",
    "ac": "73 - Kaikalur",
@@ -226,24 +244,6 @@
    "electors": 178860,
    "secs": 270,
    "finished": "2026-11-13 12:20:55 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "76 - Avanigadda",
-   "worker": "mac",
-   "parts": 267,
-   "electors": 197735,
-   "secs": 326,
-   "finished": "2026-11-13 12:16:52 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "77 - Pamarru",
-   "worker": "mac",
-   "parts": 238,
-   "electors": 172029,
-   "secs": 283,
-   "finished": "2026-11-13 12:11:37 IST"
   }
  ],
  "failures": [],
@@ -3177,18 +3177,18 @@
    "label": "1 - Ichchapuram",
    "district": "Srikakulam",
    "year": "2024",
-   "state": "running",
+   "state": "done",
    "total": 299,
-   "processed": 280,
+   "processed": 299,
    "needs_review": 11,
    "failed": 0,
-   "elapsed_s": 535,
-   "electors": null,
-   "rate_per_min": 31.4,
-   "eta_s": 36,
+   "elapsed_s": 545,
+   "electors": 268202,
+   "rate_per_min": 32.9,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1vDtcaW4q33_7QjvStYmXTRdnGa9hEi8joe7qL8RAW84/edit",
+   "folder": "https://drive.google.com/drive/folders/16py_K592q3BpqzgqmSmtn6XKRbsLdUZi"
   },
   {
    "label": "73 - Kaikalur",
@@ -3206,6 +3206,40 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1aRq3Vs-pLJ70C1qv4XJF5QVr8QQtoG41VTo62cgyjdI/edit",
    "folder": "https://drive.google.com/drive/folders/1U5XVl5MNGrJGP1V4ECaP3Y5LSyISX5Ex"
+  },
+  {
+   "label": "2 - Palasa",
+   "district": "Srikakulam",
+   "year": "2024",
+   "state": "running",
+   "total": 279,
+   "processed": 80,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 47,
+   "electors": null,
+   "rate_per_min": 102.1,
+   "eta_s": 117,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "72 - Gudivada",
+   "district": "Krishna",
+   "year": "2026",
+   "state": "done",
+   "total": 254,
+   "processed": 254,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 308,
+   "electors": 189933,
+   "rate_per_min": 49.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1b9sBlvBT3HwasrsKcnd70RNMk4XmV5JgcFDSqewhNp4/edit",
+   "folder": "https://drive.google.com/drive/folders/1jaZMuNMw7jqpxM9n1cKHSgg_4MMVpL_O"
   }
  ]
 }
