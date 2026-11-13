@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:48:46 AM IST",
- "updated_epoch": 1794604726,
+ "updated": "14 Nov 2026, 02:49:51 AM IST",
+ "updated_epoch": 1794604791,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:48 AM IST"
+   "eta": "14 Nov, 02:49 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 119,
    "failed": 0,
    "electors": 3522368,
-   "eta": "14 Nov, 03:21 PM IST"
+   "eta": "14 Nov, 03:23 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:48 AM IST"
+   "eta": "14 Nov, 02:49 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 7 - Etcherla (2025)",
-  "updated": "2026-11-14 02:48:46 IST",
+  "updated": "2026-11-14 02:49:51 IST",
   "year": "2025",
   "next": "10 - Palakonda (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "7 - Etcherla",
    "phase": "OCR",
-   "processed": 110,
+   "processed": 150,
    "total": 309,
-   "parts_per_min": 92.3,
+   "parts_per_min": 65.6,
    "prefetch": "10 - Palakonda (2025)",
    "uploading": [],
    "done_session": 6,
@@ -97,17 +97,17 @@
      "finished": "2026-11-14 01:58:44 IST"
     }
    ],
-   "load1": 11.54,
+   "load1": 11.17,
    "cores_busy": 8,
-   "updated": "2026-11-14 02:48:46 IST",
-   "updated_epoch": 1794604726,
+   "updated": "2026-11-14 02:49:51 IST",
+   "updated_epoch": 1794604791,
    "fetch": {
     "ac": "10 - Palakonda",
     "year": "2025",
-    "done": 12,
+    "done": 13,
     "total": 13,
-    "mb": 965.4,
-    "mbps": 33.63
+    "mb": 967.2,
+    "mbps": 8.05
    },
    "age_s": 0
   },
@@ -120,16 +120,21 @@
    "year": "2025",
    "ac": "166 - Chandragiri",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 70,
    "total": 358,
-   "parts_per_min": 30.9,
+   "parts_per_min": 33.1,
    "prefetch": "163 - Pileru (2025)",
-   "uploading": [
-    "167 - Tirupati"
-   ],
-   "done_session": 8,
-   "parts_session": 2084,
+   "uploading": [],
+   "done_session": 9,
+   "parts_session": 2358,
    "last": [
+    {
+     "ac": "167 - Tirupati",
+     "year": "2025",
+     "parts": 274,
+     "secs": 758,
+     "finished": "2026-11-14 02:48:32 IST"
+    },
     {
      "ac": "168 - Srikalahasti",
      "year": "2025",
@@ -157,28 +162,21 @@
      "parts": 256,
      "secs": 784,
      "finished": "2026-11-14 02:23:32 IST"
-    },
-    {
-     "ac": "172 - Chittoor",
-     "year": "2025",
-     "parts": 229,
-     "secs": 571,
-     "finished": "2026-11-14 02:14:56 IST"
     }
    ],
-   "load1": 19.67,
+   "load1": 32.26,
    "cores_busy": 10,
-   "updated": "2026-11-14 02:47:06 IST",
-   "updated_epoch": 1794604626,
+   "updated": "2026-11-14 02:48:54 IST",
+   "updated_epoch": 1794604734,
    "fetch": {
     "ac": "163 - Pileru",
     "year": "2025",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 11,
+    "total": 15,
+    "mb": 869.6,
+    "mbps": 10.27
    },
-   "age_s": 100
+   "age_s": 57
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -6402,13 +6400,13 @@
    "year": "2025",
    "state": "running",
    "total": 309,
-   "processed": 120,
+   "processed": 150,
    "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 71,
+   "elapsed_s": 135,
    "electors": null,
-   "rate_per_min": 101.4,
-   "eta_s": 112,
+   "rate_per_min": 66.7,
+   "eta_s": 143,
    "error": "",
    "sheet": "",
    "folder": ""
