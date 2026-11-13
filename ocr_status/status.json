@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 03:17:04 PM IST",
- "updated_epoch": 1794563224,
+ "updated": "13 Nov 2026, 03:22:23 PM IST",
+ "updated_epoch": 1794563543,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,24 +12,24 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 03:17 PM IST"
+   "eta": "13 Nov, 03:22 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 43,
+   "done": 44,
    "errors": 0,
-   "parts": 11538,
-   "needs_review": 385,
+   "parts": 11667,
+   "needs_review": 388,
    "failed": 0,
-   "electors": 10003773,
-   "eta": "13 Nov, 10:11 PM IST"
+   "electors": 10127569,
+   "eta": "13 Nov, 10:13 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 16 - Gajapathinagaram (2024)",
-  "updated": "2026-11-13 15:17:02 IST",
+  "phase": "OCR 17 - Nellimarla (2024)",
+  "updated": "2026-11-13 15:22:19 IST",
   "year": "2024",
-  "next": "19 - Srungavarapukota (2024)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2024",
-   "ac": "16 - Gajapathinagaram",
+   "ac": "17 - Nellimarla",
    "phase": "OCR",
-   "processed": 120,
-   "total": 263,
-   "parts_per_min": 97.5,
-   "prefetch": "19 - Srungavarapukota (2024)",
-   "uploading": [],
+   "processed": 20,
+   "total": 247,
+   "parts_per_min": 84.6,
+   "prefetch": "",
+   "uploading": [
+    "16 - Gajapathinagaram"
+   ],
    "done_session": 22,
    "parts_session": 6089,
    "last": [
@@ -87,19 +89,12 @@
      "finished": "2026-11-13 15:03:49 IST"
     }
    ],
-   "load1": 11.28,
+   "load1": 10.64,
    "cores_busy": 8,
-   "updated": "2026-11-13 15:17:02 IST",
-   "updated_epoch": 1794563222,
-   "fetch": {
-    "ac": "19 - Srungavarapukota",
-    "year": "2024",
-    "done": 17,
-    "total": 17,
-    "mb": 1200.8,
-    "mbps": 18.21
-   },
-   "age_s": 2
+   "updated": "2026-11-13 15:22:19 IST",
+   "updated_epoch": 1794563539,
+   "fetch": null,
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -110,16 +105,21 @@
    "year": "2024",
    "ac": "146 - Adoni",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 190,
    "total": 256,
-   "parts_per_min": 28.0,
-   "prefetch": "",
-   "uploading": [
-    "147 - Alur"
-   ],
-   "done_session": 56,
-   "parts_session": 15297,
+   "parts_per_min": 37.5,
+   "prefetch": "143 - Kodumur (2024)",
+   "uploading": [],
+   "done_session": 57,
+   "parts_session": 15426,
    "last": [
+    {
+     "ac": "147 - Alur",
+     "year": "2024",
+     "parts": 129,
+     "secs": 383,
+     "finished": "2026-11-13 15:17:48 IST"
+    },
     {
      "ac": "148 - Rayadurg",
      "year": "2024",
@@ -147,25 +147,34 @@
      "parts": 272,
      "secs": 736,
      "finished": "2026-11-13 14:56:36 IST"
-    },
-    {
-     "ac": "152 - Singanamala",
-     "year": "2024",
-     "parts": 161,
-     "secs": 343,
-     "finished": "2026-11-13 14:49:30 IST"
     }
    ],
-   "load1": 50.01,
+   "load1": 30.35,
    "cores_busy": 10,
-   "updated": "2026-11-13 15:16:14 IST",
-   "updated_epoch": 1794563174,
-   "fetch": null,
-   "age_s": 50
+   "updated": "2026-11-13 15:20:56 IST",
+   "updated_epoch": 1794563456,
+   "fetch": {
+    "ac": "143 - Kodumur",
+    "year": "2024",
+    "done": 18,
+    "total": 18,
+    "mb": 1195.7,
+    "mbps": 10.45
+   },
+   "age_s": 87
   }
  ],
  "throughput_ac_per_hr": 18.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "147 - Alur",
+   "worker": "mac",
+   "parts": 129,
+   "electors": 123796,
+   "secs": 197,
+   "finished": "2026-11-13 15:17:40 IST"
+  },
   {
    "year": "2024",
    "ac": "15 - Cheepurupalle",
@@ -228,15 +237,6 @@
    "electors": 194114,
    "secs": 415,
    "finished": "2026-11-13 15:03:46 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "150 - Guntakal",
-   "worker": "mac",
-   "parts": 276,
-   "electors": 277588,
-   "secs": 333,
-   "finished": "2026-11-13 15:00:53 IST"
   }
  ],
  "failures": [],
@@ -3935,15 +3935,15 @@
    "label": "16 - Gajapathinagaram",
    "district": "Vizianagaram",
    "year": "2024",
-   "state": "running",
+   "state": "uploading",
    "total": 263,
-   "processed": 130,
-   "needs_review": 2,
+   "processed": 263,
+   "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 75,
+   "elapsed_s": 377,
    "electors": null,
-   "rate_per_min": 104.0,
-   "eta_s": 77,
+   "rate_per_min": 41.9,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -3964,6 +3964,40 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1aHmrH8hYDp3vIFDqEe_1Qoi4_BJL1inqamLx6f5qfG0/edit",
    "folder": "https://drive.google.com/drive/folders/1yPK8i2ZAmBP-umY6HtTLANMKFHYqcA8V"
+  },
+  {
+   "label": "147 - Alur",
+   "district": "Kurnool",
+   "year": "2024",
+   "state": "done",
+   "total": 129,
+   "processed": 129,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 197,
+   "electors": 123796,
+   "rate_per_min": 39.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1h-B3AfhrGO1Sbciy5AFOaH6Dfz_jLlowpgyZ6jSprH4/edit",
+   "folder": "https://drive.google.com/drive/folders/1FzuAgi6A5Lxp421LQ6qc0x3C216Y2-oZ"
+  },
+  {
+   "label": "17 - Nellimarla",
+   "district": "Vizianagaram",
+   "year": "2024",
+   "state": "running",
+   "total": 247,
+   "processed": 30,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 17,
+   "electors": null,
+   "rate_per_min": 105.9,
+   "eta_s": 123,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
