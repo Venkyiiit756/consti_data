@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 04:28:27 AM IST",
- "updated_epoch": 1794610707,
+ "updated": "14 Nov 2026, 04:49:12 AM IST",
+ "updated_epoch": 1794611952,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 04:28 AM IST"
+   "eta": "14 Nov, 04:49 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 35,
+   "done": 39,
    "errors": 0,
-   "parts": 9594,
-   "needs_review": 347,
+   "parts": 10697,
+   "needs_review": 373,
    "failed": 0,
-   "electors": 8285681,
-   "eta": "14 Nov, 03:26 PM IST"
+   "electors": 9279725,
+   "eta": "14 Nov, 03:28 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 04:28 AM IST"
+   "eta": "14 Nov, 04:49 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 14 - Bobbili (2025)",
-  "updated": "2026-11-14 04:28:25 IST",
+  "updated": "2026-11-14 04:49:10 IST",
   "year": "2025",
   "next": "17 - Nellimarla (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "14 - Bobbili",
    "phase": "OCR",
-   "processed": 190,
+   "processed": 240,
    "total": 264,
-   "parts_per_min": 84.2,
+   "parts_per_min": 10.4,
    "prefetch": "17 - Nellimarla (2025)",
    "uploading": [],
    "done_session": 13,
@@ -97,17 +97,17 @@
      "finished": "2026-11-14 04:17:50 IST"
     }
    ],
-   "load1": 11.13,
+   "load1": 11.42,
    "cores_busy": 8,
-   "updated": "2026-11-14 04:28:25 IST",
-   "updated_epoch": 1794610705,
+   "updated": "2026-11-14 04:49:10 IST",
+   "updated_epoch": 1794611950,
    "fetch": {
     "ac": "17 - Nellimarla",
     "year": "2025",
-    "done": 13,
+    "done": 14,
     "total": 14,
-    "mb": 1057.8,
-    "mbps": 12.12
+    "mb": 1059.5,
+    "mbps": 0.8
    },
    "age_s": 2
   },
@@ -118,71 +118,105 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "151 - Tadpatri",
+   "ac": "148 - Rayadurg",
    "phase": "OCR",
-   "processed": 100,
-   "total": 274,
-   "parts_per_min": 35.7,
-   "prefetch": "148 - Rayadurg (2025)",
-   "uploading": [
-    "152 - Singanamala"
-   ],
-   "done_session": 22,
-   "parts_session": 5920,
+   "processed": 140,
+   "total": 296,
+   "parts_per_min": 38.1,
+   "prefetch": "145 - Mantralayam (2025)",
+   "uploading": [],
+   "done_session": 26,
+   "parts_session": 7023,
    "last": [
+    {
+     "ac": "149 - Uravakonda",
+     "year": "2025",
+     "parts": 260,
+     "secs": 706,
+     "finished": "2026-11-14 04:45:36 IST"
+    },
+    {
+     "ac": "150 - Guntakal",
+     "year": "2025",
+     "parts": 276,
+     "secs": 664,
+     "finished": "2026-11-14 04:38:54 IST"
+    },
+    {
+     "ac": "151 - Tadpatri",
+     "year": "2025",
+     "parts": 274,
+     "secs": 722,
+     "finished": "2026-11-14 04:33:53 IST"
+    },
+    {
+     "ac": "152 - Singanamala",
+     "year": "2025",
+     "parts": 293,
+     "secs": 738,
+     "finished": "2026-11-14 04:27:41 IST"
+    },
     {
      "ac": "153 - Anantapur Urban",
      "year": "2025",
      "parts": 285,
      "secs": 840,
      "finished": "2026-11-14 04:20:49 IST"
-    },
-    {
-     "ac": "154 - Kalyandurg",
-     "year": "2025",
-     "parts": 261,
-     "secs": 712,
-     "finished": "2026-11-14 04:10:37 IST"
-    },
-    {
-     "ac": "155 - Raptadu",
-     "year": "2025",
-     "parts": 281,
-     "secs": 691,
-     "finished": "2026-11-14 04:04:45 IST"
-    },
-    {
-     "ac": "157 - Hindupur",
-     "year": "2025",
-     "parts": 253,
-     "secs": 715,
-     "finished": "2026-11-14 03:58:31 IST"
-    },
-    {
-     "ac": "158 - Penukonda",
-     "year": "2025",
-     "parts": 265,
-     "secs": 682,
-     "finished": "2026-11-14 03:50:54 IST"
     }
    ],
-   "load1": 26.6,
+   "load1": 24.28,
    "cores_busy": 10,
-   "updated": "2026-11-14 04:26:44 IST",
-   "updated_epoch": 1794610604,
+   "updated": "2026-11-14 04:47:51 IST",
+   "updated_epoch": 1794611871,
    "fetch": {
-    "ac": "148 - Rayadurg",
+    "ac": "145 - Mantralayam",
     "year": "2025",
-    "done": 11,
-    "total": 17,
-    "mb": 964.6,
-    "mbps": 8.11
+    "done": 13,
+    "total": 13,
+    "mb": 1072.7,
+    "mbps": 8.96
    },
-   "age_s": 103
+   "age_s": 81
   }
  ],
  "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "149 - Uravakonda",
+   "worker": "mac",
+   "parts": 260,
+   "electors": 224935,
+   "secs": 387,
+   "finished": "2026-11-14 04:44:55 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "150 - Guntakal",
+   "worker": "mac",
+   "parts": 276,
+   "electors": 278402,
+   "secs": 411,
+   "finished": "2026-11-14 04:38:47 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "151 - Tadpatri",
+   "worker": "mac",
+   "parts": 274,
+   "electors": 242578,
+   "secs": 417,
+   "finished": "2026-11-14 04:33:45 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "152 - Singanamala",
+   "worker": "mac",
+   "parts": 293,
+   "electors": 248129,
+   "secs": 436,
+   "finished": "2026-11-14 04:26:59 IST"
+  },
   {
    "year": "2025",
    "ac": "13 - Salur",
@@ -218,42 +252,6 @@
    "electors": 281593,
    "secs": 436,
    "finished": "2026-11-14 04:20:42 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "10 - Palakonda",
-   "worker": "box",
-   "parts": 287,
-   "electors": 195290,
-   "secs": 157,
-   "finished": "2026-11-14 04:19:46 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "9 - Rajam",
-   "worker": "box",
-   "parts": 284,
-   "electors": 228017,
-   "secs": 1358,
-   "finished": "2026-11-14 04:17:47 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "8 - Narasannapeta",
-   "worker": "box",
-   "parts": 290,
-   "electors": 215171,
-   "secs": 2116,
-   "finished": "2026-11-14 04:17:34 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "154 - Kalyandurg",
-   "worker": "mac",
-   "parts": 261,
-   "electors": 259577,
-   "secs": 398,
-   "finished": "2026-11-14 04:09:55 IST"
   }
  ],
  "failures": [],
@@ -6759,16 +6757,84 @@
    "year": "2025",
    "state": "running",
    "total": 264,
-   "processed": 190,
-   "needs_review": 6,
+   "processed": 240,
+   "needs_review": 8,
    "failed": 0,
-   "elapsed_s": 133,
+   "elapsed_s": 1377,
    "electors": null,
-   "rate_per_min": 85.7,
-   "eta_s": 52,
+   "rate_per_min": 10.5,
+   "eta_s": 138,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "149 - Uravakonda",
+   "district": "Ananthapuramu",
+   "year": "2025",
+   "state": "done",
+   "total": 260,
+   "processed": 260,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 387,
+   "electors": 224935,
+   "rate_per_min": 40.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1wqipwPoNED_OYCAIfuOktuD5y6yddBzwljBMKM4U1Rc/edit",
+   "folder": "https://drive.google.com/drive/folders/1MUFJ1vbn0LHsZwWDu0KsKvg-_UXZm-p8"
+  },
+  {
+   "label": "150 - Guntakal",
+   "district": "Ananthapuramu",
+   "year": "2025",
+   "state": "done",
+   "total": 276,
+   "processed": 276,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 411,
+   "electors": 278402,
+   "rate_per_min": 40.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1K43qi8ATn-S-vu6TKHKboQIAVJaZ_eYLmA_7ji_DfgI/edit",
+   "folder": "https://drive.google.com/drive/folders/1jvwH7MHpkgdu3NTLE-rpzHP2GXYfNhf7"
+  },
+  {
+   "label": "151 - Tadpatri",
+   "district": "Ananthapuramu",
+   "year": "2025",
+   "state": "done",
+   "total": 274,
+   "processed": 274,
+   "needs_review": 14,
+   "failed": 0,
+   "elapsed_s": 417,
+   "electors": 242578,
+   "rate_per_min": 39.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1SRK4Ed6y3g9GoZoGJQ1MPS0VyiGfo2SoXzKYw9r5G9Q/edit",
+   "folder": "https://drive.google.com/drive/folders/16tGSAUlfCHwO1w8ME4j43P4SMaXI1xB5"
+  },
+  {
+   "label": "152 - Singanamala",
+   "district": "Ananthapuramu",
+   "year": "2025",
+   "state": "done",
+   "total": 293,
+   "processed": 293,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 436,
+   "electors": 248129,
+   "rate_per_min": 40.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1mn4BIqfb4lMBUOu4a_AjbRhsZPNpc9_ALrybKH_BZnE/edit",
+   "folder": "https://drive.google.com/drive/folders/1fbbOWHo3UQszM3Bdsay97IiveQhj924N"
   }
  ]
 }
