@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 03:03:25 PM IST",
- "updated_epoch": 1794562405,
+ "updated": "13 Nov 2026, 03:03:55 PM IST",
+ "updated_epoch": 1794562435,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -16,18 +16,18 @@
   },
   "2024": {
    "total_constituencies": 172,
-   "done": 36,
+   "done": 37,
    "errors": 0,
-   "parts": 9726,
-   "needs_review": 321,
+   "parts": 9994,
+   "needs_review": 323,
    "failed": 0,
-   "electors": 8487538,
-   "eta": "13 Nov, 11:33 PM IST"
+   "electors": 8681652,
+   "eta": "13 Nov, 11:09 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 12 - Parvathipuram (2024)",
-  "updated": "2026-11-13 15:03:24 IST",
+  "updated": "2026-11-13 15:03:54 IST",
   "year": "2024",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,16 +43,21 @@
    "year": "2024",
    "ac": "12 - Parvathipuram",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 80,
    "total": 231,
-   "parts_per_min": 76.3,
+   "parts_per_min": 89.5,
    "prefetch": "",
-   "uploading": [
-    "11 - Kurupam"
-   ],
-   "done_session": 17,
-   "parts_session": 4832,
+   "uploading": [],
+   "done_session": 18,
+   "parts_session": 5100,
    "last": [
+    {
+     "ac": "11 - Kurupam",
+     "year": "2024",
+     "parts": 268,
+     "secs": 489,
+     "finished": "2026-11-13 15:03:49 IST"
+    },
     {
      "ac": "10 - Palakonda",
      "year": "2024",
@@ -80,19 +85,12 @@
      "parts": 306,
      "secs": 321,
      "finished": "2026-11-13 14:13:39 IST"
-    },
-    {
-     "ac": "6 - Amadalavalasa",
-     "year": "2024",
-     "parts": 253,
-     "secs": 939,
-     "finished": "2026-11-13 14:10:43 IST"
     }
    ],
-   "load1": 10.91,
+   "load1": 11.51,
    "cores_busy": 8,
-   "updated": "2026-11-13 15:03:24 IST",
-   "updated_epoch": 1794562404,
+   "updated": "2026-11-13 15:03:54 IST",
+   "updated_epoch": 1794562434,
    "fetch": null,
    "age_s": 1
   },
@@ -105,16 +103,21 @@
    "year": "2024",
    "ac": "149 - Uravakonda",
    "phase": "OCR",
-   "processed": 50,
+   "processed": 150,
    "total": 259,
-   "parts_per_min": 42.1,
+   "parts_per_min": 43.4,
    "prefetch": "146 - Adoni (2024)",
-   "uploading": [
-    "150 - Guntakal"
-   ],
-   "done_session": 53,
-   "parts_session": 14466,
+   "uploading": [],
+   "done_session": 54,
+   "parts_session": 14742,
    "last": [
+    {
+     "ac": "150 - Guntakal",
+     "year": "2024",
+     "parts": 276,
+     "secs": 643,
+     "finished": "2026-11-13 15:01:50 IST"
+    },
     {
      "ac": "151 - Tadpatri",
      "year": "2024",
@@ -142,32 +145,34 @@
      "parts": 261,
      "secs": 657,
      "finished": "2026-11-13 14:41:50 IST"
-    },
-    {
-     "ac": "155 - Raptadu",
-     "year": "2024",
-     "parts": 279,
-     "secs": 722,
-     "finished": "2026-11-13 14:36:42 IST"
     }
    ],
-   "load1": 23.83,
+   "load1": 62.24,
    "cores_busy": 10,
-   "updated": "2026-11-13 15:00:55 IST",
-   "updated_epoch": 1794562255,
+   "updated": "2026-11-13 15:03:11 IST",
+   "updated_epoch": 1794562391,
    "fetch": {
     "ac": "146 - Adoni",
     "year": "2024",
-    "done": 10,
+    "done": 20,
     "total": 20,
-    "mb": 759.8,
-    "mbps": 12.29
+    "mb": 1434.9,
+    "mbps": 10.63
    },
-   "age_s": 150
+   "age_s": 44
   }
  ],
- "throughput_ac_per_hr": 16.0,
+ "throughput_ac_per_hr": 16.7,
  "recent": [
+  {
+   "year": "2024",
+   "ac": "11 - Kurupam",
+   "worker": "box",
+   "parts": 268,
+   "electors": 194114,
+   "secs": 415,
+   "finished": "2026-11-13 15:03:46 IST"
+  },
   {
    "year": "2024",
    "ac": "150 - Guntakal",
@@ -230,15 +235,6 @@
    "electors": 249489,
    "secs": 347,
    "finished": "2026-11-13 14:35:57 IST"
-  },
-  {
-   "year": "2024",
-   "ac": "156 - Madakasira",
-   "worker": "mac",
-   "parts": 237,
-   "electors": 210804,
-   "secs": 303,
-   "finished": "2026-11-13 14:30:52 IST"
   }
  ],
  "failures": [],
@@ -3801,18 +3797,18 @@
    "label": "11 - Kurupam",
    "district": "Parvathipuram Manyam",
    "year": "2024",
-   "state": "uploading",
+   "state": "done",
    "total": 268,
    "processed": 268,
    "needs_review": 16,
    "failed": 0,
    "elapsed_s": 414,
-   "electors": null,
+   "electors": 194114,
    "rate_per_min": 38.8,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1ouy4CR6RnGgLKYBp_E_FdI6dwyAvrGvGuYGVe5QOprw/edit",
+   "folder": "https://drive.google.com/drive/folders/1w2Ip9_ZDoXPH70ZiU0HtJQW4Zwh66bGB"
   },
   {
    "label": "151 - Tadpatri",
@@ -3854,13 +3850,13 @@
    "year": "2024",
    "state": "running",
    "total": 231,
-   "processed": 40,
-   "needs_review": 0,
+   "processed": 80,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 24,
+   "elapsed_s": 48,
    "electors": null,
    "rate_per_min": 100.0,
-   "eta_s": 115,
+   "eta_s": 91,
    "error": "",
    "sheet": "",
    "folder": ""
