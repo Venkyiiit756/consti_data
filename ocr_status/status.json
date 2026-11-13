@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 05:50:28 AM IST",
- "updated_epoch": 1794529228,
+ "updated": "13 Nov 2026, 06:15:41 AM IST",
+ "updated_epoch": 1794530741,
  "total_constituencies": 175,
- "done_constituencies": 77,
+ "done_constituencies": 80,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 77,
+   "done": 80,
    "errors": 0,
-   "parts": 22425,
-   "needs_review": 753,
+   "parts": 23361,
+   "needs_review": 764,
    "failed": 3,
-   "electors": 16568804,
-   "eta": "13 Nov, 01:11 PM IST"
+   "electors": 17219421,
+   "eta": "13 Nov, 03:10 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 02:05 AM IST"
+   "eta": "14 Nov, 07:17 AM IST"
   }
  },
  "batch": {
   "phase": "downloading",
-  "updated": "2026-11-13 05:50:24 IST",
+  "updated": "2026-11-13 06:15:37 IST",
   "year": "2026",
   "next": "44 - Amalapuram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -87,17 +87,17 @@
      "finished": "2026-11-13 04:22:41 IST"
     }
    ],
-   "load1": 5.01,
+   "load1": 3.83,
    "cores_busy": 0,
-   "updated": "2026-11-13 05:50:24 IST",
-   "updated_epoch": 1794529224,
+   "updated": "2026-11-13 06:15:37 IST",
+   "updated_epoch": 1794530737,
    "fetch": {
     "ac": "44 - Amalapuram",
     "year": "2026",
-    "done": 34,
+    "done": 35,
     "total": 38,
-    "mb": 2458.9,
-    "mbps": 1.63
+    "mb": 2541.1,
+    "mbps": 0.83
    },
    "age_s": 4
   },
@@ -108,69 +108,96 @@
    "ocr_workers": 10,
    "started": "2026-11-13 03:02:58 IST",
    "year": "2026",
-   "ac": "142 - Pattikonda",
+   "ac": "138 - Panyam",
    "phase": "OCR",
-   "processed": 80,
-   "total": 277,
-   "parts_per_min": 45.4,
-   "prefetch": "139 - Nandyal (2026)",
+   "processed": 230,
+   "total": 373,
+   "parts_per_min": 50.9,
+   "prefetch": "135 - Srisailam (2026)",
    "uploading": [],
-   "done_session": 26,
-   "parts_session": 7876,
+   "done_session": 30,
+   "parts_session": 9089,
    "last": [
+    {
+     "ac": "139 - Nandyal",
+     "year": "2026",
+     "parts": 334,
+     "secs": 685,
+     "finished": "2026-11-13 06:10:48 IST"
+    },
+    {
+     "ac": "140 - Banaganapalle",
+     "year": "2026",
+     "parts": 306,
+     "secs": 631,
+     "finished": "2026-11-13 06:04:58 IST"
+    },
+    {
+     "ac": "141 - Dhone",
+     "year": "2026",
+     "parts": 296,
+     "secs": 590,
+     "finished": "2026-11-13 05:58:57 IST"
+    },
+    {
+     "ac": "142 - Pattikonda",
+     "year": "2026",
+     "parts": 277,
+     "secs": 652,
+     "finished": "2026-11-13 05:52:55 IST"
+    },
     {
      "ac": "143 - Kodumur",
      "year": "2026",
      "parts": 265,
      "secs": 515,
      "finished": "2026-11-13 05:47:57 IST"
-    },
-    {
-     "ac": "144 - Yemmiganur",
-     "year": "2026",
-     "parts": 322,
-     "secs": 668,
-     "finished": "2026-11-13 05:42:52 IST"
-    },
-    {
-     "ac": "145 - Mantralayam",
-     "year": "2026",
-     "parts": 267,
-     "secs": 732,
-     "finished": "2026-11-13 05:37:50 IST"
-    },
-    {
-     "ac": "146 - Adoni",
-     "year": "2026",
-     "parts": 284,
-     "secs": 783,
-     "finished": "2026-11-13 05:33:52 IST"
-    },
-    {
-     "ac": "147 - Alur",
-     "year": "2026",
-     "parts": 320,
-     "secs": 685,
-     "finished": "2026-11-13 05:25:55 IST"
     }
    ],
-   "load1": 24.93,
+   "load1": 22.23,
    "cores_busy": 10,
-   "updated": "2026-11-13 05:48:59 IST",
-   "updated_epoch": 1794529139,
+   "updated": "2026-11-13 06:14:52 IST",
+   "updated_epoch": 1794530692,
    "fetch": {
-    "ac": "139 - Nandyal",
+    "ac": "135 - Srisailam",
     "year": "2026",
-    "done": 10,
-    "total": 36,
-    "mb": 858.3,
-    "mbps": 11.54
+    "done": 27,
+    "total": 27,
+    "mb": 2155.9,
+    "mbps": 16.59
    },
-   "age_s": 89
+   "age_s": 49
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 10.7,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "139 - Nandyal",
+   "worker": "mac",
+   "parts": 334,
+   "electors": 231446,
+   "secs": 384,
+   "finished": "2026-11-13 06:10:40 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "140 - Banaganapalle",
+   "worker": "mac",
+   "parts": 306,
+   "electors": 217590,
+   "secs": 347,
+   "finished": "2026-11-13 06:04:51 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "141 - Dhone",
+   "worker": "mac",
+   "parts": 296,
+   "electors": 201581,
+   "secs": 341,
+   "finished": "2026-11-13 05:58:49 IST"
+  },
   {
    "year": "2026",
    "ac": "43 - Mummidivaram",
@@ -215,33 +242,6 @@
    "electors": 239974,
    "secs": 326,
    "finished": "2026-11-13 05:32:54 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "147 - Alur",
-   "worker": "mac",
-   "parts": 320,
-   "electors": 237313,
-   "secs": 359,
-   "finished": "2026-11-13 05:25:48 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "148 - Rayadurg",
-   "worker": "mac",
-   "parts": 343,
-   "electors": 234361,
-   "secs": 401,
-   "finished": "2026-11-13 05:19:48 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "149 - Uravakonda",
-   "worker": "mac",
-   "parts": 286,
-   "electors": 203306,
-   "secs": 336,
-   "finished": "2026-11-13 05:14:49 IST"
   }
  ],
  "failures": [],
@@ -1555,6 +1555,57 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1ymme9aIYSFhgiSBFUHMfare0vNUf2kbFtt3kJMCJcVo/edit",
    "folder": "https://drive.google.com/drive/folders/1qOCxjjR_s5TNDTiRNdFFB2f3j1fRQLr9"
+  },
+  {
+   "label": "139 - Nandyal",
+   "district": "Nandyal",
+   "year": "2026",
+   "state": "done",
+   "total": 334,
+   "processed": 334,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 384,
+   "electors": 231446,
+   "rate_per_min": 52.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1EeFm60YYeAHg_YhBofv7Cfok2AwMCGEj8E_VFvuAqu8/edit",
+   "folder": "https://drive.google.com/drive/folders/1KqLZJsiRbX5gxUaOFGMXeDqp-SFiYvL_"
+  },
+  {
+   "label": "140 - Banaganapalle",
+   "district": "Nandyal",
+   "year": "2026",
+   "state": "done",
+   "total": 306,
+   "processed": 306,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 347,
+   "electors": 217590,
+   "rate_per_min": 52.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1p5a9osaprytinPzPd3dEDCAeuBRw4EUsl6WeuKWGDTU/edit",
+   "folder": "https://drive.google.com/drive/folders/1NjF68lxU4En0YOodvN_QXbYCHrj0zuXT"
+  },
+  {
+   "label": "141 - Dhone",
+   "district": "Nandyal",
+   "year": "2026",
+   "state": "done",
+   "total": 296,
+   "processed": 296,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 341,
+   "electors": 201581,
+   "rate_per_min": 52.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1YlxuVrFXJo_qReSVPdviv7HYksLcP4f9Z4dw9PHJ1JM/edit",
+   "folder": "https://drive.google.com/drive/folders/11hoNHZALaPqyIwKNrx0hB-RB-1xCZAS_"
   }
  ]
 }
