@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 01:22:14 PM IST",
- "updated_epoch": 1794556334,
+ "updated": "13 Nov 2026, 01:23:24 PM IST",
+ "updated_epoch": 1794556404,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,22 +12,22 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "13 Nov, 01:22 PM IST"
+   "eta": "13 Nov, 01:23 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
    "done": 10,
    "errors": 0,
    "parts": 2672,
-   "needs_review": 86,
+   "needs_review": 90,
    "failed": 0,
    "electors": 2278410,
-   "eta": "13 Nov, 11:56 PM IST"
+   "eta": "13 Nov, 11:57 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 5 - Srikakulam (2024)",
-  "updated": "2026-11-13 13:22:11 IST",
+  "updated": "2026-11-13 13:23:21 IST",
   "year": "2024",
   "next": "8 - Narasannapeta (2024)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -43,9 +43,9 @@
    "year": "2024",
    "ac": "5 - Srikakulam",
    "phase": "OCR",
-   "processed": 120,
+   "processed": 230,
    "total": 278,
-   "parts_per_min": 4.5,
+   "parts_per_min": 8.3,
    "prefetch": "8 - Narasannapeta (2024)",
    "uploading": [
     "4 - Pathapatnam"
@@ -89,17 +89,17 @@
      "finished": "2026-11-13 12:27:52 IST"
     }
    ],
-   "load1": 11.92,
+   "load1": 11.75,
    "cores_busy": 8,
-   "updated": "2026-11-13 13:22:11 IST",
-   "updated_epoch": 1794556331,
+   "updated": "2026-11-13 13:23:21 IST",
+   "updated_epoch": 1794556401,
    "fetch": {
     "ac": "8 - Narasannapeta",
     "year": "2024",
-    "done": 1,
+    "done": 10,
     "total": 16,
-    "mb": 1.0,
-    "mbps": 0.0
+    "mb": 600.1,
+    "mbps": 0.37
    },
    "age_s": 3
   },
@@ -110,13 +110,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 10:01:55 IST",
    "year": "2024",
-   "ac": "168 - Srikalahasti",
+   "ac": "167 - Tirupati",
    "phase": "OCR",
-   "processed": 240,
-   "total": 293,
-   "parts_per_min": 49.0,
-   "prefetch": "165 - Punganur (2024)",
-   "uploading": [],
+   "processed": 20,
+   "total": 267,
+   "parts_per_min": 46.2,
+   "prefetch": "",
+   "uploading": [
+    "168 - Srikalahasti"
+   ],
    "done_session": 35,
    "parts_session": 9699,
    "last": [
@@ -156,19 +158,12 @@
      "finished": "2026-11-13 12:57:38 IST"
     }
    ],
-   "load1": 18.46,
+   "load1": 19.95,
    "cores_busy": 10,
-   "updated": "2026-11-13 13:20:51 IST",
-   "updated_epoch": 1794556251,
-   "fetch": {
-    "ac": "165 - Punganur",
-    "year": "2024",
-    "done": 18,
-    "total": 18,
-    "mb": 1209.7,
-    "mbps": 6.76
-   },
-   "age_s": 83
+   "updated": "2026-11-13 13:22:17 IST",
+   "updated_epoch": 1794556337,
+   "fetch": null,
+   "age_s": 67
   }
  ],
  "throughput_ac_per_hr": 15.3,
@@ -3332,13 +3327,13 @@
    "year": "2024",
    "state": "running",
    "total": 278,
-   "processed": 120,
-   "needs_review": 1,
+   "processed": 230,
+   "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 1592,
+   "elapsed_s": 1660,
    "electors": null,
-   "rate_per_min": 4.5,
-   "eta_s": 2096,
+   "rate_per_min": 8.3,
+   "eta_s": 346,
    "error": "",
    "sheet": "",
    "folder": ""
