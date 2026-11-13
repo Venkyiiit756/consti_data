@@ -1,6 +1,6 @@
 {
- "updated": "13 Nov 2026, 09:20:34 AM IST",
- "updated_epoch": 1794541834,
+ "updated": "13 Nov 2026, 09:22:40 AM IST",
+ "updated_epoch": 1794541960,
  "total_constituencies": 175,
  "done_constituencies": 129,
  "years": {
@@ -9,10 +9,10 @@
    "done": 129,
    "errors": 0,
    "parts": 37220,
-   "needs_review": 1028,
+   "needs_review": 1031,
    "failed": 33,
    "electors": 27372546,
-   "eta": "13 Nov, 11:53 AM IST"
+   "eta": "13 Nov, 11:56 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 09:27 PM IST"
+   "eta": "13 Nov, 09:29 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 60 - Undi (2026)",
-  "updated": "2026-11-13 09:20:33 IST",
+  "phase": "downloading",
+  "updated": "2026-11-13 09:22:38 IST",
   "year": "2026",
-  "next": "",
+  "next": "61 - Tanuku (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -41,13 +41,15 @@
    "ocr_workers": 10,
    "started": "2026-11-13 02:44:43 IST",
    "year": "2026",
-   "ac": "60 - Undi",
-   "phase": "OCR",
-   "processed": 50,
-   "total": 244,
-   "parts_per_min": 93.3,
-   "prefetch": "",
-   "uploading": [],
+   "ac": "",
+   "phase": "downloading",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
+   "prefetch": "61 - Tanuku (2026)",
+   "uploading": [
+    "60 - Undi"
+   ],
    "done_session": 31,
    "parts_session": 8194,
    "last": [
@@ -87,12 +89,19 @@
      "finished": "2026-11-13 08:30:32 IST"
     }
    ],
-   "load1": 5.63,
-   "cores_busy": 8,
-   "updated": "2026-11-13 09:20:33 IST",
-   "updated_epoch": 1794541833,
-   "fetch": null,
-   "age_s": 1
+   "load1": 6.47,
+   "cores_busy": 0,
+   "updated": "2026-11-13 09:22:38 IST",
+   "updated_epoch": 1794541958,
+   "fetch": {
+    "ac": "61 - Tanuku",
+    "year": "2026",
+    "done": 30,
+    "total": 38,
+    "mb": 2200.8,
+    "mbps": 26.38
+   },
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -103,16 +112,21 @@
    "year": "2026",
    "ac": "105 - Addanki",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 30,
    "total": 314,
-   "parts_per_min": 28.7,
+   "parts_per_min": 39.0,
    "prefetch": "102 - Yerragondapalem (2026)",
-   "uploading": [
-    "106 - Chirala"
-   ],
-   "done_session": 62,
-   "parts_session": 18709,
+   "uploading": [],
+   "done_session": 63,
+   "parts_session": 18955,
    "last": [
+    {
+     "ac": "106 - Chirala",
+     "year": "2026",
+     "parts": 246,
+     "secs": 555,
+     "finished": "2026-11-13 09:19:55 IST"
+    },
     {
      "ac": "107 - Santhanuthalapadu",
      "year": "2026",
@@ -140,28 +154,21 @@
      "parts": 291,
      "secs": 658,
      "finished": "2026-11-13 08:58:53 IST"
-    },
-    {
-     "ac": "111 - Markapuram",
-     "year": "2026",
-     "parts": 277,
-     "secs": 784,
-     "finished": "2026-11-13 08:54:40 IST"
     }
    ],
-   "load1": 19.66,
+   "load1": 24.2,
    "cores_busy": 10,
-   "updated": "2026-11-13 09:19:46 IST",
-   "updated_epoch": 1794541786,
+   "updated": "2026-11-13 09:20:11 IST",
+   "updated_epoch": 1794541811,
    "fetch": {
     "ac": "102 - Yerragondapalem",
     "year": "2026",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 8,
+    "total": 30,
+    "mb": 575.1,
+    "mbps": 19.62
    },
-   "age_s": 48
+   "age_s": 149
   }
  ],
  "throughput_ac_per_hr": 18.0,
@@ -2422,15 +2429,15 @@
    "label": "60 - Undi",
    "district": "West Godavari",
    "year": "2026",
-   "state": "running",
+   "state": "uploading",
    "total": 244,
-   "processed": 60,
-   "needs_review": 2,
+   "processed": 244,
+   "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 33,
+   "elapsed_s": 133,
    "electors": null,
-   "rate_per_min": 109.1,
-   "eta_s": 101,
+   "rate_per_min": 110.1,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
