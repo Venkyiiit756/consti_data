@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 07:22:39 AM IST",
- "updated_epoch": 1794534759,
+ "updated": "13 Nov 2026, 07:25:04 AM IST",
+ "updated_epoch": 1794534904,
  "total_constituencies": 175,
- "done_constituencies": 93,
+ "done_constituencies": 96,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 93,
+   "done": 96,
    "errors": 0,
-   "parts": 27004,
-   "needs_review": 828,
-   "failed": 3,
-   "electors": 19940672,
-   "eta": "13 Nov, 03:03 PM IST"
+   "parts": 27919,
+   "needs_review": 849,
+   "failed": 14,
+   "electors": 20541660,
+   "eta": "13 Nov, 02:00 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,14 +22,14 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "14 Nov, 07:11 AM IST"
+   "eta": "14 Nov, 04:20 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 47 - Kothapeta (2026)",
-  "updated": "2026-11-13 07:22:39 IST",
+  "updated": "2026-11-13 07:24:59 IST",
   "year": "2026",
-  "next": "48 - Mandapeta (2026)",
+  "next": "49 - Rajanagaram (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -43,10 +43,10 @@
    "year": "2026",
    "ac": "47 - Kothapeta",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 250,
    "total": 277,
-   "parts_per_min": 49.1,
-   "prefetch": "48 - Mandapeta (2026)",
+   "parts_per_min": 98.5,
+   "prefetch": "49 - Rajanagaram (2026)",
    "uploading": [],
    "done_session": 19,
    "parts_session": 5161,
@@ -87,19 +87,19 @@
      "finished": "2026-11-13 05:23:11 IST"
     }
    ],
-   "load1": 5.96,
+   "load1": 11.31,
    "cores_busy": 8,
-   "updated": "2026-11-13 07:22:39 IST",
-   "updated_epoch": 1794534759,
+   "updated": "2026-11-13 07:24:59 IST",
+   "updated_epoch": 1794534899,
    "fetch": {
-    "ac": "48 - Mandapeta",
+    "ac": "49 - Rajanagaram",
     "year": "2026",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 8,
+    "total": 34,
+    "mb": 608.4,
+    "mbps": 32.01
    },
-   "age_s": 0
+   "age_s": 5
   },
   {
    "worker": "mac",
@@ -110,9 +110,9 @@
    "year": "2026",
    "ac": "126 - Kadapa",
    "phase": "OCR",
-   "processed": 150,
+   "processed": 270,
    "total": 340,
-   "parts_per_min": 50.9,
+   "parts_per_min": 50.8,
    "prefetch": "123 - Udayagiri (2026)",
    "uploading": [],
    "done_session": 42,
@@ -154,22 +154,22 @@
      "finished": "2026-11-13 06:57:56 IST"
     }
    ],
-   "load1": 26.35,
+   "load1": 22.69,
    "cores_busy": 10,
-   "updated": "2026-11-13 07:21:43 IST",
-   "updated_epoch": 1794534703,
+   "updated": "2026-11-13 07:24:05 IST",
+   "updated_epoch": 1794534845,
    "fetch": {
     "ac": "123 - Udayagiri",
     "year": "2026",
-    "done": 29,
+    "done": 34,
     "total": 34,
-    "mb": 2462.5,
-    "mbps": 16.8
+    "mb": 2742.5,
+    "mbps": 13.49
    },
-   "age_s": 56
+   "age_s": 59
   }
  ],
- "throughput_ac_per_hr": 10.7,
+ "throughput_ac_per_hr": 12.0,
  "recent": [
   {
    "year": "2026",
@@ -188,6 +188,33 @@
    "electors": 231913,
    "secs": 344,
    "finished": "2026-11-13 07:14:41 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "129 - Pulivendla",
+   "worker": "mac",
+   "parts": 309,
+   "electors": 200531,
+   "secs": 348,
+   "finished": "2026-11-13 07:09:46 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "130 - Kamalapuram",
+   "worker": "mac",
+   "parts": 279,
+   "electors": 184559,
+   "secs": 321,
+   "finished": "2026-11-13 07:03:46 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "131 - Jammalamadugu",
+   "worker": "mac",
+   "parts": 327,
+   "electors": 215898,
+   "secs": 365,
+   "finished": "2026-11-13 06:57:49 IST"
   },
   {
    "year": "2026",
@@ -215,33 +242,6 @@
    "electors": 198507,
    "secs": 329,
    "finished": "2026-11-13 06:46:43 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "134 - Allagadda",
-   "worker": "mac",
-   "parts": 312,
-   "electors": 212177,
-   "secs": 354,
-   "finished": "2026-11-13 06:39:43 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "135 - Srisailam",
-   "worker": "mac",
-   "parts": 239,
-   "electors": 172473,
-   "secs": 272,
-   "finished": "2026-11-13 06:33:45 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "136 - Nandikotkur",
-   "worker": "mac",
-   "parts": 276,
-   "electors": 197610,
-   "secs": 318,
-   "finished": "2026-11-13 06:29:42 IST"
   }
  ],
  "failures": [],
@@ -1800,13 +1800,13 @@
    "year": "2026",
    "state": "running",
    "total": 277,
-   "processed": 10,
-   "needs_review": 0,
+   "processed": 260,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 7,
+   "elapsed_s": 155,
    "electors": null,
-   "rate_per_min": 85.7,
-   "eta_s": 187,
+   "rate_per_min": 100.6,
+   "eta_s": 10,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -1844,6 +1844,57 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1ndA7lIh8NIJBX6aoCK5bnzPH4DBdmN0Ic5FaRMjOG0s/edit",
    "folder": "https://drive.google.com/drive/folders/1_UTtNdQ9IqsRJjWbuEph3tCv2ZwdSqw2"
+  },
+  {
+   "label": "129 - Pulivendla",
+   "district": "YSR Kadapa",
+   "year": "2026",
+   "state": "done",
+   "total": 309,
+   "processed": 309,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 348,
+   "electors": 200531,
+   "rate_per_min": 53.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1P2xAFJRsB42IkSsViT6cfnWshH6MlbSYsBLhZlPlFLM/edit",
+   "folder": "https://drive.google.com/drive/folders/1njHY_hC-wYPAAPQhPbmVrg41Z8VflCX3"
+  },
+  {
+   "label": "130 - Kamalapuram",
+   "district": "YSR Kadapa",
+   "year": "2026",
+   "state": "done",
+   "total": 279,
+   "processed": 279,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 321,
+   "electors": 184559,
+   "rate_per_min": 52.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1K_WDV8n0P72ZD57oF94ZOBiZbfFYvub2piSs8MatqmI/edit",
+   "folder": "https://drive.google.com/drive/folders/18ofthWChU7zqAvDiEGP7kanR4rsRRdAB"
+  },
+  {
+   "label": "131 - Jammalamadugu",
+   "district": "YSR Kadapa",
+   "year": "2026",
+   "state": "done",
+   "total": 327,
+   "processed": 327,
+   "needs_review": 13,
+   "failed": 11,
+   "elapsed_s": 365,
+   "electors": 215898,
+   "rate_per_min": 53.8,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1I-ppyYx3FPz9NLMh9TbFzBgBVMSuFs3fqhqad9DYJlY/edit",
+   "folder": "https://drive.google.com/drive/folders/1_q3GFJjbRyZlVum9BHHuLjRjHAaxU69H"
   }
  ]
 }
