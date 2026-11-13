@@ -1,18 +1,18 @@
 {
- "updated": "13 Nov 2026, 09:53:56 AM IST",
- "updated_epoch": 1794543836,
+ "updated": "13 Nov 2026, 10:20:26 AM IST",
+ "updated_epoch": 1794545426,
  "total_constituencies": 175,
- "done_constituencies": 138,
+ "done_constituencies": 142,
  "years": {
   "2026": {
    "total_constituencies": 175,
-   "done": 138,
+   "done": 142,
    "errors": 0,
-   "parts": 39709,
-   "needs_review": 1065,
+   "parts": 40946,
+   "needs_review": 1181,
    "failed": 33,
-   "electors": 29300362,
-   "eta": "13 Nov, 12:02 PM IST"
+   "electors": 30210831,
+   "eta": "13 Nov, 12:29 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -22,12 +22,12 @@
    "needs_review": 0,
    "failed": 0,
    "electors": 0,
-   "eta": "13 Nov, 09:57 PM IST"
+   "eta": "13 Nov, 11:42 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 64 - Denduluru (2026)",
-  "updated": "2026-11-13 09:53:51 IST",
+  "phase": "downloading",
+  "updated": "2026-11-13 10:20:22 IST",
   "year": "2026",
   "next": "65 - Eluru (2026)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -41,93 +41,117 @@
    "ocr_workers": 10,
    "started": "2026-11-13 09:33:29 IST",
    "year": "2026",
-   "ac": "64 - Denduluru",
-   "phase": "OCR",
-   "processed": 90,
-   "total": 248,
-   "parts_per_min": 79.6,
+   "ac": "",
+   "phase": "downloading",
+   "processed": 0,
+   "total": 0,
+   "parts_per_min": 0,
    "prefetch": "65 - Eluru (2026)",
-   "uploading": [],
+   "uploading": [
+    "64 - Denduluru"
+   ],
    "done_session": 0,
    "parts_session": 0,
    "last": [],
-   "load1": 8.6,
-   "cores_busy": 8,
-   "updated": "2026-11-13 09:53:51 IST",
-   "updated_epoch": 1794543831,
+   "load1": 9.57,
+   "cores_busy": 0,
+   "updated": "2026-11-13 10:20:22 IST",
+   "updated_epoch": 1794545422,
    "fetch": {
     "ac": "65 - Eluru",
     "year": "2026",
-    "done": 13,
+    "done": 20,
     "total": 37,
-    "mb": 995.2,
-    "mbps": 17.67
+    "mb": 1457.3,
+    "mbps": 0.89
    },
-   "age_s": 5
+   "age_s": 4
   },
   {
    "worker": "mac",
    "host": "192.168.1.7",
    "cores_total": 10,
    "ocr_workers": 10,
-   "started": "2026-11-13 03:02:58 IST",
+   "started": "2026-11-13 10:01:55 IST",
    "year": "2026",
-   "ac": "100 - Gurajala",
+   "ac": "96 - Chilakaluripet",
    "phase": "OCR",
-   "processed": 280,
-   "total": 328,
-   "parts_per_min": 51.7,
-   "prefetch": "",
+   "processed": 180,
+   "total": 278,
+   "parts_per_min": 49.8,
+   "prefetch": "94 - Guntur West (2026)",
    "uploading": [],
-   "done_session": 68,
-   "parts_session": 20452,
+   "done_session": 2,
+   "parts_session": 580,
    "last": [
     {
-     "ac": "101 - Macherla",
+     "ac": "97 - Narasaraopet",
      "year": "2026",
-     "parts": 321,
-     "secs": 706,
-     "finished": "2026-11-13 09:49:25 IST"
+     "parts": 285,
+     "secs": 626,
+     "finished": "2026-11-13 10:17:32 IST"
     },
     {
-     "ac": "102 - Yerragondapalem",
+     "ac": "98 - Sattenapalle",
      "year": "2026",
-     "parts": 267,
-     "secs": 554,
-     "finished": "2026-11-13 09:42:48 IST"
-    },
-    {
-     "ac": "103 - Darsi",
-     "year": "2026",
-     "parts": 291,
-     "secs": 688,
-     "finished": "2026-11-13 09:38:51 IST"
-    },
-    {
-     "ac": "104 - Parchur",
-     "year": "2026",
-     "parts": 304,
-     "secs": 678,
-     "finished": "2026-11-13 09:32:39 IST"
-    },
-    {
-     "ac": "105 - Addanki",
-     "year": "2026",
-     "parts": 314,
-     "secs": 576,
-     "finished": "2026-11-13 09:25:49 IST"
+     "parts": 295,
+     "secs": 623,
+     "finished": "2026-11-13 10:12:54 IST"
     }
    ],
-   "load1": 17.32,
+   "load1": 20.41,
    "cores_busy": 10,
-   "updated": "2026-11-13 09:53:13 IST",
-   "updated_epoch": 1794543793,
-   "fetch": null,
-   "age_s": 43
+   "updated": "2026-11-13 10:19:11 IST",
+   "updated_epoch": 1794545351,
+   "fetch": {
+    "ac": "94 - Guntur West",
+    "year": "2026",
+    "done": 16,
+    "total": 37,
+    "mb": 1122.1,
+    "mbps": 12.64
+   },
+   "age_s": 75
   }
  ],
- "throughput_ac_per_hr": 17.3,
+ "throughput_ac_per_hr": 15.3,
  "recent": [
+  {
+   "year": "2026",
+   "ac": "97 - Narasaraopet",
+   "worker": "mac",
+   "parts": 285,
+   "electors": 203821,
+   "secs": 350,
+   "finished": "2026-11-13 10:17:14 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "98 - Sattenapalle",
+   "worker": "mac",
+   "parts": 295,
+   "electors": 223828,
+   "secs": 227,
+   "finished": "2026-11-13 10:12:47 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "99 - Vinukonda",
+   "worker": "mac",
+   "parts": 329,
+   "electors": 241566,
+   "secs": 368,
+   "finished": "2026-11-13 10:01:44 IST"
+  },
+  {
+   "year": "2026",
+   "ac": "100 - Gurajala",
+   "worker": "mac",
+   "parts": 328,
+   "electors": 241254,
+   "secs": 365,
+   "finished": "2026-11-13 09:54:49 IST"
+  },
   {
    "year": "2026",
    "ac": "101 - Macherla",
@@ -163,42 +187,6 @@
    "electors": 196942,
    "secs": 132,
    "finished": "2026-11-13 09:32:26 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "104 - Parchur",
-   "worker": "mac",
-   "parts": 304,
-   "electors": 209797,
-   "secs": 347,
-   "finished": "2026-11-13 09:31:54 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "62 - Tadepalligudem",
-   "worker": "box",
-   "parts": 249,
-   "electors": 215746,
-   "secs": 134,
-   "finished": "2026-11-13 09:28:35 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "105 - Addanki",
-   "worker": "mac",
-   "parts": 314,
-   "electors": 218616,
-   "secs": 356,
-   "finished": "2026-11-13 09:25:41 IST"
-  },
-  {
-   "year": "2026",
-   "ac": "61 - Tanuku",
-   "worker": "box",
-   "parts": 254,
-   "electors": 223559,
-   "secs": 147,
-   "finished": "2026-11-13 09:25:35 IST"
   }
  ],
  "failures": [],
@@ -2554,18 +2542,86 @@
    "label": "64 - Denduluru",
    "district": "Eluru",
    "year": "2026",
-   "state": "running",
+   "state": "uploading",
    "total": 248,
-   "processed": 100,
-   "needs_review": 0,
+   "processed": 248,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 68,
+   "elapsed_s": 1654,
    "electors": null,
-   "rate_per_min": 88.2,
-   "eta_s": 101,
+   "rate_per_min": 9.0,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "97 - Narasaraopet",
+   "district": "Palnadu",
+   "year": "2026",
+   "state": "done",
+   "total": 285,
+   "processed": 285,
+   "needs_review": 54,
+   "failed": 0,
+   "elapsed_s": 350,
+   "electors": 203821,
+   "rate_per_min": 48.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/17I6V_lNWmhSWytfxKADlc-kYmHZbrsHO6nxq1mox0QA/edit",
+   "folder": "https://drive.google.com/drive/folders/1662-qXEMN45QzTgzovnhkzdhIQqr0mGr"
+  },
+  {
+   "label": "98 - Sattenapalle",
+   "district": "Palnadu",
+   "year": "2026",
+   "state": "done",
+   "total": 295,
+   "processed": 295,
+   "needs_review": 38,
+   "failed": 0,
+   "elapsed_s": 227,
+   "electors": 223828,
+   "rate_per_min": 78.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1jDecnCJpb_uVa6ABn4YhYz6q8nxWeCLJB8ll6HADYAc/edit",
+   "folder": "https://drive.google.com/drive/folders/1Er8Q7qOLHITuUv4MWFnoriHSReZoMC-7"
+  },
+  {
+   "label": "99 - Vinukonda",
+   "district": "Palnadu",
+   "year": "2026",
+   "state": "done",
+   "total": 329,
+   "processed": 329,
+   "needs_review": 19,
+   "failed": 0,
+   "elapsed_s": 368,
+   "electors": 241566,
+   "rate_per_min": 53.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/138kAaFyWzSbNgZZvNVEJrjaAZKbAAm-PjLUNFf8mRSY/edit",
+   "folder": "https://drive.google.com/drive/folders/1m3c1GfP_snlWtFLc8jg9cyIjujyB_ZOJ"
+  },
+  {
+   "label": "100 - Gurajala",
+   "district": "Palnadu",
+   "year": "2026",
+   "state": "done",
+   "total": 328,
+   "processed": 328,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 365,
+   "electors": 241254,
+   "rate_per_min": 53.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1pjZqioEcikRv4qLd__mjR9LnPjEAL9Eo4LPcM4VCnk4/edit",
+   "folder": "https://drive.google.com/drive/folders/1rvDCb9eJNkFMWU9sbHi_z2AaKEGmqOYh"
   }
  ]
 }
