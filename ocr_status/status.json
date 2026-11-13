@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 03:53:17 AM IST",
- "updated_epoch": 1794608597,
+ "updated": "14 Nov 2026, 03:54:30 AM IST",
+ "updated_epoch": 1794608670,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 03:53 AM IST"
+   "eta": "14 Nov, 03:54 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 25,
    "errors": 0,
    "parts": 6908,
-   "needs_review": 196,
+   "needs_review": 199,
    "failed": 0,
    "electors": 5999041,
-   "eta": "14 Nov, 05:51 PM IST"
+   "eta": "14 Nov, 06:48 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 03:53 AM IST"
+   "eta": "14 Nov, 03:54 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 8 - Narasannapeta (2025)",
-  "updated": "2026-11-14 03:53:12 IST",
+  "phase": "OCR 9 - Rajam (2025)",
+  "updated": "2026-11-14 03:54:27 IST",
   "year": "2025",
-  "next": "11 - Kurupam (2025)",
+  "next": "12 - Parvathipuram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "8 - Narasannapeta",
+   "ac": "9 - Rajam",
    "phase": "OCR",
-   "processed": 220,
-   "total": 290,
-   "parts_per_min": 6.3,
-   "prefetch": "11 - Kurupam (2025)",
-   "uploading": [],
+   "processed": 60,
+   "total": 284,
+   "parts_per_min": 93.4,
+   "prefetch": "12 - Parvathipuram (2025)",
+   "uploading": [
+    "8 - Narasannapeta"
+   ],
    "done_session": 7,
    "parts_session": 2068,
    "last": [
@@ -97,19 +99,19 @@
      "finished": "2026-11-14 02:17:55 IST"
     }
    ],
-   "load1": 11.43,
+   "load1": 11.17,
    "cores_busy": 8,
-   "updated": "2026-11-14 03:53:12 IST",
-   "updated_epoch": 1794608592,
+   "updated": "2026-11-14 03:54:27 IST",
+   "updated_epoch": 1794608667,
    "fetch": {
-    "ac": "11 - Kurupam",
+    "ac": "12 - Parvathipuram",
     "year": "2025",
-    "done": 13,
-    "total": 13,
-    "mb": 970.0,
-    "mbps": 17.04
+    "done": 6,
+    "total": 12,
+    "mb": 575.2,
+    "mbps": 43.1
    },
-   "age_s": 5
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -120,9 +122,9 @@
    "year": "2025",
    "ac": "157 - Hindupur",
    "phase": "OCR",
-   "processed": 120,
+   "processed": 160,
    "total": 253,
-   "parts_per_min": 36.3,
+   "parts_per_min": 36.2,
    "prefetch": "153 - Anantapur Urban (2025)",
    "uploading": [],
    "done_session": 18,
@@ -164,10 +166,10 @@
      "finished": "2026-11-14 03:22:51 IST"
     }
    ],
-   "load1": 25.72,
+   "load1": 21.64,
    "cores_busy": 10,
-   "updated": "2026-11-14 03:52:07 IST",
-   "updated_epoch": 1794608527,
+   "updated": "2026-11-14 03:53:13 IST",
+   "updated_epoch": 1794608593,
    "fetch": {
     "ac": "153 - Anantapur Urban",
     "year": "2025",
@@ -176,10 +178,10 @@
     "mb": 1429.3,
     "mbps": 9.28
    },
-   "age_s": 70
+   "age_s": 77
   }
  ],
- "throughput_ac_per_hr": 10.7,
+ "throughput_ac_per_hr": 10.0,
  "recent": [
   {
    "year": "2025",
@@ -6500,15 +6502,15 @@
    "label": "8 - Narasannapeta",
    "district": "Srikakulam",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 290,
-   "processed": 230,
-   "needs_review": 7,
+   "processed": 290,
+   "needs_review": 9,
    "failed": 0,
-   "elapsed_s": 2081,
+   "elapsed_s": 2116,
    "electors": null,
-   "rate_per_min": 6.6,
-   "eta_s": 543,
+   "rate_per_min": 8.2,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -6597,6 +6599,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1oU6w-ZLf4Hbs7ZwJioZoGj7epokGT-9XhUN5SezNg14/edit",
    "folder": "https://drive.google.com/drive/folders/1vmqiCR84UQflE1mrzxP7qypI42FKax_y"
+  },
+  {
+   "label": "9 - Rajam",
+   "district": "Vizianagaram",
+   "year": "2025",
+   "state": "running",
+   "total": 284,
+   "processed": 60,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 38,
+   "electors": null,
+   "rate_per_min": 94.7,
+   "eta_s": 142,
+   "error": "",
+   "sheet": "",
+   "folder": ""
   }
  ]
 }
