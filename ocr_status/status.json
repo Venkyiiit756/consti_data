@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 12:22:26 PM IST",
- "updated_epoch": 1794639146,
+ "updated": "14 Nov 2026, 12:24:01 PM IST",
+ "updated_epoch": 1794639241,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 12:22 PM IST"
+   "eta": "14 Nov, 12:24 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 132,
+   "done": 133,
    "errors": 0,
-   "parts": 35916,
-   "needs_review": 1397,
+   "parts": 36150,
+   "needs_review": 1398,
    "failed": 0,
-   "electors": 31787195,
-   "eta": "14 Nov, 03:41 PM IST"
+   "electors": 32029183,
+   "eta": "14 Nov, 03:38 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 12:22 PM IST"
+   "eta": "14 Nov, 12:24 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 42 - Ramachandrapuram (2025)",
-  "updated": "2026-11-14 12:22:23 IST",
+  "updated": "2026-11-14 12:23:58 IST",
   "year": "2025",
   "next": "45 - Razole (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,16 +53,21 @@
    "year": "2025",
    "ac": "42 - Ramachandrapuram",
    "phase": "OCR",
-   "processed": 60,
+   "processed": 220,
    "total": 239,
-   "parts_per_min": 94.0,
+   "parts_per_min": 99.0,
    "prefetch": "45 - Razole (2025)",
-   "uploading": [
-    "41 - Kakinada City"
-   ],
-   "done_session": 40,
-   "parts_session": 10756,
+   "uploading": [],
+   "done_session": 41,
+   "parts_session": 10990,
    "last": [
+    {
+     "ac": "41 - Kakinada City",
+     "year": "2025",
+     "parts": 234,
+     "secs": 3356,
+     "finished": "2026-11-14 12:22:31 IST"
+    },
     {
      "ac": "40 - Anaparthi",
      "year": "2025",
@@ -90,26 +95,19 @@
      "parts": 242,
      "secs": 413,
      "finished": "2026-11-14 11:23:42 IST"
-    },
-    {
-     "ac": "36 - Prathipadu",
-     "year": "2025",
-     "parts": 227,
-     "secs": 1736,
-     "finished": "2026-11-14 11:18:38 IST"
     }
    ],
-   "load1": 10.68,
+   "load1": 11.15,
    "cores_busy": 8,
-   "updated": "2026-11-14 12:22:23 IST",
-   "updated_epoch": 1794639143,
+   "updated": "2026-11-14 12:23:58 IST",
+   "updated_epoch": 1794639238,
    "fetch": {
     "ac": "45 - Razole",
     "year": "2025",
-    "done": 7,
+    "done": 14,
     "total": 14,
-    "mb": 572.5,
-    "mbps": 32.54
+    "mb": 1062.3,
+    "mbps": 9.38
    },
    "age_s": 3
   },
@@ -122,9 +120,9 @@
    "year": "2025",
    "ac": "82 - Mylavaram",
    "phase": "OCR",
-   "processed": 170,
+   "processed": 180,
    "total": 296,
-   "parts_per_min": 34.4,
+   "parts_per_min": 26.3,
    "prefetch": "79 - Vijayawada West (2025)",
    "uploading": [],
    "done_session": 92,
@@ -166,10 +164,10 @@
      "finished": "2026-11-14 11:52:24 IST"
     }
    ],
-   "load1": 68.7,
+   "load1": 90.83,
    "cores_busy": 10,
-   "updated": "2026-11-14 12:20:55 IST",
-   "updated_epoch": 1794639055,
+   "updated": "2026-11-14 12:22:49 IST",
+   "updated_epoch": 1794639169,
    "fetch": {
     "ac": "79 - Vijayawada West",
     "year": "2025",
@@ -178,11 +176,20 @@
     "mb": 1352.7,
     "mbps": 7.82
    },
-   "age_s": 91
+   "age_s": 72
   }
  ],
  "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "41 - Kakinada City",
+   "worker": "box",
+   "parts": 234,
+   "electors": 241988,
+   "secs": 142,
+   "finished": "2026-11-14 12:21:54 IST"
+  },
   {
    "year": "2025",
    "ac": "40 - Anaparthi",
@@ -245,15 +252,6 @@
    "electors": 214954,
    "secs": 361,
    "finished": "2026-11-14 11:57:54 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "87 - Mangalagiri",
-   "worker": "mac",
-   "parts": 303,
-   "electors": 293340,
-   "secs": 463,
-   "finished": "2026-11-14 11:51:54 IST"
   }
  ],
  "failures": [],
@@ -8389,18 +8387,18 @@
    "label": "41 - Kakinada City",
    "district": "Kakinada",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 234,
    "processed": 234,
    "needs_review": 4,
    "failed": 0,
    "elapsed_s": 142,
-   "electors": null,
+   "electors": 241988,
    "rate_per_min": 98.9,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1MWVnvfSETFsihf0jcKQxJbV2CjLQKbcXNEj450Lu2wA/edit",
+   "folder": "https://drive.google.com/drive/folders/11tgaTCUwNBxvKvtfN8JUrO5yhvw4V4Tt"
   },
   {
    "label": "83 - Nandigama",
@@ -8425,13 +8423,13 @@
    "year": "2025",
    "state": "running",
    "total": 239,
-   "processed": 70,
-   "needs_review": 0,
+   "processed": 230,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 42,
+   "elapsed_s": 136,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 101,
+   "rate_per_min": 101.5,
+   "eta_s": 5,
    "error": "",
    "sheet": "",
    "folder": ""
