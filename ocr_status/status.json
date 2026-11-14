@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:35:12 PM IST",
- "updated_epoch": 1794643512,
+ "updated": "14 Nov 2026, 01:48:51 PM IST",
+ "updated_epoch": 1794644331,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:35 PM IST"
+   "eta": "14 Nov, 01:48 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1424,
    "failed": 0,
    "electors": 32690706,
-   "eta": "14 Nov, 07:17 PM IST"
+   "eta": "14 Nov, 09:57 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 01:35 PM IST"
+   "eta": "14 Nov, 01:48 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 46 - P Gannavaram (2025)",
-  "updated": "2026-11-14 13:35:08 IST",
+  "updated": "2026-11-14 13:48:47 IST",
   "year": "2025",
-  "next": "48 - Mandapeta (2025)",
+  "next": "49 - Rajanagaram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -53,10 +53,10 @@
    "year": "2025",
    "ac": "46 - P Gannavaram",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 50,
    "total": 212,
-   "parts_per_min": 0,
-   "prefetch": "48 - Mandapeta (2025)",
+   "parts_per_min": 3.6,
+   "prefetch": "49 - Rajanagaram (2025)",
    "uploading": [
     "45 - Razole"
    ],
@@ -99,17 +99,17 @@
      "finished": "2026-11-14 12:21:34 IST"
     }
    ],
-   "load1": 11.18,
+   "load1": 11.17,
    "cores_busy": 8,
-   "updated": "2026-11-14 13:35:08 IST",
-   "updated_epoch": 1794643508,
+   "updated": "2026-11-14 13:48:47 IST",
+   "updated_epoch": 1794644327,
    "fetch": {
-    "ac": "48 - Mandapeta",
+    "ac": "49 - Rajanagaram",
     "year": "2025",
-    "done": 14,
-    "total": 15,
-    "mb": 1152.2,
-    "mbps": 15.08
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
    "age_s": 4
   },
@@ -122,9 +122,9 @@
    "year": "2025",
    "ac": "82 - Mylavaram",
    "phase": "OCR",
-   "processed": 240,
+   "processed": 260,
    "total": 296,
-   "parts_per_min": 3.2,
+   "parts_per_min": 2.9,
    "prefetch": "79 - Vijayawada West (2025)",
    "uploading": [],
    "done_session": 92,
@@ -166,10 +166,10 @@
      "finished": "2026-11-14 11:52:24 IST"
     }
    ],
-   "load1": 55.53,
+   "load1": 49.7,
    "cores_busy": 10,
-   "updated": "2026-11-14 13:32:04 IST",
-   "updated_epoch": 1794643324,
+   "updated": "2026-11-14 13:46:14 IST",
+   "updated_epoch": 1794644174,
    "fetch": {
     "ac": "79 - Vijayawada West",
     "year": "2025",
@@ -178,10 +178,10 @@
     "mb": 1352.7,
     "mbps": 7.82
    },
-   "age_s": 188
+   "age_s": 157
   }
  ],
- "throughput_ac_per_hr": 6.7,
+ "throughput_ac_per_hr": 4.7,
  "recent": [
   {
    "year": "2025",
@@ -8493,13 +8493,13 @@
    "year": "2025",
    "state": "running",
    "total": 212,
-   "processed": 10,
+   "processed": 60,
    "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 6,
+   "elapsed_s": 825,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 121,
+   "rate_per_min": 4.4,
+   "eta_s": 2090,
    "error": "",
    "sheet": "",
    "folder": ""
