@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:26:07 PM IST",
- "updated_epoch": 1794646567,
+ "updated": "14 Nov 2026, 02:26:29 PM IST",
+ "updated_epoch": 1794646589,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 51 - Rajahmundry Rural (2025)",
-  "updated": "2026-11-14 14:26:03 IST",
+  "updated": "2026-11-14 14:26:28 IST",
   "year": "2025",
   "next": "54 - Kovvur (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "51 - Rajahmundry Rural",
    "phase": "OCR",
-   "processed": 80,
+   "processed": 120,
    "total": 267,
-   "parts_per_min": 91.1,
+   "parts_per_min": 92.7,
    "prefetch": "54 - Kovvur (2025)",
    "uploading": [],
    "done_session": 50,
@@ -97,19 +97,19 @@
      "finished": "2026-11-14 14:14:56 IST"
     }
    ],
-   "load1": 11.45,
+   "load1": 11.11,
    "cores_busy": 8,
-   "updated": "2026-11-14 14:26:03 IST",
-   "updated_epoch": 1794646563,
+   "updated": "2026-11-14 14:26:28 IST",
+   "updated_epoch": 1794646588,
    "fetch": {
     "ac": "54 - Kovvur",
     "year": "2025",
-    "done": 9,
+    "done": 11,
     "total": 13,
-    "mb": 669.7,
-    "mbps": 26.71
+    "mb": 866.3,
+    "mbps": 30.89
    },
-   "age_s": 4
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -178,7 +178,7 @@
     "mb": 576.5,
     "mbps": 3.06
    },
-   "age_s": 67
+   "age_s": 89
   }
  ],
  "throughput_ac_per_hr": 6.0,
@@ -8595,13 +8595,13 @@
    "year": "2025",
    "state": "running",
    "total": 267,
-   "processed": 90,
+   "processed": 120,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 56,
+   "elapsed_s": 73,
    "electors": null,
-   "rate_per_min": 96.4,
-   "eta_s": 110,
+   "rate_per_min": 98.6,
+   "eta_s": 89,
    "error": "",
    "sheet": "",
    "folder": ""
