@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:16:23 AM IST",
- "updated_epoch": 1794624383,
+ "updated": "14 Nov 2026, 08:23:26 AM IST",
+ "updated_epoch": 1794624806,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:16 AM IST"
+   "eta": "14 Nov, 08:23 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 81,
+   "done": 84,
    "errors": 0,
-   "parts": 22326,
-   "needs_review": 752,
+   "parts": 23132,
+   "needs_review": 768,
    "failed": 0,
-   "electors": 19681229,
-   "eta": "14 Nov, 03:36 PM IST"
+   "electors": 20382403,
+   "eta": "14 Nov, 03:08 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:16 AM IST"
+   "eta": "14 Nov, 08:23 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 27 - Madugula (2025)",
-  "updated": "2026-11-14 08:16:19 IST",
+  "phase": "OCR 28 - Araku Valley (2025)",
+  "updated": "2026-11-14 08:23:26 IST",
   "year": "2025",
-  "next": "30 - Anakapalle (2025)",
+  "next": "31 - Pendurthi (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "27 - Madugula",
+   "ac": "28 - Araku Valley",
    "phase": "OCR",
-   "processed": 190,
-   "total": 235,
-   "parts_per_min": 101.9,
-   "prefetch": "30 - Anakapalle (2025)",
+   "processed": 170,
+   "total": 306,
+   "parts_per_min": 99.9,
+   "prefetch": "31 - Pendurthi (2025)",
    "uploading": [],
-   "done_session": 26,
-   "parts_session": 7161,
+   "done_session": 27,
+   "parts_session": 7396,
    "last": [
+    {
+     "ac": "27 - Madugula",
+     "year": "2025",
+     "parts": 235,
+     "secs": 509,
+     "finished": "2026-11-14 08:22:33 IST"
+    },
     {
      "ac": "26 - Chodavaram",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 272,
      "secs": 1401,
      "finished": "2026-11-14 07:52:42 IST"
-    },
-    {
-     "ac": "22 - Visakhapatnam South",
-     "year": "2025",
-     "parts": 236,
-     "secs": 630,
-     "finished": "2026-11-14 07:31:42 IST"
     }
    ],
-   "load1": 10.8,
+   "load1": 11.24,
    "cores_busy": 8,
-   "updated": "2026-11-14 08:16:19 IST",
-   "updated_epoch": 1794624379,
+   "updated": "2026-11-14 08:23:26 IST",
+   "updated_epoch": 1794624806,
    "fetch": {
-    "ac": "30 - Anakapalle",
+    "ac": "31 - Pendurthi",
     "year": "2025",
-    "done": 14,
-    "total": 14,
-    "mb": 1155.5,
-    "mbps": 44.94
+    "done": 19,
+    "total": 20,
+    "mb": 1626.6,
+    "mbps": 21.79
    },
-   "age_s": 4
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -118,18 +118,30 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "118 - Nellore Rural",
+   "ac": "117 - Nellore City",
    "phase": "OCR",
-   "processed": 70,
-   "total": 287,
-   "parts_per_min": 36.2,
-   "prefetch": "115 - Atmakur (2025)",
-   "uploading": [
-    "119 - Sarvepalli"
-   ],
-   "done_session": 55,
-   "parts_session": 15165,
+   "processed": 90,
+   "total": 248,
+   "parts_per_min": 35.5,
+   "prefetch": "114 - Kavali (2025)",
+   "uploading": [],
+   "done_session": 57,
+   "parts_session": 15736,
    "last": [
+    {
+     "ac": "118 - Nellore Rural",
+     "year": "2025",
+     "parts": 287,
+     "secs": 717,
+     "finished": "2026-11-14 08:22:33 IST"
+    },
+    {
+     "ac": "119 - Sarvepalli",
+     "year": "2025",
+     "parts": 284,
+     "secs": 854,
+     "finished": "2026-11-14 08:17:30 IST"
+    },
     {
      "ac": "120 - Gudur",
      "year": "2025",
@@ -150,39 +162,52 @@
      "parts": 298,
      "secs": 755,
      "finished": "2026-11-14 07:53:49 IST"
-    },
-    {
-     "ac": "123 - Udayagiri",
-     "year": "2025",
-     "parts": 323,
-     "secs": 689,
-     "finished": "2026-11-14 07:44:50 IST"
-    },
-    {
-     "ac": "124 - Badvel",
-     "year": "2025",
-     "parts": 272,
-     "secs": 558,
-     "finished": "2026-11-14 07:36:33 IST"
     }
    ],
-   "load1": 42.56,
+   "load1": 57.2,
    "cores_busy": 10,
-   "updated": "2026-11-14 08:14:56 IST",
-   "updated_epoch": 1794624296,
+   "updated": "2026-11-14 08:22:41 IST",
+   "updated_epoch": 1794624761,
    "fetch": {
-    "ac": "115 - Atmakur",
+    "ac": "114 - Kavali",
     "year": "2025",
-    "done": 11,
-    "total": 15,
-    "mb": 962.7,
-    "mbps": 14.78
+    "done": 17,
+    "total": 17,
+    "mb": 1347.9,
+    "mbps": 11.96
    },
-   "age_s": 87
+   "age_s": 45
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 13.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "118 - Nellore Rural",
+   "worker": "mac",
+   "parts": 287,
+   "electors": 280128,
+   "secs": 429,
+   "finished": "2026-11-14 08:22:25 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "27 - Madugula",
+   "worker": "box",
+   "parts": 235,
+   "electors": 188923,
+   "secs": 436,
+   "finished": "2026-11-14 08:21:54 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "119 - Sarvepalli",
+   "worker": "mac",
+   "parts": 284,
+   "electors": 232123,
+   "secs": 448,
+   "finished": "2026-11-14 08:14:54 IST"
+  },
   {
    "year": "2025",
    "ac": "26 - Chodavaram",
@@ -227,33 +252,6 @@
    "electors": 248788,
    "secs": 449,
    "finished": "2026-11-14 07:58:51 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "122 - Venkatagiri",
-   "worker": "mac",
-   "parts": 298,
-   "electors": 244000,
-   "secs": 445,
-   "finished": "2026-11-14 07:53:39 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "23 - Visakhapatnam North",
-   "worker": "box",
-   "parts": 272,
-   "electors": 291624,
-   "secs": 1294,
-   "finished": "2026-11-14 07:52:39 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "123 - Udayagiri",
-   "worker": "mac",
-   "parts": 323,
-   "electors": 241340,
-   "secs": 484,
-   "finished": "2026-11-14 07:43:59 IST"
   }
  ],
  "failures": [],
@@ -7539,18 +7537,69 @@
    "label": "27 - Madugula",
    "district": "Anakapalli",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 235,
-   "processed": 190,
+   "processed": 235,
    "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 111,
+   "elapsed_s": 436,
+   "electors": 188923,
+   "rate_per_min": 32.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1hozBubkyL-ack2b5zHE51h_E3GlvpKJwIFoeFofl_n0/edit",
+   "folder": "https://drive.google.com/drive/folders/1SW43sxK_I5M6Y06sG7rTWlof2HiegcMn"
+  },
+  {
+   "label": "28 - Araku Valley",
+   "district": "Alluri Sitharama Raju",
+   "year": "2025",
+   "state": "running",
+   "total": 306,
+   "processed": 170,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 101,
    "electors": null,
-   "rate_per_min": 102.7,
-   "eta_s": 26,
+   "rate_per_min": 101.0,
+   "eta_s": 81,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "118 - Nellore Rural",
+   "district": "Nellore",
+   "year": "2025",
+   "state": "done",
+   "total": 287,
+   "processed": 287,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 429,
+   "electors": 280128,
+   "rate_per_min": 40.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/10SDNZiqSmh-H28FfsXN4GyKh3q6MPVeuRerivVulUic/edit",
+   "folder": "https://drive.google.com/drive/folders/1H0tK_ivCCUDBMTi0vxUTL3VrlJV5-Oqk"
+  },
+  {
+   "label": "119 - Sarvepalli",
+   "district": "Nellore",
+   "year": "2025",
+   "state": "done",
+   "total": 284,
+   "processed": 284,
+   "needs_review": 12,
+   "failed": 0,
+   "elapsed_s": 448,
+   "electors": 232123,
+   "rate_per_min": 38.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Bk-ZwpkCCNm9rZcRiz7w4c1Zam3T4_Leq6wODVJDVhM/edit",
+   "folder": "https://drive.google.com/drive/folders/1K9b7HmNTXVgRkgh4KKQvZB3RaAUCSxY-"
   }
  ]
 }
