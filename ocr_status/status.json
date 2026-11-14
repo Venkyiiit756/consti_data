@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 12:18:09 PM IST",
- "updated_epoch": 1794638889,
+ "updated": "14 Nov 2026, 12:20:19 PM IST",
+ "updated_epoch": 1794639019,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 12:18 PM IST"
+   "eta": "14 Nov, 12:20 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 128,
+   "done": 130,
    "errors": 0,
-   "parts": 35001,
-   "needs_review": 1384,
+   "parts": 35487,
+   "needs_review": 1393,
    "failed": 0,
-   "electors": 30863582,
-   "eta": "14 Nov, 04:21 PM IST"
+   "electors": 31345833,
+   "eta": "14 Nov, 04:00 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 12:18 PM IST"
+   "eta": "14 Nov, 12:20 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 40 - Anaparthi (2025)",
-  "updated": "2026-11-14 12:18:07 IST",
+  "phase": "OCR 41 - Kakinada City (2025)",
+  "updated": "2026-11-14 12:20:18 IST",
   "year": "2025",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -51,18 +51,25 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "40 - Anaparthi",
+   "ac": "41 - Kakinada City",
    "phase": "OCR",
-   "processed": 100,
-   "total": 228,
-   "parts_per_min": 95.5,
+   "processed": 90,
+   "total": 234,
+   "parts_per_min": 97.7,
    "prefetch": "",
    "uploading": [
-    "38 - Kakinada Rural"
+    "39 - Peddapuram"
    ],
-   "done_session": 37,
-   "parts_session": 10063,
+   "done_session": 38,
+   "parts_session": 10327,
    "last": [
+    {
+     "ac": "38 - Kakinada Rural",
+     "year": "2025",
+     "parts": 264,
+     "secs": 5291,
+     "finished": "2026-11-14 12:19:52 IST"
+    },
     {
      "ac": "37 - Pithapuram",
      "year": "2025",
@@ -90,21 +97,14 @@
      "parts": 262,
      "secs": 2248,
      "finished": "2026-11-14 10:49:51 IST"
-    },
-    {
-     "ac": "33 - Payakaraopet",
-     "year": "2025",
-     "parts": 292,
-     "secs": 1858,
-     "finished": "2026-11-14 10:17:40 IST"
     }
    ],
-   "load1": 13.54,
+   "load1": 11.43,
    "cores_busy": 8,
-   "updated": "2026-11-14 12:18:07 IST",
-   "updated_epoch": 1794638887,
+   "updated": "2026-11-14 12:20:18 IST",
+   "updated_epoch": 1794639018,
    "fetch": null,
-   "age_s": 2
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -115,16 +115,21 @@
    "year": "2025",
    "ac": "82 - Mylavaram",
    "phase": "OCR",
-   "processed": 40,
+   "processed": 120,
    "total": 296,
-   "parts_per_min": 32.5,
+   "parts_per_min": 36.0,
    "prefetch": "79 - Vijayawada West (2025)",
-   "uploading": [
-    "83 - Nandigama"
-   ],
-   "done_session": 91,
-   "parts_session": 24938,
+   "uploading": [],
+   "done_session": 92,
+   "parts_session": 25160,
    "last": [
+    {
+     "ac": "83 - Nandigama",
+     "year": "2025",
+     "parts": 222,
+     "secs": 608,
+     "finished": "2026-11-14 12:18:48 IST"
+    },
     {
      "ac": "84 - Jaggayyapeta",
      "year": "2025",
@@ -152,32 +157,43 @@
      "parts": 303,
      "secs": 693,
      "finished": "2026-11-14 11:52:24 IST"
-    },
-    {
-     "ac": "88 - Ponnur",
-     "year": "2025",
-     "parts": 264,
-     "secs": 707,
-     "finished": "2026-11-14 11:44:47 IST"
     }
    ],
-   "load1": 47.17,
+   "load1": 56.75,
    "cores_busy": 10,
-   "updated": "2026-11-14 12:17:12 IST",
-   "updated_epoch": 1794638832,
+   "updated": "2026-11-14 12:19:18 IST",
+   "updated_epoch": 1794638958,
    "fetch": {
     "ac": "79 - Vijayawada West",
     "year": "2025",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 15,
+    "total": 17,
+    "mb": 1256.7,
+    "mbps": 9.35
    },
-   "age_s": 57
+   "age_s": 61
   }
  ],
- "throughput_ac_per_hr": 11.3,
+ "throughput_ac_per_hr": 12.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "38 - Kakinada Rural",
+   "worker": "box",
+   "parts": 264,
+   "electors": 269613,
+   "secs": 1603,
+   "finished": "2026-11-14 12:19:49 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "83 - Nandigama",
+   "worker": "mac",
+   "parts": 222,
+   "electors": 212638,
+   "secs": 356,
+   "finished": "2026-11-14 12:18:40 IST"
+  },
   {
    "year": "2025",
    "ac": "84 - Jaggayyapeta",
@@ -231,24 +247,6 @@
    "electors": 197449,
    "secs": 341,
    "finished": "2026-11-14 11:38:42 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "90 - Repalle",
-   "worker": "mac",
-   "parts": 264,
-   "electors": 227272,
-   "secs": 388,
-   "finished": "2026-11-14 11:33:31 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "91 - Tenali",
-   "worker": "mac",
-   "parts": 273,
-   "electors": 267749,
-   "secs": 412,
-   "finished": "2026-11-14 11:26:34 IST"
   }
  ],
  "failures": [],
@@ -8197,18 +8195,18 @@
    "label": "38 - Kakinada Rural",
    "district": "Kakinada",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 264,
    "processed": 264,
    "needs_review": 1,
    "failed": 0,
    "elapsed_s": 1603,
-   "electors": null,
+   "electors": 269613,
    "rate_per_min": 9.9,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1Am1HCB-we4Xs7kzjMp9hN1kpL3BPfrg04VCfM2M087c/edit",
+   "folder": "https://drive.google.com/drive/folders/1Pcs8RX0pjp1Pf7lBVXWEDQtbJVoiap6h"
   },
   {
    "label": "88 - Ponnur",
@@ -8367,18 +8365,52 @@
    "label": "40 - Anaparthi",
    "district": "East Godavari",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 228,
-   "processed": 100,
+   "processed": 228,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 61,
+   "elapsed_s": 137,
    "electors": null,
-   "rate_per_min": 98.4,
-   "eta_s": 78,
+   "rate_per_min": 99.9,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "41 - Kakinada City",
+   "district": "Kakinada",
+   "year": "2025",
+   "state": "running",
+   "total": 234,
+   "processed": 90,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 53,
+   "electors": null,
+   "rate_per_min": 101.9,
+   "eta_s": 85,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "83 - Nandigama",
+   "district": "NTR",
+   "year": "2025",
+   "state": "done",
+   "total": 222,
+   "processed": 222,
+   "needs_review": 9,
+   "failed": 0,
+   "elapsed_s": 356,
+   "electors": 212638,
+   "rate_per_min": 37.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1gwHyuRTd-YWvXEno6t2c2HXzmFdL3ePuQEiK6TBZ0jY/edit",
+   "folder": "https://drive.google.com/drive/folders/17pOzvriCAZlha0OuC3HwF2MrnJOcEK0h"
   }
  ]
 }
