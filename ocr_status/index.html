@@ -90,7 +90,7 @@ async function tick(){try{
  $('done').innerHTML=R.filter(r=>r.state==='done'&&r.year===tab).sort((a,b)=>acn(a.label)-acn(b.label)).map(r=>'<tr><td>'+esc(r.label)+'<div class="muted">'+esc(r.district)+'</div></td><td class="n">'+fmt(r.processed)+'</td><td class="n">'+(r.electors==null?'–':fmt(r.electors))+'</td><td class="n'+(r.needs_review?' warn':'')+'">'+r.needs_review+'</td><td class="n'+(r.failed?' bad':'')+'">'+r.failed+'</td><td>'+(r.sheet?'<a href="'+esc(r.sheet)+'" target="_blank" rel="noopener">Sheet</a>':'')+(r.folder?' · <a href="'+esc(r.folder)+'" target="_blank" rel="noopener">Folder</a>':'')+'</td></tr>').join('')||'<tr><td class="muted" colspan="6">None yet</td></tr>';
 }catch(e){$('upd').className='sub stale';$('upd').innerHTML='<span class="dot"></span>Cannot reach status ('+esc(e.message)+')'}}
 
-let sect=localStorage.getItem('sect')||'p1';
+let sect=({'#asdd':'asdd','#2002':'s02','#s02':'s02','#p1':'p1'})[location.hash]||localStorage.getItem('sect')||'p1';
 document.querySelectorAll('#sect button').forEach(b=>b.onclick=()=>{sect=b.dataset.s;localStorage.setItem('sect',sect);showSect();renderNS()});
 function showSect(){document.querySelectorAll('#sect button').forEach(b=>b.className=b.dataset.s===sect?'on':'');
  $('sec_p1').style.display=sect==='p1'?'':'none';$('sec_asdd').style.display=sect==='asdd'?'':'none';$('sec_s02').style.display=sect==='s02'?'':'none'}
