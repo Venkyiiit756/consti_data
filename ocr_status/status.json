@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:26:01 PM IST",
- "updated_epoch": 1794642961,
+ "updated": "14 Nov 2026, 01:26:04 PM IST",
+ "updated_epoch": 1794642964,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -109,7 +109,7 @@
     "mb": 1259.8,
     "mbps": 14.9
    },
-   "age_s": 1
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1352.7,
     "mbps": 7.82
    },
-   "age_s": 129
+   "age_s": 132
   }
  ],
  "throughput_ac_per_hr": 6.7,
