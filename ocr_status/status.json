@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 05:26:03 PM IST",
- "updated_epoch": 1794657363,
+ "updated": "14 Nov 2026, 05:49:39 PM IST",
+ "updated_epoch": 1794658779,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 05:26 PM IST"
+   "eta": "14 Nov, 05:49 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1483,
    "failed": 0,
    "electors": 36532226,
-   "eta": "14 Nov, 09:22 PM IST"
+   "eta": "15 Nov, 12:07 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 05:26 PM IST"
+   "eta": "14 Nov, 05:49 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 61 - Tanuku (2025)",
-  "updated": "2026-11-14 17:26:02 IST",
+  "updated": "2026-11-14 17:49:35 IST",
   "year": "2025",
   "next": "64 - Denduluru (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "61 - Tanuku",
    "phase": "OCR",
-   "processed": 50,
+   "processed": 90,
    "total": 232,
-   "parts_per_min": 84.5,
+   "parts_per_min": 3.7,
    "prefetch": "64 - Denduluru (2025)",
    "uploading": [],
    "done_session": 60,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 16:19:50 IST"
     }
    ],
-   "load1": 11.25,
+   "load1": 11.05,
    "cores_busy": 8,
-   "updated": "2026-11-14 17:26:02 IST",
-   "updated_epoch": 1794657362,
+   "updated": "2026-11-14 17:49:35 IST",
+   "updated_epoch": 1794658775,
    "fetch": {
     "ac": "64 - Denduluru",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1169.6,
     "mbps": 45.93
    },
-   "age_s": 1
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -176,10 +176,10 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 7151
+   "age_s": 8567
   }
  ],
- "throughput_ac_per_hr": 5.3,
+ "throughput_ac_per_hr": 3.3,
  "recent": [
   {
    "year": "2025",
@@ -8763,13 +8763,13 @@
    "year": "2025",
    "state": "running",
    "total": 232,
-   "processed": 50,
+   "processed": 100,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 32,
+   "elapsed_s": 1448,
    "electors": null,
-   "rate_per_min": 93.8,
-   "eta_s": 116,
+   "rate_per_min": 4.1,
+   "eta_s": 1911,
    "error": "",
    "sheet": "",
    "folder": ""
