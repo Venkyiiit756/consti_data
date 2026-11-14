@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:56:49 PM IST",
- "updated_epoch": 1794648409,
+ "updated": "14 Nov 2026, 03:15:28 PM IST",
+ "updated_epoch": 1794649528,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:56 PM IST"
+   "eta": "14 Nov, 03:15 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 144,
    "errors": 0,
    "parts": 38814,
-   "needs_review": 1443,
+   "needs_review": 1444,
    "failed": 0,
    "electors": 34597698,
-   "eta": "14 Nov, 07:56 PM IST"
+   "eta": "14 Nov, 08:52 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:56 PM IST"
+   "eta": "14 Nov, 03:15 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 52 - Jaggampeta (2025)",
-  "updated": "2026-11-14 14:56:46 IST",
+  "updated": "2026-11-14 15:15:24 IST",
   "year": "2025",
   "next": "55 - Nidadavole (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "52 - Jaggampeta",
    "phase": "OCR",
-   "processed": 130,
+   "processed": 180,
    "total": 248,
-   "parts_per_min": 88.9,
+   "parts_per_min": 9.0,
    "prefetch": "55 - Nidadavole (2025)",
    "uploading": [],
    "done_session": 51,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 14:15:45 IST"
     }
    ],
-   "load1": 10.96,
+   "load1": 12.8,
    "cores_busy": 8,
-   "updated": "2026-11-14 14:56:46 IST",
-   "updated_epoch": 1794648406,
+   "updated": "2026-11-14 15:15:24 IST",
+   "updated_epoch": 1794649524,
    "fetch": {
     "ac": "55 - Nidadavole",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1135.9,
     "mbps": 32.31
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -176,10 +176,10 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 106
+   "age_s": 1225
   }
  ],
- "throughput_ac_per_hr": 6.0,
+ "throughput_ac_per_hr": 5.3,
  "recent": [
   {
    "year": "2025",
@@ -8610,13 +8610,13 @@
    "year": "2025",
    "state": "running",
    "total": 248,
-   "processed": 140,
-   "needs_review": 1,
+   "processed": 190,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 88,
+   "elapsed_s": 1206,
    "electors": null,
-   "rate_per_min": 95.5,
-   "eta_s": 68,
+   "rate_per_min": 9.5,
+   "eta_s": 368,
    "error": "",
    "sheet": "",
    "folder": ""
