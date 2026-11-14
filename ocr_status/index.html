@@ -20,8 +20,16 @@ td.n,th.n{text-align:right}a{color:var(--acc);text-decoration:none}.ok{color:var
 .ws{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--t2)}.ws b{color:var(--t);font-weight:600}
 .mini{height:6px;background:var(--b);border-radius:4px;overflow:hidden;margin:6px 0 4px}.mini>i{display:block;height:100%;background:var(--acc)}
 @media(max-width:560px){.wk{grid-template-columns:1fr}}
+.sect{margin:0 0 14px;flex-wrap:wrap}.sect button{font-size:14px;padding:6px 14px}
+.ov{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}.ov div.o{cursor:pointer;border:1px solid var(--b);border-radius:10px;padding:8px 10px}
+.ov .t{font-size:12px;color:var(--t2)}.ov .p{font-size:18px;font-weight:600}.ov .mini{margin:4px 0 0}
+.chips{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--t2);margin-top:8px}.chips b{color:var(--t)}
 </style></head><body><main>
 <h1>Voter Roll OCR – Live</h1><div class="sub" id="upd"><span class="dot"></span>loading…</div>
+<div class="card" id="ovc"><div class="k" style="margin-bottom:8px">All datasets</div><div class="ov" id="ov"></div></div>
+<div class="tabs sect" id="sect"><button data-s="p1" class="on">First page 2026·2025·2024</button><button data-s="asdd">ASDD (SIR 2026 deletions)</button><button data-s="s02">2002 SIR rolls</button></div>
+<div id="sec_asdd" style="display:none"></div><div id="sec_s02" style="display:none"></div>
+<div id="sec_p1">
 <div id="years"></div>
 <div class="card" id="wkc"><div class="yr" style="margin-bottom:4px"><div class="k">Machines</div><div class="muted" id="thr"></div></div><div id="wks"></div></div>
 <div class="card" id="recc" style="display:none"><div class="k" style="margin-bottom:8px">Recent completions</div><div class="scroll"><table><tbody id="rec"></tbody></table></div></div>
@@ -29,6 +37,7 @@ td.n,th.n{text-align:right}a{color:var(--acc);text-decoration:none}.ok{color:var
 <div class="card"><div class="yr" style="margin-bottom:8px"><div class="k">Finished constituencies</div><div class="tabs" id="tabs"></div></div><div class="scroll"><table>
 <thead><tr><th>Constituency</th><th class="n">Parts</th><th class="n">Electors</th><th class="n">Review</th><th class="n">Failed</th><th>Sheet</th></tr></thead>
 <tbody id="done"></tbody></table></div></div>
+</div>
 </main><script>
 const $=id=>document.getElementById(id),fmt=n=>(n||0).toLocaleString('en-IN');
 const dur=s=>s==null?'–':s<60?Math.round(s)+'s':s<3600?Math.floor(s/60)+'m '+Math.round(s%60)+'s':Math.floor(s/3600)+'h '+Math.round(s%3600/60)+'m';
@@ -44,7 +53,7 @@ async function getStatus(){
 }
 function setTab(y){tab=y;tick()}
 async function tick(){try{
- const d=await getStatus(), R=d.runs||[], Y=d.years||{'2026':{total_constituencies:d.total_constituencies,done:d.done_constituencies}};
+ const d=await getStatus(); P1=d; const R=d.runs||[], Y=d.years||{'2026':{total_constituencies:d.total_constituencies,done:d.done_constituencies}};
  const age=Date.now()/1000-d.updated_epoch, stale=age>(fromLive?180:900);
  $('upd').className='sub'+(stale?' stale':''); $('upd').innerHTML='<span class="dot"></span>'+(stale?'Pipeline idle/offline · last update ':fromLive?'Live · updated ':'Snapshot · updated ')+esc(d.updated);
  const ys=Object.keys(Y).sort().reverse(); if(!tab||!Y[tab])tab=ys[0];
@@ -80,5 +89,62 @@ async function tick(){try{
  $('tabs').innerHTML=ys.length>1?ys.map(y=>'<button class="'+(y===tab?'on':'')+'" onclick="setTab(\''+y+'\')">'+y+'</button>').join(''):'';
  $('done').innerHTML=R.filter(r=>r.state==='done'&&r.year===tab).sort((a,b)=>acn(a.label)-acn(b.label)).map(r=>'<tr><td>'+esc(r.label)+'<div class="muted">'+esc(r.district)+'</div></td><td class="n">'+fmt(r.processed)+'</td><td class="n">'+(r.electors==null?'–':fmt(r.electors))+'</td><td class="n'+(r.needs_review?' warn':'')+'">'+r.needs_review+'</td><td class="n'+(r.failed?' bad':'')+'">'+r.failed+'</td><td>'+(r.sheet?'<a href="'+esc(r.sheet)+'" target="_blank" rel="noopener">Sheet</a>':'')+(r.folder?' · <a href="'+esc(r.folder)+'" target="_blank" rel="noopener">Folder</a>':'')+'</td></tr>').join('')||'<tr><td class="muted" colspan="6">None yet</td></tr>';
 }catch(e){$('upd').className='sub stale';$('upd').innerHTML='<span class="dot"></span>Cannot reach status ('+esc(e.message)+')'}}
-tick();setInterval(tick,4000);
+
+let sect=localStorage.getItem('sect')||'p1';
+document.querySelectorAll('#sect button').forEach(b=>b.onclick=()=>{sect=b.dataset.s;localStorage.setItem('sect',sect);showSect();renderNS()});
+function showSect(){document.querySelectorAll('#sect button').forEach(b=>b.className=b.dataset.s===sect?'on':'');
+ $('sec_p1').style.display=sect==='p1'?'':'none';$('sec_asdd').style.display=sect==='asdd'?'':'none';$('sec_s02').style.display=sect==='s02'?'':'none'}
+showSect();
+let NS=null,P1=null;
+async function getNS(){
+ if(base){try{const d=await (await fetch(base+'newsets.json?t='+Date.now(),{cache:'no-store'})).json();return d}catch(e){}}
+ try{return await (await fetch('newsets.json?t='+Date.now(),{cache:'no-store'})).json()}catch(e){return null}}
+const wname=w=>w==='box'?'Grok box':w==='boxweb'?'Grok box (web fetch)':w==='mac'?'MacBook':w;
+function wkRows(WK,kind){return WK.map(w=>{const off=w.age_s>600,slow=w.age_s>150,cls=off?'off':(slow?'wait':''),pr=w.phase==='processing',pct=w.total?100*w.processed/w.total:0,F=w.fetch,DL=w.dl;
+ return '<div class="wk '+cls+'"><div class="wn"><span class="dot"></span>'+esc(wname(w.worker))+'<div class="muted">'+(off?'offline · last seen '+dur(w.age_s)+' ago':slow?'heartbeat late · '+dur(w.age_s):'live · '+dur(w.age_s)+' ago')+'</div></div><div>'+
+ '<div><b>'+esc(pr?(kind==='s02'?'Reading page 1':'Parsing'):(w.phase||''))+'</b>'+(pr&&w.unit?' · '+esc(w.unit):'')+'</div>'+
+ (pr?'<div class="mini"><i style="width:'+pct.toFixed(1)+'%"></i></div>':'')+
+ '<div class="ws"><span>Cores <b>'+(pr?(w.procs||1):0)+'/'+(w.cores||'?')+'</b></span><span>Load <b>'+(w.load1!=null?w.load1:'–')+'</b></span>'+
+ (pr?'<span>'+(kind==='s02'?'PDFs':'Parts')+' <b>'+fmt(w.processed)+'/'+fmt(w.total)+'</b></span>':'')+(pr&&w.rate?'<span><b>'+w.rate+'</b>/min</span>':'')+
+ (DL?'<span>Official site: <b>'+fmt(DL.ok)+'</b> fetched · <b>'+DL.active+'</b> in flight · <b>'+DL.per_min+'</b>/min'+(DL.err?' · <span class="warn">'+DL.err+' retries</span>':'')+(DL.backoff>=8?' · <span class="bad">backing off</span>':'')+'</span>':'')+
+ '<span>Done this run <b>'+(w.done_session||0)+'</b></span></div>'+
+ ((F&&F.unit)||w.prefetch||(w.uploading&&w.uploading.length)?'<div class="muted">'+(F&&F.unit?'Fetching '+esc(F.unit)+' ('+esc(F.stage||'')+(F.mb?' · '+F.mb+' MB':'')+')':w.prefetch?'Next: '+esc(w.prefetch):'')+(w.uploading&&w.uploading.length?' · Uploading: '+esc(w.uploading.join(', ')):'')+'</div>':'')+
+ (w.errors&&w.errors.length?'<div class="muted bad">'+esc(w.errors.slice(-1)[0])+'</div>':'')+'</div></div>'}).join('')||'<div class="muted">No machines reporting yet</div>'}
+function card(title,inner){return '<div class="card"><div class="k" style="margin-bottom:8px">'+title+'</div>'+inner+'</div>'}
+function renderASDD(a){if(!a)return '';const pct=100*a.done/a.total,R=a.reasons||{},G=a.gender||{};
+ let h='<div class="card"><div class="yr"><h2>ASDD lists · SIR 2026</h2><span class="muted">'+(a.all_done?'complete':pct.toFixed(0)+'% of constituencies'+(a.eta?' · ETA '+esc(a.eta):''))+'</span></div><div class="bar"><i style="width:'+pct.toFixed(1)+'%"></i></div>'+
+ '<div class="grid"><div><div class="k">Constituencies</div><div class="v">'+a.done+' / '+a.total+'</div></div><div><div class="k">Parts</div><div class="v">'+fmt(a.parts+(a.parts_in_progress||0))+'</div><div class="muted">of '+fmt(a.parts_expected)+' (5 missing at source)</div></div>'+
+ '<div><div class="k">Deleted electors (rows)</div><div class="v">'+fmt(a.rows)+'</div>'+(a.electors_2025?'<div class="muted">'+(100*a.rows/a.electors_2025).toFixed(2)+'% of 2025 roll</div>':'')+'</div><div><div class="k">Review · Failed</div><div class="v"><span class="'+(a.review?'warn':'')+'">'+fmt(a.review)+'</span> · <span class="'+(a.failed?'bad':'')+'">'+a.failed+'</span></div><div class="muted">rows · constituencies</div></div></div>'+
+ '<div class="chips"><span>Dead <b>'+fmt(R.dead)+'</b></span><span>Shifted <b>'+fmt(R.shifted)+'</b></span><span>Absent <b>'+fmt(R.absent)+'</b></span><span>Duplicate <b>'+fmt(R.duplicate)+'</b></span><span>Male <b>'+fmt(G.male)+'</b></span><span>Female <b>'+fmt(G.female)+'</b></span>'+(G.third_gender?'<span>Third gender <b>'+fmt(G.third_gender)+'</b></span>':'')+'</div></div>';
+ h+=card('Machines'+(a.units_per_hr?' <span class="muted">· '+a.units_per_hr+' constituencies/hour</span>':''),wkRows(a.workers||[],'asdd'));
+ if(a.recent&&a.recent.length)h+=card('Recent completions','<div class="scroll"><table><tbody>'+a.recent.map(x=>'<tr><td>'+esc(x.l)+'</td><td class="muted">'+esc(wname(x.w))+'</td><td class="n">'+fmt(x.p)+' parts</td><td class="n">'+fmt(x.r)+' rows</td><td class="n muted">'+esc(x.t)+' IST</td></tr>').join('')+'</tbody></table></div>');
+ if(a.failures&&a.failures.length)h+=card('Skipped after errors (retried automatically)','<div class="scroll"><table><tbody>'+a.failures.map(x=>'<tr><td>'+esc(x.l)+'</td><td class="bad">'+esc(x.e)+'</td><td class="n muted">try '+(x.a||1)+'</td></tr>').join('')+'</tbody></table></div>');
+ h+=card('Finished constituencies','<div class="scroll"><table><thead><tr><th>Constituency</th><th class="n">Parts</th><th class="n">Rows</th><th class="n">Dead</th><th class="n">Shifted</th><th class="n">Absent</th><th class="n">Dup.</th><th class="n">% of 2025</th><th>Sheets</th></tr></thead><tbody>'+
+  ((a.units||[]).map(u=>'<tr><td>'+esc(u.l)+'<div class="muted">'+esc(u.d)+(u.rv?' · <span class="warn">'+u.rv+' review</span>':'')+(u.mp?' · '+u.mp+' part missing at source':'')+'</div></td><td class="n">'+fmt(u.p)+'</td><td class="n">'+fmt(u.r)+'</td><td class="n">'+fmt(u.dead)+'</td><td class="n">'+fmt(u.sh)+'</td><td class="n">'+fmt(u.ab)+'</td><td class="n">'+fmt(u.du)+'</td><td class="n">'+(u.rate===''||u.rate==null?'–':u.rate)+'</td><td>'+
+  (u.s?'<a href="'+esc(u.s)+'" target="_blank" rel="noopener">Rows</a>':'')+(u.ss?' · <a href="'+esc(u.ss)+'" target="_blank" rel="noopener">Parts</a>':'')+(u.so?' · <a href="'+esc(u.so)+'" target="_blank" rel="noopener">Old parts</a>':'')+(u.f?' · <a href="'+esc(u.f)+'" target="_blank" rel="noopener">Folder</a>':'')+'</td></tr>').join('')||'<tr><td class="muted" colspan="9">None yet</td></tr>')+'</tbody></table></div>');
+ return h}
+let dtab=null;function setD(d){dtab=d;renderNS()}
+function renderS02(s){if(!s)return '';const pct=100*s.done/s.total,wp=s.web_total?100*(s.web_done+s.web_in_progress)/s.web_total:0;
+ let h='<div class="card"><div class="yr"><h2>2002 SIR rolls · page 1</h2><span class="muted">'+(s.all_done?'complete':pct.toFixed(0)+'% of constituencies'+(s.eta?' · ETA '+esc(s.eta):''))+'</span></div><div class="bar"><i style="width:'+pct.toFixed(1)+'%"></i></div>'+
+ '<div class="grid"><div><div class="k">Constituencies (2002)</div><div class="v">'+s.done+' / '+s.total+'</div></div><div><div class="k">Polling-station PDFs</div><div class="v">'+fmt(s.docs_done)+'</div><div class="muted">of '+fmt(s.docs_total)+'</div></div>'+
+ '<div><div class="k">Electors (2002)</div><div class="v">'+fmt(s.electors)+'</div><div class="muted">M '+fmt(s.male)+' · F '+fmt(s.female)+'</div></div><div><div class="k">Review · Failed</div><div class="v"><span class="'+(s.review?'warn':'')+'">'+fmt(s.review)+'</span> · <span class="'+(s.failed_docs||s.failed?'bad':'')+'">'+fmt(s.failed_docs)+(s.failed?' + '+s.failed+' AC':'')+'</span></div><div class="muted">PDFs</div></div></div>'+
+ '<div style="margin-top:12px"><div class="k">Official-site download (not on Drive)</div><div class="mini" style="height:8px"><i style="width:'+wp.toFixed(1)+'%;background:var(--ok)"></i></div><div class="muted">'+fmt(s.web_done+s.web_in_progress)+' / '+fmt(s.web_total)+' PDFs fetched · '+s.dl_per_min+' PDFs/min across machines · each PDF deleted after page 1 is read</div></div></div>';
+ h+=card('Machines',wkRows(s.workers||[],'s02'));
+ h+=card('Districts (2002 boundaries)','<div class="scroll"><table><thead><tr><th>District</th><th class="n">ACs</th><th class="n">PDFs</th><th class="n">Electors</th><th>Source</th></tr></thead><tbody>'+(s.districts||[]).map(d=>'<tr><td>'+esc(d.name)+'</td><td class="n">'+d.done+' / '+d.units+'</td><td class="n">'+fmt(d.docs_done)+' / '+fmt(d.docs)+'</td><td class="n">'+fmt(d.electors)+'</td><td class="muted">'+(d.web===0?'Drive':d.web===d.docs?'official site':'Drive + site')+'</td></tr>').join('')+'</tbody></table></div>');
+ if(s.recent&&s.recent.length)h+=card('Recent completions','<div class="scroll"><table><tbody>'+s.recent.map(x=>'<tr><td>'+esc(x.l)+'</td><td class="muted">'+esc(wname(x.w))+'</td><td class="n">'+fmt(x.p)+' PDFs</td><td class="n">'+fmt(x.e)+' electors</td><td class="n muted">'+esc(x.t)+' IST</td></tr>').join('')+'</tbody></table></div>');
+ if(s.failures&&s.failures.length)h+=card('Skipped after errors (retried automatically)','<div class="scroll"><table><tbody>'+s.failures.map(x=>'<tr><td>'+esc(x.l)+'</td><td class="bad">'+esc(x.e)+'</td><td class="n muted">try '+(x.a||1)+'</td></tr>').join('')+'</tbody></table></div>');
+ const ds=[...new Set((s.units||[]).map(u=>u.d))];if(!dtab||ds.indexOf(dtab)<0)dtab=ds[0];
+ h+='<div class="card"><div class="yr" style="margin-bottom:8px"><div class="k">Finished 2002 constituencies</div></div><div class="tabs" style="flex-wrap:wrap">'+ds.map(d=>'<button class="'+(d===dtab?'on':'')+'" onclick="setD(\''+esc(d)+'\')">'+esc(d)+'</button>').join('')+'</div><div class="scroll"><table><thead><tr><th>AC (2002)</th><th class="n">PDFs</th><th class="n">Electors</th><th class="n">Women booths</th><th class="n">Review</th><th>Sheet</th></tr></thead><tbody>'+
+  ((s.units||[]).filter(u=>u.d===dtab).map(u=>'<tr><td>'+esc(u.l)+(u.nm?'<div class="muted">'+esc(u.nm)+'</div>':'')+'</td><td class="n">'+fmt(u.p)+'</td><td class="n">'+fmt(u.e)+'</td><td class="n">'+fmt(u.wb)+'</td><td class="n'+(u.rv?' warn':'')+'">'+(u.rv||0)+(u.fl?' <span class="bad">+'+u.fl+' failed</span>':'')+'</td><td>'+(u.s?'<a href="'+esc(u.s)+'" target="_blank" rel="noopener">Sheet</a>':'')+(u.f?' · <a href="'+esc(u.f)+'" target="_blank" rel="noopener">Folder</a>':'')+'</td></tr>').join('')||'<tr><td class="muted" colspan="6">None yet</td></tr>')+'</tbody></table></div></div>';
+ return h}
+function ovItem(key,t,done,tot,extra){const p=tot?100*done/tot:0;return '<div class="o" onclick="sect=\''+key+'\';localStorage.setItem(\'sect\',sect);showSect();renderNS()"><div class="t">'+t+'</div><div class="p">'+done+' / '+tot+'</div><div class="mini"><i style="width:'+p.toFixed(1)+'%'+(done>=tot&&tot?';background:var(--ok)':'')+'"></i></div><div class="muted">'+extra+'</div></div>'}
+function renderNS(){const a=NS&&NS.asdd,s=NS&&NS.sir2002;let o='';
+ if(P1){const Y=P1.years||{};['2026','2025','2024'].forEach(y=>{if(Y[y])o+=ovItem('p1','First page '+y,Y[y].done,Y[y].total_constituencies||0,fmt(Y[y].parts)+' parts')})}
+ if(a)o+=ovItem('asdd','ASDD lists (SIR 2026)',a.done,a.total,fmt(a.rows)+' deleted electors'+(a.eta&&!a.all_done?' · ETA '+esc(a.eta.split(', ')[1]||a.eta):''));
+ if(s)o+=ovItem('s02','2002 SIR rolls',s.done,s.total,fmt(s.docs_done)+' PDFs'+(s.eta&&!s.all_done?' · ETA '+esc(s.eta):''));
+ $('ov').innerHTML=o;
+ if(sect==='asdd')$('sec_asdd').innerHTML=renderASDD(a)||'<div class="card muted">Waiting for data…</div>';
+ if(sect==='s02')$('sec_s02').innerHTML=renderS02(s)||'<div class="card muted">Waiting for data…</div>';}
+async function tickNS(){NS=await getNS();renderNS()}
+tick();setInterval(tick,4000);setTimeout(tickNS,800);setInterval(tickNS,8000);
 </script></body></html>
