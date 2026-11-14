@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:20:33 PM IST",
- "updated_epoch": 1794667833,
+ "updated": "14 Nov 2026, 08:21:31 PM IST",
+ "updated_epoch": 1794667891,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:20 PM IST"
+   "eta": "14 Nov, 08:21 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 165,
    "errors": 0,
    "parts": 43830,
-   "needs_review": 1624,
+   "needs_review": 1629,
    "failed": 0,
    "electors": 39359590,
-   "eta": "14 Nov, 10:35 PM IST"
+   "eta": "14 Nov, 10:36 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:20 PM IST"
+   "eta": "14 Nov, 08:21 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 73 - Kaikalur (2025)",
-  "updated": "2026-11-14 20:20:31 IST",
+  "phase": "OCR 74 - Pedana (2025)",
+  "updated": "2026-11-14 20:21:31 IST",
   "year": "2025",
-  "next": "76 - Avanigadda (2025)",
+  "next": "77 - Pamarru (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "73 - Kaikalur",
+   "ac": "74 - Pedana",
    "phase": "OCR",
-   "processed": 200,
-   "total": 235,
-   "parts_per_min": 94.4,
-   "prefetch": "76 - Avanigadda (2025)",
-   "uploading": [],
+   "processed": 60,
+   "total": 217,
+   "parts_per_min": 82.9,
+   "prefetch": "77 - Pamarru (2025)",
+   "uploading": [
+    "73 - Kaikalur"
+   ],
    "done_session": 72,
    "parts_session": 18374,
    "last": [
@@ -97,19 +99,19 @@
      "finished": "2026-11-14 18:59:41 IST"
     }
    ],
-   "load1": 10.75,
+   "load1": 10.98,
    "cores_busy": 8,
-   "updated": "2026-11-14 20:20:31 IST",
-   "updated_epoch": 1794667831,
+   "updated": "2026-11-14 20:21:31 IST",
+   "updated_epoch": 1794667891,
    "fetch": {
-    "ac": "76 - Avanigadda",
+    "ac": "77 - Pamarru",
     "year": "2025",
-    "done": 14,
-    "total": 14,
-    "mb": 1152.3,
-    "mbps": 42.61
+    "done": 6,
+    "total": 12,
+    "mb": 576.2,
+    "mbps": 44.16
    },
-   "age_s": 2
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -176,7 +178,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 498
+   "age_s": 556
   }
  ],
  "throughput_ac_per_hr": 4.0,
@@ -8965,15 +8967,32 @@
    "label": "73 - Kaikalur",
    "district": "Eluru",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 235,
-   "processed": 200,
-   "needs_review": 10,
+   "processed": 235,
+   "needs_review": 11,
    "failed": 0,
-   "elapsed_s": 124,
+   "elapsed_s": 144,
    "electors": null,
-   "rate_per_min": 96.8,
-   "eta_s": 22,
+   "rate_per_min": 97.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "74 - Pedana",
+   "district": "Krishna",
+   "year": "2025",
+   "state": "running",
+   "total": 217,
+   "processed": 60,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 40,
+   "electors": null,
+   "rate_per_min": 90.0,
+   "eta_s": 105,
    "error": "",
    "sheet": "",
    "folder": ""
