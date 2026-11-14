@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 09:55:32 PM IST",
- "updated_epoch": 1794673532,
+ "updated": "14 Nov 2026, 09:57:36 PM IST",
+ "updated_epoch": 1794673656,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 09:55 PM IST"
+   "eta": "14 Nov, 09:57 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 173,
+   "done": 174,
    "errors": 0,
-   "parts": 45817,
+   "parts": 46115,
    "needs_review": 1678,
    "failed": 0,
-   "electors": 41157930,
-   "eta": "14 Nov, 10:06 PM IST"
+   "electors": 41428460,
+   "eta": "14 Nov, 09:57 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 09:55 PM IST"
+   "eta": "14 Nov, 09:57 PM IST"
   }
  },
  "batch": {
-  "phase": "uploading last results",
-  "updated": "2026-11-14 21:55:28 IST",
+  "phase": "all done",
+  "updated": "2026-11-14 21:55:58 IST",
   "year": "2025",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -52,17 +52,22 @@
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
    "ac": "",
-   "phase": "uploading last results",
+   "phase": "all done",
    "processed": 0,
    "total": 0,
    "parts_per_min": 0,
    "prefetch": "",
-   "uploading": [
-    "81 - Vijayawada East"
-   ],
-   "done_session": 80,
-   "parts_session": 20361,
+   "uploading": [],
+   "done_session": 81,
+   "parts_session": 20659,
    "last": [
+    {
+     "ac": "81 - Vijayawada East",
+     "year": "2025",
+     "parts": 298,
+     "secs": 491,
+     "finished": "2026-11-14 21:55:44 IST"
+    },
     {
      "ac": "80 - Vijayawada Central",
      "year": "2025",
@@ -90,21 +95,14 @@
      "parts": 238,
      "secs": 1448,
      "finished": "2026-11-14 21:42:42 IST"
-    },
-    {
-     "ac": "76 - Avanigadda",
-     "year": "2025",
-     "parts": 267,
-     "secs": 1842,
-     "finished": "2026-11-14 21:24:35 IST"
     }
    ],
-   "load1": 7.87,
+   "load1": 5.25,
    "cores_busy": 0,
-   "updated": "2026-11-14 21:55:28 IST",
-   "updated_epoch": 1794673528,
+   "updated": "2026-11-14 21:55:58 IST",
+   "updated_epoch": 1794673558,
    "fetch": null,
-   "age_s": 4
+   "age_s": 98
   },
   {
    "worker": "mac",
@@ -113,13 +111,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "81 - Vijayawada East",
+   "ac": "80 - Vijayawada Central",
    "phase": "OCR",
-   "processed": 270,
-   "total": 298,
-   "parts_per_min": 0.6,
-   "prefetch": "78 - Penamaluru (2025)",
-   "uploading": [],
+   "processed": 10,
+   "total": 267,
+   "parts_per_min": 10.4,
+   "prefetch": "",
+   "uploading": [
+    "81 - Vijayawada East"
+   ],
    "done_session": 93,
    "parts_session": 25456,
    "last": [
@@ -159,23 +159,25 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 20.93,
+   "load1": 18.19,
    "cores_busy": 10,
-   "updated": "2026-11-14 21:54:16 IST",
-   "updated_epoch": 1794673456,
-   "fetch": {
-    "ac": "78 - Penamaluru",
-    "year": "2025",
-    "done": 19,
-    "total": 19,
-    "mb": 1346.7,
-    "mbps": 2.59
-   },
-   "age_s": 76
+   "updated": "2026-11-14 21:55:58 IST",
+   "updated_epoch": 1794673558,
+   "fetch": null,
+   "age_s": 98
   }
  ],
- "throughput_ac_per_hr": 5.3,
+ "throughput_ac_per_hr": 6.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "81 - Vijayawada East",
+   "worker": "box",
+   "parts": 298,
+   "electors": 270530,
+   "secs": 193,
+   "finished": "2026-11-14 21:55:41 IST"
+  },
   {
    "year": "2025",
    "ac": "80 - Vijayawada Central",
@@ -238,19 +240,10 @@
    "electors": 167474,
    "secs": 354,
    "finished": "2026-11-14 20:52:52 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "73 - Kaikalur",
-   "worker": "box",
-   "parts": 235,
-   "electors": 205815,
-   "secs": 144,
-   "finished": "2026-11-14 20:52:35 IST"
   }
  ],
  "failures": [],
- "all_done": false,
+ "all_done": true,
  "runs": [
   {
    "label": "59 - Bhimavaram",
@@ -9096,18 +9089,18 @@
    "label": "81 - Vijayawada East",
    "district": "NTR",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 298,
    "processed": 298,
    "needs_review": 4,
    "failed": 0,
    "elapsed_s": 192,
-   "electors": null,
+   "electors": 270530,
    "rate_per_min": 93.1,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1qe7AGFlNzXUpYlbtkC6T0uyOYGsPQ46j1N0RIHr7gto/edit",
+   "folder": "https://drive.google.com/drive/folders/1JidyRDVbMOOPbepHqpJqjx3Z4F84Y9Zw"
   }
  ]
 }
