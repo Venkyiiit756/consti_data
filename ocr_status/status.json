@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:26:04 PM IST",
- "updated_epoch": 1794642964,
+ "updated": "14 Nov 2026, 01:34:23 PM IST",
+ "updated_epoch": 1794643463,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:26 PM IST"
+   "eta": "14 Nov, 01:34 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 135,
+   "done": 136,
    "errors": 0,
-   "parts": 36657,
-   "needs_review": 1414,
+   "parts": 36892,
+   "needs_review": 1421,
    "failed": 0,
-   "electors": 32477161,
-   "eta": "14 Nov, 07:17 PM IST"
+   "electors": 32690706,
+   "eta": "14 Nov, 07:16 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 01:26 PM IST"
+   "eta": "14 Nov, 01:34 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 44 - Amalapuram (2025)",
-  "updated": "2026-11-14 13:26:00 IST",
+  "phase": "OCR 45 - Razole (2025)",
+  "updated": "2026-11-14 13:34:23 IST",
   "year": "2025",
-  "next": "47 - Kothapeta (2025)",
+  "next": "48 - Mandapeta (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "44 - Amalapuram",
+   "ac": "45 - Razole",
    "phase": "OCR",
-   "processed": 170,
-   "total": 235,
-   "parts_per_min": 93.6,
-   "prefetch": "47 - Kothapeta (2025)",
+   "processed": 130,
+   "total": 205,
+   "parts_per_min": 97.2,
+   "prefetch": "48 - Mandapeta (2025)",
    "uploading": [],
-   "done_session": 43,
-   "parts_session": 11497,
+   "done_session": 44,
+   "parts_session": 11732,
    "last": [
+    {
+     "ac": "44 - Amalapuram",
+     "year": "2025",
+     "parts": 235,
+     "secs": 613,
+     "finished": "2026-11-14 13:33:52 IST"
+    },
     {
      "ac": "43 - Mummidivaram",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 228,
      "secs": 624,
      "finished": "2026-11-14 12:21:34 IST"
-    },
-    {
-     "ac": "39 - Peddapuram",
-     "year": "2025",
-     "parts": 201,
-     "secs": 3466,
-     "finished": "2026-11-14 12:20:48 IST"
     }
    ],
-   "load1": 11.73,
+   "load1": 11.42,
    "cores_busy": 8,
-   "updated": "2026-11-14 13:26:00 IST",
-   "updated_epoch": 1794642960,
+   "updated": "2026-11-14 13:34:23 IST",
+   "updated_epoch": 1794643463,
    "fetch": {
-    "ac": "47 - Kothapeta",
+    "ac": "48 - Mandapeta",
     "year": "2025",
-    "done": 17,
-    "total": 17,
-    "mb": 1259.8,
-    "mbps": 14.9
+    "done": 8,
+    "total": 15,
+    "mb": 568.7,
+    "mbps": 26.09
    },
-   "age_s": 4
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -122,7 +122,7 @@
    "phase": "OCR",
    "processed": 240,
    "total": 296,
-   "parts_per_min": 3.5,
+   "parts_per_min": 3.2,
    "prefetch": "79 - Vijayawada West (2025)",
    "uploading": [],
    "done_session": 92,
@@ -164,10 +164,10 @@
      "finished": "2026-11-14 11:52:24 IST"
     }
    ],
-   "load1": 80.33,
+   "load1": 55.53,
    "cores_busy": 10,
-   "updated": "2026-11-14 13:23:52 IST",
-   "updated_epoch": 1794642832,
+   "updated": "2026-11-14 13:32:04 IST",
+   "updated_epoch": 1794643324,
    "fetch": {
     "ac": "79 - Vijayawada West",
     "year": "2025",
@@ -176,11 +176,20 @@
     "mb": 1352.7,
     "mbps": 7.82
    },
-   "age_s": 132
+   "age_s": 139
   }
  ],
  "throughput_ac_per_hr": 6.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "44 - Amalapuram",
+   "worker": "box",
+   "parts": 235,
+   "electors": 213545,
+   "secs": 532,
+   "finished": "2026-11-14 13:33:49 IST"
+  },
   {
    "year": "2025",
    "ac": "43 - Mummidivaram",
@@ -243,15 +252,6 @@
    "electors": 212638,
    "secs": 356,
    "finished": "2026-11-14 12:18:40 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "84 - Jaggayyapeta",
-   "worker": "mac",
-   "parts": 222,
-   "electors": 212847,
-   "secs": 349,
-   "finished": "2026-11-14 12:11:45 IST"
   }
  ],
  "failures": [],
@@ -8455,15 +8455,32 @@
    "label": "44 - Amalapuram",
    "district": "Konaseema",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 235,
-   "processed": 170,
-   "needs_review": 7,
+   "processed": 235,
+   "needs_review": 9,
    "failed": 0,
-   "elapsed_s": 107,
+   "elapsed_s": 532,
+   "electors": 213545,
+   "rate_per_min": 26.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1yjy9zQTZKarYtcNNhopZYtOqweX7N7ToK4wUwT_ay38/edit",
+   "folder": "https://drive.google.com/drive/folders/1_o0ChraffFTD-GfM7DFRcJacaL-64ohM"
+  },
+  {
+   "label": "45 - Razole",
+   "district": "Konaseema",
+   "year": "2025",
+   "state": "running",
+   "total": 205,
+   "processed": 130,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 78,
    "electors": null,
-   "rate_per_min": 95.3,
-   "eta_s": 41,
+   "rate_per_min": 100.0,
+   "eta_s": 45,
    "error": "",
    "sheet": "",
    "folder": ""
