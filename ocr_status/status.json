@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 05:50:49 AM IST",
- "updated_epoch": 1794615649,
+ "updated": "14 Nov 2026, 05:52:20 AM IST",
+ "updated_epoch": 1794615740,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 05:50 AM IST"
+   "eta": "14 Nov, 05:52 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 50,
+   "done": 51,
    "errors": 0,
-   "parts": 13672,
-   "needs_review": 449,
+   "parts": 13936,
+   "needs_review": 451,
    "failed": 0,
-   "electors": 11947939,
-   "eta": "14 Nov, 04:10 PM IST"
+   "electors": 12153724,
+   "eta": "14 Nov, 04:07 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 05:50 AM IST"
+   "eta": "14 Nov, 05:52 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 17 - Nellimarla (2025)",
-  "updated": "2026-11-14 05:50:47 IST",
+  "updated": "2026-11-14 05:52:17 IST",
   "year": "2025",
   "next": "20 - Bhimili (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,16 +53,21 @@
    "year": "2025",
    "ac": "17 - Nellimarla",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 150,
    "total": 248,
-   "parts_per_min": 75.8,
+   "parts_per_min": 91.9,
    "prefetch": "20 - Bhimili (2025)",
-   "uploading": [
-    "16 - Gajapathinagaram"
-   ],
-   "done_session": 15,
-   "parts_session": 4195,
+   "uploading": [],
+   "done_session": 16,
+   "parts_session": 4459,
    "last": [
+    {
+     "ac": "16 - Gajapathinagaram",
+     "year": "2025",
+     "parts": 264,
+     "secs": 1901,
+     "finished": "2026-11-14 05:50:53 IST"
+    },
     {
      "ac": "15 - Cheepurupalle",
      "year": "2025",
@@ -90,28 +95,21 @@
      "parts": 233,
      "secs": 1566,
      "finished": "2026-11-14 04:24:42 IST"
-    },
-    {
-     "ac": "11 - Kurupam",
-     "year": "2025",
-     "parts": 269,
-     "secs": 223,
-     "finished": "2026-11-14 04:21:48 IST"
     }
    ],
-   "load1": 10.22,
+   "load1": 11.13,
    "cores_busy": 8,
-   "updated": "2026-11-14 05:50:47 IST",
-   "updated_epoch": 1794615647,
+   "updated": "2026-11-14 05:52:17 IST",
+   "updated_epoch": 1794615737,
    "fetch": {
     "ac": "20 - Bhimili",
     "year": "2025",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 23,
+    "total": 23,
+    "mb": 1915.6,
+    "mbps": 25.28
    },
-   "age_s": 2
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -122,9 +120,9 @@
    "year": "2025",
    "ac": "139 - Nandyal",
    "phase": "OCR",
-   "processed": 200,
+   "processed": 230,
    "total": 286,
-   "parts_per_min": 38.9,
+   "parts_per_min": 37.9,
    "prefetch": "136 - Nandikotkur (2025)",
    "uploading": [],
    "done_session": 35,
@@ -166,10 +164,10 @@
      "finished": "2026-11-14 05:21:51 IST"
     }
    ],
-   "load1": 23.24,
+   "load1": 21.54,
    "cores_busy": 10,
-   "updated": "2026-11-14 05:50:13 IST",
-   "updated_epoch": 1794615613,
+   "updated": "2026-11-14 05:51:09 IST",
+   "updated_epoch": 1794615669,
    "fetch": {
     "ac": "136 - Nandikotkur",
     "year": "2025",
@@ -178,11 +176,20 @@
     "mb": 1159.9,
     "mbps": 8.57
    },
-   "age_s": 36
+   "age_s": 71
   }
  ],
  "throughput_ac_per_hr": 12.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "16 - Gajapathinagaram",
+   "worker": "box",
+   "parts": 264,
+   "electors": 205785,
+   "secs": 1860,
+   "finished": "2026-11-14 05:50:50 IST"
+  },
   {
    "year": "2025",
    "ac": "140 - Banaganapalle",
@@ -245,15 +252,6 @@
    "electors": 216482,
    "secs": 367,
    "finished": "2026-11-14 05:11:53 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "146 - Adoni",
-   "worker": "mac",
-   "parts": 256,
-   "electors": 264682,
-   "secs": 385,
-   "finished": "2026-11-14 05:06:53 IST"
   }
  ],
  "failures": [],
@@ -6927,18 +6925,18 @@
    "label": "16 - Gajapathinagaram",
    "district": "Vizianagaram",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 264,
    "processed": 264,
    "needs_review": 5,
    "failed": 0,
    "elapsed_s": 1860,
-   "electors": null,
+   "electors": 205785,
    "rate_per_min": 8.5,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1pNB4mmJkU_TNBOCMXkTgjSWBSOeV-_gIZv3jjoIBbts/edit",
+   "folder": "https://drive.google.com/drive/folders/1n1nA0tIArnCoYnwIGgAAKlDOC7hU5A6Z"
   },
   {
    "label": "140 - Banaganapalle",
@@ -7031,13 +7029,13 @@
    "year": "2025",
    "state": "running",
    "total": 248,
-   "processed": 10,
-   "needs_review": 0,
+   "processed": 160,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 6,
+   "elapsed_s": 98,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 143,
+   "rate_per_min": 98.0,
+   "eta_s": 54,
    "error": "",
    "sheet": "",
    "folder": ""
