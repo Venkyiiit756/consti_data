@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:50:28 PM IST",
- "updated_epoch": 1794644428,
+ "updated": "14 Nov 2026, 01:50:37 PM IST",
+ "updated_epoch": 1794644437,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 47 - Kothapeta (2025)",
-  "updated": "2026-11-14 13:50:27 IST",
+  "updated": "2026-11-14 13:50:37 IST",
   "year": "2025",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "47 - Kothapeta",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 30,
    "total": 262,
-   "parts_per_min": 54.5,
+   "parts_per_min": 85.7,
    "prefetch": "",
    "uploading": [
     "46 - P Gannavaram"
@@ -99,12 +99,12 @@
      "finished": "2026-11-14 12:22:31 IST"
     }
    ],
-   "load1": 10.91,
+   "load1": 10.92,
    "cores_busy": 8,
-   "updated": "2026-11-14 13:50:27 IST",
-   "updated_epoch": 1794644427,
+   "updated": "2026-11-14 13:50:37 IST",
+   "updated_epoch": 1794644437,
    "fetch": null,
-   "age_s": 1
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -171,7 +171,7 @@
     "mb": 1352.7,
     "mbps": 7.82
    },
-   "age_s": 148
+   "age_s": 157
   }
  ],
  "throughput_ac_per_hr": 4.7,
@@ -8503,13 +8503,13 @@
    "year": "2025",
    "state": "running",
    "total": 262,
-   "processed": 10,
+   "processed": 30,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 6,
+   "elapsed_s": 19,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 151,
+   "rate_per_min": 94.7,
+   "eta_s": 147,
    "error": "",
    "sheet": "",
    "folder": ""
