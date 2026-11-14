@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:26:29 PM IST",
- "updated_epoch": 1794646589,
+ "updated": "14 Nov 2026, 02:54:56 PM IST",
+ "updated_epoch": 1794648296,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:26 PM IST"
+   "eta": "14 Nov, 02:54 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 143,
    "errors": 0,
    "parts": 38547,
-   "needs_review": 1441,
+   "needs_review": 1442,
    "failed": 0,
    "electors": 34325210,
-   "eta": "14 Nov, 07:36 PM IST"
+   "eta": "14 Nov, 08:43 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:26 PM IST"
+   "eta": "14 Nov, 02:54 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 51 - Rajahmundry Rural (2025)",
-  "updated": "2026-11-14 14:26:28 IST",
+  "updated": "2026-11-14 14:54:56 IST",
   "year": "2025",
   "next": "54 - Kovvur (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "51 - Rajahmundry Rural",
    "phase": "OCR",
-   "processed": 120,
+   "processed": 220,
    "total": 267,
-   "parts_per_min": 92.7,
+   "parts_per_min": 7.4,
    "prefetch": "54 - Kovvur (2025)",
    "uploading": [],
    "done_session": 50,
@@ -97,19 +97,19 @@
      "finished": "2026-11-14 14:14:56 IST"
     }
    ],
-   "load1": 11.11,
+   "load1": 11.22,
    "cores_busy": 8,
-   "updated": "2026-11-14 14:26:28 IST",
-   "updated_epoch": 1794646588,
+   "updated": "2026-11-14 14:54:56 IST",
+   "updated_epoch": 1794648296,
    "fetch": {
     "ac": "54 - Kovvur",
     "year": "2025",
-    "done": 11,
+    "done": 12,
     "total": 13,
-    "mb": 866.3,
-    "mbps": 30.89
+    "mb": 867.8,
+    "mbps": 0.49
    },
-   "age_s": 1
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -120,16 +120,21 @@
    "year": "2025",
    "ac": "81 - Vijayawada East",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 20,
    "total": 298,
-   "parts_per_min": 0.0,
+   "parts_per_min": 0.6,
    "prefetch": "78 - Penamaluru (2025)",
-   "uploading": [
-    "82 - Mylavaram"
-   ],
-   "done_session": 92,
-   "parts_session": 25160,
+   "uploading": [],
+   "done_session": 93,
+   "parts_session": 25456,
    "last": [
+    {
+     "ac": "82 - Mylavaram",
+     "year": "2025",
+     "parts": 296,
+     "secs": 7981,
+     "finished": "2026-11-14 14:26:07 IST"
+    },
     {
      "ac": "83 - Nandigama",
      "year": "2025",
@@ -157,31 +162,24 @@
      "parts": 245,
      "secs": 592,
      "finished": "2026-11-14 11:58:41 IST"
-    },
-    {
-     "ac": "87 - Mangalagiri",
-     "year": "2025",
-     "parts": 303,
-     "secs": 693,
-     "finished": "2026-11-14 11:52:24 IST"
     }
    ],
-   "load1": 150.2,
+   "load1": 61.18,
    "cores_busy": 10,
-   "updated": "2026-11-14 14:25:00 IST",
-   "updated_epoch": 1794646500,
+   "updated": "2026-11-14 14:52:56 IST",
+   "updated_epoch": 1794648176,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
-    "done": 8,
+    "done": 19,
     "total": 19,
-    "mb": 576.5,
-    "mbps": 3.06
+    "mb": 1346.7,
+    "mbps": 2.59
    },
-   "age_s": 89
+   "age_s": 120
   }
  ],
- "throughput_ac_per_hr": 6.0,
+ "throughput_ac_per_hr": 5.3,
  "recent": [
   {
    "year": "2025",
@@ -8595,13 +8593,13 @@
    "year": "2025",
    "state": "running",
    "total": 267,
-   "processed": 120,
-   "needs_review": 0,
+   "processed": 220,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 73,
+   "elapsed_s": 1782,
    "electors": null,
-   "rate_per_min": 98.6,
-   "eta_s": 89,
+   "rate_per_min": 7.4,
+   "eta_s": 381,
    "error": "",
    "sheet": "",
    "folder": ""
