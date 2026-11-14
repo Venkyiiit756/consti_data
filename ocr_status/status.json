@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 10:01:32 PM IST",
- "updated_epoch": 1794673892,
+ "updated": "14 Nov 2026, 10:26:31 PM IST",
+ "updated_epoch": 1794675391,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 10:01 PM IST"
+   "eta": "14 Nov, 10:26 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1678,
    "failed": 0,
    "electors": 41428460,
-   "eta": "14 Nov, 10:01 PM IST"
+   "eta": "14 Nov, 10:26 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,7 +32,7 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 10:01 PM IST"
+   "eta": "14 Nov, 10:26 PM IST"
   }
  },
  "batch": {
@@ -49,7 +49,7 @@
    "host": "Grok box",
    "cores_total": 8,
    "ocr_workers": 8,
-   "load1": 0.23,
+   "load1": 0.18,
    "phase": "all",
    "year": "2025",
    "ac": "done",
@@ -60,7 +60,7 @@
    "prefetch": "",
    "uploading": [],
    "age_s": 0,
-   "updated_epoch": 1794673892
+   "updated_epoch": 1794675391
   },
   {
    "worker": "mac",
@@ -69,16 +69,30 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "80 - Vijayawada Central",
+   "ac": "78 - Penamaluru",
    "phase": "OCR",
-   "processed": 70,
-   "total": 267,
-   "parts_per_min": 12.2,
+   "processed": 270,
+   "total": 305,
+   "parts_per_min": 27.8,
    "prefetch": "",
    "uploading": [],
-   "done_session": 94,
-   "parts_session": 25754,
+   "done_session": 96,
+   "parts_session": 26274,
    "last": [
+    {
+     "ac": "79 - Vijayawada West",
+     "year": "2025",
+     "parts": 253,
+     "secs": 769,
+     "finished": "2026-11-14 22:16:41 IST"
+    },
+    {
+     "ac": "80 - Vijayawada Central",
+     "year": "2025",
+     "parts": 267,
+     "secs": 944,
+     "finished": "2026-11-14 22:07:52 IST"
+    },
     {
      "ac": "81 - Vijayawada East",
      "year": "2025",
@@ -99,31 +113,17 @@
      "parts": 222,
      "secs": 608,
      "finished": "2026-11-14 12:18:48 IST"
-    },
-    {
-     "ac": "84 - Jaggayyapeta",
-     "year": "2025",
-     "parts": 222,
-     "secs": 566,
-     "finished": "2026-11-14 12:11:53 IST"
-    },
-    {
-     "ac": "85 - Pedakurapadu",
-     "year": "2025",
-     "parts": 266,
-     "secs": 601,
-     "finished": "2026-11-14 12:05:52 IST"
     }
    ],
-   "load1": 19.54,
+   "load1": 19.52,
    "cores_busy": 10,
-   "updated": "2026-11-14 22:00:44 IST",
-   "updated_epoch": 1794673844,
+   "updated": "2026-11-14 22:25:14 IST",
+   "updated_epoch": 1794675314,
    "fetch": null,
-   "age_s": 48
+   "age_s": 77
   }
  ],
- "throughput_ac_per_hr": 6.0,
+ "throughput_ac_per_hr": 4.0,
  "recent": [
   {
    "year": "2025",
