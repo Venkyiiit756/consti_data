@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 10:52:27 AM IST",
- "updated_epoch": 1794633747,
+ "updated": "14 Nov 2026, 11:18:32 AM IST",
+ "updated_epoch": 1794635312,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 10:52 AM IST"
+   "eta": "14 Nov, 11:18 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1272,
    "failed": 0,
    "electors": 27314633,
-   "eta": "14 Nov, 03:41 PM IST"
+   "eta": "14 Nov, 05:24 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 10:52 AM IST"
+   "eta": "14 Nov, 11:18 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 36 - Prathipadu (2025)",
-  "updated": "2026-11-14 10:52:25 IST",
+  "phase": "OCR 37 - Pithapuram (2025)",
+  "updated": "2026-11-14 11:18:30 IST",
   "year": "2025",
   "next": "39 - Peddapuram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "36 - Prathipadu",
+   "ac": "37 - Pithapuram",
    "phase": "OCR",
-   "processed": 140,
-   "total": 227,
-   "parts_per_min": 94.3,
+   "processed": 20,
+   "total": 242,
+   "parts_per_min": 62.0,
    "prefetch": "39 - Peddapuram (2025)",
-   "uploading": [],
+   "uploading": [
+    "36 - Prathipadu"
+   ],
    "done_session": 35,
    "parts_session": 9594,
    "last": [
@@ -97,17 +99,17 @@
      "finished": "2026-11-14 09:55:46 IST"
     }
    ],
-   "load1": 11.41,
+   "load1": 10.71,
    "cores_busy": 8,
-   "updated": "2026-11-14 10:52:25 IST",
-   "updated_epoch": 1794633745,
+   "updated": "2026-11-14 11:18:30 IST",
+   "updated_epoch": 1794635310,
    "fetch": {
     "ac": "39 - Peddapuram",
     "year": "2025",
-    "done": 12,
+    "done": 13,
     "total": 14,
-    "mb": 1054.3,
-    "mbps": 39.67
+    "mb": 1055.7,
+    "mbps": 0.67
    },
    "age_s": 2
   },
@@ -118,68 +120,68 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "96 - Chilakaluripet",
+   "ac": "92 - Bapatla",
    "phase": "OCR",
-   "processed": 170,
-   "total": 242,
-   "parts_per_min": 37.1,
-   "prefetch": "93 - Prathipadu SC (2025)",
+   "processed": 150,
+   "total": 202,
+   "parts_per_min": 37.8,
+   "prefetch": "89 - Vemuru (2025)",
    "uploading": [],
-   "done_session": 78,
-   "parts_session": 21589,
+   "done_session": 82,
+   "parts_session": 22666,
    "last": [
+    {
+     "ac": "93 - Prathipadu SC",
+     "year": "2025",
+     "parts": 288,
+     "secs": 715,
+     "finished": "2026-11-14 11:15:41 IST"
+    },
+    {
+     "ac": "94 - Guntur West",
+     "year": "2025",
+     "parts": 291,
+     "secs": 669,
+     "finished": "2026-11-14 11:07:39 IST"
+    },
+    {
+     "ac": "95 - Guntur East",
+     "year": "2025",
+     "parts": 256,
+     "secs": 853,
+     "finished": "2026-11-14 11:03:39 IST"
+    },
+    {
+     "ac": "96 - Chilakaluripet",
+     "year": "2025",
+     "parts": 242,
+     "secs": 525,
+     "finished": "2026-11-14 10:53:02 IST"
+    },
     {
      "ac": "97 - Narasaraopet",
      "year": "2025",
      "parts": 248,
      "secs": 640,
      "finished": "2026-11-14 10:47:54 IST"
-    },
-    {
-     "ac": "98 - Sattenapalle",
-     "year": "2025",
-     "parts": 274,
-     "secs": 655,
-     "finished": "2026-11-14 10:41:52 IST"
-    },
-    {
-     "ac": "99 - Vinukonda",
-     "year": "2025",
-     "parts": 299,
-     "secs": 815,
-     "finished": "2026-11-14 10:36:33 IST"
-    },
-    {
-     "ac": "100 - Gurajala",
-     "year": "2025",
-     "parts": 304,
-     "secs": 733,
-     "finished": "2026-11-14 10:27:41 IST"
-    },
-    {
-     "ac": "101 - Macherla",
-     "year": "2025",
-     "parts": 299,
-     "secs": 630,
-     "finished": "2026-11-14 10:19:32 IST"
     }
    ],
-   "load1": 23.21,
+   "load1": 27.39,
    "cores_busy": 10,
-   "updated": "2026-11-14 10:51:01 IST",
-   "updated_epoch": 1794633661,
+   "updated": "2026-11-14 11:17:02 IST",
+   "updated_epoch": 1794635222,
    "fetch": {
-    "ac": "93 - Prathipadu SC",
+    "ac": "89 - Vemuru",
     "year": "2025",
-    "done": 17,
-    "total": 17,
-    "mb": 1348.8,
-    "mbps": 10.26
+    "done": 13,
+    "total": 13,
+    "mb": 882.0,
+    "mbps": 6.44
    },
-   "age_s": 86
+   "age_s": 90
   }
  ],
- "throughput_ac_per_hr": 12.7,
+ "throughput_ac_per_hr": 10.0,
  "recent": [
   {
    "year": "2025",
@@ -8081,15 +8083,32 @@
    "label": "36 - Prathipadu",
    "district": "Kakinada",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 227,
-   "processed": 140,
+   "processed": 227,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 86,
+   "elapsed_s": 1634,
    "electors": null,
-   "rate_per_min": 97.7,
-   "eta_s": 53,
+   "rate_per_min": 8.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "37 - Pithapuram",
+   "district": "Kakinada",
+   "year": "2025",
+   "state": "running",
+   "total": 242,
+   "processed": 30,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 19,
+   "electors": null,
+   "rate_per_min": 94.7,
+   "eta_s": 134,
    "error": "",
    "sheet": "",
    "folder": ""
