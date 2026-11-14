@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 05:51:20 PM IST",
- "updated_epoch": 1794658880,
+ "updated": "14 Nov 2026, 06:06:28 PM IST",
+ "updated_epoch": 1794659788,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 05:51 PM IST"
+   "eta": "14 Nov, 06:06 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 153,
    "errors": 0,
    "parts": 40861,
-   "needs_review": 1492,
+   "needs_review": 1501,
    "failed": 0,
    "electors": 36532226,
-   "eta": "15 Nov, 01:43 AM IST"
+   "eta": "15 Nov, 04:36 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 05:51 PM IST"
+   "eta": "14 Nov, 06:06 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 62 - Tadepalligudem (2025)",
-  "updated": "2026-11-14 17:51:15 IST",
+  "updated": "2026-11-14 18:06:24 IST",
   "year": "2025",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "62 - Tadepalligudem",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 90,
    "total": 209,
-   "parts_per_min": 82.7,
+   "parts_per_min": 5.8,
    "prefetch": "",
    "uploading": [
     "61 - Tanuku"
@@ -99,12 +99,12 @@
      "finished": "2026-11-14 16:19:50 IST"
     }
    ],
-   "load1": 10.85,
+   "load1": 10.81,
    "cores_busy": 8,
-   "updated": "2026-11-14 17:51:15 IST",
-   "updated_epoch": 1794658875,
+   "updated": "2026-11-14 18:06:24 IST",
+   "updated_epoch": 1794659784,
    "fetch": null,
-   "age_s": 5
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -171,10 +171,10 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 8668
+   "age_s": 9576
   }
  ],
- "throughput_ac_per_hr": 2.7,
+ "throughput_ac_per_hr": 2.0,
  "recent": [
   {
    "year": "2025",
@@ -8775,13 +8775,13 @@
    "year": "2025",
    "state": "running",
    "total": 209,
-   "processed": 40,
-   "needs_review": 8,
+   "processed": 100,
+   "needs_review": 17,
    "failed": 0,
-   "elapsed_s": 25,
+   "elapsed_s": 931,
    "electors": null,
-   "rate_per_min": 96.0,
-   "eta_s": 106,
+   "rate_per_min": 6.4,
+   "eta_s": 1015,
    "error": "",
    "sheet": "",
    "folder": ""
