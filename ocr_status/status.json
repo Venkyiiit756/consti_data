@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:55:35 PM IST",
- "updated_epoch": 1794669935,
+ "updated": "14 Nov 2026, 08:56:05 PM IST",
+ "updated_epoch": 1794669965,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:55 PM IST"
+   "eta": "14 Nov, 08:56 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 168,
    "errors": 0,
    "parts": 44487,
-   "needs_review": 1638,
+   "needs_review": 1639,
    "failed": 0,
    "electors": 39929636,
-   "eta": "14 Nov, 10:25 PM IST"
+   "eta": "14 Nov, 10:26 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:55 PM IST"
+   "eta": "14 Nov, 08:56 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 76 - Avanigadda (2025)",
-  "updated": "2026-11-14 20:55:31 IST",
+  "updated": "2026-11-14 20:56:01 IST",
   "year": "2025",
   "next": "79 - Vijayawada West (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "76 - Avanigadda",
    "phase": "OCR",
-   "processed": 90,
+   "processed": 130,
    "total": 267,
-   "parts_per_min": 75.5,
+   "parts_per_min": 76.8,
    "prefetch": "79 - Vijayawada West (2025)",
    "uploading": [],
    "done_session": 75,
@@ -97,17 +97,17 @@
      "finished": "2026-11-14 20:16:45 IST"
     }
    ],
-   "load1": 14.88,
+   "load1": 13.86,
    "cores_busy": 8,
-   "updated": "2026-11-14 20:55:31 IST",
-   "updated_epoch": 1794669931,
+   "updated": "2026-11-14 20:56:01 IST",
+   "updated_epoch": 1794669961,
    "fetch": {
     "ac": "79 - Vijayawada West",
     "year": "2025",
-    "done": 6,
+    "done": 16,
     "total": 17,
-    "mb": 576.4,
-    "mbps": 43.66
+    "mb": 1351.3,
+    "mbps": 19.45
    },
    "age_s": 4
   },
@@ -164,10 +164,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 41.51,
+   "load1": 45.8,
    "cores_busy": 10,
-   "updated": "2026-11-14 20:52:15 IST",
-   "updated_epoch": 1794669735,
+   "updated": "2026-11-14 20:53:50 IST",
+   "updated_epoch": 1794669830,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -176,7 +176,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 200
+   "age_s": 135
   }
  ],
  "throughput_ac_per_hr": 4.0,
@@ -9018,13 +9018,13 @@
    "year": "2025",
    "state": "running",
    "total": 267,
-   "processed": 90,
-   "needs_review": 1,
+   "processed": 140,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 68,
+   "elapsed_s": 103,
    "electors": null,
-   "rate_per_min": 79.4,
-   "eta_s": 134,
+   "rate_per_min": 81.6,
+   "eta_s": 93,
    "error": "",
    "sheet": "",
    "folder": ""
