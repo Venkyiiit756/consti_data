@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 01:34:23 PM IST",
- "updated_epoch": 1794643463,
+ "updated": "14 Nov 2026, 01:35:12 PM IST",
+ "updated_epoch": 1794643512,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 01:34 PM IST"
+   "eta": "14 Nov, 01:35 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 136,
    "errors": 0,
    "parts": 36892,
-   "needs_review": 1421,
+   "needs_review": 1424,
    "failed": 0,
    "electors": 32690706,
-   "eta": "14 Nov, 07:16 PM IST"
+   "eta": "14 Nov, 07:17 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 01:34 PM IST"
+   "eta": "14 Nov, 01:35 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 45 - Razole (2025)",
-  "updated": "2026-11-14 13:34:23 IST",
+  "phase": "OCR 46 - P Gannavaram (2025)",
+  "updated": "2026-11-14 13:35:08 IST",
   "year": "2025",
   "next": "48 - Mandapeta (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "45 - Razole",
+   "ac": "46 - P Gannavaram",
    "phase": "OCR",
-   "processed": 130,
-   "total": 205,
-   "parts_per_min": 97.2,
+   "processed": 0,
+   "total": 212,
+   "parts_per_min": 0,
    "prefetch": "48 - Mandapeta (2025)",
-   "uploading": [],
+   "uploading": [
+    "45 - Razole"
+   ],
    "done_session": 44,
    "parts_session": 11732,
    "last": [
@@ -97,19 +99,19 @@
      "finished": "2026-11-14 12:21:34 IST"
     }
    ],
-   "load1": 11.42,
+   "load1": 11.18,
    "cores_busy": 8,
-   "updated": "2026-11-14 13:34:23 IST",
-   "updated_epoch": 1794643463,
+   "updated": "2026-11-14 13:35:08 IST",
+   "updated_epoch": 1794643508,
    "fetch": {
     "ac": "48 - Mandapeta",
     "year": "2025",
-    "done": 8,
+    "done": 14,
     "total": 15,
-    "mb": 568.7,
-    "mbps": 26.09
+    "mb": 1152.2,
+    "mbps": 15.08
    },
-   "age_s": 0
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -176,7 +178,7 @@
     "mb": 1352.7,
     "mbps": 7.82
    },
-   "age_s": 139
+   "age_s": 188
   }
  ],
  "throughput_ac_per_hr": 6.7,
@@ -8472,15 +8474,32 @@
    "label": "45 - Razole",
    "district": "Konaseema",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 205,
-   "processed": 130,
+   "processed": 205,
    "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 78,
+   "elapsed_s": 121,
+   "electors": null,
+   "rate_per_min": 101.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "46 - P Gannavaram",
+   "district": "Konaseema",
+   "year": "2025",
+   "state": "running",
+   "total": 212,
+   "processed": 10,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 6,
    "electors": null,
    "rate_per_min": 100.0,
-   "eta_s": 45,
+   "eta_s": 121,
    "error": "",
    "sheet": "",
    "folder": ""
