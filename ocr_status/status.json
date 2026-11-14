@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 03:15:28 PM IST",
- "updated_epoch": 1794649528,
+ "updated": "14 Nov 2026, 03:17:19 PM IST",
+ "updated_epoch": 1794649639,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 03:15 PM IST"
+   "eta": "14 Nov, 03:17 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 144,
+   "done": 145,
    "errors": 0,
-   "parts": 38814,
-   "needs_review": 1444,
+   "parts": 39062,
+   "needs_review": 1446,
    "failed": 0,
-   "electors": 34597698,
-   "eta": "14 Nov, 08:52 PM IST"
+   "electors": 34834947,
+   "eta": "14 Nov, 08:07 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 03:15 PM IST"
+   "eta": "14 Nov, 03:17 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 52 - Jaggampeta (2025)",
-  "updated": "2026-11-14 15:15:24 IST",
+  "phase": "OCR 53 - Rampachodavaram (2025)",
+  "updated": "2026-11-14 15:17:17 IST",
   "year": "2025",
-  "next": "55 - Nidadavole (2025)",
+  "next": "56 - Achanta (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "52 - Jaggampeta",
+   "ac": "53 - Rampachodavaram",
    "phase": "OCR",
-   "processed": 180,
-   "total": 248,
-   "parts_per_min": 9.0,
-   "prefetch": "55 - Nidadavole (2025)",
+   "processed": 110,
+   "total": 399,
+   "parts_per_min": 83.2,
+   "prefetch": "56 - Achanta (2025)",
    "uploading": [],
-   "done_session": 51,
-   "parts_session": 13358,
+   "done_session": 52,
+   "parts_session": 13606,
    "last": [
+    {
+     "ac": "52 - Jaggampeta",
+     "year": "2025",
+     "parts": 248,
+     "secs": 1366,
+     "finished": "2026-11-14 15:16:47 IST"
+    },
     {
      "ac": "51 - Rajahmundry Rural",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 223,
      "secs": 1041,
      "finished": "2026-11-14 14:16:36 IST"
-    },
-    {
-     "ac": "47 - Kothapeta",
-     "year": "2025",
-     "parts": 262,
-     "secs": 1614,
-     "finished": "2026-11-14 14:15:45 IST"
     }
    ],
-   "load1": 12.8,
+   "load1": 11.58,
    "cores_busy": 8,
-   "updated": "2026-11-14 15:15:24 IST",
-   "updated_epoch": 1794649524,
+   "updated": "2026-11-14 15:17:17 IST",
+   "updated_epoch": 1794649637,
    "fetch": {
-    "ac": "55 - Nidadavole",
+    "ac": "56 - Achanta",
     "year": "2025",
-    "done": 15,
-    "total": 15,
-    "mb": 1135.9,
-    "mbps": 32.31
+    "done": 6,
+    "total": 13,
+    "mb": 570.6,
+    "mbps": 27.84
    },
-   "age_s": 4
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -120,9 +120,9 @@
    "year": "2025",
    "ac": "81 - Vijayawada East",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 40,
    "total": 298,
-   "parts_per_min": 0.8,
+   "parts_per_min": 0.7,
    "prefetch": "78 - Penamaluru (2025)",
    "uploading": [],
    "done_session": 93,
@@ -164,10 +164,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 68.37,
+   "load1": 86.1,
    "cores_busy": 10,
-   "updated": "2026-11-14 14:55:03 IST",
-   "updated_epoch": 1794648303,
+   "updated": "2026-11-14 15:15:02 IST",
+   "updated_epoch": 1794649502,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -176,11 +176,20 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 1225
+   "age_s": 137
   }
  ],
- "throughput_ac_per_hr": 5.3,
+ "throughput_ac_per_hr": 6.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "52 - Jaggampeta",
+   "worker": "box",
+   "parts": 248,
+   "electors": 237249,
+   "secs": 1239,
+   "finished": "2026-11-14 15:16:44 IST"
+  },
   {
    "year": "2025",
    "ac": "51 - Rajahmundry Rural",
@@ -243,15 +252,6 @@
    "electors": 198597,
    "secs": 911,
    "finished": "2026-11-14 14:14:53 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "45 - Razole",
-   "worker": "box",
-   "parts": 205,
-   "electors": 198025,
-   "secs": 121,
-   "finished": "2026-11-14 13:48:52 IST"
   }
  ],
  "failures": [],
@@ -8608,15 +8608,32 @@
    "label": "52 - Jaggampeta",
    "district": "Kakinada",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 248,
-   "processed": 190,
-   "needs_review": 2,
+   "processed": 248,
+   "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 1206,
+   "elapsed_s": 1239,
+   "electors": 237249,
+   "rate_per_min": 12.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1hp-3w3uYca8Jpn2lF5GI8byeKg8p0KgF-UNIfTl-a3Y/edit",
+   "folder": "https://drive.google.com/drive/folders/1Cle1_h2qtRiUbEpQXM5a5qFRRXbI4MWB"
+  },
+  {
+   "label": "53 - Rampachodavaram",
+   "district": "Alluri Sitharama Raju",
+   "year": "2025",
+   "state": "running",
+   "total": 399,
+   "processed": 120,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 80,
    "electors": null,
-   "rate_per_min": 9.5,
-   "eta_s": 368,
+   "rate_per_min": 90.0,
+   "eta_s": 186,
    "error": "",
    "sheet": "",
    "folder": ""
