@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 09:40:53 PM IST",
- "updated_epoch": 1794672653,
+ "updated": "14 Nov 2026, 09:42:55 PM IST",
+ "updated_epoch": 1794672775,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 09:40 PM IST"
+   "eta": "14 Nov, 09:42 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 169,
+   "done": 170,
    "errors": 0,
-   "parts": 44754,
-   "needs_review": 1645,
+   "parts": 44992,
+   "needs_review": 1650,
    "failed": 0,
-   "electors": 40148793,
-   "eta": "14 Nov, 10:55 PM IST"
+   "electors": 40333334,
+   "eta": "14 Nov, 10:34 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 09:40 PM IST"
+   "eta": "14 Nov, 09:42 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 77 - Pamarru (2025)",
-  "updated": "2026-11-14 21:40:50 IST",
+  "phase": "OCR 78 - Penamaluru (2025)",
+  "updated": "2026-11-14 21:42:55 IST",
   "year": "2025",
-  "next": "80 - Vijayawada Central (2025)",
+  "next": "81 - Vijayawada East (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "77 - Pamarru",
+   "ac": "78 - Penamaluru",
    "phase": "OCR",
-   "processed": 110,
-   "total": 238,
-   "parts_per_min": 6.4,
-   "prefetch": "80 - Vijayawada Central (2025)",
+   "processed": 70,
+   "total": 305,
+   "parts_per_min": 90.6,
+   "prefetch": "81 - Vijayawada East (2025)",
    "uploading": [],
-   "done_session": 76,
-   "parts_session": 19298,
+   "done_session": 77,
+   "parts_session": 19536,
    "last": [
+    {
+     "ac": "77 - Pamarru",
+     "year": "2025",
+     "parts": 238,
+     "secs": 1448,
+     "finished": "2026-11-14 21:42:42 IST"
+    },
     {
      "ac": "76 - Avanigadda",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 235,
      "secs": 3938,
      "finished": "2026-11-14 20:52:38 IST"
-    },
-    {
-     "ac": "72 - Gudivada",
-     "year": "2025",
-     "parts": 230,
-     "secs": 261,
-     "finished": "2026-11-14 20:18:40 IST"
     }
    ],
-   "load1": 13.01,
+   "load1": 11.47,
    "cores_busy": 8,
-   "updated": "2026-11-14 21:40:50 IST",
-   "updated_epoch": 1794672650,
+   "updated": "2026-11-14 21:42:55 IST",
+   "updated_epoch": 1794672775,
    "fetch": {
-    "ac": "80 - Vijayawada Central",
+    "ac": "81 - Vijayawada East",
     "year": "2025",
-    "done": 10,
-    "total": 20,
-    "mb": 768.8,
-    "mbps": 0.76
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 3
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -120,7 +120,7 @@
    "year": "2025",
    "ac": "81 - Vijayawada East",
    "phase": "OCR",
-   "processed": 180,
+   "processed": 190,
    "total": 298,
    "parts_per_min": 0.4,
    "prefetch": "78 - Penamaluru (2025)",
@@ -164,10 +164,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 45.62,
+   "load1": 31.13,
    "cores_busy": 10,
-   "updated": "2026-11-14 21:37:03 IST",
-   "updated_epoch": 1794672423,
+   "updated": "2026-11-14 21:39:52 IST",
+   "updated_epoch": 1794672592,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -176,11 +176,20 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 230
+   "age_s": 183
   }
  ],
- "throughput_ac_per_hr": 4.0,
+ "throughput_ac_per_hr": 4.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "77 - Pamarru",
+   "worker": "box",
+   "parts": 238,
+   "electors": 184541,
+   "secs": 1102,
+   "finished": "2026-11-14 21:42:39 IST"
+  },
   {
    "year": "2025",
    "ac": "76 - Avanigadda",
@@ -243,15 +252,6 @@
    "electors": 238933,
    "secs": 1995,
    "finished": "2026-11-14 19:53:39 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "69 - Tiruvuru",
-   "worker": "box",
-   "parts": 234,
-   "electors": 207600,
-   "secs": 1282,
-   "finished": "2026-11-14 19:20:43 IST"
   }
  ],
  "failures": [],
@@ -9033,15 +9033,32 @@
    "label": "77 - Pamarru",
    "district": "Krishna",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 238,
-   "processed": 110,
-   "needs_review": 2,
+   "processed": 238,
+   "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 1022,
+   "elapsed_s": 1102,
+   "electors": 184541,
+   "rate_per_min": 13.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1cWuVCGa30q7wZXMnYCuBzi6rE1H9nG6RfoVuNf3olpM/edit",
+   "folder": "https://drive.google.com/drive/folders/12NnK7A9Qk7eU_zNnRAzrQitpnIx5BxOp"
+  },
+  {
+   "label": "78 - Penamaluru",
+   "district": "Krishna",
+   "year": "2025",
+   "state": "running",
+   "total": 305,
+   "processed": 70,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 46,
    "electors": null,
-   "rate_per_min": 6.5,
-   "eta_s": 1189,
+   "rate_per_min": 91.3,
+   "eta_s": 154,
    "error": "",
    "sheet": "",
    "folder": ""
