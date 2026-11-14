@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 03:57:37 PM IST",
- "updated_epoch": 1794652057,
+ "updated": "14 Nov 2026, 04:17:15 PM IST",
+ "updated_epoch": 1794653235,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 03:57 PM IST"
+   "eta": "14 Nov, 04:17 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 146,
    "errors": 0,
    "parts": 39461,
-   "needs_review": 1458,
+   "needs_review": 1464,
    "failed": 0,
    "electors": 35112419,
-   "eta": "15 Nov, 05:57 AM IST"
+   "eta": "15 Nov, 06:17 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 03:57 PM IST"
+   "eta": "14 Nov, 04:17 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 55 - Nidadavole (2025)",
-  "updated": "2026-11-14 15:57:34 IST",
+  "updated": "2026-11-14 16:17:14 IST",
   "year": "2025",
-  "next": "",
+  "next": "58 - Narasapuram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -53,10 +53,10 @@
    "year": "2025",
    "ac": "55 - Nidadavole",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 150,
    "total": 205,
-   "parts_per_min": 0,
-   "prefetch": "",
+   "parts_per_min": 7.6,
+   "prefetch": "58 - Narasapuram (2025)",
    "uploading": [
     "54 - Kovvur"
    ],
@@ -99,12 +99,19 @@
      "finished": "2026-11-14 14:18:42 IST"
     }
    ],
-   "load1": 10.68,
+   "load1": 11.21,
    "cores_busy": 8,
-   "updated": "2026-11-14 15:57:34 IST",
-   "updated_epoch": 1794652054,
-   "fetch": null,
-   "age_s": 3
+   "updated": "2026-11-14 16:17:14 IST",
+   "updated_epoch": 1794653234,
+   "fetch": {
+    "ac": "58 - Narasapuram",
+    "year": "2025",
+    "done": 2,
+    "total": 12,
+    "mb": 2.6,
+    "mbps": 0.0
+   },
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -171,7 +178,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 1845
+   "age_s": 3023
   }
  ],
  "throughput_ac_per_hr": 2.0,
@@ -8656,13 +8663,13 @@
    "year": "2025",
    "state": "running",
    "total": 205,
-   "processed": 0,
-   "needs_review": 0,
+   "processed": 150,
+   "needs_review": 6,
    "failed": 0,
-   "elapsed_s": 0,
+   "elapsed_s": 1178,
    "electors": null,
-   "rate_per_min": 0,
-   "eta_s": null,
+   "rate_per_min": 7.6,
+   "eta_s": 432,
    "error": "",
    "sheet": "",
    "folder": ""
