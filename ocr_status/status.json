@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:13:33 PM IST",
- "updated_epoch": 1794645813,
+ "updated": "14 Nov 2026, 02:15:43 PM IST",
+ "updated_epoch": 1794645943,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:13 PM IST"
+   "eta": "14 Nov, 02:15 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 137,
+   "done": 138,
    "errors": 0,
-   "parts": 37097,
+   "parts": 37309,
    "needs_review": 1428,
    "failed": 0,
-   "electors": 32888731,
-   "eta": "15 Nov, 04:06 AM IST"
+   "electors": 33087328,
+   "eta": "15 Nov, 01:03 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:13 PM IST"
+   "eta": "14 Nov, 02:15 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 47 - Kothapeta (2025)",
-  "updated": "2026-11-14 14:13:32 IST",
+  "phase": "OCR 48 - Mandapeta (2025)",
+  "updated": "2026-11-14 14:15:42 IST",
   "year": "2025",
-  "next": "50 - Rajahmundry City (2025)",
+  "next": "51 - Rajahmundry Rural (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,18 +51,25 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "47 - Kothapeta",
+   "ac": "48 - Mandapeta",
    "phase": "OCR",
-   "processed": 180,
-   "total": 262,
-   "parts_per_min": 7.7,
-   "prefetch": "50 - Rajahmundry City (2025)",
+   "processed": 140,
+   "total": 223,
+   "parts_per_min": 95.2,
+   "prefetch": "51 - Rajahmundry Rural (2025)",
    "uploading": [
-    "46 - P Gannavaram"
+    "47 - Kothapeta"
    ],
-   "done_session": 45,
-   "parts_session": 11937,
+   "done_session": 46,
+   "parts_session": 12149,
    "last": [
+    {
+     "ac": "46 - P Gannavaram",
+     "year": "2025",
+     "parts": 212,
+     "secs": 2509,
+     "finished": "2026-11-14 14:14:56 IST"
+    },
     {
      "ac": "45 - Razole",
      "year": "2025",
@@ -90,26 +97,19 @@
      "parts": 239,
      "secs": 1759,
      "finished": "2026-11-14 12:50:31 IST"
-    },
-    {
-     "ac": "41 - Kakinada City",
-     "year": "2025",
-     "parts": 234,
-     "secs": 3356,
-     "finished": "2026-11-14 12:22:31 IST"
     }
    ],
-   "load1": 10.88,
+   "load1": 10.95,
    "cores_busy": 8,
-   "updated": "2026-11-14 14:13:32 IST",
-   "updated_epoch": 1794645812,
+   "updated": "2026-11-14 14:15:42 IST",
+   "updated_epoch": 1794645942,
    "fetch": {
-    "ac": "50 - Rajahmundry City",
+    "ac": "51 - Rajahmundry Rural",
     "year": "2025",
-    "done": 15,
+    "done": 13,
     "total": 19,
-    "mb": 1142.9,
-    "mbps": 33.44
+    "mb": 1049.3,
+    "mbps": 33.76
    },
    "age_s": 1
   },
@@ -124,7 +124,7 @@
    "phase": "OCR",
    "processed": 290,
    "total": 296,
-   "parts_per_min": 2.5,
+   "parts_per_min": 2.4,
    "prefetch": "79 - Vijayawada West (2025)",
    "uploading": [],
    "done_session": 92,
@@ -166,10 +166,10 @@
      "finished": "2026-11-14 11:52:24 IST"
     }
    ],
-   "load1": 55.35,
+   "load1": 46.91,
    "cores_busy": 6,
-   "updated": "2026-11-14 14:12:08 IST",
-   "updated_epoch": 1794645728,
+   "updated": "2026-11-14 14:14:56 IST",
+   "updated_epoch": 1794645896,
    "fetch": {
     "ac": "79 - Vijayawada West",
     "year": "2025",
@@ -178,11 +178,20 @@
     "mb": 1352.7,
     "mbps": 7.82
    },
-   "age_s": 85
+   "age_s": 47
   }
  ],
- "throughput_ac_per_hr": 2.7,
+ "throughput_ac_per_hr": 3.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "46 - P Gannavaram",
+   "worker": "box",
+   "parts": 212,
+   "electors": 198597,
+   "secs": 911,
+   "finished": "2026-11-14 14:14:53 IST"
+  },
   {
    "year": "2025",
    "ac": "45 - Razole",
@@ -245,15 +254,6 @@
    "electors": 215081,
    "secs": 1620,
    "finished": "2026-11-14 12:20:45 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "38 - Kakinada Rural",
-   "worker": "box",
-   "parts": 264,
-   "electors": 269613,
-   "secs": 1603,
-   "finished": "2026-11-14 12:19:49 IST"
   }
  ],
  "failures": [],
@@ -8491,32 +8491,49 @@
    "label": "46 - P Gannavaram",
    "district": "Konaseema",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 212,
    "processed": 212,
    "needs_review": 4,
    "failed": 0,
    "elapsed_s": 911,
-   "electors": null,
+   "electors": 198597,
    "rate_per_min": 14.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1yHHGeliS8ahqCp5xFJQvSOSuLkJY4ZUoNjZfW_Oh0OA/edit",
+   "folder": "https://drive.google.com/drive/folders/18WrrYTAK241CqUwBQBc19fYGiVMg8iD6"
+  },
+  {
+   "label": "47 - Kothapeta",
+   "district": "Konaseema",
+   "year": "2025",
+   "state": "uploading",
+   "total": 262,
+   "processed": 262,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 1438,
+   "electors": null,
+   "rate_per_min": 10.9,
    "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
   },
   {
-   "label": "47 - Kothapeta",
+   "label": "48 - Mandapeta",
    "district": "Konaseema",
    "year": "2025",
    "state": "running",
-   "total": 262,
-   "processed": 180,
-   "needs_review": 3,
+   "total": 223,
+   "processed": 140,
+   "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 1394,
+   "elapsed_s": 86,
    "electors": null,
-   "rate_per_min": 7.7,
-   "eta_s": 635,
+   "rate_per_min": 97.7,
+   "eta_s": 51,
    "error": "",
    "sheet": "",
    "folder": ""
