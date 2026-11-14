@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 07:55:12 PM IST",
- "updated_epoch": 1794666312,
+ "updated": "14 Nov 2026, 07:55:21 PM IST",
+ "updated_epoch": 1794666321,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 71 - Gannavaram Krishna (2025)",
-  "updated": "2026-11-14 19:55:09 IST",
+  "updated": "2026-11-14 19:55:19 IST",
   "year": "2025",
   "next": "74 - Pedana (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "71 - Gannavaram Krishna",
    "phase": "OCR",
-   "processed": 90,
+   "processed": 110,
    "total": 307,
-   "parts_per_min": 53.3,
+   "parts_per_min": 59.3,
    "prefetch": "74 - Pedana (2025)",
    "uploading": [],
    "done_session": 70,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 18:22:44 IST"
     }
    ],
-   "load1": 10.89,
+   "load1": 11.22,
    "cores_busy": 8,
-   "updated": "2026-11-14 19:55:09 IST",
-   "updated_epoch": 1794666309,
+   "updated": "2026-11-14 19:55:19 IST",
+   "updated_epoch": 1794666319,
    "fetch": {
     "ac": "74 - Pedana",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 879.0,
     "mbps": 34.62
    },
-   "age_s": 3
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 733
+   "age_s": 742
   }
  ],
  "throughput_ac_per_hr": 2.7,
@@ -8933,13 +8933,13 @@
    "year": "2025",
    "state": "running",
    "total": 307,
-   "processed": 100,
+   "processed": 110,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 103,
+   "elapsed_s": 111,
    "electors": null,
-   "rate_per_min": 58.3,
-   "eta_s": 213,
+   "rate_per_min": 59.5,
+   "eta_s": 199,
    "error": "",
    "sheet": "",
    "folder": ""
