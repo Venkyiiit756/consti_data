@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 11:24:45 AM IST",
- "updated_epoch": 1794635685,
+ "updated": "14 Nov 2026, 11:49:24 AM IST",
+ "updated_epoch": 1794637164,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 11:24 AM IST"
+   "eta": "14 Nov, 11:49 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1323,
    "failed": 0,
    "electors": 28990274,
-   "eta": "14 Nov, 03:27 PM IST"
+   "eta": "14 Nov, 06:03 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 11:24 AM IST"
+   "eta": "14 Nov, 11:49 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 38 - Kakinada Rural (2025)",
-  "updated": "2026-11-14 11:24:45 IST",
+  "updated": "2026-11-14 11:49:20 IST",
   "year": "2025",
   "next": "41 - Kakinada City (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "38 - Kakinada Rural",
    "phase": "OCR",
-   "processed": 140,
+   "processed": 180,
    "total": 264,
-   "parts_per_min": 100.5,
+   "parts_per_min": 6.9,
    "prefetch": "41 - Kakinada City (2025)",
    "uploading": [],
    "done_session": 37,
@@ -97,19 +97,19 @@
      "finished": "2026-11-14 10:17:40 IST"
     }
    ],
-   "load1": 11.48,
+   "load1": 11.23,
    "cores_busy": 8,
-   "updated": "2026-11-14 11:24:45 IST",
-   "updated_epoch": 1794635685,
+   "updated": "2026-11-14 11:49:20 IST",
+   "updated_epoch": 1794637160,
    "fetch": {
     "ac": "41 - Kakinada City",
     "year": "2025",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 3,
+    "total": 17,
+    "mb": 95.3,
+    "mbps": 9.41
    },
-   "age_s": 0
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -176,10 +176,10 @@
     "mb": 1151.5,
     "mbps": 4.54
    },
-   "age_s": 44
+   "age_s": 1523
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 8.7,
  "recent": [
   {
    "year": "2025",
@@ -8202,13 +8202,13 @@
    "year": "2025",
    "state": "running",
    "total": 264,
-   "processed": 140,
+   "processed": 190,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 82,
+   "elapsed_s": 1560,
    "electors": null,
-   "rate_per_min": 102.4,
-   "eta_s": 73,
+   "rate_per_min": 7.3,
+   "eta_s": 608,
    "error": "",
    "sheet": "",
    "folder": ""
