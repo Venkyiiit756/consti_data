@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 04:17:15 PM IST",
- "updated_epoch": 1794653235,
+ "updated": "14 Nov 2026, 04:19:19 PM IST",
+ "updated_epoch": 1794653359,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 04:17 PM IST"
+   "eta": "14 Nov, 04:19 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 146,
+   "done": 148,
    "errors": 0,
-   "parts": 39461,
-   "needs_review": 1464,
+   "parts": 39842,
+   "needs_review": 1470,
    "failed": 0,
-   "electors": 35112419,
-   "eta": "15 Nov, 06:17 AM IST"
+   "electors": 35509571,
+   "eta": "15 Nov, 12:07 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 04:17 PM IST"
+   "eta": "14 Nov, 04:19 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 55 - Nidadavole (2025)",
-  "updated": "2026-11-14 16:17:14 IST",
+  "phase": "OCR 56 - Achanta (2025)",
+  "updated": "2026-11-14 16:19:19 IST",
   "year": "2025",
-  "next": "58 - Narasapuram (2025)",
+  "next": "59 - Bhimavaram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,18 +51,30 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "55 - Nidadavole",
+   "ac": "56 - Achanta",
    "phase": "OCR",
    "processed": 150,
-   "total": 205,
-   "parts_per_min": 7.6,
-   "prefetch": "58 - Narasapuram (2025)",
-   "uploading": [
-    "54 - Kovvur"
-   ],
-   "done_session": 53,
-   "parts_session": 14005,
+   "total": 187,
+   "parts_per_min": 96.8,
+   "prefetch": "59 - Bhimavaram (2025)",
+   "uploading": [],
+   "done_session": 55,
+   "parts_session": 14386,
    "last": [
+    {
+     "ac": "55 - Nidadavole",
+     "year": "2025",
+     "parts": 205,
+     "secs": 1306,
+     "finished": "2026-11-14 16:18:45 IST"
+    },
+    {
+     "ac": "54 - Kovvur",
+     "year": "2025",
+     "parts": 176,
+     "secs": 3091,
+     "finished": "2026-11-14 16:17:55 IST"
+    },
     {
      "ac": "53 - Rampachodavaram",
      "year": "2025",
@@ -83,35 +95,21 @@
      "parts": 267,
      "secs": 1949,
      "finished": "2026-11-14 14:55:39 IST"
-    },
-    {
-     "ac": "50 - Rajahmundry City",
-     "year": "2025",
-     "parts": 241,
-     "secs": 511,
-     "finished": "2026-11-14 14:25:40 IST"
-    },
-    {
-     "ac": "49 - Rajanagaram",
-     "year": "2025",
-     "parts": 216,
-     "secs": 211,
-     "finished": "2026-11-14 14:18:42 IST"
     }
    ],
-   "load1": 11.21,
+   "load1": 11.02,
    "cores_busy": 8,
-   "updated": "2026-11-14 16:17:14 IST",
-   "updated_epoch": 1794653234,
+   "updated": "2026-11-14 16:19:19 IST",
+   "updated_epoch": 1794653359,
    "fetch": {
-    "ac": "58 - Narasapuram",
+    "ac": "59 - Bhimavaram",
     "year": "2025",
-    "done": 2,
-    "total": 12,
-    "mb": 2.6,
-    "mbps": 0.0
+    "done": 17,
+    "total": 18,
+    "mb": 1448.6,
+    "mbps": 20.94
    },
-   "age_s": 1
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -178,11 +176,29 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 3023
+   "age_s": 3147
   }
  ],
- "throughput_ac_per_hr": 2.0,
+ "throughput_ac_per_hr": 3.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "55 - Nidadavole",
+   "worker": "box",
+   "parts": 205,
+   "electors": 212957,
+   "secs": 1213,
+   "finished": "2026-11-14 16:18:42 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "54 - Kovvur",
+   "worker": "box",
+   "parts": 176,
+   "electors": 184195,
+   "secs": 106,
+   "finished": "2026-11-14 15:57:44 IST"
+  },
   {
    "year": "2025",
    "ac": "53 - Rampachodavaram",
@@ -236,24 +252,6 @@
    "electors": 216120,
    "secs": 122,
    "finished": "2026-11-14 14:18:39 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "48 - Mandapeta",
-   "worker": "box",
-   "parts": 223,
-   "electors": 220418,
-   "secs": 132,
-   "finished": "2026-11-14 14:16:33 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "47 - Kothapeta",
-   "worker": "box",
-   "parts": 262,
-   "electors": 252598,
-   "secs": 1438,
-   "finished": "2026-11-14 14:15:42 IST"
   }
  ],
  "failures": [],
@@ -8644,32 +8642,49 @@
    "label": "54 - Kovvur",
    "district": "East Godavari",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 176,
    "processed": 176,
    "needs_review": 5,
    "failed": 0,
    "elapsed_s": 106,
-   "electors": null,
+   "electors": 184195,
    "rate_per_min": 99.6,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1zftS7gFfg56dpdGQL_9at5zTAEdDNc013Y5IrXX47vE/edit",
+   "folder": "https://drive.google.com/drive/folders/1qcuyqGs4RrDdSwlKKMp-5b8DnxZN_9T_"
   },
   {
    "label": "55 - Nidadavole",
    "district": "East Godavari",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 205,
-   "processed": 150,
-   "needs_review": 6,
+   "processed": 205,
+   "needs_review": 10,
    "failed": 0,
-   "elapsed_s": 1178,
+   "elapsed_s": 1213,
+   "electors": 212957,
+   "rate_per_min": 10.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1yO7_RfiQ2-4kJOvfRUB-VqVZb1ihDEfJGIQqfcHO4PM/edit",
+   "folder": "https://drive.google.com/drive/folders/1dqkdcZwAO4L9J99kNGnLkbExUqg-Vmix"
+  },
+  {
+   "label": "56 - Achanta",
+   "district": "West Godavari",
+   "year": "2025",
+   "state": "running",
+   "total": 187,
+   "processed": 150,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 88,
    "electors": null,
-   "rate_per_min": 7.6,
-   "eta_s": 432,
+   "rate_per_min": 102.3,
+   "eta_s": 22,
    "error": "",
    "sheet": "",
    "folder": ""
