@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 09:21:01 AM IST",
- "updated_epoch": 1794628261,
+ "updated": "14 Nov 2026, 09:22:41 AM IST",
+ "updated_epoch": 1794628361,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 09:21 AM IST"
+   "eta": "14 Nov, 09:22 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 92,
+   "done": 94,
    "errors": 0,
-   "parts": 25440,
-   "needs_review": 858,
+   "parts": 26041,
+   "needs_review": 894,
    "failed": 0,
-   "electors": 22312925,
-   "eta": "14 Nov, 04:11 PM IST"
+   "electors": 22808430,
+   "eta": "14 Nov, 03:41 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 09:21 AM IST"
+   "eta": "14 Nov, 09:22 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 29 - Paderu (2025)",
-  "updated": "2026-11-14 09:20:59 IST",
+  "phase": "OCR 30 - Anakapalle (2025)",
+  "updated": "2026-11-14 09:22:39 IST",
   "year": "2025",
-  "next": "32 - Yelamanchili (2025)",
+  "next": "33 - Payakaraopet (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "29 - Paderu",
+   "ac": "30 - Anakapalle",
    "phase": "OCR",
-   "processed": 250,
-   "total": 318,
-   "parts_per_min": 7.7,
-   "prefetch": "32 - Yelamanchili (2025)",
+   "processed": 100,
+   "total": 251,
+   "parts_per_min": 91.6,
+   "prefetch": "33 - Payakaraopet (2025)",
    "uploading": [],
-   "done_session": 28,
-   "parts_session": 7702,
+   "done_session": 29,
+   "parts_session": 8020,
    "last": [
+    {
+     "ac": "29 - Paderu",
+     "year": "2025",
+     "parts": 318,
+     "secs": 2059,
+     "finished": "2026-11-14 09:21:48 IST"
+    },
     {
      "ac": "28 - Araku Valley",
      "year": "2025",
@@ -88,26 +95,19 @@
      "parts": 309,
      "secs": 764,
      "finished": "2026-11-14 08:12:42 IST"
-    },
-    {
-     "ac": "24 - Visakhapatnam West",
-     "year": "2025",
-     "parts": 221,
-     "secs": 1090,
-     "finished": "2026-11-14 08:09:53 IST"
     }
    ],
-   "load1": 11.59,
+   "load1": 11.51,
    "cores_busy": 8,
-   "updated": "2026-11-14 09:20:59 IST",
-   "updated_epoch": 1794628259,
+   "updated": "2026-11-14 09:22:39 IST",
+   "updated_epoch": 1794628359,
    "fetch": {
-    "ac": "32 - Yelamanchili",
+    "ac": "33 - Payakaraopet",
     "year": "2025",
     "done": 14,
-    "total": 14,
-    "mb": 1063.4,
-    "mbps": 32.99
+    "total": 17,
+    "mb": 1152.1,
+    "mbps": 37.17
    },
    "age_s": 2
   },
@@ -120,16 +120,21 @@
    "year": "2025",
    "ac": "109 - Kandukur",
    "phase": "OCR",
-   "processed": 90,
+   "processed": 130,
    "total": 271,
-   "parts_per_min": 33.2,
+   "parts_per_min": 34.2,
    "prefetch": "106 - Chirala (2025)",
-   "uploading": [
-    "110 - Kondapi"
-   ],
-   "done_session": 64,
-   "parts_session": 17738,
+   "uploading": [],
+   "done_session": 65,
+   "parts_session": 18021,
    "last": [
+    {
+     "ac": "110 - Kondapi",
+     "year": "2025",
+     "parts": 283,
+     "secs": 809,
+     "finished": "2026-11-14 09:20:55 IST"
+    },
     {
      "ac": "111 - Markapuram",
      "year": "2025",
@@ -157,32 +162,43 @@
      "parts": 314,
      "secs": 800,
      "finished": "2026-11-14 08:52:57 IST"
-    },
-    {
-     "ac": "115 - Atmakur",
-     "year": "2025",
-     "parts": 278,
-     "secs": 651,
-     "finished": "2026-11-14 08:42:42 IST"
     }
    ],
-   "load1": 30.62,
+   "load1": 31.65,
    "cores_busy": 10,
-   "updated": "2026-11-14 09:19:51 IST",
-   "updated_epoch": 1794628191,
+   "updated": "2026-11-14 09:20:56 IST",
+   "updated_epoch": 1794628256,
    "fetch": {
     "ac": "106 - Chirala",
     "year": "2025",
-    "done": 12,
+    "done": 14,
     "total": 14,
-    "mb": 957.4,
-    "mbps": 11.87
+    "mb": 960.6,
+    "mbps": 4.99
    },
-   "age_s": 70
+   "age_s": 105
   }
  ],
- "throughput_ac_per_hr": 12.0,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "29 - Paderu",
+   "worker": "box",
+   "parts": 318,
+   "electors": 256257,
+   "secs": 1982,
+   "finished": "2026-11-14 09:21:45 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "110 - Kondapi",
+   "worker": "mac",
+   "parts": 283,
+   "electors": 239248,
+   "secs": 401,
+   "finished": "2026-11-14 09:20:46 IST"
+  },
   {
    "year": "2025",
    "ac": "111 - Markapuram",
@@ -236,24 +252,6 @@
    "electors": 229088,
    "secs": 418,
    "finished": "2026-11-14 08:42:34 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "116 - Kovur",
-   "worker": "mac",
-   "parts": 324,
-   "electors": 273709,
-   "secs": 479,
-   "finished": "2026-11-14 08:36:49 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "117 - Nellore City",
-   "worker": "mac",
-   "parts": 248,
-   "electors": 233688,
-   "secs": 385,
-   "finished": "2026-11-14 08:27:50 IST"
   }
  ],
  "failures": [],
@@ -7624,18 +7622,18 @@
    "label": "29 - Paderu",
    "district": "Alluri Sitharama Raju",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 318,
-   "processed": 250,
-   "needs_review": 7,
+   "processed": 318,
+   "needs_review": 9,
    "failed": 0,
-   "elapsed_s": 1947,
-   "electors": null,
-   "rate_per_min": 7.7,
-   "eta_s": 530,
+   "elapsed_s": 1982,
+   "electors": 256257,
+   "rate_per_min": 9.6,
+   "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1vOoseh39uSsWxbp9ZLPTSaE3v-MCDDvxpMGgmq4xhdU/edit",
+   "folder": "https://drive.google.com/drive/folders/1iNAkuXCUKB9HYDM9nZMIF7nYY9kTyoXs"
   },
   {
    "label": "116 - Kovur",
@@ -7738,6 +7736,40 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1G0f1or1hApJ4zgF3ziLNyVdptwomHh2OM6_rQn65YX8/edit",
    "folder": "https://drive.google.com/drive/folders/1HP-D810jtOthWOHRee2s7AasUiA_6fNn"
+  },
+  {
+   "label": "30 - Anakapalle",
+   "district": "Anakapalli",
+   "year": "2025",
+   "state": "running",
+   "total": 251,
+   "processed": 100,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 62,
+   "electors": null,
+   "rate_per_min": 96.8,
+   "eta_s": 94,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "110 - Kondapi",
+   "district": "Prakasam",
+   "year": "2025",
+   "state": "done",
+   "total": 283,
+   "processed": 283,
+   "needs_review": 34,
+   "failed": 0,
+   "elapsed_s": 401,
+   "electors": 239248,
+   "rate_per_min": 42.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1lk8O5QMHGEo5nwoiaT2KmSx4bQSPwPYkYtUgAt5gwYE/edit",
+   "folder": "https://drive.google.com/drive/folders/1xNYA5gkd4M5miZjE1WtNqDTET7IBDXSu"
   }
  ]
 }
