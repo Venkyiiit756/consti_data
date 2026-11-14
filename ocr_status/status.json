@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 04:56:17 PM IST",
- "updated_epoch": 1794655577,
+ "updated": "14 Nov 2026, 05:25:02 PM IST",
+ "updated_epoch": 1794657302,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 04:56 PM IST"
+   "eta": "14 Nov, 05:25 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 150,
+   "done": 152,
    "errors": 0,
-   "parts": 40219,
-   "needs_review": 1482,
+   "parts": 40623,
+   "needs_review": 1483,
    "failed": 0,
-   "electors": 35884271,
-   "eta": "15 Nov, 12:08 AM IST"
+   "electors": 36307209,
+   "eta": "14 Nov, 10:07 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 04:56 PM IST"
+   "eta": "14 Nov, 05:25 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 60 - Undi (2025)",
-  "updated": "2026-11-14 16:56:15 IST",
+  "updated": "2026-11-14 17:24:57 IST",
   "year": "2025",
-  "next": "",
+  "next": "63 - Ungutur (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -53,16 +53,28 @@
    "year": "2025",
    "ac": "60 - Undi",
    "phase": "OCR",
-   "processed": 20,
+   "processed": 180,
    "total": 238,
-   "parts_per_min": 85.1,
-   "prefetch": "",
-   "uploading": [
-    "58 - Narasapuram"
-   ],
-   "done_session": 57,
-   "parts_session": 14763,
+   "parts_per_min": 6.2,
+   "prefetch": "63 - Ungutur (2025)",
+   "uploading": [],
+   "done_session": 59,
+   "parts_session": 15167,
    "last": [
+    {
+     "ac": "59 - Bhimavaram",
+     "year": "2025",
+     "parts": 235,
+     "secs": 3786,
+     "finished": "2026-11-14 17:24:30 IST"
+    },
+    {
+     "ac": "58 - Narasapuram",
+     "year": "2025",
+     "parts": 169,
+     "secs": 4947,
+     "finished": "2026-11-14 17:23:42 IST"
+    },
     {
      "ac": "57 - Palakollu",
      "year": "2025",
@@ -83,28 +95,21 @@
      "parts": 205,
      "secs": 1306,
      "finished": "2026-11-14 16:18:45 IST"
-    },
-    {
-     "ac": "54 - Kovvur",
-     "year": "2025",
-     "parts": 176,
-     "secs": 3091,
-     "finished": "2026-11-14 16:17:55 IST"
-    },
-    {
-     "ac": "53 - Rampachodavaram",
-     "year": "2025",
-     "parts": 399,
-     "secs": 2810,
-     "finished": "2026-11-14 15:56:37 IST"
     }
    ],
-   "load1": 11.14,
+   "load1": 11.52,
    "cores_busy": 8,
-   "updated": "2026-11-14 16:56:15 IST",
-   "updated_epoch": 1794655575,
-   "fetch": null,
-   "age_s": 2
+   "updated": "2026-11-14 17:24:57 IST",
+   "updated_epoch": 1794657297,
+   "fetch": {
+    "ac": "63 - Ungutur",
+    "year": "2025",
+    "done": 14,
+    "total": 14,
+    "mb": 1070.5,
+    "mbps": 33.29
+   },
+   "age_s": 5
   },
   {
    "worker": "mac",
@@ -171,11 +176,29 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 5365
+   "age_s": 7090
   }
  ],
- "throughput_ac_per_hr": 3.3,
+ "throughput_ac_per_hr": 4.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "59 - Bhimavaram",
+   "worker": "box",
+   "parts": 235,
+   "electors": 252255,
+   "secs": 1970,
+   "finished": "2026-11-14 17:23:53 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "58 - Narasapuram",
+   "worker": "box",
+   "parts": 169,
+   "electors": 170683,
+   "secs": 103,
+   "finished": "2026-11-14 17:23:39 IST"
+  },
   {
    "year": "2025",
    "ac": "57 - Palakollu",
@@ -229,24 +252,6 @@
    "electors": 237249,
    "secs": 1239,
    "finished": "2026-11-14 15:16:44 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "51 - Rajahmundry Rural",
-   "worker": "box",
-   "parts": 267,
-   "electors": 272488,
-   "secs": 1808,
-   "finished": "2026-11-14 14:55:36 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "50 - Rajahmundry City",
-   "worker": "box",
-   "parts": 241,
-   "electors": 266064,
-   "secs": 402,
-   "finished": "2026-11-14 14:25:37 IST"
   }
  ],
  "failures": [],
@@ -8705,35 +8710,35 @@
    "label": "58 - Narasapuram",
    "district": "West Godavari",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 169,
    "processed": 169,
    "needs_review": 6,
    "failed": 0,
    "elapsed_s": 103,
-   "electors": null,
+   "electors": 170683,
    "rate_per_min": 98.4,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1pc860zlG-nJ9HbtGJM-5-ETxWt_9tzGGVNC3JRQAJ0w/edit",
+   "folder": "https://drive.google.com/drive/folders/1aBfcqpS5qk3ugXOq0EE0M1e4hbgRBjDU"
   },
   {
    "label": "59 - Bhimavaram",
    "district": "West Godavari",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 235,
    "processed": 235,
    "needs_review": 2,
    "failed": 0,
    "elapsed_s": 1970,
-   "electors": null,
+   "electors": 252255,
    "rate_per_min": 7.2,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1zBZtcL5MI6WSTCEWLsdWKB4x82XgK_6XuQP2NMTkxHU/edit",
+   "folder": "https://drive.google.com/drive/folders/1_-pLMEdxhcJWSLZmaIDrrbg_KPv7GLUU"
   },
   {
    "label": "60 - Undi",
@@ -8741,13 +8746,13 @@
    "year": "2025",
    "state": "running",
    "total": 238,
-   "processed": 20,
-   "needs_review": 0,
+   "processed": 190,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 14,
+   "elapsed_s": 1739,
    "electors": null,
-   "rate_per_min": 85.7,
-   "eta_s": 153,
+   "rate_per_min": 6.6,
+   "eta_s": 439,
    "error": "",
    "sheet": "",
    "folder": ""
