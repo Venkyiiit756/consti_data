@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 06:48:30 AM IST",
- "updated_epoch": 1794619110,
+ "updated": "14 Nov 2026, 06:50:37 AM IST",
+ "updated_epoch": 1794619237,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 06:48 AM IST"
+   "eta": "14 Nov, 06:50 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 59,
+   "done": 64,
    "errors": 0,
-   "parts": 16090,
-   "needs_review": 606,
+   "parts": 17601,
+   "needs_review": 659,
    "failed": 0,
-   "electors": 14158411,
-   "eta": "14 Nov, 06:18 PM IST"
+   "electors": 15459164,
+   "eta": "14 Nov, 03:31 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 06:48 AM IST"
+   "eta": "14 Nov, 06:50 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 20 - Bhimili (2025)",
-  "updated": "2026-11-14 06:48:28 IST",
+  "phase": "OCR 21 - Visakhapatnam East (2025)",
+  "updated": "2026-11-14 06:50:33 IST",
   "year": "2025",
-  "next": "23 - Visakhapatnam North (2025)",
+  "next": "24 - Visakhapatnam West (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "20 - Bhimili",
+   "ac": "21 - Visakhapatnam East",
    "phase": "OCR",
-   "processed": 260,
-   "total": 361,
-   "parts_per_min": 10.7,
-   "prefetch": "23 - Visakhapatnam North (2025)",
+   "processed": 110,
+   "total": 282,
+   "parts_per_min": 91.9,
+   "prefetch": "24 - Visakhapatnam West (2025)",
    "uploading": [],
-   "done_session": 19,
-   "parts_session": 5237,
+   "done_session": 20,
+   "parts_session": 5598,
    "last": [
+    {
+     "ac": "20 - Bhimili",
+     "year": "2025",
+     "parts": 361,
+     "secs": 1609,
+     "finished": "2026-11-14 06:49:43 IST"
+    },
     {
      "ac": "19 - Srungavarapukota",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 264,
      "secs": 1901,
      "finished": "2026-11-14 05:50:53 IST"
-    },
-    {
-     "ac": "15 - Cheepurupalle",
-     "year": "2025",
-     "parts": 257,
-     "secs": 1901,
-     "finished": "2026-11-14 05:20:32 IST"
     }
    ],
-   "load1": 10.81,
+   "load1": 11.11,
    "cores_busy": 8,
-   "updated": "2026-11-14 06:48:28 IST",
-   "updated_epoch": 1794619108,
+   "updated": "2026-11-14 06:50:33 IST",
+   "updated_epoch": 1794619233,
    "fetch": {
-    "ac": "23 - Visakhapatnam North",
+    "ac": "24 - Visakhapatnam West",
     "year": "2025",
-    "done": 19,
-    "total": 19,
-    "mb": 1431.2,
-    "mbps": 18.74
+    "done": 14,
+    "total": 14,
+    "mb": 1165.6,
+    "mbps": 43.87
    },
-   "age_s": 2
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -118,16 +118,39 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "134 - Allagadda",
+   "ac": "130 - Kamalapuram",
    "phase": "OCR",
-   "processed": 230,
-   "total": 298,
-   "parts_per_min": 39.1,
-   "prefetch": "131 - Jammalamadugu (2025)",
-   "uploading": [],
-   "done_session": 40,
-   "parts_session": 10853,
+   "processed": 50,
+   "total": 251,
+   "parts_per_min": 37.4,
+   "prefetch": "127 - Kodur (2025)",
+   "uploading": [
+    "131 - Jammalamadugu"
+   ],
+   "done_session": 43,
+   "parts_session": 11688,
    "last": [
+    {
+     "ac": "132 - Proddatur",
+     "year": "2025",
+     "parts": 268,
+     "secs": 656,
+     "finished": "2026-11-14 06:42:44 IST"
+    },
+    {
+     "ac": "133 - Mydukur",
+     "year": "2025",
+     "parts": 269,
+     "secs": 579,
+     "finished": "2026-11-14 06:34:38 IST"
+    },
+    {
+     "ac": "134 - Allagadda",
+     "year": "2025",
+     "parts": 298,
+     "secs": 708,
+     "finished": "2026-11-14 06:29:00 IST"
+    },
     {
      "ac": "135 - Srisailam",
      "year": "2025",
@@ -141,46 +164,70 @@
      "parts": 251,
      "secs": 577,
      "finished": "2026-11-14 06:14:52 IST"
-    },
-    {
-     "ac": "137 - Kurnool",
-     "year": "2025",
-     "parts": 258,
-     "secs": 615,
-     "finished": "2026-11-14 06:09:57 IST"
-    },
-    {
-     "ac": "138 - Panyam",
-     "year": "2025",
-     "parts": 355,
-     "secs": 909,
-     "finished": "2026-11-14 06:04:50 IST"
-    },
-    {
-     "ac": "139 - Nandyal",
-     "year": "2025",
-     "parts": 286,
-     "secs": 714,
-     "finished": "2026-11-14 05:53:57 IST"
     }
    ],
-   "load1": 20.97,
+   "load1": 31.68,
    "cores_busy": 10,
-   "updated": "2026-11-14 06:25:15 IST",
-   "updated_epoch": 1794617715,
+   "updated": "2026-11-14 06:49:09 IST",
+   "updated_epoch": 1794619149,
    "fetch": {
-    "ac": "131 - Jammalamadugu",
+    "ac": "127 - Kodur",
     "year": "2025",
-    "done": 16,
-    "total": 16,
-    "mb": 1255.5,
-    "mbps": 12.53
+    "done": 5,
+    "total": 13,
+    "mb": 389.2,
+    "mbps": 13.15
    },
-   "age_s": 1395
+   "age_s": 88
   }
  ],
- "throughput_ac_per_hr": 10.0,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "20 - Bhimili",
+   "worker": "box",
+   "parts": 361,
+   "electors": 364593,
+   "secs": 1512,
+   "finished": "2026-11-14 06:49:40 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "131 - Jammalamadugu",
+   "worker": "mac",
+   "parts": 315,
+   "electors": 242482,
+   "secs": 466,
+   "finished": "2026-11-14 06:48:51 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "132 - Proddatur",
+   "worker": "mac",
+   "parts": 268,
+   "electors": 248192,
+   "secs": 401,
+   "finished": "2026-11-14 06:41:55 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "133 - Mydukur",
+   "worker": "mac",
+   "parts": 269,
+   "electors": 212105,
+   "secs": 395,
+   "finished": "2026-11-14 06:33:52 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "134 - Allagadda",
+   "worker": "mac",
+   "parts": 298,
+   "electors": 233381,
+   "secs": 446,
+   "finished": "2026-11-14 06:28:53 IST"
+  },
   {
    "year": "2025",
    "ac": "19 - Srungavarapukota",
@@ -207,51 +254,6 @@
    "electors": 220937,
    "secs": 1705,
    "finished": "2026-11-14 06:20:40 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "135 - Srisailam",
-   "worker": "mac",
-   "parts": 226,
-   "electors": 196597,
-   "secs": 336,
-   "finished": "2026-11-14 06:19:52 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "136 - Nandikotkur",
-   "worker": "mac",
-   "parts": 251,
-   "electors": 224903,
-   "secs": 376,
-   "finished": "2026-11-14 06:14:44 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "137 - Kurnool",
-   "worker": "mac",
-   "parts": 258,
-   "electors": 274553,
-   "secs": 388,
-   "finished": "2026-11-14 06:09:45 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "138 - Panyam",
-   "worker": "mac",
-   "parts": 355,
-   "electors": 332842,
-   "secs": 527,
-   "finished": "2026-11-14 06:04:41 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "139 - Nandyal",
-   "worker": "mac",
-   "parts": 286,
-   "electors": 273799,
-   "secs": 429,
-   "finished": "2026-11-14 05:53:50 IST"
   }
  ],
  "failures": [],
@@ -7163,18 +7165,103 @@
    "label": "20 - Bhimili",
    "district": "Visakhapatnam",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 361,
-   "processed": 260,
-   "needs_review": 6,
+   "processed": 361,
+   "needs_review": 25,
    "failed": 0,
-   "elapsed_s": 1457,
+   "elapsed_s": 1512,
+   "electors": 364593,
+   "rate_per_min": 14.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1-yvy0JK-cZDpnJY9JLiI1j0-yTeNtolN_JhsbMmnx0E/edit",
+   "folder": "https://drive.google.com/drive/folders/19z1T_KiN0tUtmumkyLUelW6jfJU1lL2R"
+  },
+  {
+   "label": "132 - Proddatur",
+   "district": "YSR Kadapa",
+   "year": "2025",
+   "state": "done",
+   "total": 268,
+   "processed": 268,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 401,
+   "electors": 248192,
+   "rate_per_min": 40.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1pmQ3Q-1IQX1KEPBVO5ovNjhY0MX2m2Bh64zO-Ck9quo/edit",
+   "folder": "https://drive.google.com/drive/folders/1EjBhE9zZc7JyBa6daVxekglZOgDLJ3Zi"
+  },
+  {
+   "label": "133 - Mydukur",
+   "district": "YSR Kadapa",
+   "year": "2025",
+   "state": "done",
+   "total": 269,
+   "processed": 269,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 395,
+   "electors": 212105,
+   "rate_per_min": 40.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1CakV3yMD_uvlUtn0p53NhrqUgiDcplTV8m4qWJN_orI/edit",
+   "folder": "https://drive.google.com/drive/folders/1kYx9ykqLA_RfeK9Ww04c_nQ--1in17Op"
+  },
+  {
+   "label": "134 - Allagadda",
+   "district": "Nandyal",
+   "year": "2025",
+   "state": "done",
+   "total": 298,
+   "processed": 298,
+   "needs_review": 16,
+   "failed": 0,
+   "elapsed_s": 446,
+   "electors": 233381,
+   "rate_per_min": 40.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1BdV7JPrj-jFpm9jMomvmPQrcwlYkN264SrUFpUKjwBA/edit",
+   "folder": "https://drive.google.com/drive/folders/1cLvJAxfjAZKZTnHVngAhBYa7vLehNrVO"
+  },
+  {
+   "label": "21 - Visakhapatnam East",
+   "district": "Visakhapatnam",
+   "year": "2025",
+   "state": "running",
+   "total": 282,
+   "processed": 120,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 74,
    "electors": null,
-   "rate_per_min": 10.7,
-   "eta_s": 566,
+   "rate_per_min": 97.3,
+   "eta_s": 100,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "131 - Jammalamadugu",
+   "district": "YSR Kadapa",
+   "year": "2025",
+   "state": "done",
+   "total": 315,
+   "processed": 315,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 466,
+   "electors": 242482,
+   "rate_per_min": 40.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1zsIA2xFf9hFYkZ2QLhYZ5i_YmyT3SNuU0YQMeiny0yU/edit",
+   "folder": "https://drive.google.com/drive/folders/1uv3Aqs1IdC0mcfrMlAG6owssL9fmX97b"
   }
  ]
 }
