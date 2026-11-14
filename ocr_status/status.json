@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:18:29 PM IST",
- "updated_epoch": 1794667709,
+ "updated": "14 Nov 2026, 08:20:33 PM IST",
+ "updated_epoch": 1794667833,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:18 PM IST"
+   "eta": "14 Nov, 08:20 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 164,
+   "done": 165,
    "errors": 0,
-   "parts": 43600,
-   "needs_review": 1614,
+   "parts": 43830,
+   "needs_review": 1624,
    "failed": 0,
-   "electors": 39154867,
-   "eta": "14 Nov, 11:18 PM IST"
+   "electors": 39359590,
+   "eta": "14 Nov, 10:35 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:18 PM IST"
+   "eta": "14 Nov, 08:20 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 73 - Kaikalur (2025)",
-  "updated": "2026-11-14 20:18:26 IST",
+  "updated": "2026-11-14 20:20:31 IST",
   "year": "2025",
-  "next": "",
+  "next": "76 - Avanigadda (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -53,16 +53,21 @@
    "year": "2025",
    "ac": "73 - Kaikalur",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 200,
    "total": 235,
-   "parts_per_min": 0,
-   "prefetch": "",
-   "uploading": [
-    "72 - Gudivada"
-   ],
-   "done_session": 71,
-   "parts_session": 18144,
+   "parts_per_min": 94.4,
+   "prefetch": "76 - Avanigadda (2025)",
+   "uploading": [],
+   "done_session": 72,
+   "parts_session": 18374,
    "last": [
+    {
+     "ac": "72 - Gudivada",
+     "year": "2025",
+     "parts": 230,
+     "secs": 261,
+     "finished": "2026-11-14 20:18:40 IST"
+    },
     {
      "ac": "71 - Gannavaram Krishna",
      "year": "2025",
@@ -90,21 +95,21 @@
      "parts": 273,
      "secs": 595,
      "finished": "2026-11-14 18:59:41 IST"
-    },
-    {
-     "ac": "67 - Polavaram",
-     "year": "2025",
-     "parts": 284,
-     "secs": 1853,
-     "finished": "2026-11-14 18:52:47 IST"
     }
    ],
-   "load1": 10.79,
+   "load1": 10.75,
    "cores_busy": 8,
-   "updated": "2026-11-14 20:18:26 IST",
-   "updated_epoch": 1794667706,
-   "fetch": null,
-   "age_s": 3
+   "updated": "2026-11-14 20:20:31 IST",
+   "updated_epoch": 1794667831,
+   "fetch": {
+    "ac": "76 - Avanigadda",
+    "year": "2025",
+    "done": 14,
+    "total": 14,
+    "mb": 1152.3,
+    "mbps": 42.61
+   },
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -159,10 +164,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 77.3,
+   "load1": 110.17,
    "cores_busy": 10,
-   "updated": "2026-11-14 20:05:07 IST",
-   "updated_epoch": 1794666907,
+   "updated": "2026-11-14 20:12:15 IST",
+   "updated_epoch": 1794667335,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -171,11 +176,20 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 802
+   "age_s": 498
   }
  ],
- "throughput_ac_per_hr": 3.3,
+ "throughput_ac_per_hr": 4.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "72 - Gudivada",
+   "worker": "box",
+   "parts": 230,
+   "electors": 204723,
+   "secs": 147,
+   "finished": "2026-11-14 20:18:37 IST"
+  },
   {
    "year": "2025",
    "ac": "71 - Gannavaram Krishna",
@@ -238,15 +252,6 @@
    "electors": 234526,
    "secs": 131,
    "finished": "2026-11-14 18:16:44 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "64 - Denduluru",
-   "worker": "box",
-   "parts": 239,
-   "electors": 231390,
-   "secs": 139,
-   "finished": "2026-11-14 18:14:34 IST"
   }
  ],
  "failures": [],
@@ -8943,18 +8948,18 @@
    "label": "72 - Gudivada",
    "district": "Krishna",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 230,
    "processed": 230,
    "needs_review": 4,
    "failed": 0,
    "elapsed_s": 147,
-   "electors": null,
+   "electors": 204723,
    "rate_per_min": 93.9,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1G4CdlxXr1cfoVcTsJy_4EMrrwzPT2q3FFh_qWYhc87A/edit",
+   "folder": "https://drive.google.com/drive/folders/1EWJKMosb5nGkaCH2nx-wuGHyC3sZJmCk"
   },
   {
    "label": "73 - Kaikalur",
@@ -8962,13 +8967,13 @@
    "year": "2025",
    "state": "running",
    "total": 235,
-   "processed": 0,
-   "needs_review": 0,
+   "processed": 200,
+   "needs_review": 10,
    "failed": 0,
-   "elapsed_s": 0,
+   "elapsed_s": 124,
    "electors": null,
-   "rate_per_min": 0,
-   "eta_s": null,
+   "rate_per_min": 96.8,
+   "eta_s": 22,
    "error": "",
    "sheet": "",
    "folder": ""
