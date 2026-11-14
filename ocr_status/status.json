@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 09:56:15 AM IST",
- "updated_epoch": 1794630375,
+ "updated": "14 Nov 2026, 10:14:44 AM IST",
+ "updated_epoch": 1794631484,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 09:56 AM IST"
+   "eta": "14 Nov, 10:14 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 101,
+   "done": 104,
    "errors": 0,
-   "parts": 27893,
-   "needs_review": 1121,
+   "parts": 28735,
+   "needs_review": 1204,
    "failed": 0,
-   "electors": 24466559,
-   "eta": "14 Nov, 04:22 PM IST"
+   "electors": 25142041,
+   "eta": "14 Nov, 04:25 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 09:56 AM IST"
+   "eta": "14 Nov, 10:14 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 32 - Yelamanchili (2025)",
-  "updated": "2026-11-14 09:56:12 IST",
+  "phase": "OCR 33 - Payakaraopet (2025)",
+  "updated": "2026-11-14 10:14:44 IST",
   "year": "2025",
-  "next": "35 - Tuni (2025)",
+  "next": "36 - Prathipadu (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "32 - Yelamanchili",
+   "ac": "33 - Payakaraopet",
    "phase": "OCR",
-   "processed": 90,
-   "total": 246,
-   "parts_per_min": 100.8,
-   "prefetch": "35 - Tuni (2025)",
-   "uploading": [],
+   "processed": 0,
+   "total": 292,
+   "parts_per_min": 0.0,
+   "prefetch": "36 - Prathipadu (2025)",
+   "uploading": [
+    "32 - Yelamanchili"
+   ],
    "done_session": 31,
    "parts_session": 8570,
    "last": [
@@ -97,19 +99,19 @@
      "finished": "2026-11-14 08:22:33 IST"
     }
    ],
-   "load1": 10.84,
+   "load1": 10.53,
    "cores_busy": 8,
-   "updated": "2026-11-14 09:56:12 IST",
-   "updated_epoch": 1794630372,
+   "updated": "2026-11-14 10:14:44 IST",
+   "updated_epoch": 1794631484,
    "fetch": {
-    "ac": "35 - Tuni",
+    "ac": "36 - Prathipadu",
     "year": "2025",
-    "done": 14,
-    "total": 14,
-    "mb": 1154.6,
-    "mbps": 41.93
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 3
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -118,16 +120,32 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "104 - Parchur",
+   "ac": "101 - Macherla",
    "phase": "OCR",
-   "processed": 200,
-   "total": 295,
-   "parts_per_min": 39.1,
-   "prefetch": "101 - Macherla (2025)",
-   "uploading": [],
-   "done_session": 70,
-   "parts_session": 19323,
+   "processed": 100,
+   "total": 299,
+   "parts_per_min": 36.4,
+   "prefetch": "98 - Sattenapalle (2025)",
+   "uploading": [
+    "102 - Yerragondapalem"
+   ],
+   "done_session": 72,
+   "parts_session": 19900,
    "last": [
+    {
+     "ac": "103 - Darsi",
+     "year": "2025",
+     "parts": 282,
+     "secs": 582,
+     "finished": "2026-11-14 10:05:38 IST"
+    },
+    {
+     "ac": "104 - Parchur",
+     "year": "2025",
+     "parts": 295,
+     "secs": 690,
+     "finished": "2026-11-14 09:58:43 IST"
+    },
     {
      "ac": "105 - Addanki",
      "year": "2025",
@@ -148,39 +166,52 @@
      "parts": 256,
      "secs": 731,
      "finished": "2026-11-14 09:40:45 IST"
-    },
-    {
-     "ac": "108 - Ongole",
-     "year": "2025",
-     "parts": 259,
-     "secs": 814,
-     "finished": "2026-11-14 09:31:52 IST"
-    },
-    {
-     "ac": "109 - Kandukur",
-     "year": "2025",
-     "parts": 271,
-     "secs": 771,
-     "finished": "2026-11-14 09:27:36 IST"
     }
    ],
-   "load1": 21.15,
+   "load1": 38.88,
    "cores_busy": 10,
-   "updated": "2026-11-14 09:55:16 IST",
-   "updated_epoch": 1794630316,
+   "updated": "2026-11-14 10:13:59 IST",
+   "updated_epoch": 1794631439,
    "fetch": {
-    "ac": "101 - Macherla",
+    "ac": "98 - Sattenapalle",
     "year": "2025",
-    "done": 18,
-    "total": 18,
-    "mb": 1254.0,
-    "mbps": 9.48
+    "done": 15,
+    "total": 16,
+    "mb": 1161.7,
+    "mbps": 9.8
    },
-   "age_s": 59
+   "age_s": 45
   }
  ],
  "throughput_ac_per_hr": 11.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "102 - Yerragondapalem",
+   "worker": "mac",
+   "parts": 265,
+   "electors": 220166,
+   "secs": 403,
+   "finished": "2026-11-14 10:13:50 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "103 - Darsi",
+   "worker": "mac",
+   "parts": 282,
+   "electors": 226231,
+   "secs": 421,
+   "finished": "2026-11-14 10:05:30 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "104 - Parchur",
+   "worker": "mac",
+   "parts": 295,
+   "electors": 229085,
+   "secs": 440,
+   "finished": "2026-11-14 09:57:57 IST"
+  },
   {
    "year": "2025",
    "ac": "31 - Pendurthi",
@@ -225,33 +256,6 @@
    "electors": 213824,
    "secs": 398,
    "finished": "2026-11-14 09:40:38 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "108 - Ongole",
-   "worker": "mac",
-   "parts": 259,
-   "electors": 239527,
-   "secs": 393,
-   "finished": "2026-11-14 09:31:45 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "109 - Kandukur",
-   "worker": "mac",
-   "parts": 271,
-   "electors": 228633,
-   "secs": 422,
-   "finished": "2026-11-14 09:26:53 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "29 - Paderu",
-   "worker": "box",
-   "parts": 318,
-   "electors": 256257,
-   "secs": 1982,
-   "finished": "2026-11-14 09:21:45 IST"
   }
  ],
  "failures": [],
@@ -7877,18 +7881,86 @@
    "label": "32 - Yelamanchili",
    "district": "Anakapalli",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 246,
-   "processed": 90,
-   "needs_review": 1,
+   "processed": 246,
+   "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 52,
+   "elapsed_s": 1158,
    "electors": null,
-   "rate_per_min": 103.8,
-   "eta_s": 90,
+   "rate_per_min": 12.7,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "102 - Yerragondapalem",
+   "district": "Prakasam",
+   "year": "2025",
+   "state": "done",
+   "total": 265,
+   "processed": 265,
+   "needs_review": 70,
+   "failed": 0,
+   "elapsed_s": 403,
+   "electors": 220166,
+   "rate_per_min": 39.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1u61V9DJLPhun3R9-ILuGXnaXoiShCIuzLkPJBXKMK5M/edit",
+   "folder": "https://drive.google.com/drive/folders/1StvTwbMGiYlozfWalaXtp7gcyabH_F6p"
+  },
+  {
+   "label": "33 - Payakaraopet",
+   "district": "Anakapalli",
+   "year": "2025",
+   "state": "running",
+   "total": 292,
+   "processed": 10,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 7,
+   "electors": null,
+   "rate_per_min": 85.7,
+   "eta_s": 197,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "103 - Darsi",
+   "district": "Prakasam",
+   "year": "2025",
+   "state": "done",
+   "total": 282,
+   "processed": 282,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 421,
+   "electors": 226231,
+   "rate_per_min": 40.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1qDcuN7PuagawiK2ntyyXQYwD5Bqm8-rGCg_KC54AEBU/edit",
+   "folder": "https://drive.google.com/drive/folders/18HMH74a5BDzk10TkC8t2Ttmn8I3suh7w"
+  },
+  {
+   "label": "104 - Parchur",
+   "district": "Bapatla",
+   "year": "2025",
+   "state": "done",
+   "total": 295,
+   "processed": 295,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 440,
+   "electors": 229085,
+   "rate_per_min": 40.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1MtvmkWBf5lvUG-GJ_NznL3cRsQv7q-Kg9IKMYyxef8w/edit",
+   "folder": "https://drive.google.com/drive/folders/1mIK3kZdw2ypHdcMGDEsuaHI3Gj08yeCI"
   }
  ]
 }
