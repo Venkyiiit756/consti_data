@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 06:18:33 PM IST",
- "updated_epoch": 1794660513,
+ "updated": "14 Nov 2026, 06:19:10 PM IST",
+ "updated_epoch": 1794660550,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 06:18 PM IST"
+   "eta": "14 Nov, 06:19 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1518,
    "failed": 0,
    "electors": 37651747,
-   "eta": "14 Nov, 09:18 PM IST"
+   "eta": "14 Nov, 09:19 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 06:18 PM IST"
+   "eta": "14 Nov, 06:19 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 66 - Gopalapuram (2025)",
-  "updated": "2026-11-14 18:18:32 IST",
+  "updated": "2026-11-14 18:19:10 IST",
   "year": "2025",
   "next": "69 - Tiruvuru (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "66 - Gopalapuram",
    "phase": "OCR",
-   "processed": 180,
+   "processed": 200,
    "total": 248,
-   "parts_per_min": 90.8,
+   "parts_per_min": 76.5,
    "prefetch": "69 - Tiruvuru (2025)",
    "uploading": [],
    "done_session": 65,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 18:06:45 IST"
     }
    ],
-   "load1": 11.19,
+   "load1": 12.82,
    "cores_busy": 8,
-   "updated": "2026-11-14 18:18:32 IST",
-   "updated_epoch": 1794660512,
+   "updated": "2026-11-14 18:19:10 IST",
+   "updated_epoch": 1794660550,
    "fetch": {
     "ac": "69 - Tiruvuru",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1056.0,
     "mbps": 36.8
    },
-   "age_s": 1
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 162
+   "age_s": 199
   }
  ],
  "throughput_ac_per_hr": 5.3,
@@ -8848,13 +8848,13 @@
    "year": "2025",
    "state": "running",
    "total": 248,
-   "processed": 180,
+   "processed": 200,
    "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 114,
+   "elapsed_s": 126,
    "electors": null,
-   "rate_per_min": 94.7,
-   "eta_s": 43,
+   "rate_per_min": 95.2,
+   "eta_s": 30,
    "error": "",
    "sheet": "",
    "folder": ""
