@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 06:19:34 AM IST",
- "updated_epoch": 1794617374,
+ "updated": "14 Nov 2026, 06:21:41 AM IST",
+ "updated_epoch": 1794617501,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 06:19 AM IST"
+   "eta": "14 Nov, 06:21 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 55,
+   "done": 57,
    "errors": 0,
-   "parts": 15086,
-   "needs_review": 536,
+   "parts": 15560,
+   "needs_review": 541,
    "failed": 0,
-   "electors": 13259821,
-   "eta": "14 Nov, 05:28 PM IST"
+   "electors": 13677355,
+   "eta": "14 Nov, 04:41 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 06:19 AM IST"
+   "eta": "14 Nov, 06:21 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 18 - Vizianagaram (2025)",
-  "updated": "2026-11-14 06:19:29 IST",
+  "phase": "OCR 19 - Srungavarapukota (2025)",
+  "updated": "2026-11-14 06:21:39 IST",
   "year": "2025",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -51,18 +51,25 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "18 - Vizianagaram",
+   "ac": "19 - Srungavarapukota",
    "phase": "OCR",
-   "processed": 30,
-   "total": 260,
-   "parts_per_min": 71.9,
+   "processed": 0,
+   "total": 270,
+   "parts_per_min": 0,
    "prefetch": "",
    "uploading": [
-    "17 - Nellimarla"
+    "18 - Vizianagaram"
    ],
-   "done_session": 16,
-   "parts_session": 4459,
+   "done_session": 17,
+   "parts_session": 4707,
    "last": [
+    {
+     "ac": "17 - Nellimarla",
+     "year": "2025",
+     "parts": 248,
+     "secs": 3121,
+     "finished": "2026-11-14 06:20:43 IST"
+    },
     {
      "ac": "16 - Gajapathinagaram",
      "year": "2025",
@@ -90,21 +97,14 @@
      "parts": 243,
      "secs": 289,
      "finished": "2026-11-14 04:27:30 IST"
-    },
-    {
-     "ac": "12 - Parvathipuram",
-     "year": "2025",
-     "parts": 233,
-     "secs": 1566,
-     "finished": "2026-11-14 04:24:42 IST"
     }
    ],
-   "load1": 11.35,
+   "load1": 9.94,
    "cores_busy": 8,
-   "updated": "2026-11-14 06:19:29 IST",
-   "updated_epoch": 1794617369,
+   "updated": "2026-11-14 06:21:39 IST",
+   "updated_epoch": 1794617499,
    "fetch": null,
-   "age_s": 5
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -113,16 +113,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "135 - Srisailam",
+   "ac": "134 - Allagadda",
    "phase": "OCR",
-   "processed": 160,
-   "total": 226,
-   "parts_per_min": 38.5,
-   "prefetch": "132 - Proddatur (2025)",
+   "processed": 50,
+   "total": 298,
+   "parts_per_min": 36.5,
+   "prefetch": "131 - Jammalamadugu (2025)",
    "uploading": [],
-   "done_session": 39,
-   "parts_session": 10627,
+   "done_session": 40,
+   "parts_session": 10853,
    "last": [
+    {
+     "ac": "135 - Srisailam",
+     "year": "2025",
+     "parts": 226,
+     "secs": 538,
+     "finished": "2026-11-14 06:20:33 IST"
+    },
     {
      "ac": "136 - Nandikotkur",
      "year": "2025",
@@ -150,32 +157,43 @@
      "parts": 286,
      "secs": 714,
      "finished": "2026-11-14 05:53:57 IST"
-    },
-    {
-     "ac": "140 - Banaganapalle",
-     "year": "2025",
-     "parts": 277,
-     "secs": 787,
-     "finished": "2026-11-14 05:47:37 IST"
     }
    ],
-   "load1": 28.79,
+   "load1": 26.76,
    "cores_busy": 10,
-   "updated": "2026-11-14 06:17:56 IST",
-   "updated_epoch": 1794617276,
+   "updated": "2026-11-14 06:20:44 IST",
+   "updated_epoch": 1794617444,
    "fetch": {
-    "ac": "132 - Proddatur",
+    "ac": "131 - Jammalamadugu",
     "year": "2025",
-    "done": 16,
+    "done": 8,
     "total": 16,
-    "mb": 1343.5,
-    "mbps": 14.19
+    "mb": 672.9,
+    "mbps": 15.01
    },
-   "age_s": 98
+   "age_s": 57
   }
  ],
- "throughput_ac_per_hr": 10.7,
+ "throughput_ac_per_hr": 11.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "17 - Nellimarla",
+   "worker": "box",
+   "parts": 248,
+   "electors": 220937,
+   "secs": 1705,
+   "finished": "2026-11-14 06:20:40 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "135 - Srisailam",
+   "worker": "mac",
+   "parts": 226,
+   "electors": 196597,
+   "secs": 336,
+   "finished": "2026-11-14 06:19:52 IST"
+  },
   {
    "year": "2025",
    "ac": "136 - Nandikotkur",
@@ -229,24 +247,6 @@
    "electors": 241832,
    "secs": 405,
    "finished": "2026-11-14 05:46:59 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "141 - Dhone",
-   "worker": "mac",
-   "parts": 291,
-   "electors": 234864,
-   "secs": 434,
-   "finished": "2026-11-14 05:38:54 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "142 - Pattikonda",
-   "worker": "mac",
-   "parts": 257,
-   "electors": 238254,
-   "secs": 383,
-   "finished": "2026-11-14 05:33:49 IST"
   }
  ],
  "failures": [],
@@ -7022,18 +7022,18 @@
    "label": "17 - Nellimarla",
    "district": "Vizianagaram",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 248,
    "processed": 248,
    "needs_review": 4,
    "failed": 0,
    "elapsed_s": 1705,
-   "electors": null,
+   "electors": 220937,
    "rate_per_min": 8.7,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1vcuf_z29jq_5GulVW0GoRPhJBx1bfuDANKyakM_vtbE/edit",
+   "folder": "https://drive.google.com/drive/folders/1OezTO5m7j3IASIhhZTtwcM3Rxxctc1dk"
   },
   {
    "label": "136 - Nandikotkur",
@@ -7107,15 +7107,49 @@
    "label": "18 - Vizianagaram",
    "district": "Vizianagaram",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 260,
-   "processed": 40,
+   "processed": 260,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 153,
+   "electors": null,
+   "rate_per_min": 102.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "135 - Srisailam",
+   "district": "Nandyal",
+   "year": "2025",
+   "state": "done",
+   "total": 226,
+   "processed": 226,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 336,
+   "electors": 196597,
+   "rate_per_min": 40.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1BpFRLyQcXQNPXd6QK1KLQxDHiBzkQu39zdA5Tzmwjts/edit",
+   "folder": "https://drive.google.com/drive/folders/1DiM3xp4gWSO5NZ4Vucp2VhRe-CgoBrg3"
+  },
+  {
+   "label": "19 - Srungavarapukota",
+   "district": "Vizianagaram",
+   "year": "2025",
+   "state": "running",
+   "total": 270,
+   "processed": 0,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 26,
+   "elapsed_s": 0,
    "electors": null,
-   "rate_per_min": 92.3,
-   "eta_s": 143,
+   "rate_per_min": 0,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
