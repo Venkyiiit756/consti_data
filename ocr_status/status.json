@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 06:23:12 PM IST",
- "updated_epoch": 1794660792,
+ "updated": "14 Nov 2026, 06:24:46 PM IST",
+ "updated_epoch": 1794660886,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 06:23 PM IST"
+   "eta": "14 Nov, 06:24 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 159,
    "errors": 0,
    "parts": 42216,
-   "needs_review": 1518,
+   "needs_review": 1545,
    "failed": 0,
    "electors": 37894533,
-   "eta": "14 Nov, 08:53 PM IST"
+   "eta": "14 Nov, 08:54 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 06:23 PM IST"
+   "eta": "14 Nov, 06:24 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 67 - Polavaram (2025)",
-  "updated": "2026-11-14 18:23:08 IST",
+  "updated": "2026-11-14 18:24:43 IST",
   "year": "2025",
   "next": "70 - Nuzvid (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "67 - Polavaram",
    "phase": "OCR",
-   "processed": 60,
+   "processed": 210,
    "total": 284,
-   "parts_per_min": 93.2,
+   "parts_per_min": 94.3,
    "prefetch": "70 - Nuzvid (2025)",
    "uploading": [],
    "done_session": 66,
@@ -97,19 +97,19 @@
      "finished": "2026-11-14 18:07:44 IST"
     }
    ],
-   "load1": 11.42,
+   "load1": 12.06,
    "cores_busy": 8,
-   "updated": "2026-11-14 18:23:08 IST",
-   "updated_epoch": 1794660788,
+   "updated": "2026-11-14 18:24:43 IST",
+   "updated_epoch": 1794660883,
    "fetch": {
     "ac": "70 - Nuzvid",
     "year": "2025",
-    "done": 14,
+    "done": 15,
     "total": 15,
-    "mb": 1159.5,
-    "mbps": 37.25
+    "mb": 1256.5,
+    "mbps": 11.0
    },
-   "age_s": 4
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 307
+   "age_s": 401
   }
  ],
  "throughput_ac_per_hr": 6.0,
@@ -8865,13 +8865,13 @@
    "year": "2025",
    "state": "running",
    "total": 284,
-   "processed": 60,
-   "needs_review": 0,
+   "processed": 220,
+   "needs_review": 27,
    "failed": 0,
-   "elapsed_s": 38,
+   "elapsed_s": 135,
    "electors": null,
-   "rate_per_min": 94.7,
-   "eta_s": 142,
+   "rate_per_min": 97.8,
+   "eta_s": 39,
    "error": "",
    "sheet": "",
    "folder": ""
