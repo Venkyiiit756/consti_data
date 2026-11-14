@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:17:50 PM IST",
- "updated_epoch": 1794646070,
+ "updated": "14 Nov 2026, 02:19:57 PM IST",
+ "updated_epoch": 1794646197,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:17 PM IST"
+   "eta": "14 Nov, 02:19 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 140,
+   "done": 141,
    "errors": 0,
-   "parts": 37794,
+   "parts": 38010,
    "needs_review": 1429,
    "failed": 0,
-   "electors": 33560344,
-   "eta": "14 Nov, 09:34 PM IST"
+   "electors": 33776464,
+   "eta": "14 Nov, 09:24 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:17 PM IST"
+   "eta": "14 Nov, 02:19 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 49 - Rajanagaram (2025)",
-  "updated": "2026-11-14 14:17:47 IST",
+  "phase": "OCR 50 - Rajahmundry City (2025)",
+  "updated": "2026-11-14 14:19:53 IST",
   "year": "2025",
-  "next": "52 - Jaggampeta (2025)",
+  "next": "53 - Rampachodavaram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "49 - Rajanagaram",
+   "ac": "50 - Rajahmundry City",
    "phase": "OCR",
-   "processed": 130,
-   "total": 216,
-   "parts_per_min": 95.6,
-   "prefetch": "52 - Jaggampeta (2025)",
+   "processed": 110,
+   "total": 241,
+   "parts_per_min": 77.6,
+   "prefetch": "53 - Rampachodavaram (2025)",
    "uploading": [],
-   "done_session": 48,
-   "parts_session": 12634,
+   "done_session": 49,
+   "parts_session": 12850,
    "last": [
+    {
+     "ac": "49 - Rajanagaram",
+     "year": "2025",
+     "parts": 216,
+     "secs": 211,
+     "finished": "2026-11-14 14:18:42 IST"
+    },
     {
      "ac": "48 - Mandapeta",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 205,
      "secs": 1066,
      "finished": "2026-11-14 13:48:55 IST"
-    },
-    {
-     "ac": "44 - Amalapuram",
-     "year": "2025",
-     "parts": 235,
-     "secs": 613,
-     "finished": "2026-11-14 13:33:52 IST"
     }
    ],
-   "load1": 10.78,
+   "load1": 10.81,
    "cores_busy": 8,
-   "updated": "2026-11-14 14:17:47 IST",
-   "updated_epoch": 1794646067,
+   "updated": "2026-11-14 14:19:53 IST",
+   "updated_epoch": 1794646193,
    "fetch": {
-    "ac": "52 - Jaggampeta",
+    "ac": "53 - Rampachodavaram",
     "year": "2025",
-    "done": 14,
-    "total": 17,
-    "mb": 1056.7,
-    "mbps": 16.21
+    "done": 16,
+    "total": 19,
+    "mb": 1261.0,
+    "mbps": 15.66
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -118,13 +118,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "82 - Mylavaram",
+   "ac": "81 - Vijayawada East",
    "phase": "OCR",
-   "processed": 290,
-   "total": 296,
-   "parts_per_min": 2.4,
-   "prefetch": "79 - Vijayawada West (2025)",
-   "uploading": [],
+   "processed": 0,
+   "total": 298,
+   "parts_per_min": 0.0,
+   "prefetch": "",
+   "uploading": [
+    "82 - Mylavaram"
+   ],
    "done_session": 92,
    "parts_session": 25160,
    "last": [
@@ -164,23 +166,25 @@
      "finished": "2026-11-14 11:52:24 IST"
     }
    ],
-   "load1": 55.46,
-   "cores_busy": 6,
-   "updated": "2026-11-14 14:16:45 IST",
-   "updated_epoch": 1794646005,
-   "fetch": {
-    "ac": "79 - Vijayawada West",
-    "year": "2025",
-    "done": 17,
-    "total": 17,
-    "mb": 1352.7,
-    "mbps": 7.82
-   },
-   "age_s": 65
+   "load1": 109.18,
+   "cores_busy": 10,
+   "updated": "2026-11-14 14:19:01 IST",
+   "updated_epoch": 1794646141,
+   "fetch": null,
+   "age_s": 56
   }
  ],
  "throughput_ac_per_hr": 4.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "49 - Rajanagaram",
+   "worker": "box",
+   "parts": 216,
+   "electors": 216120,
+   "secs": 122,
+   "finished": "2026-11-14 14:18:39 IST"
+  },
   {
    "year": "2025",
    "ac": "48 - Mandapeta",
@@ -243,15 +247,6 @@
    "electors": 203193,
    "secs": 1680,
    "finished": "2026-11-14 12:49:56 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "41 - Kakinada City",
-   "worker": "box",
-   "parts": 234,
-   "electors": 241988,
-   "secs": 142,
-   "finished": "2026-11-14 12:21:54 IST"
   }
  ],
  "failures": [],
@@ -8540,15 +8535,32 @@
    "label": "49 - Rajanagaram",
    "district": "East Godavari",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 216,
-   "processed": 140,
+   "processed": 216,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 82,
+   "elapsed_s": 122,
+   "electors": 216120,
+   "rate_per_min": 106.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1hKn4fLgXm9xHZCbfVQFFWyBYrHY0Sfv9fICmdA4vBOA/edit",
+   "folder": "https://drive.google.com/drive/folders/1aZBF9-dcyGOa7dLJhH4lMTl-73DEy1mj"
+  },
+  {
+   "label": "50 - Rajahmundry City",
+   "district": "East Godavari",
+   "year": "2025",
+   "state": "running",
+   "total": 241,
+   "processed": 110,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 83,
    "electors": null,
-   "rate_per_min": 102.4,
-   "eta_s": 45,
+   "rate_per_min": 79.5,
+   "eta_s": 99,
    "error": "",
    "sheet": "",
    "folder": ""
