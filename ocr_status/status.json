@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 07:23:29 AM IST",
- "updated_epoch": 1794621209,
+ "updated": "14 Nov 2026, 07:23:32 AM IST",
+ "updated_epoch": 1794621212,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 22 - Visakhapatnam South (2025)",
-  "updated": "2026-11-14 07:23:26 IST",
+  "updated": "2026-11-14 07:23:31 IST",
   "year": "2025",
   "next": "25 - Gajuwaka (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -55,7 +55,7 @@
    "phase": "OCR",
    "processed": 100,
    "total": 236,
-   "parts_per_min": 77.8,
+   "parts_per_min": 73.0,
    "prefetch": "25 - Gajuwaka (2025)",
    "uploading": [
     "21 - Visakhapatnam East"
@@ -99,10 +99,10 @@
      "finished": "2026-11-14 05:50:53 IST"
     }
    ],
-   "load1": 13.17,
+   "load1": 13.08,
    "cores_busy": 8,
-   "updated": "2026-11-14 07:23:26 IST",
-   "updated_epoch": 1794621206,
+   "updated": "2026-11-14 07:23:31 IST",
+   "updated_epoch": 1794621211,
    "fetch": {
     "ac": "25 - Gajuwaka",
     "year": "2025",
@@ -111,7 +111,7 @@
     "mb": 1530.3,
     "mbps": 36.99
    },
-   "age_s": 3
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -122,9 +122,9 @@
    "year": "2025",
    "ac": "125 - Rajampet",
    "phase": "OCR",
-   "processed": 20,
+   "processed": 40,
    "total": 288,
-   "parts_per_min": 34.4,
+   "parts_per_min": 36.7,
    "prefetch": "122 - Venkatagiri (2025)",
    "uploading": [
     "126 - Kadapa"
@@ -168,19 +168,19 @@
      "finished": "2026-11-14 06:49:33 IST"
     }
    ],
-   "load1": 23.99,
+   "load1": 26.77,
    "cores_busy": 10,
-   "updated": "2026-11-14 07:22:16 IST",
-   "updated_epoch": 1794621136,
+   "updated": "2026-11-14 07:22:47 IST",
+   "updated_epoch": 1794621167,
    "fetch": {
     "ac": "122 - Venkatagiri",
     "year": "2025",
-    "done": 4,
+    "done": 8,
     "total": 17,
-    "mb": 288.5,
-    "mbps": 12.19
+    "mb": 676.9,
+    "mbps": 13.11
    },
-   "age_s": 73
+   "age_s": 45
   }
  ],
  "throughput_ac_per_hr": 11.3,
@@ -7339,13 +7339,13 @@
    "year": "2025",
    "state": "running",
    "total": 236,
-   "processed": 100,
+   "processed": 110,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 77,
+   "elapsed_s": 83,
    "electors": null,
-   "rate_per_min": 77.9,
-   "eta_s": 105,
+   "rate_per_min": 79.5,
+   "eta_s": 95,
    "error": "",
    "sheet": "",
    "folder": ""
