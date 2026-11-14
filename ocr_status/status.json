@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:13:03 AM IST",
- "updated_epoch": 1794624183,
+ "updated": "14 Nov 2026, 08:15:07 AM IST",
+ "updated_epoch": 1794624307,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:13 AM IST"
+   "eta": "14 Nov, 08:15 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 80,
+   "done": 81,
    "errors": 0,
-   "parts": 22083,
-   "needs_review": 747,
+   "parts": 22326,
+   "needs_review": 750,
    "failed": 0,
-   "electors": 19456561,
-   "eta": "14 Nov, 04:03 PM IST"
+   "electors": 19681229,
+   "eta": "14 Nov, 03:35 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:13 AM IST"
+   "eta": "14 Nov, 08:15 AM IST"
   }
  },
  "batch": {
-  "phase": "OCR 26 - Chodavaram (2025)",
-  "updated": "2026-11-14 08:12:59 IST",
+  "phase": "OCR 27 - Madugula (2025)",
+  "updated": "2026-11-14 08:15:04 IST",
   "year": "2025",
-  "next": "29 - Paderu (2025)",
+  "next": "30 - Anakapalle (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "26 - Chodavaram",
+   "ac": "27 - Madugula",
    "phase": "OCR",
-   "processed": 90,
-   "total": 243,
-   "parts_per_min": 98.6,
-   "prefetch": "29 - Paderu (2025)",
+   "processed": 50,
+   "total": 235,
+   "parts_per_min": 81.5,
+   "prefetch": "30 - Anakapalle (2025)",
    "uploading": [],
-   "done_session": 25,
-   "parts_session": 6918,
+   "done_session": 26,
+   "parts_session": 7161,
    "last": [
+    {
+     "ac": "26 - Chodavaram",
+     "year": "2025",
+     "parts": 243,
+     "secs": 1411,
+     "finished": "2026-11-14 08:14:41 IST"
+    },
     {
      "ac": "25 - Gajuwaka",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 236,
      "secs": 630,
      "finished": "2026-11-14 07:31:42 IST"
-    },
-    {
-     "ac": "21 - Visakhapatnam East",
-     "year": "2025",
-     "parts": 282,
-     "secs": 2483,
-     "finished": "2026-11-14 07:29:28 IST"
     }
    ],
-   "load1": 11.38,
+   "load1": 10.61,
    "cores_busy": 8,
-   "updated": "2026-11-14 08:12:59 IST",
-   "updated_epoch": 1794624179,
+   "updated": "2026-11-14 08:15:04 IST",
+   "updated_epoch": 1794624304,
    "fetch": {
-    "ac": "29 - Paderu",
+    "ac": "30 - Anakapalle",
     "year": "2025",
     "done": 14,
-    "total": 16,
-    "mb": 1157.1,
-    "mbps": 43.97
+    "total": 14,
+    "mb": 1155.5,
+    "mbps": 44.94
    },
-   "age_s": 4
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -118,13 +118,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "119 - Sarvepalli",
+   "ac": "118 - Nellore Rural",
    "phase": "OCR",
-   "processed": 230,
-   "total": 284,
-   "parts_per_min": 36.3,
-   "prefetch": "116 - Kovur (2025)",
-   "uploading": [],
+   "processed": 30,
+   "total": 287,
+   "parts_per_min": 33.0,
+   "prefetch": "115 - Atmakur (2025)",
+   "uploading": [
+    "119 - Sarvepalli"
+   ],
    "done_session": 55,
    "parts_session": 15165,
    "last": [
@@ -164,23 +166,32 @@
      "finished": "2026-11-14 07:36:33 IST"
     }
    ],
-   "load1": 16.81,
+   "load1": 18.85,
    "cores_busy": 10,
-   "updated": "2026-11-14 08:11:52 IST",
-   "updated_epoch": 1794624112,
+   "updated": "2026-11-14 08:13:55 IST",
+   "updated_epoch": 1794624235,
    "fetch": {
-    "ac": "116 - Kovur",
+    "ac": "115 - Atmakur",
     "year": "2025",
-    "done": 17,
-    "total": 17,
-    "mb": 1354.1,
-    "mbps": 9.23
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 71
+   "age_s": 72
   }
  ],
- "throughput_ac_per_hr": 12.0,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "26 - Chodavaram",
+   "worker": "box",
+   "parts": 243,
+   "electors": 224668,
+   "secs": 143,
+   "finished": "2026-11-14 08:14:38 IST"
+  },
   {
    "year": "2025",
    "ac": "25 - Gajuwaka",
@@ -243,15 +254,6 @@
    "electors": 241340,
    "secs": 484,
    "finished": "2026-11-14 07:43:59 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "124 - Badvel",
-   "worker": "mac",
-   "parts": 272,
-   "electors": 226860,
-   "secs": 400,
-   "finished": "2026-11-14 07:35:52 IST"
   }
  ],
  "failures": [],
@@ -7520,15 +7522,32 @@
    "label": "26 - Chodavaram",
    "district": "Anakapalli",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 243,
-   "processed": 100,
-   "needs_review": 3,
+   "processed": 243,
+   "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 58,
+   "elapsed_s": 143,
+   "electors": 224668,
+   "rate_per_min": 102.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1d4XEYWS1hOZzQpv4rWdFxAI8nX2YSpE2T3Gmx4k4H-E/edit",
+   "folder": "https://drive.google.com/drive/folders/1V7neQZsMZwmFLZUcwJZwULEkRSMSLUCC"
+  },
+  {
+   "label": "27 - Madugula",
+   "district": "Anakapalli",
+   "year": "2025",
+   "state": "running",
+   "total": 235,
+   "processed": 60,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 37,
    "electors": null,
-   "rate_per_min": 103.4,
-   "eta_s": 83,
+   "rate_per_min": 97.3,
+   "eta_s": 108,
    "error": "",
    "sheet": "",
    "folder": ""
