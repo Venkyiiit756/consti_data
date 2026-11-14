@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 11:18:32 AM IST",
- "updated_epoch": 1794635312,
+ "updated": "14 Nov 2026, 11:19:57 AM IST",
+ "updated_epoch": 1794635397,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 11:18 AM IST"
+   "eta": "14 Nov, 11:19 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 113,
+   "done": 118,
    "errors": 0,
-   "parts": 31183,
-   "needs_review": 1272,
+   "parts": 32487,
+   "needs_review": 1290,
    "failed": 0,
-   "electors": 27314633,
-   "eta": "14 Nov, 05:24 PM IST"
+   "electors": 28555983,
+   "eta": "14 Nov, 03:45 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 11:18 AM IST"
+   "eta": "14 Nov, 11:19 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 37 - Pithapuram (2025)",
-  "updated": "2026-11-14 11:18:30 IST",
+  "updated": "2026-11-14 11:19:55 IST",
   "year": "2025",
-  "next": "39 - Peddapuram (2025)",
+  "next": "40 - Anaparthi (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -53,16 +53,21 @@
    "year": "2025",
    "ac": "37 - Pithapuram",
    "phase": "OCR",
-   "processed": 20,
+   "processed": 170,
    "total": 242,
-   "parts_per_min": 62.0,
-   "prefetch": "39 - Peddapuram (2025)",
-   "uploading": [
-    "36 - Prathipadu"
-   ],
-   "done_session": 35,
-   "parts_session": 9594,
+   "parts_per_min": 97.7,
+   "prefetch": "40 - Anaparthi (2025)",
+   "uploading": [],
+   "done_session": 36,
+   "parts_session": 9821,
    "last": [
+    {
+     "ac": "36 - Prathipadu",
+     "year": "2025",
+     "parts": 227,
+     "secs": 1736,
+     "finished": "2026-11-14 11:18:38 IST"
+    },
     {
      "ac": "35 - Tuni",
      "year": "2025",
@@ -90,26 +95,19 @@
      "parts": 246,
      "secs": 1205,
      "finished": "2026-11-14 10:14:51 IST"
-    },
-    {
-     "ac": "31 - Pendurthi",
-     "year": "2025",
-     "parts": 299,
-     "secs": 506,
-     "finished": "2026-11-14 09:55:46 IST"
     }
    ],
-   "load1": 10.71,
+   "load1": 11.53,
    "cores_busy": 8,
-   "updated": "2026-11-14 11:18:30 IST",
-   "updated_epoch": 1794635310,
+   "updated": "2026-11-14 11:19:55 IST",
+   "updated_epoch": 1794635395,
    "fetch": {
-    "ac": "39 - Peddapuram",
+    "ac": "40 - Anaparthi",
     "year": "2025",
-    "done": 13,
-    "total": 14,
-    "mb": 1055.7,
-    "mbps": 0.67
+    "done": 12,
+    "total": 15,
+    "mb": 964.3,
+    "mbps": 13.86
    },
    "age_s": 2
   },
@@ -120,13 +118,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "92 - Bapatla",
+   "ac": "91 - Tenali",
    "phase": "OCR",
-   "processed": 150,
-   "total": 202,
+   "processed": 30,
+   "total": 273,
    "parts_per_min": 37.8,
-   "prefetch": "89 - Vemuru (2025)",
-   "uploading": [],
+   "prefetch": "88 - Ponnur (2025)",
+   "uploading": [
+    "92 - Bapatla"
+   ],
    "done_session": 82,
    "parts_session": 22666,
    "last": [
@@ -166,23 +166,68 @@
      "finished": "2026-11-14 10:47:54 IST"
     }
    ],
-   "load1": 27.39,
+   "load1": 24.33,
    "cores_busy": 10,
-   "updated": "2026-11-14 11:17:02 IST",
-   "updated_epoch": 1794635222,
+   "updated": "2026-11-14 11:19:00 IST",
+   "updated_epoch": 1794635340,
    "fetch": {
-    "ac": "89 - Vemuru",
+    "ac": "88 - Ponnur",
     "year": "2025",
-    "done": 13,
-    "total": 13,
-    "mb": 882.0,
-    "mbps": 6.44
+    "done": 1,
+    "total": 15,
+    "mb": 93.7,
+    "mbps": 5.63
    },
-   "age_s": 90
+   "age_s": 57
   }
  ],
- "throughput_ac_per_hr": 10.0,
+ "throughput_ac_per_hr": 12.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "36 - Prathipadu",
+   "worker": "box",
+   "parts": 227,
+   "electors": 217649,
+   "secs": 1635,
+   "finished": "2026-11-14 11:18:35 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "93 - Prathipadu SC",
+   "worker": "mac",
+   "parts": 288,
+   "electors": 268303,
+   "secs": 426,
+   "finished": "2026-11-14 11:15:34 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "94 - Guntur West",
+   "worker": "mac",
+   "parts": 291,
+   "electors": 277813,
+   "secs": 424,
+   "finished": "2026-11-14 11:07:30 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "95 - Guntur East",
+   "worker": "mac",
+   "parts": 256,
+   "electors": 251244,
+   "secs": 387,
+   "finished": "2026-11-14 10:59:56 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "96 - Chilakaluripet",
+   "worker": "mac",
+   "parts": 242,
+   "electors": 226341,
+   "secs": 360,
+   "finished": "2026-11-14 10:52:53 IST"
+  },
   {
    "year": "2025",
    "ac": "35 - Tuni",
@@ -209,51 +254,6 @@
    "electors": 232983,
    "secs": 400,
    "finished": "2026-11-14 10:47:46 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "98 - Sattenapalle",
-   "worker": "mac",
-   "parts": 274,
-   "electors": 242143,
-   "secs": 400,
-   "finished": "2026-11-14 10:41:45 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "99 - Vinukonda",
-   "worker": "mac",
-   "parts": 299,
-   "electors": 264679,
-   "secs": 429,
-   "finished": "2026-11-14 10:35:50 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "100 - Gurajala",
-   "worker": "mac",
-   "parts": 304,
-   "electors": 274422,
-   "secs": 454,
-   "finished": "2026-11-14 10:27:32 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "101 - Macherla",
-   "worker": "mac",
-   "parts": 299,
-   "electors": 262786,
-   "secs": 428,
-   "finished": "2026-11-14 10:18:53 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "33 - Payakaraopet",
-   "worker": "box",
-   "parts": 292,
-   "electors": 251093,
-   "secs": 166,
-   "finished": "2026-11-14 10:17:37 IST"
   }
  ],
  "failures": [],
@@ -8083,18 +8083,18 @@
    "label": "36 - Prathipadu",
    "district": "Kakinada",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 227,
    "processed": 227,
    "needs_review": 0,
    "failed": 0,
    "elapsed_s": 1634,
-   "electors": null,
+   "electors": 217649,
    "rate_per_min": 8.3,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1HYvjPdI8gUqqjt4uiU6B-lXF4rLxoLlz2j5d-_k-pfM/edit",
+   "folder": "https://drive.google.com/drive/folders/1iG6N-vGNYiS6WI7yYQlBuJREQF1YGmZL"
   },
   {
    "label": "37 - Pithapuram",
@@ -8102,16 +8102,84 @@
    "year": "2025",
    "state": "running",
    "total": 242,
-   "processed": 30,
+   "processed": 170,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 19,
+   "elapsed_s": 102,
    "electors": null,
-   "rate_per_min": 94.7,
-   "eta_s": 134,
+   "rate_per_min": 100.0,
+   "eta_s": 43,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "93 - Prathipadu SC",
+   "district": "Guntur",
+   "year": "2025",
+   "state": "done",
+   "total": 288,
+   "processed": 288,
+   "needs_review": 9,
+   "failed": 0,
+   "elapsed_s": 426,
+   "electors": 268303,
+   "rate_per_min": 40.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1FxuUD--MZ6P-DflWx8aog6fsDYcNCYhsYP_49gLN56I/edit",
+   "folder": "https://drive.google.com/drive/folders/1POPZuv_TOrN_WIL9wZFTpzncf76Wpfv9"
+  },
+  {
+   "label": "94 - Guntur West",
+   "district": "Guntur",
+   "year": "2025",
+   "state": "done",
+   "total": 291,
+   "processed": 291,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 424,
+   "electors": 277813,
+   "rate_per_min": 41.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1WcWnLJgqM8up0dL4XhCUYdHppz1fz__qdSam45_Z7CU/edit",
+   "folder": "https://drive.google.com/drive/folders/1L1NhqvknCiPDwR9HM4634gdATYBrKRUU"
+  },
+  {
+   "label": "95 - Guntur East",
+   "district": "Guntur",
+   "year": "2025",
+   "state": "done",
+   "total": 256,
+   "processed": 256,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 387,
+   "electors": 251244,
+   "rate_per_min": 39.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1yHPkB8eVTOJjEJmb0L2RJfSOg2-BpXGhuJ1SDHak6-E/edit",
+   "folder": "https://drive.google.com/drive/folders/1GgHq7YF9MQofs8abHwmAWof2id4SHi1P"
+  },
+  {
+   "label": "96 - Chilakaluripet",
+   "district": "Palnadu",
+   "year": "2025",
+   "state": "done",
+   "total": 242,
+   "processed": 242,
+   "needs_review": 3,
+   "failed": 0,
+   "elapsed_s": 360,
+   "electors": 226341,
+   "rate_per_min": 40.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1Noj3g6ZKA3KcdBsncXCkYAAy3s_XjHFyJ2p91AvFF_Q/edit",
+   "folder": "https://drive.google.com/drive/folders/193yMsbjAOgVGuNWXT6BT6YReG1d9Vdj4"
   }
  ]
 }
