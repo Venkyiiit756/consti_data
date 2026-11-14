@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:56:05 PM IST",
- "updated_epoch": 1794669965,
+ "updated": "14 Nov 2026, 09:22:19 PM IST",
+ "updated_epoch": 1794671539,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:56 PM IST"
+   "eta": "14 Nov, 09:22 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1639,
    "failed": 0,
    "electors": 39929636,
-   "eta": "14 Nov, 10:26 PM IST"
+   "eta": "14 Nov, 10:52 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:56 PM IST"
+   "eta": "14 Nov, 09:22 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 76 - Avanigadda (2025)",
-  "updated": "2026-11-14 20:56:01 IST",
+  "updated": "2026-11-14 21:22:18 IST",
   "year": "2025",
   "next": "79 - Vijayawada West (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "76 - Avanigadda",
    "phase": "OCR",
-   "processed": 130,
+   "processed": 150,
    "total": 267,
-   "parts_per_min": 76.8,
+   "parts_per_min": 5.4,
    "prefetch": "79 - Vijayawada West (2025)",
    "uploading": [],
    "done_session": 75,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 20:16:45 IST"
     }
    ],
-   "load1": 13.86,
+   "load1": 13.4,
    "cores_busy": 8,
-   "updated": "2026-11-14 20:56:01 IST",
-   "updated_epoch": 1794669961,
+   "updated": "2026-11-14 21:22:18 IST",
+   "updated_epoch": 1794671538,
    "fetch": {
     "ac": "79 - Vijayawada West",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1351.3,
     "mbps": 19.45
    },
-   "age_s": 4
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 135
+   "age_s": 1709
   }
  ],
  "throughput_ac_per_hr": 4.0,
@@ -9018,13 +9018,13 @@
    "year": "2025",
    "state": "running",
    "total": 267,
-   "processed": 140,
+   "processed": 150,
    "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 103,
+   "elapsed_s": 1672,
    "electors": null,
-   "rate_per_min": 81.6,
-   "eta_s": 93,
+   "rate_per_min": 5.4,
+   "eta_s": 1304,
    "error": "",
    "sheet": "",
    "folder": ""
