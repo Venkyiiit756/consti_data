@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:23:47 AM IST",
- "updated_epoch": 1794624827,
+ "updated": "14 Nov 2026, 08:48:08 AM IST",
+ "updated_epoch": 1794626288,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:23 AM IST"
+   "eta": "14 Nov, 08:48 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 84,
+   "done": 85,
    "errors": 0,
-   "parts": 23132,
-   "needs_review": 768,
+   "parts": 23410,
+   "needs_review": 774,
    "failed": 0,
-   "electors": 20382403,
-   "eta": "14 Nov, 03:08 PM IST"
+   "electors": 20611491,
+   "eta": "14 Nov, 04:39 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:23 AM IST"
+   "eta": "14 Nov, 08:48 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 28 - Araku Valley (2025)",
-  "updated": "2026-11-14 08:23:46 IST",
+  "updated": "2026-11-14 08:48:06 IST",
   "year": "2025",
   "next": "31 - Pendurthi (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "28 - Araku Valley",
    "phase": "OCR",
-   "processed": 200,
+   "processed": 250,
    "total": 306,
-   "parts_per_min": 98.3,
+   "parts_per_min": 9.5,
    "prefetch": "31 - Pendurthi (2025)",
    "uploading": [],
    "done_session": 27,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 07:52:42 IST"
     }
    ],
-   "load1": 11.19,
+   "load1": 10.76,
    "cores_busy": 8,
-   "updated": "2026-11-14 08:23:46 IST",
-   "updated_epoch": 1794624826,
+   "updated": "2026-11-14 08:48:06 IST",
+   "updated_epoch": 1794626286,
    "fetch": {
     "ac": "31 - Pendurthi",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1628.1,
     "mbps": 15.86
    },
-   "age_s": 1
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -118,16 +118,37 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "117 - Nellore City",
+   "ac": "114 - Kavali",
    "phase": "OCR",
-   "processed": 110,
-   "total": 248,
-   "parts_per_min": 36.2,
-   "prefetch": "114 - Kavali (2025)",
+   "processed": 220,
+   "total": 314,
+   "parts_per_min": 38.3,
+   "prefetch": "111 - Markapuram (2025)",
    "uploading": [],
-   "done_session": 57,
-   "parts_session": 15736,
+   "done_session": 60,
+   "parts_session": 16586,
    "last": [
+    {
+     "ac": "115 - Atmakur",
+     "year": "2025",
+     "parts": 278,
+     "secs": 651,
+     "finished": "2026-11-14 08:42:42 IST"
+    },
+    {
+     "ac": "116 - Kovur",
+     "year": "2025",
+     "parts": 324,
+     "secs": 880,
+     "finished": "2026-11-14 08:38:46 IST"
+    },
+    {
+     "ac": "117 - Nellore City",
+     "year": "2025",
+     "parts": 248,
+     "secs": 552,
+     "finished": "2026-11-14 08:27:57 IST"
+    },
     {
      "ac": "118 - Nellore Rural",
      "year": "2025",
@@ -141,46 +162,34 @@
      "parts": 284,
      "secs": 854,
      "finished": "2026-11-14 08:17:30 IST"
-    },
-    {
-     "ac": "120 - Gudur",
-     "year": "2025",
-     "parts": 294,
-     "secs": 663,
-     "finished": "2026-11-14 08:07:46 IST"
-    },
-    {
-     "ac": "121 - Sullurpeta",
-     "year": "2025",
-     "parts": 304,
-     "secs": 735,
-     "finished": "2026-11-14 07:59:28 IST"
-    },
-    {
-     "ac": "122 - Venkatagiri",
-     "year": "2025",
-     "parts": 298,
-     "secs": 755,
-     "finished": "2026-11-14 07:53:49 IST"
     }
    ],
-   "load1": 44.65,
+   "load1": 19.69,
    "cores_busy": 10,
-   "updated": "2026-11-14 08:23:11 IST",
-   "updated_epoch": 1794624791,
+   "updated": "2026-11-14 08:47:14 IST",
+   "updated_epoch": 1794626234,
    "fetch": {
-    "ac": "114 - Kavali",
+    "ac": "111 - Markapuram",
     "year": "2025",
-    "done": 17,
-    "total": 17,
-    "mb": 1347.9,
-    "mbps": 11.96
+    "done": 15,
+    "total": 15,
+    "mb": 1061.7,
+    "mbps": 5.52
    },
-   "age_s": 36
+   "age_s": 54
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 11.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "115 - Atmakur",
+   "worker": "mac",
+   "parts": 278,
+   "electors": 229088,
+   "secs": 418,
+   "finished": "2026-11-14 08:42:34 IST"
+  },
   {
    "year": "2025",
    "ac": "118 - Nellore Rural",
@@ -243,15 +252,6 @@
    "electors": 244825,
    "secs": 430,
    "finished": "2026-11-14 08:07:34 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "121 - Sullurpeta",
-   "worker": "mac",
-   "parts": 304,
-   "electors": 248788,
-   "secs": 449,
-   "finished": "2026-11-14 07:58:51 IST"
   }
  ],
  "failures": [],
@@ -7556,13 +7556,13 @@
    "year": "2025",
    "state": "running",
    "total": 306,
-   "processed": 200,
+   "processed": 260,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 119,
+   "elapsed_s": 1583,
    "electors": null,
-   "rate_per_min": 100.8,
-   "eta_s": 63,
+   "rate_per_min": 9.9,
+   "eta_s": 280,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -7600,6 +7600,23 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1Bk-ZwpkCCNm9rZcRiz7w4c1Zam3T4_Leq6wODVJDVhM/edit",
    "folder": "https://drive.google.com/drive/folders/1K9b7HmNTXVgRkgh4KKQvZB3RaAUCSxY-"
+  },
+  {
+   "label": "115 - Atmakur",
+   "district": "Nellore",
+   "year": "2025",
+   "state": "done",
+   "total": 278,
+   "processed": 278,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 418,
+   "electors": 229088,
+   "rate_per_min": 39.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/18L0lHVouTCoH_c3YBjp5wzJ5B8K2JAJYrbzvV3IA6nU/edit",
+   "folder": "https://drive.google.com/drive/folders/12590DB82zYnpNi7MF3OrLP4fPlGP-fCw"
   }
  ]
 }
