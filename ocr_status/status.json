@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 06:53:02 PM IST",
- "updated_epoch": 1794662582,
+ "updated": "14 Nov 2026, 07:00:11 PM IST",
+ "updated_epoch": 1794663011,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 06:53 PM IST"
+   "eta": "14 Nov, 07:00 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 160,
+   "done": 161,
    "errors": 0,
-   "parts": 42500,
-   "needs_review": 1589,
+   "parts": 42773,
+   "needs_review": 1592,
    "failed": 0,
-   "electors": 38155824,
-   "eta": "14 Nov, 08:59 PM IST"
+   "electors": 38428741,
+   "eta": "14 Nov, 09:26 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 06:53 PM IST"
+   "eta": "14 Nov, 07:00 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 68 - Chintalapudi (2025)",
-  "updated": "2026-11-14 18:53:02 IST",
+  "phase": "OCR 69 - Tiruvuru (2025)",
+  "updated": "2026-11-14 19:00:10 IST",
   "year": "2025",
-  "next": "71 - Gannavaram Krishna (2025)",
+  "next": "72 - Gudivada (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "68 - Chintalapudi",
+   "ac": "69 - Tiruvuru",
    "phase": "OCR",
-   "processed": 190,
-   "total": 273,
-   "parts_per_min": 93.5,
-   "prefetch": "71 - Gannavaram Krishna (2025)",
+   "processed": 110,
+   "total": 234,
+   "parts_per_min": 83.1,
+   "prefetch": "72 - Gudivada (2025)",
    "uploading": [],
-   "done_session": 67,
-   "parts_session": 17044,
+   "done_session": 68,
+   "parts_session": 17317,
    "last": [
+    {
+     "ac": "68 - Chintalapudi",
+     "year": "2025",
+     "parts": 273,
+     "secs": 595,
+     "finished": "2026-11-14 18:59:41 IST"
+    },
     {
      "ac": "67 - Polavaram",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 239,
      "secs": 179,
      "finished": "2026-11-14 18:14:37 IST"
-    },
-    {
-     "ac": "63 - Ungutur",
-     "year": "2025",
-     "parts": 214,
-     "secs": 357,
-     "finished": "2026-11-14 18:12:52 IST"
     }
    ],
-   "load1": 11.19,
+   "load1": 11.44,
    "cores_busy": 8,
-   "updated": "2026-11-14 18:53:02 IST",
-   "updated_epoch": 1794662582,
+   "updated": "2026-11-14 19:00:10 IST",
+   "updated_epoch": 1794663010,
    "fetch": {
-    "ac": "71 - Gannavaram Krishna",
+    "ac": "72 - Gudivada",
     "year": "2025",
-    "done": 17,
-    "total": 18,
-    "mb": 1353.1,
-    "mbps": 17.37
+    "done": 13,
+    "total": 14,
+    "mb": 1154.9,
+    "mbps": 17.28
    },
-   "age_s": 0
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -164,10 +164,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 156.8,
+   "load1": 148.14,
    "cores_busy": 10,
-   "updated": "2026-11-14 18:49:02 IST",
-   "updated_epoch": 1794662342,
+   "updated": "2026-11-14 18:51:01 IST",
+   "updated_epoch": 1794662461,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -176,11 +176,20 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 240
+   "age_s": 550
   }
  ],
- "throughput_ac_per_hr": 6.7,
+ "throughput_ac_per_hr": 5.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "68 - Chintalapudi",
+   "worker": "box",
+   "parts": 273,
+   "electors": 272917,
+   "secs": 470,
+   "finished": "2026-11-14 18:59:38 IST"
+  },
   {
    "year": "2025",
    "ac": "67 - Polavaram",
@@ -243,15 +252,6 @@
    "electors": 233158,
    "secs": 1526,
    "finished": "2026-11-14 18:06:42 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "60 - Undi",
-   "worker": "box",
-   "parts": 238,
-   "electors": 225017,
-   "secs": 1766,
-   "finished": "2026-11-14 17:25:38 IST"
   }
  ],
  "failures": [],
@@ -8880,15 +8880,32 @@
    "label": "68 - Chintalapudi",
    "district": "Eluru",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 273,
-   "processed": 190,
-   "needs_review": 9,
+   "processed": 273,
+   "needs_review": 12,
    "failed": 0,
-   "elapsed_s": 118,
+   "elapsed_s": 470,
+   "electors": 272917,
+   "rate_per_min": 34.9,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1NRCv-So-esbofHriFz3Oeg5GZQol4zO6OLjvKrs032M/edit",
+   "folder": "https://drive.google.com/drive/folders/1EaZUZBo53DrBZEH7fNTwtlBpV_-8NEek"
+  },
+  {
+   "label": "69 - Tiruvuru",
+   "district": "NTR",
+   "year": "2025",
+   "state": "running",
+   "total": 234,
+   "processed": 110,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 75,
    "electors": null,
-   "rate_per_min": 96.6,
-   "eta_s": 52,
+   "rate_per_min": 88.0,
+   "eta_s": 85,
    "error": "",
    "sheet": "",
    "folder": ""
