@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 10:28:32 PM IST",
- "updated_epoch": 1794675512,
+ "updated": "14 Nov 2026, 10:30:36 PM IST",
+ "updated_epoch": 1794675636,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 10:28 PM IST"
+   "eta": "14 Nov, 10:30 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1678,
    "failed": 0,
    "electors": 41428460,
-   "eta": "14 Nov, 10:28 PM IST"
+   "eta": "14 Nov, 10:30 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,7 +32,7 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 10:28 PM IST"
+   "eta": "14 Nov, 10:30 PM IST"
   }
  },
  "batch": {
@@ -49,7 +49,7 @@
    "host": "Grok box",
    "cores_total": 8,
    "ocr_workers": 8,
-   "load1": 0.08,
+   "load1": 0.87,
    "phase": "all",
    "year": "2025",
    "ac": "done",
@@ -60,7 +60,7 @@
    "prefetch": "",
    "uploading": [],
    "age_s": 0,
-   "updated_epoch": 1794675512
+   "updated_epoch": 1794675636
   },
   {
    "worker": "mac",
@@ -70,17 +70,22 @@
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
    "ac": "",
-   "phase": "uploading last results",
+   "phase": "all done",
    "processed": 0,
    "total": 0,
    "parts_per_min": 0,
    "prefetch": "",
-   "uploading": [
-    "78 - Penamaluru"
-   ],
-   "done_session": 96,
-   "parts_session": 26274,
+   "uploading": [],
+   "done_session": 97,
+   "parts_session": 26579,
    "last": [
+    {
+     "ac": "78 - Penamaluru",
+     "year": "2025",
+     "parts": 305,
+     "secs": 1264,
+     "finished": "2026-11-14 22:27:55 IST"
+    },
     {
      "ac": "79 - Vijayawada West",
      "year": "2025",
@@ -108,21 +113,14 @@
      "parts": 296,
      "secs": 7981,
      "finished": "2026-11-14 14:26:07 IST"
-    },
-    {
-     "ac": "83 - Nandigama",
-     "year": "2025",
-     "parts": 222,
-     "secs": 608,
-     "finished": "2026-11-14 12:18:48 IST"
     }
    ],
-   "load1": 9.66,
+   "load1": 11.7,
    "cores_busy": 0,
-   "updated": "2026-11-14 22:27:42 IST",
-   "updated_epoch": 1794675462,
+   "updated": "2026-11-14 22:28:49 IST",
+   "updated_epoch": 1794675529,
    "fetch": null,
-   "age_s": 50
+   "age_s": 107
   }
  ],
  "throughput_ac_per_hr": 4.0,
