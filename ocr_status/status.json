@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:50:03 AM IST",
- "updated_epoch": 1794626403,
+ "updated": "14 Nov 2026, 08:50:09 AM IST",
+ "updated_epoch": 1794626409,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -19,7 +19,7 @@
    "done": 88,
    "errors": 0,
    "parts": 24288,
-   "needs_review": 799,
+   "needs_review": 801,
    "failed": 0,
    "electors": 21365200,
    "eta": "14 Nov, 03:17 PM IST"
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 29 - Paderu (2025)",
-  "updated": "2026-11-14 08:50:01 IST",
+  "updated": "2026-11-14 08:50:06 IST",
   "year": "2025",
   "next": "32 - Yelamanchili (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -55,7 +55,7 @@
    "phase": "OCR",
    "processed": 150,
    "total": 318,
-   "parts_per_min": 99.4,
+   "parts_per_min": 94.2,
    "prefetch": "32 - Yelamanchili (2025)",
    "uploading": [],
    "done_session": 28,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 08:09:53 IST"
     }
    ],
-   "load1": 11.91,
+   "load1": 11.92,
    "cores_busy": 8,
-   "updated": "2026-11-14 08:50:01 IST",
-   "updated_epoch": 1794626401,
+   "updated": "2026-11-14 08:50:06 IST",
+   "updated_epoch": 1794626406,
    "fetch": {
     "ac": "32 - Yelamanchili",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1063.4,
     "mbps": 32.99
    },
-   "age_s": 2
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1061.7,
     "mbps": 5.52
    },
-   "age_s": 77
+   "age_s": 83
   }
  ],
  "throughput_ac_per_hr": 13.3,
@@ -7624,13 +7624,13 @@
    "year": "2025",
    "state": "running",
    "total": 318,
-   "processed": 150,
-   "needs_review": 3,
+   "processed": 160,
+   "needs_review": 5,
    "failed": 0,
-   "elapsed_s": 90,
+   "elapsed_s": 97,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 101,
+   "rate_per_min": 99.0,
+   "eta_s": 96,
    "error": "",
    "sheet": "",
    "folder": ""
