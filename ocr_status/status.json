@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 07:00:34 PM IST",
- "updated_epoch": 1794663034,
+ "updated": "14 Nov 2026, 07:20:46 PM IST",
+ "updated_epoch": 1794664246,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 07:00 PM IST"
+   "eta": "14 Nov, 07:20 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 161,
+   "done": 162,
    "errors": 0,
-   "parts": 42773,
-   "needs_review": 1594,
+   "parts": 43007,
+   "needs_review": 1601,
    "failed": 0,
-   "electors": 38428741,
-   "eta": "14 Nov, 09:26 PM IST"
+   "electors": 38636341,
+   "eta": "14 Nov, 09:20 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 07:00 PM IST"
+   "eta": "14 Nov, 07:20 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 69 - Tiruvuru (2025)",
-  "updated": "2026-11-14 19:00:32 IST",
+  "phase": "OCR 70 - Nuzvid (2025)",
+  "updated": "2026-11-14 19:20:42 IST",
   "year": "2025",
-  "next": "72 - Gudivada (2025)",
+  "next": "73 - Kaikalur (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "69 - Tiruvuru",
+   "ac": "70 - Nuzvid",
    "phase": "OCR",
-   "processed": 140,
-   "total": 234,
-   "parts_per_min": 83.0,
-   "prefetch": "72 - Gudivada (2025)",
-   "uploading": [],
+   "processed": 40,
+   "total": 286,
+   "parts_per_min": 80.5,
+   "prefetch": "73 - Kaikalur (2025)",
+   "uploading": [
+    "69 - Tiruvuru"
+   ],
    "done_session": 68,
    "parts_session": 17317,
    "last": [
@@ -97,19 +99,19 @@
      "finished": "2026-11-14 18:14:37 IST"
     }
    ],
-   "load1": 11.31,
+   "load1": 11.04,
    "cores_busy": 8,
-   "updated": "2026-11-14 19:00:32 IST",
-   "updated_epoch": 1794663032,
+   "updated": "2026-11-14 19:20:42 IST",
+   "updated_epoch": 1794664242,
    "fetch": {
-    "ac": "72 - Gudivada",
+    "ac": "73 - Kaikalur",
     "year": "2025",
-    "done": 13,
+    "done": 1,
     "total": 14,
-    "mb": 1154.9,
-    "mbps": 17.28
+    "mb": 0.2,
+    "mbps": 0.03
    },
-   "age_s": 2
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -120,7 +122,7 @@
    "year": "2025",
    "ac": "81 - Vijayawada East",
    "phase": "OCR",
-   "processed": 90,
+   "processed": 100,
    "total": 298,
    "parts_per_min": 0.3,
    "prefetch": "78 - Penamaluru (2025)",
@@ -164,10 +166,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 148.14,
+   "load1": 81.06,
    "cores_busy": 10,
-   "updated": "2026-11-14 18:51:01 IST",
-   "updated_epoch": 1794662461,
+   "updated": "2026-11-14 19:13:46 IST",
+   "updated_epoch": 1794663826,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -176,11 +178,20 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 573
+   "age_s": 420
   }
  ],
- "throughput_ac_per_hr": 5.3,
+ "throughput_ac_per_hr": 6.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "69 - Tiruvuru",
+   "worker": "box",
+   "parts": 234,
+   "electors": 207600,
+   "secs": 1282,
+   "finished": "2026-11-14 19:20:43 IST"
+  },
   {
    "year": "2025",
    "ac": "68 - Chintalapudi",
@@ -243,15 +254,6 @@
    "electors": 213941,
    "secs": 994,
    "finished": "2026-11-14 18:07:41 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "61 - Tanuku",
-   "worker": "box",
-   "parts": 232,
-   "electors": 233158,
-   "secs": 1526,
-   "finished": "2026-11-14 18:06:42 IST"
   }
  ],
  "failures": [],
@@ -8897,15 +8899,32 @@
    "label": "69 - Tiruvuru",
    "district": "NTR",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 234,
-   "processed": 140,
-   "needs_review": 2,
+   "processed": 234,
+   "needs_review": 8,
    "failed": 0,
-   "elapsed_s": 98,
+   "elapsed_s": 1282,
+   "electors": 207600,
+   "rate_per_min": 11.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1gIkP4QdJBQQz0ESki71fZgKcG6kwdbPLPBPSCL_nt7M/edit",
+   "folder": "https://drive.google.com/drive/folders/1ScxMxqiLJk4MHL1dGNt2rvrgbQke3rF9"
+  },
+  {
+   "label": "70 - Nuzvid",
+   "district": "Eluru",
+   "year": "2025",
+   "state": "running",
+   "total": 286,
+   "processed": 50,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 30,
    "electors": null,
-   "rate_per_min": 85.7,
-   "eta_s": 66,
+   "rate_per_min": 100.0,
+   "eta_s": 142,
    "error": "",
    "sheet": "",
    "folder": ""
