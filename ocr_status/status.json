@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:56:43 PM IST",
- "updated_epoch": 1794648403,
+ "updated": "14 Nov 2026, 02:56:49 PM IST",
+ "updated_epoch": 1794648409,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 52 - Jaggampeta (2025)",
-  "updated": "2026-11-14 14:56:41 IST",
+  "updated": "2026-11-14 14:56:46 IST",
   "year": "2025",
   "next": "55 - Nidadavole (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -55,7 +55,7 @@
    "phase": "OCR",
    "processed": 130,
    "total": 248,
-   "parts_per_min": 94.3,
+   "parts_per_min": 88.9,
    "prefetch": "55 - Nidadavole (2025)",
    "uploading": [],
    "done_session": 51,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 14:15:45 IST"
     }
    ],
-   "load1": 11.05,
+   "load1": 10.96,
    "cores_busy": 8,
-   "updated": "2026-11-14 14:56:41 IST",
-   "updated_epoch": 1794648401,
+   "updated": "2026-11-14 14:56:46 IST",
+   "updated_epoch": 1794648406,
    "fetch": {
     "ac": "55 - Nidadavole",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1135.9,
     "mbps": 32.31
    },
-   "age_s": 2
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 100
+   "age_s": 106
   }
  ],
  "throughput_ac_per_hr": 6.0,
@@ -8610,13 +8610,13 @@
    "year": "2025",
    "state": "running",
    "total": 248,
-   "processed": 130,
+   "processed": 140,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 82,
+   "elapsed_s": 88,
    "electors": null,
-   "rate_per_min": 95.1,
-   "eta_s": 74,
+   "rate_per_min": 95.5,
+   "eta_s": 68,
    "error": "",
    "sheet": "",
    "folder": ""
