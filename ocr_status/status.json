@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 09:59:46 PM IST",
- "updated_epoch": 1794673786,
+ "updated": "14 Nov 2026, 10:01:26 PM IST",
+ "updated_epoch": 1794673886,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 09:59 PM IST"
+   "eta": "14 Nov, 10:01 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1678,
    "failed": 0,
    "electors": 41428460,
-   "eta": "14 Nov, 09:59 PM IST"
+   "eta": "14 Nov, 10:01 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,7 +32,7 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 09:59 PM IST"
+   "eta": "14 Nov, 10:01 PM IST"
   }
  },
  "batch": {
@@ -49,7 +49,7 @@
    "host": "Grok box",
    "cores_total": 8,
    "ocr_workers": 8,
-   "load1": 0.28,
+   "load1": 0.09,
    "phase": "all",
    "year": "2025",
    "ac": "done",
@@ -60,7 +60,7 @@
    "prefetch": "",
    "uploading": [],
    "age_s": 0,
-   "updated_epoch": 1794673786
+   "updated_epoch": 1794673886
   },
   {
    "worker": "mac",
@@ -71,9 +71,9 @@
    "year": "2025",
    "ac": "80 - Vijayawada Central",
    "phase": "OCR",
-   "processed": 50,
+   "processed": 70,
    "total": 267,
-   "parts_per_min": 12.7,
+   "parts_per_min": 12.2,
    "prefetch": "",
    "uploading": [],
    "done_session": 94,
@@ -115,12 +115,12 @@
      "finished": "2026-11-14 12:05:52 IST"
     }
    ],
-   "load1": 21.75,
+   "load1": 19.54,
    "cores_busy": 10,
-   "updated": "2026-11-14 21:58:57 IST",
-   "updated_epoch": 1794673737,
+   "updated": "2026-11-14 22:00:44 IST",
+   "updated_epoch": 1794673844,
    "fetch": null,
-   "age_s": 49
+   "age_s": 42
   }
  ],
  "throughput_ac_per_hr": 6.0,
