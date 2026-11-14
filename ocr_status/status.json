@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 09:49:15 PM IST",
- "updated_epoch": 1794673155,
+ "updated": "14 Nov 2026, 09:51:20 PM IST",
+ "updated_epoch": 1794673280,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 09:49 PM IST"
+   "eta": "14 Nov, 09:51 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 171,
+   "done": 172,
    "errors": 0,
-   "parts": 45297,
-   "needs_review": 1660,
+   "parts": 45550,
+   "needs_review": 1674,
    "failed": 0,
-   "electors": 40628385,
-   "eta": "14 Nov, 10:34 PM IST"
+   "electors": 40884966,
+   "eta": "14 Nov, 10:17 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 09:49 PM IST"
+   "eta": "14 Nov, 09:51 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 80 - Vijayawada Central (2025)",
-  "updated": "2026-11-14 21:49:13 IST",
+  "updated": "2026-11-14 21:51:18 IST",
   "year": "2025",
   "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,16 +53,21 @@
    "year": "2025",
    "ac": "80 - Vijayawada Central",
    "phase": "OCR",
-   "processed": 10,
+   "processed": 200,
    "total": 267,
-   "parts_per_min": 43.1,
+   "parts_per_min": 86.3,
    "prefetch": "",
-   "uploading": [
-    "79 - Vijayawada West"
-   ],
-   "done_session": 78,
-   "parts_session": 19841,
+   "uploading": [],
+   "done_session": 79,
+   "parts_session": 20094,
    "last": [
+    {
+     "ac": "79 - Vijayawada West",
+     "year": "2025",
+     "parts": 253,
+     "secs": 1949,
+     "finished": "2026-11-14 21:49:47 IST"
+    },
     {
      "ac": "78 - Penamaluru",
      "year": "2025",
@@ -90,19 +95,12 @@
      "parts": 205,
      "secs": 1708,
      "finished": "2026-11-14 20:54:42 IST"
-    },
-    {
-     "ac": "74 - Pedana",
-     "year": "2025",
-     "parts": 217,
-     "secs": 1953,
-     "finished": "2026-11-14 20:52:55 IST"
     }
    ],
-   "load1": 10.87,
+   "load1": 11.12,
    "cores_busy": 8,
-   "updated": "2026-11-14 21:49:13 IST",
-   "updated_epoch": 1794673153,
+   "updated": "2026-11-14 21:51:18 IST",
+   "updated_epoch": 1794673278,
    "fetch": null,
    "age_s": 2
   },
@@ -159,10 +157,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 42.66,
+   "load1": 34.69,
    "cores_busy": 10,
-   "updated": "2026-11-14 21:47:53 IST",
-   "updated_epoch": 1794673073,
+   "updated": "2026-11-14 21:49:55 IST",
+   "updated_epoch": 1794673195,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -171,11 +169,20 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 82
+   "age_s": 85
   }
  ],
- "throughput_ac_per_hr": 4.0,
+ "throughput_ac_per_hr": 4.7,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "79 - Vijayawada West",
+   "worker": "box",
+   "parts": 253,
+   "electors": 256581,
+   "secs": 165,
+   "finished": "2026-11-14 21:49:44 IST"
+  },
   {
    "year": "2025",
    "ac": "78 - Penamaluru",
@@ -238,15 +245,6 @@
    "electors": 204723,
    "secs": 147,
    "finished": "2026-11-14 20:18:37 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "71 - Gannavaram Krishna",
-   "worker": "box",
-   "parts": 307,
-   "electors": 279593,
-   "secs": 1349,
-   "finished": "2026-11-14 20:16:42 IST"
   }
  ],
  "failures": [],
@@ -9062,18 +9060,18 @@
    "label": "79 - Vijayawada West",
    "district": "NTR",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 253,
    "processed": 253,
    "needs_review": 4,
    "failed": 0,
    "elapsed_s": 165,
-   "electors": null,
+   "electors": 256581,
    "rate_per_min": 92.0,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1tQJjwJXK7EvC1JVODj9DdZle-_VrmOUKhfxTd_xWy0Y/edit",
+   "folder": "https://drive.google.com/drive/folders/1t0NSXW35jEiLQ-hQtrKOO21Lp25J3aiG"
   },
   {
    "label": "80 - Vijayawada Central",
@@ -9081,13 +9079,13 @@
    "year": "2025",
    "state": "running",
    "total": 267,
-   "processed": 20,
-   "needs_review": 0,
+   "processed": 210,
+   "needs_review": 14,
    "failed": 0,
-   "elapsed_s": 15,
+   "elapsed_s": 139,
    "electors": null,
-   "rate_per_min": 80.0,
-   "eta_s": 185,
+   "rate_per_min": 90.6,
+   "eta_s": 38,
    "error": "",
    "sheet": "",
    "folder": ""
