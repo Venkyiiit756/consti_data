@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 10:51:50 AM IST",
- "updated_epoch": 1794633710,
+ "updated": "14 Nov 2026, 10:52:27 AM IST",
+ "updated_epoch": 1794633747,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 10:51 AM IST"
+   "eta": "14 Nov, 10:52 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1272,
    "failed": 0,
    "electors": 27314633,
-   "eta": "14 Nov, 03:40 PM IST"
+   "eta": "14 Nov, 03:41 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 10:51 AM IST"
+   "eta": "14 Nov, 10:52 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 36 - Prathipadu (2025)",
-  "updated": "2026-11-14 10:51:50 IST",
+  "updated": "2026-11-14 10:52:25 IST",
   "year": "2025",
   "next": "39 - Peddapuram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "36 - Prathipadu",
    "phase": "OCR",
-   "processed": 80,
+   "processed": 140,
    "total": 227,
-   "parts_per_min": 88.8,
+   "parts_per_min": 94.3,
    "prefetch": "39 - Peddapuram (2025)",
    "uploading": [],
    "done_session": 35,
@@ -97,19 +97,19 @@
      "finished": "2026-11-14 09:55:46 IST"
     }
    ],
-   "load1": 10.97,
+   "load1": 11.41,
    "cores_busy": 8,
-   "updated": "2026-11-14 10:51:50 IST",
-   "updated_epoch": 1794633710,
+   "updated": "2026-11-14 10:52:25 IST",
+   "updated_epoch": 1794633745,
    "fetch": {
     "ac": "39 - Peddapuram",
     "year": "2025",
-    "done": 2,
+    "done": 12,
     "total": 14,
-    "mb": 190.0,
-    "mbps": 19.57
+    "mb": 1054.3,
+    "mbps": 39.67
    },
-   "age_s": 0
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1348.8,
     "mbps": 10.26
    },
-   "age_s": 49
+   "age_s": 86
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -8083,13 +8083,13 @@
    "year": "2025",
    "state": "running",
    "total": 227,
-   "processed": 80,
+   "processed": 140,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 49,
+   "elapsed_s": 86,
    "electors": null,
-   "rate_per_min": 98.0,
-   "eta_s": 90,
+   "rate_per_min": 97.7,
+   "eta_s": 53,
    "error": "",
    "sheet": "",
    "folder": ""
