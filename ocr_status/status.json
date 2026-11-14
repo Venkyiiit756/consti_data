@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 02:19:57 PM IST",
- "updated_epoch": 1794646197,
+ "updated": "14 Nov 2026, 02:20:09 PM IST",
+ "updated_epoch": 1794646209,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 02:19 PM IST"
+   "eta": "14 Nov, 02:20 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 02:19 PM IST"
+   "eta": "14 Nov, 02:20 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 50 - Rajahmundry City (2025)",
-  "updated": "2026-11-14 14:19:53 IST",
+  "updated": "2026-11-14 14:20:08 IST",
   "year": "2025",
   "next": "53 - Rampachodavaram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "50 - Rajahmundry City",
    "phase": "OCR",
-   "processed": 110,
+   "processed": 130,
    "total": 241,
-   "parts_per_min": 77.6,
+   "parts_per_min": 78.0,
    "prefetch": "53 - Rampachodavaram (2025)",
    "uploading": [],
    "done_session": 49,
@@ -97,19 +97,19 @@
      "finished": "2026-11-14 13:48:55 IST"
     }
    ],
-   "load1": 10.81,
+   "load1": 10.63,
    "cores_busy": 8,
-   "updated": "2026-11-14 14:19:53 IST",
-   "updated_epoch": 1794646193,
+   "updated": "2026-11-14 14:20:08 IST",
+   "updated_epoch": 1794646208,
    "fetch": {
     "ac": "53 - Rampachodavaram",
     "year": "2025",
-    "done": 16,
+    "done": 18,
     "total": 19,
-    "mb": 1261.0,
-    "mbps": 15.66
+    "mb": 1454.3,
+    "mbps": 17.68
    },
-   "age_s": 4
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -171,7 +171,7 @@
    "updated": "2026-11-14 14:19:01 IST",
    "updated_epoch": 1794646141,
    "fetch": null,
-   "age_s": 56
+   "age_s": 68
   }
  ],
  "throughput_ac_per_hr": 4.7,
@@ -8554,13 +8554,13 @@
    "year": "2025",
    "state": "running",
    "total": 241,
-   "processed": 110,
+   "processed": 130,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 83,
+   "elapsed_s": 95,
    "electors": null,
-   "rate_per_min": 79.5,
-   "eta_s": 99,
+   "rate_per_min": 82.1,
+   "eta_s": 81,
    "error": "",
    "sheet": "",
    "folder": ""
