@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 06:08:29 PM IST",
- "updated_epoch": 1794659909,
+ "updated": "14 Nov 2026, 06:08:35 PM IST",
+ "updated_epoch": 1794659915,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 63 - Ungutur (2025)",
-  "updated": "2026-11-14 18:08:27 IST",
+  "updated": "2026-11-14 18:08:32 IST",
   "year": "2025",
   "next": "66 - Gopalapuram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "63 - Ungutur",
    "phase": "OCR",
-   "processed": 80,
+   "processed": 90,
    "total": 214,
-   "parts_per_min": 80.9,
+   "parts_per_min": 83.9,
    "prefetch": "66 - Gopalapuram (2025)",
    "uploading": [],
    "done_session": 62,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 17:23:42 IST"
     }
    ],
-   "load1": 11.3,
+   "load1": 11.28,
    "cores_busy": 8,
-   "updated": "2026-11-14 18:08:27 IST",
-   "updated_epoch": 1794659907,
+   "updated": "2026-11-14 18:08:32 IST",
+   "updated_epoch": 1794659912,
    "fetch": {
     "ac": "66 - Gopalapuram",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 579.7,
     "mbps": 34.23
    },
-   "age_s": 2
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 9697
+   "age_s": 9703
   }
  ],
  "throughput_ac_per_hr": 3.3,
@@ -8797,13 +8797,13 @@
    "year": "2025",
    "state": "running",
    "total": 214,
-   "processed": 90,
+   "processed": 100,
    "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 59,
+   "elapsed_s": 66,
    "electors": null,
-   "rate_per_min": 91.5,
-   "eta_s": 81,
+   "rate_per_min": 90.9,
+   "eta_s": 75,
    "error": "",
    "sheet": "",
    "folder": ""
