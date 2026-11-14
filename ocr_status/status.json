@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:50:09 AM IST",
- "updated_epoch": 1794626409,
+ "updated": "14 Nov 2026, 09:21:01 AM IST",
+ "updated_epoch": 1794628261,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:50 AM IST"
+   "eta": "14 Nov, 09:21 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 88,
+   "done": 92,
    "errors": 0,
-   "parts": 24288,
-   "needs_review": 801,
+   "parts": 25440,
+   "needs_review": 858,
    "failed": 0,
-   "electors": 21365200,
-   "eta": "14 Nov, 03:17 PM IST"
+   "electors": 22312925,
+   "eta": "14 Nov, 04:11 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:50 AM IST"
+   "eta": "14 Nov, 09:21 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 29 - Paderu (2025)",
-  "updated": "2026-11-14 08:50:06 IST",
+  "updated": "2026-11-14 09:20:59 IST",
   "year": "2025",
   "next": "32 - Yelamanchili (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "29 - Paderu",
    "phase": "OCR",
-   "processed": 150,
+   "processed": 250,
    "total": 318,
-   "parts_per_min": 94.2,
+   "parts_per_min": 7.7,
    "prefetch": "32 - Yelamanchili (2025)",
    "uploading": [],
    "done_session": 28,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 08:09:53 IST"
     }
    ],
-   "load1": 11.92,
+   "load1": 11.59,
    "cores_busy": 8,
-   "updated": "2026-11-14 08:50:06 IST",
-   "updated_epoch": 1794626406,
+   "updated": "2026-11-14 09:20:59 IST",
+   "updated_epoch": 1794628259,
    "fetch": {
     "ac": "32 - Yelamanchili",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1063.4,
     "mbps": 32.99
    },
-   "age_s": 3
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -118,69 +118,107 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "114 - Kavali",
+   "ac": "109 - Kandukur",
    "phase": "OCR",
-   "processed": 290,
-   "total": 314,
-   "parts_per_min": 39.9,
-   "prefetch": "111 - Markapuram (2025)",
-   "uploading": [],
-   "done_session": 60,
-   "parts_session": 16586,
+   "processed": 90,
+   "total": 271,
+   "parts_per_min": 33.2,
+   "prefetch": "106 - Chirala (2025)",
+   "uploading": [
+    "110 - Kondapi"
+   ],
+   "done_session": 64,
+   "parts_session": 17738,
    "last": [
+    {
+     "ac": "111 - Markapuram",
+     "year": "2025",
+     "parts": 257,
+     "secs": 631,
+     "finished": "2026-11-14 09:11:31 IST"
+    },
+    {
+     "ac": "112 - Giddalur",
+     "year": "2025",
+     "parts": 284,
+     "secs": 714,
+     "finished": "2026-11-14 09:05:40 IST"
+    },
+    {
+     "ac": "113 - Kanigiri",
+     "year": "2025",
+     "parts": 297,
+     "secs": 889,
+     "finished": "2026-11-14 09:02:27 IST"
+    },
+    {
+     "ac": "114 - Kavali",
+     "year": "2025",
+     "parts": 314,
+     "secs": 800,
+     "finished": "2026-11-14 08:52:57 IST"
+    },
     {
      "ac": "115 - Atmakur",
      "year": "2025",
      "parts": 278,
      "secs": 651,
      "finished": "2026-11-14 08:42:42 IST"
-    },
-    {
-     "ac": "116 - Kovur",
-     "year": "2025",
-     "parts": 324,
-     "secs": 880,
-     "finished": "2026-11-14 08:38:46 IST"
-    },
-    {
-     "ac": "117 - Nellore City",
-     "year": "2025",
-     "parts": 248,
-     "secs": 552,
-     "finished": "2026-11-14 08:27:57 IST"
-    },
-    {
-     "ac": "118 - Nellore Rural",
-     "year": "2025",
-     "parts": 287,
-     "secs": 717,
-     "finished": "2026-11-14 08:22:33 IST"
-    },
-    {
-     "ac": "119 - Sarvepalli",
-     "year": "2025",
-     "parts": 284,
-     "secs": 854,
-     "finished": "2026-11-14 08:17:30 IST"
     }
    ],
-   "load1": 19.29,
+   "load1": 30.62,
    "cores_busy": 10,
-   "updated": "2026-11-14 08:48:46 IST",
-   "updated_epoch": 1794626326,
+   "updated": "2026-11-14 09:19:51 IST",
+   "updated_epoch": 1794628191,
    "fetch": {
-    "ac": "111 - Markapuram",
+    "ac": "106 - Chirala",
     "year": "2025",
-    "done": 15,
-    "total": 15,
-    "mb": 1061.7,
-    "mbps": 5.52
+    "done": 12,
+    "total": 14,
+    "mb": 957.4,
+    "mbps": 11.87
    },
-   "age_s": 83
+   "age_s": 70
   }
  ],
- "throughput_ac_per_hr": 13.3,
+ "throughput_ac_per_hr": 12.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "111 - Markapuram",
+   "worker": "mac",
+   "parts": 257,
+   "electors": 214191,
+   "secs": 375,
+   "finished": "2026-11-14 09:10:57 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "112 - Giddalur",
+   "worker": "mac",
+   "parts": 284,
+   "electors": 246665,
+   "secs": 443,
+   "finished": "2026-11-14 09:05:33 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "113 - Kanigiri",
+   "worker": "mac",
+   "parts": 297,
+   "electors": 240356,
+   "secs": 451,
+   "finished": "2026-11-14 09:01:45 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "114 - Kavali",
+   "worker": "mac",
+   "parts": 314,
+   "electors": 246513,
+   "secs": 469,
+   "finished": "2026-11-14 08:52:50 IST"
+  },
   {
    "year": "2025",
    "ac": "28 - Araku Valley",
@@ -216,42 +254,6 @@
    "electors": 233688,
    "secs": 385,
    "finished": "2026-11-14 08:27:50 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "118 - Nellore Rural",
-   "worker": "mac",
-   "parts": 287,
-   "electors": 280128,
-   "secs": 429,
-   "finished": "2026-11-14 08:22:25 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "27 - Madugula",
-   "worker": "box",
-   "parts": 235,
-   "electors": 188923,
-   "secs": 436,
-   "finished": "2026-11-14 08:21:54 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "119 - Sarvepalli",
-   "worker": "mac",
-   "parts": 284,
-   "electors": 232123,
-   "secs": 448,
-   "finished": "2026-11-14 08:14:54 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "26 - Chodavaram",
-   "worker": "box",
-   "parts": 243,
-   "electors": 224668,
-   "secs": 143,
-   "finished": "2026-11-14 08:14:38 IST"
   }
  ],
  "failures": [],
@@ -7624,13 +7626,13 @@
    "year": "2025",
    "state": "running",
    "total": 318,
-   "processed": 160,
-   "needs_review": 5,
+   "processed": 250,
+   "needs_review": 7,
    "failed": 0,
-   "elapsed_s": 97,
+   "elapsed_s": 1947,
    "electors": null,
-   "rate_per_min": 99.0,
-   "eta_s": 96,
+   "rate_per_min": 7.7,
+   "eta_s": 530,
    "error": "",
    "sheet": "",
    "folder": ""
@@ -7668,6 +7670,74 @@
    "error": "",
    "sheet": "https://docs.google.com/spreadsheets/d/1hhaKxPmEKO_QRBp5fBTcYVF9718jHaJUMh5p4bgopAY/edit",
    "folder": "https://drive.google.com/drive/folders/1dsGgAMIHM87iGEg2m5LT3QFrAOYPBw-E"
+  },
+  {
+   "label": "111 - Markapuram",
+   "district": "Prakasam",
+   "year": "2025",
+   "state": "done",
+   "total": 257,
+   "processed": 257,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 375,
+   "electors": 214191,
+   "rate_per_min": 41.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1C_BOk794eKxuV0b-kLaHfZWZ0M60GW2IwfO0AR7GHDM/edit",
+   "folder": "https://drive.google.com/drive/folders/1FwcciIQRAna7o9oePmxNj3KMbOXMUBXt"
+  },
+  {
+   "label": "112 - Giddalur",
+   "district": "Prakasam",
+   "year": "2025",
+   "state": "done",
+   "total": 284,
+   "processed": 284,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 443,
+   "electors": 246665,
+   "rate_per_min": 38.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1LitUg_7RKHJ_h507OVLiU5FW1dfNDXh3Kn8Jtxzgwss/edit",
+   "folder": "https://drive.google.com/drive/folders/1b-2mKpMGY0YfVY_IBagWD_e4EhjTottB"
+  },
+  {
+   "label": "113 - Kanigiri",
+   "district": "Prakasam",
+   "year": "2025",
+   "state": "done",
+   "total": 297,
+   "processed": 297,
+   "needs_review": 39,
+   "failed": 0,
+   "elapsed_s": 451,
+   "electors": 240356,
+   "rate_per_min": 39.5,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1zUgCyP3KPG3noh7_yy-X_A9aV-RFXjaNFNVCd27jRUQ/edit",
+   "folder": "https://drive.google.com/drive/folders/1PlEACwxE1A5V_MQiWazDtPo_RfgIssGp"
+  },
+  {
+   "label": "114 - Kavali",
+   "district": "Nellore",
+   "year": "2025",
+   "state": "done",
+   "total": 314,
+   "processed": 314,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 469,
+   "electors": 246513,
+   "rate_per_min": 40.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1G0f1or1hApJ4zgF3ziLNyVdptwomHh2OM6_rQn65YX8/edit",
+   "folder": "https://drive.google.com/drive/folders/1HP-D810jtOthWOHRee2s7AasUiA_6fNn"
   }
  ]
 }
