@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 06:08:35 PM IST",
- "updated_epoch": 1794659915,
+ "updated": "14 Nov 2026, 06:12:47 PM IST",
+ "updated_epoch": 1794660167,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 06:08 PM IST"
+   "eta": "14 Nov, 06:12 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 155,
    "errors": 0,
    "parts": 41302,
-   "needs_review": 1504,
+   "needs_review": 1508,
    "failed": 0,
    "electors": 36979325,
-   "eta": "14 Nov, 11:50 PM IST"
+   "eta": "14 Nov, 11:54 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 06:08 PM IST"
+   "eta": "14 Nov, 06:12 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 63 - Ungutur (2025)",
-  "updated": "2026-11-14 18:08:32 IST",
+  "phase": "OCR 64 - Denduluru (2025)",
+  "updated": "2026-11-14 18:12:42 IST",
   "year": "2025",
   "next": "66 - Gopalapuram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "63 - Ungutur",
+   "ac": "64 - Denduluru",
    "phase": "OCR",
-   "processed": 90,
-   "total": 214,
-   "parts_per_min": 83.9,
+   "processed": 60,
+   "total": 239,
+   "parts_per_min": 93.9,
    "prefetch": "66 - Gopalapuram (2025)",
-   "uploading": [],
+   "uploading": [
+    "63 - Ungutur"
+   ],
    "done_session": 62,
    "parts_session": 15846,
    "last": [
@@ -97,19 +99,19 @@
      "finished": "2026-11-14 17:23:42 IST"
     }
    ],
-   "load1": 11.28,
+   "load1": 11.17,
    "cores_busy": 8,
-   "updated": "2026-11-14 18:08:32 IST",
-   "updated_epoch": 1794659912,
+   "updated": "2026-11-14 18:12:42 IST",
+   "updated_epoch": 1794660162,
    "fetch": {
     "ac": "66 - Gopalapuram",
     "year": "2025",
-    "done": 7,
+    "done": 14,
     "total": 16,
-    "mb": 579.7,
-    "mbps": 34.23
+    "mb": 971.5,
+    "mbps": 3.45
    },
-   "age_s": 3
+   "age_s": 5
   },
   {
    "worker": "mac",
@@ -120,9 +122,9 @@
    "year": "2025",
    "ac": "81 - Vijayawada East",
    "phase": "OCR",
-   "processed": 50,
+   "processed": 70,
    "total": 298,
-   "parts_per_min": 0.7,
+   "parts_per_min": 0.3,
    "prefetch": "78 - Penamaluru (2025)",
    "uploading": [],
    "done_session": 93,
@@ -164,10 +166,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 72.38,
+   "load1": 261.7,
    "cores_busy": 10,
-   "updated": "2026-11-14 15:26:52 IST",
-   "updated_epoch": 1794650212,
+   "updated": "2026-11-14 18:11:10 IST",
+   "updated_epoch": 1794660070,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -176,7 +178,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 9703
+   "age_s": 97
   }
  ],
  "throughput_ac_per_hr": 3.3,
@@ -8795,15 +8797,32 @@
    "label": "63 - Ungutur",
    "district": "Eluru",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 214,
-   "processed": 100,
+   "processed": 214,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 275,
+   "electors": null,
+   "rate_per_min": 46.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "64 - Denduluru",
+   "district": "Eluru",
+   "year": "2025",
+   "state": "running",
+   "total": 239,
+   "processed": 70,
    "needs_review": 3,
    "failed": 0,
-   "elapsed_s": 66,
+   "elapsed_s": 43,
    "electors": null,
-   "rate_per_min": 90.9,
-   "eta_s": 75,
+   "rate_per_min": 97.7,
+   "eta_s": 104,
    "error": "",
    "sheet": "",
    "folder": ""
