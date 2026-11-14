@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 07:00:11 PM IST",
- "updated_epoch": 1794663011,
+ "updated": "14 Nov 2026, 07:00:34 PM IST",
+ "updated_epoch": 1794663034,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -19,7 +19,7 @@
    "done": 161,
    "errors": 0,
    "parts": 42773,
-   "needs_review": 1592,
+   "needs_review": 1594,
    "failed": 0,
    "electors": 38428741,
    "eta": "14 Nov, 09:26 PM IST"
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 69 - Tiruvuru (2025)",
-  "updated": "2026-11-14 19:00:10 IST",
+  "updated": "2026-11-14 19:00:32 IST",
   "year": "2025",
   "next": "72 - Gudivada (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "69 - Tiruvuru",
    "phase": "OCR",
-   "processed": 110,
+   "processed": 140,
    "total": 234,
-   "parts_per_min": 83.1,
+   "parts_per_min": 83.0,
    "prefetch": "72 - Gudivada (2025)",
    "uploading": [],
    "done_session": 68,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 18:14:37 IST"
     }
    ],
-   "load1": 11.44,
+   "load1": 11.31,
    "cores_busy": 8,
-   "updated": "2026-11-14 19:00:10 IST",
-   "updated_epoch": 1794663010,
+   "updated": "2026-11-14 19:00:32 IST",
+   "updated_epoch": 1794663032,
    "fetch": {
     "ac": "72 - Gudivada",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1154.9,
     "mbps": 17.28
    },
-   "age_s": 1
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -176,7 +176,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 550
+   "age_s": 573
   }
  ],
  "throughput_ac_per_hr": 5.3,
@@ -8899,13 +8899,13 @@
    "year": "2025",
    "state": "running",
    "total": 234,
-   "processed": 110,
-   "needs_review": 0,
+   "processed": 140,
+   "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 75,
+   "elapsed_s": 98,
    "electors": null,
-   "rate_per_min": 88.0,
-   "eta_s": 85,
+   "rate_per_min": 85.7,
+   "eta_s": 66,
    "error": "",
    "sheet": "",
    "folder": ""
