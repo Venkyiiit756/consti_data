@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 07:20:46 PM IST",
- "updated_epoch": 1794664246,
+ "updated": "14 Nov 2026, 07:21:41 PM IST",
+ "updated_epoch": 1794664301,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,7 +12,7 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 07:20 PM IST"
+   "eta": "14 Nov, 07:21 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
@@ -22,7 +22,7 @@
    "needs_review": 1601,
    "failed": 0,
    "electors": 38636341,
-   "eta": "14 Nov, 09:20 PM IST"
+   "eta": "14 Nov, 09:21 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 07:20 PM IST"
+   "eta": "14 Nov, 07:21 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 70 - Nuzvid (2025)",
-  "updated": "2026-11-14 19:20:42 IST",
+  "updated": "2026-11-14 19:21:37 IST",
   "year": "2025",
   "next": "73 - Kaikalur (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,16 +53,21 @@
    "year": "2025",
    "ac": "70 - Nuzvid",
    "phase": "OCR",
-   "processed": 40,
+   "processed": 130,
    "total": 286,
-   "parts_per_min": 80.5,
+   "parts_per_min": 91.9,
    "prefetch": "73 - Kaikalur (2025)",
-   "uploading": [
-    "69 - Tiruvuru"
-   ],
-   "done_session": 68,
-   "parts_session": 17317,
+   "uploading": [],
+   "done_session": 69,
+   "parts_session": 17551,
    "last": [
+    {
+     "ac": "69 - Tiruvuru",
+     "year": "2025",
+     "parts": 234,
+     "secs": 1344,
+     "finished": "2026-11-14 19:20:45 IST"
+    },
     {
      "ac": "68 - Chintalapudi",
      "year": "2025",
@@ -90,26 +95,19 @@
      "parts": 213,
      "secs": 218,
      "finished": "2026-11-14 18:16:46 IST"
-    },
-    {
-     "ac": "64 - Denduluru",
-     "year": "2025",
-     "parts": 239,
-     "secs": 179,
-     "finished": "2026-11-14 18:14:37 IST"
     }
    ],
-   "load1": 11.04,
+   "load1": 11.19,
    "cores_busy": 8,
-   "updated": "2026-11-14 19:20:42 IST",
-   "updated_epoch": 1794664242,
+   "updated": "2026-11-14 19:21:37 IST",
+   "updated_epoch": 1794664297,
    "fetch": {
     "ac": "73 - Kaikalur",
     "year": "2025",
-    "done": 1,
+    "done": 13,
     "total": 14,
-    "mb": 0.2,
-    "mbps": 0.03
+    "mb": 1054.7,
+    "mbps": 32.87
    },
    "age_s": 4
   },
@@ -178,7 +176,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 420
+   "age_s": 475
   }
  ],
  "throughput_ac_per_hr": 6.0,
@@ -8918,13 +8916,13 @@
    "year": "2025",
    "state": "running",
    "total": 286,
-   "processed": 50,
+   "processed": 140,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 30,
+   "elapsed_s": 86,
    "electors": null,
-   "rate_per_min": 100.0,
-   "eta_s": 142,
+   "rate_per_min": 97.7,
+   "eta_s": 90,
    "error": "",
    "sheet": "",
    "folder": ""
