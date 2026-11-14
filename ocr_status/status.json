@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 05:49:39 PM IST",
- "updated_epoch": 1794658779,
+ "updated": "14 Nov 2026, 05:51:13 PM IST",
+ "updated_epoch": 1794658873,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 05:49 PM IST"
+   "eta": "14 Nov, 05:51 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 153,
    "errors": 0,
    "parts": 40861,
-   "needs_review": 1483,
+   "needs_review": 1491,
    "failed": 0,
    "electors": 36532226,
-   "eta": "15 Nov, 12:07 AM IST"
+   "eta": "15 Nov, 01:43 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 05:49 PM IST"
+   "eta": "14 Nov, 05:51 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 61 - Tanuku (2025)",
-  "updated": "2026-11-14 17:49:35 IST",
+  "phase": "OCR 62 - Tadepalligudem (2025)",
+  "updated": "2026-11-14 17:51:10 IST",
   "year": "2025",
-  "next": "64 - Denduluru (2025)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "61 - Tanuku",
+   "ac": "62 - Tadepalligudem",
    "phase": "OCR",
-   "processed": 90,
-   "total": 232,
-   "parts_per_min": 3.7,
-   "prefetch": "64 - Denduluru (2025)",
-   "uploading": [],
+   "processed": 20,
+   "total": 209,
+   "parts_per_min": 71.6,
+   "prefetch": "",
+   "uploading": [
+    "61 - Tanuku"
+   ],
    "done_session": 60,
    "parts_session": 15405,
    "last": [
@@ -97,19 +99,12 @@
      "finished": "2026-11-14 16:19:50 IST"
     }
    ],
-   "load1": 11.05,
+   "load1": 10.83,
    "cores_busy": 8,
-   "updated": "2026-11-14 17:49:35 IST",
-   "updated_epoch": 1794658775,
-   "fetch": {
-    "ac": "64 - Denduluru",
-    "year": "2025",
-    "done": 14,
-    "total": 14,
-    "mb": 1169.6,
-    "mbps": 45.93
-   },
-   "age_s": 4
+   "updated": "2026-11-14 17:51:10 IST",
+   "updated_epoch": 1794658870,
+   "fetch": null,
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -176,10 +171,10 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 8567
+   "age_s": 8661
   }
  ],
- "throughput_ac_per_hr": 3.3,
+ "throughput_ac_per_hr": 2.7,
  "recent": [
   {
    "year": "2025",
@@ -8761,15 +8756,32 @@
    "label": "61 - Tanuku",
    "district": "West Godavari",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 232,
-   "processed": 100,
-   "needs_review": 0,
+   "processed": 232,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 1448,
+   "elapsed_s": 1526,
    "electors": null,
-   "rate_per_min": 4.1,
-   "eta_s": 1911,
+   "rate_per_min": 9.1,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "62 - Tadepalligudem",
+   "district": "West Godavari",
+   "year": "2025",
+   "state": "running",
+   "total": 209,
+   "processed": 30,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 18,
+   "electors": null,
+   "rate_per_min": 100.0,
+   "eta_s": 107,
    "error": "",
    "sheet": "",
    "folder": ""
