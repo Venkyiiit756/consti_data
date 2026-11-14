@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 10:14:44 AM IST",
- "updated_epoch": 1794631484,
+ "updated": "14 Nov 2026, 10:16:45 AM IST",
+ "updated_epoch": 1794631605,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 10:14 AM IST"
+   "eta": "14 Nov, 10:16 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 104,
+   "done": 105,
    "errors": 0,
-   "parts": 28735,
-   "needs_review": 1204,
+   "parts": 28981,
+   "needs_review": 1211,
    "failed": 0,
-   "electors": 25142041,
-   "eta": "14 Nov, 04:25 PM IST"
+   "electors": 25349071,
+   "eta": "14 Nov, 04:01 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 10:14 AM IST"
+   "eta": "14 Nov, 10:16 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 33 - Payakaraopet (2025)",
-  "updated": "2026-11-14 10:14:44 IST",
+  "updated": "2026-11-14 10:16:44 IST",
   "year": "2025",
   "next": "36 - Prathipadu (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,16 +53,21 @@
    "year": "2025",
    "ac": "33 - Payakaraopet",
    "phase": "OCR",
-   "processed": 0,
+   "processed": 210,
    "total": 292,
-   "parts_per_min": 0.0,
+   "parts_per_min": 99.6,
    "prefetch": "36 - Prathipadu (2025)",
-   "uploading": [
-    "32 - Yelamanchili"
-   ],
-   "done_session": 31,
-   "parts_session": 8570,
+   "uploading": [],
+   "done_session": 32,
+   "parts_session": 8816,
    "last": [
+    {
+     "ac": "32 - Yelamanchili",
+     "year": "2025",
+     "parts": 246,
+     "secs": 1205,
+     "finished": "2026-11-14 10:14:51 IST"
+    },
     {
      "ac": "31 - Pendurthi",
      "year": "2025",
@@ -90,28 +95,21 @@
      "parts": 306,
      "secs": 1704,
      "finished": "2026-11-14 08:48:45 IST"
-    },
-    {
-     "ac": "27 - Madugula",
-     "year": "2025",
-     "parts": 235,
-     "secs": 509,
-     "finished": "2026-11-14 08:22:33 IST"
     }
    ],
-   "load1": 10.53,
+   "load1": 11.32,
    "cores_busy": 8,
-   "updated": "2026-11-14 10:14:44 IST",
-   "updated_epoch": 1794631484,
+   "updated": "2026-11-14 10:16:44 IST",
+   "updated_epoch": 1794631604,
    "fetch": {
     "ac": "36 - Prathipadu",
     "year": "2025",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 15,
+    "total": 15,
+    "mb": 1064.8,
+    "mbps": 14.31
    },
-   "age_s": 0
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -122,16 +120,21 @@
    "year": "2025",
    "ac": "101 - Macherla",
    "phase": "OCR",
-   "processed": 100,
+   "processed": 190,
    "total": 299,
-   "parts_per_min": 36.4,
+   "parts_per_min": 40.4,
    "prefetch": "98 - Sattenapalle (2025)",
-   "uploading": [
-    "102 - Yerragondapalem"
-   ],
-   "done_session": 72,
-   "parts_session": 19900,
+   "uploading": [],
+   "done_session": 73,
+   "parts_session": 20165,
    "last": [
+    {
+     "ac": "102 - Yerragondapalem",
+     "year": "2025",
+     "parts": 265,
+     "secs": 720,
+     "finished": "2026-11-14 10:14:37 IST"
+    },
     {
      "ac": "103 - Darsi",
      "year": "2025",
@@ -159,32 +162,34 @@
      "parts": 218,
      "secs": 590,
      "finished": "2026-11-14 09:43:58 IST"
-    },
-    {
-     "ac": "107 - Santhanuthalapadu",
-     "year": "2025",
-     "parts": 256,
-     "secs": 731,
-     "finished": "2026-11-14 09:40:45 IST"
     }
    ],
-   "load1": 38.88,
+   "load1": 21.6,
    "cores_busy": 10,
-   "updated": "2026-11-14 10:13:59 IST",
-   "updated_epoch": 1794631439,
+   "updated": "2026-11-14 10:15:56 IST",
+   "updated_epoch": 1794631556,
    "fetch": {
     "ac": "98 - Sattenapalle",
     "year": "2025",
-    "done": 15,
+    "done": 16,
     "total": 16,
-    "mb": 1161.7,
-    "mbps": 9.8
+    "mb": 1163.4,
+    "mbps": 9.07
    },
-   "age_s": 45
+   "age_s": 49
   }
  ],
- "throughput_ac_per_hr": 11.3,
+ "throughput_ac_per_hr": 12.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "32 - Yelamanchili",
+   "worker": "box",
+   "parts": 246,
+   "electors": 207030,
+   "secs": 1159,
+   "finished": "2026-11-14 10:14:48 IST"
+  },
   {
    "year": "2025",
    "ac": "102 - Yerragondapalem",
@@ -247,15 +252,6 @@
    "electors": 202828,
    "secs": 330,
    "finished": "2026-11-14 09:43:49 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "107 - Santhanuthalapadu",
-   "worker": "mac",
-   "parts": 256,
-   "electors": 213824,
-   "secs": 398,
-   "finished": "2026-11-14 09:40:38 IST"
   }
  ],
  "failures": [],
@@ -7881,18 +7877,18 @@
    "label": "32 - Yelamanchili",
    "district": "Anakapalli",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 246,
    "processed": 246,
    "needs_review": 3,
    "failed": 0,
    "elapsed_s": 1158,
-   "electors": null,
+   "electors": 207030,
    "rate_per_min": 12.7,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1L_8bxbquCagE1ajbqr564zBxaW-zKBbFDVBy5f9dR5Q/edit",
+   "folder": "https://drive.google.com/drive/folders/1HFe8lTlTC8mEvethLxZ9_gG44e3hr8LG"
   },
   {
    "label": "102 - Yerragondapalem",
@@ -7917,13 +7913,13 @@
    "year": "2025",
    "state": "running",
    "total": 292,
-   "processed": 10,
-   "needs_review": 0,
+   "processed": 220,
+   "needs_review": 7,
    "failed": 0,
-   "elapsed_s": 7,
+   "elapsed_s": 127,
    "electors": null,
-   "rate_per_min": 85.7,
-   "eta_s": 197,
+   "rate_per_min": 103.9,
+   "eta_s": 42,
    "error": "",
    "sheet": "",
    "folder": ""
