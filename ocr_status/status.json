@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:15:07 AM IST",
- "updated_epoch": 1794624307,
+ "updated": "14 Nov 2026, 08:16:23 AM IST",
+ "updated_epoch": 1794624383,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:15 AM IST"
+   "eta": "14 Nov, 08:16 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 81,
    "errors": 0,
    "parts": 22326,
-   "needs_review": 750,
+   "needs_review": 752,
    "failed": 0,
    "electors": 19681229,
-   "eta": "14 Nov, 03:35 PM IST"
+   "eta": "14 Nov, 03:36 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:15 AM IST"
+   "eta": "14 Nov, 08:16 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 27 - Madugula (2025)",
-  "updated": "2026-11-14 08:15:04 IST",
+  "updated": "2026-11-14 08:16:19 IST",
   "year": "2025",
   "next": "30 - Anakapalle (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "27 - Madugula",
    "phase": "OCR",
-   "processed": 50,
+   "processed": 190,
    "total": 235,
-   "parts_per_min": 81.5,
+   "parts_per_min": 101.9,
    "prefetch": "30 - Anakapalle (2025)",
    "uploading": [],
    "done_session": 26,
@@ -97,10 +97,10 @@
      "finished": "2026-11-14 07:31:42 IST"
     }
    ],
-   "load1": 10.61,
+   "load1": 10.8,
    "cores_busy": 8,
-   "updated": "2026-11-14 08:15:04 IST",
-   "updated_epoch": 1794624304,
+   "updated": "2026-11-14 08:16:19 IST",
+   "updated_epoch": 1794624379,
    "fetch": {
     "ac": "30 - Anakapalle",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 1155.5,
     "mbps": 44.94
    },
-   "age_s": 3
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -120,9 +120,9 @@
    "year": "2025",
    "ac": "118 - Nellore Rural",
    "phase": "OCR",
-   "processed": 30,
+   "processed": 70,
    "total": 287,
-   "parts_per_min": 33.0,
+   "parts_per_min": 36.2,
    "prefetch": "115 - Atmakur (2025)",
    "uploading": [
     "119 - Sarvepalli"
@@ -166,19 +166,19 @@
      "finished": "2026-11-14 07:36:33 IST"
     }
    ],
-   "load1": 18.85,
+   "load1": 42.56,
    "cores_busy": 10,
-   "updated": "2026-11-14 08:13:55 IST",
-   "updated_epoch": 1794624235,
+   "updated": "2026-11-14 08:14:56 IST",
+   "updated_epoch": 1794624296,
    "fetch": {
     "ac": "115 - Atmakur",
     "year": "2025",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 11,
+    "total": 15,
+    "mb": 962.7,
+    "mbps": 14.78
    },
-   "age_s": 72
+   "age_s": 87
   }
  ],
  "throughput_ac_per_hr": 12.7,
@@ -7541,13 +7541,13 @@
    "year": "2025",
    "state": "running",
    "total": 235,
-   "processed": 60,
-   "needs_review": 2,
+   "processed": 190,
+   "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 37,
+   "elapsed_s": 111,
    "electors": null,
-   "rate_per_min": 97.3,
-   "eta_s": 108,
+   "rate_per_min": 102.7,
+   "eta_s": 26,
    "error": "",
    "sheet": "",
    "folder": ""
