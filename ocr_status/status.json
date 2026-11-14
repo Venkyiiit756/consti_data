@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 03:56:43 PM IST",
- "updated_epoch": 1794652003,
+ "updated": "14 Nov 2026, 03:57:37 PM IST",
+ "updated_epoch": 1794652057,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 03:56 PM IST"
+   "eta": "14 Nov, 03:57 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 146,
    "errors": 0,
    "parts": 39461,
-   "needs_review": 1453,
+   "needs_review": 1458,
    "failed": 0,
    "electors": 35112419,
-   "eta": "15 Nov, 05:56 AM IST"
+   "eta": "15 Nov, 05:57 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 03:56 PM IST"
+   "eta": "14 Nov, 03:57 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 54 - Kovvur (2025)",
-  "updated": "2026-11-14 15:56:39 IST",
+  "phase": "OCR 55 - Nidadavole (2025)",
+  "updated": "2026-11-14 15:57:34 IST",
   "year": "2025",
-  "next": "57 - Palakollu (2025)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "54 - Kovvur",
+   "ac": "55 - Nidadavole",
    "phase": "OCR",
-   "processed": 80,
-   "total": 176,
-   "parts_per_min": 92.8,
-   "prefetch": "57 - Palakollu (2025)",
-   "uploading": [],
+   "processed": 0,
+   "total": 205,
+   "parts_per_min": 0,
+   "prefetch": "",
+   "uploading": [
+    "54 - Kovvur"
+   ],
    "done_session": 53,
    "parts_session": 14005,
    "last": [
@@ -97,19 +99,12 @@
      "finished": "2026-11-14 14:18:42 IST"
     }
    ],
-   "load1": 11.6,
+   "load1": 10.68,
    "cores_busy": 8,
-   "updated": "2026-11-14 15:56:39 IST",
-   "updated_epoch": 1794651999,
-   "fetch": {
-    "ac": "57 - Palakollu",
-    "year": "2025",
-    "done": 6,
-    "total": 14,
-    "mb": 577.6,
-    "mbps": 41.28
-   },
-   "age_s": 4
+   "updated": "2026-11-14 15:57:34 IST",
+   "updated_epoch": 1794652054,
+   "fetch": null,
+   "age_s": 3
   },
   {
    "worker": "mac",
@@ -176,7 +171,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 1791
+   "age_s": 1845
   }
  ],
  "throughput_ac_per_hr": 2.0,
@@ -8642,15 +8637,32 @@
    "label": "54 - Kovvur",
    "district": "East Godavari",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 176,
-   "processed": 80,
+   "processed": 176,
+   "needs_review": 5,
+   "failed": 0,
+   "elapsed_s": 106,
+   "electors": null,
+   "rate_per_min": 99.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "55 - Nidadavole",
+   "district": "East Godavari",
+   "year": "2025",
+   "state": "running",
+   "total": 205,
+   "processed": 0,
    "needs_review": 0,
    "failed": 0,
-   "elapsed_s": 50,
+   "elapsed_s": 0,
    "electors": null,
-   "rate_per_min": 96.0,
-   "eta_s": 60,
+   "rate_per_min": 0,
+   "eta_s": null,
    "error": "",
    "sheet": "",
    "folder": ""
