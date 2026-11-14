@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 12:51:14 PM IST",
- "updated_epoch": 1794640874,
+ "updated": "14 Nov 2026, 12:51:59 PM IST",
+ "updated_epoch": 1794640919,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -22,7 +22,7 @@
    "needs_review": 1405,
    "failed": 0,
    "electors": 32232376,
-   "eta": "14 Nov, 04:36 PM IST"
+   "eta": "14 Nov, 04:51 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 43 - Mummidivaram (2025)",
-  "updated": "2026-11-14 12:51:13 IST",
+  "updated": "2026-11-14 12:51:58 IST",
   "year": "2025",
   "next": "46 - P Gannavaram (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "43 - Mummidivaram",
    "phase": "OCR",
-   "processed": 140,
+   "processed": 220,
    "total": 268,
-   "parts_per_min": 94.6,
+   "parts_per_min": 98.7,
    "prefetch": "46 - P Gannavaram (2025)",
    "uploading": [],
    "done_session": 42,
@@ -97,17 +97,17 @@
      "finished": "2026-11-14 12:19:52 IST"
     }
    ],
-   "load1": 11.44,
+   "load1": 11.51,
    "cores_busy": 8,
-   "updated": "2026-11-14 12:51:13 IST",
-   "updated_epoch": 1794640873,
+   "updated": "2026-11-14 12:51:58 IST",
+   "updated_epoch": 1794640918,
    "fetch": {
     "ac": "46 - P Gannavaram",
     "year": "2025",
-    "done": 11,
+    "done": 14,
     "total": 14,
-    "mb": 862.0,
-    "mbps": 10.42
+    "mb": 1056.8,
+    "mbps": 9.04
    },
    "age_s": 1
   },
@@ -122,7 +122,7 @@
    "phase": "OCR",
    "processed": 200,
    "total": 296,
-   "parts_per_min": 6.4,
+   "parts_per_min": 5.9,
    "prefetch": "79 - Vijayawada West (2025)",
    "uploading": [],
    "done_session": 92,
@@ -164,10 +164,10 @@
      "finished": "2026-11-14 11:52:24 IST"
     }
    ],
-   "load1": 46.18,
+   "load1": 49.79,
    "cores_busy": 10,
-   "updated": "2026-11-14 12:47:01 IST",
-   "updated_epoch": 1794640622,
+   "updated": "2026-11-14 12:50:01 IST",
+   "updated_epoch": 1794640801,
    "fetch": {
     "ac": "79 - Vijayawada West",
     "year": "2025",
@@ -176,10 +176,10 @@
     "mb": 1352.7,
     "mbps": 7.82
    },
-   "age_s": 252
+   "age_s": 118
   }
  ],
- "throughput_ac_per_hr": 10.7,
+ "throughput_ac_per_hr": 10.0,
  "recent": [
   {
    "year": "2025",
@@ -8440,13 +8440,13 @@
    "year": "2025",
    "state": "running",
    "total": 268,
-   "processed": 140,
+   "processed": 220,
    "needs_review": 7,
    "failed": 0,
-   "elapsed_s": 83,
+   "elapsed_s": 131,
    "electors": null,
-   "rate_per_min": 101.2,
-   "eta_s": 76,
+   "rate_per_min": 100.8,
+   "eta_s": 29,
    "error": "",
    "sheet": "",
    "folder": ""
