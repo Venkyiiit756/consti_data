@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 06:19:10 PM IST",
- "updated_epoch": 1794660550,
+ "updated": "14 Nov 2026, 06:23:12 PM IST",
+ "updated_epoch": 1794660792,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 06:19 PM IST"
+   "eta": "14 Nov, 06:23 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 158,
+   "done": 159,
    "errors": 0,
-   "parts": 41968,
+   "parts": 42216,
    "needs_review": 1518,
    "failed": 0,
-   "electors": 37651747,
-   "eta": "14 Nov, 09:19 PM IST"
+   "electors": 37894533,
+   "eta": "14 Nov, 08:53 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 06:19 PM IST"
+   "eta": "14 Nov, 06:23 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 66 - Gopalapuram (2025)",
-  "updated": "2026-11-14 18:19:10 IST",
+  "phase": "OCR 67 - Polavaram (2025)",
+  "updated": "2026-11-14 18:23:08 IST",
   "year": "2025",
-  "next": "69 - Tiruvuru (2025)",
+  "next": "70 - Nuzvid (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,16 +51,23 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "66 - Gopalapuram",
+   "ac": "67 - Polavaram",
    "phase": "OCR",
-   "processed": 200,
-   "total": 248,
-   "parts_per_min": 76.5,
-   "prefetch": "69 - Tiruvuru (2025)",
+   "processed": 60,
+   "total": 284,
+   "parts_per_min": 93.2,
+   "prefetch": "70 - Nuzvid (2025)",
    "uploading": [],
-   "done_session": 65,
-   "parts_session": 16512,
+   "done_session": 66,
+   "parts_session": 16760,
    "last": [
+    {
+     "ac": "66 - Gopalapuram",
+     "year": "2025",
+     "parts": 248,
+     "secs": 741,
+     "finished": "2026-11-14 18:22:44 IST"
+    },
     {
      "ac": "65 - Eluru",
      "year": "2025",
@@ -88,28 +95,21 @@
      "parts": 209,
      "secs": 1071,
      "finished": "2026-11-14 18:07:44 IST"
-    },
-    {
-     "ac": "61 - Tanuku",
-     "year": "2025",
-     "parts": 232,
-     "secs": 4416,
-     "finished": "2026-11-14 18:06:45 IST"
     }
    ],
-   "load1": 12.82,
+   "load1": 11.42,
    "cores_busy": 8,
-   "updated": "2026-11-14 18:19:10 IST",
-   "updated_epoch": 1794660550,
+   "updated": "2026-11-14 18:23:08 IST",
+   "updated_epoch": 1794660788,
    "fetch": {
-    "ac": "69 - Tiruvuru",
+    "ac": "70 - Nuzvid",
     "year": "2025",
     "done": 14,
-    "total": 14,
-    "mb": 1056.0,
-    "mbps": 36.8
+    "total": 15,
+    "mb": 1159.5,
+    "mbps": 37.25
    },
-   "age_s": 0
+   "age_s": 4
   },
   {
    "worker": "mac",
@@ -164,10 +164,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 180.28,
+   "load1": 180.35,
    "cores_busy": 10,
-   "updated": "2026-11-14 18:15:51 IST",
-   "updated_epoch": 1794660351,
+   "updated": "2026-11-14 18:18:05 IST",
+   "updated_epoch": 1794660485,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -176,11 +176,20 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 199
+   "age_s": 307
   }
  ],
- "throughput_ac_per_hr": 5.3,
+ "throughput_ac_per_hr": 6.0,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "66 - Gopalapuram",
+   "worker": "box",
+   "parts": 248,
+   "electors": 242786,
+   "secs": 357,
+   "finished": "2026-11-14 18:22:41 IST"
+  },
   {
    "year": "2025",
    "ac": "65 - Eluru",
@@ -243,15 +252,6 @@
    "electors": 252255,
    "secs": 1970,
    "finished": "2026-11-14 17:23:53 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "58 - Narasapuram",
-   "worker": "box",
-   "parts": 169,
-   "electors": 170683,
-   "secs": 103,
-   "finished": "2026-11-14 17:23:39 IST"
   }
  ],
  "failures": [],
@@ -8846,15 +8846,32 @@
    "label": "66 - Gopalapuram",
    "district": "East Godavari",
    "year": "2025",
-   "state": "running",
+   "state": "done",
    "total": 248,
-   "processed": 200,
+   "processed": 248,
    "needs_review": 4,
    "failed": 0,
-   "elapsed_s": 126,
+   "elapsed_s": 357,
+   "electors": 242786,
+   "rate_per_min": 41.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1aHLDny0sp_g4Qbo_RFg4bWxifDq68J1rDfgIeAA2gdE/edit",
+   "folder": "https://drive.google.com/drive/folders/1jWZQyEvhAZvJ3CuLCinv22NeFjSl8kpS"
+  },
+  {
+   "label": "67 - Polavaram",
+   "district": "Eluru",
+   "year": "2025",
+   "state": "running",
+   "total": 284,
+   "processed": 60,
+   "needs_review": 0,
+   "failed": 0,
+   "elapsed_s": 38,
    "electors": null,
-   "rate_per_min": 95.2,
-   "eta_s": 30,
+   "rate_per_min": 94.7,
+   "eta_s": 142,
    "error": "",
    "sheet": "",
    "folder": ""
