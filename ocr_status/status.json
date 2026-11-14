@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:23:26 AM IST",
- "updated_epoch": 1794624806,
+ "updated": "14 Nov 2026, 08:23:47 AM IST",
+ "updated_epoch": 1794624827,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -37,7 +37,7 @@
  },
  "batch": {
   "phase": "OCR 28 - Araku Valley (2025)",
-  "updated": "2026-11-14 08:23:26 IST",
+  "updated": "2026-11-14 08:23:46 IST",
   "year": "2025",
   "next": "31 - Pendurthi (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "28 - Araku Valley",
    "phase": "OCR",
-   "processed": 170,
+   "processed": 200,
    "total": 306,
-   "parts_per_min": 99.9,
+   "parts_per_min": 98.3,
    "prefetch": "31 - Pendurthi (2025)",
    "uploading": [],
    "done_session": 27,
@@ -97,19 +97,19 @@
      "finished": "2026-11-14 07:52:42 IST"
     }
    ],
-   "load1": 11.24,
+   "load1": 11.19,
    "cores_busy": 8,
-   "updated": "2026-11-14 08:23:26 IST",
-   "updated_epoch": 1794624806,
+   "updated": "2026-11-14 08:23:46 IST",
+   "updated_epoch": 1794624826,
    "fetch": {
     "ac": "31 - Pendurthi",
     "year": "2025",
-    "done": 19,
+    "done": 20,
     "total": 20,
-    "mb": 1626.6,
-    "mbps": 21.79
+    "mb": 1628.1,
+    "mbps": 15.86
    },
-   "age_s": 0
+   "age_s": 1
   },
   {
    "worker": "mac",
@@ -120,9 +120,9 @@
    "year": "2025",
    "ac": "117 - Nellore City",
    "phase": "OCR",
-   "processed": 90,
+   "processed": 110,
    "total": 248,
-   "parts_per_min": 35.5,
+   "parts_per_min": 36.2,
    "prefetch": "114 - Kavali (2025)",
    "uploading": [],
    "done_session": 57,
@@ -164,10 +164,10 @@
      "finished": "2026-11-14 07:53:49 IST"
     }
    ],
-   "load1": 57.2,
+   "load1": 44.65,
    "cores_busy": 10,
-   "updated": "2026-11-14 08:22:41 IST",
-   "updated_epoch": 1794624761,
+   "updated": "2026-11-14 08:23:11 IST",
+   "updated_epoch": 1794624791,
    "fetch": {
     "ac": "114 - Kavali",
     "year": "2025",
@@ -176,7 +176,7 @@
     "mb": 1347.9,
     "mbps": 11.96
    },
-   "age_s": 45
+   "age_s": 36
   }
  ],
  "throughput_ac_per_hr": 13.3,
@@ -7556,13 +7556,13 @@
    "year": "2025",
    "state": "running",
    "total": 306,
-   "processed": 170,
+   "processed": 200,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 101,
+   "elapsed_s": 119,
    "electors": null,
-   "rate_per_min": 101.0,
-   "eta_s": 81,
+   "rate_per_min": 100.8,
+   "eta_s": 63,
    "error": "",
    "sheet": "",
    "folder": ""
