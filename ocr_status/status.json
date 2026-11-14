@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 07:53:41 AM IST",
- "updated_epoch": 1794623021,
+ "updated": "14 Nov 2026, 08:08:54 AM IST",
+ "updated_epoch": 1794623934,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,16 +12,16 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 07:53 AM IST"
+   "eta": "14 Nov, 08:08 AM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 75,
+   "done": 78,
    "errors": 0,
-   "parts": 20657,
-   "needs_review": 727,
+   "parts": 21553,
+   "needs_review": 742,
    "failed": 0,
-   "electors": 18171079,
+   "electors": 18908692,
    "eta": "14 Nov, 04:37 PM IST"
   },
   "2024": {
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 07:53 AM IST"
+   "eta": "14 Nov, 08:08 AM IST"
   }
  },
  "batch": {
   "phase": "OCR 24 - Visakhapatnam West (2025)",
-  "updated": "2026-11-14 07:53:40 IST",
+  "updated": "2026-11-14 08:08:54 IST",
   "year": "2025",
   "next": "27 - Madugula (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,9 +53,9 @@
    "year": "2025",
    "ac": "24 - Visakhapatnam West",
    "phase": "OCR",
-   "processed": 140,
+   "processed": 190,
    "total": 221,
-   "parts_per_min": 94.3,
+   "parts_per_min": 11.4,
    "prefetch": "27 - Madugula (2025)",
    "uploading": [],
    "done_session": 23,
@@ -99,8 +99,8 @@
    ],
    "load1": 10.78,
    "cores_busy": 8,
-   "updated": "2026-11-14 07:53:40 IST",
-   "updated_epoch": 1794623020,
+   "updated": "2026-11-14 08:08:54 IST",
+   "updated_epoch": 1794623934,
    "fetch": {
     "ac": "27 - Madugula",
     "year": "2025",
@@ -109,7 +109,7 @@
     "mb": 968.5,
     "mbps": 40.03
    },
-   "age_s": 1
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -118,18 +118,37 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "121 - Sullurpeta",
+   "ac": "119 - Sarvepalli",
    "phase": "OCR",
-   "processed": 40,
-   "total": 304,
-   "parts_per_min": 37.2,
-   "prefetch": "118 - Nellore Rural (2025)",
-   "uploading": [
-    "122 - Venkatagiri"
-   ],
-   "done_session": 52,
-   "parts_session": 14269,
+   "processed": 100,
+   "total": 284,
+   "parts_per_min": 37.4,
+   "prefetch": "116 - Kovur (2025)",
+   "uploading": [],
+   "done_session": 55,
+   "parts_session": 15165,
    "last": [
+    {
+     "ac": "120 - Gudur",
+     "year": "2025",
+     "parts": 294,
+     "secs": 663,
+     "finished": "2026-11-14 08:07:46 IST"
+    },
+    {
+     "ac": "121 - Sullurpeta",
+     "year": "2025",
+     "parts": 304,
+     "secs": 735,
+     "finished": "2026-11-14 07:59:28 IST"
+    },
+    {
+     "ac": "122 - Venkatagiri",
+     "year": "2025",
+     "parts": 298,
+     "secs": 755,
+     "finished": "2026-11-14 07:53:49 IST"
+    },
     {
      "ac": "123 - Udayagiri",
      "year": "2025",
@@ -143,46 +162,52 @@
      "parts": 272,
      "secs": 558,
      "finished": "2026-11-14 07:36:33 IST"
-    },
-    {
-     "ac": "125 - Rajampet",
-     "year": "2025",
-     "parts": 288,
-     "secs": 871,
-     "finished": "2026-11-14 07:32:51 IST"
-    },
-    {
-     "ac": "126 - Kadapa",
-     "year": "2025",
-     "parts": 287,
-     "secs": 667,
-     "finished": "2026-11-14 07:23:57 IST"
-    },
-    {
-     "ac": "127 - Kodur",
-     "year": "2025",
-     "parts": 252,
-     "secs": 570,
-     "finished": "2026-11-14 07:16:35 IST"
     }
    ],
-   "load1": 20.18,
+   "load1": 34.84,
    "cores_busy": 10,
-   "updated": "2026-11-14 07:51:58 IST",
-   "updated_epoch": 1794622918,
+   "updated": "2026-11-14 08:08:12 IST",
+   "updated_epoch": 1794623892,
    "fetch": {
-    "ac": "118 - Nellore Rural",
+    "ac": "116 - Kovur",
     "year": "2025",
-    "done": 0,
-    "total": 0,
-    "mb": 0,
-    "mbps": 0
+    "done": 17,
+    "total": 17,
+    "mb": 1354.1,
+    "mbps": 9.23
    },
-   "age_s": 103
+   "age_s": 42
   }
  ],
  "throughput_ac_per_hr": 11.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "120 - Gudur",
+   "worker": "mac",
+   "parts": 294,
+   "electors": 244825,
+   "secs": 430,
+   "finished": "2026-11-14 08:07:34 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "121 - Sullurpeta",
+   "worker": "mac",
+   "parts": 304,
+   "electors": 248788,
+   "secs": 449,
+   "finished": "2026-11-14 07:58:51 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "122 - Venkatagiri",
+   "worker": "mac",
+   "parts": 298,
+   "electors": 244000,
+   "secs": 445,
+   "finished": "2026-11-14 07:53:39 IST"
+  },
   {
    "year": "2025",
    "ac": "23 - Visakhapatnam North",
@@ -227,33 +252,6 @@
    "electors": 217409,
    "secs": 509,
    "finished": "2026-11-14 07:30:49 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "126 - Kadapa",
-   "worker": "mac",
-   "parts": 287,
-   "electors": 284474,
-   "secs": 426,
-   "finished": "2026-11-14 07:23:49 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "21 - Visakhapatnam East",
-   "worker": "box",
-   "parts": 282,
-   "electors": 299266,
-   "secs": 1967,
-   "finished": "2026-11-14 07:22:53 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "127 - Kodur",
-   "worker": "mac",
-   "parts": 252,
-   "electors": 205106,
-   "secs": 369,
-   "finished": "2026-11-14 07:16:25 IST"
   }
  ],
  "failures": [],
@@ -7439,16 +7437,67 @@
    "year": "2025",
    "state": "running",
    "total": 221,
-   "processed": 140,
+   "processed": 190,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 86,
+   "elapsed_s": 998,
    "electors": null,
-   "rate_per_min": 97.7,
-   "eta_s": 50,
+   "rate_per_min": 11.4,
+   "eta_s": 163,
    "error": "",
    "sheet": "",
    "folder": ""
+  },
+  {
+   "label": "120 - Gudur",
+   "district": "Nellore",
+   "year": "2025",
+   "state": "done",
+   "total": 294,
+   "processed": 294,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 430,
+   "electors": 244825,
+   "rate_per_min": 41.0,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1rQHCC6k15p-bqel5MOSH-0NZomuM3WsZ2DgwQIwrE1U/edit",
+   "folder": "https://drive.google.com/drive/folders/1DwHdj8GTLtg8NMd95Kzi0odCIkyvu7NO"
+  },
+  {
+   "label": "121 - Sullurpeta",
+   "district": "Tirupati",
+   "year": "2025",
+   "state": "done",
+   "total": 304,
+   "processed": 304,
+   "needs_review": 2,
+   "failed": 0,
+   "elapsed_s": 449,
+   "electors": 248788,
+   "rate_per_min": 40.6,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1jmFR9LaWK-KVS06PFoguISkana9nKh11I_WWu8mmJWY/edit",
+   "folder": "https://drive.google.com/drive/folders/1o7or8t2_Eq_FYnL1SmbZiE56lfvjtoXG"
+  },
+  {
+   "label": "122 - Venkatagiri",
+   "district": "Tirupati",
+   "year": "2025",
+   "state": "done",
+   "total": 298,
+   "processed": 298,
+   "needs_review": 12,
+   "failed": 0,
+   "elapsed_s": 445,
+   "electors": 244000,
+   "rate_per_min": 40.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1qicJ13gS0RaEICRRlGIg6fdZFqFYdXa9tgvUTnu7DOo/edit",
+   "folder": "https://drive.google.com/drive/folders/1oV_q40GWiKwrCtNtNQFIpNC3HZZ6wrA7"
   }
  ]
 }
