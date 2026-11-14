@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 11:51:26 AM IST",
- "updated_epoch": 1794637286,
+ "updated": "14 Nov 2026, 12:18:09 PM IST",
+ "updated_epoch": 1794638889,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 11:51 AM IST"
+   "eta": "14 Nov, 12:18 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 124,
+   "done": 128,
    "errors": 0,
-   "parts": 33965,
-   "needs_review": 1342,
+   "parts": 35001,
+   "needs_review": 1384,
    "failed": 0,
-   "electors": 29910247,
-   "eta": "14 Nov, 04:16 PM IST"
+   "electors": 30863582,
+   "eta": "14 Nov, 04:21 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 11:51 AM IST"
+   "eta": "14 Nov, 12:18 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 39 - Peddapuram (2025)",
-  "updated": "2026-11-14 11:51:25 IST",
+  "phase": "OCR 40 - Anaparthi (2025)",
+  "updated": "2026-11-14 12:18:07 IST",
   "year": "2025",
-  "next": "41 - Kakinada City (2025)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,12 +51,12 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "39 - Peddapuram",
+   "ac": "40 - Anaparthi",
    "phase": "OCR",
-   "processed": 130,
-   "total": 201,
-   "parts_per_min": 96.9,
-   "prefetch": "41 - Kakinada City (2025)",
+   "processed": 100,
+   "total": 228,
+   "parts_per_min": 95.5,
+   "prefetch": "",
    "uploading": [
     "38 - Kakinada Rural"
    ],
@@ -99,19 +99,12 @@
      "finished": "2026-11-14 10:17:40 IST"
     }
    ],
-   "load1": 10.88,
+   "load1": 13.54,
    "cores_busy": 8,
-   "updated": "2026-11-14 11:51:25 IST",
-   "updated_epoch": 1794637285,
-   "fetch": {
-    "ac": "41 - Kakinada City",
-    "year": "2025",
-    "done": 13,
-    "total": 17,
-    "mb": 958.2,
-    "mbps": 0.6
-   },
-   "age_s": 1
+   "updated": "2026-11-14 12:18:07 IST",
+   "updated_epoch": 1794638887,
+   "fetch": null,
+   "age_s": 2
   },
   {
    "worker": "mac",
@@ -120,69 +113,107 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:47:39 IST",
    "year": "2025",
-   "ac": "87 - Mangalagiri",
+   "ac": "82 - Mylavaram",
    "phase": "OCR",
-   "processed": 230,
-   "total": 303,
-   "parts_per_min": 37.8,
-   "prefetch": "84 - Jaggayyapeta (2025)",
-   "uploading": [],
-   "done_session": 87,
-   "parts_session": 23902,
+   "processed": 40,
+   "total": 296,
+   "parts_per_min": 32.5,
+   "prefetch": "79 - Vijayawada West (2025)",
+   "uploading": [
+    "83 - Nandigama"
+   ],
+   "done_session": 91,
+   "parts_session": 24938,
    "last": [
+    {
+     "ac": "84 - Jaggayyapeta",
+     "year": "2025",
+     "parts": 222,
+     "secs": 566,
+     "finished": "2026-11-14 12:11:53 IST"
+    },
+    {
+     "ac": "85 - Pedakurapadu",
+     "year": "2025",
+     "parts": 266,
+     "secs": 601,
+     "finished": "2026-11-14 12:05:52 IST"
+    },
+    {
+     "ac": "86 - Tadikonda",
+     "year": "2025",
+     "parts": 245,
+     "secs": 592,
+     "finished": "2026-11-14 11:58:41 IST"
+    },
+    {
+     "ac": "87 - Mangalagiri",
+     "year": "2025",
+     "parts": 303,
+     "secs": 693,
+     "finished": "2026-11-14 11:52:24 IST"
+    },
     {
      "ac": "88 - Ponnur",
      "year": "2025",
      "parts": 264,
      "secs": 707,
      "finished": "2026-11-14 11:44:47 IST"
-    },
-    {
-     "ac": "89 - Vemuru",
-     "year": "2025",
-     "parts": 233,
-     "secs": 576,
-     "finished": "2026-11-14 11:38:51 IST"
-    },
-    {
-     "ac": "90 - Repalle",
-     "year": "2025",
-     "parts": 264,
-     "secs": 770,
-     "finished": "2026-11-14 11:33:47 IST"
-    },
-    {
-     "ac": "91 - Tenali",
-     "year": "2025",
-     "parts": 273,
-     "secs": 819,
-     "finished": "2026-11-14 11:28:37 IST"
-    },
-    {
-     "ac": "92 - Bapatla",
-     "year": "2025",
-     "parts": 202,
-     "secs": 615,
-     "finished": "2026-11-14 11:21:49 IST"
     }
    ],
-   "load1": 22.89,
+   "load1": 47.17,
    "cores_busy": 10,
-   "updated": "2026-11-14 11:49:48 IST",
-   "updated_epoch": 1794637188,
+   "updated": "2026-11-14 12:17:12 IST",
+   "updated_epoch": 1794638832,
    "fetch": {
-    "ac": "84 - Jaggayyapeta",
+    "ac": "79 - Vijayawada West",
     "year": "2025",
-    "done": 13,
-    "total": 13,
-    "mb": 1056.0,
-    "mbps": 9.96
+    "done": 0,
+    "total": 0,
+    "mb": 0,
+    "mbps": 0
    },
-   "age_s": 98
+   "age_s": 57
   }
  ],
  "throughput_ac_per_hr": 11.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "84 - Jaggayyapeta",
+   "worker": "mac",
+   "parts": 222,
+   "electors": 212847,
+   "secs": 349,
+   "finished": "2026-11-14 12:11:45 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "85 - Pedakurapadu",
+   "worker": "mac",
+   "parts": 266,
+   "electors": 232194,
+   "secs": 406,
+   "finished": "2026-11-14 12:05:42 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "86 - Tadikonda",
+   "worker": "mac",
+   "parts": 245,
+   "electors": 214954,
+   "secs": 361,
+   "finished": "2026-11-14 11:57:54 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "87 - Mangalagiri",
+   "worker": "mac",
+   "parts": 303,
+   "electors": 293340,
+   "secs": 463,
+   "finished": "2026-11-14 11:51:54 IST"
+  },
   {
    "year": "2025",
    "ac": "88 - Ponnur",
@@ -218,42 +249,6 @@
    "electors": 267749,
    "secs": 412,
    "finished": "2026-11-14 11:26:34 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "37 - Pithapuram",
-   "worker": "box",
-   "parts": 242,
-   "electors": 236990,
-   "secs": 311,
-   "finished": "2026-11-14 11:23:39 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "92 - Bapatla",
-   "worker": "mac",
-   "parts": 202,
-   "electors": 197301,
-   "secs": 308,
-   "finished": "2026-11-14 11:21:39 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "36 - Prathipadu",
-   "worker": "box",
-   "parts": 227,
-   "electors": 217649,
-   "secs": 1635,
-   "finished": "2026-11-14 11:18:35 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "93 - Prathipadu SC",
-   "worker": "mac",
-   "parts": 288,
-   "electors": 268303,
-   "secs": 426,
-   "finished": "2026-11-14 11:15:34 IST"
   }
  ],
  "failures": [],
@@ -8287,15 +8282,100 @@
    "label": "39 - Peddapuram",
    "district": "Kakinada",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 201,
-   "processed": 130,
+   "processed": 201,
    "needs_review": 2,
    "failed": 0,
-   "elapsed_s": 79,
+   "elapsed_s": 1620,
    "electors": null,
-   "rate_per_min": 98.7,
-   "eta_s": 43,
+   "rate_per_min": 7.4,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "84 - Jaggayyapeta",
+   "district": "NTR",
+   "year": "2025",
+   "state": "done",
+   "total": 222,
+   "processed": 222,
+   "needs_review": 20,
+   "failed": 0,
+   "elapsed_s": 349,
+   "electors": 212847,
+   "rate_per_min": 38.2,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/10tbsNlFFHfjarvpIVxo-CEngsAKh3pe-CzMjS922VmI/edit",
+   "folder": "https://drive.google.com/drive/folders/1vwkjNBEZznxKZ2jxGSt42ylFX8f1jOmN"
+  },
+  {
+   "label": "85 - Pedakurapadu",
+   "district": "Palnadu",
+   "year": "2025",
+   "state": "done",
+   "total": 266,
+   "processed": 266,
+   "needs_review": 6,
+   "failed": 0,
+   "elapsed_s": 406,
+   "electors": 232194,
+   "rate_per_min": 39.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1mHmqLxasn1NrlGKst01zLCl9doXF6m_e0N1CRaw9mMI/edit",
+   "folder": "https://drive.google.com/drive/folders/12606OVYp6s3vmJ2srOvqwXKowOLTtgh4"
+  },
+  {
+   "label": "86 - Tadikonda",
+   "district": "Guntur",
+   "year": "2025",
+   "state": "done",
+   "total": 245,
+   "processed": 245,
+   "needs_review": 8,
+   "failed": 0,
+   "elapsed_s": 361,
+   "electors": 214954,
+   "rate_per_min": 40.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1AJvIVrnnCb1rQ4vkWEg0vilHozNm7htakNGPEasi53g/edit",
+   "folder": "https://drive.google.com/drive/folders/16JVnEXQ-8n648sv4s045vcH95Eg_4Mpa"
+  },
+  {
+   "label": "87 - Mangalagiri",
+   "district": "Guntur",
+   "year": "2025",
+   "state": "done",
+   "total": 303,
+   "processed": 303,
+   "needs_review": 7,
+   "failed": 0,
+   "elapsed_s": 463,
+   "electors": 293340,
+   "rate_per_min": 39.3,
+   "eta_s": null,
+   "error": "",
+   "sheet": "https://docs.google.com/spreadsheets/d/1drOhHWrocKFsrNYDPA3f619n4VIC6cIYwNAA2tMbMqE/edit",
+   "folder": "https://drive.google.com/drive/folders/1z85vag4KquCsJcawlffa3u8tDdNaO7NK"
+  },
+  {
+   "label": "40 - Anaparthi",
+   "district": "East Godavari",
+   "year": "2025",
+   "state": "running",
+   "total": 228,
+   "processed": 100,
+   "needs_review": 1,
+   "failed": 0,
+   "elapsed_s": 61,
+   "electors": null,
+   "rate_per_min": 98.4,
+   "eta_s": 78,
    "error": "",
    "sheet": "",
    "folder": ""
