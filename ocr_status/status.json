@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:14:13 PM IST",
- "updated_epoch": 1794667453,
+ "updated": "14 Nov 2026, 08:16:21 PM IST",
+ "updated_epoch": 1794667581,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:14 PM IST"
+   "eta": "14 Nov, 08:16 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
    "done": 163,
    "errors": 0,
    "parts": 43293,
-   "needs_review": 1607,
+   "needs_review": 1611,
    "failed": 0,
    "electors": 38875274,
-   "eta": "15 Nov, 12:21 AM IST"
+   "eta": "15 Nov, 12:23 AM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,14 +32,14 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:14 PM IST"
+   "eta": "14 Nov, 08:16 PM IST"
   }
  },
  "batch": {
-  "phase": "OCR 71 - Gannavaram Krishna (2025)",
-  "updated": "2026-11-14 20:14:11 IST",
+  "phase": "OCR 72 - Gudivada (2025)",
+  "updated": "2026-11-14 20:16:21 IST",
   "year": "2025",
-  "next": "74 - Pedana (2025)",
+  "next": "",
   "eta": "14 Nov 10:41 AM IST (2026)",
   "per_ac_s": 760
  },
@@ -51,13 +51,15 @@
    "ocr_workers": 10,
    "started": "2026-11-14 01:46:47 IST",
    "year": "2025",
-   "ac": "71 - Gannavaram Krishna",
+   "ac": "72 - Gudivada",
    "phase": "OCR",
-   "processed": 120,
-   "total": 307,
-   "parts_per_min": 5.8,
-   "prefetch": "74 - Pedana (2025)",
-   "uploading": [],
+   "processed": 30,
+   "total": 230,
+   "parts_per_min": 74.5,
+   "prefetch": "",
+   "uploading": [
+    "71 - Gannavaram Krishna"
+   ],
    "done_session": 70,
    "parts_session": 17837,
    "last": [
@@ -97,19 +99,12 @@
      "finished": "2026-11-14 18:22:44 IST"
     }
    ],
-   "load1": 11.73,
+   "load1": 10.94,
    "cores_busy": 8,
-   "updated": "2026-11-14 20:14:11 IST",
-   "updated_epoch": 1794667451,
-   "fetch": {
-    "ac": "74 - Pedana",
-    "year": "2025",
-    "done": 11,
-    "total": 11,
-    "mb": 879.0,
-    "mbps": 34.62
-   },
-   "age_s": 2
+   "updated": "2026-11-14 20:16:21 IST",
+   "updated_epoch": 1794667581,
+   "fetch": null,
+   "age_s": 0
   },
   {
    "worker": "mac",
@@ -120,7 +115,7 @@
    "year": "2025",
    "ac": "81 - Vijayawada East",
    "phase": "OCR",
-   "processed": 120,
+   "processed": 130,
    "total": 298,
    "parts_per_min": 0.4,
    "prefetch": "78 - Penamaluru (2025)",
@@ -164,10 +159,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 114.87,
+   "load1": 77.3,
    "cores_busy": 10,
-   "updated": "2026-11-14 19:42:59 IST",
-   "updated_epoch": 1794665579,
+   "updated": "2026-11-14 20:05:07 IST",
+   "updated_epoch": 1794666907,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -176,7 +171,7 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 1874
+   "age_s": 674
   }
  ],
  "throughput_ac_per_hr": 2.7,
@@ -8931,15 +8926,32 @@
    "label": "71 - Gannavaram Krishna",
    "district": "Krishna",
    "year": "2025",
-   "state": "running",
+   "state": "uploading",
    "total": 307,
-   "processed": 130,
+   "processed": 307,
+   "needs_review": 4,
+   "failed": 0,
+   "elapsed_s": 1349,
+   "electors": null,
+   "rate_per_min": 13.7,
+   "eta_s": null,
+   "error": "",
+   "sheet": "",
+   "folder": ""
+  },
+  {
+   "label": "72 - Gudivada",
+   "district": "Krishna",
+   "year": "2025",
+   "state": "running",
+   "total": 230,
+   "processed": 30,
    "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 1246,
+   "elapsed_s": 20,
    "electors": null,
-   "rate_per_min": 6.3,
-   "eta_s": 1696,
+   "rate_per_min": 90.0,
+   "eta_s": 133,
    "error": "",
    "sheet": "",
    "folder": ""
