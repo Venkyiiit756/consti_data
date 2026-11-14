@@ -1,6 +1,6 @@
 {
- "updated": "14 Nov 2026, 08:27:28 PM IST",
- "updated_epoch": 1794668248,
+ "updated": "14 Nov 2026, 08:53:30 PM IST",
+ "updated_epoch": 1794669810,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -12,17 +12,17 @@
    "needs_review": 1334,
    "failed": 38,
    "electors": 37367704,
-   "eta": "14 Nov, 08:27 PM IST"
+   "eta": "14 Nov, 08:53 PM IST"
   },
   "2025": {
    "total_constituencies": 174,
-   "done": 165,
+   "done": 167,
    "errors": 0,
-   "parts": 43830,
-   "needs_review": 1636,
+   "parts": 44282,
+   "needs_review": 1637,
    "failed": 0,
-   "electors": 39359590,
-   "eta": "14 Nov, 11:09 PM IST"
+   "electors": 39732879,
+   "eta": "14 Nov, 10:59 PM IST"
   },
   "2024": {
    "total_constituencies": 172,
@@ -32,12 +32,12 @@
    "needs_review": 1348,
    "failed": 0,
    "electors": 39150875,
-   "eta": "14 Nov, 08:27 PM IST"
+   "eta": "14 Nov, 08:53 PM IST"
   }
  },
  "batch": {
   "phase": "OCR 75 - Machilipatnam (2025)",
-  "updated": "2026-11-14 20:27:24 IST",
+  "updated": "2026-11-14 20:53:26 IST",
   "year": "2025",
   "next": "78 - Penamaluru (2025)",
   "eta": "14 Nov 10:41 AM IST (2026)",
@@ -53,16 +53,28 @@
    "year": "2025",
    "ac": "75 - Machilipatnam",
    "phase": "OCR",
-   "processed": 60,
+   "processed": 130,
    "total": 205,
-   "parts_per_min": 85.1,
+   "parts_per_min": 4.9,
    "prefetch": "78 - Penamaluru (2025)",
-   "uploading": [
-    "73 - Kaikalur"
-   ],
-   "done_session": 72,
-   "parts_session": 18374,
+   "uploading": [],
+   "done_session": 74,
+   "parts_session": 18826,
    "last": [
+    {
+     "ac": "74 - Pedana",
+     "year": "2025",
+     "parts": 217,
+     "secs": 1953,
+     "finished": "2026-11-14 20:52:55 IST"
+    },
+    {
+     "ac": "73 - Kaikalur",
+     "year": "2025",
+     "parts": 235,
+     "secs": 3938,
+     "finished": "2026-11-14 20:52:38 IST"
+    },
     {
      "ac": "72 - Gudivada",
      "year": "2025",
@@ -83,33 +95,19 @@
      "parts": 286,
      "secs": 2124,
      "finished": "2026-11-14 19:53:43 IST"
-    },
-    {
-     "ac": "69 - Tiruvuru",
-     "year": "2025",
-     "parts": 234,
-     "secs": 1344,
-     "finished": "2026-11-14 19:20:45 IST"
-    },
-    {
-     "ac": "68 - Chintalapudi",
-     "year": "2025",
-     "parts": 273,
-     "secs": 595,
-     "finished": "2026-11-14 18:59:41 IST"
     }
    ],
-   "load1": 11.82,
+   "load1": 16.73,
    "cores_busy": 8,
-   "updated": "2026-11-14 20:27:24 IST",
-   "updated_epoch": 1794668244,
+   "updated": "2026-11-14 20:53:26 IST",
+   "updated_epoch": 1794669806,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
-    "done": 7,
+    "done": 15,
     "total": 19,
-    "mb": 574.7,
-    "mbps": 26.91
+    "mb": 1345.7,
+    "mbps": 0.86
    },
    "age_s": 4
   },
@@ -122,7 +120,7 @@
    "year": "2025",
    "ac": "81 - Vijayawada East",
    "phase": "OCR",
-   "processed": 130,
+   "processed": 150,
    "total": 298,
    "parts_per_min": 0.4,
    "prefetch": "78 - Penamaluru (2025)",
@@ -166,10 +164,10 @@
      "finished": "2026-11-14 11:58:41 IST"
     }
    ],
-   "load1": 64.73,
+   "load1": 46.27,
    "cores_busy": 10,
-   "updated": "2026-11-14 20:19:12 IST",
-   "updated_epoch": 1794667752,
+   "updated": "2026-11-14 20:50:54 IST",
+   "updated_epoch": 1794669654,
    "fetch": {
     "ac": "78 - Penamaluru",
     "year": "2025",
@@ -178,11 +176,29 @@
     "mb": 1346.7,
     "mbps": 2.59
    },
-   "age_s": 496
+   "age_s": 156
   }
  ],
  "throughput_ac_per_hr": 3.3,
  "recent": [
+  {
+   "year": "2025",
+   "ac": "74 - Pedana",
+   "worker": "box",
+   "parts": 217,
+   "electors": 167474,
+   "secs": 354,
+   "finished": "2026-11-14 20:52:52 IST"
+  },
+  {
+   "year": "2025",
+   "ac": "73 - Kaikalur",
+   "worker": "box",
+   "parts": 235,
+   "electors": 205815,
+   "secs": 144,
+   "finished": "2026-11-14 20:52:35 IST"
+  },
   {
    "year": "2025",
    "ac": "72 - Gudivada",
@@ -236,24 +252,6 @@
    "electors": 261291,
    "secs": 1710,
    "finished": "2026-11-14 18:52:44 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "66 - Gopalapuram",
-   "worker": "box",
-   "parts": 248,
-   "electors": 242786,
-   "secs": 357,
-   "finished": "2026-11-14 18:22:41 IST"
-  },
-  {
-   "year": "2025",
-   "ac": "65 - Eluru",
-   "worker": "box",
-   "parts": 213,
-   "electors": 234526,
-   "secs": 131,
-   "finished": "2026-11-14 18:16:44 IST"
   }
  ],
  "failures": [],
@@ -8967,35 +8965,35 @@
    "label": "73 - Kaikalur",
    "district": "Eluru",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 235,
    "processed": 235,
    "needs_review": 11,
    "failed": 0,
    "elapsed_s": 144,
-   "electors": null,
+   "electors": 205815,
    "rate_per_min": 97.9,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/11K5TH8paYHts4F2fxsqNnIh4gu0ShA3t8sGpkIE0vew/edit",
+   "folder": "https://drive.google.com/drive/folders/1nByCJggV60JsVWiDvu3QixT6t5CsQl2G"
   },
   {
    "label": "74 - Pedana",
    "district": "Krishna",
    "year": "2025",
-   "state": "uploading",
+   "state": "done",
    "total": 217,
    "processed": 217,
    "needs_review": 11,
    "failed": 0,
    "elapsed_s": 354,
-   "electors": null,
+   "electors": 167474,
    "rate_per_min": 36.8,
    "eta_s": null,
    "error": "",
-   "sheet": "",
-   "folder": ""
+   "sheet": "https://docs.google.com/spreadsheets/d/1v6-dgpAFFGzUPbMzbUYGYL7flFoUksaHKj87qFZpbcA/edit",
+   "folder": "https://drive.google.com/drive/folders/13DmXAFD_PHycsmB-6ccmUiLSQ5t6iRSx"
   },
   {
    "label": "75 - Machilipatnam",
@@ -9003,13 +9001,13 @@
    "year": "2025",
    "state": "running",
    "total": 205,
-   "processed": 60,
-   "needs_review": 0,
+   "processed": 140,
+   "needs_review": 1,
    "failed": 0,
-   "elapsed_s": 40,
+   "elapsed_s": 1607,
    "electors": null,
-   "rate_per_min": 90.0,
-   "eta_s": 97,
+   "rate_per_min": 5.2,
+   "eta_s": 746,
    "error": "",
    "sheet": "",
    "folder": ""
