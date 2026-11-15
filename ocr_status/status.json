@@ -1,6 +1,6 @@
 {
- "updated": "15 Nov 2026, 10:18:35 PM IST",
- "updated_epoch": 1794761315,
+ "updated": "15 Nov 2026, 10:47:40 PM IST",
+ "updated_epoch": 1794763060,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -49,7 +49,7 @@
    "host": "Grok box",
    "cores_total": 8,
    "ocr_workers": 8,
-   "load1": 0.53,
+   "load1": 0.22,
    "phase": "all",
    "year": "2025",
    "ac": "done",
@@ -60,67 +60,14 @@
    "prefetch": "",
    "uploading": [],
    "age_s": 0,
-   "updated_epoch": 1794761315
+   "updated_epoch": 1794763060
   },
   {
    "worker": "mac",
-   "host": "192.168.1.17",
+   "host": "MacBook (M5)",
    "cores_total": 10,
-   "ocr_workers": 10,
-   "started": "2026-11-14 01:47:39 IST",
-   "year": "2025",
-   "ac": "",
-   "phase": "all done",
-   "processed": 0,
-   "total": 0,
-   "parts_per_min": 0,
-   "prefetch": "",
-   "uploading": [],
-   "done_session": 97,
-   "parts_session": 26579,
-   "last": [
-    {
-     "ac": "78 - Penamaluru",
-     "year": "2025",
-     "parts": 305,
-     "secs": 1264,
-     "finished": "2026-11-14 22:27:55 IST"
-    },
-    {
-     "ac": "79 - Vijayawada West",
-     "year": "2025",
-     "parts": 253,
-     "secs": 769,
-     "finished": "2026-11-14 22:16:41 IST"
-    },
-    {
-     "ac": "80 - Vijayawada Central",
-     "year": "2025",
-     "parts": 267,
-     "secs": 944,
-     "finished": "2026-11-14 22:07:52 IST"
-    },
-    {
-     "ac": "81 - Vijayawada East",
-     "year": "2025",
-     "parts": 298,
-     "secs": 27841,
-     "finished": "2026-11-14 21:57:52 IST"
-    },
-    {
-     "ac": "82 - Mylavaram",
-     "year": "2025",
-     "parts": 296,
-     "secs": 7981,
-     "finished": "2026-11-14 14:26:07 IST"
-    }
-   ],
-   "load1": 11.7,
-   "cores_busy": 0,
-   "updated": "2026-11-14 22:28:49 IST",
-   "updated_epoch": 1794675529,
-   "fetch": null,
-   "age_s": 85786
+   "phase": "not connected yet",
+   "age_s": null
   }
  ],
  "throughput_ac_per_hr": 0.0,
