@@ -1,6 +1,6 @@
 {
- "updated": "23 Nov 2026, 03:22:40 AM IST",
- "updated_epoch": 1795384360,
+ "updated": "23 Nov 2026, 03:22:43 AM IST",
+ "updated_epoch": 1795384363,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -60,7 +60,7 @@
    "prefetch": "",
    "uploading": [],
    "age_s": 0,
-   "updated_epoch": 1795384360
+   "updated_epoch": 1795384363
   },
   {
    "worker": "mac",
