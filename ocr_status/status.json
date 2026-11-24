@@ -1,6 +1,6 @@
 {
- "updated": "24 Nov 2026, 11:51:29 PM IST",
- "updated_epoch": 1795544489,
+ "updated": "24 Nov 2026, 11:54:28 PM IST",
+ "updated_epoch": 1795544668,
  "total_constituencies": 175,
  "done_constituencies": 175,
  "years": {
@@ -49,7 +49,7 @@
    "host": "Grok box",
    "cores_total": 8,
    "ocr_workers": 8,
-   "load1": 1.16,
+   "load1": 0.29,
    "phase": "all",
    "year": "2025",
    "ac": "done",
@@ -60,7 +60,7 @@
    "prefetch": "",
    "uploading": [],
    "age_s": 0,
-   "updated_epoch": 1795544489
+   "updated_epoch": 1795544668
   },
   {
    "worker": "mac",
